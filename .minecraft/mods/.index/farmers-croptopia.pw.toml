@@ -1,0 +1,13 @@
+filename = 'farmers_croptopia-1.20.1-1.0.0.jar'
+name = "Farmer's Croptopia"
+side = 'both'
+
+[download]
+hash = '63a3bc8dd44f245d9ca6cd75a78e38a9e2011d92'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5866290
+project-id = 1132546

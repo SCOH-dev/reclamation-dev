@@ -1,0 +1,13 @@
+filename = 'Totemic-forge-1.20.1-0.12.14.jar'
+name = 'Totemic'
+side = 'both'
+
+[download]
+hash = '7cfea8172a2ab893609703d9c8e8c998c416edce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5779403
+project-id = 237541
