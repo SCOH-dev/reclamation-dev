@@ -1,0 +1,398 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "the_hunt_for_grass"
+	group: "7B6193632729B9F7"
+	icon: "minecraft:dirt"
+	id: "0F8CD7C8C7FD56E6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["Now that you have dirt, your next step is to turn it into grass, so that you can start bringing a little bit of green into the world."]
+			id: "000A7EAED7A84968"
+			shape: "hexagon"
+			tasks: [{
+				id: "6400B13D05D470E6"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000A7EAED7A84968"]
+			description: [
+				"Even through the lack of nutrients in the soil, some especially-tough tufts of grass have held on. Some even have &6seeds that you can find&r and try to coax to life."
+				""
+				"Some of these seem &6especially magical&r - you wonder if you could use them in any way..."
+			]
+			icon: "minecraft:wheat_seeds"
+			id: "26833208E1F2EB4B"
+			tasks: [
+				{
+					id: "6BAC76770E7D69BA"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "30A181B721A2E83B"
+					item: "enchanted:water_artichoke_seeds"
+					type: "item"
+				}
+				{
+					id: "7EC3BB9D83F2077E"
+					item: "enchanted:wolfsbane_seeds"
+					type: "item"
+				}
+				{
+					id: "51DF19AEC61F5152"
+					item: "enchanted:mandrake_seeds"
+					type: "item"
+				}
+				{
+					id: "4558D5EC885F27FB"
+					item: "enchanted:belladonna_seeds"
+					type: "item"
+				}
+				{
+					id: "6024DBFE2B6CB05A"
+					item: "enchanted:snowbell_seeds"
+					type: "item"
+				}
+			]
+			title: "Seeds"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26833208E1F2EB4B"]
+			description: [
+				"Unless you get lucky and find an ingot or two among the husks, you'll need some way to make iron ingots. "
+				""
+				"Luckily, one of those plants you found has a rudimentary circulatory system, which has enough thematic overlap with actual hemoglobin that you can use it to precipitate hemoglobic fluid..."
+				""
+				"Basically, you found a &6plant that grows blood&r and you're gonna &6make iron out of it&r by putting it into a &6Sal Ammoniac Accumulator above a Fluid Tank.&r"
+			]
+			icon: "enchanted:mandrake_root"
+			id: "4CE0C02B0602C06E"
+			tasks: [
+				{
+					id: "29B3B083036DFA50"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "58509C1E096E95BE"
+					item: "enchanted:mandrake_root"
+					type: "item"
+				}
+				{
+					id: "35E38E2EAA6D8F67"
+					item: "kubejs:hemoglobic_fluid_bucket"
+					type: "item"
+				}
+			]
+			title: "Hemoglobic Fluid"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CE0C02B0602C06E"]
+			description: [
+				"Now that you have your hemoglobic fluid, you can &6use it as a solvent in your Liquefaction Cauldron to liquify copper&r - the iron in the fluid will transform the copper sulfur into &6Iron Alchemical Sulfur.&r"
+				""
+				"You'll also need some &6Mineral Alchemical Salt&r - you can get this by &6calcifying charcoal,&r or re-calcifying &6a large amount of Strata salt.&r"
+			]
+			icon: "theurgy:alchemical_salt_mineral"
+			id: "5C476B553750BDE9"
+			tasks: [
+				{
+					id: "319E2AD5AE5FB91E"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_iron"
+						tag: {
+							"theurgy:sulfur.source.id": "#forge:ingots/iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39F664FF446109A8"
+					item: "theurgy:alchemical_salt_mineral"
+					type: "item"
+				}
+			]
+			title: "Salt and Sulfur"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C476B553750BDE9"]
+			description: ["You're almost there! Just throw the &6Iron Alchemical Sulfur, Mineral Alchemical Salt, &rand&6 Alchemical Mercury&r into the &6Incubator, &rand you'll have iron!"]
+			id: "389C82D9424B4099"
+			tasks: [{
+				id: "157FA2840C9FC358"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26833208E1F2EB4B"]
+			description: ["You can mash up the magical plants you've found into something you're calling &6Anointing Paste.&r You're pretty sure you can apply it to something, but what? "]
+			id: "66B8F071AD7CA037"
+			tasks: [{
+				id: "457C34C4B697A0C1"
+				item: "enchanted:anointing_paste"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"66B8F071AD7CA037"
+				"389C82D9424B4099"
+			]
+			description: ["Now that you have a bit of iron, you can make a cauldron and &6anoint&r it to make a &6Witch's Cauldron&r - a magically-insulated vessel for brewing all sorts of witchy goodness."]
+			icon: "enchanted:witch_cauldron"
+			id: "6CB296A3AD751F62"
+			tasks: [
+				{
+					id: "09C7309D2ADC01FA"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					advancement: "reclamation:anoint_cauldron"
+					criterion: ""
+					icon: "enchanted:witch_cauldron"
+					id: "211987FC91B8F5B7"
+					title: "Anoint a Cauldron"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6CB296A3AD751F62"]
+			description: ["With a little bit of magic (and a reinforced cauldron for witchy things), you can make a &6potent mutagen&r - potent enough to mutate those &6dead bushes&r you've been seeing around into &6actual saplings!&r"]
+			icon: "minecraft:oak_sapling"
+			id: "4075C13786AF4C49"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Minor necromancy"
+			tasks: [
+				{
+					id: "4A8D67BF286766BE"
+					item: "enchanted:mutandis"
+					type: "item"
+				}
+				{
+					id: "5A0C6FCFF4C6174E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "enchanted:hawthorn_sapling"
+								}
+								{
+									Count: 1b
+									id: "enchanted:rowan_sapling"
+								}
+								{
+									Count: 1b
+									id: "enchanted:alder_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:cherry_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:dark_oak_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:acacia_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:jungle_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:birch_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:spruce_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:oak_sapling"
+								}
+							]
+						}
+					}
+					title: "Any Sapling"
+					type: "item"
+				}
+			]
+			title: "Saplings!"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["26833208E1F2EB4B"]
+			description: [
+				"The seeds you've been finding have uniquely adapted themselves to their harsh environment. As a consequence, however, they've become &4much less productive, focusing entirely on survival.&r"
+				""
+				"You can try to selectively breed your meager collection of seeds together to make them &6grow faster&r and &6produce more,&r or even try &6cross-breeding them&r to start bringing back extinct species of plant..."
+				""
+				"To start, plant any seeds you have onto specially-prepared &6Crop Sticks.&r"
+			]
+			icon: "agricraft:wooden_crop_sticks"
+			id: "2E15C8681F5D2ACF"
+			rewards: [{
+				id: "7596CA51E4F2FEDE"
+				item: "agricraft:magnifying_glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45CF2796053F5B4A"
+				item: "agricraft:wooden_crop_sticks"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0207C1DDD4332158"]
+			description: [
+				"Plants in Agricraft are diploid organisms - essentially, every plant has two sets of attributes: active and inactive (or dominant and recessive). &6The active trait is the one that actually affects the plant,&r but the inactive trait comes into play when breeding plants together. "
+				""
+				"When a crossbreed occurs, each plant &6adjacent&r to the crossbreed crop sticks has a &6chance&r depending on its &6fertility&r to count as a parent. If there's only one parent selected, the resulting plant is a clone. If more than one parent is selected, each has a chance to pass on one half of its genes to the resulting plant."
+				""
+				"For example, if you bred a plant with gain of 3-2 with a plant who's gain is 4-2, it would result in a plant with a gain stat of either 4-3, 4-2, 3-2, or 2-2. "
+				""
+				"To figure out what the possibilities are for two parent plants, you can use a punnett square:"
+				""
+				"{image:reclamation:textures/quests/punnett.png width:150 height:150 align:center}"
+				""
+				"Each square has an equal chance of getting chosen - additionally, there is a small chance for a mutation to occur; whether this mutation is beneficial or not depends on each parent's &6mutativity stat.&r"
+			]
+			icon: "agricraft:journal"
+			id: "1792BA6A0845320F"
+			min_width: 400
+			rewards: [{
+				count: 16
+				id: "389560DD3A18D3FA"
+				item: "agricraft:wooden_crop_sticks"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "267E045714E32142"
+				title: "What the heck are these numbers?"
+				type: "checkmark"
+			}]
+			title: "How do I get better stats?"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: [
+				"Each plant has five stats, when planted on crop sticks. You can see these stats by crouching and looking at the plant, or using a magnifying glass. The stats affect a variety of things:"
+				""
+				"&6Fertility&r is how likely a plant is to get chosen as a parent for cross-breeding."
+				""
+				"&6Gain&r increases how much a plant will produce when harvested."
+				""
+				"&6Growth&r affects the speed a plant grows at."
+				""
+				"&6Mutativity&r raises the chance for a mutation (when it occurs) to be beneficial."
+				""
+				"&6Strength&r broadens the possible growing conditions for a plant."
+			]
+			icon: "agricraft:magnifying_glass"
+			id: "0207C1DDD4332158"
+			rewards: [{
+				id: "2EE19285430021A1"
+				item: "agricraft:journal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "What do they mean?"
+			tasks: [{
+				id: "61CD34EB22BD2BC3"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "The numbers, Mason!"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1792BA6A0845320F"]
+			description: [
+				"That was A LOT of info - what it boils down to is higher numbers = better, breed higher statted plants together to get better plants, use bonemeal on cross sticks to speed up the crossbreeding process."
+				""
+				"Tip: getting your first beneficial mutation &4will be slow,&r but you can speed it up by &6planting crops in a plus shape,&r with the cross sticks in the middle! This means each potential crossbreed has &6four&r chances to pick parents, instead of &4just two.&r "
+			]
+			icon: "supplementaries:sign_post_oak"
+			id: "3658F22BABF3B4B2"
+			rewards: [{
+				count: 16
+				id: "341645503038FDE0"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "English, poindexter?"
+			tasks: [{
+				id: "6BBBB559D847AA81"
+				title: "WAY too complicated"
+				type: "checkmark"
+			}]
+			title: "That was a lot..."
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: [
+				"Now that you have a way to grow and breed plants, you should get started on broadening your base of food. Either &6breed the plants you have&r into the two other staple crops from the old world, or &6find them on the mutated inhabitants&r of the new."
+				""
+				"&7Tip: to look up mutations, look up the recipe for the seed of the plant in EMI.&r"
+			]
+			id: "658C67ABFD247487"
+			tasks: [
+				{
+					id: "5E222672F78F50DA"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "5452DD78B695D9D1"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			title: "Edible Plants"
+			x: -4.0d
+			y: -2.0d
+		}
+	]
+	title: "A Glimpse of Normal"
+}
