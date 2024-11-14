@@ -8,7 +8,7 @@
     {
       "chance": 0.95,
       "item": "croptopia:lettuce",
-      "max": 3,
+      "max": 1,
       "min": 1,
       "required": true
     }
@@ -18,7 +18,8 @@
     "max_light": 16,
     "min_light": 10,
     "seasons": [
-      "spring"
+      "summer",
+      "autumn"
     ],
     "soil_acidity": {
       "type": "equal",
@@ -38,22 +39,22 @@
   },
   "seeds": [
     {
-      "grass_drop_chance": 0.0,
       "item": "croptopia:lettuce_seed",
-      "override_planting": true,
-      "seed_drop_bonus": 0.0,
-      "seed_drop_chance": 1.0
+      "override_planting": false,
+      "grass_drop_chance": 0.0,
+      "seed_drop_chance": 1.0,
+      "seed_drop_bonus": 0.0
     }
   ],
   "spread_chance": 0.1,
   "stages": [
     2,
+    3,
     4,
-    6,
+    5,
     8,
     10,
     12,
-    14,
     16
   ]
 }

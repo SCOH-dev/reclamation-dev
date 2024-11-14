@@ -1,6 +1,246 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:agricraft:wooden_crop_sticks",
+    {
+      "type": "jemi",
+      "uid": "croptopia:lettuce"
+    },
+    {
+      "type": "item",
+      "id": "croptopia:artichoke_seed",
+      "amount": 26
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:blueberry"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:broccoli"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:cabbage"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:cantaloupe"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:cauliflower"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:chile_pepper"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:coffee_beans"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:corn"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:cranberry"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:cucumber"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:currant"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:eggplant"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:elderberry"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:artichoke"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:garlic"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:ginger"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:asparagus"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:barley"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:grape"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:greenbean"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:basil"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:bellpepper"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:greenonion"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:honeydew"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:blackbean"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:blackberry"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:hops"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:strawberry"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:squash"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:spinach"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:soybean"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:saguaro"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:rutabaga"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:rice"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:rhubarb"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:raspberry"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:radish"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:pineapple"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:pepper"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:peanut"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:onion"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:olive"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:oat"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:mustard"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:leek"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:tea_leaves"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:tomatillo"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:kiwi"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:kale"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:sweetpotato"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:tomato"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:turmeric"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:turnip"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:vanilla"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:yam"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:zucchini"
+    },
+    {
+      "type": "jemi",
+      "uid": "croptopia:celery"
+    },
+    "item:croptopia:coffee_beans",
+    "item:croptopia:paprika",
     "item:farmersdelight:flint_knife{Damage:0}",
     "#item:farmersdelight:straw_plants",
     "item:farmersdelight:straw",
@@ -15,27 +255,7 @@
     },
     "item:agricraft:clipper",
     "item:enchanted:ember_moss",
-    "item:farmersrespite:rose_hips",
     "item:minecraft:rose_bush",
-    "item:farmersrespite:coffee_beans",
-    "item:farmersrespite:tea_curry",
-    "item:farmersrespite:black_cod",
-    "item:farmersrespite:nether_wart_sourdough",
-    "item:farmersrespite:green_tea_leaves",
-    "item:farmersrespite:green_tea",
-    {
-      "type": "fluid",
-      "id": "farmersrespite:purulent_tea",
-      "amount": 1000
-    },
-    {
-      "type": "fluid",
-      "id": "farmersrespite:strong_purulent_tea",
-      "amount": 250
-    },
-    "item:farmersrespite:strong_purulent_tea",
-    "item:farmersrespite:tea_seeds",
-    "item:farmersrespite:black_tea_leaves",
     "item:delightful:cooked_goat",
     "item:delightful:cantaloupe_gummy",
     "item:delightful:mini_melon",
@@ -173,7 +393,6 @@
       "amount": 4
     },
     "item:minecraft:iron_ingot",
-    "item:farmersrespite:strong_rose_hip_tea",
     {
       "type": "fluid",
       "id": "delightful:azalea_tea",
