@@ -1,6 +1,12 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:brown_mushroom\",rec:\"minecraft:brown_mushroom\"},strength:{dom:1,rec:1}}}",
+    "item:minecraft:brown_mushroom",
+    "item:minecraft:pumpkin",
+    "item:minecraft:melon_slice",
+    "item:minecraft:ink_sac",
+    "item:minecraft:writable_book",
     "#item:forge:seeds",
     "item:agricraft:journal",
     "item:mysticalagriculture:supremium_farmland",
@@ -51,7 +57,6 @@
     "item:farmersdelight:chicken_soup",
     "item:farmersdelight:beef_stew",
     "item:farmersdelight:bone_broth",
-    "item:minecraft:pumpkin",
     "item:farmersdelight:fruit_salad",
     "item:farmersdelight:pumpkin_slice",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:crimson_fungus\",rec:\"minecraft:crimson_fungus\"},strength:{dom:1,rec:1}}}",
@@ -395,7 +400,6 @@
     "item:mysticalagriculture:fire_essence",
     "item:mysticalagriculture:copper_essence",
     "item:quark:oak_leaf_carpet",
-    "item:minecraft:writable_book",
     "item:agricraft:seed{genes:{fertility:{dom:2,rec:1},gain:{dom:2,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:wheat\",rec:\"minecraft:wheat\"},strength:{dom:1,rec:1}}}",
     "item:croptopia:barley_seed",
     {

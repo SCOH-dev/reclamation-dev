@@ -31,7 +31,7 @@
       "value": "wet"
     },
     "soil_nutrients": {
-      "type": "equal",
+      "type": "equal_or_higher",
       "tolerance_factor": 0.1,
       "value": "high"
     }

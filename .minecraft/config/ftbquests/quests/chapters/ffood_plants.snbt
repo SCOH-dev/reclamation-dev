@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ffood_plants"
+	group: "2BFAC9C95DAED88B"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "farmersdelight:vegetable_soup"
+	id: "50D63635ACA38A6D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6BE467B7626E5085"
+				"1B02944C57BF74FB"
+			]
+			hide_until_deps_complete: true
+			id: "32195AB6E6F75FF1"
+			tasks: [{
+				id: "0BE83A27534A9CAF"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"1B02944C57BF74FB"
+			]
+			hide_until_deps_complete: true
+			id: "36EF6C1E1C861A4A"
+			tasks: [{
+				id: "474FA99911610CC3"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"63353784E3C39D83"
+				"1281E40889F822FE"
+			]
+			hide_until_deps_complete: true
+			id: "08415BCE11C57437"
+			tasks: [{
+				id: "3E0563C1BF0FB284"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"1281E40889F822FE"
+			]
+			hide_until_deps_complete: true
+			id: "303D96CD71A877FA"
+			tasks: [{
+				id: "3D5788DD6CEE57CF"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"303D96CD71A877FA"
+				"36EF6C1E1C861A4A"
+			]
+			id: "269466269FFFC1BC"
+			tasks: [{
+				id: "2DEB960CC4FA0F6B"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"32195AB6E6F75FF1"
+				"36EF6C1E1C861A4A"
+			]
+			id: "1AD960F38D986F1A"
+			tasks: [{
+				id: "14647E43D0C398DC"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1AD960F38D986F1A"
+				"08415BCE11C57437"
+			]
+			id: "1DA6A370C87C0775"
+			tasks: [{
+				id: "5718908A397ED9B2"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			hide_until_deps_complete: true
+			id: "33BAEE563814DCDB"
+			tasks: [{
+				id: "1626C66C1D2AF663"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			hide_until_deps_complete: true
+			id: "63353784E3C39D83"
+			tasks: [{
+				id: "0017369D021A57BA"
+				item: "enchanted:mandrake_root"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			hide_until_deps_complete: true
+			id: "1281E40889F822FE"
+			tasks: [{
+				id: "08ED9FCE9C9E0988"
+				item: "enchanted:wolfsbane_flower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			hide_until_deps_complete: true
+			id: "1B02944C57BF74FB"
+			tasks: [{
+				id: "6E9D57F34DFBA187"
+				item: "enchanted:icy_needle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			hide_until_deps_complete: true
+			id: "6BE467B7626E5085"
+			tasks: [{
+				id: "6E7B2A4228C9079C"
+				item: "enchanted:water_artichoke"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"63353784E3C39D83"
+				"303D96CD71A877FA"
+			]
+			id: "15CFF693EFE382C7"
+			tasks: [{
+				id: "209C1678B96BF007"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"63353784E3C39D83"
+				"36EF6C1E1C861A4A"
+			]
+			id: "3F94D588E94A0F3C"
+			tasks: [{
+				id: "02A4B67966399B9B"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6BE467B7626E5085"
+				"32195AB6E6F75FF1"
+			]
+			id: "1CE48B2F73EDB8FC"
+			tasks: [{
+				id: "1A4C1D1B6BECE9D7"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6BE467B7626E5085"
+				"1CE48B2F73EDB8FC"
+			]
+			id: "3E746C60CE874EC2"
+			tasks: [{
+				id: "63227A8101809052"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"1CE48B2F73EDB8FC"
+			]
+			id: "52641FDAD803360E"
+			tasks: [{
+				id: "1332B5429430DC3C"
+				item: "minecraft:seagrass"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3E746C60CE874EC2"
+				"52641FDAD803360E"
+			]
+			id: "5867D599B1DA6E6F"
+			tasks: [{
+				id: "627607BF4CBB9958"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+	]
+	title: "Plants Galore"
+}
