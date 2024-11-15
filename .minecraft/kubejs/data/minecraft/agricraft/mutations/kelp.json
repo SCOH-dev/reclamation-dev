@@ -1,6 +1,6 @@
 {
   "chance": 0.5,
   "child": "minecraft:kelp",
-  "parent1": "minecraft:seagrass",
+  "parent1": "enchanted:water_artichoke",
   "parent2": "minecraft:bamboo"
 }

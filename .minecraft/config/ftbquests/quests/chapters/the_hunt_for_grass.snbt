@@ -3,15 +3,18 @@
 	default_min_width: 280
 	default_quest_shape: ""
 	filename: "the_hunt_for_grass"
-	group: "7B6193632729B9F7"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:dirt"
 	id: "0F8CD7C8C7FD56E6"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["448ABF53EEACBFA7"]
 			description: ["Now that you have dirt, your next step is to turn it into grass, so that you can start bringing a little bit of green into the world."]
+			hide_until_deps_complete: true
 			id: "000A7EAED7A84968"
 			shape: "hexagon"
 			tasks: [{
@@ -321,9 +324,9 @@
 				""
 				"&6Growth&r affects the speed a plant grows at."
 				""
-				"&6Mutativity&r raises the chance for a mutation (when it occurs) to be beneficial."
+				"&6Mutativity&r raises the chance for a cross-breed (when it occurs) to be beneficial."
 				""
-				"&6Strength&r broadens the possible growing conditions for a plant."
+				"&6Strength&r broadens the possible growing conditions for a plant - for example, cactus can always grow on sand, but with a strength of 10, it can grow on normal farmland!"
 			]
 			icon: "agricraft:magnifying_glass"
 			id: "0207C1DDD4332158"

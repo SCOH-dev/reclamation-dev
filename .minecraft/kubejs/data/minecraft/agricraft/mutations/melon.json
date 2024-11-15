@@ -2,5 +2,5 @@
   "chance": 0.25,
   "child": "minecraft:melon",
   "parent1": "minecraft:sugar_cane",
-  "parent2": "minecraft:pumpkin"
+  "parent2": "minecraft:carrot"
 }

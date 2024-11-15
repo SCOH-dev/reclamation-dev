@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "how_the_world_came_to_be"
 	group: ""
+	hide_quest_details_until_startable: true
 	icon: "kubejs:dried_earth"
 	id: "2B630DD43CEBA9AC"
 	order_index: 0
@@ -371,7 +372,7 @@
 			description: [
 				"Worldgen has been completely overhauled - &4no ore generates,&r and the only biomes that exist are dead, wasteland biomes with no real vegetation. Additionally, the only trees that spawn are dead trees, with very little useability."
 				""
-				"Stone variants still generate, and you can find &6sand and clay underwater.&r"
+				"Stone variants still generate, and you can find &6sand and clay underwater.&r It will also still rain!"
 			]
 			icon: "supplementaries:globe"
 			id: "40200E30710D409D"
