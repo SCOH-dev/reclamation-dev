@@ -115,6 +115,7 @@
     ],
     [
       "minecraft:patch_grass_badlands",
+      "reclamation:bonemeal_flowers",
       "reclamation:patch_dead_bush_sparse",
       "reclamation:dead_tree_sparse"
     ],
