@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_color_green"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "40E17D40DC433CF2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["600A7F0DFD880119"]
+		description: ["You've done it! You finally have grass. It's not exactly green, but you can fertilize it and get flowers!"]
+		disable_toast: true
+		hide_until_deps_complete: true
+		icon: "minecraft:grass_block"
+		id: "226F9F21A941389C"
+		shape: "hexagon"
+		tasks: [{
+			id: "65DF7FECE306BB89"
+			item: "botania:grass_seeds"
+			type: "item"
+		}]
+		title: "Grass!"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Color Green"
+}

@@ -1,6 +1,6 @@
 {
   "chance": 0.25,
   "child": "agricraft:cuprosia",
-  "parent1": "agricraft:ferranium",
+  "parent1": "minecraft:wheat",
   "parent2": "minecraft:carrot"
 }

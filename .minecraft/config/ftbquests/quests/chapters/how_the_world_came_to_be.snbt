@@ -96,6 +96,8 @@
 				"After you &6scrape off the rust with an axe,&r you think you can use a &6cutting board&r to get useable copper out of the oxidized copper you find in ruins."
 				""
 				"This useable copper will be crucial for &6Spagyrics&r, the process of decomposing and recombining matter - which should let you &6rejuvenate the Dried Earth&r into &6Dirt.&r"
+				""
+				"&7Tip: you can also use the cutting board to get more wood out of dead logs!"
 			]
 			icon: "minecraft:copper_ingot"
 			id: "6B5B443D2F7DD3D4"

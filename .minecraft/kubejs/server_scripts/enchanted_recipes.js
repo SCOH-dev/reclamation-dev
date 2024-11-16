@@ -38,4 +38,38 @@ ServerEvents.recipes(event => {
             "item": "enchanted:mutandis"
         }
     })
+
+    //cauldron some brilliant fiber
+    event.custom({
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            62,
+            128,
+            78
+        ],
+        "ingredients": [
+            {
+                "item": "enchanted:odour_of_purity"
+            },
+            {
+                "item": "minecraft:string"
+            },
+            {
+                "item": "enchanted:wolfsbane_flower"
+            },
+            {
+                "item": "enchanted:whiff_of_magic"
+            }
+        ],
+        "power": 0,
+        "result": {
+            "count": 2,
+            "item": "naturesaura:gold_fiber"
+        }
+    })
 })

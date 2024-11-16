@@ -165,6 +165,17 @@
 			description: ["Now that you have a bit of iron, you can make a cauldron and &6anoint&r it to make a &6Witch's Cauldron&r - a magically-insulated vessel for brewing all sorts of witchy goodness."]
 			icon: "enchanted:witch_cauldron"
 			id: "6CB296A3AD751F62"
+			rewards: [{
+				id: "303213A80F06DA80"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "enchanted:brewing"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "09C7309D2ADC01FA"
@@ -330,11 +341,18 @@
 			]
 			icon: "agricraft:magnifying_glass"
 			id: "0207C1DDD4332158"
-			rewards: [{
-				id: "2EE19285430021A1"
-				item: "agricraft:journal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2EE19285430021A1"
+					item: "agricraft:journal"
+					type: "item"
+				}
+				{
+					id: "5E2D259FB79B5B43"
+					item: "agricraft:seed_analyzer"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "What do they mean?"
 			tasks: [{
@@ -349,7 +367,9 @@
 		{
 			dependencies: ["1792BA6A0845320F"]
 			description: [
-				"That was A LOT of info - what it boils down to is higher numbers = better, breed higher statted plants together to get better plants, use bonemeal on cross sticks to speed up the crossbreeding process."
+				"That was A LOT of info - what it boils down to is higher numbers = better, breed higher statted plants together to get better plants, use bonemeal on cross sticks to speed up the crossbreeding process. "
+				""
+				"If your plant is not growing, look at it while crouching - it might need a different type of soil."
 				""
 				"Tip: getting your first beneficial mutation &4will be slow,&r but you can speed it up by &6planting crops in a plus shape,&r with the cross sticks in the middle! This means each potential crossbreed has &6four&r chances to pick parents, instead of &4just two.&r "
 			]
@@ -395,6 +415,118 @@
 			title: "Edible Plants"
 			x: -4.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["658C67ABFD247487"]
+			description: [
+				"At some point, you're going to run out of ruins. Thankfully, there is a special kind of flower called the &6Cuprosia &ryou can breed that can harvest &6trace amounts of copper from the water.&r"
+				""
+				"&7Note: the flower will only survive in a waterlogged crop. If you successfully crossbreed the Cuprosia but the crop stick it's on is not waterlogged, &4it will wither away into nothing. &r"
+			]
+			id: "4F0C473B765AA1F8"
+			tasks: [{
+				id: "7A5B23DB3C4AA80E"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			title: "Growing copper?"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6831CB6AC2CE40C6"]
+			description: [
+				"Now you have to find a way to turn the nascent life energy within the tree into some form of grass. There was a ritual you remember that was able to condense said energy into a special seed..."
+				""
+				"Witchcraft can help you here - brew up some &6brilliant fiber,&r apply it to some tree leaves, and once you have enough, break the leaves! The &6gilded leaves&r you'll get will be able to crush into a &6fine gold dust,&r perfect for this ritual."
+			]
+			icon: "naturesaura:gold_leaf"
+			id: "592DBF115E1FBAE9"
+			rewards: [{
+				id: "57B1382104012AD6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "177D89055F200F6D"
+					item: "naturesaura:gold_fiber"
+					type: "item"
+				}
+				{
+					id: "5AAF6676D00217C1"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+				{
+					id: "58CB022FD38828DD"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+			]
+			title: "Gold Leaf"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["592DBF115E1FBAE9"]
+			description: [
+				"Now that you have a way to conduct the ritual, you can create a &6Pasture Seed,&r which will let you finally &6bring back grass to the world!&r"
+				""
+				"&7To find out how to actually do the ritual, check how to do a Ritual of the Forest in your Book of Natural Aura."
+			]
+			icon: "naturesaura:gold_powder"
+			id: "778E09C4AE548E95"
+			tasks: [
+				{
+					count: 4L
+					id: "186D36A3950FBBA4"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3128AEF2BE4E0F8E"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+			]
+			title: "Ritual of the Forest"
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4075C13786AF4C49"]
+			description: ["The &6Witch's Oven&r can be used to distill saplings into &6special magic fumes,&r which are especially potent in a variety of magical rites."]
+			id: "6831CB6AC2CE40C6"
+			tasks: [{
+				id: "43042BD1A143213D"
+				item: "enchanted:witch_oven"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["778E09C4AE548E95"]
+			icon: "minecraft:grass_block"
+			id: "600A7F0DFD880119"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5CFCBE5FDA4483B2"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			title: "Grass!"
+			x: -6.0d
+			y: -9.5d
 		}
 	]
 	title: "A Glimpse of Normal"
