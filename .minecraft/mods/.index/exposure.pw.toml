@@ -1,0 +1,13 @@
+filename = 'exposure-1.20.1-1.7.7-forge.jar'
+name = 'Exposure'
+side = 'both'
+
+[download]
+hash = 'eda99c8659c675f2b3a9362129a061c4c11f7b2f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5751145
+project-id = 871755

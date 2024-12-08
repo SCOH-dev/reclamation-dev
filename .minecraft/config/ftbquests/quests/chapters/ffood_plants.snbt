@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 280
 	default_quest_shape: ""
 	filename: "ffood_plants"
 	group: "2BFAC9C95DAED88B"

@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 280
 	default_quest_shape: ""
 	filename: "mob_safari"
 	group: "2BFAC9C95DAED88B"
@@ -26,7 +27,7 @@
 				type: "item"
 			}]
 			title: "Creeper"
-			x: 0.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -35,6 +36,7 @@
 				""
 				"To do so, you're going to need &6a camera, &rsome &6film&r to print onto, and some way to turn that &6film into photos.&r"
 			]
+			icon: "exposure:camera"
 			id: "5FEE65C669654E40"
 			tasks: [
 				{
@@ -53,8 +55,602 @@
 					type: "item"
 				}
 			]
+			title: "Camera"
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			icon: "minecraft:zombie_head"
+			id: "1E8E404A5B898ED5"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "5F527BFC85D0DBB2"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:zombie": 1b
+						}
+					}
+				}
+				title: "Zombie Photo"
+				type: "item"
+			}]
+			title: "Zombie"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "10954A7AC2F064EB"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "60DD49D64BFE4EC9"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:zombie": 1b
+						}
+					}
+				}
+				title: "Photo"
+				type: "item"
+			}]
+			title: "PLACEHOLDER"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			icon: "heads:husk_head"
+			id: "7E23259C854E6B53"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "4C3DB9989977E157"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:husk": 1b
+						}
+					}
+				}
+				title: "Husk Photo"
+				type: "item"
+			}]
+			title: "Husk"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: "heads:drowned_head"
+			id: "03A7E34F277C3E99"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "2162D92514F6E9EB"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:drowned": 1b
+						}
+					}
+				}
+				title: "Drowned Photo"
+				type: "item"
+			}]
+			title: "Drowned"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: "heads:spider_head"
+			id: "779FA19A3239A378"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0C244F68E03720C7"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:spider": 1b
+						}
+					}
+				}
+				title: "Spider Photo"
+				type: "item"
+			}]
+			title: "Spider"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon: "heads:cave_spider_head"
+			id: "32E71A804BD0B705"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "6CA4403B044EFB85"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:cave_spider": 1b
+						}
+					}
+				}
+				title: "Cave Spider Photo"
+				type: "item"
+			}]
+			title: "Cave Spider"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: "heads:enderman_head"
+			id: "32805191DFE77A0B"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "449C78D38D17D509"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:enderman": 1b
+						}
+					}
+				}
+				title: "Enderman Photo"
+				type: "item"
+			}]
+			title: "Enderman"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: "heads:endermite_head"
+			id: "64032D23DECB2605"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "41B02DE49843530F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:endermite": 1b
+						}
+					}
+				}
+				title: "Endermite Photo"
+				type: "item"
+			}]
+			title: "Endermite"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			icon: "heads:silverfish_head"
+			id: "702C9B9584FAC44B"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "6685AB48AF424D80"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:silverfish": 1b
+						}
+					}
+				}
+				title: "Silverfish Photo"
+				type: "item"
+			}]
+			title: "Silverfish"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			icon: "heads:evoker_head"
+			id: "4ABAF8F1D6D1C7CA"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "07C5EA9444F80506"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:evoker": 1b
+						}
+					}
+				}
+				title: "Evoker Photo"
+				type: "item"
+			}]
+			title: "Evoker"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			icon: "heads:ghast_head"
+			id: "61EDF16012C8383B"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "53F8CE65102033E2"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:ghast": 1b
+						}
+					}
+				}
+				title: "Ghast Photo"
+				type: "item"
+			}]
+			title: "Ghast"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:guardian_spawn_egg"
+			id: "6C993C0581C3E53C"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7820109C6855DBFC"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:guardian": 1b
+						}
+					}
+				}
+				title: "Guardian Photo"
+				type: "item"
+			}]
+			title: "Guardian"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon: "heads:hoglin_head"
+			id: "0E1371CB614ECA67"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7E6922AD32B7A8C5"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:hoglin": 1b
+						}
+					}
+				}
+				title: "Hoglin Photo"
+				type: "item"
+			}]
+			title: "Hoglin"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:phantom_spawn_egg"
+			id: "1B838E76CB6E8813"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "672F64B56C9B8717"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:phantom": 1b
+						}
+					}
+				}
+				title: "Phantom Photo"
+				type: "item"
+			}]
+			title: "Phantom"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: "heads:piglin_brute_head"
+			id: "054B1BAE47E9827D"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "22A89A63AEC9CB95"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:piglin_brute": 1b
+						}
+					}
+				}
+				title: "Piglin Brute Photo"
+				type: "item"
+			}]
+			title: "Piglin Brute"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: "heads:pillager_head"
+			id: "7B689257A882A7B2"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0C283E7BA176188F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:pillager": 1b
+						}
+					}
+				}
+				title: "Pillager Photo"
+				type: "item"
+			}]
+			title: "Pillager"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:ravager_spawn_egg"
+			id: "13065DEC26C02737"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7FECA87DEB72E3A6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:ravager": 1b
+						}
+					}
+				}
+				title: "Ravager Photo"
+				type: "item"
+			}]
+			title: "Ravager"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			icon: "sophisticatedstorage:shulker_box"
+			id: "3642889B8CF6CA79"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "575B7F10C8C52BCD"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:shulker": 1b
+						}
+					}
+				}
+				title: "Shulker Photo"
+				type: "item"
+			}]
+			title: "Shulker"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			id: "357FC24C8410EFEC"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "52B144DA9288B3F2"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:skeleton": 1b
+						}
+					}
+				}
+				title: "Skeleton Photo"
+				type: "item"
+			}]
+			title: "Skeleton"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "heads:slime_head"
+			id: "25D1C2664FD1180E"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "285C22F4E11C4DE5"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:slime": 1b
+						}
+					}
+				}
+				title: "Slime Photo"
+				type: "item"
+			}]
+			title: "Slime"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: "heads:stray_head"
+			id: "78041B5DC298A02A"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "1B90C7B91DDBB1AC"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:stray": 1b
+						}
+					}
+				}
+				title: "Stray Photo"
+				type: "item"
+			}]
+			title: "Stray"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:vex_spawn_egg"
+			id: "3EA5F9BCAF5464C7"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "70C9B82C5B8B27E7"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:vex": 1b
+						}
+					}
+				}
+				title: "Vex Photo"
+				type: "item"
+			}]
+			title: "Vex"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			icon: "heads:vindicator_head"
+			id: "77C07B16F8E30C78"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "25BE333CD96382FD"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:vindicator": 1b
+						}
+					}
+				}
+				title: "Vindicator Photo"
+				type: "item"
+			}]
+			title: "Vindicator"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			icon: "minecraft:warden_spawn_egg"
+			id: "0694D62C45F6C430"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "2DCB1846BB7FBDA6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:warden": 1b
+						}
+					}
+				}
+				title: "Warden Photo"
+				type: "item"
+			}]
+			title: "Warden"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			icon: "heads:witch_head"
+			id: "5C410251B4C4761F"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "1973AEC55ACF707C"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:witch": 1b
+						}
+					}
+				}
+				title: "Witch Photo"
+				type: "item"
+			}]
+			title: "Witch"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3E3DE65526844EB7"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "05FD08338B1EE7C6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:wither_skeleton": 1b
+						}
+					}
+				}
+				title: "Wither Skeleton Photo"
+				type: "item"
+			}]
+			title: "Wither Skeleton"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "heads:zoglin_head"
+			id: "20F56F091F24EA9B"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "372E37CD4D5DE894"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:zoglin": 1b
+						}
+					}
+				}
+				title: "Zoglin Photo"
+				type: "item"
+			}]
+			title: "Zoglin"
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 	title: "Mob Safari"

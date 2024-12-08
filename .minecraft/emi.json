@@ -1,6 +1,13 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:nether_gold_ore",
+    "item:naturesaura:gold_fiber",
+    "item:enchanted:altar",
+    "item:embers:mechanical_core",
+    "item:embers:ember_bore",
+    "item:minecraft:cracked_deepslate_tiles",
+    "item:botania:grass_seeds",
     "item:minecraft:red_stained_glass",
     "item:minecraft:redstone_torch",
     "item:minecraft:lantern",
@@ -18,8 +25,6 @@
       "remainder": "item:embers:tinker_hammer"
     },
     "item:embers:lead_plate",
-    "item:embers:mechanical_core",
-    "item:embers:ember_bore",
     "item:enchanted:ember_moss",
     "item:enchanted:spanish_moss",
     "item:naturesaura:wood_stand",
@@ -37,7 +42,6 @@
     "item:enchanted:distillery",
     "item:enchanted:foul_fume",
     "item:enchanted:witch_oven",
-    "item:naturesaura:gold_fiber",
     "item:projecte:alchemical_chest",
     "#item:forge:chests",
     "item:create:fluid_tank",
@@ -69,7 +73,6 @@
       "amount": 4
     },
     "item:agricraft:seed{genes:{fertility:{dom:10,rec:10},gain:{dom:10,rec:10},growth:{dom:10,rec:10},mutativity:{dom:10,rec:10},resistance:{dom:10,rec:10},species:{dom:\"minecraft:wheat\",rec:\"minecraft:wheat\"},strength:{dom:9,rec:9}}}",
-    "item:enchanted:altar",
     "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:circle_magic\"}",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"agricraft:ferranium\",rec:\"agricraft:ferranium\"},strength:{dom:1,rec:1}}}",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"agricraft:aurigold\",rec:\"agricraft:aurigold\"},strength:{dom:1,rec:1}}}",
@@ -84,7 +87,6 @@
     },
     "item:theurgy:alchemical_sulfur_iron{\"theurgy:sulfur.source.id\":\"#forge:ingots/iron\"}",
     "item:minecraft:iron_ingot",
-    "item:botania:grass_seeds",
     {
       "type": "item",
       "id": "minecraft:dirt",

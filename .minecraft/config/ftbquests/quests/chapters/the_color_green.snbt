@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 280
 	default_quest_shape: ""
 	filename: "the_color_green"
 	group: ""
@@ -26,7 +27,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
 			description: ["Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an Altar should do well here."]
 			id: "359392265BF91571"
 			tasks: [{
@@ -36,7 +36,7 @@
 				type: "item"
 			}]
 			title: "Altar"
-			x: 1.5d
+			x: -6.0d
 			y: -1.5d
 		}
 		{
@@ -54,10 +54,12 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["624E015B09427542"]
+			description: [""]
+			icon: "botania:pure_daisy"
 			id: "2737F0AE3D1835D4"
 			tasks: [
 				{
@@ -71,18 +73,51 @@
 					type: "item"
 				}
 			]
+			title: "Pure Daisy"
 			x: -3.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
-			id: "469C65004ABF3283"
+			dependencies: ["226F9F21A941389C"]
+			id: "61329AF67AD28062"
 			tasks: [{
-				id: "7DC7A478F9D08C11"
+				id: "509473B71F9A83D4"
+				item: "embers:lead_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61329AF67AD28062"]
+			id: "6DC359D0F8736415"
+			tasks: [{
+				id: "2BB9D62248783D75"
 				item: "embers:ember_bore"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "7010ED9A666FF89E"
+			tasks: [{
+				id: "7EB5E94F7ED7866E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "6ED1017877CB7568"
+			tasks: [{
+				id: "48E60FEBE83ECFE3"
+				item: "botania:livingwood"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
 		}
 	]
 	title: "The Color Green"
