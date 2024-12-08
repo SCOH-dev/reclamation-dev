@@ -81,7 +81,7 @@
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
@@ -95,7 +95,7 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -109,7 +109,7 @@
 				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: 0.5d
 		}
 		{
@@ -183,7 +183,7 @@
 				item: "minecraft:brown_mushroom"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -197,7 +197,7 @@
 				item: "minecraft:red_mushroom"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -211,7 +211,7 @@
 				item: "minecraft:bamboo"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: -0.5d
 		}
 		{
@@ -225,7 +225,7 @@
 				item: "minecraft:kelp"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -7.5d
 			y: 0.5d
 		}
 		{
@@ -239,7 +239,7 @@
 				item: "minecraft:seagrass"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
@@ -253,7 +253,7 @@
 				item: "minecraft:sea_pickle"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 1.5d
 		}
 	]

@@ -1,5 +1,5 @@
 {
-  "parent": "agricraft:crop/crop_plus",
+  "parent": "agricraft:crop/crop_cross",
   "textures": {
     "crop": "agricraft:plant/botania/light_blue_mystical_flower0"
   }

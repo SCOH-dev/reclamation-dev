@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["000A7EAED7A84968"]
@@ -99,8 +99,8 @@
 				}
 			]
 			title: "Hemoglobic Fluid"
-			x: 1.5d
-			y: -2.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4CE0C02B0602C06E"]
@@ -130,8 +130,8 @@
 				}
 			]
 			title: "Salt and Sulfur"
-			x: 2.5d
-			y: -3.0d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5C476B553750BDE9"]
@@ -142,8 +142,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["26833208E1F2EB4B"]
@@ -154,8 +154,8 @@
 				item: "enchanted:anointing_paste"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -192,7 +192,7 @@
 				}
 			]
 			x: 0.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6CB296A3AD751F62"]
@@ -264,7 +264,7 @@
 			]
 			title: "Saplings!"
 			x: 0.0d
-			y: -8.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["26833208E1F2EB4B"]
@@ -413,7 +413,7 @@
 				}
 			]
 			title: "Edible Plants"
-			x: -4.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -431,7 +431,7 @@
 			}]
 			title: "Growing copper?"
 			x: -4.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6831CB6AC2CE40C6"]
@@ -471,8 +471,8 @@
 				}
 			]
 			title: "Gold Leaf"
-			x: -2.5d
-			y: -10.5d
+			x: 0.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["592DBF115E1FBAE9"]
@@ -498,8 +498,8 @@
 				}
 			]
 			title: "Ritual of the Forest"
-			x: -4.0d
-			y: -9.5d
+			x: 0.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4075C13786AF4C49"]
@@ -510,8 +510,8 @@
 				item: "enchanted:witch_oven"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -9.5d
+			x: 0.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["778E09C4AE548E95"]
@@ -525,8 +525,8 @@
 				type: "item"
 			}]
 			title: "Grass!"
-			x: -6.0d
-			y: -9.5d
+			x: 0.0d
+			y: -12.5d
 		}
 	]
 	title: "A Glimpse of Normal"

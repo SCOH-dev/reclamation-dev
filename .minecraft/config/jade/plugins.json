@@ -83,6 +83,10 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "projecte": {
     "emc_provider": true
   },
@@ -95,11 +99,6 @@
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
-  },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
   },
   "supplementaries": {
     "hat_stand": true

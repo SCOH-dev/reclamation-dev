@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_safari"
+	group: "2BFAC9C95DAED88B"
+	id: "7F55650372975893"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:creeper_head"
+			id: "517413E5CD697BAA"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "08F30DACFE9796AA"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:creeper": 1b
+						}
+					}
+				}
+				title: "Creeper Photo"
+				type: "item"
+			}]
+			title: "Creeper"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"In this new post-apocalyptic world, you've realized that it might be a good idea to document what lifeforms exist - just in case it happens again. "
+				""
+				"To do so, you're going to need &6a camera, &rsome &6film&r to print onto, and some way to turn that &6film into photos.&r"
+			]
+			id: "5FEE65C669654E40"
+			tasks: [
+				{
+					id: "19AEDBE8BCA2D0DE"
+					item: "exposure:camera"
+					type: "item"
+				}
+				{
+					id: "57CF020E7D4F508E"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+				{
+					id: "0701BE1D6DDBBE9D"
+					item: "exposure:lightroom"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Mob Safari"
+}
