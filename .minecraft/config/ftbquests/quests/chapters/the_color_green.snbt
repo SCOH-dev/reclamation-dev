@@ -27,6 +27,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7010ED9A666FF89E"]
 			description: ["Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an Altar should do well here."]
 			id: "359392265BF91571"
 			tasks: [{
@@ -36,7 +37,7 @@
 				type: "item"
 			}]
 			title: "Altar"
-			x: -6.0d
+			x: -6.5d
 			y: -1.5d
 		}
 		{
@@ -53,7 +54,7 @@
 				item: "botania:fertilizer"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -74,7 +75,7 @@
 				}
 			]
 			title: "Pure Daisy"
-			x: -3.0d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -96,27 +97,29 @@
 				item: "embers:ember_bore"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2737F0AE3D1835D4"]
 			id: "7010ED9A666FF89E"
 			tasks: [{
 				id: "7EB5E94F7ED7866E"
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["7010ED9A666FF89E"]
 			id: "6ED1017877CB7568"
 			tasks: [{
 				id: "48E60FEBE83ECFE3"
 				item: "botania:livingwood"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 1.5d
 		}
 	]
