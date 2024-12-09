@@ -1,7 +1,7 @@
 # Don't change this! Version used to track needed updates.
 version = 1
 debugMode = false
-parseChestLoot = true
+parseChestLoot = false
 parseBlockLoot = true
 parseMobLoot = true
 parseGameplayLoot = true

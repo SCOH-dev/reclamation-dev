@@ -109,4 +109,15 @@ ServerEvents.recipes(event => {
          },
          "time": 250
     })
+
+    event.custom({
+        "type": "botania:pure_daisy",
+        "input": {
+            "type": "block",
+            "block": "naturesaura:gold_nether_brick"
+        },
+        "output": {
+            "name": "minecraft:nether_gold_ore"
+        }
+    })
 })

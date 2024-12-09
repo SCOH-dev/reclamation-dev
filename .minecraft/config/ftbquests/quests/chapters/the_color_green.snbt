@@ -37,8 +37,8 @@
 				type: "item"
 			}]
 			title: "Altar"
-			x: -6.5d
-			y: -1.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -54,8 +54,8 @@
 				item: "botania:fertilizer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["624E015B09427542"]
@@ -75,19 +75,22 @@
 				}
 			]
 			title: "Pure Daisy"
-			x: -3.5d
-			y: 0.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: [
+				"27C68B6622F186D7"
+				"01C2598A1D9CF754"
+			]
 			id: "61329AF67AD28062"
 			tasks: [{
 				id: "509473B71F9A83D4"
 				item: "embers:lead_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["61329AF67AD28062"]
@@ -97,19 +100,32 @@
 				item: "embers:ember_bore"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["2737F0AE3D1835D4"]
+			dependencies: [
+				"2737F0AE3D1835D4"
+				"27C68B6622F186D7"
+			]
+			description: ["The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"]
+			icon: "minecraft:gold_ingot"
 			id: "7010ED9A666FF89E"
-			tasks: [{
-				id: "7EB5E94F7ED7866E"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "7E10DE645C029C5C"
+					item: "naturesaura:gold_nether_brick"
+					type: "item"
+				}
+				{
+					id: "68E1E94809F222CE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Gold"
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7010ED9A666FF89E"]
@@ -119,8 +135,151 @@
 				item: "botania:livingwood"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"389C82D9424B4099"
+				"226F9F21A941389C"
+			]
+			description: [
+				"Technically, with just a bucket, you can go to the Nether by &6placing lava and water to strategically form an obsidian portal frame.&r"
+				""
+				"Similar to the overworld, it's bare of ores and even more devoid of life - &4there are zero spawns there!"
+				""
+				"However, there might be some magical utility you can pull out of there..."
+			]
+			icon: "minecraft:netherrack"
+			id: "27C68B6622F186D7"
+			tasks: [
+				{
+					id: "3DDFEA1D41D4DBE7"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "557DA2BD947C9E34"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "38900D6378B19874"
+					title: "Visit the Nether"
+					type: "dimension"
+				}
+			]
+			title: "The Nether"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["226F9F21A941389C"]
+			description: [
+				"The &6Natural Altar&r is a very important tool in the manipulation of natural energies."
+				""
+				"Once the altar is fully built, it will drain &6aura&r from its surroundings. It will then use those energies to &6transform items put into it.&r "
+				""
+				"You should also look into creating the &6Environmental Eye&r - a very useful device that shows you the level of aura in the nearby area."
+			]
+			icon: "naturesaura:nature_altar"
+			id: "5274A282D9182B7C"
+			tasks: [
+				{
+					id: "4BD721A26C88ED2C"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "351FCC7A8A161D97"
+					item: { Count: 16, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "701B2C7A74366E0A"
+					item: { Count: 4, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "598F68386899E1AC"
+					item: { Count: 8, id: "naturesaura:gold_brick" }
+					type: "item"
+				}
+				{
+					count: 20L
+					icon: "minecraft:oak_planks"
+					id: "41E906B0B5DC2CBE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any Planks"
+					type: "item"
+				}
+				{
+					id: "0FA54974D0CC4874"
+					item: "naturesaura:eye"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Natural Altar"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5274A282D9182B7C"]
+			description: ["Infusing iron in the Natural Altar creates, funnily enough, &6Infused Iron Ingots.&r These have a variety of uses, but chief among them (at least for now) is the ability to be &6transformed into lead&r - a key metal with plenty of &6mechanical applications.&r"]
+			id: "01C2598A1D9CF754"
+			tasks: [{
+				id: "070CA9418C5F199F"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			title: "Infused Iron"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61329AF67AD28062"]
+			id: "153CB8257AEDA4ED"
+			tasks: [{
+				id: "0C28FD3F5C919A74"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5274A282D9182B7C"]
+			description: [
+				"The Natural Altar requires aura in the surrounding area to function. It won't ever take the aura to a negative level, but it will &4stop working completely if the aura is low enough,&r which means you'll need a way of replenishing it."
+				""
+				"&6Ancient Saplings&r are the most basic way to do this; once grown, if the area's aura is low enough, the tree's leaves will &4slowly wither away,&r &6producing aura in the process.&r"
+			]
+			id: "58C55BE2ECDC9FD5"
+			tasks: [{
+				id: "72965D594F07ECDB"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			title: "Creating Aura"
+			x: 2.5d
+			y: -1.0d
 		}
 	]
 	title: "The Color Green"
