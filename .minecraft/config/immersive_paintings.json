@@ -11,7 +11,7 @@
   "paintingsHaveCollision": false,
   "maxUserImageWidth": 4096,
   "maxUserImageHeight": 4096,
-  "maxUserImages": 1000,
+  "maxUserImages": 100,
   "minPaintingResolution": 8,
   "maxPaintingResolution": 256,
   "showOtherPlayersPaintings": true,
