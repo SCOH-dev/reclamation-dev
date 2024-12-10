@@ -1,10 +1,49 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": {
+        "type": "item",
+        "id": "naturesaura:ancient_planks",
+        "amount": 2
+      }
+    }
+  ],
   "lookup_history": [
+    "item:minecraft:nether_wart",
+    "item:embers:ember_bore",
+    "item:embers:lead_ingot",
+    {
+      "type": "item",
+      "id": "embers:tinker_hammer",
+      "remainder": "item:embers:tinker_hammer"
+    },
+    "item:embers:lead_plate",
+    "item:embers:mechanical_core",
+    "item:embers:caminite_bricks",
+    "item:naturesaura:token_fear",
+    "item:naturesaura:token_joy",
+    "item:naturesaura:flower_generator",
+    "item:botania:livingwood_twig",
+    "item:botania:twig_wand{color1:10,color2:11}",
+    "item:botania:mana_spreader",
+    {
+      "type": "fluid",
+      "id": "kubejs:hemoglobic_fluid",
+      "amount": 0
+    },
+    "item:botania:livingwood_log",
+    "item:minecraft:diorite",
+    "item:minecraft:andesite",
+    "item:naturesaura:nether_grass",
+    "item:naturesaura:aura_bloom",
+    "item:naturesaura:aura_cactus",
+    "item:botania:light_gray_mystical_flower",
+    "item:minecraft:peony",
+    "item:naturesaura:gold_fiber",
+    "item:naturesaura:conversion_catalyst",
     "item:embers:lead_nugget",
     "item:mekanism:nugget_lead",
     "#item:forge:nuggets/lead",
-    "item:embers:lead_ingot",
     "item:embers:raw_lead",
     "item:naturesaura:ancient_sapling",
     "item:enchanted:attuned_stone",
@@ -16,9 +55,7 @@
     },
     "item:enchanted:whiff_of_magic",
     "item:enchanted:odour_of_purity",
-    "item:naturesaura:gold_fiber",
     "item:naturesaura:gold_nether_brick",
-    "item:naturesaura:token_joy",
     "item:minecraft:nether_gold_ore",
     "item:minecraft:target",
     "item:minecraft:stone",
@@ -44,8 +81,6 @@
     "item:naturesaura:aura_bottle{stored_type:\"naturesaura:end\"}",
     "item:minecraft:gold_ingot",
     "item:enchanted:altar",
-    "item:embers:mechanical_core",
-    "item:embers:ember_bore",
     "item:minecraft:cracked_deepslate_tiles",
     "item:botania:grass_seeds",
     "item:minecraft:red_stained_glass",
@@ -59,19 +94,12 @@
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:sugar_cane\",rec:\"minecraft:sugar_cane\"},strength:{dom:1,rec:1}}}",
     "item:minecraft:sugar_cane",
     "item:exposure:camera",
-    {
-      "type": "item",
-      "id": "embers:tinker_hammer",
-      "remainder": "item:embers:tinker_hammer"
-    },
-    "item:embers:lead_plate",
     "item:enchanted:ember_moss",
     "item:enchanted:spanish_moss",
     "item:naturesaura:wood_stand",
     "item:botania:flower_bag",
     "item:agricraft:clipper",
     "item:agricraft:seed{genes:{fertility:{dom:10,rec:10},gain:{dom:10,rec:10},growth:{dom:10,rec:10},mutativity:{dom:10,rec:10},resistance:{dom:10,rec:10},species:{dom:\"minecraft:poppy\",rec:\"minecraft:poppy\"},strength:{dom:10,rec:10}}}",
-    "item:minecraft:nether_wart",
     "item:enchanted:mutandis_extremis",
     "item:enchanted:blood_poppy",
     "item:exposure:developed_black_and_white_film",
@@ -237,7 +265,6 @@
     "item:mysticalagriculture:nature_seeds",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:white_tulip\",rec:\"minecraft:white_tulip\"},strength:{dom:1,rec:1}}}",
     "item:minecraft:rose_bush",
-    "item:minecraft:peony",
     "item:minecraft:dandelion",
     "item:minecraft:poppy",
     "item:minecraft:blue_orchid",
@@ -556,7 +583,6 @@
     "item:minecraft:gravel",
     "item:minecraft:sand",
     "item:minecraft:glass",
-    "item:embers:caminite_bricks",
     "item:embers:caminite_plate",
     "item:embers:raw_caminite_plate",
     {
@@ -575,11 +601,6 @@
     "item:enchanted:water_artichoke",
     "item:enchanted:exhale_of_the_horned_one",
     "item:theurgy:alchemical_salt_mineral",
-    {
-      "type": "fluid",
-      "id": "kubejs:hemoglobic_fluid",
-      "amount": 100
-    },
     "item:enchanted:mandrake_root",
     "item:sophisticatedstorage:netherite_chest{accentColor:8439583,mainColor:8439583}",
     "item:sophisticatedstorage:gold_chest{woodType:\"cherry\"}",
@@ -694,6 +715,7 @@
     "item:theurgy:alchemical_sulfur_lead{\"theurgy:sulfur.source.id\":\"#forge:ingots/lead\"}"
   ],
   "craft_history": [
+    "naturesaura:ancient_planks",
     "embers:lead_ingot_to_nugget",
     "mekanism:processing/lead/nugget/from_ingot",
     "exposure:developing_black_and_white_film",

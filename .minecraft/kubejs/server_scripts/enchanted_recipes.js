@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     
     //anointing paste needs results, not seeds
-    event.remove({ id: 'enchanted:anointing_paste'})
+    event.remove({id: 'enchanted:anointing_paste'})
     event.shapeless('enchanted:anointing_paste', [
         'enchanted:water_artichoke',
         'enchanted:belladonna_flower',
@@ -39,7 +39,8 @@ ServerEvents.recipes(event => {
         }
     })
 
-    //cauldron some brilliant fiber
+    //cauldron for brilliant fiber
+    event.remove({id: "naturesaura:gold_fiber"})
     event.custom({
         "type": "enchanted:witch_cauldron",
         "cookingColor": [

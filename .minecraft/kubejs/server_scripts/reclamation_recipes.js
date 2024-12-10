@@ -110,6 +110,7 @@ ServerEvents.recipes(event => {
          "time": 250
     })
 
+    //gold nether ore from bricks
     event.custom({
         "type": "botania:pure_daisy",
         "input": {

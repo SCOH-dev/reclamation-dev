@@ -62,4 +62,18 @@ ServerEvents.recipes(event => {
         },
         "time": 500
     })
+
+    //herbivorous absorber
+    event.remove({ id: 'naturesaura:flower_generator'})
+    event.shaped('naturesaura:flower_generator', [
+            'PJP',
+            'IFI',
+            'PIP'
+        ], {
+            P: 'naturesaura:ancient_planks',
+            J: 'naturesaura:token_joy',
+            I: 'naturesaura:infused_iron',
+            F: '#botania:mystical_flowers'
+        }
+    )
 })
