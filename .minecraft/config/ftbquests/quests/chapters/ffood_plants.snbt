@@ -257,6 +257,48 @@
 			x: -7.0d
 			y: 1.5d
 		}
+		{
+			dependencies: [
+				"3F94D588E94A0F3C"
+				"15CFF693EFE382C7"
+			]
+			id: "3EDF39CD6F94943F"
+			tasks: [{
+				id: "1B0681E60C9C525A"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3EDF39CD6F94943F"
+				"15CFF693EFE382C7"
+			]
+			id: "54401A0090BF5109"
+			tasks: [{
+				id: "50385F5338B3A7C7"
+				item: "minecraft:warped_fungus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3EDF39CD6F94943F"
+				"3F94D588E94A0F3C"
+			]
+			id: "77F0AB56297C08EC"
+			tasks: [{
+				id: "010E32148E3954E0"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
 	]
 	title: "Plants Galore"
 }

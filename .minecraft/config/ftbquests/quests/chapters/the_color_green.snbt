@@ -268,7 +268,7 @@
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
-			description: ["Infusing iron in the Natural Altar creates, funnily enough, &6Infused Iron Ingots.&r These have a variety of uses, but chief among them (at least for now) is the ability to be &6transformed into lead&r - a key metal with plenty of &6mechanical applications.&r"]
+			description: ["Infusing iron in the Natural Altar creates, funnily enough, &6Infused Iron Ingots.&r These have a wide variety of uses, but chief among them are some very nice tools and armor, with &6special abilities&r and the unique property of being &6repairable using Aura.&r"]
 			id: "01C2598A1D9CF754"
 			tasks: [{
 				id: "070CA9418C5F199F"
@@ -335,6 +335,18 @@
 			}]
 			x: -3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["6628083C19C5F8CB"]
+			description: ["Now that you have a more robust source of aura, you can put it to more use - a &6crumbling catalyst,&r when placed on top of one of the lower four golden blocks of a natural altar, can crush things much more finely than you can by hand.It can get you &6more bone meal per bone, more gold powder per leaf, and even turn cobblestone into sand!&r"]
+			id: "5C1E3750F91A38B2"
+			tasks: [{
+				id: "214521E01C8D7374"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	title: "The Color Green"
