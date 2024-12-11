@@ -16,24 +16,6 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:grass_block"
 			id: "226F9F21A941389C"
-			rewards: [
-				{
-					id: "5427379D940A462E"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "naturesaura:book"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3031444179F95F4F"
-					item: "botania:lexicon"
-					type: "item"
-				}
-			]
 			shape: "hexagon"
 			tasks: [{
 				id: "65DF7FECE306BB89"
@@ -46,8 +28,36 @@
 		}
 		{
 			dependencies: ["7010ED9A666FF89E"]
-			description: ["Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an Altar should do well here."]
+			description: [
+				"Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an &6Altar&r should do well here. Place your Altar blocks in a 2x3 rectangle and it should start collecting power!"
+				""
+				"The more &6varying kinds&r of plant life there are around the&6 Altar,&r the more power you can store. This includes &6trees, tall grass, flowers, and crops!&r"
+			]
 			id: "359392265BF91571"
+			rewards: [
+				{
+					id: "5ACB4ADC3DC12005"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:getting_started"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BFCF3B11C7B8183"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:extraction"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 6L
 				id: "212094225DE3E6B4"
@@ -62,11 +72,18 @@
 			dependencies: ["226F9F21A941389C"]
 			description: ["Using dye from the flowers you can get by &6bonemealing grass,&r you can craft a special kind of fertilizer that can coax &6magical flowers&r to life."]
 			id: "624E015B09427542"
-			rewards: [{
-				id: "58F7C78A39D0658F"
-				item: "botania:flower_bag"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "58F7C78A39D0658F"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					id: "314D4253EEBA2094"
+					item: "botania:lexicon"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "04DF51069030E5BD"
 				item: "botania:fertilizer"
@@ -101,7 +118,24 @@
 				"27C68B6622F186D7"
 				"01C2598A1D9CF754"
 			]
+			description: [
+				"Combining the nature-infused iron and some metaphysical heat and structure (courtesy of &6nether bricks&r and a &6spruce sapling,&r respectively), you can rearrange the latent potential of the metal to turn it into lead!"
+				""
+				"Vastly useful in a variety of mechanical applications, lead is a great first step to leveraging either &6raw mechanical power&r or &6Ember&r in your pursuits."
+			]
 			id: "61329AF67AD28062"
+			rewards: [
+				{
+					id: "5AB406393AECC75B"
+					item: "embers:ancient_codex"
+					type: "item"
+				}
+				{
+					id: "300859D34D3F6715"
+					item: "embers:tinker_hammer"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "509473B71F9A83D4"
 				item: "embers:lead_ingot"
@@ -112,12 +146,26 @@
 		}
 		{
 			dependencies: ["61329AF67AD28062"]
+			description: [
+				"&6Ember&r is the lifeblood of the world. Despite whatever happened, there is still virtually infinite Ember available deep underground - you just need to make a machine that can mine it. "
+				""
+				"Enter the &6Ember Bore&r - place it on bedrock, add a &6Mechanical Core&r above it so you can pipe things in and out of it, and give it some fuel! It'll start digging up that sweet, sweet Ember."
+			]
+			icon: "embers:ember_bore"
 			id: "6DC359D0F8736415"
-			tasks: [{
-				id: "2BB9D62248783D75"
-				item: "embers:ember_bore"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2BB9D62248783D75"
+					item: "embers:ember_bore"
+					type: "item"
+				}
+				{
+					id: "19157F0B4CA59D7A"
+					item: "embers:mechanical_core"
+					type: "item"
+				}
+			]
+			title: "Drilling for Ember"
 			x: 1.5d
 			y: -4.5d
 		}
@@ -147,6 +195,8 @@
 		}
 		{
 			dependencies: ["2737F0AE3D1835D4"]
+			description: ["The &6Pure Daisy&r is able to turn mundane stone and logs into much more naturally-aligned versions of themselves."]
+			icon: "botania:livingwood_log"
 			id: "6ED1017877CB7568"
 			tasks: [
 				{
@@ -162,7 +212,7 @@
 			]
 			title: "Living Materials"
 			x: -2.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -172,7 +222,7 @@
 			description: [
 				"Technically, with just a bucket, you can go to the Nether by &6placing lava and water to strategically form an obsidian portal frame.&r"
 				""
-				"Similar to the overworld, it's bare of ores and even more devoid of life - &4there are zero spawns there!"
+				"Similar to the overworld, it's bare of ores and even more devoid of life - &4there are zero spawns there, and only one biome."
 				""
 				"However, there might be some magical utility you can pull out of there..."
 			]
@@ -327,12 +377,27 @@
 				"7010ED9A666FF89E"
 				"6ED1017877CB7568"
 			]
+			description: ["Mana's not very useful without ways to generate and move it! Starting out, your best source of mana is going to be the &6Endoflame.&r"]
+			icon: "botania:mana_spreader"
 			id: "2FD66F543443B8A8"
-			tasks: [{
-				id: "0CB0B2674C20ED57"
-				item: "botania:mana_spreader"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0CB0B2674C20ED57"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "4D18F6CA3EE6D63D"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "60390123FA913DCA"
+					item: "botania:endoflame"
+					type: "item"
+				}
+			]
+			title: "Generating Mana"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -347,6 +412,113 @@
 			}]
 			x: 4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["359392265BF91571"]
+			description: [
+				"There are a few items you can place on top of your altar to increase its capacity and recharge rate:"
+				""
+				"&6Torch:&r +0.5x recharge rate"
+				"&6Skeleton Skull:&r +1x recharge rate, +1x capacity"
+				"&6Chalice:&r +1x capacity"
+			]
+			icon: "mysticalagriculture:upgrade_base"
+			id: "3932D60DF66D4C83"
+			tasks: [
+				{
+					id: "4064574A4F18B0CB"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "3DE7D27534BF3CD2"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "42FF0626D6059DEB"
+					item: "enchanted:chalice"
+					type: "item"
+				}
+			]
+			title: "Altar Upgrades"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["359392265BF91571"]
+			description: [
+				"Attuned stones are a very important part of witchcraft - not only do they let you &6craft necessary workstations,&r they also give you the ability to perform certain rites &6without the need of an altar,&r once charged!"
+				""
+				"&7Please note that this recipe needs altar power! Make sure your cauldron is within range of your altar!"
+			]
+			id: "1145EF33C88C696B"
+			tasks: [{
+				id: "482401F7FF362672"
+				item: "enchanted:attuned_stone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1145EF33C88C696B"]
+			description: [
+				"If the &6Altar&r is the backbone of witchcraft, the &6Distillery, Kettle,&r and &6Spinning Wheel &rare its phalanges. "
+				""
+				"...strange metaphors aside, these blocks allow you to craft a wide variety of &6witchy goodies.&r"
+			]
+			id: "54838757425A9BA7"
+			tasks: [
+				{
+					id: "35CEC80D00F949F2"
+					item: "enchanted:distillery"
+					type: "item"
+				}
+				{
+					id: "0C3773A080F18741"
+					item: "enchanted:kettle"
+					type: "item"
+				}
+				{
+					id: "756133C30FFC6521"
+					item: "enchanted:spinning_wheel"
+					type: "item"
+				}
+			]
+			title: "Tools of the Trade"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2FD66F543443B8A8"]
+			id: "5EA3E8FCE4EBBA82"
+			tasks: [{
+				id: "71772B3D162FA2F2"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DC359D0F8736415"]
+			id: "424D08C4CFE434EA"
+			tasks: [
+				{
+					id: "63D5F1F29D99DECE"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "4FAE706B4A6EFA11"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Logistics"
+			x: 0.5d
+			y: -4.5d
 		}
 	]
 	title: "The Color Green"

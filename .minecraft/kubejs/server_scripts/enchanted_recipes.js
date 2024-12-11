@@ -73,4 +73,65 @@ ServerEvents.recipes(event => {
             "item": "naturesaura:gold_fiber"
         }
     })
+
+    event.remove({id: "enchanted:altar"})
+    event.custom({
+         "type": "minecraft:crafting_shaped",
+         "category": "building",
+         "key": {
+             "b": {
+                 "item": "enchanted:breath_of_the_goddess"
+             },
+             "e": {
+                 "item": "enchanted:exhale_of_the_horned_one"
+             },
+             "r": {
+                 "item": "enchanted:rowan_log"
+             },
+             "s": {
+                 "item": "minecraft:stone_bricks"
+             },
+             "w": {
+                 "item": "minecraft:gold_nugget"
+             }
+         },
+         "pattern": [
+             "bwe",
+             "srs",
+             "srs"
+         ],
+         "result": {
+             "item": "enchanted:altar"
+         },
+         "show_notification": true
+    })
+
+    event.remove({id: "enchanted:attuned_stone"})
+    event.custom({"type": "enchanted:witch_cauldron",
+         "cookingColor": [
+             26,
+             71,
+             35
+         ],
+         "finalColor": [
+             62,
+             128,
+             78
+         ],
+         "ingredients": [
+             {
+                 "item": "botania:mana_pearl"
+             },
+             {
+                 "item": "enchanted:whiff_of_magic"
+             },
+             {
+                 "item": "naturesaura:gold_leaf"
+             }
+         ],
+         "power": 500,
+         "result": {
+             "item": "enchanted:attuned_stone"
+         }
+    })
 })

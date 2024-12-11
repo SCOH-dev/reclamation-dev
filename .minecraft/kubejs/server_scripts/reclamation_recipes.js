@@ -78,10 +78,11 @@ ServerEvents.recipes(event => {
     //copper bucket
     event.shaped('minecraft:bucket', [
         'A A',
-        ' A ',
+        'DAD',
         '   '
     ], {
-        A: 'minecraft:copper_ingot'
+        A: 'minecraft:copper_ingot',
+        D: 'embers:caminite_blend'
     })
 
     //pasture seeds through ritual
