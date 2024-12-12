@@ -122,6 +122,8 @@
 				"Combining the nature-infused iron and some metaphysical heat and structure (courtesy of &6nether bricks&r and a &6spruce sapling,&r respectively), you can rearrange the latent potential of the metal to turn it into lead!"
 				""
 				"Vastly useful in a variety of mechanical applications, lead is a great first step to leveraging either &6raw mechanical power&r or &6Ember&r in your pursuits."
+				""
+				"&7The ancient codex is a little confusing at first, but it will guide you through the Embers mod! Start at the top section of the book marked Natural Energy, right click entries to mark them as read, and make sure you READ CAREFULLY!"
 			]
 			id: "61329AF67AD28062"
 			rewards: [
@@ -220,22 +222,21 @@
 				"226F9F21A941389C"
 			]
 			description: [
-				"Technically, with just a bucket, you can go to the Nether by &6placing lava and water to strategically form an obsidian portal frame.&r"
+				"You can use a bucket to &6strategically place lava and water&r to make a nether portal frame. It's not ideal, but it's definitely easier than trying to mine obsidian with an iron pickaxe!"
 				""
-				"Similar to the overworld, it's bare of ores and even more devoid of life - &4there are zero spawns there, and only one biome."
-				""
-				"However, there might be some magical utility you can pull out of there..."
+				"Similar to the overworld, the nether is bare of ores and even more devoid of life - &4there are zero spawns there, and only one biome."
 			]
 			icon: "minecraft:netherrack"
 			id: "27C68B6622F186D7"
 			tasks: [
 				{
-					id: "3DDFEA1D41D4DBE7"
-					item: "minecraft:bucket"
-					type: "item"
+					dimension: "minecraft:the_nether"
+					id: "38900D6378B19874"
+					title: "Visit the Nether"
+					type: "dimension"
 				}
 				{
-					id: "557DA2BD947C9E34"
+					id: "0EBC3D370C08B62F"
 					item: {
 						Count: 1
 						id: "minecraft:flint_and_steel"
@@ -243,13 +244,14 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
-					dimension: "minecraft:the_nether"
-					id: "38900D6378B19874"
-					title: "Visit the Nether"
-					type: "dimension"
+					id: "0D0B7B0E63CCA21B"
+					item: "minecraft:bucket"
+					optional_task: true
+					type: "item"
 				}
 			]
 			title: "The Nether"
@@ -503,6 +505,11 @@
 		}
 		{
 			dependencies: ["6DC359D0F8736415"]
+			description: [
+				"Ember item and fluid pipes are relatively basic, but at this point in time they're fairly decent for small-scale operations. Pipes need extractors to pull items into them, and extractors need a redstone signal to be activated. There are a few other quirks to the system, all of which are explained in your &6Ancient Codex."
+				""
+				"&7Note - basically everything in Embers needs a redstone signal to activate, so get ready to place plenty of levers!"
+			]
 			id: "424D08C4CFE434EA"
 			tasks: [
 				{
@@ -515,10 +522,53 @@
 					item: "embers:fluid_pipe"
 					type: "item"
 				}
+				{
+					id: "6EB36AB2AB9554D2"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "3B5648870CF70B44"
+					item: "embers:fluid_extractor"
+					type: "item"
+				}
 			]
 			title: "Logistics"
 			x: 0.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["6DC359D0F8736415"]
+			description: [
+				"Now that you have some Ember, you'll need to turn it into useable energy somehow."
+				""
+				"The&6 Ember Activator&r turns solid Ember into &6Activated Ember;&r pipe crystals and shards into the bottom, and attach an &6Ember Emitter to the top&r to output &6Activated Ember.&r "
+				""
+				"Use a Tinker's Hammer on the emitter to link it to a receptor, give it a redstone signal, and you're transmitting Activated Ember!"
+				""
+				"&7Note that Ember Grit doesn't normally produce Activated Ember; you'll have to add a &6Heat Exchanger&7 to an activator to get energy out of it (which multiplies all ember production by 0.9x, but adds a flat +300 to all items production!)"
+			]
+			id: "700009D450C569A2"
+			tasks: [
+				{
+					id: "63BACAF1D91DBD29"
+					item: "embers:ember_activator"
+					type: "item"
+				}
+				{
+					id: "2A53DC1865FD785A"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+				{
+					id: "446A39DD19D62C6E"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+			]
+			title: "Activating Ember"
+			x: 1.5d
+			y: -6.0d
 		}
 	]
 	title: "The Color Green"

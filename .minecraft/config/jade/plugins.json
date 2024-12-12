@@ -68,6 +68,9 @@
     "apiary_errors": true,
     "show_errors": true
   },
+  "telepastries": {
+    "bites": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,

@@ -1,13 +1,13 @@
-filename = 'enchanted-forge-1.20.1-3.1.0.jar'
+filename = 'enchanted-forge-1.20.1-3.1.1.jar'
 name = 'Enchanted'
 side = 'both'
 
 [download]
-hash = '6592c081a6be0e10ea04aa70b1ae234d5c03759a'
+hash = '43e2290c7ce51dbf851ae787c2fc6717940517a8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5976045
+file-id = 5983438
 project-id = 560363
