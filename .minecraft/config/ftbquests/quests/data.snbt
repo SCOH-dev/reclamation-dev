@@ -12,7 +12,7 @@
 		id: "telepastries:overworld_cake"
 	}]
 	emergency_items_cooldown: 300
-	grid_scale: 0.25d
+	grid_scale: 0.5d
 	icon: "minecraft:grass_block"
 	lock_message: ""
 	loot_crate_no_drop: {

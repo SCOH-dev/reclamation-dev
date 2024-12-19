@@ -333,6 +333,7 @@
 		}
 		{
 			dependencies: ["61329AF67AD28062"]
+			description: ["Simultaneously tough and malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."]
 			id: "153CB8257AEDA4ED"
 			tasks: [{
 				id: "0C28FD3F5C919A74"
@@ -468,8 +469,9 @@
 			description: [
 				"If the &6Altar&r is the backbone of witchcraft, the &6Distillery, Kettle,&r and &6Spinning Wheel &rare its phalanges. "
 				""
-				"...strange metaphors aside, these blocks allow you to craft a wide variety of &6witchy goodies.&r"
+				"...strange metaphors aside, these blocks allow you to craft a wide variety of &6witchy goodies.&r They will need to be placed within range of an altar, if their recipes require power."
 			]
+			icon: "enchanted:distillery"
 			id: "54838757425A9BA7"
 			tasks: [
 				{
@@ -489,11 +491,12 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: -3.0d
+			x: -1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
+			description: ["An apparatus perfect for channelling large amounts of mana into collections of objects, the &6Runic Altar&r will (obviously) let you make runes."]
 			id: "5EA3E8FCE4EBBA82"
 			tasks: [{
 				id: "71772B3D162FA2F2"
@@ -510,6 +513,7 @@
 				""
 				"&7Note - basically everything in Embers needs a redstone signal to activate, so get ready to place plenty of levers!"
 			]
+			icon: "embers:item_pipe"
 			id: "424D08C4CFE434EA"
 			tasks: [
 				{
@@ -533,7 +537,7 @@
 					type: "item"
 				}
 			]
-			title: "Logistics"
+			title: "Dwarven Logistics"
 			x: 0.5d
 			y: -4.5d
 		}
@@ -548,6 +552,7 @@
 				""
 				"&7Note that Ember Grit doesn't normally produce Activated Ember; you'll have to add a &6Heat Exchanger&7 to an activator to get energy out of it (which multiplies all ember production by 0.9x, but adds a flat +300 to all items production!)"
 			]
+			icon: "embers:ember_activator"
 			id: "700009D450C569A2"
 			tasks: [
 				{
@@ -569,6 +574,164 @@
 			title: "Activating Ember"
 			x: 1.5d
 			y: -6.0d
+		}
+		{
+			dependencies: [
+				"54838757425A9BA7"
+				"221E431A74C6E8A5"
+			]
+			icon: {
+				Count: 1
+				id: "enchanted:ritual_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D5E4A2212C421AE"
+			rewards: [{
+				id: "5E30DFA317714CDC"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "enchanted:circle_magic"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07380F0DB0F32DC4"
+					item: {
+						Count: 1
+						id: "enchanted:golden_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17C370738BAA7671"
+					item: {
+						Count: 1
+						id: "enchanted:ritual_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Circle Magic"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["700009D450C569A2"]
+			description: [
+				"You'll want to make a &6Copper Cell&r to &6store your activated ember&r - it works as a kind of 'battery' for the mystical energy."
+				""
+				"To see how much ember is in the cell, place an &6Ember Dial&r on it."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						"embers:ember": 0.0d
+						"embers:ember_capacity": 24000.0d
+					}
+				}
+				id: "embers:copper_cell"
+				tag: {
+					ForgeCaps: {
+						"embers:ember_capacity": 24000.0d
+					}
+				}
+			}
+			id: "2C46F425B5E0AAAA"
+			tasks: [
+				{
+					id: "0B01C83DE8DDDF86"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 24000.0d
+							}
+						}
+						id: "embers:copper_cell"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 24000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18B80228CE32311A"
+					item: "embers:ember_dial"
+					type: "item"
+				}
+			]
+			title: "Storing Ember"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["700009D450C569A2"]
+			description: [
+				"Ember is capable of melting metals and other items in the creatively-named &6Melter&r - feed the bottom half ember, feed the top half items to melt, and you can extract molten metals from the top half."
+				""
+				"This molten metal can be formed into a variety of shapes in a &6Stamper;&r place the &6Stamp Base,&r then the &6Stamper above it with a one-block gap&r of air. Give the Stamper ember and a stamp, pipe molten metal into the base, and presto! Stamped and cooled metal products! "
+				""
+				"Notably, you can use this process to &6produce plates more efficiently.&r"
+			]
+			icon: "embers:melter"
+			id: "74FB5A117EF51949"
+			tasks: [
+				{
+					id: "58B58AF055A23CDB"
+					item: "embers:melter"
+					type: "item"
+				}
+				{
+					id: "1699A456873EC1E0"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "5BB0B499D0181BC1"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			title: "Melting and Stamping"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["74FB5A117EF51949"]
+			description: [""]
+			icon: "embers:dawnstone_ingot"
+			id: "221E431A74C6E8A5"
+			tasks: [
+				{
+					id: "4AF6D6F0BB92C4C8"
+					item: "embers:mixer_centrifuge"
+					type: "item"
+				}
+				{
+					id: "5D234128365C1656"
+					item: "embers:dawnstone_ingot"
+					type: "item"
+				}
+			]
+			title: "Dawnstone"
+			x: 0.5d
+			y: -8.5d
 		}
 	]
 	title: "The Color Green"

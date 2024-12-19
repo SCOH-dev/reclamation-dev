@@ -76,62 +76,144 @@ ServerEvents.recipes(event => {
 
     event.remove({id: "enchanted:altar"})
     event.custom({
-         "type": "minecraft:crafting_shaped",
-         "category": "building",
-         "key": {
-             "b": {
-                 "item": "enchanted:breath_of_the_goddess"
-             },
-             "e": {
-                 "item": "enchanted:exhale_of_the_horned_one"
-             },
-             "r": {
-                 "item": "enchanted:rowan_log"
-             },
-             "s": {
-                 "item": "minecraft:stone_bricks"
-             },
-             "w": {
-                 "item": "minecraft:gold_nugget"
-             }
-         },
-         "pattern": [
-             "bwe",
-             "srs",
-             "srs"
-         ],
-         "result": {
-             "item": "enchanted:altar"
-         },
-         "show_notification": true
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "key": {
+            "b": {
+                "item": "enchanted:breath_of_the_goddess"
+            },
+            "e": {
+                "item": "enchanted:exhale_of_the_horned_one"
+            },
+            "r": {
+                "item": "enchanted:rowan_log"
+            },
+            "s": {
+                "item": "minecraft:stone_bricks"
+            },
+            "w": {
+                "item": "minecraft:gold_nugget"
+            }
+        },
+        "pattern": [
+            "bwe",
+            "srs",
+            "srs"
+        ],
+        "result": {
+            "item": "enchanted:altar"
+        },
+        "show_notification": true
     })
 
     event.remove({id: "enchanted:attuned_stone"})
     event.custom({"type": "enchanted:witch_cauldron",
-         "cookingColor": [
-             26,
-             71,
-             35
-         ],
-         "finalColor": [
-             62,
-             128,
-             78
-         ],
-         "ingredients": [
-             {
-                 "item": "botania:mana_pearl"
-             },
-             {
-                 "item": "enchanted:whiff_of_magic"
-             },
-             {
-                 "item": "naturesaura:gold_leaf"
-             }
-         ],
-         "power": 500,
-         "result": {
-             "item": "enchanted:attuned_stone"
-         }
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            62,
+            128,
+            78
+        ],
+        "ingredients": [
+            {
+                "item": "botania:mana_pearl"
+            },
+            {
+                "item": "enchanted:whiff_of_magic"
+            },
+            {
+                "item": "naturesaura:gold_leaf"
+            }
+        ],
+        "power": 500,
+        "result": {
+            "item": "enchanted:attuned_stone"
+        }
+    })
+
+    //chalk recipes
+    event.remove({id: "enchanted:ritual_chalk"})
+    event.remove({id: "enchanted:witch_cauldron/golden_chalk"})
+    event.remove({id: "enchanted:witch_cauldron/nether_chalk"})
+    event.custom({
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+            "a": {
+                "item": "enchanted:wood_ash"
+            },
+            "r": {
+                "item": "enchanted:gypsum"
+            }
+        },
+        "pattern": [
+            "ara",
+            "ara",
+            "ara"
+        ],
+        "result": {
+            "item": "enchanted:ritual_chalk"
+        },
+        "show_notification": true
+    })
+    event.custom({
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            89,
+            64,
+            0
+        ],
+        "finalColor": [
+            194,
+            155,
+            0
+        ],
+        "ingredients": [
+            {
+                "item": "enchanted:mandrake_root"
+            },
+            {
+                "item": "embers:dawnstone_ingot"
+            },
+            {
+                "item": "enchanted:ritual_chalk"
+            }
+        ],
+        "power": 3000,
+        "result": {
+            "item": "enchanted:golden_chalk"
+        }
+    })
+    event.custom({
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            84,
+            1,
+            26
+        ],
+        "finalColor": [
+            156,
+            1,
+            47
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:nether_wart"
+            },
+            {
+                "item": "naturesaura:tainted_gold"
+            },
+            {
+                "item": "enchanted:ritual_chalk"
+            }
+        ],
+        "power": 2000,
+        "result": {
+            "item": "enchanted:nether_chalk"
+        }
     })
 })
