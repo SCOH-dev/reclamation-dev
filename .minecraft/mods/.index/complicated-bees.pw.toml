@@ -1,13 +1,13 @@
-filename = 'complicated_bees-1.20.1-1.1.4.jar'
+filename = 'complicated_bees-1.20.1-1.1.5.jar'
 name = 'Complicated Bees'
 side = 'both'
 
 [download]
-hash = '57418e34a0e2df4e24fa3237bd14ede4e423dbcf'
+hash = '66a3dbb724c8667158f6cc167644d16c34951ad0'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5975818
+file-id = 5989166
 project-id = 1100137

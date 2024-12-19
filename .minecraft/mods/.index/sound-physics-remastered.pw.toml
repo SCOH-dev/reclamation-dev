@@ -1,13 +1,13 @@
-filename = 'sound-physics-remastered-forge-1.20.1-1.4.7.jar'
+filename = 'sound-physics-remastered-forge-1.20.1-1.4.8.jar'
 name = 'Sound Physics Remastered'
 side = 'both'
 
 [download]
-hash = '6fe6623c5da3b82893744c7cbd7eb1f35cf4a220'
+hash = '11c6fc5351d032adf516f1ea1fae55ca132e9c6b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5982090
+file-id = 5991549
 project-id = 535489

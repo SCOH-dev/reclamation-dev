@@ -1,13 +1,13 @@
-filename = 'farmers_croptopia-1.20.1-1.1.0.jar'
+filename = 'farmers_croptopia-1.20.1-2.0.0.jar'
 name = "Farmer's Croptopia"
 side = 'both'
 
 [download]
-hash = 'acdd7479dc09407044e4b3cedd9e017373ea8be7'
+hash = '71ce07af9ff21bcbb71419884ebd040fb2de96b8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5903964
+file-id = 5999688
 project-id = 1132546
