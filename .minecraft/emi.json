@@ -16,6 +16,12 @@
     }
   ],
   "lookup_history": [
+    "item:kubejs:flimsy_planks",
+    "item:create:fluid_tank",
+    "item:embers:fluid_vessel",
+    "item:kubejs:dead_log",
+    "item:embers:caminite_brick",
+    "item:minecraft:cod",
     {
       "type": "tag",
       "registry": "minecraft:item",
@@ -29,13 +35,11 @@
       "id": "minecraft:spruce_planks",
       "amount": 64
     },
-    "item:kubejs:flimsy_planks",
     {
       "type": "item",
       "id": "kubejs:scrap_wood",
       "amount": 4
     },
-    "item:kubejs:dead_log",
     "item:botania:alchemy_catalyst",
     "item:botania:conjuration_catalyst",
     "item:embers:alchemy_tablet",
@@ -52,7 +56,6 @@
     "item:theurgy:sulfuric_flux_emitter",
     "item:naturesaura:gold_fiber",
     "item:naturesaura:gold_nether_brick",
-    "item:create:fluid_tank",
     "item:embers:mechanical_pump",
     "item:theurgy:alchemical_sulfur_metals_common",
     "item:create:mechanical_pump",
@@ -261,7 +264,6 @@
     "item:embers:caminite_blend",
     "item:minecraft:bucket",
     "item:kubejs:hemoglobic_fluid_bucket",
-    "item:embers:fluid_vessel",
     "item:minecraft:fermented_spider_eye",
     "item:naturesaura:conversion_catalyst",
     "item:minecraft:soul_sand",
@@ -951,9 +953,9 @@
   "recipe_defaults": {
     "added": [
       "minecraft:kjs/enchanted_ritual_chalk",
-      "jei:/theurgy/kjs/432logmidgaizl5y0wyryvj3u",
       "jei:/naturesaura/kjs/4rr0jxafi6xfn2lf20obxnazw",
       "jei:/enchanted/witch_cauldron/golden_chalk",
+      "jei:/theurgy/kjs/432logmidgaizl5y0wyryvj3u",
       "jei:/enchanted/kjs/e88um03njkmej2fcbdoz8yerj"
     ],
     "tags": {},

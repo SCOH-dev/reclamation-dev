@@ -123,18 +123,6 @@ ServerEvents.recipes(event => {
         }
     })
 
-    //easier fluid tank
-    event.remove({ id: 'create:crafting/kinetics/fluid_tank'})
-    event.shaped('create:fluid_tank', [
-        ' C ',
-        'GBG',
-        ' C '
-    ], {
-        B: '#forge:chests',
-        C: 'minecraft:copper_ingot',
-        G: 'minecraft:glass'
-    })
-
     //chest from planks... quark >_>
     event.shaped('minecraft:chest', [
         'AAA',

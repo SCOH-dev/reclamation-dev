@@ -77,23 +77,25 @@
 				""
 				"Luckily, one of those plants you found has a rudimentary circulatory system, which has enough thematic overlap with actual hemoglobin that you can use it to precipitate hemoglobic fluid..."
 				""
-				"Basically, you found a &6plant that grows blood&r and you're gonna &6make iron out of it&r by putting it into a &6Sal Ammoniac Accumulator above a Fluid Tank.&r"
+				"Basically, you found a &6plant that grows blood&r and you're gonna &6make iron out of it&r by putting it into a &6Sal Ammoniac Accumulator above a Fluid Vessel.&r "
+				""
+				"&7Note: A Sal Ammoniac tank is meant only for sal ammoniac, so you &oneed&r&7 to place the &lfluid vessel&r&7 below it."
 			]
 			icon: "enchanted:mandrake_root"
 			id: "4CE0C02B0602C06E"
 			tasks: [
-				{
-					id: "29B3B083036DFA50"
-					item: "create:fluid_tank"
-					type: "item"
-				}
 				{
 					id: "58509C1E096E95BE"
 					item: "enchanted:mandrake_root"
 					type: "item"
 				}
 				{
-					id: "35E38E2EAA6D8F67"
+					id: "1CBAC0F9F7E082DF"
+					item: "embers:fluid_vessel"
+					type: "item"
+				}
+				{
+					id: "7881A2308E126CFA"
 					item: "kubejs:hemoglobic_fluid_bucket"
 					type: "item"
 				}

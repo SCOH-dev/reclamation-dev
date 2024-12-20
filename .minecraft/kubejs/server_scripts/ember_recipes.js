@@ -22,4 +22,15 @@ ServerEvents.recipes(event => {
             P: 'embers:caminite_plate'
         }
     )
+
+    //easier fluid tank
+    event.remove({ id: 'embers:fluid_vessel'})
+    event.shaped('embers:fluid_vessel', [
+        'B B',
+        'C C',
+        'BCB'
+    ], {
+        B: 'embers:caminite_brick',
+        C: 'minecraft:copper_ingot'
+    })
 })

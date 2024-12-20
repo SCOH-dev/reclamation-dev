@@ -77,11 +77,12 @@
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: ["&l&o&cNO ORE GENERATES IN THE WORLD.&r Those who came before you have completely mined out the entire planet - after centuries of strip mining, quarrying, and general exploitation, there is not so much as a measly scrap of coal in the world, so there's no point trying to find any type of ore by mining."]
+			icon: "minecraft:iron_ore"
 			id: "3BF5FDE3C81BEF26"
 			tasks: [{
-				id: "7BC602E07312B506"
-				item: "minecraft:iron_ore"
-				type: "item"
+				id: "0A321F50741A2841"
+				title: "Deprived..."
+				type: "checkmark"
 			}]
 			title: "Where's the ore!?"
 			x: -0.5d

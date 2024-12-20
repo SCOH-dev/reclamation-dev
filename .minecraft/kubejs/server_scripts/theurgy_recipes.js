@@ -66,6 +66,21 @@ ServerEvents.recipes(event => {
         P: '#minecraft:planks'
     })
 
+    event.remove({id: 'theurgy:distillation/cod'})
+    event.remove({id: 'theurgy:distillation/salmon'})
+    event.custom({
+        "type": "theurgy:distillation",
+        "distillation_time": 100,
+        "ingredient": {
+            "tag": "forge:raw_fishes"
+        },
+        "ingredient_count": 1,
+        "result": {
+            "count": 1,
+            "item": "theurgy:mercury_shard"
+        }
+    })
+
     //dried earth -> dirt sulfur
     event.custom({
         "type": "theurgy:liquefaction",
