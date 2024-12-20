@@ -19,6 +19,7 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //rune recipes
     remove_rune_ids.forEach(id => {
         event.remove({ id: 'botania:runic_altar/'+id})
     })
@@ -153,6 +154,34 @@ ServerEvents.recipes(event => {
         "output": {
             "count": 2,
             "item": "botania:rune_winter"
+        }
+    })
+
+    //fel pumpkin
+    event.remove({id: "botania:fel_pumpkin"})
+    event.custom({
+        "type": "botania:runic_altar",
+        "ingredients": [
+            {
+                "item": "minecraft:pumpkin"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            },
+            {
+                "item": "minecraft:bone"
+            },
+            {
+                "item": "minecraft:string"
+            },
+            {
+                "item": "minecraft:gunpowder"
+            }
+        ],
+        "mana": 4000,
+        "output": {
+            "count": 1,
+            "item": "botania:fel_pumpkin"
         }
     })
 })

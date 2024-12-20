@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    //iron from zombie flesh
+    //iron from mandrake
     event.custom({
         "type": "theurgy:accumulation",
         "accumulationTime": 100,
@@ -122,7 +122,6 @@ ServerEvents.recipes(event => {
             "count": 1
         }
     })
-
     event.custom({
         "type": "theurgy:liquefaction",
         "ingredient": {
@@ -139,6 +138,62 @@ ServerEvents.recipes(event => {
         "solvent": {
             "fluid": "kubejs:hemoglobic_fluid"
         },
-        "solvent_amount": 100
+        "solvent_amount": 50
+    })
+
+    //reformation recipes
+    event.remove({ id: 'theurgy:crafting/shaped/reformation_source_pedestal'})
+    event.remove({ id: 'theurgy:crafting/shaped/reformation_result_pedestal'})
+    event.remove({ id: 'theurgy:crafting/shaped/reformation_target_pedestal'})
+    event.remove({ id: 'theurgy:crafting/shaped/sulfuric_flux_emitter'})
+    event.remove({ id: 'theurgy:crafting/shaped/mercury_catalyst'})
+    event.shaped('theurgy:reformation_source_pedestal', [
+        'BSB',
+        'AIA',
+        'BBB'
+    ], {
+        B: 'minecraft:blackstone',
+        S: '#theurgy:alchemical_sulfurs',
+        A: 'create:andesite_alloy',
+        I: 'minecraft:iron_ingot'
+    })
+    event.shaped('theurgy:reformation_result_pedestal', [
+        'DDD',
+        'DSD',
+        'BBB'
+    ], {
+        B: 'minecraft:blackstone',
+        S: '#theurgy:alchemical_sulfurs',
+        D: 'embers:dawnstone_ingot'
+    })
+    event.shaped('theurgy:reformation_target_pedestal', [
+        'CSC',
+        'CDC',
+        'BBB'
+    ], {
+        B: 'minecraft:blackstone',
+        S: '#theurgy:alchemical_sulfurs',
+        D: 'embers:dawnstone_ingot',
+        C: 'minecraft:copper_ingot'
+    })
+    event.shaped('theurgy:sulfuric_flux_emitter', [
+        ' M ',
+        'DSD',
+        'BBB'
+    ], {
+        B: 'minecraft:blackstone',
+        S: '#theurgy:alchemical_sulfurs',
+        D: 'embers:dawnstone_ingot',
+        M: 'theurgy:sal_ammoniac_crystal'
+    })
+    event.shaped('theurgy:mercury_catalyst', [
+        'AMA',
+        'DGD',
+        'ADA'
+    ], {
+        A: 'create:andesite_alloy',
+        M: '#theurgy:alchemical_mercuries',
+        D: 'embers:dawnstone_ingot',
+        G: 'create:fluid_tank'
     })
 })

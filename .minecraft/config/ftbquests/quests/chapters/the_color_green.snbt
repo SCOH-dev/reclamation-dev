@@ -424,6 +424,8 @@
 				"&6Torch:&r +0.5x recharge rate"
 				"&6Skeleton Skull:&r +1x recharge rate, +1x capacity"
 				"&6Chalice:&r +1x capacity"
+				""
+				"Eventually, you can replace the torch with a candelabra, the skeleton skull with a wither skeleton or player skull, and the chalice with a filled chalice for even more recharge rate and capacity."
 			]
 			icon: "mysticalagriculture:upgrade_base"
 			id: "3932D60DF66D4C83"
@@ -580,6 +582,11 @@
 				"54838757425A9BA7"
 				"221E431A74C6E8A5"
 			]
+			description: [
+				"One of the main ways to channel altar power is through the practice of &6circle magic.&r Each ritual has a gold chalk glyph at its center, but the placement of other chalk glyphs changes depending on what kind of ritual you want to perform!"
+				""
+				"Most rituals can target a remote area using a waystone (blooded or otherwise), and some rituals can even be performed away from the altar by adding a charged attuned stone to them!&6 Read through the circle magic book to find out what rituals you can perform.&r"
+			]
 			icon: {
 				Count: 1
 				id: "enchanted:ritual_chalk"
@@ -624,8 +631,8 @@
 				}
 			]
 			title: "Circle Magic"
-			x: -0.5d
-			y: -8.5d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["700009D450C569A2"]
@@ -673,6 +680,7 @@
 				{
 					id: "18B80228CE32311A"
 					item: "embers:ember_dial"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -714,7 +722,7 @@
 		}
 		{
 			dependencies: ["74FB5A117EF51949"]
-			description: [""]
+			description: ["By piping molten copper and gold into different sides of the bottom of a &6Mixer Centrifuge,&r (along with some ember) you can combine them into a strong, ember-aligned metal called &6Dawnstone.&r Pipe it out of the top and stamp it into ingots or plates!"]
 			icon: "embers:dawnstone_ingot"
 			id: "221E431A74C6E8A5"
 			tasks: [
@@ -730,8 +738,189 @@
 				}
 			]
 			title: "Dawnstone"
-			x: 0.5d
+			x: 1.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["153CB8257AEDA4ED"]
+			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
+			id: "17089FF12C1591B8"
+			tasks: [{
+				id: "7EAC671CDBFEFBA4"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["221E431A74C6E8A5"]
+			description: [
+				"For more advanced ember crafting, a special setup is required. An &6exchange tablet&r with some &6pedestals&r around it, when struck with a &6beam cannon pulse,&r will transmute the center item into a new result item."
+				""
+				"There is one complication, though. The pedestals need &6aspectii&r to be placed on them, and you aren't sure which aspectii go with which items! The only way to find out is through experiementation - if the transmutation fails, it will produce &balchemical waste.&r When held and right clicked, the waste will reveal a number of &6glowing spots,&r which tell you the number of &6aspectus/item combinations you got right.&r"
+			]
+			icon: "embers:alchemy_tablet"
+			id: "287C747ED1189725"
+			tasks: [
+				{
+					id: "2ED145BD6FE7C9F6"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					id: "405AC57A26FC22AF"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1D96D434EB8B1E10"
+					item: { Count: 3, id: "embers:alchemy_pedestal" }
+					type: "item"
+				}
+			]
+			title: "Energetic Alchemy"
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
+			description: [
+				"Using the power of mana, you think you can create a weak imitation of a blaze - place a &6specially prepared pumpkin on top of two iron bars&r to animate this faux fire elemental."
+				""
+				"Due to its shoddy nature, it &4won't drop full blaze rods,&r but &6blaze powder&r instead. You still have plenty of uses for the powder, though; for one, you'll be able to &6spin it into brilliant fiber.&r"
+			]
+			icon: "botania:fel_pumpkin"
+			id: "1AF1077B69E1551E"
+			tasks: [
+				{
+					id: "643D4D645AFA5CC2"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					id: "244D69B5C8530E46"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "Knockoff Blazes"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: ["There are a variety of ways you can process materials using andesite-based machinery; &6compacting, mixing, pressing, and heating.&r You'll need to find some way to capture a fire elemental, though; &bmaybe mana can help you somehow?&r"]
+			icon: "create:basin"
+			id: "2A32CE924C9CB606"
+			tasks: [
+				{
+					id: "25F031F449DAA1CD"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "76106B04FDE199F3"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "005D8CF7791E69A9"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "3530E1797277893F"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Mechanical Crafting"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: [
+				"By blowing air through certain things, you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
+				""
+				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial component of the &6Reformation Array.&r"
+			]
+			icon: "create:encased_fan"
+			id: "05820674B5CC639D"
+			tasks: [
+				{
+					id: "4A9D9FBBBDE57536"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "55F8484DFCFD7029"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			title: "Moving Air"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"221E431A74C6E8A5"
+				"05820674B5CC639D"
+			]
+			description: [
+				"Alchemical reformation is the process of &6turning one alchemical sulfur into another&r - initially, you'll only be able to convert sulfurs of the &6same tier and type&r to each other &6(like iron sulfur into lead sulfur!) &r"
+				""
+				"To set up the reformation array, place down the target, source, and result pedestals somewhat near each other. Hold the sulfuric flux emitter and right click each pedestal, then place it on the mercury catalyst. "
+				""
+				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and the sulfur to convert in the source pedestal. Give it a moment, and you'll start converting the source sulfur into the target sulfur!"
+			]
+			icon: "theurgy:reformation_result_pedestal"
+			id: "2F210E03731A0E21"
+			tasks: [
+				{
+					id: "48B96711CA5E1E82"
+					item: "theurgy:reformation_result_pedestal"
+					type: "item"
+				}
+				{
+					id: "71C6DFB17E46C57E"
+					item: "theurgy:reformation_target_pedestal"
+					type: "item"
+				}
+				{
+					id: "06032DD1D16334EA"
+					item: "theurgy:reformation_source_pedestal"
+					type: "item"
+				}
+				{
+					id: "5F70BFFABB339810"
+					item: "theurgy:sulfuric_flux_emitter"
+					type: "item"
+				}
+				{
+					id: "5202013C1D67BF1C"
+					item: "theurgy:mercury_catalyst"
+					type: "item"
+				}
+			]
+			title: "Alchemical Reformation"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: ["A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power - &6it is much faster than the ember-fueled one!"]
+			id: "2E0F026AB59D83B5"
+			tasks: [{
+				id: "5E548AA09A77547C"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
 		}
 	]
 	title: "The Color Green"

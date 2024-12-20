@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+
+    //andesite alloy uses lead
     event.remove({id: 'create:crafting/materials/andesite_alloy'})
     event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
     event.remove({id: 'create:mixing/andesite_alloy'})
@@ -27,4 +29,57 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    //disable mechanical press plate recipes
+    event.remove({id: 'create:pressing/brass_ingot'})
+    event.remove({id: 'create:pressing/iron_ingot'})
+    event.remove({id: 'create:pressing/copper_ingot'})
+    event.remove({id: 'create:pressing/gold_ingot'})
+
+    //disable metals from washing
+    event.remove({id: 'create:splashing/soul_sand'})
+    event.remove({id: 'create:splashing/red_sand'})
+    event.custom({
+        "type": "create:splashing",
+        "ingredients": [
+            {
+                "item": "minecraft:red_sand"
+            }
+        ],
+        "results": [
+            {
+                "chance": 0.05,
+                "item": "minecraft:dead_bush"
+            }
+        ]
+    })
+    event.remove({id: 'create:splashing/gravel'})
+    event.custom({
+        "type": "create:splashing",
+        "ingredients": [
+            {
+                "item": "minecraft:gravel"
+            }
+        ],
+        "results": [
+            {
+                "chance": 0.25,
+                "item": "minecraft:flint"
+            }
+        ]
+    })
+
+    //mechanical pump recipe
+    event.remove({id: 'create:crafting/kinetics/mechanical_pump'})
+    event.shaped('create:mechanical_pump', [
+            'ACA',
+            'PEP',
+            'ACA'
+        ], {
+            E: 'embers:mechanical_pump',
+            P: 'create:fluid_pipe',
+            A: 'create:andesite_alloy',
+            C: 'create:cogwheel'
+        }
+    )
 })

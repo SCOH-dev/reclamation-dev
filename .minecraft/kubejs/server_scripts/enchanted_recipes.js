@@ -187,7 +187,7 @@ ServerEvents.recipes(event => {
         "result": {
             "item": "enchanted:golden_chalk"
         }
-    })
+    }).id("enchanted:witch_cauldron/golden_chalk")
     event.custom({
         "type": "enchanted:witch_cauldron",
         "cookingColor": [
@@ -214,6 +214,27 @@ ServerEvents.recipes(event => {
         "power": 2000,
         "result": {
             "item": "enchanted:nether_chalk"
+        }
+    }).id("enchanted:witch_cauldron/nether_chalk")
+
+    //blaze powder to gold fiber
+    event.custom({
+        "type": "enchanted:wheel",
+        "duration": 300,
+        "ingredients": [
+            {
+                "item": "minecraft:blaze_powder"
+            },
+            {
+                "item": "enchanted:bone_needle"
+            },
+            {
+                "item": "enchanted:icy_needle"
+            }
+        ],
+        "power": 500,
+        "result": {
+            "item": "naturesaura:gold_fiber"
         }
     })
 })
