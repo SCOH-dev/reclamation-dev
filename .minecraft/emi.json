@@ -6,9 +6,36 @@
         "id": "naturesaura:ancient_planks",
         "amount": 2
       }
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:cobbled_deepslate",
+        "amount": 64
+      }
     }
   ],
   "lookup_history": [
+    {
+      "type": "tag",
+      "registry": "minecraft:item",
+      "id": "forge:crops",
+      "amount": 3
+    },
+    "item:theurgy:mercury_shard",
+    "item:minecraft:chest",
+    {
+      "type": "item",
+      "id": "minecraft:spruce_planks",
+      "amount": 64
+    },
+    "item:kubejs:flimsy_planks",
+    {
+      "type": "item",
+      "id": "kubejs:scrap_wood",
+      "amount": 4
+    },
+    "item:kubejs:dead_log",
     "item:botania:alchemy_catalyst",
     "item:botania:conjuration_catalyst",
     "item:embers:alchemy_tablet",
@@ -57,7 +84,6 @@
     },
     "item:create:brass_casing",
     "item:theurgy:mercury_crystal",
-    "item:theurgy:mercury_shard",
     "item:minecraft:andesite_wall",
     "item:embers:dawnstone_ingot",
     "item:enchanted:broom",
@@ -340,12 +366,6 @@
     "item:chipped:smooth_inlayed_stone",
     "item:rechiseled:stone_smooth_connecting",
     "item:minecraft:mossy_cobblestone",
-    {
-      "type": "item",
-      "id": "kubejs:scrap_wood",
-      "amount": 4
-    },
-    "item:kubejs:dead_log",
     "item:naturesaura:nature_altar",
     "item:minecraft:leather",
     "item:patchouli:guide_book{\"patchouli:book\":\"naturesaura:book\"}",
@@ -889,7 +909,6 @@
     "item:theurgy:alchemical_salt_crops",
     "item:theurgy:alchemical_sulfur_wheat{\"theurgy:sulfur.source.id\":\"minecraft:wheat\"}",
     "item:theurgy:alchemical_sulfur_gems_abundant",
-    "#item:forge:crops",
     "item:theurgy:alchemical_sulfur_osmium{\"theurgy:sulfur.source.id\":\"#forge:ingots/osmium\"}",
     "item:modonomicon:modonomicon{\"modonomicon:book_id\":\"theurgy:the_hermetica\"}",
     "#item:forge:raw_materials",

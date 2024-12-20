@@ -159,7 +159,7 @@
 				""
 				"To distill it, you'll have to make a &6Mercury Distiller&r and place it on top of a &6Pyromantic Brazier.&r Place the items you want to distill into the Distiller, give the Brazier some fuel, and it'll slowly convert materials into &6Alchemical Mercury.&r"
 				""
-				"Rarer materials give more mercury, but to start you'll probably want to distill &6cobblestone, extra copper, or dried earth.&r"
+				"Rarer materials give more mercury, but to start you'll probably want to distill &6cobblestone, dried earth, or cooked fish.&r "
 			]
 			icon: "theurgy:distiller"
 			id: "238F26409930D47F"

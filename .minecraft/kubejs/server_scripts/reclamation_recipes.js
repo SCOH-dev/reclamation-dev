@@ -134,4 +134,13 @@ ServerEvents.recipes(event => {
         C: 'minecraft:copper_ingot',
         G: 'minecraft:glass'
     })
+
+    //chest from planks... quark >_>
+    event.shaped('minecraft:chest', [
+        'AAA',
+        'A A',
+        'AAA'
+    ], {
+        A: 'kubejs:flimsy_planks'
+    })
 })
