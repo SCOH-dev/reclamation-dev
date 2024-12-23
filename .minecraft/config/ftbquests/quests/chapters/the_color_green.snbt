@@ -413,8 +413,8 @@
 				item: "naturesaura:crushing_catalyst"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["359392265BF91571"]
@@ -585,7 +585,7 @@
 			description: [
 				"One of the main ways to channel altar power is through the practice of &6circle magic.&r Each ritual has a gold chalk glyph at its center, but the placement of other chalk glyphs changes depending on what kind of ritual you want to perform!"
 				""
-				"Most rituals can target a remote area using a waystone (blooded or otherwise), and some rituals can even be performed away from the altar by adding a charged attuned stone to them!&6 Read through the circle magic book to find out what rituals you can perform.&r"
+				"Most rituals can target a remote area using a waystone (blooded or otherwise), and some rituals can even be performed away from the altar by adding a charged attuned stone to them!&6 Read through the two reward books to find out what rituals you can perform.&r"
 			]
 			icon: {
 				Count: 1
@@ -595,17 +595,30 @@
 				}
 			}
 			id: "7D5E4A2212C421AE"
-			rewards: [{
-				id: "5E30DFA317714CDC"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "enchanted:circle_magic"
+			rewards: [
+				{
+					id: "5E30DFA317714CDC"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:circle_magic"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "07AAE781C28F089F"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "patchouli:custom_rituals"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "07380F0DB0F32DC4"
@@ -789,8 +802,16 @@
 				"5EA3E8FCE4EBBA82"
 				"7D5E4A2212C421AE"
 			]
-			description: ["Using the power of mana and a pumpkin, you think you can create a weak imitation of a blaze head. Using this, you can then channel altar power through that imitation blaze head, a few extra reagents, and a &6small nether chalk circle&r to &6summon a real blaze!&r"]
-			icon: "botania:fel_pumpkin"
+			description: [
+				"Using the power of mana and a pumpkin, you think you can create a weak imitation of a blaze head. Using this, you can then channel altar power through that imitation blaze head, a few extra reagents, and a &6small nether chalk circle&r to &6summon a real blaze!&r"
+				""
+				"This summoned blaze always drops at least 3 blaze rods."
+				""
+				"&7Tip: the ritual to summon the blaze is described in the Reclamation Rituals book.&r"
+				""
+				"&7Tip 2: you can also use the Fel Pumpkin to summon a weaker blaze that only drops blaze powder, by placing it on top of two iron bars.&r"
+			]
+			icon: "minecraft:blaze_rod"
 			id: "1AF1077B69E1551E"
 			tasks: [
 				{
@@ -799,7 +820,7 @@
 					type: "item"
 				}
 				{
-					id: "24607F116B528BDA"
+					id: "79B054EE4C3E1DCF"
 					item: "minecraft:blaze_rod"
 					type: "item"
 				}
@@ -840,7 +861,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["17089FF12C1591B8"]
+			dependencies: [
+				"17089FF12C1591B8"
+				"00448B9AC0FC3F5D"
+			]
 			description: [
 				"By blowing air through certain things, you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
 				""
@@ -918,7 +942,7 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -970,6 +994,86 @@
 			}]
 			x: -3.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["1AF1077B69E1551E"]
+			description: [
+				"Distilling gunpowder and blaze powder in a Distillery will grant you access to glowstone!"
+				""
+				"Getting redstone is a little more involved - you'll want to dispense a small amount of a potion of strength onto some cinder flour, obtained by crushing netherrack."
+			]
+			id: "4DE7466CAC029EF6"
+			tasks: [
+				{
+					id: "3DDDEA23FD302D1C"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "3486BA1B47BBEE8F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Useful Dusts"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"0BD99D6E0D93E05F"
+				"2E0F026AB59D83B5"
+			]
+			id: "15AB65CE5C0B95CC"
+			tasks: [{
+				id: "63B514655C769766"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1AF1077B69E1551E"]
+			id: "76795AD9B23ACFD7"
+			tasks: [{
+				id: "5504BE5D400C6468"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C1E3750F91A38B2"]
+			description: [
+				"The &6transmutation catalyst&r modifies the natural altar to convert items into other items using Aura. Similar to the crumbling catalyst, it must be placed &6atop one of the four lower gold blocks of the altar.&r"
+				""
+				"The most immediately useful transmutation is that of &6sand into soul sand,&r which will allow you to haunt things using the encased fan, as well as grow nether wart!"
+				""
+				"You can also convert netherrack into crimson and warped nylium."
+			]
+			id: "00448B9AC0FC3F5D"
+			tasks: [{
+				id: "372D3B2D4B9F89D4"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: ["The &6Millstone&r can crush cobble into gravel, bones into bone meal, and a variety of plants into their respective dyes at a much higher rate of return."]
+			id: "26942D2DF8C8AF91"
+			tasks: [{
+				id: "143D8425B45D3807"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
 		}
 	]
 	title: "The Color Green"

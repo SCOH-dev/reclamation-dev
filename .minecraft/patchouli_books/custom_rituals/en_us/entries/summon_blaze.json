@@ -4,13 +4,13 @@
   "category": "patchouli:category",
   "pages": [
     {
-      "type": "enchanted:rite_description",
+      "type": "patchouli:rite_description",
       "rite_name": "Summon Blaze",
       "text": "Use this rite to summon a blaze. This blaze always drops at least 3 blaze rods."
     },
     {
-      "type": "enchanted:rite_requirements",
-      "rite": "reclamation:summoned_blaze"
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:summon_blaze"
     }
   ]
 }

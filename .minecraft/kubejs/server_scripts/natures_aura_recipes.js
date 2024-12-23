@@ -142,4 +142,88 @@ ServerEvents.recipes(event => {
         },
         "time": 200
     })
+
+    //cinder flour
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "minecraft:netherrack"
+        },
+        "output": {
+            "item": "create:cinder_flour"
+        },
+        "catalyst": {
+            "item": "naturesaura:crushing_catalyst"
+        },
+        "aura": 4000,
+        "time": 200
+    })
+
+    //nerf transmutation catalyst
+    event.remove({id: "naturesaura:altar/gilded_blackstone"})
+    event.remove({id: "naturesaura:altar/egg"})
+    event.remove({id: "naturesaura:altar/milk"})
+    event.remove({id: "naturesaura:altar/warped_fungus"})
+    event.remove({id: "naturesaura:altar/crimson_fungus"})
+    event.remove({id: "naturesaura:tree_ritual/conversion_catalyst"})
+    event.custom({
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "naturesaura:gold_leaf"
+            },
+            {
+                "item": "naturesaura:gold_brick"
+            },
+            {
+                "item": "embers:dawnstone_ingot"
+            },
+            {
+                "item": "naturesaura:tainted_gold"
+            },
+            {
+                "item": "botania:manasteel_ingot"
+            },
+            {
+                "item": "botania:manasteel_ingot"
+            }
+        ],
+        "sapling": {
+            "item": "minecraft:jungle_sapling"
+        },
+        "output": {
+            "item": "naturesaura:conversion_catalyst"
+        },
+        "time": 200
+    })
+
+    //more conversion recipes
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "minecraft:netherrack"
+        },
+        "output": {
+            "item": "minecraft:crimson_nylium"
+        },
+        "catalyst": {
+            "item": "naturesaura:conversion_catalyst"
+        },
+        "aura": 2000,
+        "time": 200
+    })
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "minecraft:crimson_nylium"
+        },
+        "output": {
+            "item": "minecraft:warped_nylium"
+        },
+        "catalyst": {
+            "item": "naturesaura:conversion_catalyst"
+        },
+        "aura": 2000,
+        "time": 200
+    })
 })

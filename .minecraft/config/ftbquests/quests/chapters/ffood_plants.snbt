@@ -299,6 +299,30 @@
 			x: -4.0d
 			y: 1.5d
 		}
+		{
+			id: "0BD99D6E0D93E05F"
+			tasks: [{
+				id: "032D7F5C7D26D03C"
+				item: "enchanted:belladonna_flower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"0BD99D6E0D93E05F"
+			]
+			id: "7CC83C324E6A01E9"
+			tasks: [{
+				id: "7889C84E2D3A006D"
+				item: "supplementaries:flax"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
 	]
 	title: "Plants Galore"
 }
