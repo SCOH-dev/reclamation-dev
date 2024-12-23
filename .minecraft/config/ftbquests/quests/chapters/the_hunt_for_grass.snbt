@@ -156,7 +156,7 @@
 				item: "enchanted:anointing_paste"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -3.5d
 		}
 		{
@@ -164,7 +164,13 @@
 				"66B8F071AD7CA037"
 				"389C82D9424B4099"
 			]
-			description: ["Now that you have a bit of iron, you can make a cauldron and &6anoint&r it to make a &6Witch's Cauldron&r - a magically-insulated vessel for brewing all sorts of witchy goodness."]
+			description: [
+				"Now that you have a bit of iron, you can make a cauldron and &6anoint&r it to make a &6Witch's Cauldron&r - a magically-insulated vessel for brewing all sorts of witchy goodness. "
+				""
+				"Fill it with three buckets of water, place it over a campfire, and it'll start boiling!"
+				""
+				"&7Read Witchcraft: Brewing for more information on what you can do with the cauldron."
+			]
 			icon: "enchanted:witch_cauldron"
 			id: "6CB296A3AD751F62"
 			rewards: [{
@@ -198,7 +204,7 @@
 		}
 		{
 			dependencies: ["6CB296A3AD751F62"]
-			description: ["With a little bit of magic (and a reinforced cauldron for witchy things), you can make a &6potent mutagen&r - potent enough to mutate those &6dead bushes&r you've been seeing around into &6actual saplings!&r"]
+			description: ["With a little bit of magic (and a reinforced witchy cauldron), you can make a &6potent mutagen&r - potent enough to mutate those &6dead bushes&r you've been seeing around into &6actual saplings!&r"]
 			icon: "minecraft:oak_sapling"
 			id: "4075C13786AF4C49"
 			shape: "hexagon"
@@ -373,7 +379,7 @@
 				""
 				"If your plant is not growing, look at it while crouching - it might need a different type of soil."
 				""
-				"Tip: getting your first beneficial mutation &4will be slow,&r but you can speed it up by &6planting crops in a plus shape,&r with the cross sticks in the middle! This means each potential crossbreed has &6four&r chances to pick parents, instead of &4just two.&r "
+				"&7Tip: getting your first beneficial mutation &4will be slow,&7 but you can speed it up by &6planting crops in a plus shape,&7 with the cross sticks in the middle! This means each potential crossbreed has &6four&7 chances to pick parents, instead of &4just two.&r "
 			]
 			icon: "supplementaries:sign_post_oak"
 			id: "3658F22BABF3B4B2"
@@ -399,7 +405,9 @@
 			description: [
 				"Now that you have a way to grow and breed plants, you should get started on broadening your base of food. Either &6breed the plants you have&r into the two other staple crops from the old world, or &6find them on the mutated inhabitants&r of the new."
 				""
-				"&7Tip: to look up mutations, look up the recipe for the seed of the plant in EMI.&r"
+				"&7Tip: to find mutations, look up the recipe for the seed of the plant in EMI.&r"
+				""
+				"&7Tip 2: to see what conditions a seed needs to grow (including what blocks it can grow on), check the uses of the seed in EMI.&r"
 			]
 			id: "658C67ABFD247487"
 			tasks: [
@@ -415,7 +423,7 @@
 				}
 			]
 			title: "Edible Plants"
-			x: -3.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -423,7 +431,7 @@
 			description: [
 				"At some point, you're going to run out of ruins. Thankfully, there is a special kind of flower called the &6Cuprosia &ryou can breed that can harvest &6trace amounts of copper from the water.&r"
 				""
-				"&7Note: the flower will only survive in a waterlogged crop. If you successfully crossbreed the Cuprosia but the crop stick it's on is not waterlogged, &4it will wither away into nothing. &r"
+				"&7Note: the flower will only survive in a waterlogged crop. If you successfully crossbreed the Cuprosia but the crop stick it's on is not waterlogged, &4it will wither away into nothing. &7Additionally, it can &4only grow on gravel&7 at strength 1."
 			]
 			id: "4F0C473B765AA1F8"
 			tasks: [{
@@ -432,7 +440,7 @@
 				type: "item"
 			}]
 			title: "Growing copper?"
-			x: -4.0d
+			x: -5.0d
 			y: -3.0d
 		}
 		{
@@ -529,6 +537,59 @@
 			title: "Grass!"
 			x: -3.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["The composter can turn &6extra seeds and crops into bonemeal!&r No more hunting skeletons in the middle of the night."]
+			id: "4A6F59E74183ACCD"
+			tasks: [{
+				id: "7A0BD58C631C84DF"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["You can get straw by cutting tall grass with a knife. Use it to make leads, ropes, and building blocks!"]
+			icon: "farmersdelight:straw"
+			id: "07339A3B3E7714B3"
+			tasks: [
+				{
+					id: "11D03E7C1F201812"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "Any #farmersdelight:tools/knives"
+					type: "item"
+				}
+				{
+					id: "46B67D9D0482647A"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			title: "Straw"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07339A3B3E7714B3"]
+			description: ["You can turn bonemeal, dirt, and some organic material into &6organic compost.&r When placed down, the compost will&6 turn into rich soil &rafter a while (sped up by sunlight, water, and proximity to other rich soil or mushrooms), which grows most crops &6faster than regular farmland!&r"]
+			id: "1525FDF792FDFA20"
+			tasks: [{
+				id: "5AC8FA934EDEE985"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "Rich Farmland"
+			x: -3.5d
+			y: 1.0d
 		}
 	]
 	title: "A Glimpse of Normal"

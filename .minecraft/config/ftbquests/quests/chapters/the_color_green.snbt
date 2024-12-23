@@ -631,8 +631,8 @@
 				}
 			]
 			title: "Circle Magic"
-			x: 0.0d
-			y: -9.0d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["700009D450C569A2"]
@@ -785,12 +785,11 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["5EA3E8FCE4EBBA82"]
-			description: [
-				"Using the power of mana, you think you can create a weak imitation of a blaze - place a &6specially prepared pumpkin on top of two iron bars&r to animate this faux fire elemental."
-				""
-				"Due to its shoddy nature, it &4won't drop full blaze rods,&r but &6blaze powder&r instead. You still have plenty of uses for the powder, though; for one, you'll be able to &6spin it into brilliant fiber.&r"
+			dependencies: [
+				"5EA3E8FCE4EBBA82"
+				"7D5E4A2212C421AE"
 			]
+			description: ["Using the power of mana and a pumpkin, you think you can create a weak imitation of a blaze head. Using this, you can then channel altar power through that imitation blaze head, a few extra reagents, and a &6small nether chalk circle&r to &6summon a real blaze!&r"]
 			icon: "botania:fel_pumpkin"
 			id: "1AF1077B69E1551E"
 			tasks: [
@@ -800,14 +799,14 @@
 					type: "item"
 				}
 				{
-					id: "244D69B5C8530E46"
-					item: "minecraft:blaze_powder"
+					id: "24607F116B528BDA"
+					item: "minecraft:blaze_rod"
 					type: "item"
 				}
 			]
 			title: "Knockoff Blazes"
-			x: -6.0d
-			y: -3.0d
+			x: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -921,6 +920,56 @@
 			}]
 			x: 4.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["77FBE2FA730A82AE"]
+			description: ["The &6Rod of the Lands&r can corporealize a tiny portion of mana into a full dirt block!"]
+			id: "23390B2CDE30D057"
+			tasks: [{
+				id: "6BD20F85E2DD3DEF"
+				item: "botania:dirt_rod"
+				type: "item"
+			}]
+			title: "(almost) Free Dirt"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
+			description: ["Carrying mana around with you enables you to use a plethora of bits and baubles. To transfer mana from a pool into the tablet, make sure the pool is on 'charge' mode by hovering over it with a wand of the forest."]
+			id: "77FBE2FA730A82AE"
+			tasks: [{
+				id: "781B18571CC61161"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "Portable Mana"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77FBE2FA730A82AE"]
+			description: ["Turn your mana tablet into a ring to store mana on-the-go &6without taking up an inventory slot!&r"]
+			id: "7AC1E9B4710A8B84"
+			tasks: [{
+				id: "72B87DADC3BA8740"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77FBE2FA730A82AE"]
+			description: ["By attaching a mana rune to a manasteel ring, you can (VERY slowly) pull ambient mana into a mana storage device on your person, &6for free!&r"]
+			id: "0E2EAFDEA91C24BD"
+			tasks: [{
+				id: "6A17A5BA2DFAF67B"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
 		}
 	]
 	title: "The Color Green"

@@ -27,7 +27,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
+			dependencies: ["3BF5FDE3C81BEF26"]
 			description: ["Wood is plentiful, if not exactly the quality you remember."]
 			id: "655DCA5A5B6632E1"
 			tasks: [{
@@ -37,10 +37,10 @@
 			}]
 			title: "Dead Trees"
 			x: -1.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
+			dependencies: ["3BF5FDE3C81BEF26"]
 			description: [
 				"There are ruins around with &6small bits of copper,&r completely oxidized from whatever happened. "
 				""
@@ -54,7 +54,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
@@ -71,7 +71,7 @@
 				type: "checkmark"
 			}]
 			title: "How do I craft things?"
-			x: 0.5d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -85,8 +85,8 @@
 				type: "checkmark"
 			}]
 			title: "Where's the ore!?"
-			x: -0.5d
-			y: 2.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -98,7 +98,7 @@
 				""
 				"This useable copper will be crucial for &6Spagyrics&r, the process of decomposing and recombining matter - which should let you &6rejuvenate the Dried Earth&r into &6Dirt.&r"
 				""
-				"&7Tip: you can also use the cutting board to get more wood out of dead logs!"
+				"&7Tip: you can also use the cutting board to get more charcoal and scrap wood out of dead logs!"
 			]
 			icon: "minecraft:copper_ingot"
 			id: "6B5B443D2F7DD3D4"
@@ -127,7 +127,7 @@
 			]
 			title: "Useable Copper"
 			x: 0.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
@@ -151,7 +151,7 @@
 				}
 			]
 			x: 0.0d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
@@ -183,7 +183,7 @@
 			]
 			title: "Alchemical Mercury"
 			x: 1.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
@@ -215,7 +215,7 @@
 			]
 			title: "Alchemical Salt"
 			x: -1.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["01AB2D65C171F1F9"]
@@ -247,7 +247,7 @@
 			]
 			title: "Alchemical Sulfur"
 			x: 0.0d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -291,7 +291,7 @@
 			]
 			title: "Incubator"
 			x: 0.0d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1F466C810237B69A"]
@@ -309,7 +309,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -9.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
@@ -384,7 +384,7 @@
 				title: "Changed worldgen?"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -403,7 +403,7 @@
 				title: "Rare Drops?"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 2.0d
 		}
 	]

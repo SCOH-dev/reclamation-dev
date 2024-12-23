@@ -5,6 +5,7 @@
 	default_quest_shape: ""
 	filename: "mob_safari"
 	group: "2BFAC9C95DAED88B"
+	icon: "exposure:camera"
 	id: "7F55650372975893"
 	order_index: 1
 	quest_links: [ ]

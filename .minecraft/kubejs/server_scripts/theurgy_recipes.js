@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
             "item": "theurgy:mercury_shard"
         },
         "result": {
-            "count": 1,
+            "count": 2,
             "tag": "minecraft:dirt"
         },
         "salt": {
@@ -125,11 +125,11 @@ ServerEvents.recipes(event => {
         "type": "theurgy:accumulation",
         "accumulationTime": 100,
         "evaporant": {
-            "tag": "minecraft:water"
+            "fluid": "theurgy:sal_ammoniac"
         },
         "evaporantAmount": 500,
         "result": {
-            "Amount": 100,
+            "Amount": 250,
             "FluidName": "kubejs:hemoglobic_fluid"
         },
         "solute": {

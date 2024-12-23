@@ -1,0 +1,9 @@
+{
+  "name": "Reclamation Rituals",
+  "landing_text": "Your guide to some very special rituals!",
+  "version": 1,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "use_resource_pack": true,
+  "pamphlet": true,
+  "show_progress": false
+}

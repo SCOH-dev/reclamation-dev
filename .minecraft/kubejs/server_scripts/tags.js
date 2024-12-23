@@ -3,6 +3,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:crops/garlic', 'enchanted:garlic')
     event.add('forge:garlic', 'enchanted:garlic')
 
+    event.add('forge:seeds', 'agricraft:seed')
+
     event.remove('forge:plates/copper', 'create:copper_sheet')
     event.remove('forge:plates/iron', 'create:iron_sheet')
 })

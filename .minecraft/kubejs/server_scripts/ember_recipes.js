@@ -27,10 +27,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'embers:fluid_vessel'})
     event.shaped('embers:fluid_vessel', [
         'B B',
-        'C C',
+        'CAC',
         'BCB'
     ], {
         B: 'embers:caminite_brick',
-        C: 'minecraft:copper_ingot'
+        C: 'minecraft:copper_ingot',
+        A: 'theurgy:sal_ammoniac_tank'
     })
 })
