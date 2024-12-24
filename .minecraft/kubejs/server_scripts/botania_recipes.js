@@ -184,4 +184,20 @@ ServerEvents.recipes(event => {
             "item": "botania:fel_pumpkin"
         }
     })
+
+    //flax to feather
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "input": {
+            "item": "supplementaries:flax"
+        },
+        "mana": 50,
+        "output": {
+            "item": "minecraft:feather"
+        }
+    })
 })

@@ -211,4 +211,56 @@ ServerEvents.recipes(event => {
         D: 'embers:dawnstone_ingot',
         G: 'create:fluid_tank'
     })
+
+    //t2,t3 reformation
+    event.remove({ id: 'theurgy:crafting/shaped/fermentation_vat'})
+    event.shaped('theurgy:fermentation_vat', [
+        'BSB',
+        'DAD',
+        'BCB'
+    ], {
+        B: 'embers:archaic_brick',
+        S: '#theurgy:alchemical_sulfurs',
+        D: 'embers:dawnstone_ingot',
+        A: 'minecraft:barrel',
+        C: 'minecraft:copper_ingot'
+    })
+    event.remove({ id: 'theurgy:crafting/shaped/digestion_vat'})
+    event.custom({
+        "type": "embers:alchemy",
+        "aspects": [
+            {
+                "tag": "embers:aspectus/dawnstone"
+            },
+            {
+                "tag": "embers:aspectus/copper"
+            },
+            {
+                "tag": "embers:aspectus/iron"
+            }
+        ],
+        "inputs": [
+            {
+                "item": "naturesaura:tainted_gold"
+            },
+            {
+                "item": "naturesaura:tainted_gold"
+            },
+            {
+                "item": "theurgy:sal_ammoniac_crystal"
+            },
+            {
+                "item": "embers:archaic_brick"
+            },
+            {
+                "item": "embers:dawnstone_plate"
+            }
+        ],
+        "output": {
+            "item": "theurgy:digestion_vat"
+        },
+        "tablet": {
+            "item": "minecraft:decorated_pot"
+        }
+    })
 })

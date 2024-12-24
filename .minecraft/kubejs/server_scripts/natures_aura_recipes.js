@@ -226,4 +226,38 @@ ServerEvents.recipes(event => {
         "aura": 2000,
         "time": 200
     })
+
+    //offering table
+    event.remove({id: "naturesaura:offering_table"})
+    event.custom({
+        "type": "embers:alchemy",
+        "aspects": [
+            {
+                "tag": "embers:aspectus/dawnstone"
+            },
+            {
+                "tag": "embers:aspectus/lead"
+            },
+            {
+                "tag": "embers:aspectus/iron"
+            }
+        ],
+        "inputs": [
+            {
+                "item": "naturesaura:token_fear"
+            },
+            {
+                "item": "naturesaura:token_joy"
+            },
+            {
+                "item": "naturesaura:infused_iron"
+            }
+        ],
+        "output": {
+            "item": "naturesaura:offering_table"
+        },
+        "tablet": {
+            "item": "botania:runic_altar"
+        }
+    })
 })

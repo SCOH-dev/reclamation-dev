@@ -34,4 +34,32 @@ ServerEvents.recipes(event => {
         C: 'minecraft:copper_ingot',
         A: 'theurgy:sal_ammoniac_tank'
     })
+
+    //archaic brick
+    event.custom({
+        "type": "embers:alchemy",
+        "aspects": [
+            {
+                "tag": "embers:aspectus/iron"
+            },
+            {
+                "tag": "embers:aspectus/copper"
+            }
+        ],
+        "inputs": [
+            {
+                "item": "naturesaura:infused_iron"
+            },
+            {
+                "item": "naturesaura:tainted_gold"
+            }
+        ],
+        "output": {
+            "count": 2,
+            "item": "embers:archaic_brick"
+        },
+        "tablet": {
+            "item": "minecraft:brick"
+        }
+    })
 })

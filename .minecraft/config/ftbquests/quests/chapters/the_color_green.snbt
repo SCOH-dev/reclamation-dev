@@ -642,6 +642,28 @@
 					}
 					type: "item"
 				}
+				{
+					id: "529246947E79B97F"
+					item: {
+						Count: 1
+						id: "enchanted:nether_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B0B92E04017F047"
+					item: {
+						Count: 1
+						id: "enchanted:otherwhere_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Circle Magic"
 			x: -1.5d
@@ -827,7 +849,7 @@
 			]
 			title: "Knockoff Blazes"
 			x: -4.5d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1001,6 +1023,8 @@
 				"Distilling gunpowder and blaze powder in a Distillery will grant you access to glowstone!"
 				""
 				"Getting redstone is a little more involved - you'll want to dispense a small amount of a potion of strength onto some cinder flour, obtained by crushing netherrack."
+				""
+				"&7Tip: you can also make glowstone similar to redstone - it's up to you whether you want to take the Enchanted or Create route for that!&r"
 			]
 			id: "4DE7466CAC029EF6"
 			tasks: [
@@ -1016,8 +1040,8 @@
 				}
 			]
 			title: "Useful Dusts"
-			x: -6.0d
-			y: -8.0d
+			x: -5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1036,14 +1060,21 @@
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
+			description: [
+				"The &6Alchemy Catalyst&r allows you to use the power of mana to transmute a wide variety of items. Place it under a mana pool to start alchemizing!"
+				""
+				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and log types into other log types!"
+				""
+				"&6Notably, it lets you turn flax into feathers...&r"
+			]
 			id: "76795AD9B23ACFD7"
 			tasks: [{
 				id: "5504BE5D400C6468"
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.0d
+			x: -3.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5C1E3750F91A38B2"]
@@ -1074,6 +1105,99 @@
 			}]
 			x: 5.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["54DFF798149BE746"]
+			description: ["The &6Codebreaking Slate&r is very handy - you can put multiple pieces of alchemical waste into it and it will show you how many aspectus/item combinations you got right! It will also show you how many correct aspectii you have placed with the wrong items."]
+			id: "3E51B48398D0E334"
+			tasks: [{
+				id: "7B482471FD88BB17"
+				item: "embers:codebreaking_slate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["287C747ED1189725"]
+			description: ["Your first archaic brick can be made by infusing a regular brick with tainted gold and infused iron. Once you have one, you can use it to make more by simply infusing it with more clay and soul sand."]
+			id: "54DFF798149BE746"
+			tasks: [{
+				id: "6A988B078BB6F842"
+				item: "embers:archaic_brick"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["54DFF798149BE746"]
+			id: "2C3ABE081A7E1086"
+			tasks: [{
+				id: "339CBE9063E8306A"
+				item: "embers:mnemonic_inscriber"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2F210E03731A0E21"
+				"54DFF798149BE746"
+			]
+			description: [
+				"You can convert between sulfurs of the same type and rarity using the reformation array, but if you want to convert between different types (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat.&r"
+				""
+				"Place &6water, sugar, and the sulfur&r you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new Niter!"
+				""
+				"Alchemical Niter can be converted in the &6Reformation Array&r similar to how you convert sulfur - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!&r"
+			]
+			id: "50D60856E308EC6D"
+			min_width: 400
+			tasks: [{
+				id: "48F63F3E09BD04C1"
+				item: "theurgy:fermentation_vat"
+				type: "item"
+			}]
+			title: "Alchemical Conversion"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50D60856E308EC6D"]
+			description: [
+				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some niter and sal ammoniac (and if you're converting up, some alchemically pure gold) into it, and shift-right-click the vat to start the process! &6Four of the previous tier converts into one of the next tier, and vice versa.&r"
+				""
+				"This (in combination with the fermentation vat) allows you to convert iron sulfur into common metal niter, down into four abundant metal niter, into four copper sulfur - that's &6FOUR copper per iron!&r"
+				""
+				"This is a metal loop you could try automating..."
+				""
+				"&7Tip: you can start and stop the vats using a redstone signal!&r"
+			]
+			id: "2368485BEB03F353"
+			tasks: [{
+				id: "525FFCD223358CF7"
+				item: "theurgy:digestion_vat"
+				type: "item"
+			}]
+			title: "Alchemical Exaltation"
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"76795AD9B23ACFD7"
+				"287C747ED1189725"
+			]
+			id: "020B8F06D2C86CE3"
+			tasks: [{
+				id: "61D4BE7CF94C3895"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
 		}
 	]
 	title: "The Color Green"
