@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_sound_of_life"
+	group: ""
+	icon: "minecraft:egg"
+	id: "384351F130068923"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Sound of Life"
+}

@@ -1024,7 +1024,7 @@
 				""
 				"Getting redstone is a little more involved - you'll want to dispense a small amount of a potion of strength onto some cinder flour, obtained by crushing netherrack."
 				""
-				"&7Tip: you can also make glowstone similar to redstone - it's up to you whether you want to take the Enchanted or Create route for that!&r"
+				"&7Tip: you can also make glowstone similar to redstone with a night vision potion - it's up to you whether you want to take the Enchanted or Create route for that!&r"
 			]
 			id: "4DE7466CAC029EF6"
 			tasks: [
@@ -1132,6 +1132,7 @@
 		}
 		{
 			dependencies: ["54DFF798149BE746"]
+			description: ["The &6Mnemonic Inscriber&r, when attached to an Exchange Tablet and given paper, will automatically write down the correct combination of aspectii for a given transmutation when you successfully complete one."]
 			id: "2C3ABE081A7E1086"
 			tasks: [{
 				id: "339CBE9063E8306A"
@@ -1198,6 +1199,19 @@
 			}]
 			x: 0.0d
 			y: -11.0d
+		}
+		{
+			dependencies: ["020B8F06D2C86CE3"]
+			id: "74B478E725CDD312"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2084E401DD8EF690"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
 		}
 	]
 	title: "The Color Green"
