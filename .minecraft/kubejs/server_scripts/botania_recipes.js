@@ -200,4 +200,38 @@ ServerEvents.recipes(event => {
             "item": "minecraft:feather"
         }
     })
+
+    //botania flower seeds
+    const flower_colors = ['black', 'blue', 'brown', 'cyan', 'gray', 'green', 'light_blue', 'light_gray', 'lime', 'magenta', 'orange', 'pink', 'purple', 'red', 'white', 'yellow']
+    flower_colors.forEach(color => {
+        event.custom({
+            "type": "botania:runic_altar",
+            "ingredients": [
+                {
+                    "item": "botania:"+color+"_petal"
+                },
+                {
+                    "tag": "forge:seeds"
+                },
+                {
+                    "item": "botania:rune_earth"
+                }
+            ],
+            "mana": 2000,
+            "output": {
+                "item": "agricraft:seed",
+                "nbt": {
+                    "genes": {
+                        "fertility":{"dom":1,"rec":1},
+                        "gain":{"dom":1,"rec":1},
+                        "growth":{"dom":1,"rec":1},
+                        "mutativity":{"dom":1,"rec":1},
+                        "resistance":{"dom":10,"rec":10},
+                        "species":{"dom":"botania:"+color+"_mystical_flower","rec":"botania:"+color+"_mystical_flower"},
+                        "strength":{"dom":1,"rec":1}
+                    }
+                }
+            }
+        })
+    })
 })

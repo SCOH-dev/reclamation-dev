@@ -139,6 +139,7 @@ ServerEvents.recipes(event => {
     event.remove({id: "enchanted:ritual_chalk"})
     event.remove({id: "enchanted:witch_cauldron/golden_chalk"})
     event.remove({id: "enchanted:witch_cauldron/nether_chalk"})
+    event.remove({id: "enchanted:witch_cauldron/otherwhere_chalk"})
     event.custom({
         "type": "minecraft:crafting_shaped",
         "category": "equipment",
@@ -216,6 +217,37 @@ ServerEvents.recipes(event => {
             "item": "enchanted:nether_chalk"
         }
     }).id("enchanted:witch_cauldron/nether_chalk")
+    event.custom({
+            "type": "enchanted:witch_cauldron",
+            "cookingColor": [
+                49,
+                21,
+                74
+            ],
+            "finalColor": [
+                73,
+                13,
+                130
+            ],
+            "ingredients": [
+                {
+                    "item": "minecraft:nether_wart"
+                },
+                {
+                    "item": "enchanted:attuned_stone"
+                },
+                {
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "item": "enchanted:ritual_chalk"
+                }
+            ],
+            "power": 2000,
+            "result": {
+                "item": "enchanted:otherwhere_chalk"
+            }
+        }).id("enchanted:witch_cauldron/otherwhere_chalk")
 
     //blaze powder to gold fiber
     event.custom({

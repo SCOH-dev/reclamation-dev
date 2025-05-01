@@ -5,7 +5,6 @@
 	filename: "ffood_plants"
 	group: "2BFAC9C95DAED88B"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
 	icon: "farmersdelight:vegetable_soup"
 	id: "50D63635ACA38A6D"
 	order_index: 0
@@ -16,7 +15,6 @@
 				"6BE467B7626E5085"
 				"1B02944C57BF74FB"
 			]
-			hide_until_deps_complete: true
 			id: "32195AB6E6F75FF1"
 			tasks: [{
 				id: "0BE83A27534A9CAF"
@@ -31,6 +29,7 @@
 				"33BAEE563814DCDB"
 				"1B02944C57BF74FB"
 			]
+			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "36EF6C1E1C861A4A"
 			tasks: [{
@@ -322,6 +321,212 @@
 			}]
 			x: -2.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["0B5C8BA575972913"]
+			description: ["You can either craft poppy seeds or mutate them from Melon and Sugarcane."]
+			id: "799A3678C691BBA3"
+			tasks: [{
+				id: "274C58582A5C79DD"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"799A3678C691BBA3"
+				"79CC4BBB699E26EA"
+			]
+			id: "68536E0D3B5694E7"
+			tasks: [{
+				id: "7A6C888FBAC3C6A7"
+				item: "minecraft:allium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5FA8835DAD8496B6"
+				"22B750248FB3F5A8"
+			]
+			id: "5A5FCEAA140010D4"
+			tasks: [{
+				id: "4A721DBC832F15D6"
+				item: "minecraft:azure_bluet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"799A3678C691BBA3"
+				"5FA8835DAD8496B6"
+			]
+			id: "79CC4BBB699E26EA"
+			tasks: [{
+				id: "3E75A87A7C0C4701"
+				item: "minecraft:blue_orchid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"79CC4BBB699E26EA"
+				"22B750248FB3F5A8"
+			]
+			id: "5C3BED68010EC635"
+			tasks: [{
+				id: "35D85334148E1D8A"
+				item: "minecraft:cornflower"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B5C8BA575972913"]
+			description: ["You can either craft dandelion seeds or mutate them from Wheat and Pumpkin."]
+			id: "5FA8835DAD8496B6"
+			tasks: [{
+				id: "54BA1F933C39BE68"
+				item: "minecraft:dandelion"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5FA8835DAD8496B6"
+				"049EFFDACB56ECD5"
+			]
+			id: "22B750248FB3F5A8"
+			tasks: [{
+				id: "0B029770FD768F5B"
+				item: "minecraft:lily_of_the_valley"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"79CC4BBB699E26EA"
+				"5FA8835DAD8496B6"
+			]
+			id: "53D1E7880BE9CBF3"
+			tasks: [{
+				id: "5EAE4D059A9A04FC"
+				item: "minecraft:oxeye_daisy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5C3BED68010EC635"
+				"4917C2EEA848997D"
+			]
+			id: "76DC49A825A01D60"
+			tasks: [{
+				id: "71B53D76D691A8E1"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"53D1E7880BE9CBF3"
+				"79CC4BBB699E26EA"
+			]
+			id: "1AE9313131C60B20"
+			tasks: [{
+				id: "4C5CEF70E70401FB"
+				item: "minecraft:orange_tulip"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"799A3678C691BBA3"
+				"68536E0D3B5694E7"
+			]
+			id: "4917C2EEA848997D"
+			tasks: [{
+				id: "013CE9D82F11A9BC"
+				item: "minecraft:red_tulip"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"53D1E7880BE9CBF3"
+				"5FA8835DAD8496B6"
+			]
+			id: "049EFFDACB56ECD5"
+			tasks: [{
+				id: "18D80EB780A71777"
+				item: "minecraft:white_tulip"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5FA8835DAD8496B6"
+				"68536E0D3B5694E7"
+			]
+			id: "25E0B4ED41C1D3E9"
+			tasks: [{
+				id: "12872996722309A5"
+				item: "minecraft:pink_tulip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"799A3678C691BBA3"
+				"5C3BED68010EC635"
+			]
+			id: "1AA12EC1B3202E65"
+			tasks: [{
+				id: "133F809A32F2DA8E"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: ["You can make podzol for planting low-strength flower seeds on by growing a 2x2 of spruce saplings - the large tree will convert grass under it into podzol."]
+			icon: "minecraft:podzol"
+			id: "0B5C8BA575972913"
+			tasks: [{
+				count: 4L
+				id: "39B842A52117843D"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			title: "Podzol"
+			x: 2.0d
+			y: -2.5d
 		}
 	]
 	title: "Plants Galore"

@@ -849,7 +849,7 @@
 			]
 			title: "Knockoff Blazes"
 			x: -4.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1018,7 +1018,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["1AF1077B69E1551E"]
+			dependencies: ["27A7CD7E1613FD1B"]
 			description: [
 				"Distilling gunpowder and blaze powder in a Distillery will grant you access to glowstone!"
 				""
@@ -1041,7 +1041,7 @@
 			]
 			title: "Useful Dusts"
 			x: -5.5d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1201,17 +1201,16 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["020B8F06D2C86CE3"]
-			id: "74B478E725CDD312"
-			shape: "hexagon"
-			size: 2.0d
+			dependencies: ["1AF1077B69E1551E"]
+			description: ["You can capture a summoned blaze into a magicked cage. This cage, when placed under a basin, will let you brew potions more efficiently than a brewing stand."]
+			id: "27A7CD7E1613FD1B"
 			tasks: [{
-				id: "2084E401DD8EF690"
-				item: "minecraft:egg"
+				id: "32CA9609F24A429E"
+				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -13.0d
+			x: -5.5d
+			y: -6.0d
 		}
 	]
 	title: "The Color Green"
