@@ -2,9 +2,14 @@ ServerEvents.recipes(event => {
     //mana pool recipes to remove
     const remove_pool_ids = ['beetroot_seeds_to_melon_seeds', 'glowstone_dust_to_redstone', 'glow_berries_to_apple', 'carrot_to_beetroot_seeds', 'sweet_berries_to_glow_berries', 'cocoa_beans_to_wheat_seeds', 'potato_to_carrot', 'redstone_to_glowstone_dust', 'apple_to_sweet_berries', 'melon_seeds_to_pumpkin_seeds', 'wheat_seeds_to_potato']
     const remove_rune_ids = ['air', 'water', 'fire', 'earth', 'winter']
+    const remove_flower_ids = ['entropinnyum', 'munchdew']
 
     remove_pool_ids.forEach(id => {
         event.remove({ id: 'botania:mana_infusion/'+id})
+    })
+
+    remove_flower_ids.forEach(id => {
+        event.remove({ id: 'botania:petal_apothecary/'+id})
     })
 
     event.remove({ id: 'botania:mana_spreader'})
@@ -233,5 +238,75 @@ ServerEvents.recipes(event => {
                 }
             }
         })
+    })
+
+    //better generation flowers
+    event.custom({
+        "type": "botania:petal_apothecary",
+        "ingredients": [
+            {
+                "tag": "botania:petals/red"
+            },
+            {
+                "tag": "botania:petals/red"
+            },
+            {
+                "tag": "botania:petals/gray"
+            },
+            {
+                "tag": "botania:petals/gray"
+            },
+            {
+                "tag": "botania:petals/white"
+            },
+            {
+                "tag": "botania:petals/white"
+            },
+            {
+                "item": "botania:rune_summer"
+            },
+            {
+                "item": "botania:rune_fire"
+            }
+        ],
+        "output": {
+            "item": "botania:entropinnyum"
+        },
+        "reagent": {
+            "tag": "botania:seed_apothecary_reagent"
+        }
+    })
+
+    event.custom({
+        "type": "botania:petal_apothecary",
+        "ingredients": [
+            {
+                "tag": "botania:petals/red"
+            },
+            {
+                "tag": "botania:petals/red"
+            },
+            {
+                "tag": "botania:petals/lime"
+            },
+            {
+                "tag": "botania:petals/lime"
+            },
+            {
+                "tag": "botania:petals/green"
+            },
+            {
+                "item": "botania:rune_spring"
+            },
+            {
+                "item": "botania:rune_earth"
+            }
+        ],
+        "output": {
+            "item": "botania:munchdew"
+        },
+        "reagent": {
+            "tag": "botania:seed_apothecary_reagent"
+        }
     })
 })

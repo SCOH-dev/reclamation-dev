@@ -1,4 +1,8 @@
 ServerEvents.recipes(event => {
+    //disable cringe blocks
+    event.remove({id: 'naturesaura:time_changer'})
+    event.remove({id: 'naturesaura:weather_changer'})
+
     event.remove({ id: 'naturesaura:tree_ritual/eye'})
     event.custom({
         "type": "naturesaura:tree_ritual",
@@ -75,7 +79,7 @@ ServerEvents.recipes(event => {
             I: 'naturesaura:infused_iron',
             F: '#botania:mystical_flowers'
         }
-    )
+    ).id("reclamation:naturesaura/flower_generator")
 
     //new crumbling catalyst recipe
     event.remove({ id: 'naturesaura:tree_ritual/crushing_catalyst'})
@@ -114,7 +118,7 @@ ServerEvents.recipes(event => {
             "item": "naturesaura:crushing_catalyst"
         },
         "time": 500
-    })
+    }).id("reclamation:naturesaura/crushing_catalyst")
 
     //lead ingots
     event.custom({
@@ -141,7 +145,7 @@ ServerEvents.recipes(event => {
             "count": 2
         },
         "time": 200
-    })
+    }).id("reclamation:embers/lead_ingot")
 
     //cinder flour
     event.custom({
@@ -157,7 +161,7 @@ ServerEvents.recipes(event => {
         },
         "aura": 4000,
         "time": 200
-    })
+    }).id("reclamation:create/cinder_flour")
 
     //nerf transmutation catalyst
     event.remove({id: "naturesaura:altar/gilded_blackstone"})
@@ -195,7 +199,7 @@ ServerEvents.recipes(event => {
             "item": "naturesaura:conversion_catalyst"
         },
         "time": 200
-    })
+    }).id("reclamation:naturesaura/conversion_catalyst")
 
     //more conversion recipes
     event.custom({
@@ -225,7 +229,7 @@ ServerEvents.recipes(event => {
         },
         "aura": 2000,
         "time": 200
-    })
+    }).id("reclamation:naturesaura/altar")
 
     //offering table
     event.remove({id: "naturesaura:offering_table"})
@@ -259,5 +263,45 @@ ServerEvents.recipes(event => {
         "tablet": {
             "item": "botania:runic_altar"
         }
-    })
+    }).id("reclamation:naturesaura/offering_table")
+
+    //calling spirit
+    event.remove({id: "naturesaura:calling_spirit"})
+    event.custom({"type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            49,
+            21,
+            74
+        ],
+        "finalColor": [
+            73,
+            13,
+            130
+        ],
+        "ingredients": [
+            {
+                "item": "naturesaura:aura_bottle",
+                "nbt": {
+                    "stored_type": "naturesaura:nether"
+                }
+            },
+            {
+                "item": "naturesaura:aura_bottle",
+                "nbt": {
+                    "stored_type": "naturesaura:overworld"
+                }
+            },
+            {
+                "item": "naturesaura:tainted_gold"
+            },
+            {
+                "item": "enchanted:whiff_of_magic"
+            }
+        ],
+        "power": 2000,
+        "result": {
+            "item": "naturesaura:calling_spirit",
+            "count": 4
+        }
+    }).id("reclamation:naturesaura/calling_spirit")
 })

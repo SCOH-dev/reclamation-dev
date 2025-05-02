@@ -87,28 +87,28 @@ ServerEvents.recipes(event => {
 
     //pasture seeds through ritual
     event.custom({
-         "type": "naturesaura:tree_ritual",
-         "ingredients": [
-             {
-                 "item": "minecraft:hay_block"
-             },
-             {
-                 "tag": "forge:seeds"
-             },
-             {
-                 "item": "enchanted:hint_of_rebirth"
-             },
-             {
-                 "item": "enchanted:breath_of_the_goddess"
-             }
-         ],
-         "sapling": {
-             "item": "minecraft:birch_sapling"
-         },
-         "output": {
-             "item": "botania:grass_seeds"
-         },
-         "time": 250
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "minecraft:hay_block"
+            },
+            {
+                "tag": "forge:seeds"
+            },
+            {
+                "item": "enchanted:hint_of_rebirth"
+            },
+            {
+                "item": "enchanted:breath_of_the_goddess"
+            }
+        ],
+        "sapling": {
+            "item": "minecraft:birch_sapling"
+        },
+        "output": {
+            "item": "botania:grass_seeds"
+        },
+        "time": 250
     })
 
     //gold nether ore from bricks
@@ -130,5 +130,94 @@ ServerEvents.recipes(event => {
         'AAA'
     ], {
         A: 'kubejs:flimsy_planks'
+    })
+
+    //feather-flesh amalgam
+    event.custom({
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "minecraft:feather"
+            },
+            {
+                "item": "minecraft:feather"
+            },
+            {
+                "item": "minecraft:feather"
+            },
+            {
+                "item": "minecraft:feather"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            },
+        ],
+        "sapling": {
+            "item": "minecraft:oak_sapling"
+        },
+        "output": {
+            "item": "kubejs:feather_flesh_amalgam"
+        },
+        "time": 250
+    })
+
+    //blooded amalgam
+    event.custom({
+        "type": "theurgy:liquefaction",
+        "ingredient": {
+            "item": "kubejs:feather_flesh_amalgam"
+        },
+        "liquefaction_time": 100,
+        "result": {
+            "count": 1,
+            "item": "kubejs:blooded_amalgam"
+        },
+        "solvent": {
+            "fluid": "kubejs:hemoglobic_fluid"
+        },
+        "solvent_amount": 1000
+    })
+
+    //mana amalgam
+    event.custom({
+        "type": "botania:runic_altar",
+        "ingredients": [
+            {
+                "tag": "botania:mana_dusts"
+            },
+            {
+                "item": "botania:grass_seeds"
+            },
+            {
+                "item": "kubejs:blooded_amalgam"
+            }
+        ],
+        "mana": 4000,
+        "output": {
+            "item": "kubejs:mana_amalgam"
+        }
+    })
+
+    //chicken spawn egg
+    event.custom({
+        "type": "naturesaura:offering",
+        "input": {
+            "item": "kubejs:infused_amalgam"
+        },
+        "start_item": {
+            "item": "naturesaura:calling_spirit"
+        },
+        "output": {
+            "item": "minecraft:chicken_spawn_egg"
+        }
     })
 })

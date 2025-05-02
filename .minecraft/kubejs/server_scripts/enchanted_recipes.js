@@ -269,4 +269,25 @@ ServerEvents.recipes(event => {
             "item": "naturesaura:gold_fiber"
         }
     })
+
+    //redstone
+    event.custom({
+        "type": "enchanted:distilling",
+        "cookTime": 300,
+        "ingredients": [
+            {
+                "item": "minecraft:blaze_powder"
+            },
+            {
+                "item": "create:cinder_flour"
+            }
+        ],
+        "power": 750,
+        "results": [
+            {
+                "count": 2,
+                "item": "minecraft:redstone_dust"
+            }
+        ]
+    })
 })

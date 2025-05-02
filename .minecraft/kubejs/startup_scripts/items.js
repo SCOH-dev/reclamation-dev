@@ -6,6 +6,19 @@ StartupEvents.registry('item', event => {
         .displayName('Scrap Wood')
         .burnTime('100')
 
+    event.create('feather_flesh_amalgam')
+        .displayName('Feather-Flesh Amalgam')
+
+    event.create('blooded_amalgam')
+        .displayName("Blooded Amalgam")
+
+    event.create('mana_amalgam')
+        .displayName("Mana-Dosed Amalgam")
+
+    event.create('infused_amalgam')
+        .displayName("Infused Amalgam")
+        .glow(true)
+
     //theurgy stuff
     event.create('sulfur_dirt', 'theurgy:alchemical_sulfur')
         .sourceItem('minecraft:dirt')

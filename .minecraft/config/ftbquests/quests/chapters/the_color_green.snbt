@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "the_color_green"
 	group: ""
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:grass_block"
 	id: "40E17D40DC433CF2"
 	order_index: 2
@@ -853,39 +854,35 @@
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
-			description: ["There are a variety of ways you can process materials using andesite-based machinery; &6compacting, mixing, pressing, and heating.&r You'll need to find some way to capture a fire elemental, though; &bmaybe mana can help you somehow?&r"]
+			description: ["There are a few other ways you can process materials using andesite-based machinery; namely, &6compacting, pressing, and mixing&r You'll need to find some way to capture a fire elemental if you want to expand your repertoire, though; &bmaybe mana can help you somehow?&r"]
 			icon: "create:basin"
 			id: "2A32CE924C9CB606"
+			optional: true
 			tasks: [
 				{
-					id: "25F031F449DAA1CD"
-					item: "create:mechanical_mixer"
-					type: "item"
-				}
-				{
-					id: "76106B04FDE199F3"
-					item: "create:mechanical_press"
-					type: "item"
-				}
-				{
-					id: "005D8CF7791E69A9"
+					id: "0FB8A5B0F06E426D"
 					item: "create:basin"
 					type: "item"
 				}
 				{
-					id: "3530E1797277893F"
-					item: "create:blaze_burner"
+					id: "6B5791E93915EAF5"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "178C2463E234E6A2"
+					item: "create:mechanical_press"
 					type: "item"
 				}
 			]
 			title: "Mechanical Crafting"
-			x: 6.0d
-			y: -3.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"17089FF12C1591B8"
 				"00448B9AC0FC3F5D"
+				"17089FF12C1591B8"
 			]
 			description: [
 				"By blowing air through certain things, you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
@@ -903,6 +900,11 @@
 				{
 					id: "55F8484DFCFD7029"
 					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "452FBDCD430ED783"
+					item: "create:hand_crank"
 					type: "item"
 				}
 			]
@@ -959,6 +961,7 @@
 			dependencies: ["17089FF12C1591B8"]
 			description: ["A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power - &6it is much faster than the ember-fueled one!"]
 			id: "2E0F026AB59D83B5"
+			optional: true
 			tasks: [{
 				id: "5E548AA09A77547C"
 				item: "create:mechanical_pump"
@@ -1018,13 +1021,13 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["27A7CD7E1613FD1B"]
+			dependencies: ["1AF1077B69E1551E"]
 			description: [
-				"Distilling gunpowder and blaze powder in a Distillery will grant you access to glowstone!"
+				"Distilling blaze powder and gunpowder together in a Distillery will grant you access to glowstone!"
 				""
-				"Getting redstone is a little more involved - you'll want to dispense a small amount of a potion of strength onto some cinder flour, obtained by crushing netherrack."
+				"Getting redstone is similar, using cinder flour in place of gunpowder."
 				""
-				"&7Tip: you can also make glowstone similar to redstone with a night vision potion - it's up to you whether you want to take the Enchanted or Create route for that!&r"
+				"&7Tip: you can also make glowstone and redstone with strength and night vision potions - it's up to you whether you want to take the Enchanted or Create route for these!&r"
 			]
 			id: "4DE7466CAC029EF6"
 			tasks: [
@@ -1041,7 +1044,7 @@
 			]
 			title: "Useful Dusts"
 			x: -5.5d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1049,7 +1052,9 @@
 				"0BD99D6E0D93E05F"
 				"2E0F026AB59D83B5"
 			]
+			description: ["Once you have a pump, you can create a &6Spout&r to dispense liquid onto items - this is a possible way to make &6glowstone or redstone,&r if you're willing to set up the infrastructure."]
 			id: "15AB65CE5C0B95CC"
+			optional: true
 			tasks: [{
 				id: "63B514655C769766"
 				item: "create:spout"
@@ -1065,7 +1070,7 @@
 				""
 				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and log types into other log types!"
 				""
-				"&6Notably, it lets you turn flax into feathers...&r"
+				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear...&r"
 			]
 			id: "76795AD9B23ACFD7"
 			tasks: [{
@@ -1098,6 +1103,7 @@
 			dependencies: ["17089FF12C1591B8"]
 			description: ["The &6Millstone&r can crush cobble into gravel, bones into bone meal, and a variety of plants into their respective dyes at a much higher rate of return."]
 			id: "26942D2DF8C8AF91"
+			optional: true
 			tasks: [{
 				id: "143D8425B45D3807"
 				item: "create:millstone"
@@ -1191,12 +1197,27 @@
 				"76795AD9B23ACFD7"
 				"287C747ED1189725"
 			]
+			description: [
+				"The &6Offering Table&r is a special altar that will allow you to convert items into special empowered versions of themselves, most notably tokens and nature-infused ingots."
+				""
+				"To use it, simply place whatever you want to infuse into it by right-clicking, then shift-right click with a &6Spirit of Calling&r in your hand to activate it. "
+				""
+				"&7Tip: You can convert more than one item at a time, using only one spirit of calling!&r"
+			]
+			icon: "naturesaura:offering_table"
 			id: "020B8F06D2C86CE3"
-			tasks: [{
-				id: "61D4BE7CF94C3895"
-				item: "naturesaura:offering_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61D4BE7CF94C3895"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+				{
+					id: "68D4AE8BB5F3FE48"
+					item: "naturesaura:calling_spirit"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -11.0d
 		}
@@ -1204,13 +1225,83 @@
 			dependencies: ["1AF1077B69E1551E"]
 			description: ["You can capture a summoned blaze into a magicked cage. This cage, when placed under a basin, will let you brew potions more efficiently than a brewing stand."]
 			id: "27A7CD7E1613FD1B"
+			optional: true
 			tasks: [{
 				id: "32CA9609F24A429E"
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -3.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["020B8F06D2C86CE3"]
+			description: ["This is it. Using the power of the &6Offering Altar,&r and some magically significant materials, you can create the basis of real, (debatably) sentient life - a chicken egg."]
+			icon: "minecraft:chicken_spawn_egg"
+			id: "1C7C9A1F11DE819B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "462012BB2A30BE57"
+					item: "kubejs:feather_flesh_amalgam"
+					type: "item"
+				}
+				{
+					id: "040064ECC88AE724"
+					item: "kubejs:blooded_amalgam"
+					type: "item"
+				}
+				{
+					id: "46327E4C8BDADEF4"
+					item: "kubejs:mana_amalgam"
+					type: "item"
+				}
+				{
+					id: "46EDB244AC746667"
+					item: "kubejs:infused_amalgam"
+					type: "item"
+				}
+				{
+					id: "2CD3CFE847F27E3A"
+					item: "minecraft:chicken_spawn_egg"
+					type: "item"
+				}
+			]
+			title: "Sentient Life"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
+			description: [
+				"With runes, there are a few other options you have for generating mana:"
+				""
+				"* A Thermalily generates bursts of mana using lava, but will consume lava for no gain if you give it too much"
+				"* An Entropinnyum consumes TNT explosions, but too often and it'll just blow itself up"
+				"* A Munchdew consumes leaves, but does not drop saplings."
+			]
+			id: "6FAB85F509199CA8"
+			tasks: [
+				{
+					id: "7FBBEAD125CEBC23"
+					item: "botania:entropinnyum"
+					type: "item"
+				}
+				{
+					id: "5651681BBC5CDDF3"
+					item: "botania:thermalily"
+					type: "item"
+				}
+				{
+					id: "39588C89BC26A419"
+					item: "botania:munchdew"
+					type: "item"
+				}
+			]
+			title: "Alternative Mana Sources"
+			x: -5.5d
+			y: -3.0d
 		}
 	]
 	title: "The Color Green"
