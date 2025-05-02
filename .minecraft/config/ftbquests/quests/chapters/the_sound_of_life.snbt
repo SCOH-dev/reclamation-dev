@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 280
 	default_quest_shape: ""
 	filename: "the_sound_of_life"
 	group: ""
@@ -7,21 +8,59 @@
 	id: "384351F130068923"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["1C7C9A1F11DE819B"]
-		disable_toast: true
-		hide_until_deps_complete: true
-		id: "7540F4407477DCAF"
-		shape: "hexagon"
-		tasks: [{
+	quests: [
+		{
+			dependencies: ["1C7C9A1F11DE819B"]
 			disable_toast: true
-			id: "5AEA0525E5C56793"
-			item: "minecraft:chicken_spawn_egg"
-			type: "item"
-		}]
-		title: "Sentient Life"
-		x: 0.0d
-		y: 0.0d
-	}]
+			hide_until_deps_complete: true
+			id: "7540F4407477DCAF"
+			shape: "hexagon"
+			tasks: [{
+				disable_toast: true
+				id: "5AEA0525E5C56793"
+				item: "minecraft:chicken_spawn_egg"
+				type: "item"
+			}]
+			title: "Sentient Life"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7540F4407477DCAF"]
+			description: [
+				"Now that you have access to a breedable animal, you can utilize their excess vitalic energy to birth new creatures. "
+				""
+				"In an area with high Aura concentration, breeding mobs together will generate &6Spirits of Birthing.&r These spirits can be used alongside some other reagents on an &6Altar of Birthing&r to spawn new creatures."
+			]
+			icon: "naturesaura:animal_spawner"
+			id: "4985B07F3FA59210"
+			tasks: [
+				{
+					id: "378D137178E97CA0"
+					item: "naturesaura:animal_spawner"
+					type: "item"
+				}
+				{
+					id: "75333D5557211687"
+					item: "naturesaura:birth_spirit"
+					type: "item"
+				}
+			]
+			title: "Altar of Birthing"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4985B07F3FA59210"]
+			id: "5BA4D10C27AEF8D3"
+			tasks: [{
+				id: "3A98D1B67B87A918"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
 	title: "The Sound of Life"
 }

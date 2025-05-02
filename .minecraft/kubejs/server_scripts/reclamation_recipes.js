@@ -217,7 +217,8 @@ ServerEvents.recipes(event => {
             "item": "naturesaura:calling_spirit"
         },
         "output": {
-            "item": "minecraft:chicken_spawn_egg"
+            "item": "minecraft:chicken_spawn_egg",
+            "Count": 2
         }
     })
 })
