@@ -591,6 +591,24 @@
 			x: -3.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["389C82D9424B4099"]
+			description: ["Now that you have access to iron, you can make a &6watering can.&r Higher-tier versions are still out of reach for now, but the basic version can still speed up the growth of crops."]
+			id: "20CBC9AFA7C23F45"
+			tasks: [{
+				id: "52A0EA2EAB67CF45"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:watering_can"
+					tag: {
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
 	]
 	title: "A Taste of Normal"
 }

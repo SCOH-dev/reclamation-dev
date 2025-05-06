@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     //disable cringe blocks
     event.remove({id: 'naturesaura:time_changer'})
     event.remove({id: 'naturesaura:weather_changer'})
+    event.remove({type: 'naturesaura:animal_spawner'})
 
     event.remove({ id: 'naturesaura:tree_ritual/eye'})
     event.custom({
@@ -304,4 +305,78 @@ ServerEvents.recipes(event => {
             "count": 4
         }
     }).id("reclamation:naturesaura/calling_spirit")
+
+    event.remove({id: "naturesaura:altar/infused_stone"})
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "botania:livingrock"
+        },
+        "output": {
+            "item": "naturesaura:infused_stone"
+        },
+        "aura": 7500,
+        "time": 40
+    })
+
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:brown_petal"
+            },
+            {
+                "item": "botania:gray_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:cow",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:red_petal"
+            },
+            {
+                "item": "botania:pink_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:pig",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:white_petal"
+            },
+            {
+                "item": "botania:pink_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:sheep",
+        "aura": 30000,
+        "time": 40
+    })
 })

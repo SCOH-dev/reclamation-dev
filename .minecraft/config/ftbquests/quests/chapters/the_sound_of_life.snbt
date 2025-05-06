@@ -11,8 +11,10 @@
 	quests: [
 		{
 			dependencies: ["1C7C9A1F11DE819B"]
+			description: ["Debatably sentient life in the form of chickens! Even more importantly, these chickens will produce &6eggs,&r the root of all fauna."]
 			disable_toast: true
 			hide_until_deps_complete: true
+			icon: "heads:chicken_head"
 			id: "7540F4407477DCAF"
 			shape: "hexagon"
 			tasks: [{
@@ -30,7 +32,7 @@
 			description: [
 				"Now that you have access to a breedable animal, you can utilize their excess vitalic energy to birth new creatures. "
 				""
-				"In an area with high Aura concentration, breeding mobs together will generate &6Spirits of Birthing.&r These spirits can be used alongside some other reagents on an &6Altar of Birthing&r to spawn new creatures."
+				"In an area with high Aura concentration, &6breeding mobs together&r will generate &6Spirits of Birthing.&r These spirits can be tossed alongside some other reagents onto an &6Altar of Birthing&r to spawn new creatures."
 			]
 			icon: "naturesaura:animal_spawner"
 			id: "4985B07F3FA59210"
@@ -47,19 +49,133 @@
 				}
 			]
 			title: "Altar of Birthing"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7540F4407477DCAF"]
+			description: [
+				"Blood magic is a pathway to many abilities some consider to be unnatural."
+				""
+				"To start, make a few &6soul snares&r and &6throw them at monsters before killing them.&r These snared monsters will drop &6demonic will&r, which you'll need to get started!"
+			]
+			icon: "bloodmagic:altar"
+			id: "3A8632BAEA799385"
+			rewards: [{
+				id: "49B0F3E7D9AA87A4"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2322AC4E4EDB3B43"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+				{
+					id: "023C107E83217755"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+			]
+			title: "Blood Magic"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["4985B07F3FA59210"]
-			id: "5BA4D10C27AEF8D3"
-			tasks: [{
-				id: "3A98D1B67B87A918"
-				item: "bloodmagic:altar"
-				type: "item"
-			}]
+			dependencies: ["3A8632BAEA799385"]
+			description: [
+				"One of the most common things you'll need in the pursuit of sanguine magic is a base material of stone doped in blood - excellent for channelling these dark energies."
+				""
+				"Make a few to upgrade your blood altar!"
+			]
+			icon: "bloodmagic:blankslate"
+			id: "377BF30FBED5AA32"
+			tasks: [
+				{
+					id: "2FEA1AFEAC08E4B2"
+					item: "bloodmagic:blankslate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "56C741E6855EBB85"
+					item: { Count: 8, id: "bloodmagic:blankrune" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["377BF30FBED5AA32"]
+			description: ["The Hellfire Forge allows you to use Demonic Will to craft special items."]
+			id: "74EFFC6EDDE055CC"
+			tasks: [{
+				id: "4A3C365B974B4686"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["377BF30FBED5AA32"]
+			icon: "bloodmagic:weakbloodorb"
+			id: "7BDAAB04F6FD0786"
+			tasks: [{
+				id: "7D25CF3CC20E3F95"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:weakbloodorb"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:apprenticebloodorb"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:magicianbloodorb"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:masterbloodorb"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:archmagebloodorb"
+							}
+						]
+					}
+				}
+				title: "Any Blood Orb"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BDAAB04F6FD0786"]
+			id: "6E3C1D562EF8899E"
+			tasks: [{
+				id: "221D12F2D212528C"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
 		}
 	]
 	title: "The Sound of Life"

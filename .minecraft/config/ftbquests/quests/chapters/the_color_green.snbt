@@ -12,7 +12,7 @@
 	quests: [
 		{
 			dependencies: ["600A7F0DFD880119"]
-			description: ["You've done it! You finally have grass. It's not exactly green, but you can fertilize it and get flowers!"]
+			description: ["You've done it! You finally have grass. It's not exactly green, but you can bonemeal a large area of it and get flowers!"]
 			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "minecraft:grass_block"
@@ -905,6 +905,7 @@
 				{
 					id: "452FBDCD430ED783"
 					item: "create:hand_crank"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1237,7 +1238,7 @@
 		{
 			dependencies: ["020B8F06D2C86CE3"]
 			description: ["This is it. Using the power of the &6Offering Altar,&r and some magically significant materials, you can create the basis of real, (debatably) sentient life - chicken eggs."]
-			icon: "minecraft:chicken_spawn_egg"
+			icon: "heads:chicken_head"
 			id: "1C7C9A1F11DE819B"
 			shape: "hexagon"
 			size: 2.0d

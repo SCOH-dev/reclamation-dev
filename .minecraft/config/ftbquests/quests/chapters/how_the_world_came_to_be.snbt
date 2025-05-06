@@ -135,6 +135,8 @@
 				"In the contaminated water you have found trace amounts of &6Sal Ammoniac,&r a crucial ingredient in the practice of &6Theurgy.&r By setting up a simple accumulator and tank, you think you'll be able to distill it. "
 				""
 				"Place the accumulator on top of the tank, fill it with water, and it will slowly produce Sal Ammoniac&6 for you."
+				""
+				"&7Tip: you can make buckets out of copper!&r"
 			]
 			icon: "theurgy:sal_ammoniac_accumulator"
 			id: "01AB2D65C171F1F9"
