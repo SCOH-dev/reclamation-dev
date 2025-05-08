@@ -46,4 +46,43 @@ ServerEvents.recipes(event => {
         M: 'botania:manasteel_ingot',
         I: 'naturesaura:infused_stone'
     })
+
+    event.remove({id: 'bloodmagic:soulforge/pettytartaricgem'})
+    event.remove({
+        "type": "bloodmagic:soulforge",
+        "drain": 1.0,
+        "input0": {
+            "tag": "forge:dusts/redstone"
+        },
+        "input1": {
+            "tag": "forge:ingots/gold"
+        },
+        "input2": {
+            "item": "botania:mana_glass"
+        },
+        "input3": {
+            "item": "embers:dawnstone_ingot"
+        },
+        "minimumDrain": 1.0,
+        "output": {
+            "item": "bloodmagic:soulgempetty"
+        }
+    })
+
+    event.remove({id: 'bloodmagic:arc/reversion/weak_blood_orb'})
+    event.custom({
+        "type": "bloodmagic:arc",
+        "consumeingredient": true,
+        "input": {
+            "item": "bloodmagic:weakbloodorb"
+        },
+        "inputsize": 1,
+        "mainoutputchance": 0.0,
+        "output": {
+            "item": "botania:mana_pearl"
+        },
+        "tool": {
+            "tag": "bloodmagic:arc/reverter"
+        }
+    })
 })

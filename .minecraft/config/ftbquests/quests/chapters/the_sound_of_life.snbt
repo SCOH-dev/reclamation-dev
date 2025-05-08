@@ -93,7 +93,7 @@
 			description: [
 				"One of the most common things you'll need in the pursuit of sanguine magic is a base material of stone doped in blood - excellent for channelling these dark energies."
 				""
-				"Make a few to upgrade your blood altar!"
+				"You'll need to make quite a few to upgrade your blood altar!"
 			]
 			icon: "bloodmagic:blankslate"
 			id: "377BF30FBED5AA32"
@@ -116,13 +116,30 @@
 		}
 		{
 			dependencies: ["377BF30FBED5AA32"]
-			description: ["The Hellfire Forge allows you to use Demonic Will to craft special items."]
+			description: [
+				"The &6Hellfire Forge&r allows you to use Demonic Will to craft special items."
+				""
+				"One of the first things you'll want to make is a &6soul gem&r - these special gems can store demonic will you pick up without clogging your inventory."
+			]
+			icon: "bloodmagic:soulforge"
 			id: "74EFFC6EDDE055CC"
-			tasks: [{
-				id: "4A3C365B974B4686"
-				item: "bloodmagic:soulforge"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4A3C365B974B4686"
+					item: "bloodmagic:soulforge"
+					type: "item"
+				}
+				{
+					id: "4BF3F3DFD146D313"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulgempetty"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -4.0d
 		}
@@ -176,6 +193,171 @@
 			}]
 			x: 2.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["6E3C1D562EF8899E"]
+			description: [
+				"&6Arcane Ashes,&r made on the Alchemy Table, can be used to perform some basic alchemy without having to re-enter the field of Spagyrics."
+				""
+				"One of the first things you'll want to use this for is making the &6Divination Sigil,&r which tells you useful information about the amount of life essence you have access to."
+			]
+			icon: {
+				Count: 1
+				id: "bloodmagic:arcaneashes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72F1440343A758D8"
+			tasks: [
+				{
+					id: "0E2A07C6AECA444F"
+					item: {
+						Count: 1
+						id: "bloodmagic:arcaneashes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1727DB6E02D0E659"
+					item: "bloodmagic:divinationsigil"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["74EFFC6EDDE055CC"]
+			description: ["The &6Sentient Sword&r is a much easier way for you to acquire will - instead of having to throw soul snares at enemies, the sword has the &6inherent ability to sever souls&r from their fleshy (or bony) prisons."]
+			id: "068189D12DAB75B0"
+			tasks: [{
+				id: "0D1EC37A7692E55D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["377BF30FBED5AA32"]
+			description: [
+				"You can upgrade your blood altar by placing runes around it - your &6Sanguine Scientiem&r can give you specifics. A tier 2 altar can create &6Reinforced Slates!&r"
+				""
+				"Used for creating special runes that give your blood altar benefits, among other things, they are just that much more potent than a regular blank slate."
+			]
+			icon: "bloodmagic:reinforcedslate"
+			id: "7CF9CB3E4AC5A7DA"
+			tasks: [
+				{
+					id: "3E7417224DA9B862"
+					item: "bloodmagic:reinforcedslate"
+					type: "item"
+				}
+				{
+					id: "6C36EDFD7F9F9B22"
+					item: "bloodmagic:sacrificerune"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6880E08E93759140"
+					item: "bloodmagic:selfsacrificerune"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Tier 2 Altar"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CF9CB3E4AC5A7DA"]
+			description: [
+				"A tier 3 altar can create &6Imbued Slates.&r"
+				""
+				"Even stronger than the reinforced version, they can make even better rune upgrades for your blood altar, as well as the &6Alchemical Reaction Chamber.&r"
+			]
+			icon: "bloodmagic:infusedslate"
+			id: "574FE16E5404A3D0"
+			tasks: [
+				{
+					id: "37B254916A987B8E"
+					item: "bloodmagic:infusedslate"
+					type: "item"
+				}
+				{
+					id: "26B9BD610BECEDF3"
+					item: "bloodmagic:altarcapacityrune"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Tier 3 Altar"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["574FE16E5404A3D0"]
+			description: ["The &6Alchemical Reaction Chamber&r is capable of a great many things, but one of the most important is its ability to produce gems - &6diamond, lapis, and amethyst.&r"]
+			id: "5E16957A5151E858"
+			tasks: [{
+				id: "1A32582B9A5D1ED4"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E16957A5151E858"]
+			description: [
+				"With access to diamonds (and subsequently, mana diamonds), you can make a &6Tainted Blood Pendant,&r which you can then infuse with &6Regeneration!&r"
+				""
+				"This makes poking yourself for life essence much more bearable..."
+			]
+			id: "703F201AB6A704B3"
+			optional: true
+			tasks: [{
+				id: "7FB8C827063802D3"
+				item: "botania:blood_pendant"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E16957A5151E858"]
+			id: "22F15EC1DF24B1D8"
+			tasks: [
+				{
+					id: "5032798879F66104"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3BB1A7C07E3F5376"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "68F95184800330D3"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Gems!"
+			x: -1.5d
+			y: -6.0d
 		}
 	]
 	title: "The Sound of Life"

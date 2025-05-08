@@ -379,4 +379,38 @@ ServerEvents.recipes(event => {
         "aura": 30000,
         "time": 40
     })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:chicken",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:gray_petal"
+            },
+            {
+                "item": "botania:white_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:goat",
+        "aura": 30000,
+        "time": 40
+    })
 })

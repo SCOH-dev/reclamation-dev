@@ -587,6 +587,8 @@
 				"One of the main ways to channel altar power is through the practice of &6circle magic.&r Each ritual has a gold chalk glyph at its center, but the placement of other chalk glyphs changes depending on what kind of ritual you want to perform!"
 				""
 				"Most rituals can target a remote area using a waystone (blooded or otherwise), and some rituals can even be performed away from the altar by adding a charged attuned stone to them!&6 Read through the two reward books to find out what rituals you can perform.&r"
+				""
+				"&7Tip: The ritual of fertility is a very cheap way to mass-bonemeal plants!&r"
 			]
 			icon: {
 				Count: 1
@@ -1303,6 +1305,37 @@
 			title: "Alternative Mana Sources"
 			x: -5.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["2F210E03731A0E21"]
+			description: [
+				"Now that you can turn sulfurs into other sulfurs, you can manually reconstitute &6silver sulfur&r and use the &6Reformation Array&r to turn gold sulfur into silver sulfur without having to re-make the sulfur over and over again!"
+				""
+				"&7Tip: sulfur sulfur sulfur sulfur&r"
+			]
+			icon: "embers:silver_ingot"
+			id: "462683FE563F6689"
+			tasks: [
+				{
+					id: "2CC1C9C3C4AE5B0C"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_silver"
+						tag: {
+							"theurgy:sulfur.source.id": "#forge:ingots/silver"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E4A50C682ABED03"
+					item: "embers:silver_ingot"
+					type: "item"
+				}
+			]
+			title: "Moon Metal"
+			x: 6.5d
+			y: -6.0d
 		}
 	]
 	title: "The Color Green"

@@ -221,4 +221,33 @@ ServerEvents.recipes(event => {
             "Count": 2
         }
     })
+
+    //silver sulfur
+    event.custom({
+        "type": "botania:runic_altar",
+        "ingredients": [
+            {
+                "tag": "botania:mana_dusts"
+            },
+            {
+                "item": "embers:dawnstone_ingot"
+            },
+            {
+                "item": "embers:ember_crystal"
+            },
+            {
+                "item": "enchanted:whiff_of_magic"
+            },
+            {
+                "item": "enchanted:gypsum"
+            }
+        ],
+        "mana": 4000,
+        "output": {
+            "item": "theurgy:alchemical_sulfur_silver",
+            "nbt": {
+                "theurgy:sulfur.source.id": "#forge:ingots/silver"
+            }
+        }
+    })
 })
