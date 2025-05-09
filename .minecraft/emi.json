@@ -14,9 +14,17 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "complicated_bees:comb",
+      "nbt": "{comb_type:\"reclamation:deprived\"}",
+      "chance": 0.3
+    },
+    "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"dry\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"shortest\",dominant:1b},\"complicated_bees:productivity\":{data:\"slowest\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:wasteland\",dominant:1b},\"complicated_bees:temperature\":{data:\"hot\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"dry\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"shortest\",dominant:1b},\"complicated_bees:productivity\":{data:\"slowest\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:wasteland\",dominant:1b},\"complicated_bees:temperature\":{data:\"hot\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"reclamation:wasteland\"}",
+    "item:complicated_bees:drone{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"shorter\",dominant:1b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"complicated_bees:common\",dominant:1b},\"complicated_bees:temperature\":{data:\"normal\",dominant:1b,tolerance:\"BOTH_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"shorter\",dominant:1b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"complicated_bees:common\",dominant:1b},\"complicated_bees:temperature\":{data:\"normal\",dominant:1b,tolerance:\"BOTH_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:common\"}",
     "item:bloodmagic:coalsand",
     "#item:forge:dusts/coal",
-    "item:bloodmagic:explosivepowder",
+    "item:bloodmagic:explosivepowder{Damage:0}",
     "#item:bloodmagic:arc/explosive",
     "item:bloodmagic:alchemicalreactionchamber",
     "item:naturesaura:animal_spawner",
@@ -1446,6 +1454,8 @@
     "item:minecraft:exposed_cut_copper"
   ],
   "craft_history": [
+    "minecraft:kjs/flimsy_planks",
+    "minecraft:kjs/scrap_wood",
     "exposure:developing_black_and_white_film",
     "naturesaura:ancient_planks",
     "embers:lead_ingot_to_nugget",
@@ -1453,17 +1463,15 @@
     "exposure:photograph_aging",
     "quark:tweaks/crafting/utility/tools/stone_pickaxe",
     "farmersdelight:cutting_board",
-    "minecraft:kjs/flimsy_planks",
-    "minecraft:kjs/scrap_wood",
     "minecraft:wooden_pickaxe",
     "minecraft:wooden_axe",
     "minecraft:crafting_table"
   ],
   "recipe_defaults": {
     "added": [
+      "jei:/create/filling/redstone",
       "minecraft:kjs/enchanted_ritual_chalk",
-      "jei:/enchanted/witch_cauldron/golden_chalk",
-      "jei:/create/filling/redstone"
+      "jei:/enchanted/witch_cauldron/golden_chalk"
     ],
     "tags": {},
     "resolutions": {},

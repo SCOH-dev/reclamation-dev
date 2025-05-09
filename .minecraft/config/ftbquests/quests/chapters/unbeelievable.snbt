@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unbeelievable"
+	group: "2BFAC9C95DAED88B"
+	id: "542A8FE23A71DEB2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["29CB5767DE978673"]
+		hide_until_deps_complete: true
+		id: "3BAA2A254E052AC1"
+		shape: "hexagon"
+		tasks: [{
+			id: "594A083F3875943D"
+			item: "complicated_bees:apiary"
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
+	title: "Bee Kind"
+}

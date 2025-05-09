@@ -1,5 +1,14 @@
 {
   "description.agricraft.agricraft.cuprosia": "A special flower that can harvest trace amounts of copper from water.",
   "rite.reclamation.blaze_cage": "Create Blaze Cage",
-  "rite.reclamation.infuse_amalgam": "Infuse Amalgam"
+  "rite.reclamation.infuse_amalgam": "Infuse Amalgam",
+
+  "species.complicated_bees.reclamation:wasteland": "Wasteland",
+  "species.complicated_bees.reclamation:wasteland.genus": "Desapis",
+  "species.complicated_bees.reclamation:wasteland.species_taxonomy": "D. eremus",
+  "species.complicated_bees.reclamation:wasteland.authority": "Ayse Eigh",
+  "species.complicated_bees.reclamation:wasteland.flavor_text": "These remnants of a once-proud clade are all that remain.",
+  "species.complicated_bees.reclamation:wasteland.flavor_author": "a torn page",
+
+  "comb.complicated_bees.reclamation:deprived": "Deprived"
 }

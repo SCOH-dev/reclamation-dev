@@ -12,7 +12,7 @@
 	quests: [
 		{
 			dependencies: ["600A7F0DFD880119"]
-			description: ["You've done it! You finally have grass. It's not exactly green, but you can bonemeal a large area of it and get flowers!"]
+			description: ["You've done it! You finally have grass. It's not exactly green, but you can &6bonemeal&r a large area of it and &6get flowers!&r"]
 			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "minecraft:grass_block"
@@ -1336,6 +1336,18 @@
 			title: "Moon Metal"
 			x: 6.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["226F9F21A941389C"]
+			id: "29CB5767DE978673"
+			shape: "rsquare"
+			tasks: [{
+				id: "667EC7506FF86C39"
+				item: "complicated_bees:apiary"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "The Color Green"
