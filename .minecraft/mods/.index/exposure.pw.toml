@@ -1,16 +1,16 @@
-filename = 'exposure-1.20.1-1.7.7-forge.jar'
+filename = 'exposure-1.20.1-1.7.13-forge.jar'
 name = 'Exposure'
 side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'eda99c8659c675f2b3a9362129a061c4c11f7b2f'
+hash = 'd02564001309a6129f519c6fcbf9f920e6d2036b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5751145
+file-id = 6436177
 project-id = 871755
