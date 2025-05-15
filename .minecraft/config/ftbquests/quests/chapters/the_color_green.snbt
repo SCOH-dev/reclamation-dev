@@ -1280,11 +1280,14 @@
 			description: [
 				"With runes, there are a few other options you have for generating mana:"
 				""
-				"* A Thermalily generates bursts of mana using lava, but will consume lava for no gain if you give it too much"
-				"* An Entropinnyum consumes TNT explosions, but too often and it'll just blow itself up"
-				"* A Munchdew consumes leaves, but does not drop saplings."
+				"* A &6Thermalily&r generates bursts of mana using lava, but will consume lava for no gain if you give it lava too often"
+				"* An &6Entropinnyum&r consumes TNT explosions (and is one of the best generating flowers in the game), but too often and it'll just blow itself up"
+				"* A &6Munchdew&r consumes leaves, but does not drop saplings."
+				""
+				"&7Tip: some flowers will generate too much mana for a basic spreader! You can use potency and velocity lenses to stretch this, but eventually, you'll need better spreaders...&r"
 			]
 			id: "6FAB85F509199CA8"
+			optional: true
 			tasks: [
 				{
 					id: "7FBBEAD125CEBC23"

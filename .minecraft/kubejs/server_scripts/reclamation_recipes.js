@@ -251,13 +251,24 @@ ServerEvents.recipes(event => {
         }
     })
 
+    //bee stuff
+    event.remove({id: 'complicated_bees:apiary'})
+    event.shaped('complicated_bees:apiary', [
+        'PPP',
+        'B B',
+        'PPP'
+    ], {
+        P: '#minecraft:planks',
+        B: 'embers:caminite_brick'
+    })
+
     //combs
     event.custom({
         "type": "complicated_bees:centrifuge",
         "input": {
             "item": "complicated_bees:comb",
             "nbt": {
-                "comb_type": "reclamation:wasteland"
+                "comb_type": "reclamation:deprived"
             }
         },
         "outputs": [
@@ -270,5 +281,31 @@ ServerEvents.recipes(event => {
                 "chance": 0.1
             }
         ]
+    })
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "complicated_bees:comb",
+                "nbt": {
+                    "comb_type": "reclamation:deprived"
+                }
+            }
+        ],
+        "result": [
+            {
+                "item": "complicated_bees:beeswax",
+                "count": 1,
+                "chance": 0.5
+            },
+            {
+                "chance": 0.1,
+                "item": "complicated_bees:honey_droplet",
+                "count": 1
+            }
+        ],
+        "tool": {
+            "tag": "forge:tools/knives"
+        }
     })
 })

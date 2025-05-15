@@ -1,23 +1,106 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 280
 	default_quest_shape: ""
 	filename: "unbeelievable"
 	group: "2BFAC9C95DAED88B"
+	icon: "complicated_bees:apiary"
 	id: "542A8FE23A71DEB2"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["29CB5767DE978673"]
-		hide_until_deps_complete: true
-		id: "3BAA2A254E052AC1"
-		shape: "hexagon"
-		tasks: [{
-			id: "594A083F3875943D"
-			item: "complicated_bees:apiary"
-			type: "item"
-		}]
-		x: -1.0d
-		y: 0.0d
-	}]
-	title: "Bee Kind"
+	quests: [
+		{
+			dependencies: ["29CB5767DE978673"]
+			description: [
+				"You've noticed some beehives dotted around. Maybe you can try to domesticate them?"
+				""
+				"You'll need a tool to harvest the nests and a place to raise the bees."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "complicated_bees:scoop"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3BAA2A254E052AC1"
+			rewards: [{
+				id: "1E21D64CC9086C97"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "complicated_bees:field_guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "594A083F3875943D"
+					item: "complicated_bees:apiary"
+					type: "item"
+				}
+				{
+					id: "66CF5E522A68F9B2"
+					item: {
+						Count: 1
+						id: "complicated_bees:scoop"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beeginnings"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BAA2A254E052AC1"]
+			description: [
+				"Now pop a &6queen and drone into an apiary,&r and watch the magic happen! Bees can generate some &6very useful resources&r in their combs; initially, though, you'll have to process said combs on &6a cutting board.&r"
+				""
+				"At first, you'll only get beeswax and honey drops..."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:deprived"
+				}
+			}
+			id: "6C972BEC949FEF25"
+			tasks: [
+				{
+					id: "27A31E4A8ECD6BE8"
+					item: {
+						Count: 1
+						id: "complicated_bees:comb"
+						tag: {
+							comb_type: "reclamation:deprived"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "416C2632237632F0"
+					item: "complicated_bees:beeswax"
+					type: "item"
+				}
+				{
+					id: "1C1EEF122FFEE7FC"
+					item: "complicated_bees:honey_droplet"
+					type: "item"
+				}
+			]
+			title: "Beesources"
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	title: "Bee Happy"
 }

@@ -110,6 +110,12 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "0316DABD5A9F1D48"
+					item: "bloodmagic:speedrune"
+					optional_task: true
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: -3.0d
@@ -301,6 +307,12 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "08301E614AB17191"
+					item: "bloodmagic:dislocationrune"
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "Tier 3 Altar"
 			x: 0.0d
@@ -319,9 +331,9 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["5E16957A5151E858"]
+			dependencies: ["574FE16E5404A3D0"]
 			description: [
-				"With access to diamonds (and subsequently, mana diamonds), you can make a &6Tainted Blood Pendant,&r which you can then infuse with &6Regeneration!&r"
+				"With access to imbued slates, you can make a &6Tainted Blood Pendant,&r which you can then infuse with &6Regeneration!&r"
 				""
 				"This makes poking yourself for life essence much more bearable..."
 			]
@@ -332,11 +344,16 @@
 				item: "botania:blood_pendant"
 				type: "item"
 			}]
-			x: -3.0d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["5E16957A5151E858"]
+			description: [
+				"Alchemizing with lifeforce provides the extra punch needed to transmute base materials into &6precious gems.&r"
+				""
+				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert more materials into that gem's sulfur without having to go through the whole blood transmutation again!"
+			]
 			id: "22F15EC1DF24B1D8"
 			tasks: [
 				{

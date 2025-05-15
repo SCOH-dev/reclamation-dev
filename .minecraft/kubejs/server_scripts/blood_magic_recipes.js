@@ -85,4 +85,67 @@ ServerEvents.recipes(event => {
             "tag": "bloodmagic:arc/reverter"
         }
     })
+
+    event.custom({
+        "type": "bloodmagic:arc",
+        "consumeingredient": false,
+        "input": {
+            "item": "minecraft:glowstone"
+        },
+        "inputFluid": {
+            "amount": 1000,
+            "fluid": "bloodmagic:life_essence_fluid"
+        },
+        "inputsize": 1,
+        "mainoutputchance": 0.0,
+        "output": {
+            "item": "minecraft:lapis_lazuli",
+            "count": 9
+        },
+        "tool": {
+            "tag": "bloodmagic:arc/cuttingfluid"
+        }
+    })
+
+    event.custom({
+        "type": "bloodmagic:arc",
+        "consumeingredient": false,
+        "input": {
+            "item": "minecraft:lapis_block"
+        },
+        "inputFluid": {
+            "amount": 3000,
+            "fluid": "bloodmagic:life_essence_fluid"
+        },
+        "inputsize": 1,
+        "mainoutputchance": 0.0,
+        "output": {
+            "item": "minecraft:amethyst_shard",
+            "count": 4
+        },
+        "tool": {
+            "tag": "bloodmagic:arc/cuttingfluid"
+        }
+    })
+
+    event.custom({
+        "type": "bloodmagic:arc",
+        "consumeingredient": false,
+        "input": {
+            "item": "minecraft:amethyst_block"
+        },
+        "inputFluid": {
+            "amount": 10000,
+            "fluid": "bloodmagic:life_essence_fluid"
+        },
+        "inputsize": 1,
+        "mainoutputchance": 0.0,
+        "output": {
+            "item": "minecraft:diamond",
+            "count": 1
+        },
+        "tool": {
+            "tag": "bloodmagic:arc/cuttingfluid"
+        }
+    })
 })
