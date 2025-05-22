@@ -15,6 +15,7 @@
 				"6BE467B7626E5085"
 				"1B02944C57BF74FB"
 			]
+			description: ["Lining rivers and shores, sugar cane had once risen in green columns, swaying with each passing breeze."]
 			id: "32195AB6E6F75FF1"
 			tasks: [{
 				id: "0BE83A27534A9CAF"
@@ -30,6 +31,7 @@
 				"1B02944C57BF74FB"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Bright orange roots that grow deep in the earth, carrots are a favorite among rabbits and a healthy snack, to boot!"]
 			hide_until_deps_complete: true
 			id: "36EF6C1E1C861A4A"
 			tasks: [{
@@ -45,6 +47,7 @@
 				"63353784E3C39D83"
 				"1281E40889F822FE"
 			]
+			description: ["Crimson bulbs that add color and flavor to any dish, beetroots were once quite common in village gardens."]
 			hide_until_deps_complete: true
 			id: "08415BCE11C57437"
 			tasks: [{
@@ -60,6 +63,7 @@
 				"33BAEE563814DCDB"
 				"1281E40889F822FE"
 			]
+			description: ["Earthy and humble, potatoes are versatile tubers that thrive in the cool soil of many places."]
 			hide_until_deps_complete: true
 			id: "303D96CD71A877FA"
 			tasks: [{
@@ -75,6 +79,7 @@
 				"303D96CD71A877FA"
 				"36EF6C1E1C861A4A"
 			]
+			description: ["Orange orbs that sprouted in the autumn, pumpkins were both a festive decoration and a hearty food source."]
 			id: "269466269FFFC1BC"
 			tasks: [{
 				id: "2DEB960CC4FA0F6B"
@@ -89,6 +94,7 @@
 				"32195AB6E6F75FF1"
 				"36EF6C1E1C861A4A"
 			]
+			description: ["Large, round fruits with a green rind and sweet, juicy flesh, melons grew best in warm, sunny fields."]
 			id: "1AD960F38D986F1A"
 			tasks: [{
 				id: "14647E43D0C398DC"
@@ -103,6 +109,7 @@
 				"1AD960F38D986F1A"
 				"08415BCE11C57437"
 			]
+			description: ["Prickly bushes bore these bright berries, beloved for their sweet bite and quick comfort."]
 			id: "1DA6A370C87C0775"
 			tasks: [{
 				id: "5718908A397ED9B2"
@@ -114,6 +121,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["Wheat once rippled like golden seas, feeding countless lives. Fields of it marked the heart of many homesteads."]
 			hide_until_deps_complete: true
 			id: "33BAEE563814DCDB"
 			tasks: [{
@@ -126,6 +134,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["This gnarled, shrieking root was feared as much as it was valued."]
 			hide_until_deps_complete: true
 			id: "63353784E3C39D83"
 			tasks: [{
@@ -138,6 +147,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["With deep golden petals and a bitter scent, wolfsbane once grew where night lingered longest. "]
 			hide_until_deps_complete: true
 			id: "1281E40889F822FE"
 			tasks: [{
@@ -150,6 +160,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["Snowbells had once blossomed in the coldest reaches, their pale blue petals dusted with frost."]
 			hide_until_deps_complete: true
 			id: "1B02944C57BF74FB"
 			tasks: [{
@@ -162,6 +173,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["Prized by herbalists for its strange resilience, who claimed it drew strength from the moonlit depths."]
 			hide_until_deps_complete: true
 			id: "6BE467B7626E5085"
 			tasks: [{
@@ -177,6 +189,7 @@
 				"63353784E3C39D83"
 				"303D96CD71A877FA"
 			]
+			description: ["This earth-toned fungus once thrived in quiet, dark corners, feeding on decay."]
 			id: "15CFF693EFE382C7"
 			tasks: [{
 				id: "209C1678B96BF007"
@@ -191,6 +204,7 @@
 				"63353784E3C39D83"
 				"36EF6C1E1C861A4A"
 			]
+			description: ["With its crimson cap and pale stem, the red mushroom once sprouted in damp caves and shadowed groves."]
 			id: "3F94D588E94A0F3C"
 			tasks: [{
 				id: "02A4B67966399B9B"
@@ -205,6 +219,7 @@
 				"6BE467B7626E5085"
 				"32195AB6E6F75FF1"
 			]
+			description: ["Bamboo once climbed toward the sky in great bamboo forests, hollow stems whispering in the wind."]
 			id: "1CE48B2F73EDB8FC"
 			tasks: [{
 				id: "1A4C1D1B6BECE9D7"
@@ -219,6 +234,7 @@
 				"6BE467B7626E5085"
 				"1CE48B2F73EDB8FC"
 			]
+			description: ["Sailors swore it marked safe waters—while some claimed it hid the bones of the drowned."]
 			id: "3E746C60CE874EC2"
 			tasks: [{
 				id: "63227A8101809052"
@@ -233,6 +249,7 @@
 				"33BAEE563814DCDB"
 				"1CE48B2F73EDB8FC"
 			]
+			description: ["This gentle underwater plant once rippled with the ocean’s breath, carpeting the sea floor in quiet green."]
 			id: "52641FDAD803360E"
 			tasks: [{
 				id: "1332B5429430DC3C"
@@ -247,6 +264,7 @@
 				"3E746C60CE874EC2"
 				"52641FDAD803360E"
 			]
+			description: ["Their soft light once guided creatures of the reef and lit the way for wayward divers in the twilight deep."]
 			id: "5867D599B1DA6E6F"
 			tasks: [{
 				id: "627607BF4CBB9958"
@@ -261,6 +279,7 @@
 				"3F94D588E94A0F3C"
 				"15CFF693EFE382C7"
 			]
+			description: ["This strange, red fungus had grown only in the deep, burning halls of another world. It pulsed faintly with unnatural life."]
 			id: "3EDF39CD6F94943F"
 			tasks: [{
 				id: "1B0681E60C9C525A"
@@ -275,6 +294,7 @@
 				"3EDF39CD6F94943F"
 				"15CFF693EFE382C7"
 			]
+			description: ["Once said to carry the scent of a world turned upside down—where even the air recoiled in confusion."]
 			id: "54401A0090BF5109"
 			tasks: [{
 				id: "50385F5338B3A7C7"
@@ -289,6 +309,7 @@
 				"3EDF39CD6F94943F"
 				"3F94D588E94A0F3C"
 			]
+			description: ["This twisted red fungus once grew in the scorched ground of the Nether, pulsing faintly as if alive."]
 			id: "77F0AB56297C08EC"
 			tasks: [{
 				id: "010E32148E3954E0"
@@ -299,6 +320,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["Once used in deadly draughts and sleeping curses, favored by those who studied the poisoner's art."]
 			id: "0BD99D6E0D93E05F"
 			tasks: [{
 				id: "032D7F5C7D26D03C"
@@ -313,6 +335,7 @@
 				"33BAEE563814DCDB"
 				"0BD99D6E0D93E05F"
 			]
+			description: ["Flax's delicate fibers had once been woven into cloth and spell-thread, binding both garments and enchantments."]
 			id: "7CC83C324E6A01E9"
 			tasks: [{
 				id: "7889C84E2D3A006D"
@@ -324,7 +347,11 @@
 		}
 		{
 			dependencies: ["0B5C8BA575972913"]
-			description: ["You can either craft poppy seeds or mutate them from Melon and Sugarcane."]
+			description: [
+				"Bold and crimson, the poppy is a symbol of remembrance and silent strength, often found where courage once stood."
+				""
+				"&7Tip: You can either craft poppy seeds or mutate them from Melon and Sugarcane."
+			]
 			id: "799A3678C691BBA3"
 			tasks: [{
 				id: "274C58582A5C79DD"
@@ -339,6 +366,7 @@
 				"799A3678C691BBA3"
 				"79CC4BBB699E26EA"
 			]
+			description: ["A tall and graceful flower with a soft purple hue, often associated with grace, quiet wisdom, and calm days."]
 			id: "68536E0D3B5694E7"
 			tasks: [{
 				id: "7A6C888FBAC3C6A7"
@@ -353,6 +381,7 @@
 				"5FA8835DAD8496B6"
 				"22B750248FB3F5A8"
 			]
+			description: ["Delicate and pale, these tiny flowers cluster low to the ground, bringing a sense of peace to open fields."]
 			id: "5A5FCEAA140010D4"
 			tasks: [{
 				id: "4A721DBC832F15D6"
@@ -367,6 +396,7 @@
 				"799A3678C691BBA3"
 				"5FA8835DAD8496B6"
 			]
+			description: ["This rare azure blossom flourishes in damp, shadowed groves. Legends say it blooms where ancient tears once fell."]
 			id: "79CC4BBB699E26EA"
 			tasks: [{
 				id: "3E75A87A7C0C4701"
@@ -381,6 +411,7 @@
 				"79CC4BBB699E26EA"
 				"22B750248FB3F5A8"
 			]
+			description: ["Cornflowers once braved the wind in wide fields, their blue hues a favorite among storytellers and songwriters."]
 			id: "5C3BED68010EC635"
 			tasks: [{
 				id: "35D85334148E1D8A"
@@ -392,7 +423,11 @@
 		}
 		{
 			dependencies: ["0B5C8BA575972913"]
-			description: ["You can either craft dandelion seeds or mutate them from Wheat and Pumpkin."]
+			description: [
+				"A cheerful bloom of golden yellow, said to carry whispers of spring on the wind. It thrives wherever the sun touches the land."
+				""
+				"&7Tip: You can either craft dandelion seeds or mutate them from Wheat and Pumpkin.&r"
+			]
 			id: "5FA8835DAD8496B6"
 			tasks: [{
 				id: "54BA1F933C39BE68"
@@ -407,6 +442,7 @@
 				"5FA8835DAD8496B6"
 				"049EFFDACB56ECD5"
 			]
+			description: ["Hidden among thick leaves, these tiny white bells are said to chime in silence when the forest is listening."]
 			id: "22B750248FB3F5A8"
 			tasks: [{
 				id: "0B029770FD768F5B"
@@ -421,6 +457,7 @@
 				"79CC4BBB699E26EA"
 				"5FA8835DAD8496B6"
 			]
+			description: ["With a golden eye watching from its white face, this flower is a quiet companion of wanderers and daydreamers."]
 			id: "53D1E7880BE9CBF3"
 			tasks: [{
 				id: "5EAE4D059A9A04FC"
@@ -435,6 +472,7 @@
 				"5C3BED68010EC635"
 				"4917C2EEA848997D"
 			]
+			description: ["Glowing softly with hues of flame, this ancient blossom is thought to be a gift from the deep earth, where fire once danced."]
 			id: "76DC49A825A01D60"
 			tasks: [{
 				id: "71B53D76D691A8E1"
@@ -449,6 +487,7 @@
 				"53D1E7880BE9CBF3"
 				"79CC4BBB699E26EA"
 			]
+			description: ["Warming as a sunset, the orange tulip is said to bring cheer and good fortune to those who find it."]
 			id: "1AE9313131C60B20"
 			tasks: [{
 				id: "4C5CEF70E70401FB"
@@ -463,6 +502,7 @@
 				"799A3678C691BBA3"
 				"68536E0D3B5694E7"
 			]
+			description: ["Bright and bold, the red tulip is a symbol of love and passion, often given in times of heartfelt confession."]
 			id: "4917C2EEA848997D"
 			tasks: [{
 				id: "013CE9D82F11A9BC"
@@ -477,6 +517,7 @@
 				"53D1E7880BE9CBF3"
 				"5FA8835DAD8496B6"
 			]
+			description: ["Soft as moonlight, white tulips once whispered of peace and innocence in gardens now long lain fallow."]
 			id: "049EFFDACB56ECD5"
 			tasks: [{
 				id: "18D80EB780A71777"
@@ -491,6 +532,7 @@
 				"5FA8835DAD8496B6"
 				"68536E0D3B5694E7"
 			]
+			description: ["Soft and gentle, the pink tulip speaks of friendship and gentle affection, often found where laughter lingers."]
 			id: "25E0B4ED41C1D3E9"
 			tasks: [{
 				id: "12872996722309A5"
@@ -505,6 +547,7 @@
 				"799A3678C691BBA3"
 				"5C3BED68010EC635"
 			]
+			description: ["Dark as a starless night and thorned with sorrow, this eerie bloom grows only in the wake of ruin and shadow."]
 			id: "1AA12EC1B3202E65"
 			tasks: [{
 				id: "133F809A32F2DA8E"
@@ -515,7 +558,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["You can make podzol for planting low-strength flower seeds on by growing a 2x2 of spruce saplings - the large tree will convert grass under it into podzol."]
+			description: ["You can make podzol for planting low-strength flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert grass under it into podzol."]
 			icon: "minecraft:podzol"
 			id: "0B5C8BA575972913"
 			tasks: [{

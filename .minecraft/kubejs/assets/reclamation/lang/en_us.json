@@ -7,10 +7,24 @@
   "species.complicated_bees.reclamation:wasteland.genus": "Desapis",
   "species.complicated_bees.reclamation:wasteland.species_taxonomy": "D. eremus",
   "species.complicated_bees.reclamation:wasteland.authority": "Ayse Eigh",
-  "species.complicated_bees.reclamation:wasteland.flavor_text": "These scraps of a once-proud clade are all that remain.",
+  "species.complicated_bees.reclamation:wasteland.flavor_text": "...re all that remai...eir former glory...",
   "species.complicated_bees.reclamation:wasteland.flavor_author": "a torn page",
+  "species.complicated_bees.reclamation:dessicated": "Dessicated",
+  "species.complicated_bees.reclamation:dessicated.genus": "Desapis",
+  "species.complicated_bees.reclamation:dessicated.species_taxonomy": "D. exaruit",
+  "species.complicated_bees.reclamation:dessicated.authority": "Ayse Eight",
+  "species.complicated_bees.reclamation:dessicated.flavor_text": "...oud and noble, but can no longe...",
+  "species.complicated_bees.reclamation:dessicated.flavor_author": "a torn page",
+  "species.complicated_bees.reclamation:dried": "Dried",
+  "species.complicated_bees.reclamation:dried.genus": "Desapis",
+  "species.complicated_bees.reclamation:dried.species_taxonomy": "D. siccanus",
+  "species.complicated_bees.reclamation:dried.authority": "Ayse Eight",
+  "species.complicated_bees.reclamation:dried.flavor_text": "...ightly worse, uniquely hardy...",
+  "species.complicated_bees.reclamation:dried.flavor_author": "a torn page",
 
   "comb.complicated_bees.reclamation:barren": "Barren",
+
+  "flower.complicated_bees.reclamation:dead_bush": "Dead Bush",
 
   "life_essence_fluid_type": "Life Essence",
   "block.bloodmagic.life_essence_block": "Life Essence"

@@ -251,6 +251,21 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.shapeless(
+        Item.of('agricraft:seed', '{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:"minecraft:dandelion",rec:"minecraft:dandelion"},strength:{dom:1,rec:1}}}'),
+        [
+            'minecraft:dandelion',
+            'minecraft:wheat_seeds'
+        ]
+    )
+    event.shapeless(
+        Item.of('agricraft:seed', '{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:"minecraft:poppy",rec:"minecraft:poppy"},strength:{dom:1,rec:1}}}'),
+        [
+            'minecraft:dandelion',
+            'minecraft:wheat_seeds'
+        ]
+    )
+
     //bee stuff
     event.remove({id: 'complicated_bees:apiary'})
     event.shaped('complicated_bees:apiary', [
@@ -268,17 +283,17 @@ ServerEvents.recipes(event => {
         "input": {
             "item": "complicated_bees:comb",
             "nbt": {
-                "comb_type": "reclamation:deprived"
+                "comb_type": "reclamation:barren"
             }
         },
         "outputs": [
             {
                 "item": "complicated_bees:beeswax",
-                "chance": 0.5
+                "chance": 0.7
             },
             {
                 "item": "complicated_bees:honey_droplet",
-                "chance": 0.1
+                "chance": 0.2
             }
         ]
     })
