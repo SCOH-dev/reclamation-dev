@@ -8,7 +8,7 @@
       "chance": 0.3,
       "item": "complicated_bees:comb",
       "nbt": {
-        "comb_type": "reclamation:deprived"
+        "comb_type": "reclamation:barren"
       }
     }
   ],
@@ -37,7 +37,7 @@
       "dominant": true
     },
     "complicated_bees:flower": {
-      "data": "complicated_bees:flower",
+      "data": "reclamation:dead_bush",
       "dominant": true
     },
     "complicated_bees:active_time": {
