@@ -288,7 +288,7 @@ ServerEvents.recipes(event => {
             {
                 "item": "complicated_bees:comb",
                 "nbt": {
-                    "comb_type": "reclamation:deprived"
+                    "comb_type": "reclamation:barren"
                 }
             }
         ],
