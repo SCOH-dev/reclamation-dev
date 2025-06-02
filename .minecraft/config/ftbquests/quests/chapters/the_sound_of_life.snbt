@@ -282,7 +282,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 2 Altar"
+			title: "Tier 2 Slates"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -314,7 +314,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 3 Altar"
+			title: "Tier 3 Slates"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -377,9 +377,8 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"A renewable source of gem sulfur would be much appreciated - thankfully, you can perform a special circle magic ritual to turn a block of amethyst into its budding version."
+				"A renewable source of gems would be much appreciated - thankfully, you can perform a special circle magic ritual to turn a block of amethyst into its budding version."
 				""
 				"&7Tip: you can use blood magic's arcane ashes to draw a pentagram on your altar, giving it an addtional 1.5x boost to total power capacity!&r"
 			]
@@ -389,7 +388,47 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"Now that you have access to gems, you can start to manipulate &5Source, &ranother type of magical energy you remember from before."
+				""
+				"To start, you'll want to turn lapis or amethyst shards into source gems using an &6Imbuement Chamber.&r However, for an Imbuement Chamber, you'll need a special kind of wood. Because &5Source&r is innately intertwined with &4Life Essence,&r infusing an already magically-resonant tree with &4Life Essence&r should produce a suitable sapling."
+				""
+				"&7Tip: you can convert between the four types of sapling using a mana pool!&r"
+			]
+			id: "1CCEDC1F9F219179"
+			tasks: [{
+				id: "784CD9014C36443E"
+				item: "ars_nouveau:red_archwood_sapling"
+				type: "item"
+			}]
+			title: "Archwood"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CCEDC1F9F219179"]
+			description: ["With Archwood, you can now create &6Source Gems,&r a perfect focusing medium for the arcane energies of &5Source.&r At first, you'll be slowly imbuing gems with the trace amounts present in the air, but once you get a way to generate &5Liquid Source,&r you'll be converting gems in a flash!"]
+			icon: "ars_nouveau:source_gem"
+			id: "1A59682F5B56E020"
+			tasks: [
+				{
+					id: "62F22B91C38D1A19"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "081B2C5DDC080F06"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "Source Gems"
+			x: -5.5d
 			y: -6.0d
 		}
 	]

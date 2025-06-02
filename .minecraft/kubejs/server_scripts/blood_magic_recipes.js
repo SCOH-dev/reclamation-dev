@@ -148,4 +148,19 @@ ServerEvents.recipes(event => {
             "tag": "bloodmagic:arc/cuttingfluid"
         }
     })
+
+    event.remove({id: 'bloodmagic:altar/weakbloodorb'})
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 10000,
+        "consumptionRate": 20,
+        "drainRate": 1,
+        "input": {
+            "item": "naturesaura:ancient_sapling"
+        },
+        "output": {
+            "item": "ars_nouveau:red_archwood_sapling"
+        },
+        "upgradeLevel": 2
+    })
 })
