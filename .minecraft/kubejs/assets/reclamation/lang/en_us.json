@@ -2,6 +2,8 @@
   "description.agricraft.agricraft.cuprosia": "A special flower that can harvest trace amounts of copper from water.",
   "rite.reclamation.blaze_cage": "Create Blaze Cage",
   "rite.reclamation.infuse_amalgam": "Infuse Amalgam",
+  "rite.reclamation.summon_blaze": "Summon Blaze",
+  "rite.reclamation.bud_amethyst": "Bud Amethyst",
 
   "species.complicated_bees.reclamation:wasteland": "Wasteland",
   "species.complicated_bees.reclamation:wasteland.genus": "Desapis",
@@ -27,5 +29,6 @@
   "flower.complicated_bees.reclamation:dead_bush": "Dead Bush",
 
   "life_essence_fluid_type": "Life Essence",
-  "block.bloodmagic.life_essence_block": "Life Essence"
+  "block.bloodmagic.life_essence_block": "Life Essence",
+  "block.bloodmagic.alchemyarray": "Alchemy Array"
 }

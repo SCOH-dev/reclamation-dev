@@ -350,7 +350,7 @@
 		{
 			dependencies: ["5E16957A5151E858"]
 			description: [
-				"Alchemizing with lifeforce provides the extra punch needed to transmute base materials into &6precious gems.&r"
+				"Alchemizing with lifeforce provides the extra punch needed to transmute base materials into &6precious gems&r using the &6Alchemical Reaction Chamber.&r"
 				""
 				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert more materials into that gem's sulfur without having to go through the whole blood transmutation again!"
 			]
@@ -374,6 +374,22 @@
 			]
 			title: "Gems!"
 			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"A renewable source of gem sulfur would be much appreciated - thankfully, you can perform a special circle magic ritual to turn a block of amethyst into its budding version."
+				""
+				"&7Tip: you can use blood magic's arcane ashes to draw a pentagram on your altar, giving it an addtional 1.5x boost to total power capacity!&r"
+			]
+			id: "518B46E423840A2F"
+			tasks: [{
+				id: "670314D8B1392691"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			x: -2.5d
 			y: -6.0d
 		}
 	]

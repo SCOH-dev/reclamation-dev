@@ -103,7 +103,7 @@
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
-			description: ["By continuously re-breeding Wasteland bees together, you can start to slowly revitalize them. Dessicated and Dried bees are slightly better, with a higher productivity and lifespan - meaning less maintenance and more combs!"]
+			description: ["By continuously re-breeding &6Wasteland&r bees together, you can start to slowly revitalize them. &6Dessicated&r and &6Dried&r bees are slightly better, with a higher productivity and lifespan - meaning less maintenance and more combs!"]
 			id: "7DD195197887D9E6"
 			tasks: [
 				{
@@ -427,11 +427,22 @@
 			]
 			title: "Comb Processing "
 			x: -2.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
-			description: ["You can place frames into your apiary for bonuses to production speed, among other things. Frame modifiers stack multiplicatively, not additively!"]
+			description: [
+				"You can place frames into your apiary for bonuses to productivity, lifespan, and even change the experienced temperature and humidity of an apiary. "
+				""
+				"&7Tip: Frame modifiers stack multiplicatively, not additively!&r"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:frame"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "58097E7DBD627DE8"
 			tasks: [{
 				id: "7832209D38D02069"
