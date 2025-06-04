@@ -558,15 +558,30 @@
 			y: 1.5d
 		}
 		{
-			description: ["You can make podzol for planting low-strength flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert grass under it into podzol."]
+			description: [
+				"You can make podzol for planting flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert grass under it into podzol."
+				""
+				"&7Tip: once the strength trait of a flower is high enough, you won't need to plant them on podzol!"
+			]
 			icon: "minecraft:podzol"
 			id: "0B5C8BA575972913"
-			tasks: [{
-				count: 4L
-				id: "39B842A52117843D"
-				item: "minecraft:spruce_sapling"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "39B842A52117843D"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					icon: "minecraft:podzol"
+					id: "698820444A9BB27A"
+					observe_type: 0
+					timer: 0L
+					title: "Look at Podzol"
+					to_observe: "minecraft:podzol"
+					type: "observation"
+				}
+			]
 			title: "Podzol"
 			x: 2.0d
 			y: -2.5d

@@ -473,7 +473,11 @@
 		}
 		{
 			dependencies: ["0CF33532629C1427"]
-			description: ["The basis of every machine worth making, &6a Steel Casing &ropens up limitless possibilities."]
+			description: [
+				"The basis of every machine worth making, &6a Steel Casing &ropens up limitless possibilities. "
+				""
+				"Almost quadrupling raw ore into ingots, turning plants into energy, or even fusion reactors all start with the humble steel casing."
+			]
 			id: "7A2BEC31266C6A7E"
 			tasks: [{
 				id: "582C7FEBC5653F6B"
@@ -486,6 +490,7 @@
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
+			description: ["The &6Enrichment Chamber&r can slightly boost the outputs of raw ores, clean blocks, and refine reagents for the &6Metallurgic Infuser,&r creating enriched versions of items that are &68 times more efficient!&r"]
 			id: "382B7C05BB6427BB"
 			tasks: [{
 				id: "6946036A7CBAC3DA"
@@ -513,12 +518,32 @@
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"With the acquisition of lapis, you can now make the &6Terrestrial Agglomeration Plate,&r a necessary step in your mastery of &bbotanic mana.&r"
+				""
+				"Combining mana-infused versions of a diamond, an ender pearl, and iron (alongside a tremendous amount of mana) creates &6Terrasteel,&r a unique alloy that is incredibly strong and mana conductive."
+			]
+			icon: "botania:terrasteel_ingot"
 			id: "2F6FB6D4819EF061"
-			tasks: [{
-				id: "20ACC9409D3E06DE"
-				item: "botania:terra_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20ACC9409D3E06DE"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					id: "08B033CAEF0CD37B"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "3828A7384B03CF18"
+					item: "botania:spark"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Terrasteel"
 			x: -4.5d
 			y: -4.0d
 		}
@@ -574,16 +599,14 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["46391DDDC731B2AC"]
 			description: [
-				"&6Aerated Essence &ris very energy-dense, and can be burned in a &6Gas-Burning Generator&r to produce a solid amount of RF."
+				"The &6Gas-Burning Generator&r can produce a large amount of RF very quickly - it's a solid midrange option that will most likely carry your energy needs until you start making reactors."
 				""
-				"It's macabre, but it works!"
-				""
-				"&7Note: Ethylene burning has been pretty heavily nerfed in this pack! It's still useful, just not as absolutely game-breakingly energy dense as it normally is.&r"
+				"&6Aerated Essence &ris relatively easy to produce, and can be burned to produce a solid amount of RF. It's macabre, but it works!"
 			]
 			id: "65850E753E7200DC"
 			tasks: [{
@@ -592,7 +615,228 @@
 				type: "item"
 			}]
 			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"65850E753E7200DC"
+				"64D9A5568A5D41FD"
+			]
+			description: [
+				"&6Ethylene&r is another gas you can burn in the gas-burning generator; even a small amount can be burned for a rather large amount of energy."
+				""
+				"&7Note: Ethylene burning has been nerfed in this pack! It's still useful, just not as absolutely game-breakingly energy dense as it normally is.&r"
+			]
+			icon: "mekanism:ethene_bucket"
+			id: "6EAAB9DF6917C3AC"
+			tasks: [{
+				id: "784C1FB9EF14A6F2"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			title: "Ethylene"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6EAAB9DF6917C3AC"]
+			description: ["Ethylene can be further mixed with Aerated Essence to produce Blooded Ethylene, a much more energy-dense gas that can burn for longer in the &6Gas-Burning Generator.&r"]
+			icon: "bloodmagic:life_essence_bucket"
+			id: "0B4BD82BD1422A1A"
+			tasks: [{
+				id: "2BF3BFDB49C45513"
+				type: "checkmark"
+			}]
+			title: "Blooded Ethylene"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: ["The &6Crusher&r is great for turning things into smaller, powdery versions of themselves. It's also great at turning plants into &6Bio Fuel!&r"]
+			id: "2FD8F1325D206079"
+			tasks: [{
+				id: "6F86831D988E5067"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 6.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["2FD8F1325D206079"]
+			description: ["&6Bio Fuel&r can be turned directly into energy in the &6Bio-Generator,&r or further refined into ethylene for burning in the &6Gas-Burning Generator.&r"]
+			icon: "mekanism:bio_fuel"
+			id: "64D9A5568A5D41FD"
+			tasks: [
+				{
+					id: "2A212BB4860A6A9C"
+					item: "mekanism:bio_fuel"
+					type: "item"
+				}
+				{
+					id: "08C0A72E651C7E5C"
+					item: "mekanismgenerators:bio_generator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Bio Fuel"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["382B7C05BB6427BB"]
+			description: [
+				"The &6Purification Chamber,&r in combination with oxygen and some further processing, can double raw ore outputs."
+				""
+				"Ore clumps can be crushed into dirty dust, enriched into pure dust, then smelted into ingots."
+				""
+				"&7Tip: gas upgrades can be placed into some machines to make them more efficient in their use of chemicals!"
+			]
+			id: "1FFEB5A89F1ACBEC"
+			tasks: [{
+				id: "7BB90ADA3D1A4A27"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FFEB5A89F1ACBEC"]
+			description: [
+				"The &6Chemical Dissolution Chamber&r is the next step in your ore processing - with the chamber as a starting point and some hydrogen chloride, it can turn 3 ore into 8 shards, which eventually get processed into ingots."
+				""
+				"To make hydrogen chloride, you'll need a source of chlorine. The &6Thermal Evaporation Tower&r can turn plain water into brine, which can then be electrolysed into chlorine."
+				""
+				"Shards need to be purified into clumps, crushed into dirty dust, enriched into pure dust, then smelted into ingots."
+			]
+			icon: "mekanism:chemical_dissolution_chamber"
+			id: "0E50AD0D33F05A97"
+			tasks: [
+				{
+					id: "1DEF0E6B5E2EA645"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "53F660FA9CD0E6A1"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E50AD0D33F05A97"]
+			description: [
+				"The final refinement to your ore refinement process: the &6Chemical Washer and Crystallizer&r can wash and crystallize ore slurry, at a 3 raw ore to eventual 10 ingot ratio."
+				""
+				"You'll need sulfur for sulfuric acid, which you can make through judicious application of oxygen to charcoal."
+				""
+				"Dirty ore slurry needs to be washed into clean ore slurry, then crystallized into crystals, which then get thrown into the &6Chemical Injection Chamber&r to get turned into shards, which purify into clumps, crush into dirty dust, enriched into clean dust, then finally smelted into ingots."
+			]
+			icon: "mekanism:chemical_washer"
+			id: "3B5E9C85AC4A0165"
+			tasks: [
+				{
+					id: "7EA89E9827E49CA2"
+					item: "mekanism:chemical_washer"
+					type: "item"
+				}
+				{
+					id: "6FD98215E0A2C9D7"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+				{
+					id: "37697DBA8E936D45"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+			]
+			title: "Finally... Ore Processing"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["574FE16E5404A3D0"]
+			description: [
+				"To make the next tier of altar, you'll need bloodstone bricks to cap the next set of pillars. However, these require blood shards to make; blood shards require tau fruit. "
+				""
+				"Despite your best efforts, you can't breed tau from your currently-available stock of plants. Luckily, you don't have to."
+				""
+				"Using the power of the &6Edge of the Hidden Realm&r ritual, you can create a gateway to the Demon Realm. The Demon Realm has all sorts of goodies, but mainly it's the original source of Tau Fruit. Go forth, "
+			]
+			icon: "bloodmagic:ritualdiviner"
+			id: "572D14ABB8B0DEB9"
+			tasks: [
+				{
+					id: "427CDE4DC86850F7"
+					item: "bloodmagic:ritualdiviner"
+					type: "item"
+				}
+				{
+					id: "7DBABAFEE9117CBC"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					id: "0803E379A44EFC16"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			title: "Bloody Rituals"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["572D14ABB8B0DEB9"]
+			description: [
+				"&6Blood Shards&r are a very handy thing for someone of your talents to have around. Despite your best efforts, however, you can't breed the necessary tau from your currently-available stock of plants. Luckily, you don't have to."
+				""
+				"Using the power of the &6Edge of the Hidden Realm&r ritual, you can create a gateway to the Demon Realm. The Demon Realm has all sorts of goodies, but mainly it's the original source of tau fruit. "
+				""
+				"&7Tip: once you have some, planting tau fruit and having it grow while something is standing on it will eventually create a saturated tau."
+			]
+			icon: "bloodmagic:weakbloodshard"
+			id: "4CF55F7AA2943D89"
+			tasks: [
+				{
+					id: "68F1364D1040EB47"
+					item: "bloodmagic:weak_tau"
+					type: "item"
+				}
+				{
+					id: "0D170CFD649C76DE"
+					item: "bloodmagic:strong_tau"
+					type: "item"
+				}
+				{
+					id: "051EC8616B94DE88"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+			]
+			title: "Blood Shards"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4CF55F7AA2943D89"]
+			description: ["With access to blood shards, you can finally make a tier 4 altar, and the slates it comes with."]
+			id: "45BC42953D194C94"
+			tasks: [{
+				id: "4720477C3CBF71DA"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			title: "Tier 4 Slates"
+			x: 0.0d
+			y: -9.5d
 		}
 	]
 	title: "The Sound of Life"

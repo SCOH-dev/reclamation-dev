@@ -54,4 +54,8 @@ StartupEvents.registry('mekanism:gas', event => {
     .tint(0xDD2200)
     .with(new $Fuel(() => 20, () => $FloatingLong.create(400))))
   )
+  event.createCustom('reclamation:essence_boosted_ethylene', () => new $Gas($GasBuilder.builder()
+    .tint(0xAD0051)
+    .with(new $Fuel(() => 40, () => $FloatingLong.create(22200))))
+  )
 })

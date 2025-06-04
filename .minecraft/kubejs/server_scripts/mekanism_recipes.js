@@ -18,4 +18,20 @@ ServerEvents.recipes(event => {
             "gas": "reclamation:aerated_essence"
         }
     })
+
+    event.custom({
+        "type": "mekanism:chemical_infusing",
+        "leftInput": {
+            "amount": 2,
+            "gas": "reclamation:aerated_essence"
+        },
+        "output": {
+            "amount": 1,
+            "gas": "reclamation:essence_boosted_ethylene"
+        },
+        "rightInput": {
+            "amount": 1,
+            "gas": "mekanism:ethene"
+        }
+    })
 })

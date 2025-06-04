@@ -30,5 +30,6 @@
 
   "life_essence_fluid_type": "Life Essence",
   "block.bloodmagic.life_essence_block": "Life Essence",
-  "block.bloodmagic.alchemyarray": "Alchemy Array"
+  "block.bloodmagic.alchemyarray": "Alchemy Array",
+  "gas.reclamation.essence_boosted_ethylene": "Blooded Ethylene"
 }

@@ -14,6 +14,122 @@
     }
   ],
   "lookup_history": [
+    "item:bloodmagic:demonslate",
+    {
+      "type": "item",
+      "id": "mekanism:dust_netherite",
+      "amount": 2
+    },
+    "item:minecraft:ancient_debris",
+    "item:bloodmagic:sand_netherite",
+    "item:minecraft:netherite_scrap",
+    "item:minecraft:netherite_ingot",
+    "item:bloodmagic:sanguinereverter{Damage:0}",
+    "item:bloodmagic:weakbloodshard",
+    {
+      "type": "item",
+      "id": "bloodmagic:strong_tau",
+      "amount": 5
+    },
+    {
+      "type": "item",
+      "id": "bloodmagic:simplekey",
+      "amount": 3
+    },
+    "item:bloodmagic:earthscribetool{Damage:0}",
+    "item:bloodmagic:ritualdiviner",
+    "item:bloodmagic:masterbloodorb",
+    "item:bloodmagic:activationcrystalweak",
+    "item:bloodmagic:lavacrystal",
+    "item:bloodmagic:ritualstone",
+    "item:bloodmagic:duskscribetool{Damage:0}",
+    "item:bloodmagic:ritualdivinerdusk",
+    "item:bloodmagic:soulsword{Damage:0}",
+    "item:mekanism:substrate",
+    "item:mekanism:crystal_copper",
+    "item:mekanism:shard_copper",
+    {
+      "type": "jemi",
+      "uid": "slurry:mekanism:clean_copper"
+    },
+    {
+      "type": "jemi",
+      "uid": "slurry:mekanism:dirty_copper",
+      "amount": 2000
+    },
+    "item:mekanism:thermal_evaporation_controller",
+    "item:mekanism:dust_sulfur",
+    "#item:forge:dusts/sulfur",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:sulfur_dioxide",
+      "amount": 2
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:oxygen"
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:sulfur_trioxide"
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:sulfuric_acid",
+      "amount": 100
+    },
+    {
+      "type": "fluid",
+      "id": "mekanism:brine",
+      "amount": 10
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:chlorine"
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:hydrogen_chloride",
+      "amount": 200
+    },
+    "item:mekanism:chemical_dissolution_chamber",
+    "item:minecraft:raw_copper",
+    "item:mekanism:purification_chamber",
+    "item:mekanism:dirty_dust_copper",
+    "item:mekanism:clump_copper",
+    "item:mekanism:enrichment_chamber",
+    "item:mekanism:crusher",
+    "item:botania:terrasteel_ingot",
+    "item:bloodmagic:alchemicalreactionchamber",
+    "item:minecraft:glowstone_dust",
+    "item:minecraft:redstone",
+    {
+      "type": "jemi",
+      "uid": "gas:reclamation:essence_boosted_ethylene"
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:hydrogen"
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 200
+    },
+    "item:mekanismgenerators:bio_generator",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:steam"
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:ethene"
+    },
+    {
+      "type": "item",
+      "id": "mekanism:bio_fuel",
+      "amount": 2
+    },
     "item:mekanism:basic_chemical_tank",
     "item:mekanism:basic_fluid_tank",
     "item:mekanism:energy_tablet",
@@ -25,17 +141,9 @@
     "fluid:bloodmagic:life_essence_fluid",
     "item:mekanism:creative_chemical_tank{mekData:{GasTanks:[{Tank:0b,stored:{amount:9223372036854775807L,gasName:\"mekanism:ethene\"}}]}}",
     {
-      "type": "jemi",
-      "uid": "gas:mekanism:ethene"
-    },
-    {
       "type": "fluid",
       "id": "mekanism:ethene",
       "amount": 0
-    },
-    {
-      "type": "jemi",
-      "uid": "gas:mekanism:oxygen"
     },
     {
       "type": "fluid",
@@ -46,13 +154,8 @@
     "item:botania:terra_plate",
     "item:mekanism:basic_universal_cable",
     "item:mekanism:basic_enriching_factory",
-    {
-      "type": "jemi",
-      "uid": "gas:mekanism:sulfur_dioxide"
-    },
     "item:mekanismgenerators:heat_generator",
     "item:mekanism:basic_control_circuit",
-    "item:mekanism:enrichment_chamber",
     "item:minecraft:budding_amethyst",
     "item:mekanism:ingot_osmium",
     "item:bloodmagic:infusedslate",
@@ -109,13 +212,11 @@
     "item:patchouli:guide_book{\"patchouli:book\":\"bloodmagic:guide\"}",
     "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"enderio:nutrient_distillation\"}}]}}",
     "item:naturesaura:birth_spirit",
-    "item:mekanismgenerators:bio_generator",
     "item:botania:mana_fluxfield",
     "item:botania:alchemy_catalyst",
     "item:ars_nouveau:blue_archwood_sapling",
     "item:ars_nouveau:green_archwood_sapling",
     "item:ars_nouveau:red_archwood_sapling",
-    "item:bloodmagic:activationcrystalweak",
     "item:botania:overgrowth_seed",
     "item:enchanted:brew_of_love",
     "item:enchanted:brew_of_sprouting",
@@ -135,7 +236,6 @@
     "item:ars_nouveau:novice_spell_book",
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:hostile\",dominant:1b},\"complicated_bees:fertility\":{data:3,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:nether\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"long\",dominant:1b},\"complicated_bees:productivity\":{data:\"average\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:infernal\",dominant:1b},\"complicated_bees:temperature\":{data:\"hellish\",dominant:1b,tolerance:\"DOWN_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:hostile\",dominant:1b},\"complicated_bees:fertility\":{data:3,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:nether\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"long\",dominant:1b},\"complicated_bees:productivity\":{data:\"average\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:infernal\",dominant:1b},\"complicated_bees:temperature\":{data:\"hellish\",dominant:1b,tolerance:\"DOWN_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:infernal\"}",
     "item:botania:conjuration_catalyst",
-    "item:minecraft:glowstone_dust",
     "item:minecraft:glowstone",
     "item:minecraft:lapis_lazuli",
     "item:minecraft:oak_slab",
@@ -145,8 +245,6 @@
     "item:enchanted:refined_evil",
     "item:enchanted:drop_of_luck",
     "item:enchanted:mutandis_extremis",
-    "item:bloodmagic:weakbloodshard",
-    "item:bloodmagic:lavacrystal",
     "item:bloodmagic:reagentlava",
     "item:bloodmagic:lavasigil",
     {
@@ -162,12 +260,6 @@
     "item:minecraft:ghast_tear",
     "item:bloodmagic:airscribetool{Damage:0}",
     "item:bloodmagic:firescribetool{Damage:0}",
-    "item:bloodmagic:earthscribetool{Damage:0}",
-    "item:bloodmagic:ritualdiviner",
-    "item:bloodmagic:duskscribetool{Damage:0}",
-    "item:bloodmagic:ritualdivinerdusk",
-    "item:bloodmagic:demonslate",
-    "item:bloodmagic:ritualstone",
     "item:bloodmagic:masterritualstone",
     {
       "type": "item",
@@ -233,71 +325,66 @@
       "type": "jemi",
       "uid": "gas:mekanism:brine"
     },
-    {
-      "type": "fluid",
-      "id": "mekanism:brine",
-      "amount": 0
-    },
     "item:mekanism:salt",
     "item:enchanted:water_artichoke",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:dandelion\",rec:\"minecraft:dandelion\"},strength:{dom:1,rec:1}}}",
     [
-      "item:enchanted:snowbell_seeds",
       "item:minecraft:dead_bush",
-      "item:enchanted:garlic",
-      "item:ars_nouveau:magebloom_crop",
-      "item:minecraft:cactus",
-      "item:enchanted:belladonna_seeds",
       "item:minecraft:oak_sapling",
-      "item:minecraft:spruce_sapling",
-      "item:minecraft:cherry_sapling",
       "item:minecraft:dark_oak_sapling",
-      "item:minecraft:sugar_cane",
-      "item:minecraft:jungle_sapling",
-      "item:minecraft:birch_sapling",
-      "item:enchanted:wolfsbane_seeds",
-      "item:enchanted:mandrake_seeds",
-      "item:enchanted:blood_poppy",
       "item:minecraft:melon_seeds",
+      "item:minecraft:birch_sapling",
+      "item:enchanted:mandrake_seeds",
       "item:minecraft:acacia_sapling",
+      "item:minecraft:spruce_sapling",
+      "item:enchanted:garlic",
+      "item:enchanted:snowbell_seeds",
+      "item:minecraft:cherry_sapling",
+      "item:minecraft:jungle_sapling",
+      "item:enchanted:wolfsbane_seeds",
+      "item:ars_nouveau:magebloom_crop",
       "item:minecraft:pumpkin_seeds",
+      "item:enchanted:belladonna_seeds",
+      "item:minecraft:sugar_cane",
+      "item:minecraft:cactus",
+      "item:enchanted:blood_poppy",
       "#item:mysticalagriculture:seeds",
       "#item:minecraft:villager_plantable_seeds",
       "#item:enchanted:saplings"
     ],
     "item:enchanted:mutandis",
     [
-      "item:farmersdelight:wild_beetroots",
-      "item:minecraft:poppy",
-      "item:minecraft:wither_rose",
-      "item:minecraft:cornflower",
       "item:minecraft:lily_of_the_valley",
-      "item:minecraft:pink_tulip",
+      "item:farmersdelight:wild_onions",
+      "item:minecraft:torchflower",
       "item:minecraft:red_mushroom",
-      "item:naturesaura:end_flower",
-      "item:minecraft:azure_bluet",
-      "item:supplementaries:wild_flax",
-      "item:minecraft:blue_orchid",
+      "item:farmersdelight:wild_carrots",
+      "item:enchanted:glint_weed",
       "item:farmersdelight:wild_tomatoes",
       "item:farmersdelight:wild_potatoes",
-      "item:minecraft:allium",
-      "item:enchanted:blood_poppy",
-      "item:naturesaura:aura_bloom",
-      "item:enchanted:spanish_moss",
-      "item:minecraft:torchflower",
-      "item:minecraft:brown_mushroom",
-      "item:minecraft:orange_tulip",
-      "item:minecraft:red_tulip",
-      "item:minecraft:white_tulip",
-      "item:enchanted:glint_weed",
-      "item:farmersdelight:wild_carrots",
-      "item:nethersdelight:mimicarnation",
-      "item:minecraft:grass",
-      "item:minecraft:oxeye_daisy",
-      "item:enchanted:ember_moss",
-      "item:farmersdelight:wild_onions",
-      "item:farmersdelight:wild_cabbages",
+      "item:supplementaries:wild_flax",
+      "item:naturesaura:end_flower",
       "item:minecraft:dandelion",
+      "item:minecraft:orange_tulip",
+      "item:minecraft:white_tulip",
+      "item:minecraft:allium",
+      "item:minecraft:oxeye_daisy",
+      "item:minecraft:red_tulip",
+      "item:enchanted:ember_moss",
+      "item:minecraft:grass",
+      "item:farmersdelight:wild_cabbages",
+      "item:minecraft:pink_tulip",
+      "item:minecraft:brown_mushroom",
+      "item:farmersdelight:wild_beetroots",
+      "item:minecraft:blue_orchid",
+      "item:minecraft:poppy",
+      "item:minecraft:wither_rose",
+      "item:enchanted:spanish_moss",
+      "item:minecraft:azure_bluet",
+      "item:nethersdelight:mimicarnation",
+      "item:naturesaura:aura_bloom",
+      "item:enchanted:blood_poppy",
+      "item:minecraft:cornflower",
       "#item:minecraft:saplings",
       "#item:botania:mystical_flowers"
     ],
@@ -318,7 +405,6 @@
     "item:mekanism:configurator",
     "item:bloodmagic:basiccuttingfluid{Damage:0}",
     "#item:bloodmagic:arc/cuttingfluid",
-    "item:bloodmagic:alchemicalreactionchamber",
     "item:chipped:broken_glowstone",
     "item:minecraft:water_bucket",
     "item:botania:orechid_ignem",
@@ -359,29 +445,29 @@
     },
     "item:mekanismtools:stone_paxel{Damage:0}",
     [
-      "item:mekanismtools:refined_obsidian_pickaxe{Damage:0}",
-      "item:botania:elementium_pickaxe{Damage:0}",
-      "item:embers:dawnstone_pickaxe{Damage:0}",
-      "item:mekanismtools:lapis_lazuli_pickaxe{Damage:0}",
-      "item:naturesaura:infused_iron_pickaxe{Damage:0}",
-      "item:mekanismtools:steel_pickaxe{Damage:0}",
-      "item:mekanismtools:osmium_pickaxe{Damage:0}",
       "item:projecte:dm_hammer",
       "item:projecte:rm_morning_star",
-      "item:ae2:fluix_pickaxe{Damage:0}",
-      "item:botania:glass_pickaxe{Damage:0}",
-      "item:projecte:rm_pick",
-      "item:bloodmagic:soulpickaxe{Damage:0}",
-      "item:projecte:rm_hammer",
-      "item:botania:manasteel_pick{Damage:0}",
-      "item:embers:silver_pickaxe{Damage:0}",
-      "item:naturesaura:depth_pickaxe{Damage:0}",
+      "item:embers:dawnstone_pickaxe{Damage:0}",
+      "item:botania:elementium_pickaxe{Damage:0}",
       "item:naturesaura:sky_pickaxe{Damage:0}",
+      "item:botania:glass_pickaxe{Damage:0}",
+      "item:naturesaura:infused_iron_pickaxe{Damage:0}",
+      "item:ae2:fluix_pickaxe{Damage:0}",
+      "item:mekanismtools:refined_glowstone_pickaxe{Damage:0}",
+      "item:mekanismtools:refined_obsidian_pickaxe{Damage:0}",
+      "item:embers:silver_pickaxe{Damage:0}",
+      "item:projecte:dm_pick",
+      "item:bloodmagic:soulpickaxe{Damage:0}",
+      "item:naturesaura:depth_pickaxe{Damage:0}",
+      "item:projecte:rm_pick",
+      "item:projecte:rm_hammer",
       "item:botania:terra_pick{Damage:0}",
       "item:mekanismtools:bronze_pickaxe{Damage:0}",
-      "item:projecte:dm_pick",
       "item:embers:lead_pickaxe{Damage:0}",
-      "item:mekanismtools:refined_glowstone_pickaxe{Damage:0}",
+      "item:mekanismtools:steel_pickaxe{Damage:0}",
+      "item:mekanismtools:lapis_lazuli_pickaxe{Damage:0}",
+      "item:mekanismtools:osmium_pickaxe{Damage:0}",
+      "item:botania:manasteel_pick{Damage:0}",
       "#item:forge:tools/pickaxes",
       "#item:forge:tools/paxels",
       "#item:ae2:quartz_pickaxe"
@@ -416,11 +502,9 @@
     "item:bloodmagic:corrupted_dust",
     "item:bloodmagic:corrupted_tinydust",
     "item:bloodmagic:weak_tau",
-    "item:bloodmagic:strong_tau",
     "item:bloodmagic:sacrificerune",
     "item:minecraft:prismarine_crystals",
     "item:botania:blood_pendant{brewKey:\"botania:regen_weak\"}",
-    "item:bloodmagic:soulsword{Damage:0}",
     "item:bloodmagic:soulforge",
     "item:bloodmagic:arcaneashes{Damage:0}",
     "item:bloodmagic:blankrune",
@@ -486,7 +570,6 @@
     "item:bloodmagic:apprenticebloodorb",
     "item:bloodmagic:alchemytable",
     "item:bloodmagic:divinationsigil",
-    "item:bloodmagic:masterbloodorb",
     "item:botania:thermalily",
     "item:bloodmagic:tauoil",
     "item:bloodmagic:intermediatecuttingfluid{Damage:0}",
@@ -631,7 +714,6 @@
       "nbt": "{Bottle:\"REGULAR\",Potion:\"minecraft:strength\"}",
       "amount": 25
     },
-    "item:minecraft:redstone",
     {
       "type": "fluid",
       "id": "create:potion",
@@ -771,7 +853,6 @@
     "item:botania:cocoon",
     "item:enchanted:breath_of_the_goddess",
     "item:theurgy:reformation_result_pedestal",
-    "item:botania:terrasteel_ingot",
     "item:botania:terrasteel_nugget",
     "item:botania:alfheim_portal",
     "item:botania:pixie_dust",
@@ -810,11 +891,6 @@
     },
     "item:theurgy:alchemical_sulfur_copper{\"theurgy:sulfur.source.id\":\"#forge:ingots/copper\"}",
     "fluid:create_central_kitchen:tomato_sauce",
-    {
-      "type": "fluid",
-      "id": "minecraft:water",
-      "amount": 125
-    },
     {
       "type": "fluid",
       "id": "embers:molten_silver",
@@ -1584,12 +1660,7 @@
     "item:minecraft:rooted_dirt",
     "item:minecraft:coarse_dirt",
     "#item:minecraft:planks",
-    "item:ars_nouveau:air_essence",
-    "item:ars_nouveau:arcanist_robes{Damage:0}",
-    "item:ars_nouveau:battlemage_robes{Damage:0}",
-    "item:ars_nouveau:sorcerer_robes{Damage:0}",
-    "item:embers:pressure_refinery",
-    "item:minecraft:exposed_cut_copper"
+    "item:ars_nouveau:air_essence"
   ],
   "craft_history": [
     "exposure:developing_black_and_white_film",
@@ -1606,8 +1677,8 @@
   "recipe_defaults": {
     "added": [
       "jei:/create/filling/redstone",
-      "minecraft:kjs/enchanted_ritual_chalk",
-      "jei:/enchanted/witch_cauldron/golden_chalk"
+      "jei:/enchanted/witch_cauldron/golden_chalk",
+      "minecraft:kjs/enchanted_ritual_chalk"
     ],
     "tags": {},
     "resolutions": {},

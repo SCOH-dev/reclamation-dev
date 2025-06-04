@@ -286,7 +286,7 @@ ServerEvents.recipes(event => {
         "results": [
             {
                 "count": 2,
-                "item": "minecraft:redstone_dust"
+                "item": "minecraft:redstone"
             }
         ]
     })
