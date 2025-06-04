@@ -42,3 +42,16 @@ StartupEvents.registry('fluid', event => {
     .displayName('Hemoglobic Fluid')
     .noBlock()
 })
+
+const $Gas = Java.loadClass('mekanism.api.chemical.gas.Gas')
+const $GasBuilder = Java.loadClass('mekanism.api.chemical.gas.GasBuilder')
+const $GasAttr = Java.loadClass('mekanism.api.chemical.gas.attribute.GasAttributes')
+const $Fuel = $GasAttr.Fuel
+const $FloatingLong = Java.loadClass('mekanism.api.math.FloatingLong')
+
+StartupEvents.registry('mekanism:gas', event => {
+  event.createCustom('reclamation:aerated_essence', () => new $Gas($GasBuilder.builder()
+    .tint(0xDD2200)
+    .with(new $Fuel(() => 20, () => $FloatingLong.create(400))))
+  )
+})

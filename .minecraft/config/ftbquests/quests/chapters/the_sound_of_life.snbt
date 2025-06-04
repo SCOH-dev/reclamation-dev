@@ -233,8 +233,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -6.0d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["74EFFC6EDDE055CC"]
@@ -316,7 +316,7 @@
 			]
 			title: "Tier 3 Slates"
 			x: 0.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["574FE16E5404A3D0"]
@@ -344,8 +344,8 @@
 				item: "botania:blood_pendant"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.0d
+			x: -1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5E16957A5151E858"]
@@ -373,8 +373,8 @@
 				}
 			]
 			title: "Gems!"
-			x: -1.5d
-			y: -6.0d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1A59682F5B56E020"]
@@ -389,8 +389,8 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.5d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
@@ -408,7 +408,7 @@
 				type: "item"
 			}]
 			title: "Archwood"
-			x: -4.0d
+			x: -4.5d
 			y: -6.0d
 		}
 		{
@@ -429,8 +429,170 @@
 				}
 			]
 			title: "Source Gems"
-			x: -5.5d
-			y: -6.0d
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["574FE16E5404A3D0"]
+			description: ["By offering an &6Imbued Slate&r to the gods, you can convert mundane iron into the dense ingot of &6Osmium.&r This metal is crucial to advanced mechanical applications."]
+			icon: "mekanism:ingot_osmium"
+			id: "2746DDF7130D3BB4"
+			tasks: [{
+				id: "7EA7CF9D39C7751F"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			title: "Supermassive"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E7EBE370DB920D8"]
+			description: [
+				"Now that you have a source of power, you'll want to start making real machinery. Your first step - a &6Metallurgic Infuser.&r This machine can do a wide varity of things, but one of the most important is its ability to create &6steel,&r another critical metal for your foray into technology."
+				""
+				"Infusing &6iron with coal,&r while inefficient, is your only real way to make it - at least for now."
+			]
+			icon: "mekanism:ingot_steel"
+			id: "0CF33532629C1427"
+			tasks: [
+				{
+					id: "3ED79C8FFF4F92C5"
+					item: "mekanism:metallurgic_infuser"
+					type: "item"
+				}
+				{
+					id: "328D39E68378FAF3"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			title: "Steel"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0CF33532629C1427"]
+			description: ["The basis of every machine worth making, &6a Steel Casing &ropens up limitless possibilities."]
+			id: "7A2BEC31266C6A7E"
+			tasks: [{
+				id: "582C7FEBC5653F6B"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "Basic Machinery"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			id: "382B7C05BB6427BB"
+			tasks: [{
+				id: "6946036A7CBAC3DA"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2746DDF7130D3BB4"]
+			description: [
+				"Before you can do anything related to machinery, you'll need a source of power. Thankfully, &bbotanic mana&r is easily convertible to &credstone flux.&r Simply point a mana spreader at a &6Mana Fluxfield&r and it'll output &cRF&r to any adjacent blocks."
+				""
+				"&7You can also use a heat generator, but it's VERY inefficient and (probably) not even worth making!&r"
+			]
+			id: "0E7EBE370DB920D8"
+			tasks: [{
+				id: "4E377E82C636102C"
+				item: "botania:mana_fluxfield"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			id: "2F6FB6D4819EF061"
+			tasks: [{
+				id: "20ACC9409D3E06DE"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0CF33532629C1427"]
+			description: ["Steel allows you to make better pipes of all kinds, able to transport items, fluids, RF, chemicals, and even heat. These have a number of &6advantages over caminite-based alternatives,&r mainly their lack of reliance on redstone and their upgradeability."]
+			icon: "mekanism:basic_universal_cable"
+			id: "740CD4B0ED662B60"
+			tasks: [{
+				id: "1475EE94A011CB5D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_pressurized_tube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_thermodynamic_conductor"
+							}
+						]
+					}
+				}
+				title: "Any Basic Logistic Item"
+				type: "item"
+			}]
+			title: "Advanced Logistics"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: ["The &6Rotary Condensentrator&r allows you to convert liquids to gases, and vice versa. This is useful for storage purposes, but it also allows you to aerate Life Essence!"]
+			id: "46391DDDC731B2AC"
+			tasks: [{
+				id: "56D016880B4F7E0A"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46391DDDC731B2AC"]
+			description: [
+				"&6Aerated Essence &ris very energy-dense, and can be burned in a &6Gas-Burning Generator&r to produce a solid amount of RF."
+				""
+				"It's macabre, but it works!"
+				""
+				"&7Note: Ethylene burning has been pretty heavily nerfed in this pack! It's still useful, just not as absolutely game-breakingly energy dense as it normally is.&r"
+			]
+			id: "65850E753E7200DC"
+			tasks: [{
+				id: "557B2A704D82C0E4"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
 		}
 	]
 	title: "The Sound of Life"

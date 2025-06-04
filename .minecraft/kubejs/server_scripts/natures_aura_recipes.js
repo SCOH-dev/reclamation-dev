@@ -413,4 +413,19 @@ ServerEvents.recipes(event => {
         "aura": 30000,
         "time": 40
     })
+
+    //osmium
+    event.custom({
+        "type": "naturesaura:offering",
+        "input": {
+            "item": "minecraft:iron_ingot"
+        },
+        "start_item": {
+            "item": "bloodmagic:infusedslate"
+        },
+        "output": {
+            "item": "mekanism:ingot_osmium",
+            "Count": 1
+        }
+    })
 })
