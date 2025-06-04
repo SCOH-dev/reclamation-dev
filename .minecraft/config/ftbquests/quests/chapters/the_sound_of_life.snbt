@@ -377,6 +377,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["1A59682F5B56E020"]
 			description: [
 				"A renewable source of gems would be much appreciated - thankfully, you can perform a special circle magic ritual to turn a block of amethyst into its budding version."
 				""
