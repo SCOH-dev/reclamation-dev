@@ -331,9 +331,9 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["574FE16E5404A3D0"]
+			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"With access to imbued slates, you can make a &6Tainted Blood Pendant,&r which you can then infuse with &6Regeneration!&r"
+				"With access to gems, you can make a &6Tainted Blood Pendant,&r which you can then infuse with &6Regeneration!&r"
 				""
 				"This makes poking yourself for life essence much more bearable..."
 			]
@@ -344,8 +344,8 @@
 				item: "botania:blood_pendant"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -6.5d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5E16957A5151E858"]
@@ -764,7 +764,7 @@
 		{
 			dependencies: ["574FE16E5404A3D0"]
 			description: [
-				"To make the next tier of altar, you'll need bloodstone bricks to cap the next set of pillars. However, these require blood shards to make; blood shards require tau fruit. "
+				"To make the next tier of altar, you'll need bloodstone bricks to cap the next set of pillars. However, these require blood shards to make; blood shards require &6tau fruit. &r"
 				""
 				"Despite your best efforts, you can't breed tau from your currently-available stock of plants. Luckily, you don't have to."
 				""
@@ -789,9 +789,9 @@
 					type: "item"
 				}
 			]
-			title: "Bloody Rituals"
-			x: 0.0d
-			y: -7.5d
+			title: "Blooded Rituals"
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["572D14ABB8B0DEB9"]
@@ -822,8 +822,8 @@
 				}
 			]
 			title: "Blood Shards"
-			x: 0.0d
-			y: -8.5d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4CF55F7AA2943D89"]
@@ -836,7 +836,121 @@
 			}]
 			title: "Tier 4 Slates"
 			x: 0.0d
-			y: -9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["45BC42953D194C94"]
+			description: [
+				"The &6Dusk&r version of the &6Ritual Diviner&r will allow you to perform even stronger rituals - chief among these being the &6Pathway to the Endless Realm.&r"
+				""
+				"Once performed, you will be presented with a gate to the Demon Realm proper - a sprawling labyrinth of rooms which contain strong enemies, plentiful loot, and the curious ore known as &6Demonite.&r"
+			]
+			id: "334A0BB9548947EF"
+			tasks: [{
+				id: "723C24DEE217AB71"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			title: "Dusk Rituals"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["334A0BB9548947EF"]
+			description: [
+				"&6Demonite&r can be rarely found in the &6Demon Realm,&r either as an ore block or as loot in chests."
+				""
+				"You also remember that there was a &6special key&r for &6spatial distortions&r that led you to the mines, which held much more valuable loot..."
+			]
+			id: "171B65208F0D13E8"
+			tasks: [{
+				id: "467B3D50C2357A42"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["171B65208F0D13E8"]
+			id: "0B69076CC61D0246"
+			tasks: [{
+				id: "2D0FB64D86DA4D44"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			title: "Tier 5 Slates"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["334A0BB9548947EF"]
+			description: [
+				"Now that you have access to dusk rituals, you can use either a &6Ritual of the Feathered Knife&r or a &6Well of Suffering&r to automate the collection of life essence."
+				""
+				"To get even more out of your rituals, you can use the &6Ritual Tinkerer!&r Read your &6Sanguine Scientiem&r for more information."
+				""
+				"&7Tip: if you can supply mobs to the well constantly (or give them a source of regenerating health), you could fully automate life essence collection..."
+			]
+			id: "1FC8CD63A4443B63"
+			tasks: [{
+				id: "6E2EBA9485E13F0B"
+				item: "bloodmagic:ritualtinkerer"
+				type: "item"
+			}]
+			title: "Useful Rituals"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7BDAAB04F6FD0786"]
+			description: [
+				"The &6Incense Altar&r is the center of a large freeform multiblock structure focused on bringing a sense of tranquility to players. With enough peace of mind, you can perform self-sacrifice with a much smoother hand - at high levels, you can get as much as &6quadruple the normal amount of life essence!&r"
+				""
+				"For more information on this structure, take a look at your &6Sanguine Scientiem.&r"
+			]
+			id: "1C61DAD67EC27EA5"
+			tasks: [{
+				id: "5A2F41572FB4E93A"
+				item: "bloodmagic:incensealtar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"With enough Demonic Will, you reach a critical mass that can eventually &6generate will&r ex nihilo! Simply burn some into the local aura by throwing will into a &6Demon Crucible,&r then wait for it to crystallize on the &6Demon Crystallizer. &r"
+				""
+				"With enough will in the aura, the crystal will grow extra spires you can harvest and re-burn; each crystal past the first takes 40 will to grow but &6burns into 50!&r"
+				""
+				"Now if only there was some way to automate this..."
+				""
+				"&7Tip: for more info, read your Sanguine Scientiem!"
+			]
+			icon: "bloodmagic:defaultcrystal"
+			id: "026A3590EE976DB0"
+			tasks: [
+				{
+					id: "253DDEE2437F5A1A"
+					item: "bloodmagic:demoncrucible"
+					type: "item"
+				}
+				{
+					id: "1D833D514F9B56D6"
+					item: "bloodmagic:demoncrystallizer"
+					type: "item"
+				}
+				{
+					id: "44C8A99B9FFE37F1"
+					item: "bloodmagic:defaultcrystal"
+					type: "item"
+				}
+			]
+			title: "Crystallized Will"
+			x: -3.0d
+			y: -6.0d
 		}
 	]
 	title: "The Sound of Life"

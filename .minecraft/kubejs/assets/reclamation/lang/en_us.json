@@ -31,5 +31,9 @@
   "life_essence_fluid_type": "Life Essence",
   "block.bloodmagic.life_essence_block": "Life Essence",
   "block.bloodmagic.alchemyarray": "Alchemy Array",
-  "gas.reclamation.essence_boosted_ethylene": "Blooded Ethylene"
+  "gas.reclamation.essence_boosted_ethylene": "Blooded Ethylene",
+  "block.bloodmagic.special_dungeon_seal": "Foreman's Lock",
+  "block.bloodmagic.inversion_pillar": "Inversion Pillar",
+  "block.bloodmagic.inversion_pillar_cap": "Inversion Pillar Cap",
+  "block.bloodmagic.dungeon_seal": "Demonic Lock"
 }
