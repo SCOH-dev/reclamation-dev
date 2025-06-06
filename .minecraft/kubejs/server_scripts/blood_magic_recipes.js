@@ -111,6 +111,27 @@ ServerEvents.recipes(event => {
         "type": "bloodmagic:arc",
         "consumeingredient": false,
         "input": {
+            "item": "minecraft:redstone"
+        },
+        "inputFluid": {
+            "amount": 500,
+            "fluid": "bloodmagic:life_essence_fluid"
+        },
+        "inputsize": 1,
+        "mainoutputchance": 0.0,
+        "output": {
+            "item": "minecraft:quartz",
+            "count": 9
+        },
+        "tool": {
+            "tag": "bloodmagic:arc/cuttingfluid"
+        }
+    })
+
+    event.custom({
+        "type": "bloodmagic:arc",
+        "consumeingredient": false,
+        "input": {
             "item": "minecraft:lapis_block"
         },
         "inputFluid": {

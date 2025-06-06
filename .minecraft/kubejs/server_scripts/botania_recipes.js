@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     //mana pool recipes to remove
     const remove_pool_ids = ['beetroot_seeds_to_melon_seeds', 'glowstone_dust_to_redstone', 'glow_berries_to_apple', 'carrot_to_beetroot_seeds', 'sweet_berries_to_glow_berries', 'cocoa_beans_to_wheat_seeds', 'potato_to_carrot', 'redstone_to_glowstone_dust', 'apple_to_sweet_berries', 'melon_seeds_to_pumpkin_seeds', 'wheat_seeds_to_potato']
-    const remove_rune_ids = ['air', 'water', 'fire', 'earth', 'winter']
+    const remove_rune_ids = ['air', 'water', 'fire', 'earth', 'winter', 'lust', 'gluttony', 'greed', 'sloth', 'wrath', 'envy', 'pride']
     const remove_flower_ids = ['entropinnyum', 'munchdew']
 
     remove_pool_ids.forEach(id => {
@@ -161,6 +161,70 @@ ServerEvents.recipes(event => {
             "item": "botania:rune_winter"
         }
     })
+    function sin_rune(rune1, rune2, output) {
+        event.custom({
+            "type": "botania:runic_altar",
+            "ingredients": [
+                {
+                    "item": "botania:rune_"+rune1
+                },
+                {
+                    "item": "botania:rune_"+rune2
+                },
+                {
+                    "item": "botania:terrasteel_nugget"
+                },
+                {
+                    "item": "bloodmagic:infusedslate"
+                }
+            ],
+            "mana": 10000,
+            "output": {
+                "count": 2,
+                "item": "botania:rune_"+output
+            }
+        })
+    }
+    sin_rune('summer', 'air', 'lust')
+    sin_rune('winter', 'fire', 'gluttony')
+    sin_rune('spring', 'water', 'greed')
+    sin_rune('autumn', 'air', 'sloth')
+    sin_rune('winter', 'earth', 'wrath')
+    sin_rune('winter', 'water', 'envy')
+    sin_rune('summer', 'fire', 'pride')
+
+    //orechid
+    //deepslate iron - 250, gold - 125, copper - 75
+    //stone iron - 29371, gold - 2647, copper - 7000
+    function orechid(input, output, weight) {
+        event.custom({
+            "type": "botania:orechid",
+            "input": {
+                "type": "block",
+                "block": input
+            },
+            "output": {
+                "type": "block",
+                "block": output
+            },
+            "weight": weight
+        })
+    }
+    orechid('minecraft:deepslate', 'mekanism:deepslate_tin_ore', 200)
+    orechid('minecraft:deepslate', 'mekanism:deepslate_osmium_ore', 175)
+    orechid('minecraft:deepslate', 'mekanism:deepslate_uranium_ore', 100)
+    orechid('minecraft:deepslate', 'mekanism:deepslate_fluorite_ore', 100)
+    orechid('minecraft:deepslate', 'create:deepslate_zinc_ore', 50)
+    orechid('minecraft:deepslate', 'embers:deepslate_lead_ore', 200)
+    orechid('minecraft:deepslate', 'embers:deepslate_silver_ore', 125)
+    orechid('minecraft:stone', 'mekanism:tin_ore', 20000)
+    orechid('minecraft:stone', 'mekanism:osmium_ore', 4000)
+    orechid('minecraft:stone', 'mekanism:uranium_ore', 2500)
+    orechid('minecraft:stone', 'mekanism:fluorite_ore', 2000)
+    orechid('minecraft:stone', 'create:zinc_ore', 7000)
+    orechid('minecraft:stone', 'embers:lead_ore', 10000)
+    orechid('minecraft:stone', 'embers:silver_ore', 2000)
+    orechid('minecraft:stone', 'minecraft:copper_ore', 30000) //raise copper weight
 
     //fel pumpkin
     event.remove({id: "botania:fel_pumpkin"})
@@ -309,4 +373,6 @@ ServerEvents.recipes(event => {
             "tag": "botania:seed_apothecary_reagent"
         }
     })
+
+
 })

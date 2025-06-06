@@ -336,6 +336,8 @@
 				"With access to gems, you can make a &6Tainted Blood Pendant,&r which you can then infuse with &6Regeneration!&r"
 				""
 				"This makes poking yourself for life essence much more bearable..."
+				""
+				"&7Tip: prismarine can be made either through Create's haunting or Nature's Aura's Natural Altar."
 			]
 			id: "703F201AB6A704B3"
 			optional: true
@@ -345,7 +347,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5E16957A5151E858"]
@@ -371,17 +373,24 @@
 					item: "minecraft:lapis_lazuli"
 					type: "item"
 				}
+				{
+					id: "63AD163F272F80D9"
+					item: "minecraft:quartz"
+					type: "item"
+				}
 			]
 			title: "Gems!"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["1A59682F5B56E020"]
+			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"A renewable source of gems would be much appreciated - thankfully, you can perform a special circle magic ritual to turn a block of amethyst into its budding version."
+				"A renewable source of gems would be much appreciated - thankfully, you can perform a &6special wiccan ritual&r to turn a block of amethyst into its budding version."
 				""
 				"&7Tip: you can use blood magic's arcane ashes to draw a pentagram on your altar, giving it an addtional 1.5x boost to total power capacity!&r"
+				""
+				"&7Tip 2: the instructions for this ritual can be found in your Reclamation Rituals book."
 			]
 			id: "518B46E423840A2F"
 			tasks: [{
@@ -389,8 +398,8 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -7.5d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
@@ -409,11 +418,15 @@
 			}]
 			title: "Archwood"
 			x: -4.5d
-			y: -6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1CCEDC1F9F219179"]
-			description: ["With Archwood, you can now create &6Source Gems,&r a perfect focusing medium for the arcane energies of &5Source.&r At first, you'll be slowly imbuing gems with the trace amounts present in the air, but once you get a way to generate &5Liquid Source,&r you'll be converting gems in a flash!"]
+			description: [
+				"With Archwood, you can now create &6Source Gems,&r a perfect focusing medium for the arcane energies of &5Source.&r Just toss some amethyst or lapis into an &6Imbuement Chamber!&r"
+				""
+				"At first, you'll be slowly imbuing gems with the trace amounts present in the air, but once you get a way to generate &5Liquid Source,&r you'll be converting gems in a flash!"
+			]
 			icon: "ars_nouveau:source_gem"
 			id: "1A59682F5B56E020"
 			tasks: [
@@ -430,7 +443,7 @@
 			]
 			title: "Source Gems"
 			x: -6.0d
-			y: -7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["574FE16E5404A3D0"]
@@ -444,7 +457,7 @@
 			}]
 			title: "Supermassive"
 			x: 2.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0E7EBE370DB920D8"]
@@ -514,7 +527,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
@@ -522,6 +535,8 @@
 				"With the acquisition of lapis, you can now make the &6Terrestrial Agglomeration Plate,&r a necessary step in your mastery of &bbotanic mana.&r"
 				""
 				"Combining mana-infused versions of a diamond, an ender pearl, and iron (alongside a tremendous amount of mana) creates &6Terrasteel,&r a unique alloy that is incredibly strong and mana conductive."
+				""
+				"&7Tip: use sparks instead of mana spreaders for a much faster mana transfer rate!"
 			]
 			icon: "botania:terrasteel_ingot"
 			id: "2F6FB6D4819EF061"
@@ -545,7 +560,7 @@
 			]
 			title: "Terrasteel"
 			x: -4.5d
-			y: -4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0CF33532629C1427"]
@@ -736,7 +751,7 @@
 				""
 				"You'll need sulfur for sulfuric acid, which you can make through judicious application of oxygen to charcoal."
 				""
-				"Dirty ore slurry needs to be washed into clean ore slurry, then crystallized into crystals, which then get thrown into the &6Chemical Injection Chamber&r to get turned into shards, which purify into clumps, crush into dirty dust, enriched into clean dust, then finally smelted into ingots."
+				"Dirty ore slurry needs to be washed into clean ore slurry, then crystallized into crystals, which then get thrown into the &6Chemical Injection Chamber&r to get turned into shards, which purify into clumps, crush into dirty dust, enrich into clean dust, and then finally smelt into ingots."
 			]
 			icon: "mekanism:chemical_washer"
 			id: "3B5E9C85AC4A0165"
@@ -827,13 +842,38 @@
 		}
 		{
 			dependencies: ["4CF55F7AA2943D89"]
-			description: ["With access to blood shards, you can finally make a tier 4 altar, and the slates it comes with."]
+			description: [
+				"With access to blood shards, you can finally make a tier 4 altar and&6 Demonic Slates.&r"
+				""
+				"Yet still stronger than Imbued Slates, these bad boys pack quite an essence-filled punch! You can use these for ritual paraphernalia as well as more altar upgrades."
+			]
+			icon: "bloodmagic:demonslate"
 			id: "45BC42953D194C94"
-			tasks: [{
-				id: "4720477C3CBF71DA"
-				item: "bloodmagic:demonslate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4720477C3CBF71DA"
+					item: "bloodmagic:demonslate"
+					type: "item"
+				}
+				{
+					id: "127C70A1962EBBB9"
+					item: "bloodmagic:bettercapacityrune"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "052F97BFDBB1A18C"
+					item: "bloodmagic:accelerationrune"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F19272509FF60B5"
+					item: "bloodmagic:chargingrune"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Tier 4 Slates"
 			x: 0.0d
 			y: -8.5d
@@ -873,6 +913,11 @@
 		}
 		{
 			dependencies: ["171B65208F0D13E8"]
+			description: [
+				"The single most powerful slate you can make,&6 Ethereal Slates&r require a tier 5 altar to craft."
+				""
+				"Alongside netherite scraps and some &6looted parts&r from the Demon Realm, these slates can be used to upgrade altar runes, making them &6twice as powerful.&r"
+			]
 			id: "0B69076CC61D0246"
 			tasks: [{
 				id: "2D0FB64D86DA4D44"
@@ -951,6 +996,271 @@
 			title: "Crystallized Will"
 			x: -3.0d
 			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1FC8CD63A4443B63"
+				"026A3590EE976DB0"
+			]
+			description: [
+				"With the Resonance of the Faceted Crystal ritual, you can split one well-established Will Crystal into four separate aspected crystals! This aspected will is handy for all sorts of things, but one of the most useful things you can do is use it in other rituals to change the way they perform."
+				""
+				"&7Tip: it's possible to fully automate the growing, splitting, and harvesting of crystals using rituals!"
+			]
+			id: "357CA59CD9EFA012"
+			tasks: [
+				{
+					id: "3D2E4EDD1162BC19"
+					item: "bloodmagic:corrosivecrystal"
+					type: "item"
+				}
+				{
+					id: "4EC199F62E2DF1A2"
+					item: "bloodmagic:vengefulcrystal"
+					type: "item"
+				}
+				{
+					id: "1E0BEAC26DF1E8A8"
+					item: "bloodmagic:destructivecrystal"
+					type: "item"
+				}
+				{
+					id: "578468CF2D419097"
+					item: "bloodmagic:steadfastcrystal"
+					type: "item"
+				}
+			]
+			title: "Aspected Will"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2F6FB6D4819EF061"]
+			description: ["With access to Terrasteel, you can make the third tier of botanic runes: &6Sin Runes.&r These can be used to make better baubles, more powerful flowers, and more!"]
+			id: "7B4F1EAF6F7A4A1D"
+			tasks: [{
+				id: "5369B7D08EBAF52A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:rune_pride"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_envy"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_wrath"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_sloth"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_greed"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_gluttony"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_lust"
+							}
+						]
+					}
+				}
+				title: "Any Sin Rune"
+				type: "item"
+			}]
+			title: "Sin Runes"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2F6FB6D4819EF061"]
+			description: [
+				"With Terrasteel, you can utilize an old ritual to open a &6gateway to Alfheim,&r which you're certain has escaped whatever happened to this world. The portal won't be able to transport living beings, but maybe you can trade for some &6useful materials?&r"
+				""
+				"&7For more information on the portal, read your Lexica Botania!"
+			]
+			icon: "botania:natura_pylon"
+			id: "3E0289A3420971D8"
+			tasks: [
+				{
+					count: 2L
+					id: "65D021B5E96A60E5"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					id: "02E100540D6A4802"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+			]
+			title: "The Portal to Alfheim"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3E0289A3420971D8"]
+			description: ["The &6Elven Mana Spreader&r is much more efficient than it's livingwood predecessor - it shoots larger bursts faster and farther."]
+			id: "46E7F06B96AE7AC9"
+			tasks: [{
+				id: "1B796C53B345E787"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			title: "Better Spreader"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3E0289A3420971D8"
+				"7B4F1EAF6F7A4A1D"
+			]
+			description: [
+				"With Sin Runes and elven materials, you can craft a special flower that &6generates ore in nearby stone or deepslate!&r"
+				""
+				"As far as you're concerned, this is more proof that you can solve any problem if you throw enough raw mana at something."
+			]
+			id: "039EE9BB48F29DB2"
+			size: 1.5d
+			tasks: [{
+				id: "34A484CFD9300B55"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			title: "Ex Nihilo"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1CCEDC1F9F219179"]
+			description: ["The &6Scribe's Table&r allows you to create new glyphs for spellbooks. As far as spellbooks go, you have a couple options - use either pure arcane mana or life essence to fuel your spells."]
+			icon: "ars_nouveau:scribes_table"
+			id: "2FAAD3AB3B105FB5"
+			tasks: [
+				{
+					id: "641FFAC13A3B6F7F"
+					item: "ars_nouveau:scribes_table"
+					type: "item"
+				}
+				{
+					id: "6A30A4AEE0F41770"
+					item: "ars_nouveau:novice_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69173B7D0C18C8A1"
+					item: "tomeofblood:novice_tome_of_blood"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Spellcasting"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A59682F5B56E020"]
+			icon: "ars_nouveau:source_jar"
+			id: "797F89EC438BD230"
+			tasks: [
+				{
+					id: "3F3CF3827894432E"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "7763161A3FA52012"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:mycelial_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:vitalic_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:alchemical_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:volcanic_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:agronomic_sourcelink"
+								}
+							]
+						}
+					}
+					title: "Any Sourcelink"
+					type: "item"
+				}
+			]
+			title: "Generating Source"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["797F89EC438BD230"]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "1F95463AFBB55B18"
+			tasks: [
+				{
+					id: "1FC5DE50A5149319"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "2D8761F46C000249"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			title: "Arcane Enchanting"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1A59682F5B56E020"
+				"518B46E423840A2F"
+			]
+			icon: "ars_nouveau:ritual_awakening"
+			id: "3D210245881F46D7"
+			tasks: [
+				{
+					id: "38C009293834AD7A"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "4681AAF428733A6B"
+					item: "ars_nouveau:ritual_awakening"
+					type: "item"
+				}
+			]
+			title: "Amethyst Buddy"
+			x: -6.0d
+			y: -4.0d
 		}
 	]
 	title: "The Sound of Life"
