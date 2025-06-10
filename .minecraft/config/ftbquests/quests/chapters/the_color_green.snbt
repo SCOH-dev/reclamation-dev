@@ -1073,7 +1073,7 @@
 				""
 				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and log types into other log types!"
 				""
-				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear...&r"
+				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear.&r"
 			]
 			id: "76795AD9B23ACFD7"
 			tasks: [{

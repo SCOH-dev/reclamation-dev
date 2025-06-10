@@ -1,4 +1,4 @@
-filename = 'enchanted-forge-1.20.1-3.1.9.jar'
+filename = 'enchanted-forge-1.20.1-3.1.12.jar'
 name = 'Enchanted'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '352f697d2c00a44ade3bd0a09755357c1f0c85a6'
+hash = 'a2760ac67475360d0bd0efa17f36ddd622629515'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6530723
+file-id = 6635572
 project-id = 560363

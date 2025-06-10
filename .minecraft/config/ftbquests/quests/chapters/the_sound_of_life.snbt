@@ -399,7 +399,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
@@ -418,7 +418,7 @@
 			}]
 			title: "Archwood"
 			x: -4.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1CCEDC1F9F219179"]
@@ -443,7 +443,7 @@
 			]
 			title: "Source Gems"
 			x: -6.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["574FE16E5404A3D0"]
@@ -805,7 +805,7 @@
 				}
 			]
 			title: "Blooded Rituals"
-			x: 1.0d
+			x: -1.0d
 			y: -7.0d
 		}
 		{
@@ -837,7 +837,7 @@
 				}
 			]
 			title: "Blood Shards"
-			x: 1.0d
+			x: -1.0d
 			y: -8.0d
 		}
 		{
@@ -892,13 +892,13 @@
 				type: "item"
 			}]
 			title: "Dusk Rituals"
-			x: -1.0d
+			x: 1.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["334A0BB9548947EF"]
 			description: [
-				"&6Demonite&r can be rarely found in the &6Demon Realm,&r either as an ore block or as loot in chests."
+				"&6Demonite&r can be found rarely in the &6Demon Realm,&r either as an ore block or as loot in chests."
 				""
 				"You also remember that there was a &6special key&r for &6spatial distortions&r that led you to the mines, which held much more valuable loot..."
 			]
@@ -908,7 +908,7 @@
 				item: "bloodmagic:rawdemonite"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: -10.0d
 		}
 		{
@@ -944,8 +944,8 @@
 				type: "item"
 			}]
 			title: "Useful Rituals"
-			x: -2.0d
-			y: -9.0d
+			x: -0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7BDAAB04F6FD0786"]
@@ -1031,8 +1031,8 @@
 				}
 			]
 			title: "Aspected Will"
-			x: -1.5d
-			y: -7.0d
+			x: -2.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
@@ -1081,14 +1081,14 @@
 			}]
 			title: "Sin Runes"
 			x: -4.5d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
 			description: [
 				"With Terrasteel, you can utilize an old ritual to open a &6gateway to Alfheim,&r which you're certain has escaped whatever happened to this world. The portal won't be able to transport living beings, but maybe you can trade for some &6useful materials?&r"
 				""
-				"&7For more information on the portal, read your Lexica Botania!"
+				"&7Tip: For more information on the portal, read your Lexica Botania! Further than that, throw your entire Lexica Botania into the portal!"
 			]
 			icon: "botania:natura_pylon"
 			id: "3E0289A3420971D8"
@@ -1106,13 +1106,14 @@
 				}
 			]
 			title: "The Portal to Alfheim"
-			x: -6.0d
+			x: -6.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
 			description: ["The &6Elven Mana Spreader&r is much more efficient than it's livingwood predecessor - it shoots larger bursts faster and farther."]
 			id: "46E7F06B96AE7AC9"
+			optional: true
 			tasks: [{
 				id: "1B796C53B345E787"
 				item: "botania:elven_spreader"
@@ -1140,8 +1141,8 @@
 				type: "item"
 			}]
 			title: "Ex Nihilo"
-			x: -6.0d
-			y: -8.0d
+			x: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1CCEDC1F9F219179"]
@@ -1168,8 +1169,8 @@
 				}
 			]
 			title: "Spellcasting"
-			x: -4.5d
-			y: -2.5d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1A59682F5B56E020"]
@@ -1217,7 +1218,7 @@
 			]
 			title: "Generating Source"
 			x: -7.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["797F89EC438BD230"]
@@ -1237,14 +1238,21 @@
 			]
 			title: "Arcane Enchanting"
 			x: -9.0d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
 				"1A59682F5B56E020"
 				"518B46E423840A2F"
 			]
-			icon: "ars_nouveau:ritual_awakening"
+			description: [
+				"If you're tired of waiting for amethyst to grow, try animating a block of budding amethyst with the &6Ritual of Awakening.&r"
+				""
+				"It turns budding amethyst into an &6Amethyst Golem,&r who can harvest, grow, and even bud other blocks of amethyst!"
+				""
+				"Its behavior can be further modified using a &6Dominion Wand.&r"
+			]
+			icon: "ars_nouveau:amethyst_golem_charm"
 			id: "3D210245881F46D7"
 			tasks: [
 				{
@@ -1257,10 +1265,145 @@
 					item: "ars_nouveau:ritual_awakening"
 					type: "item"
 				}
+				{
+					id: "1EAFA5FBB294C3F4"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "Amethyst Buddy"
 			x: -6.0d
-			y: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E0289A3420971D8"]
+			description: ["With the acquisition of specially-charged elven materials, you can create an &6even stronger mana-generating base;&r cake, wool, and even other mana flowers can all be mulched into yet more mana."]
+			id: "5750E61C2B1E8D5E"
+			optional: true
+			tasks: [{
+				id: "175DA0F3E23B1A9C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:dandelifeon"
+							}
+							{
+								Count: 1b
+								id: "botania:shulk_me_not"
+							}
+							{
+								Count: 1b
+								id: "botania:rafflowsia"
+							}
+							{
+								Count: 1b
+								id: "botania:spectrolus"
+							}
+							{
+								Count: 1b
+								id: "botania:kekimurus"
+							}
+						]
+					}
+				}
+				title: "Any Elven Flower"
+				type: "item"
+			}]
+			title: "Esoteric Mana Generation"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3E0289A3420971D8"
+				"7B4F1EAF6F7A4A1D"
+				"0F60E7D69F6FA06E"
+			]
+			description: [
+				"With the power of Elementium and a little extra elemental oomph, you can craft a special pylon to summon the &6Guardian of Gaia.&r"
+				""
+				"Prove your strength, and you'll be rewarded with &6Gaia Spirits.&r"
+			]
+			id: "7EE279615E00797C"
+			tasks: [{
+				id: "46CDCF3AACBF85C4"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: ["Using the &6Enchanting Apparatus&r and some special reagents, you can make elemental essences that have a wide variety of uses, from crafting to spellweaving."]
+			id: "0F60E7D69F6FA06E"
+			tasks: [{
+				id: "5B9793284890447B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:anima_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:water_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:manipulation_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:fire_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:air_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:conjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:abjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:earth_essence"
+							}
+						]
+					}
+				}
+				title: "Any Essence"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7EE279615E00797C"]
+			id: "0721C000948329FF"
+			tasks: [{
+				id: "51D63243515AEAB7"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
 		}
 	]
 	title: "The Sound of Life"

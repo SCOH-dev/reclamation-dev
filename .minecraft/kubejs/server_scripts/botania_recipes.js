@@ -374,5 +374,28 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.remove({ id: 'botania:gaia_pylon'})
+    event.shaped('botania:gaia_pylon', [
+            ' A ',
+            'ePe',
+            ' E '
+        ], {
+            A: 'ars_elemental:anima_essence',
+            P: 'botania:mana_pylon',
+            e: 'botania:elementium_ingot',
+            E: 'ars_nouveau:earth_essence'
+        }
+    )
 
+    event.remove({ id: 'botania:mana_infusion/manasteel'})
+    event.custom({
+        "type": "botania:mana_infusion",
+        "input": {
+            "item": "naturesaura:infused_iron"
+        },
+        "mana": 2500,
+        "output": {
+            "item": "botania:manasteel_ingot"
+        }
+    })
 })

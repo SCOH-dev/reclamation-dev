@@ -56,4 +56,32 @@ ServerEvents.recipes(event => {
             "item": "ars_nouveau:red_archwood_sapling"
         }
     })
+
+    event.remove({ id: 'ars_elemental:imbuement_anima_essence'})
+    event.custom({
+        "type": "ars_nouveau:imbuement",
+        "count": 1,
+        "input": {
+            "tag": "forge:gems/source"
+        },
+        "output": "ars_elemental:anima_essence",
+        "pedestalItems": [
+            {
+                "item": {
+                    "item": "bloodmagic:infusedslate"
+                }
+            },
+            {
+                "item": {
+                    "item": "minecraft:bone_meal"
+                }
+            },
+            {
+                "item": {
+                    "item": "minecraft:golden_apple"
+                }
+            }
+        ],
+        "source": 3000
+    })
 })
