@@ -13,7 +13,7 @@ def write_shell(radius, out, function):
                     out.write(f"execute positioned ~{x} ~{y} ~{z} run function {function}\n")
 
 max_radius = 16
-function = "reclamation:warped/convert"
+function = "reclamation:crimson/convert"
 
 for r in range(0, max_radius + 1):
     with open(f"output/functions/shell_{r}.mcfunction", "w") as out:

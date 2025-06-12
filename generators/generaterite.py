@@ -11,6 +11,7 @@ particle_height = 8
 linesteps = 50
 particle = "minecraft:dripping_lava"
 lineparticle = "minecraft:flame"
+biome = "crimson"
 
 
 def get_x(rot):  # gets x offset given degrees
@@ -50,19 +51,18 @@ commands.append(linedown)
 for step in range(0, 17):
     for i in range(0, 10):
         commands.append([])
-    commands.append([f"function reclamation:warped/shell_{step}"])
+    commands.append([f"function reclamation:{biome}/shell_{step}"])
 
 
 output = {
     "items": [
         {
-            "id": "minecraft:stick",
+            "id": "minecraft:iron_ingot",
             "Count": 1
         }
     ],
     "shapes": {
-        "enchanted:small_circle": "enchanted:nether_chalk",
-        "enchanted:medium_circle": "enchanted:nether_chalk"
+        "enchanted:small_circle": "enchanted:nether_chalk"
     },
     "power": 0,
     "factory": {
