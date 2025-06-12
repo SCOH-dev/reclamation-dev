@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "blocks": [
+        "naturesaura:nether_grass",
+        "minecraft:netherrack",
+        "minecraft:warped_nylium",
+        "minecraft:crimson_nylium",
+        "minecraft:magma_block",
+        "minecraft:soul_sand",
+        "minecraft:soul_soil"
+      ]
+    }
+  }
+}

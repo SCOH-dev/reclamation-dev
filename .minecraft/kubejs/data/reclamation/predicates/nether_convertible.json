@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:fire",
+            "minecraft:air",
+            "enchanted:nether_chalk",
+            "enchanted:golden_chalk",
+            "minecraft:grass",
+            "minecraft:tall_grass",
+            "minecraft:warped_roots",
+            "minecraft:warped_fungus"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "naturesaura:nether_grass",
+            "minecraft:netherrack",
+            "minecraft:warped_nylium",
+            "minecraft:crimson_nylium",
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    }
+  ]
+}
