@@ -334,7 +334,7 @@
 		}
 		{
 			dependencies: ["61329AF67AD28062"]
-			description: ["Simultaneously tough and malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."]
+			description: ["Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."]
 			id: "153CB8257AEDA4ED"
 			tasks: [{
 				id: "0C28FD3F5C919A74"
@@ -1050,11 +1050,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"33BAEE563814DCDB"
-				"0BD99D6E0D93E05F"
-				"2E0F026AB59D83B5"
-			]
+			dependencies: ["2E0F026AB59D83B5"]
 			description: ["Once you have a pump, you can create a &6Spout&r to dispense liquid onto items - this is a possible way to make &6glowstone or redstone,&r if you're willing to set up the infrastructure."]
 			id: "15AB65CE5C0B95CC"
 			optional: true

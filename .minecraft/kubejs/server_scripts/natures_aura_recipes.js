@@ -413,6 +413,86 @@ ServerEvents.recipes(event => {
         "aura": 30000,
         "time": 40
     })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:black_petal"
+            },
+            {
+                "item": "botania:blue_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:squid",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:green_petal"
+            },
+            {
+                "item": "botania:lime_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:turtle",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:red_petal"
+            },
+            {
+                "item": "botania:cyan_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:salmon",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:brown_petal"
+            },
+            {
+                "item": "botania:orange_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:cod",
+        "aura": 30000,
+        "time": 40
+    })
 
     //osmium
     event.custom({

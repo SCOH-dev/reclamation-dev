@@ -25,7 +25,7 @@
 			}]
 			title: "Sentient Life"
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7540F4407477DCAF"]
@@ -49,11 +49,11 @@
 				}
 			]
 			title: "Altar of Birthing"
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["7540F4407477DCAF"]
+			dependencies: ["4985B07F3FA59210"]
 			description: [
 				"Blood magic is a pathway to many abilities some consider to be unnatural."
 				""
@@ -251,8 +251,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["377BF30FBED5AA32"]
@@ -499,7 +499,7 @@
 			}]
 			title: "Basic Machinery"
 			x: 5.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
@@ -613,7 +613,7 @@
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -629,7 +629,7 @@
 				item: "mekanismgenerators:gas_burning_generator"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -650,7 +650,7 @@
 				type: "item"
 			}]
 			title: "Ethylene"
-			x: 7.0d
+			x: 8.0d
 			y: -0.5d
 		}
 		{
@@ -663,7 +663,7 @@
 				type: "checkmark"
 			}]
 			title: "Blooded Ethylene"
-			x: 8.0d
+			x: 9.0d
 			y: -0.5d
 		}
 		{
@@ -723,7 +723,7 @@
 			description: [
 				"The &6Chemical Dissolution Chamber&r is the next step in your ore processing - with the chamber as a starting point and some hydrogen chloride, it can turn 3 ore into 8 shards, which eventually get processed into ingots."
 				""
-				"To make hydrogen chloride, you'll need a source of chlorine. The &6Thermal Evaporation Tower&r can turn plain water into brine, which can then be electrolysed into chlorine."
+				"To make hydrogen chloride, you'll need a renewable source of chlorine. The &6Thermal Evaporation Tower Multiblock&r can turn plain water into brine, which can then be electrolysed into chlorine."
 				""
 				"Shards need to be purified into clumps, crushed into dirty dust, enriched into pure dust, then smelted into ingots."
 			]
@@ -772,7 +772,7 @@
 					type: "item"
 				}
 			]
-			title: "Finally... Ore Processing"
+			title: "REAL Ore Processing"
 			x: 9.0d
 			y: -2.5d
 		}
@@ -1003,7 +1003,7 @@
 				"026A3590EE976DB0"
 			]
 			description: [
-				"With the Resonance of the Faceted Crystal ritual, you can split one well-established Will Crystal into four separate aspected crystals! This aspected will is handy for all sorts of things, but one of the most useful things you can do is use it in other rituals to change the way they perform."
+				"With the &6Resonance of the Faceted Crystal&r ritual, you can split one well-established Will Crystal into four separate aspected crystals! This aspected will is handy for all sorts of things, but one of the most useful things you can do is use it in other rituals to &6change the way they perform.&r"
 				""
 				"&7Tip: it's possible to fully automate the growing, splitting, and harvesting of crystals using rituals!"
 			]
@@ -1174,6 +1174,11 @@
 		}
 		{
 			dependencies: ["1A59682F5B56E020"]
+			description: [
+				"Source can be generated in a variety of ways, but you'll need to do something to get it into a much more useable liquid form. "
+				""
+				"&6Sourcelinks&r will gather it for you, but you'll also need to make a &6jar&r to store the generated source."
+			]
 			icon: "ars_nouveau:source_jar"
 			id: "797F89EC438BD230"
 			tasks: [
@@ -1222,6 +1227,7 @@
 		}
 		{
 			dependencies: ["797F89EC438BD230"]
+			description: ["One of the primary uses of liquid source is the enchanting of items. Using the &6Arcane Core&r and an &6Enchanting Apparatus&r atop it, you can create many useful things."]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "1F95463AFBB55B18"
 			tasks: [
@@ -1242,8 +1248,8 @@
 		}
 		{
 			dependencies: [
-				"1A59682F5B56E020"
 				"518B46E423840A2F"
+				"0E7BC6F2785D6CD4"
 			]
 			description: [
 				"If you're tired of waiting for amethyst to grow, try animating a block of budding amethyst with the &6Ritual of Awakening.&r"
@@ -1255,11 +1261,6 @@
 			icon: "ars_nouveau:amethyst_golem_charm"
 			id: "3D210245881F46D7"
 			tasks: [
-				{
-					id: "38C009293834AD7A"
-					item: "ars_nouveau:ritual_brazier"
-					type: "item"
-				}
 				{
 					id: "4681AAF428733A6B"
 					item: "ars_nouveau:ritual_awakening"
@@ -1277,8 +1278,8 @@
 				}
 			]
 			title: "Amethyst Buddy"
-			x: -6.0d
-			y: -2.5d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -1404,6 +1405,107 @@
 			}]
 			x: -5.0d
 			y: -10.5d
+		}
+		{
+			dependencies: ["1A59682F5B56E020"]
+			description: ["There are quite a few elemental &6rituals&r that could come in handy for you - defending your base, automatically pick items up, and even allowing you to fly!"]
+			id: "0E7BC6F2785D6CD4"
+			tasks: [{
+				id: "18324C87EF47313D"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"The &6Storage Lectern&r boasts the incredibly convenient capability of letting you manage, view, and craft using nearby storage blocks. Simply place it down and link inventories to it using the dominion wand!"
+				""
+				"There is a limit to the number of inventories you can connect to at once - this can be raised using &6Bookwyrm Charms.&r"
+			]
+			icon: "ars_nouveau:storage_lectern"
+			id: "792DA50F1C60B35D"
+			tasks: [
+				{
+					id: "72FF396E69CA8357"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+				{
+					id: "2AFA66D061D31585"
+					item: "ars_nouveau:bookwyrm_charm"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1942F4F6D64D0A7E"
+					item: "ars_nouveau:repository"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: [
+				"Mekanism upgrades come in two flavors - &6upgrade cards&r and &6tier installers. &r"
+				""
+				"Upgrade cards give the machine a boost to a certain aspect - speed, energy efficiency, etc."
+				""
+				"Tier installers give the machine more processing slots - from 1 item at a time to &69 in some machines!&r"
+			]
+			id: "4A5E73C5F6D316DE"
+			tasks: [
+				{
+					id: "0515588225B47EC0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:upgrade_anchor"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_gas"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_muffling"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_filter"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_energy"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_speed"
+								}
+							]
+						}
+					}
+					title: "Any Upgrade"
+					type: "item"
+				}
+				{
+					id: "195C795DF27B5C06"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+			]
+			title: "Upgrades"
+			x: 4.0d
+			y: -1.5d
 		}
 	]
 	title: "The Sound of Life"
