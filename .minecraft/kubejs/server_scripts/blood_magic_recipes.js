@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({id: 'bloodmagic:soulforge/pettytartaricgem'})
-    event.remove({
+    event.custom({
         "type": "bloodmagic:soulforge",
         "drain": 1.0,
         "input0": {
@@ -183,5 +183,27 @@ ServerEvents.recipes(event => {
             "item": "ars_nouveau:red_archwood_sapling"
         },
         "upgradeLevel": 2
+    })
+
+
+    event.custom({
+        "type": "bloodmagic:soulforge",
+        "drain": 666,
+        "input0": {
+            "item": "minecraft:bone"
+        },
+        "input1": {
+            "item": "bloodmagic:demonslate"
+        },
+        "input2": {
+            "item": "bloodmagic:vengefulcrystal"
+        },
+        "input3": {
+            "item": "botania:rune_wrath"
+        },
+        "minimumDrain": 1000,
+        "output": {
+            "item": "minecraft:wither_skeleton_skull"
+        }
     })
 })

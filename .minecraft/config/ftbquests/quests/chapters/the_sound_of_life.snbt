@@ -1260,23 +1260,11 @@
 			]
 			icon: "ars_nouveau:amethyst_golem_charm"
 			id: "3D210245881F46D7"
-			tasks: [
-				{
-					id: "4681AAF428733A6B"
-					item: "ars_nouveau:ritual_awakening"
-					type: "item"
-				}
-				{
-					id: "1EAFA5FBB294C3F4"
-					item: {
-						Count: 1
-						id: "ars_nouveau:dominion_wand"
-						tag: { }
-					}
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4681AAF428733A6B"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
 			title: "Amethyst Buddy"
 			x: -4.5d
 			y: -2.0d
@@ -1330,7 +1318,7 @@
 				"0F60E7D69F6FA06E"
 			]
 			description: [
-				"With the power of Elementium and a little extra elemental oomph, you can craft a special pylon to summon the &6Guardian of Gaia.&r"
+				"With the power of Elementium and a little extra elemental oomph, you can craft a special pylon to use in tandem with the power of a beacon to summon the &6Guardian of Gaia.&r"
 				""
 				"Prove your strength, and you'll be rewarded with &6Gaia Spirits.&r"
 			]
@@ -1396,7 +1384,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["7EE279615E00797C"]
+			dependencies: [
+				"7EE279615E00797C"
+				"6B0DF94DF9004625"
+			]
+			description: ["Fragments of the mysterious &6Guardian of Gaia&r, these spirits have enormous potential..."]
 			id: "0721C000948329FF"
 			tasks: [{
 				id: "51D63243515AEAB7"
@@ -1506,6 +1498,34 @@
 			title: "Upgrades"
 			x: 4.0d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"357CA59CD9EFA012"
+				"7B4F1EAF6F7A4A1D"
+			]
+			description: [
+				"You can use a hefty amount of will as well as vengeful will crystals to create &6Wither Skeleton Skulls&r in a Hellfire Forge. "
+				""
+				"These skulls are very powerfully charged - you can use them to summon Withers and acquire their &6valuable stars.&r"
+			]
+			icon: "minecraft:nether_star"
+			id: "6B0DF94DF9004625"
+			tasks: [
+				{
+					id: "454762A1A44C17B6"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "0BE29949858B350B"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "The Wither"
+			x: -3.5d
+			y: -9.0d
 		}
 	]
 	title: "The Sound of Life"

@@ -5,11 +5,11 @@ color_r = 1
 color_g = 0
 color_b = 0
 map = {
-    "soul_sand_valley": [78, 241, 246],
-    "delta": [90, 74, 153],
-    "crimson": [188, 48, 49],
-    "warped": [20, 180, 133],
-    "wastes": [255, 73, 21]
+    "soul_sand_valley": [78, 241, 246, 'iron_ingot'],
+    "delta": [90, 74, 153, 'gold_ingot'],
+    "crimson": [188, 48, 49, 'stick'],
+    "warped": [20, 180, 133, 'redstone'],
+    "wastes": [255, 73, 21, 'copper_ingot']
 }
 
 radius_inner = 3
@@ -40,9 +40,9 @@ def generate_rite(biome, color_r, color_g, color_b):
         y = particle_height / steps * step
         if step == 0:
             step_command.append(
-                f"playsound botania:laputa_start block @p[distance=..16] ~ ~{particle_height / 2} ~ 1 0.7")
+                f"playsound botania:laputa_start block @a[distance=..32] ~ ~{particle_height / 2} ~ 1 0.7")
         elif step % 2 == 0:
-            step_command.append(f"playsound embers:block.alchemy.start block @p[distance=..16] ~ ~{y} ~ 1")
+            step_command.append(f"playsound embers:block.alchemy.start block @a[distance=..32] ~ ~{y} ~ 1")
         radius_fraction = 1 - (step / steps)
         for offset in range(0, 360, 90):
             inner_x = round(get_x(180 / steps * step + offset) * radius_inner * radius_fraction, 4)
@@ -50,15 +50,15 @@ def generate_rite(biome, color_r, color_g, color_b):
             outer_x = round(get_x(180 / steps * step + offset + 45) * radius_outer * radius_fraction, 4)
             outer_z = round(get_z(180 / steps * step + offset + 45) * radius_outer * radius_fraction, 4)
             step_command.append(
-                f"particle reclamation_util:colored_drip_hang {color_r} {color_g} {color_b} true ~{inner_x} ~{y} ~{inner_z} 0 0 0 0 1")
+                f"particle reclamation_util:two_colored_drip_hang {min(color_r+0.5, 1)} {min(color_g+0.5, 1)} {min(color_b+0.5, 1)} {color_r} {color_g} {color_b} true ~{inner_x} ~{y} ~{inner_z} 0 0 0 0 1")
             step_command.append(
-                f"particle reclamation_util:colored_drip_hang {color_r} {color_g} {color_b} true ~{outer_x} ~{y} ~{outer_z} 0 0 0 0 1")
+                f"particle reclamation_util:two_colored_drip_hang {min(color_r+0.5, 1)} {min(color_g+0.5, 1)} {min(color_b+0.5, 1)} {color_r} {color_g} {color_b} true ~{outer_x} ~{y} ~{outer_z} 0 0 0 0 1")
         commands.append(step_command)
 
     linedown = []
     for step in range(0, linesteps):
         linedown.append(f"particle {lineparticle} ~ ~{particle_height / linesteps * step} ~ 0 0 0 0 1")
-    linedown.append("playsound botania:mana_blaster block @p[distance=..16] ~ ~ ~ 1")
+    linedown.append("playsound botania:mana_blaster block @a[distance=..32] ~ ~ ~ 1")
     commands.append(linedown)
 
     for step in range(0, 17):
@@ -69,7 +69,7 @@ def generate_rite(biome, color_r, color_g, color_b):
     output = {
         "items": [
             {
-                "id": "minecraft:iron_ingot",
+                "id": "minecraft:"+map[biome][3],
                 "Count": 1
             }
         ],
