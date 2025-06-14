@@ -82,4 +82,30 @@ ServerEvents.recipes(event => {
             C: 'create:cogwheel'
         }
     )
+
+    //rose quartz
+    event.custom({
+        "type": "create:mixing",
+        "heatRequirement": "heated",
+        "ingredients": [
+            {
+                "item": "minecraft:glowstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "amount": 100,
+                "fluid": "theurgy:sal_ammoniac"
+            }
+        ],
+        "results": [
+            {
+                "item": "create:rose_quartz"
+            }
+        ]
+    })
 })

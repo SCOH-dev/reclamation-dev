@@ -3,6 +3,11 @@
   "growth_bonus": 0.025,
   "growth_chance": 0.75,
   "harvest_stage": 1,
+  "modifiers": [
+    {
+      "id": "reclamation:summon_mandrake"
+    }
+  ],
   "mods": [],
   "products": [
     {

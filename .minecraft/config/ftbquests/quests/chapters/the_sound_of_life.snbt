@@ -1527,6 +1527,22 @@
 			x: -3.5d
 			y: -9.0d
 		}
+		{
+			dependencies: ["3E0289A3420971D8"]
+			description: [
+				"The &6Conjuration Catalyst&r can duplicate certain items for a relatively moderate mana cost."
+				""
+				"No more fiddling around with potions or distilling to make your redstone and glowstone!"
+			]
+			id: "2CC12CE948BCDF7A"
+			tasks: [{
+				id: "6DE1672848EE5822"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
 	]
 	title: "The Sound of Life"
 }

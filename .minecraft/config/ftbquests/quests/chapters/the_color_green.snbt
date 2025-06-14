@@ -878,7 +878,7 @@
 				}
 			]
 			title: "Mechanical Crafting"
-			x: 5.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -1125,7 +1125,7 @@
 		}
 		{
 			dependencies: ["287C747ED1189725"]
-			description: ["Your first archaic brick can be made by infusing a regular brick with tainted gold and infused iron. Once you have one, you can use it to make more by simply infusing it with more clay and soul sand."]
+			description: ["Your first &6archaic brick&r can be made by infusing a regular brick with tainted gold and infused iron. Once you have one, you can use it to make more by simply infusing it with &6more clay and soul sand.&r"]
 			id: "54DFF798149BE746"
 			tasks: [{
 				id: "6A988B078BB6F842"
@@ -1347,6 +1347,210 @@
 			}]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["287C747ED1189725"]
+			description: ["The &6Wildfire Core&r is a key piece of some advanced dwarven machinery."]
+			id: "4BF72A5E2897EBD4"
+			tasks: [{
+				id: "01F5731866494B98"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4BF72A5E2897EBD4"]
+			description: [
+				"The &6Wildfire Stirling,&r when attached to machines and supplied with steam, increases the efficiency of their ember usage."
+				""
+				"The first one cuts usage in half, the second one halves it again, and any more decrease the efficiency."
+			]
+			id: "7EF13F67C5B31A7E"
+			tasks: [{
+				id: "44627103A3725806"
+				item: "embers:wildfire_stirling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4BF72A5E2897EBD4"]
+			description: [
+				"The &6Ignem Reactor&r is your solution to high ember usage - when placed between a &6Catalysis&r and &6Combustion Chamber,&r it refines ember at a MUCH higher rate than the Ember Activator; up to &69x more ember&r per crystal item."
+				""
+				"&7Tip: the Catalysis and Combustion Chambers need fuel to operate, check JEI for their fuels and multipliers."
+			]
+			icon: "embers:ignem_reactor"
+			id: "6A69962F4001509A"
+			tasks: [
+				{
+					id: "2189DC2F4FDEB322"
+					item: "embers:ignem_reactor"
+					type: "item"
+				}
+				{
+					id: "6778C5C0E060CEC1"
+					item: "embers:catalysis_chamber"
+					type: "item"
+				}
+				{
+					id: "1A82D8BF3566A52D"
+					item: "embers:combustion_chamber"
+					type: "item"
+				}
+			]
+			title: "Ignem Reactor"
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4BF72A5E2897EBD4"]
+			description: [
+				"With the power of alchemy, you can turn a charged attuned stone into a seed capable of turning ember into pure metal! These crystal seeds, when powered with an &6Ember Injector,&r will slowly grow and drop metal nuggets."
+				""
+				"Not every metal can be turned into these seeds, but you have figured out that you can actually &6obtain Zinc&r through this alchemical process!"
+				""
+				"&7Tip: crystals will slowly level up and drop more and more metal. Moving them resets their level, though!"
+			]
+			icon: "embers:zinc_crystal_seed"
+			id: "22735AE4F84EF82B"
+			size: 1.5d
+			subtitle: "Zinc! (and others)"
+			tasks: [
+				{
+					id: "05BF876AB4CF0EBA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "embers:zinc_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:lead_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:iron_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:copper_crystal_seed"
+								}
+							]
+						}
+					}
+					title: "Any Metal Crystal Seed"
+					type: "item"
+				}
+				{
+					id: "73FD48B472E606AB"
+					item: "embers:ember_injector"
+					type: "item"
+				}
+			]
+			title: "Metal Crystal Seeds"
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["221E431A74C6E8A5"]
+			description: ["With Dawnstone, you can craft ember transferral devices that can handle much more throughput."]
+			icon: "embers:ember_ejector"
+			id: "3FD3CD01761AE92A"
+			tasks: [
+				{
+					id: "6440F561FFCF06D6"
+					item: "embers:ember_ejector"
+					type: "item"
+				}
+				{
+					id: "2A68CC3B8ABDF4CC"
+					item: "embers:ember_funnel"
+					type: "item"
+				}
+			]
+			title: "High Volume Ember Transfer"
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["22735AE4F84EF82B"]
+			description: [
+				"Now that you have zinc, you can alloy it with copper to create brass! This is useful almost exclusively for &6mechanical contraptions.&r"
+				""
+				"&6Electron Tubes&r are also an important step to making more complicated contraptions. "
+				""
+				"&6Rose Quartz&r can be made in a heated basin, combining glowstone and redstone in a sal ammoniac bath."
+			]
+			icon: "create:electron_tube"
+			id: "20EF463DB77E09EE"
+			optional: true
+			tasks: [
+				{
+					id: "0B9F338A37E36108"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "5AB8A62B4C42FBE1"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			title: "Advanced Contraptions"
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: [
+				"Packages and their associated transport items open up a huge amount of logistical freedom."
+				""
+				"&7Tip: for more information, hover these items and hold W to ponder!"
+			]
+			icon: "create:packager"
+			id: "7027BF39C1223997"
+			optional: true
+			tasks: [
+				{
+					id: "71DD21702431A790"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+				{
+					id: "1740117E6C75E6EC"
+					item: "create:package_frogport"
+					type: "item"
+				}
+				{
+					id: "25F76361F4E9E507"
+					item: "create:packager"
+					type: "item"
+				}
+			]
+			title: "Mechanical Logistics"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20EF463DB77E09EE"]
+			description: ["With access to brass and "]
+			id: "0230C7C57435FB3A"
+			optional: true
+			tasks: [{
+				id: "6955607593312B92"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -12.5d
 		}
 	]
 	title: "The Color Green"

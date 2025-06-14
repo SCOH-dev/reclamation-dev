@@ -14,6 +14,91 @@
     }
   ],
   "lookup_history": [
+    "item:create:precision_mechanism",
+    "item:create:factory_gauge",
+    "item:create:stock_link",
+    "item:create:redstone_requester",
+    "item:create:stock_ticker",
+    "item:create:package_frogport",
+    "item:create:chain_conveyor",
+    "item:create:pulp",
+    "item:create:cardboard",
+    "item:create:cardboard_block",
+    "item:create:packager",
+    "item:create:item_vault",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:cactus\",rec:\"minecraft:cactus\"},strength:{dom:1,rec:1}}}",
+    "item:minecraft:cactus",
+    "item:minecraft:slime_ball",
+    "#item:forge:slimeballs",
+    "item:minecraft:lightning_rod",
+    "item:create:transmitter",
+    "item:create:brass_ingot",
+    {
+      "type": "item",
+      "id": "minecraft:glowstone_dust",
+      "amount": 2
+    },
+    "item:theurgy:alchemical_sulfur_other_minerals_common",
+    "item:theurgy:alchemical_sulfur_redstone{\"theurgy:sulfur.source.id\":\"#forge:ores/redstone\"}",
+    "item:minecraft:redstone",
+    "item:botania:conjuration_catalyst",
+    "item:create:rose_quartz",
+    "item:create:basin",
+    "item:create:polished_rose_quartz",
+    "item:create:electron_tube",
+    "item:minecraft:glowstone",
+    "item:minecraft:prismarine_crystals",
+    "item:botania:blood_pendant",
+    "item:enchanted:attuned_stone",
+    "item:minecraft:quartz_block",
+    "item:minecraft:quartz",
+    "item:theurgy:alchemical_sulfur_silver{\"theurgy:sulfur.source.id\":\"#forge:ingots/silver\"}",
+    "item:embers:dawnstone_ingot",
+    "item:embers:dawnstone_crystal_seed",
+    "item:embers:lead_crystal_seed",
+    "item:embers:copper_crystal_seed",
+    "item:embers:gold_crystal_seed",
+    "item:botania:rune_air",
+    "item:botania:rune_water",
+    "item:botania:rune_earth",
+    "item:botania:rune_fire",
+    "item:minecraft:netherrack",
+    "item:minecraft:nether_bricks",
+    "item:minecraft:nether_brick",
+    "item:naturesaura:gold_nether_brick",
+    "item:embers:uranium_crystal_seed",
+    "item:embers:platinum_crystal_seed",
+    "item:embers:zinc_crystal_seed",
+    "item:embers:aluminum_crystal_seed",
+    "item:embers:tin_crystal_seed",
+    "item:embers:nickel_crystal_seed",
+    "item:embers:silver_crystal_seed",
+    "item:embers:iron_crystal_seed",
+    {
+      "type": "fluid",
+      "id": "embers:molten_nickel",
+      "amount": 0
+    },
+    "item:embers:ember_ejector",
+    "item:embers:ember_funnel",
+    "item:embers:combustion_chamber",
+    "item:embers:wildfire_core",
+    "item:embers:archaic_brick",
+    "item:embers:ancient_motive_core",
+    "item:naturesaura:offering_table",
+    "item:embers:ember_injector",
+    "#item:embers:crystal_seeds",
+    "item:mysticalagriculture:infusion_altar",
+    "item:create:zinc_ingot",
+    "item:create:brass_casing",
+    "item:create:mechanical_crafter",
+    "item:minecraft:tuff",
+    "item:create:zinc_nugget",
+    "item:theurgy:alchemical_sulfur_zinc{\"theurgy:sulfur.source.id\":\"#forge:ingots/zinc\"}",
+    "item:create:deepslate_zinc_ore",
+    "item:create:zinc_ore",
+    "item:create:raw_zinc",
+    "item:create:raw_zinc_block",
     "item:bloodmagic:weakbloodshard",
     "item:minecraft:wither_skeleton_skull",
     "item:bloodmagic:soulgempetty{souls:64.0d}",
@@ -52,10 +137,8 @@
     },
     "item:mekanism:hdpe_sheet",
     "item:mekanism:solar_neutron_activator",
-    "item:theurgy:alchemical_sulfur_silver{\"theurgy:sulfur.source.id\":\"#forge:ingots/silver\"}",
     "item:create:empty_blaze_burner",
     "item:create:blaze_burner",
-    "item:create:brass_ingot",
     {
       "type": "fluid",
       "id": "embers:molten_brass",
@@ -117,7 +200,6 @@
     "item:minecraft:cracked_polished_blackstone_bricks",
     "item:minecraft:blackstone",
     "item:enchanted:earmuffs{Damage:0}",
-    "item:minecraft:redstone",
     {
       "type": "fluid",
       "id": "create:potion",
@@ -131,8 +213,6 @@
     "item:botania:mana_pearl",
     "item:botania:runic_altar",
     "item:minecraft:prismarine_shard",
-    "item:minecraft:prismarine_crystals",
-    "item:botania:blood_pendant",
     "item:ars_nouveau:red_archwood_sapling",
     "item:ars_nouveau:water_essence",
     "item:mysticalagriculture:prudentium_essence",
@@ -177,7 +257,6 @@
     "item:botania:rune_gluttony",
     "item:botania:rune_lust",
     "item:minecraft:budding_amethyst",
-    "item:minecraft:quartz",
     "item:theurgy:alchemical_sulfur_quartz{\"theurgy:sulfur.source.id\":\"#forge:gems/quartz\"}",
     "item:bloodmagic:hellforgedparts",
     "item:bloodmagic:etherealslate",
@@ -328,7 +407,6 @@
     "item:mekanism:enrichment_chamber",
     "item:mekanism:crusher",
     "item:botania:terrasteel_ingot",
-    "item:minecraft:glowstone_dust",
     {
       "type": "jemi",
       "uid": "gas:reclamation:essence_boosted_ethylene"
@@ -438,8 +516,6 @@
     "item:ars_nouveau:archwood_planks",
     "item:ars_nouveau:novice_spell_book",
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:hostile\",dominant:1b},\"complicated_bees:fertility\":{data:3,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:nether\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"long\",dominant:1b},\"complicated_bees:productivity\":{data:\"average\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:infernal\",dominant:1b},\"complicated_bees:temperature\":{data:\"hellish\",dominant:1b,tolerance:\"DOWN_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:hostile\",dominant:1b},\"complicated_bees:fertility\":{data:3,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:nether\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"long\",dominant:1b},\"complicated_bees:productivity\":{data:\"average\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:infernal\",dominant:1b},\"complicated_bees:temperature\":{data:\"hellish\",dominant:1b,tolerance:\"DOWN_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:infernal\"}",
-    "item:botania:conjuration_catalyst",
-    "item:minecraft:glowstone",
     "item:minecraft:oak_slab",
     "item:mekanism:alloy_infused",
     "item:enchanted:redstone_soup",
@@ -522,70 +598,68 @@
     "item:enchanted:water_artichoke",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:dandelion\",rec:\"minecraft:dandelion\"},strength:{dom:1,rec:1}}}",
     [
-      "item:minecraft:jungle_sapling",
-      "item:minecraft:sugar_cane",
-      "item:minecraft:spruce_sapling",
-      "item:enchanted:garlic",
-      "item:minecraft:pumpkin_seeds",
-      "item:enchanted:snowbell_seeds",
-      "item:minecraft:dead_bush",
-      "item:minecraft:melon_seeds",
-      "item:minecraft:cactus",
+      "item:minecraft:dark_oak_sapling",
       "item:minecraft:acacia_sapling",
+      "item:minecraft:oak_sapling",
+      "item:minecraft:cactus",
+      "item:minecraft:spruce_sapling",
       "item:enchanted:belladonna_seeds",
       "item:enchanted:blood_poppy",
-      "item:minecraft:oak_sapling",
+      "item:minecraft:melon_seeds",
+      "item:minecraft:pumpkin_seeds",
+      "item:minecraft:sugar_cane",
       "item:minecraft:birch_sapling",
-      "item:minecraft:dark_oak_sapling",
+      "item:minecraft:dead_bush",
       "item:enchanted:mandrake_seeds",
-      "item:ars_nouveau:magebloom_crop",
+      "item:enchanted:snowbell_seeds",
       "item:minecraft:cherry_sapling",
+      "item:enchanted:garlic",
+      "item:minecraft:jungle_sapling",
       "item:enchanted:wolfsbane_seeds",
+      "item:ars_nouveau:magebloom_crop",
       "#item:mysticalagriculture:seeds",
       "#item:minecraft:villager_plantable_seeds",
       "#item:enchanted:saplings"
     ],
     "item:enchanted:mutandis",
     [
-      "item:enchanted:ember_moss",
-      "item:minecraft:wither_rose",
-      "item:minecraft:dandelion",
-      "item:minecraft:azure_bluet",
-      "item:farmersdelight:wild_tomatoes",
-      "item:minecraft:grass",
-      "item:minecraft:torchflower",
-      "item:minecraft:blue_orchid",
-      "item:naturesaura:aura_bloom",
-      "item:farmersdelight:wild_onions",
-      "item:minecraft:cornflower",
-      "item:farmersdelight:wild_cabbages",
-      "item:nethersdelight:mimicarnation",
-      "item:minecraft:white_tulip",
       "item:naturesaura:end_flower",
-      "item:minecraft:orange_tulip",
-      "item:supplementaries:wild_flax",
-      "item:enchanted:glint_weed",
-      "item:minecraft:pink_tulip",
-      "item:minecraft:allium",
-      "item:minecraft:brown_mushroom",
-      "item:enchanted:blood_poppy",
-      "item:farmersdelight:wild_beetroots",
-      "item:minecraft:poppy",
-      "item:minecraft:red_tulip",
-      "item:minecraft:oxeye_daisy",
-      "item:farmersdelight:wild_potatoes",
-      "item:minecraft:red_mushroom",
       "item:enchanted:spanish_moss",
+      "item:minecraft:cornflower",
+      "item:minecraft:allium",
+      "item:minecraft:red_mushroom",
+      "item:nethersdelight:mimicarnation",
+      "item:minecraft:red_tulip",
+      "item:minecraft:brown_mushroom",
+      "item:farmersdelight:wild_cabbages",
+      "item:minecraft:blue_orchid",
+      "item:enchanted:glint_weed",
+      "item:farmersdelight:wild_beetroots",
+      "item:farmersdelight:wild_potatoes",
+      "item:minecraft:dandelion",
+      "item:minecraft:poppy",
       "item:farmersdelight:wild_carrots",
+      "item:minecraft:torchflower",
+      "item:supplementaries:wild_flax",
+      "item:enchanted:blood_poppy",
+      "item:minecraft:azure_bluet",
+      "item:minecraft:grass",
+      "item:farmersdelight:wild_tomatoes",
+      "item:minecraft:pink_tulip",
       "item:minecraft:lily_of_the_valley",
+      "item:minecraft:wither_rose",
+      "item:enchanted:ember_moss",
+      "item:naturesaura:aura_bloom",
+      "item:minecraft:oxeye_daisy",
+      "item:minecraft:orange_tulip",
+      "item:farmersdelight:wild_onions",
+      "item:minecraft:white_tulip",
       "#item:minecraft:saplings",
       "#item:botania:mystical_flowers"
     ],
     "item:minecraft:oak_sapling",
     "item:minecraft:dandelion",
     "item:complicated_bees:apiary",
-    "item:minecraft:netherrack",
-    "item:minecraft:nether_brick",
     "item:complicated_bees:dry_frame{Damage:0}",
     "item:bloodmagic:selfsacrificerune",
     "item:bloodmagic:sacrificialdagger",
@@ -628,31 +702,31 @@
     },
     "item:mekanismtools:stone_paxel{Damage:0}",
     [
-      "item:botania:glass_pickaxe{Damage:0}",
-      "item:projecte:rm_pick",
-      "item:embers:silver_pickaxe{Damage:0}",
+      "item:mekanismtools:bronze_pickaxe{Damage:0}",
+      "item:botania:elementium_pickaxe{Damage:0}",
       "item:bloodmagic:soulpickaxe{Damage:0}",
-      "item:projecte:rm_hammer",
-      "item:projecte:rm_morning_star",
-      "item:projecte:dm_hammer",
-      "item:mekanismtools:osmium_pickaxe{Damage:0}",
-      "item:botania:terra_pick{Damage:0}",
       "item:naturesaura:depth_pickaxe{Damage:0}",
+      "item:projecte:dm_hammer",
+      "item:naturesaura:sky_pickaxe{Damage:0}",
+      "item:embers:silver_pickaxe{Damage:0}",
+      "item:botania:terra_pick{Damage:0}",
+      "item:mekanismtools:refined_glowstone_pickaxe{Damage:0}",
+      "item:embers:dawnstone_pickaxe{Damage:0}",
+      "item:embers:lead_pickaxe{Damage:0}",
+      "item:projecte:rm_hammer",
+      "item:projecte:rm_pick",
+      "item:projecte:dm_pick",
+      "item:mekanismtools:osmium_pickaxe{Damage:0}",
+      "item:botania:manasteel_pick{Damage:0}",
+      "item:mekanismtools:refined_obsidian_pickaxe{Damage:0}",
       "item:mekanismtools:steel_pickaxe{Damage:0}",
       "item:mekanismtools:lapis_lazuli_pickaxe{Damage:0}",
-      "item:mekanismtools:refined_obsidian_pickaxe{Damage:0}",
-      "item:botania:elementium_pickaxe{Damage:0}",
-      "item:mekanismtools:bronze_pickaxe{Damage:0}",
       "item:naturesaura:infused_iron_pickaxe{Damage:0}",
-      "item:embers:dawnstone_pickaxe{Damage:0}",
-      "item:botania:manasteel_pick{Damage:0}",
-      "item:naturesaura:sky_pickaxe{Damage:0}",
-      "item:mekanismtools:refined_glowstone_pickaxe{Damage:0}",
-      "item:projecte:dm_pick",
-      "item:embers:lead_pickaxe{Damage:0}",
+      "item:projecte:rm_morning_star",
+      "item:botania:glass_pickaxe{Damage:0}",
       "item:ae2:fluix_pickaxe{Damage:0}",
-      "#item:forge:tools/paxels",
       "#item:forge:tools/pickaxes",
+      "#item:forge:tools/paxels",
       "#item:ae2:quartz_pickaxe"
     ],
     "item:minecraft:cut_copper",
@@ -705,7 +779,6 @@
     "item:theurgy:alchemical_salt_strata",
     "item:theurgy:alchemical_salt_crops",
     "item:theurgy:mercury_shard",
-    "item:enchanted:attuned_stone",
     "item:embers:silver_ingot",
     "item:theurgy:alchemical_sulfur_other_minerals_rare",
     "item:theurgy:alchemical_sulfur_lead{\"theurgy:sulfur.source.id\":\"#forge:ores/lead\"}",
@@ -713,9 +786,6 @@
     "item:embers:alchemy_tablet",
     "item:embers:dawnstone_anvil",
     "item:embers:catalysis_chamber",
-    "item:embers:copper_crystal_seed",
-    "#item:embers:crystal_seeds",
-    "item:embers:gold_crystal_seed",
     [
       "item:bloodmagic:basemonstersoul",
       "item:bloodmagic:soulgempetty",
@@ -766,8 +836,6 @@
     "item:bloodmagic:orbcapacityrune",
     "item:minecraft:honeycomb",
     "item:minecraft:beehive",
-    "item:minecraft:nether_bricks",
-    "item:naturesaura:gold_nether_brick",
     "item:naturesaura:calling_spirit",
     "item:naturesaura:token_grief",
     "item:enchanted:diamond_vapour",
@@ -788,7 +856,6 @@
     "item:naturesaura:end_flower",
     "item:naturesaura:eye_improved",
     "item:minecraft:cow_spawn_egg",
-    "item:naturesaura:offering_table",
     "item:enchanted:whiff_of_magic",
     "item:enchanted:demonic_blood",
     "item:mysticalagriculture:watering_can{Water:0b}",
@@ -810,13 +877,13 @@
     "item:naturesaura:token_euphoria",
     [
       "item:minecraft:beef",
-      "item:bloodmagic:strong_tau",
       "item:minecraft:chicken",
+      "item:minecraft:rotten_flesh",
       "item:minecraft:porkchop",
-      "item:minecraft:mutton",
       "item:minecraft:spider_eye",
       "item:minecraft:rabbit",
-      "item:minecraft:rotten_flesh",
+      "item:minecraft:mutton",
+      "item:bloodmagic:strong_tau",
       "#item:croptopia:fishes"
     ],
     "item:minecraft:chicken",
@@ -901,7 +968,6 @@
     "item:minecraft:feather",
     "item:enchanted:bone_needle",
     "item:enchanted:exhale_of_the_horned_one",
-    "item:botania:rune_air",
     {
       "type": "fluid",
       "id": "embers:molten_iron",
@@ -914,7 +980,6 @@
     "item:enchanted:gypsum",
     "item:enchanted:wood_ash",
     "item:botania:mana_powder",
-    "item:botania:rune_earth",
     "item:botania:dirt_rod",
     {
       "type": "fluid",
@@ -927,12 +992,9 @@
     "item:botania:rune_autumn",
     "item:botania:rune_summer",
     "item:botania:rune_spring",
-    "item:botania:rune_fire",
-    "item:botania:rune_water",
     "item:enchanted:soft_clay_jar",
     "item:enchanted:clay_jar",
     "item:enchanted:quicklime",
-    "item:minecraft:slime_ball",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"botania:gray_mystical_flower\",rec:\"botania:gray_mystical_flower\"},strength:{dom:1,rec:1}}}",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"botania:cyan_mystical_flower\",rec:\"botania:cyan_mystical_flower\"},strength:{dom:1,rec:1}}}",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"botania:red_mystical_flower\",rec:\"botania:red_mystical_flower\"},strength:{dom:1,rec:1}}}",
@@ -1001,11 +1063,6 @@
     "item:botania:terrasteel_nugget",
     "item:botania:alfheim_portal",
     "item:botania:manaweave_cloth",
-    {
-      "type": "item",
-      "id": "embers:archaic_brick",
-      "amount": 5
-    },
     "item:embers:mnemonic_inscriber",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"croptopia:rice\",rec:\"croptopia:rice\"},strength:{dom:1,rec:1}}}",
     "item:croptopia:strawberry_seed",
@@ -1019,7 +1076,6 @@
     "item:bloodmagic:ingot_hellforged",
     "item:theurgy:fermentation_vat",
     "item:theurgy:alchemical_sulfur_metals_common",
-    "item:theurgy:alchemical_sulfur_redstone{\"theurgy:sulfur.source.id\":\"#forge:ores/redstone\"}",
     "#item:theurgy:alchemical_sulfurs/gems/common",
     "item:theurgy:alchemical_sulfur_gems_common",
     "item:theurgy:alchemical_sulfur_gems_abundant",
@@ -1101,8 +1157,6 @@
     "item:exposure:lightroom",
     "item:enchanted:fume_funnel",
     "item:minecraft:blaze_powder",
-    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:cactus\",rec:\"minecraft:cactus\"},strength:{dom:1,rec:1}}}",
-    "item:minecraft:cactus",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"croptopia:artichoke\",rec:\"croptopia:artichoke\"},strength:{dom:1,rec:1}}}",
     "item:minecraft:brewing_stand",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:potato\",rec:\"minecraft:potato\"},strength:{dom:1,rec:1}}}",
@@ -1117,7 +1171,6 @@
     "item:minecraft:splash_potion{Potion:\"quark:strong_resilience\"}",
     "item:croptopia:pineapple_seed",
     "item:mysticalagriculture:infusion_pedestal",
-    "item:mysticalagriculture:infusion_altar",
     "item:mysticalagriculture:dirt_seeds",
     "item:mysticalagriculture:dirt_essence",
     "item:minecraft:dirt",
@@ -1160,13 +1213,10 @@
     "item:naturesaura:gold_powder",
     "item:embers:fluid_extractor",
     "#item:theurgy:alchemical_sulfurs/metals/common",
-    "item:create:brass_casing",
     "item:theurgy:mercury_crystal",
     "item:minecraft:andesite_wall",
-    "item:embers:dawnstone_ingot",
     "item:enchanted:broom",
     "item:enchanted:flying_ointment",
-    "item:create:basin",
     "item:create:andesite_casing",
     "item:quark:berry_sack",
     "item:enchanted:icy_needle",
@@ -1181,8 +1231,6 @@
       "amount": 64
     },
     "item:create:iron_sheet",
-    "item:embers:ancient_motive_core",
-    "item:embers:wildfire_core",
     "item:embers:winding_gears",
     "item:embers:focal_lens",
     "item:embers:blasting_core",
@@ -1498,182 +1546,6 @@
     {
       "type": "jemi",
       "uid": "croptopia:chile_pepper"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:coffee_beans"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:corn"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:cranberry"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:cucumber"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:currant"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:eggplant"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:elderberry"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:artichoke"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:garlic"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:ginger"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:asparagus"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:barley"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:grape"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:greenbean"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:basil"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:bellpepper"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:greenonion"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:honeydew"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:blackbean"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:blackberry"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:hops"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:strawberry"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:squash"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:spinach"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:soybean"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:saguaro"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:rutabaga"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:rice"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:rhubarb"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:raspberry"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:radish"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:pineapple"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:pepper"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:peanut"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:onion"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:olive"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:oat"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:mustard"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:leek"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:tea_leaves"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:tomatillo"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:kiwi"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:kale"
-    },
-    {
-      "type": "jemi",
-      "uid": "croptopia:sweetpotato"
     }
   ],
   "craft_history": [
@@ -1690,9 +1562,9 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/create/filling/redstone",
       "jei:/enchanted/witch_cauldron/golden_chalk",
-      "minecraft:kjs/enchanted_ritual_chalk"
+      "minecraft:kjs/enchanted_ritual_chalk",
+      "jei:/create/filling/redstone"
     ],
     "tags": {},
     "resolutions": {},
