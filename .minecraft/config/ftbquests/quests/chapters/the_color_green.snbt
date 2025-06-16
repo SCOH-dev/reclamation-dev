@@ -1506,7 +1506,7 @@
 			]
 			title: "Advanced Contraptions"
 			x: 7.5d
-			y: -12.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1541,16 +1541,24 @@
 		}
 		{
 			dependencies: ["20EF463DB77E09EE"]
-			description: ["With access to brass and "]
+			description: ["With access to brass and electron tubes, you can make a Mechanical Crafter. These, in combination with &6factory gauges&r and &6package logistics,&r allow you to set up automatic stocking and crafting of items!"]
 			id: "0230C7C57435FB3A"
 			optional: true
-			tasks: [{
-				id: "6955607593312B92"
-				item: "create:mechanical_crafter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6955607593312B92"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "468E8D3B8A867517"
+					item: "create:factory_gauge"
+					type: "item"
+				}
+			]
+			title: "Autocrafting"
 			x: 9.0d
-			y: -12.5d
+			y: -11.0d
 		}
 	]
 	title: "The Color Green"

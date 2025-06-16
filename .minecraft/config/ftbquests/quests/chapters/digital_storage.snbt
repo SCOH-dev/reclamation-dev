@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "digital_storage"
+	group: "499FD90D592AFC7B"
+	id: "6624F3E176990B6A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Digital Storage"
+}

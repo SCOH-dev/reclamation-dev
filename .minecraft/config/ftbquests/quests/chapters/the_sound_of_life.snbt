@@ -510,8 +510,8 @@
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2746DDF7130D3BB4"]
@@ -614,7 +614,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["46391DDDC731B2AC"]
@@ -630,7 +630,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -651,7 +651,7 @@
 			}]
 			title: "Ethylene"
 			x: 8.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6EAAB9DF6917C3AC"]
@@ -664,7 +664,7 @@
 			}]
 			title: "Blooded Ethylene"
 			x: 9.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
@@ -676,7 +676,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2FD8F1325D206079"]
@@ -698,7 +698,7 @@
 			]
 			title: "Bio Fuel"
 			x: 7.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["382B7C05BB6427BB"]
@@ -715,8 +715,8 @@
 				item: "mekanism:purification_chamber"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1FFEB5A89F1ACBEC"]
@@ -741,8 +741,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -2.5d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0E50AD0D33F05A97"]
@@ -773,8 +773,8 @@
 				}
 			]
 			title: "REAL Ore Processing"
-			x: 9.0d
-			y: -2.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["574FE16E5404A3D0"]
@@ -1223,7 +1223,7 @@
 			]
 			title: "Generating Source"
 			x: -7.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["797F89EC438BD230"]
@@ -1243,8 +1243,8 @@
 				}
 			]
 			title: "Arcane Enchanting"
-			x: -9.0d
-			y: -5.0d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1260,14 +1260,26 @@
 			]
 			icon: "ars_nouveau:amethyst_golem_charm"
 			id: "3D210245881F46D7"
-			tasks: [{
-				id: "4681AAF428733A6B"
-				item: "ars_nouveau:ritual_awakening"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4681AAF428733A6B"
+					item: "ars_nouveau:amethyst_golem_charm"
+					type: "item"
+				}
+				{
+					id: "3F864F63DB8E70D9"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Amethyst Buddy"
 			x: -4.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -1332,7 +1344,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["1F95463AFBB55B18"]
+			dependencies: ["1A59682F5B56E020"]
 			description: ["Using the &6Enchanting Apparatus&r and some special reagents, you can make elemental essences that have a wide variety of uses, from crafting to spellweaving."]
 			id: "0F60E7D69F6FA06E"
 			tasks: [{
@@ -1380,8 +1392,8 @@
 				title: "Any Essence"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -7.0d
+			x: -9.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1411,11 +1423,14 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1F95463AFBB55B18"]
+			dependencies: [
+				"1F95463AFBB55B18"
+				"793195A0FD0A1EC1"
+			]
 			description: [
 				"The &6Storage Lectern&r boasts the incredibly convenient capability of letting you manage, view, and craft using nearby storage blocks. Simply place it down and link inventories to it using the dominion wand!"
 				""
-				"There is a limit to the number of inventories you can connect to at once - this can be raised using &6Bookwyrm Charms.&r"
+				"There is a limit to the number of inventories you can connect to at once - this can be raised using additional &6Bookwyrm Charms.&r"
 			]
 			icon: "ars_nouveau:storage_lectern"
 			id: "792DA50F1C60B35D"
@@ -1438,8 +1453,8 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -3.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
@@ -1542,6 +1557,137 @@
 			}]
 			x: -7.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["0E7BC6F2785D6CD4"]
+			id: "793195A0FD0A1EC1"
+			tasks: [{
+				id: "5BD47BD466F1A925"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E7BC6F2785D6CD4"]
+			description: [
+				"You can summon &6Wilden&r using the aptly-named Tablet of Summon Wilden. These magical creatures drop &6special reagents when killed.&r"
+				""
+				"These reagents can also be used to summon the &6Wilden Chimera,&r a powerful boss that drops a &6special item&r needed to channel tier 3 spells. "
+			]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "3660075C34865DCB"
+			tasks: [
+				{
+					id: "557B6D621EA69A1C"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "6C342A0F4B4E47B7"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "Wilden"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["382B7C05BB6427BB"]
+			description: ["With the power of a &6Charger&r and an &6enriched diamond,&r you can create a &6special kind of quartz...&r"]
+			icon: "ae2:charged_certus_quartz_crystal"
+			id: "09809D52A27FDC84"
+			tasks: [
+				{
+					id: "4200E6A3B4CC4927"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "399F8B82ED3A747D"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "Certus Quartz"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09809D52A27FDC84"]
+			description: [
+				"Obviously, the ratio of one diamond for one certus quartz isn't exactly tenable. Luckily, there's a way to literally grow it from itself - just throw a block of &6certus quartz into water with some charged certus quartz,&r and it'll get converted into &6budding quartz.&r"
+				""
+				"This semi-flawed quartz block will grow crystals just like amethyst, with one caveat - &4eventually the crystal will degrade&r back into a regular block, meaning you'll have to re-seed it."
+				""
+				"&7Tip: you can also use Theurgy to convert other materials into certus quartz - amethyst is a good candidate!"
+			]
+			id: "4B21D583F11D94F4"
+			tasks: [{
+				id: "6240BAA8E7D232EC"
+				item: "ae2:flawed_budding_quartz"
+				type: "item"
+			}]
+			title: "Growing Quartz"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B21D583F11D94F4"]
+			description: ["By combining redstone and nether quartz with charged certus quartz, you can make Fluix Crystals, capable of turning matter into digitalized information."]
+			id: "3DC3BEC51801CB96"
+			tasks: [{
+				id: "060D3C3A47ED0D6E"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3DC3BEC51801CB96"]
+			description: [
+				"Before the apocalpyse - or whatever happened here - there were strange meteors that occasionally fell containing these &6mysterious presses.&r"
+				""
+				"You think you have devised a ritual that could potentially draw in another one of these meteors (albeit greatly diminished in size)."
+				""
+				"&7Tip: check your Reclamation Rituals book!"
+			]
+			icon: "ae2:mysterious_cube"
+			id: "64F989736017F6CD"
+			tasks: [{
+				id: "303F573F6C388FE3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:silicon_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:logic_processor_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:engineering_processor_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:calculation_processor_press"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Mysterious Cube"
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	title: "The Sound of Life"

@@ -84,4 +84,47 @@ ServerEvents.recipes(event => {
         ],
         "source": 3000
     })
+
+    event.remove({id: 'ars_nouveau:storage_lectern'})
+    event.custom({
+        "type": "ars_nouveau:enchanting_apparatus",
+        "keepNbtOfReagent": false,
+        "output": {
+            "item": "ars_nouveau:storage_lectern"
+        },
+        "pedestalItems": [
+            {
+                "item": "ars_nouveau:bookwyrm_charm"
+            },
+            {
+                "tag": "forge:chests"
+            },
+            {
+                "tag": "forge:chests"
+            },
+            {
+                "tag": "forge:chests"
+            }
+        ],
+        "reagent": [
+            {
+                "item": "minecraft:lectern"
+            }
+        ],
+        "sourceCost": 0
+    })
+
+    event.remove({id: 'ars_nouveau:novice_spell_book'})
+    event.shapeless('ars_nouveau:novice_spell_book', [
+        'minecraft:book',
+        'botania:manasteel_shovel',
+        'botania:manasteel_pick',
+        'botania:manasteel_axe',
+        'botania:manasteel_sword',
+        'ars_nouveau:source_gem',
+        'ars_nouveau:source_gem',
+        'ars_nouveau:source_gem',
+        'ars_nouveau:source_gem'
+    ])
+    event.replaceInput({id: 'ars_nouveau:wilden_summon_alt'}, 'minecraft:emerald_block', 'bloodmagic:infusedslate')
 })

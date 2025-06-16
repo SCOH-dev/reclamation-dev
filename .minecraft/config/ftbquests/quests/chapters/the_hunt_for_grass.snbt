@@ -31,6 +31,8 @@
 				"Even through the lack of nutrients in the soil, some especially-tough tufts of grass have held on. Some even have &6seeds that you can find&r and try to coax to life."
 				""
 				"Some of these seem &6especially magical&r - you wonder if you could use them in any way..."
+				""
+				"&7Tip: you'll probably only want to harvest mandrake at night!"
 			]
 			icon: "minecraft:wheat_seeds"
 			id: "26833208E1F2EB4B"
