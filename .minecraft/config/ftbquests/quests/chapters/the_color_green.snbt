@@ -1560,6 +1560,24 @@
 			x: 9.0d
 			y: -11.0d
 		}
+		{
+			dependencies: ["01C2598A1D9CF754"]
+			id: "68051685A2136388"
+			tasks: [{
+				id: "02110AA95DE2FF48"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
 	]
 	title: "The Color Green"
 }

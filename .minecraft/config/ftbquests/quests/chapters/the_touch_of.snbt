@@ -1,11 +1,62 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 280
 	default_quest_shape: ""
 	filename: "the_touch_of"
 	group: ""
+	icon: "minecraft:oak_sapling"
 	id: "240B183CDC03CB19"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"You've done it. You've reclaimed some small part of the world! "
+				""
+				"Now you just have to regain the diversity in surroundings you remember there once being..."
+			]
+			disable_toast: true
+			id: "797FD98625915CAF"
+			shape: "hexagon"
+			tasks: [{
+				biome: "#reclamation:reclaimed"
+				id: "6E3C0E23C809A6BA"
+				title: "Visit a Reclaimed Biome"
+				type: "biome"
+			}]
+			title: "Reclamation"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["797FD98625915CAF"]
+			description: ["Getting the nether back into shape is relatively easy, now that you understand the shape of terraforming rituals. "]
+			id: "0992C0993A6BBB8A"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				icon: "minecraft:netherrack"
+				id: "45591ED68D7E8CAC"
+				title: "Visit Every Nether Biome"
+				type: "advancement"
+			}]
+			title: "Reclaiming the Nether"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["797FD98625915CAF"]
+			description: ["With the creation of reclaimed biomes, natural spawns can now occur - drygmies, whirligigs, and starbuncles can all rarely spawn in these biomes, as well as the regular mobs."]
+			icon: "minecraft:spawner"
+			id: "1ECF71CD671CE14B"
+			tasks: [{
+				id: "124BC217DE620644"
+				type: "checkmark"
+			}]
+			title: "Natural Spawning"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
 	title: "Touching the Past"
 }

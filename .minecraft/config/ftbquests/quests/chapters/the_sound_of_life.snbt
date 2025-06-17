@@ -1336,6 +1336,7 @@
 			]
 			id: "7EE279615E00797C"
 			tasks: [{
+				count: 4L
 				id: "46CDCF3AACBF85C4"
 				item: "botania:gaia_pylon"
 				type: "item"

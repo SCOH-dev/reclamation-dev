@@ -1,7 +1,7 @@
 {
   "name": "Infuse Amalgam",
   "icon": "kubejs:infused_amalgam",
-  "category": "patchouli:category",
+  "category": "patchouli:basic_rituals",
   "pages": [
     {
       "type": "patchouli:rite_description",
