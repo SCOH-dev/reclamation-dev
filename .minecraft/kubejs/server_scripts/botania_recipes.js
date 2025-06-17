@@ -398,4 +398,20 @@ ServerEvents.recipes(event => {
             "item": "botania:manasteel_ingot"
         }
     })
+
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:conjuration_catalyst"
+        },
+        "input": {
+            "item": "ae2:sky_stone_block"
+        },
+        "mana": 500,
+        "output": {
+            "item": "ae2:sky_stone_block",
+            "count": 2
+        }
+    })
 })

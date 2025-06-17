@@ -1636,7 +1636,7 @@
 		}
 		{
 			dependencies: ["4B21D583F11D94F4"]
-			description: ["By combining redstone and nether quartz with charged certus quartz, you can make Fluix Crystals, capable of turning matter into digitalized information."]
+			description: ["By combining redstone and nether quartz with charged certus quartz, you can make &6Fluix Crystals,&r capable of turning matter into digitalized information."]
 			id: "3DC3BEC51801CB96"
 			tasks: [{
 				id: "060D3C3A47ED0D6E"
@@ -1689,6 +1689,58 @@
 			x: 0.0d
 			y: 5.0d
 		}
+		{
+			dependencies: [
+				"792DA50F1C60B35D"
+				"4C34B249425FA0CC"
+			]
+			description: ["The &6ME Controller&r is the brains of the &6Material Energy&r system - one of the most powerful logistics solutions available to you."]
+			id: "52D07AB4E6B88EA1"
+			shape: "hexagon"
+			tasks: [{
+				id: "41E4110B55B6F086"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64F989736017F6CD"]
+			description: ["The &6Inscriber&r is used to turn raw materials into actual circuits useable in the &6Matter Energy&r system."]
+			id: "4C34B249425FA0CC"
+			tasks: [{
+				id: "3757FCA22789B2B3"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0721C000948329FF"
+				"357CA59CD9EFA012"
+				"0B69076CC61D0246"
+			]
+			description: [
+				"With the raw power afforded to you by aspected will crystals, gaia fragments, and ethereal slates, you finally have enough oomph to begin reversing the damage this world has suffered."
+				""
+				"Look into the &6Ritual of Reclamation&r in your Reclamation Rituals book to start reclaiming the world."
+			]
+			id: "76531B6ECFD001DB"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				biome: "#reclamation:reclaimed"
+				id: "5CB74C9041238933"
+				title: "Visit a Reclaimed Biome"
+				type: "biome"
+			}]
+			title: "Reclamation"
+			x: -2.5d
+			y: -13.0d
+		}
 	]
-	title: "The Sound of Life"
+	title: "Sounds of Life"
 }

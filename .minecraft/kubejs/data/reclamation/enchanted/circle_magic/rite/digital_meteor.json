@@ -5,13 +5,16 @@
       "Count": 4
     },
     {
-      "id": "enchanted:drop_of_luck"
+      "id": "enchanted:drop_of_luck",
+      "Count": 1
     },
     {
-      "id": "minecraft:fire_charge"
+      "id": "minecraft:fire_charge",
+      "Count": 1
     },
     {
-      "id": "botania:rune_summer"
+      "id": "botania:rune_summer",
+      "Count": 1
     }
   ],
   "shapes": {

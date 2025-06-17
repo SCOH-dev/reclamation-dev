@@ -23,3 +23,6 @@ def generate_shells(function, biome, radius):
         with open(f"output/functions/{biome}/shell_{r}.mcfunction", "w") as out:
             out.write("playsound ars_nouveau:tempestry_family block @p[distance=..16] ~ ~ ~\n")
             write_shell(r, out, function)
+
+
+generate_shells("reclamation:reclaim/convert", "reclaim", 24)

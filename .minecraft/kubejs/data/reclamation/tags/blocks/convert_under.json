@@ -8,9 +8,9 @@
     "minecraft:tall_grass",
     "minecraft:warped_roots",
     "minecraft:warped_fungus",
-    "#minecraft:replaceable",
     "#minecraft:flowers",
     "#minecraft:replaceable_by_trees",
-    "#cucumber:mineable/sickle"
+    "#cucumber:mineable/sickle",
+    "#enchanted:broom_sweepable"
   ]
 }

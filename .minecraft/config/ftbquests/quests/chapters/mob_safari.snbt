@@ -1671,7 +1671,7 @@
 				type: "item"
 			}]
 			title: "Starbuncle"
-			x: 14.5d
+			x: 14.0d
 			y: 5.0d
 		}
 		{
@@ -1763,7 +1763,7 @@
 				type: "item"
 			}]
 			title: "Drygmy"
-			x: 15.5d
+			x: 15.0d
 			y: 5.0d
 		}
 		{
@@ -1788,6 +1788,29 @@
 			title: "Wilden Chimera"
 			x: 15.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_nouveau:whirlisprig_shards"
+			id: "2D476CDAF27AC863"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "5352E88F3CBB325D"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:drygmy": 1b
+						}
+					}
+				}
+				title: "Drygmy Photo"
+				type: "item"
+			}]
+			title: "Whirlisprig"
+			x: 16.0d
+			y: 5.0d
 		}
 	]
 	title: "Mob Safari"
