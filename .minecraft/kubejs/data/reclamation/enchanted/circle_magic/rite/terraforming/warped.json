@@ -1,12 +1,37 @@
 {
   "items": [
     {
-      "id": "minecraft:redstone",
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 1
+    },
+    {
+      "id": "bloodmagic:etherealslate",
+      "Count": 1
+    },
+    {
+      "id": "bloodmagic:corrosivecrystal",
+      "Count": 1
+    },
+    {
+      "id": "botania:life_essence",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:warped_fungus",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:warped_nylium",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }
   ],
   "shapes": {
-    "enchanted:small_circle": "enchanted:nether_chalk"
+    "enchanted:small_circle": "enchanted:nether_chalk",
+    "enchanted:medium_circle": "enchanted:nether_chalk"
   },
   "power": 0,
   "factory": {

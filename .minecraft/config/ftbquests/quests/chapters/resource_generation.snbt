@@ -1,0 +1,939 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "resource_generation"
+	group: "499FD90D592AFC7B"
+	icon: "minecraft:raw_iron"
+	id: "55C123B019947201"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Prosperity Seed Bases&r are the basis of all special essence seeds - very useful for generating large amounts of basic resources."
+				""
+				"&6Prosperity shards&r can be found by breaking down copper nuggets with a pickaxe on a cutting board."
+			]
+			id: "56E75D57C3C9487C"
+			shape: "hexagon"
+			tasks: [{
+				id: "1552B688C3A31631"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C972BEC949FEF25"]
+			description: [
+				"You can place frames into your apiary for bonuses to productivity, lifespan, and even change the experienced temperature and humidity of an apiary. "
+				""
+				"&7Tip: Frame modifiers stack multiplicatively, not additively!&r"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:frame"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B1AD7A67406CD8F"
+			tasks: [{
+				id: "18131103B31582F5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "complicated_bees:frame"
+					}
+				}
+				title: "Any Frame"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29CB5767DE978673"]
+			description: [
+				"You've noticed some beehives dotted around. Maybe you can try to domesticate them?"
+				""
+				"You'll need a tool to harvest the nests and a place to raise the bees."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "complicated_bees:scoop"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3BAA2A254E052AC1"
+			rewards: [{
+				id: "1E21D64CC9086C97"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "complicated_bees:field_guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "594A083F3875943D"
+					item: "complicated_bees:apiary"
+					type: "item"
+				}
+				{
+					id: "66CF5E522A68F9B2"
+					item: {
+						Count: 1
+						id: "complicated_bees:scoop"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beeginnings"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BAA2A254E052AC1"]
+			description: [
+				"Now pop a &6queen and drone into an apiary,&r and watch the magic happen! Bees can generate some &6very useful resources&r in their combs; initially, though, you'll have to process said combs on &6a cutting board.&r"
+				""
+				"At first, you'll only get beeswax and honey drops..."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:deprived"
+				}
+			}
+			id: "6C972BEC949FEF25"
+			tasks: [
+				{
+					id: "416C2632237632F0"
+					item: "complicated_bees:beeswax"
+					type: "item"
+				}
+				{
+					id: "1C1EEF122FFEE7FC"
+					item: "complicated_bees:honey_droplet"
+					type: "item"
+				}
+				{
+					id: "7E40C340FBC29A0C"
+					item: {
+						Count: 1
+						id: "complicated_bees:comb"
+						tag: {
+							comb_type: "reclamation:barren"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Beesources"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C972BEC949FEF25"]
+			description: ["By continuously re-breeding &6Wasteland&r bees together, you can start to slowly revitalize them. &6Dessicated&r and &6Dried&r bees are slightly better, with a higher productivity and lifespan - meaning less maintenance and more combs!"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:barren"
+				}
+			}
+			id: "7DD195197887D9E6"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "complicated_bees:drone"
+						tag: {
+							analyzed: 1b
+							chromosome_a: {
+								"complicated_bees:active_time": {
+									data: "diurnal"
+									dominant: 1b
+								}
+								"complicated_bees:cave_dwelling": {
+									data: 0b
+									dominant: 1b
+								}
+								"complicated_bees:effect": {
+									data: "INVALID"
+									dominant: 1b
+								}
+								"complicated_bees:fertility": {
+									data: 2
+									dominant: 1b
+								}
+								"complicated_bees:flower": {
+									data: "reclamation:dead_bush"
+									dominant: 1b
+								}
+								"complicated_bees:humidity": {
+									data: "dry"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:lifespan": {
+									data: "shortest"
+									dominant: 1b
+								}
+								"complicated_bees:productivity": {
+									data: "slower"
+									dominant: 1b
+								}
+								"complicated_bees:species": {
+									data: "reclamation:dessicated"
+									dominant: 1b
+								}
+								"complicated_bees:temperature": {
+									data: "hot"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:territory": {
+									data: [I;
+										4
+										2
+									]
+									dominant: 1b
+								}
+								"complicated_bees:weatherproof": {
+									data: 0b
+									dominant: 1b
+								}
+							}
+							chromosome_b: {
+								"complicated_bees:active_time": {
+									data: "diurnal"
+									dominant: 1b
+								}
+								"complicated_bees:cave_dwelling": {
+									data: 0b
+									dominant: 1b
+								}
+								"complicated_bees:effect": {
+									data: "INVALID"
+									dominant: 1b
+								}
+								"complicated_bees:fertility": {
+									data: 2
+									dominant: 1b
+								}
+								"complicated_bees:flower": {
+									data: "reclamation:dead_bush"
+									dominant: 1b
+								}
+								"complicated_bees:humidity": {
+									data: "dry"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:lifespan": {
+									data: "shortest"
+									dominant: 1b
+								}
+								"complicated_bees:productivity": {
+									data: "slower"
+									dominant: 1b
+								}
+								"complicated_bees:species": {
+									data: "reclamation:dessicated"
+									dominant: 1b
+								}
+								"complicated_bees:temperature": {
+									data: "hot"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:territory": {
+									data: [I;
+										4
+										2
+									]
+									dominant: 1b
+								}
+								"complicated_bees:weatherproof": {
+									data: 0b
+									dominant: 1b
+								}
+							}
+							species: "reclamation:dessicated"
+						}
+					}
+					id: "6C82369B6FFA66B6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:dessicated"
+							}
+						}
+					}
+					title: "Dessicated"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "complicated_bees:drone"
+						tag: {
+							analyzed: 1b
+							chromosome_a: {
+								"complicated_bees:active_time": {
+									data: "diurnal"
+									dominant: 1b
+								}
+								"complicated_bees:cave_dwelling": {
+									data: 0b
+									dominant: 1b
+								}
+								"complicated_bees:effect": {
+									data: "INVALID"
+									dominant: 1b
+								}
+								"complicated_bees:fertility": {
+									data: 2
+									dominant: 1b
+								}
+								"complicated_bees:flower": {
+									data: "reclamation:dead_bush"
+									dominant: 1b
+								}
+								"complicated_bees:humidity": {
+									data: "dry"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:lifespan": {
+									data: "shorter"
+									dominant: 1b
+								}
+								"complicated_bees:productivity": {
+									data: "slow"
+									dominant: 1b
+								}
+								"complicated_bees:species": {
+									data: "reclamation:dried"
+									dominant: 1b
+								}
+								"complicated_bees:temperature": {
+									data: "hot"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:territory": {
+									data: [I;
+										4
+										2
+									]
+									dominant: 1b
+								}
+								"complicated_bees:weatherproof": {
+									data: 0b
+									dominant: 1b
+								}
+							}
+							chromosome_b: {
+								"complicated_bees:active_time": {
+									data: "diurnal"
+									dominant: 1b
+								}
+								"complicated_bees:cave_dwelling": {
+									data: 0b
+									dominant: 1b
+								}
+								"complicated_bees:effect": {
+									data: "INVALID"
+									dominant: 1b
+								}
+								"complicated_bees:fertility": {
+									data: 2
+									dominant: 1b
+								}
+								"complicated_bees:flower": {
+									data: "reclamation:dead_bush"
+									dominant: 1b
+								}
+								"complicated_bees:humidity": {
+									data: "dry"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:lifespan": {
+									data: "shorter"
+									dominant: 1b
+								}
+								"complicated_bees:productivity": {
+									data: "slow"
+									dominant: 1b
+								}
+								"complicated_bees:species": {
+									data: "reclamation:dried"
+									dominant: 1b
+								}
+								"complicated_bees:temperature": {
+									data: "hot"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:territory": {
+									data: [I;
+										4
+										2
+									]
+									dominant: 1b
+								}
+								"complicated_bees:weatherproof": {
+									data: 0b
+									dominant: 1b
+								}
+							}
+							species: "reclamation:dried"
+						}
+					}
+					id: "2B81BE38A3EEE654"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:dried"
+							}
+						}
+					}
+					title: "Dried"
+					type: "item"
+				}
+			]
+			title: "Reclaimed Bees"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C972BEC949FEF25"]
+			description: [
+				"At some point, you'll want to take a closer look at your bees - the &6Analyzer&r allows you to examine what genes exactly any given bee has, for the low cost of a single honey drop."
+				""
+				"The &6Apid Library&r shows you what mutations you can create with a bee's species."
+				""
+				"The &6Microscope&r allows you to research bee species, giving you a higher chance to mutate bees into a researched species."
+			]
+			icon: "complicated_bees:analyzer"
+			id: "7ED2BFE2C5C19743"
+			tasks: [
+				{
+					id: "6DFD59A35AE3BA8E"
+					item: "complicated_bees:analyzer"
+					type: "item"
+				}
+				{
+					id: "2671B9BABB278AAF"
+					item: "complicated_bees:microscope"
+					type: "item"
+				}
+				{
+					id: "02AA6F1B01A8A358"
+					item: "complicated_bees:apid_library"
+					type: "item"
+				}
+			]
+			title: "Tools of the Trade"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C972BEC949FEF25"]
+			description: ["If you want to process your combs more efficiently, you'll want to make a &6Centrifuge.&r Powered by RF, it automatically turns combs into comb products - no more manual chopping!"]
+			icon: "complicated_bees:centrifuge"
+			id: "7F77AE83C391B38A"
+			tasks: [
+				{
+					id: "0596758025E351E7"
+					item: "complicated_bees:centrifuge"
+					type: "item"
+				}
+				{
+					id: "2AA9CA826B0E511C"
+					item: "complicated_bees:generator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Comb Processing "
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56E75D57C3C9487C"]
+			description: [
+				"All essence seeds need to grow on specially prepared &6Essence Farmland.&r"
+				""
+				"You can obtain your first bits of &6Inferium Essence&r from killing mobs."
+				""
+				"&7Tip: higher tier essence farmland will grow essence crops slightly faster!"
+			]
+			id: "6B8C517B623696FC"
+			tasks: [{
+				id: "1897EC062CD5BB14"
+				item: "mysticalagriculture:inferium_farmland"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: [
+				"These first elemental seeds don't have very many direct crafting uses, but are an important stepping stone to bigger and better things."
+				""
+				"&7Tip: essence seeds aren't cloneable, meaning you'll need two or more to actually start increasing their stats!"
+			]
+			icon: "mysticalagriculture:earth_seeds"
+			id: "6FE3B183104C980D"
+			tasks: [
+				{
+					id: "0B97017C95CF002F"
+					item: "mysticalagriculture:fire_seeds"
+					type: "item"
+				}
+				{
+					id: "4AD880DBBA0F44AC"
+					item: "mysticalagriculture:earth_seeds"
+					type: "item"
+				}
+				{
+					id: "1CF6E259DFB73471"
+					item: "mysticalagriculture:air_seeds"
+					type: "item"
+				}
+				{
+					id: "5A220320B4FF603D"
+					item: "mysticalagriculture:water_seeds"
+					type: "item"
+				}
+			]
+			title: "Elemental Seeds"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B8C517B623696FC"]
+			description: ["With enough inferium, you can craft &6Inferium Seeds,&r which grow essence themselves."]
+			id: "742977FB1C2FCF94"
+			tasks: [{
+				id: "0ECB8389F899DFED"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FE3B183104C980D"]
+			description: [
+				"More potent than regular inferium essence, &6Prudentium Essence&r can be used to make some useful essence seeds."
+				""
+				"Make it by combining all four elemental essences on a &6Runic Altar.&r"
+			]
+			id: "3E9104B5E89874E5"
+			tasks: [{
+				id: "4EA28D763984F40D"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "3A13E35FAF22E701"
+			tasks: [{
+				id: "26D671809237B280"
+				item: "mysticalagriculture:stone_seeds"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "472ECFBE89B04F90"
+			tasks: [{
+				id: "52CFF211B65C44C2"
+				item: "mysticalagriculture:nether_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "58210BAB0753F3E9"
+			tasks: [{
+				id: "45A52C3B5D1072F0"
+				item: "mysticalagriculture:dirt_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "4D2709D7429192C9"
+			tasks: [{
+				id: "5FB07917216B27E3"
+				item: "mysticalagriculture:ice_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "61D06954139026FB"
+			tasks: [{
+				id: "1C7BDDD4AFE70389"
+				item: "mysticalagriculture:deepslate_seeds"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "3227DFF2132EF975"
+			tasks: [{
+				id: "655222BE82316EF0"
+				item: "mysticalagriculture:wood_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B8C517B623696FC"]
+			description: [
+				"The &6infusion altar&r and &6pedestals&r are required to craft essence seeds."
+				""
+				"Place the items necessary in the pedestals, then give the altar a redstone signal to begin crafting."
+			]
+			icon: "mysticalagriculture:infusion_altar"
+			id: "1633274D007EACBA"
+			tasks: [
+				{
+					id: "6E923D9547C6893B"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "750AF5FB1DE98AF7"
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DD195197887D9E6"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:simmering"
+				}
+			}
+			id: "3FBA3BCF67F2AB82"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "complicated_bees:drone"
+						tag: {
+							analyzed: 1b
+							chromosome_a: {
+								"complicated_bees:active_time": {
+									data: "cathemeral"
+									dominant: 1b
+								}
+								"complicated_bees:cave_dwelling": {
+									data: 1b
+									dominant: 1b
+								}
+								"complicated_bees:effect": {
+									data: "complicated_bees:aggressive"
+									dominant: 1b
+								}
+								"complicated_bees:fertility": {
+									data: 2
+									dominant: 1b
+								}
+								"complicated_bees:flower": {
+									data: "complicated_bees:nether"
+									dominant: 1b
+								}
+								"complicated_bees:humidity": {
+									data: "normal"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:lifespan": {
+									data: "shortest"
+									dominant: 1b
+								}
+								"complicated_bees:productivity": {
+									data: "slow"
+									dominant: 1b
+								}
+								"complicated_bees:species": {
+									data: "complicated_bees:crimson"
+									dominant: 1b
+								}
+								"complicated_bees:temperature": {
+									data: "hellish"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:territory": {
+									data: [I;
+										4
+										2
+									]
+									dominant: 1b
+								}
+								"complicated_bees:weatherproof": {
+									data: 0b
+									dominant: 1b
+								}
+							}
+							chromosome_b: {
+								"complicated_bees:active_time": {
+									data: "cathemeral"
+									dominant: 1b
+								}
+								"complicated_bees:cave_dwelling": {
+									data: 1b
+									dominant: 1b
+								}
+								"complicated_bees:effect": {
+									data: "complicated_bees:aggressive"
+									dominant: 1b
+								}
+								"complicated_bees:fertility": {
+									data: 2
+									dominant: 1b
+								}
+								"complicated_bees:flower": {
+									data: "complicated_bees:nether"
+									dominant: 1b
+								}
+								"complicated_bees:humidity": {
+									data: "normal"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:lifespan": {
+									data: "shortest"
+									dominant: 1b
+								}
+								"complicated_bees:productivity": {
+									data: "slow"
+									dominant: 1b
+								}
+								"complicated_bees:species": {
+									data: "complicated_bees:crimson"
+									dominant: 1b
+								}
+								"complicated_bees:temperature": {
+									data: "hellish"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:territory": {
+									data: [I;
+										4
+										2
+									]
+									dominant: 1b
+								}
+								"complicated_bees:weatherproof": {
+									data: 0b
+									dominant: 1b
+								}
+							}
+							species: "complicated_bees:crimson"
+						}
+					}
+					id: "0C5F2284F15313A9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:crimson"
+							}
+						}
+					}
+					title: "Crimson"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "complicated_bees:drone"
+						tag: {
+							analyzed: 1b
+							chromosome_a: {
+								"complicated_bees:active_time": {
+									data: "cathemeral"
+									dominant: 1b
+								}
+								"complicated_bees:cave_dwelling": {
+									data: 1b
+									dominant: 1b
+								}
+								"complicated_bees:effect": {
+									data: "complicated_bees:aggressive"
+									dominant: 1b
+								}
+								"complicated_bees:fertility": {
+									data: 2
+									dominant: 1b
+								}
+								"complicated_bees:flower": {
+									data: "complicated_bees:nether"
+									dominant: 1b
+								}
+								"complicated_bees:humidity": {
+									data: "normal"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:lifespan": {
+									data: "shorter"
+									dominant: 1b
+								}
+								"complicated_bees:productivity": {
+									data: "slower"
+									dominant: 1b
+								}
+								"complicated_bees:species": {
+									data: "complicated_bees:warped"
+									dominant: 1b
+								}
+								"complicated_bees:temperature": {
+									data: "hellish"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:territory": {
+									data: [I;
+										4
+										2
+									]
+									dominant: 1b
+								}
+								"complicated_bees:weatherproof": {
+									data: 0b
+									dominant: 1b
+								}
+							}
+							chromosome_b: {
+								"complicated_bees:active_time": {
+									data: "cathemeral"
+									dominant: 1b
+								}
+								"complicated_bees:cave_dwelling": {
+									data: 1b
+									dominant: 1b
+								}
+								"complicated_bees:effect": {
+									data: "complicated_bees:aggressive"
+									dominant: 1b
+								}
+								"complicated_bees:fertility": {
+									data: 2
+									dominant: 1b
+								}
+								"complicated_bees:flower": {
+									data: "complicated_bees:nether"
+									dominant: 1b
+								}
+								"complicated_bees:humidity": {
+									data: "normal"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:lifespan": {
+									data: "shorter"
+									dominant: 1b
+								}
+								"complicated_bees:productivity": {
+									data: "slower"
+									dominant: 1b
+								}
+								"complicated_bees:species": {
+									data: "complicated_bees:warped"
+									dominant: 1b
+								}
+								"complicated_bees:temperature": {
+									data: "hellish"
+									dominant: 1b
+									tolerance: "NONE"
+								}
+								"complicated_bees:territory": {
+									data: [I;
+										4
+										2
+									]
+									dominant: 1b
+								}
+								"complicated_bees:weatherproof": {
+									data: 0b
+									dominant: 1b
+								}
+							}
+							species: "complicated_bees:warped"
+						}
+					}
+					id: "360FC2242889CDFC"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:warped"
+							}
+						}
+					}
+					title: "Warped"
+					type: "item"
+				}
+			]
+			title: "Nether Bees"
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+	title: "Resource Generation"
+}

@@ -31,7 +31,7 @@
 				"1B02944C57BF74FB"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Bright orange roots that grow deep in the earth, carrots are a favorite among rabbits and a healthy snack, to boot!"]
+			description: ["Bright orange roots that grew deep in the earth, carrots were a favorite among rabbits and a healthy snack, to boot!"]
 			hide_until_deps_complete: true
 			id: "36EF6C1E1C861A4A"
 			tasks: [{
@@ -47,7 +47,7 @@
 				"63353784E3C39D83"
 				"1281E40889F822FE"
 			]
-			description: ["Crimson bulbs that add color and flavor to any dish, beetroots were once quite common in village gardens."]
+			description: ["Crimson bulbs that added color and flavor to any dish, beetroots were once quite common in village gardens."]
 			hide_until_deps_complete: true
 			id: "08415BCE11C57437"
 			tasks: [{
@@ -63,7 +63,7 @@
 				"33BAEE563814DCDB"
 				"1281E40889F822FE"
 			]
-			description: ["Earthy and humble, potatoes are versatile tubers that thrive in the cool soil of many places."]
+			description: ["Earthy and humble, potatoes were versatile tubers that thrived in the cool soil of many places."]
 			hide_until_deps_complete: true
 			id: "303D96CD71A877FA"
 			tasks: [{
@@ -134,7 +134,11 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["This gnarled, shrieking root was feared as much as it was valued."]
+			description: [
+				"This gnarled, shrieking root was feared as much as it was valued."
+				""
+				"&7Tip: you might want to only harvest these at night!"
+			]
 			hide_until_deps_complete: true
 			id: "63353784E3C39D83"
 			tasks: [{

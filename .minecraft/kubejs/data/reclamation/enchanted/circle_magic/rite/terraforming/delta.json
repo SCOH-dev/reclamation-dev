@@ -1,12 +1,37 @@
 {
   "items": [
     {
-      "id": "minecraft:gold_ingot",
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 1
+    },
+    {
+      "id": "bloodmagic:etherealslate",
+      "Count": 1
+    },
+    {
+      "id": "bloodmagic:steadfastcrystal",
+      "Count": 1
+    },
+    {
+      "id": "botania:life_essence",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:blackstone",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:basalt",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }
   ],
   "shapes": {
-    "enchanted:small_circle": "enchanted:nether_chalk"
+    "enchanted:small_circle": "enchanted:nether_chalk",
+    "enchanted:medium_circle": "enchanted:nether_chalk"
   },
   "power": 0,
   "factory": {

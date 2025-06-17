@@ -26,11 +26,15 @@
 			}]
 			title: "Reclamation"
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["797FD98625915CAF"]
-			description: ["Getting the nether back into shape is relatively easy, now that you understand the shape of terraforming rituals. "]
+			dependencies: ["269ECE61446E7CE6"]
+			description: [
+				"Getting the nether back into shape is relatively easy, now that you understand the shape of terraforming rituals and have a source of biomic essence."
+				""
+				"&7Tip: check the terraforming section of your rituals book to see how to perform the nether terraforming rites!"
+			]
 			id: "0992C0993A6BBB8A"
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
@@ -42,7 +46,7 @@
 			}]
 			title: "Reclaiming the Nether"
 			x: 1.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["797FD98625915CAF"]
@@ -57,6 +61,33 @@
 			x: 0.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["797FD98625915CAF"]
+			description: [
+				"Now that you have a place where you can actually see the blue (!) sky, you can bottle up the abundant biomic essence in a &6specially-designed container.&r"
+				""
+				"This &6biome essence&r can be used in rituals to further terraform the world, along with some extra reagents."
+				""
+				"&7Tip: you can collect essence in any living biome by holding right click with a biome bottle. Crouching while you do this will fill all bottles in a stack!"
+			]
+			icon: "reclamation_util:filled_biome_bottle"
+			id: "269ECE61446E7CE6"
+			tasks: [
+				{
+					id: "0D347632CFA3D9D4"
+					item: "reclamation_util:empty_biome_bottle"
+					type: "item"
+				}
+				{
+					id: "4A7809B25D161A95"
+					item: "reclamation_util:filled_biome_bottle"
+					type: "item"
+				}
+			]
+			title: "Biome Essence"
+			x: 0.0d
+			y: -1.0d
+		}
 	]
-	title: "Touching the Past"
+	title: "Visions of the Past"
 }

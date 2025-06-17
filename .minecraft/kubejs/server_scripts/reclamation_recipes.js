@@ -11,33 +11,33 @@ ServerEvents.recipes(event => {
         A: 'kubejs:scrap_wood'
     })
     event.custom({
-            "type": "farmersdelight:cutting",
-            "ingredients": [
-                {
-                    "item": "kubejs:dead_log"
-                }
-            ],
-            "result": [
-                {
-                    "item": "kubejs:scrap_wood",
-                    "count": 8
-                },
-                {
-                    "chance": 0.5,
-                    "item": "kubejs:scrap_wood",
-                    "count": 2
-                },
-                {
-                    "chance": 0.15,
-                    "item": "minecraft:charcoal",
-                    "count": 1
-                }
-            ],
-            "tool": {
-                "type": "farmersdelight:tool_action",
-                "action": "axe_dig"
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "kubejs:dead_log"
             }
-        })
+        ],
+        "result": [
+            {
+                "item": "kubejs:scrap_wood",
+                "count": 8
+            },
+            {
+                "chance": 0.5,
+                "item": "kubejs:scrap_wood",
+                "count": 2
+            },
+            {
+                "chance": 0.15,
+                "item": "minecraft:charcoal",
+                "count": 1
+            }
+        ],
+        "tool": {
+            "type": "farmersdelight:tool_action",
+            "action": "axe_dig"
+        }
+    })
 
     //remove early game dirt -> coarse dirt -> dirt duplication
     event.remove({ id: 'minecraft:coarse_dirt'})
@@ -321,6 +321,37 @@ ServerEvents.recipes(event => {
         ],
         "tool": {
             "tag": "forge:tools/knives"
+        }
+    })
+
+    //biome bottle
+    event.shaped('4x reclamation_util:empty_biome_bottle', [
+        ' A ',
+        'G G',
+        ' G '
+    ], {
+        A: 'enchanted:attuned_stone_charged',
+        G: 'minecraft:glass'
+    })
+
+    //prosperity shard
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "tag": "forge:nuggets/copper"
+            }
+        ],
+        "result": [
+            {
+                "item": "mysticalagriculture:prosperity_shard",
+                "chance": 0.15,
+                "count": 1
+            }
+        ],
+        "tool": {
+            "type": "farmersdelight:tool_action",
+            "action": "pickaxe_dig"
         }
     })
 })

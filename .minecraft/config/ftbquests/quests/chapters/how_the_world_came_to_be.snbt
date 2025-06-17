@@ -337,7 +337,7 @@
 			description: [
 				"Spider string can be crafted into wool, which can be crafted into beds! "
 				""
-				"You can also craft a sleeping bag, for staying cozy on the go."
+				"You can also craft a sleeping bag, for staying cozy on the go... but where would you be going?"
 			]
 			icon: "minecraft:white_bed"
 			id: "49182F60BE2634DE"

@@ -108,4 +108,21 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    const crushing_resource_recipes = [
+        "create:crushing/crimsite_recycling",
+        "create:crushing/crimsite",
+        "create:crushing/ochrum_recycling",
+        "create:crushing/ochrum",
+        "create:crushing/veridium_recycling",
+        "create:crushing/veridium",
+        "create:crushing/tuff_recycling",
+        "create:crushing/tuff",
+        "create:crushing/asurine_recycling",
+        "create:crushing/asurine"
+    ]
+    crushing_resource_recipes.forEach(id => {
+        event.remove({id: id})
+    })
+
 })
