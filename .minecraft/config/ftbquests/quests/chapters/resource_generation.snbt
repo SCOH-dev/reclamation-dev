@@ -656,6 +656,11 @@
 		}
 		{
 			dependencies: ["7DD195197887D9E6"]
+			description: [
+				"By breeding&6 Dried &rbees together in the nether, they'll slowly adapt and turn into their nether versions - &6Crimson&r and &6Warped&r bees."
+				""
+				"These bees, twisted by the nether environment, are somewhat aggressive; they'll harm nearby mobs (including players!)"
+			]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -932,6 +937,71 @@
 			]
 			title: "Nether Bees"
 			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FBA3BCF67F2AB82"]
+			description: [
+				"If you're tired of getting stung by nether bees, try crafting a set of &6Apiarist Gear.&r This armor, when worn as a set, will protect you from getting affected by any bees nearby."
+				""
+				"It's made of silk, which you can get from propolis (which you can get from simmering combs)."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:apiarist_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C61C6948450E847"
+			tasks: [
+				{
+					id: "27BBCABB0D5AD34C"
+					item: {
+						Count: 1
+						id: "complicated_bees:apiarist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D8200A4CD00E0BB"
+					item: {
+						Count: 1
+						id: "complicated_bees:apiarist_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62EE61229727B888"
+					item: {
+						Count: 1
+						id: "complicated_bees:apiarist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2138D3DCB1342D31"
+					item: {
+						Count: 1
+						id: "complicated_bees:apiarist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Apiarist Gear"
+			x: 3.5d
 			y: 3.0d
 		}
 	]
