@@ -354,4 +354,6 @@ ServerEvents.recipes(event => {
             "action": "pickaxe_dig"
         }
     })
+
+
 })

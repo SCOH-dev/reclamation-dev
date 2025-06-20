@@ -112,13 +112,7 @@
 				""
 				"At first, you'll only get beeswax and honey drops..."
 			]
-			icon: {
-				Count: 1
-				id: "complicated_bees:comb"
-				tag: {
-					comb_type: "reclamation:deprived"
-				}
-			}
+			icon: "complicated_bees:honey_droplet"
 			id: "6C972BEC949FEF25"
 			tasks: [
 				{
@@ -654,9 +648,9 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7DD195197887D9E6"]
+			dependencies: ["4FBECB8A5C79852D"]
 			description: [
-				"By breeding&6 Dried &rbees together in the nether, they'll slowly adapt and turn into their nether versions - &6Crimson&r and &6Warped&r bees."
+				"By breeding&6 Dried &rbees together in the nether, they'll slowly adapt and turn into their nether versions - &6Crimson&r and &6Warped&r bees. &6Cursed&r bees are the hybrid between the two."
 				""
 				"These bees, twisted by the nether environment, are somewhat aggressive; they'll harm nearby mobs (including players!)"
 			]
@@ -670,124 +664,6 @@
 			id: "3FBA3BCF67F2AB82"
 			tasks: [
 				{
-					icon: {
-						Count: 1
-						id: "complicated_bees:drone"
-						tag: {
-							analyzed: 1b
-							chromosome_a: {
-								"complicated_bees:active_time": {
-									data: "cathemeral"
-									dominant: 1b
-								}
-								"complicated_bees:cave_dwelling": {
-									data: 1b
-									dominant: 1b
-								}
-								"complicated_bees:effect": {
-									data: "complicated_bees:aggressive"
-									dominant: 1b
-								}
-								"complicated_bees:fertility": {
-									data: 2
-									dominant: 1b
-								}
-								"complicated_bees:flower": {
-									data: "complicated_bees:nether"
-									dominant: 1b
-								}
-								"complicated_bees:humidity": {
-									data: "normal"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:lifespan": {
-									data: "shortest"
-									dominant: 1b
-								}
-								"complicated_bees:productivity": {
-									data: "slow"
-									dominant: 1b
-								}
-								"complicated_bees:species": {
-									data: "complicated_bees:crimson"
-									dominant: 1b
-								}
-								"complicated_bees:temperature": {
-									data: "hellish"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:territory": {
-									data: [I;
-										4
-										2
-									]
-									dominant: 1b
-								}
-								"complicated_bees:weatherproof": {
-									data: 0b
-									dominant: 1b
-								}
-							}
-							chromosome_b: {
-								"complicated_bees:active_time": {
-									data: "cathemeral"
-									dominant: 1b
-								}
-								"complicated_bees:cave_dwelling": {
-									data: 1b
-									dominant: 1b
-								}
-								"complicated_bees:effect": {
-									data: "complicated_bees:aggressive"
-									dominant: 1b
-								}
-								"complicated_bees:fertility": {
-									data: 2
-									dominant: 1b
-								}
-								"complicated_bees:flower": {
-									data: "complicated_bees:nether"
-									dominant: 1b
-								}
-								"complicated_bees:humidity": {
-									data: "normal"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:lifespan": {
-									data: "shortest"
-									dominant: 1b
-								}
-								"complicated_bees:productivity": {
-									data: "slow"
-									dominant: 1b
-								}
-								"complicated_bees:species": {
-									data: "complicated_bees:crimson"
-									dominant: 1b
-								}
-								"complicated_bees:temperature": {
-									data: "hellish"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:territory": {
-									data: [I;
-										4
-										2
-									]
-									dominant: 1b
-								}
-								"complicated_bees:weatherproof": {
-									data: 0b
-									dominant: 1b
-								}
-							}
-							species: "complicated_bees:crimson"
-						}
-					}
 					id: "0C5F2284F15313A9"
 					item: {
 						Count: 1
@@ -802,124 +678,6 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "complicated_bees:drone"
-						tag: {
-							analyzed: 1b
-							chromosome_a: {
-								"complicated_bees:active_time": {
-									data: "cathemeral"
-									dominant: 1b
-								}
-								"complicated_bees:cave_dwelling": {
-									data: 1b
-									dominant: 1b
-								}
-								"complicated_bees:effect": {
-									data: "complicated_bees:aggressive"
-									dominant: 1b
-								}
-								"complicated_bees:fertility": {
-									data: 2
-									dominant: 1b
-								}
-								"complicated_bees:flower": {
-									data: "complicated_bees:nether"
-									dominant: 1b
-								}
-								"complicated_bees:humidity": {
-									data: "normal"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:lifespan": {
-									data: "shorter"
-									dominant: 1b
-								}
-								"complicated_bees:productivity": {
-									data: "slower"
-									dominant: 1b
-								}
-								"complicated_bees:species": {
-									data: "complicated_bees:warped"
-									dominant: 1b
-								}
-								"complicated_bees:temperature": {
-									data: "hellish"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:territory": {
-									data: [I;
-										4
-										2
-									]
-									dominant: 1b
-								}
-								"complicated_bees:weatherproof": {
-									data: 0b
-									dominant: 1b
-								}
-							}
-							chromosome_b: {
-								"complicated_bees:active_time": {
-									data: "cathemeral"
-									dominant: 1b
-								}
-								"complicated_bees:cave_dwelling": {
-									data: 1b
-									dominant: 1b
-								}
-								"complicated_bees:effect": {
-									data: "complicated_bees:aggressive"
-									dominant: 1b
-								}
-								"complicated_bees:fertility": {
-									data: 2
-									dominant: 1b
-								}
-								"complicated_bees:flower": {
-									data: "complicated_bees:nether"
-									dominant: 1b
-								}
-								"complicated_bees:humidity": {
-									data: "normal"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:lifespan": {
-									data: "shorter"
-									dominant: 1b
-								}
-								"complicated_bees:productivity": {
-									data: "slower"
-									dominant: 1b
-								}
-								"complicated_bees:species": {
-									data: "complicated_bees:warped"
-									dominant: 1b
-								}
-								"complicated_bees:temperature": {
-									data: "hellish"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:territory": {
-									data: [I;
-										4
-										2
-									]
-									dominant: 1b
-								}
-								"complicated_bees:weatherproof": {
-									data: 0b
-									dominant: 1b
-								}
-							}
-							species: "complicated_bees:warped"
-						}
-					}
 					id: "360FC2242889CDFC"
 					item: {
 						Count: 1
@@ -933,17 +691,31 @@
 					title: "Warped"
 					type: "item"
 				}
+				{
+					id: "6FC03F9008B5AC25"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:cursed"
+							}
+						}
+					}
+					title: "Cursed"
+					type: "item"
+				}
 			]
 			title: "Nether Bees"
 			x: 3.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3FBA3BCF67F2AB82"]
 			description: [
 				"If you're tired of getting stung by nether bees, try crafting a set of &6Apiarist Gear.&r This armor, when worn as a set, will protect you from getting affected by any bees nearby."
 				""
-				"It's made of silk, which you can get from propolis (which you can get from simmering combs)."
+				"It's made of silk, which you can get from propolis (which you can get from simmering combs, among others.)"
 			]
 			icon: {
 				Count: 1
@@ -1001,10 +773,17 @@
 			]
 			title: "Apiarist Gear"
 			x: 5.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7DD195197887D9E6"]
+			description: [
+				"&6Rocky&r and &6Robust&r bees are more used to cooler climates, but you can breed better tolerances into them. "
+				""
+				"Their rocky combs produce much more wax and honey than their wasteland cousins, but more importantly, they can rarely produce &6Copper Combs&r as a specialty."
+				""
+				"&7Tip: specialties are only produced when a bee is ecstatic! To make a bee ecstatic, you have to have its housing climate &lexactly&r&7 match the bee's preferred climate. Either breed it so that it prefers the hot dry wastes, or use special frames to adjust the temperature and humidity!"
+			]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -1013,20 +792,304 @@
 				}
 			}
 			id: "4FBECB8A5C79852D"
-			tasks: [{
-				id: "7D5C1CBBD09FA64F"
-				item: {
-					Count: 1
-					id: "complicated_bees:comb"
-					tag: {
-						comb_type: "complicated_bees:rocky"
+			tasks: [
+				{
+					id: "7D5C1CBBD09FA64F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:rocky"
+							}
+						}
 					}
+					title: "Rocky"
+					type: "item"
 				}
+				{
+					id: "63CA1502DB9729FB"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:robust"
+							}
+						}
+					}
+					title: "Robust"
+					type: "item"
+				}
+				{
+					id: "155A783AE8BE7890"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:resilient"
+							}
+						}
+					}
+					title: "Resilient"
+					type: "item"
+				}
+			]
+			title: "Rocky Bees"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FBA3BCF67F2AB82"]
+			description: ["&6Haunted,&r &6Ghostly,&r and &6Spectral&r bees are an offshoot of nether bees that produce Spectral combs, a relatively honey-rich comb. Additionally, Spectral bees will produce &6glowstone&r as a specialty!"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:spectral"
+				}
+			}
+			id: "54A7758997E9D66B"
+			tasks: [
+				{
+					id: "2AC525C3D3FA63A4"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:haunted"
+							}
+						}
+					}
+					title: "Haunted"
+					type: "item"
+				}
+				{
+					id: "4908C5254349BD55"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:ghostly"
+							}
+						}
+					}
+					title: "Ghostly"
+					type: "item"
+				}
+				{
+					id: "76344175C61677C9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:spectral"
+							}
+						}
+					}
+					title: "Spectral"
+					type: "item"
+				}
+			]
+			title: "Spectral Bees"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4FBECB8A5C79852D"]
+			description: ["&6Common&r and &6Cultivated&r bees were the most common species in the world that came before, from what you recall."]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:honey"
+				}
+			}
+			id: "0240D7D55692DAC9"
+			tasks: [
+				{
+					id: "328BB990930CAFE3"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:common"
+							}
+						}
+					}
+					title: "Common"
+					type: "item"
+				}
+				{
+					id: "732D0200D779A9A1"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:cultivated"
+							}
+						}
+					}
+					title: "Cultivated"
+					type: "item"
+				}
+			]
+			title: "Common Bees"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0240D7D55692DAC9"]
+			description: ["These glorious bee comrades ironically despise queens. They are also notable for producing &6pollen&r and having &6higher than average productivity.&r"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:stringy"
+				}
+			}
+			id: "710F5DFED74D5098"
+			tasks: [
+				{
+					id: "747D0EAA7DA3E0CA"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:diligent"
+							}
+						}
+					}
+					title: "Diligent"
+					type: "item"
+				}
+				{
+					id: "322EDDB1BC826988"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:tireless"
+							}
+						}
+					}
+					title: "Tireless"
+					type: "item"
+				}
+				{
+					id: "1C1BA9011F847AE1"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:industrious"
+							}
+						}
+					}
+					title: "Industrious"
+					type: "item"
+				}
+			]
+			title: "Industrious Bees"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0240D7D55692DAC9"]
+			description: [
+				"Somewhat snooty and famously literally blue-blooded, these bees can produce &6Royal Combs&r when ecstatic. These combs can then centrifuge into &6Royal Jelly.&r"
+				""
+				"They also have a &6higher than average fertility rate.&r"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:dripping"
+				}
+			}
+			id: "5AFED2AAA3E9F13D"
+			tasks: [
+				{
+					id: "58CB8BD3EB8A39F5"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:noble"
+							}
+						}
+					}
+					title: "Noble"
+					type: "item"
+				}
+				{
+					id: "0A7367C07AF4620B"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:majestic"
+							}
+						}
+					}
+					title: "Majestic"
+					type: "item"
+				}
+				{
+					id: "620441B639171446"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:imperial"
+							}
+						}
+					}
+					title: "Imperial"
+					type: "item"
+				}
+			]
+			title: "Imperial Bees"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5AFED2AAA3E9F13D"
+				"710F5DFED74D5098"
+			]
+			description: [
+				"The &6Mellarium&r is a multiblock version of the apiary, with the ability to add modules that can help you in a variety of ways."
+				""
+				"The most concrete thing a Mellarium can do is give you more than three frame slots, using &6Frame Housings.&r"
+				""
+				"You can also increase your chances of getting a mutation, shield your bees from rain, and change the climate using catalyst items."
+				""
+				"&7Tip: read your Apiarist Field Guide for more information!"
+			]
+			id: "530A8B09322225E3"
+			tasks: [{
+				id: "694990D9BD2781B3"
+				item: "complicated_bees:mellarium_base"
 				type: "item"
 			}]
-			title: "Rocky Bees"
+			title: "The Mellarium"
 			x: 0.5d
-			y: 3.0d
+			y: 6.5d
 		}
 	]
 	title: "Resource Generation"
