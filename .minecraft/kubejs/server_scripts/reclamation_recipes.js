@@ -279,25 +279,6 @@ ServerEvents.recipes(event => {
 
     //combs
     event.custom({
-        "type": "complicated_bees:centrifuge",
-        "input": {
-            "item": "complicated_bees:comb",
-            "nbt": {
-                "comb_type": "reclamation:barren"
-            }
-        },
-        "outputs": [
-            {
-                "item": "complicated_bees:beeswax",
-                "chance": 0.7
-            },
-            {
-                "item": "complicated_bees:honey_droplet",
-                "chance": 0.2
-            }
-        ]
-    })
-    event.custom({
         "type": "farmersdelight:cutting",
         "ingredients": [
             {
@@ -322,6 +303,48 @@ ServerEvents.recipes(event => {
         "tool": {
             "tag": "forge:tools/knives"
         }
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:barren"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.7
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.2
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:magical"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.4
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.4
+            },
+            {
+                "item": "mysticalagriculture:inferium_essence",
+                "chance": 0.1
+            }
+        ]
     })
 
     //biome bottle

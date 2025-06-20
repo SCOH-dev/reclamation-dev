@@ -3,6 +3,11 @@
   "foil": false,
   "color": "7b786f",
   "nest_color": "7b786f",
+  "models": [
+    "reclamation:item/wasteland_drone",
+    "reclamation:item/wasteland_princess",
+    "reclamation:item/wasteland_queen"
+  ],
   "products": [
     {
       "chance": 0.4,

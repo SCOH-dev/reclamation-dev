@@ -28,7 +28,7 @@
 		{
 			dependencies: ["6C972BEC949FEF25"]
 			description: [
-				"You can place frames into your apiary for bonuses to productivity, lifespan, and even change the experienced temperature and humidity of an apiary. "
+				"You can place frames into your apiary for bonuses to productivity, lifespan, and even change the temperature and humidity of an apiary. "
 				""
 				"&7Tip: Frame modifiers stack multiplicatively, not additively!&r"
 			]
@@ -52,7 +52,7 @@
 				title: "Any Frame"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -61,6 +61,8 @@
 				"You've noticed some beehives dotted around. Maybe you can try to domesticate them?"
 				""
 				"You'll need a tool to harvest the nests and a place to raise the bees."
+				""
+				"&7Tip: breeding bees is very involved, and entirely optional to complete the pack. However, if you do get into it, you can generate resources much easier than the traditional routes!"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -102,7 +104,7 @@
 				}
 			]
 			title: "Beeginnings"
-			x: 2.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -138,7 +140,7 @@
 				}
 			]
 			title: "Beesources"
-			x: 2.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -419,7 +421,7 @@
 				}
 			]
 			title: "Reclaimed Bees"
-			x: 2.0d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -451,7 +453,7 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: 3.5d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -472,7 +474,7 @@
 				}
 			]
 			title: "Comb Processing "
-			x: 0.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -649,6 +651,7 @@
 		}
 		{
 			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "all_started"
 			description: [
 				"By breeding&6 Dried &rbees together in the nether, they'll slowly adapt and turn into their nether versions - &6Crimson&r and &6Warped&r bees. &6Cursed&r bees are the hybrid between the two."
 				""
@@ -707,7 +710,7 @@
 				}
 			]
 			title: "Nether Bees"
-			x: 3.5d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -772,11 +775,12 @@
 				}
 			]
 			title: "Apiarist Gear"
-			x: 5.0d
-			y: 4.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7DD195197887D9E6"]
+			dependency_requirement: "all_started"
 			description: [
 				"&6Rocky&r and &6Robust&r bees are more used to cooler climates, but you can breed better tolerances into them. "
 				""
@@ -837,11 +841,12 @@
 				}
 			]
 			title: "Rocky Bees"
-			x: 2.0d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3FBA3BCF67F2AB82"]
+			dependency_requirement: "all_started"
 			description: ["&6Haunted,&r &6Ghostly,&r and &6Spectral&r bees are an offshoot of nether bees that produce Spectral combs, a relatively honey-rich comb. Additionally, Spectral bees will produce &6glowstone&r as a specialty!"]
 			icon: {
 				Count: 1
@@ -896,11 +901,12 @@
 				}
 			]
 			title: "Spectral Bees"
-			x: 3.5d
-			y: 6.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "all_started"
 			description: ["&6Common&r and &6Cultivated&r bees were the most common species in the world that came before, from what you recall."]
 			icon: {
 				Count: 1
@@ -941,11 +947,12 @@
 				}
 			]
 			title: "Common Bees"
-			x: 0.5d
+			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0240D7D55692DAC9"]
+			dependency_requirement: "all_started"
 			description: ["These glorious bee comrades ironically despise queens. They are also notable for producing &6pollen&r and having &6higher than average productivity.&r"]
 			hide_dependency_lines: false
 			icon: {
@@ -1001,15 +1008,18 @@
 				}
 			]
 			title: "Industrious Bees"
-			x: 2.0d
+			x: 5.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["0240D7D55692DAC9"]
+			dependency_requirement: "all_started"
 			description: [
 				"Somewhat snooty and famously literally blue-blooded, these bees can produce &6Royal Combs&r when ecstatic. These combs can then centrifuge into &6Royal Jelly.&r"
 				""
 				"They also have a &6higher than average fertility rate.&r"
+				""
+				"&7Tip: Imperial bees have the Beatific effect, which provides all mobs nearby with regeneration!"
 			]
 			icon: {
 				Count: 1
@@ -1064,7 +1074,7 @@
 				}
 			]
 			title: "Imperial Bees"
-			x: -1.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -1088,8 +1098,471 @@
 				type: "item"
 			}]
 			title: "The Mellarium"
-			x: 0.5d
-			y: 6.5d
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7F77AE83C391B38A"]
+			description: [
+				"Once you start getting propolis, you can start &6upgrading&r your &6Centrifuges&r and &6Generators&r - each upgrade has different stats, and you can put up to three in your machines."
+				""
+				"Like frames, these upgrades stack multiplicatively."
+			]
+			id: "4F11217D1FFF16C0"
+			tasks: [{
+				id: "69A271E15F7B648A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "complicated_bees:basic_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:waxed_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:honeyed_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:twisted_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:silky_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:royal_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:endenic_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:withered_upgrade"
+							}
+						]
+					}
+				}
+				title: "Any Upgrade"
+				type: "item"
+			}]
+			title: "Upgrades"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F11217D1FFF16C0"]
+			description: [
+				"At some point you'll have more honey (and other bee products) than you know what to do with. "
+				""
+				"If nothing else, you can burn them for energy in the &6Honey Generator!&r"
+			]
+			id: "056502E8EAC2C949"
+			tasks: [{
+				id: "1451B8D14FD68C72"
+				item: "complicated_bees:honey_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F77AE83C391B38A"]
+			description: [
+				"An interesting thing about these bees is that there's no way to get more than one queen out of a breeding pair. Fortunately, you can perform a ritual to summon &6more bee nests&r through magic and some special ingredients."
+				""
+				"Read your Reclamation Rituals book for more information."
+			]
+			icon: "minecraft:bee_nest"
+			id: "703C966888CEAF46"
+			tasks: [{
+				id: "37949B2DD1113687"
+				type: "checkmark"
+			}]
+			title: "More Nests"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "one_started"
+			description: ["Certain bees can produce straight up raw metals from certain rocks!"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:copper"
+				}
+			}
+			id: "0A48AEDC49A48973"
+			tasks: [
+				{
+					id: "0EA60ACDE2EADAE6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:cuprous"
+							}
+						}
+					}
+					title: "Cuprous"
+					type: "item"
+				}
+				{
+					id: "466A8C08649994F3"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:precious"
+							}
+						}
+					}
+					title: "Precious"
+					type: "item"
+				}
+				{
+					id: "4CCA406B1C1D5354"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:ferrous"
+							}
+						}
+					}
+					title: "Ferrous"
+					type: "item"
+				}
+			]
+			title: "Metal Bees"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4FBECB8A5C79852D"
+				"3FBA3BCF67F2AB82"
+			]
+			dependency_requirement: "one_started"
+			description: ["Certain bees can produce raw minerals from their environment!"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:coal"
+				}
+			}
+			id: "7AFEB9E87800654A"
+			tasks: [
+				{
+					id: "339CD4C8E6EA2606"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:bituminous"
+							}
+						}
+					}
+					title: "Bituminous"
+					type: "item"
+				}
+				{
+					id: "6335C66F5DF612CF"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:conductive"
+							}
+						}
+					}
+					title: "Conductive"
+					type: "item"
+				}
+				{
+					id: "4C0D8DA8BF21F928"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:luminous"
+							}
+						}
+					}
+					title: "Luminous"
+					type: "item"
+				}
+				{
+					id: "276CA391C0A73885"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:lapic"
+							}
+						}
+					}
+					title: "Lapic"
+					type: "item"
+				}
+				{
+					id: "60A4A2FA95605E84"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:amethyst"
+							}
+						}
+					}
+					title: "Amethyst"
+					type: "item"
+				}
+				{
+					id: "4899AE05E1ED759A"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:dimantic"
+							}
+						}
+					}
+					title: "Dimantic"
+					type: "item"
+				}
+				{
+					id: "193BFD17439F127A"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:emeradic"
+							}
+						}
+					}
+					title: "Emeradic"
+					type: "item"
+				}
+				{
+					id: "62CAB593B1F591EC"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:quartz"
+							}
+						}
+					}
+					title: "Quartz"
+					type: "item"
+				}
+			]
+			title: "Mineral Bees"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "2509BD7F791C2BC5"
+			tasks: [{
+				id: "4D7664DE210D6CC9"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "29D91679CB08E659"
+			tasks: [{
+				id: "63A131BD3CC1004C"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "538CFE623B75990A"
+			tasks: [{
+				id: "319E2C2891DDB9E1"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "one_started"
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:magical"
+				}
+			}
+			id: "0421D9DBD650A20B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "complicated_bees:drone"
+					tag: {
+						analyzed: 1b
+						chromosome_a: {
+							"complicated_bees:active_time": {
+								data: "diurnal"
+								dominant: 1b
+							}
+							"complicated_bees:cave_dwelling": {
+								data: 0b
+								dominant: 1b
+							}
+							"complicated_bees:effect": {
+								data: "reclamation_util:natural_aura"
+								dominant: 1b
+							}
+							"complicated_bees:fertility": {
+								data: 2
+								dominant: 1b
+							}
+							"complicated_bees:flower": {
+								data: "complicated_bees:flower"
+								dominant: 1b
+							}
+							"complicated_bees:humidity": {
+								data: "normal"
+								dominant: 1b
+								tolerance: "NONE"
+							}
+							"complicated_bees:lifespan": {
+								data: "short"
+								dominant: 1b
+							}
+							"complicated_bees:productivity": {
+								data: "slower"
+								dominant: 1b
+							}
+							"complicated_bees:species": {
+								data: "reclamation:natural"
+								dominant: 0b
+							}
+							"complicated_bees:temperature": {
+								data: "normal"
+								dominant: 1b
+								tolerance: "NONE"
+							}
+							"complicated_bees:territory": {
+								data: [I;
+									4
+									2
+								]
+								dominant: 1b
+							}
+							"complicated_bees:weatherproof": {
+								data: 0b
+								dominant: 1b
+							}
+						}
+						chromosome_b: {
+							"complicated_bees:active_time": {
+								data: "diurnal"
+								dominant: 1b
+							}
+							"complicated_bees:cave_dwelling": {
+								data: 0b
+								dominant: 1b
+							}
+							"complicated_bees:effect": {
+								data: "reclamation_util:natural_aura"
+								dominant: 1b
+							}
+							"complicated_bees:fertility": {
+								data: 2
+								dominant: 1b
+							}
+							"complicated_bees:flower": {
+								data: "complicated_bees:flower"
+								dominant: 1b
+							}
+							"complicated_bees:humidity": {
+								data: "normal"
+								dominant: 1b
+								tolerance: "NONE"
+							}
+							"complicated_bees:lifespan": {
+								data: "short"
+								dominant: 1b
+							}
+							"complicated_bees:productivity": {
+								data: "slower"
+								dominant: 1b
+							}
+							"complicated_bees:species": {
+								data: "reclamation:natural"
+								dominant: 0b
+							}
+							"complicated_bees:temperature": {
+								data: "normal"
+								dominant: 1b
+								tolerance: "NONE"
+							}
+							"complicated_bees:territory": {
+								data: [I;
+									4
+									2
+								]
+								dominant: 1b
+							}
+							"complicated_bees:weatherproof": {
+								data: 0b
+								dominant: 1b
+							}
+						}
+						species: "reclamation:natural"
+					}
+				}
+				id: "13F0F487AC6F1ADE"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:natural"
+						}
+					}
+				}
+				title: "Natural"
+				type: "item"
+			}]
+			title: "Magical Bees"
+			x: 3.0d
+			y: 4.5d
 		}
 	]
 	title: "Resource Generation"
