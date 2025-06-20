@@ -462,7 +462,7 @@
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
-			description: ["If you want to process your combs more efficiently, you'll want to make a &6Centrifuge.&r Powered by RF, it automatically turns combs into comb products - no more manual chopping!"]
+			description: ["If you want to process your combs more efficiently, you'll want to make a &6Centrifuge.&r Powered by a generator, it automatically turns combs into comb products - no more manual chopping!"]
 			icon: "complicated_bees:centrifuge"
 			id: "7F77AE83C391B38A"
 			tasks: [
@@ -472,9 +472,8 @@
 					type: "item"
 				}
 				{
-					id: "2AA9CA826B0E511C"
-					item: "complicated_bees:generator"
-					optional_task: true
+					id: "22292F457571703B"
+					item: "complicated_bees:furnace_generator"
 					type: "item"
 				}
 			]
@@ -936,7 +935,7 @@
 				}
 			]
 			title: "Nether Bees"
-			x: 2.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -1001,7 +1000,32 @@
 				}
 			]
 			title: "Apiarist Gear"
-			x: 3.5d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DD195197887D9E6"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:rocky"
+				}
+			}
+			id: "4FBECB8A5C79852D"
+			tasks: [{
+				id: "7D5C1CBBD09FA64F"
+				item: {
+					Count: 1
+					id: "complicated_bees:comb"
+					tag: {
+						comb_type: "complicated_bees:rocky"
+					}
+				}
+				type: "item"
+			}]
+			title: "Rocky Bees"
+			x: 0.5d
 			y: 3.0d
 		}
 	]
