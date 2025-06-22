@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
         altarRecipeSides(sides, sides, sides, sides, corners, output)
     }
 
-    const seeds = ['stone', 'dirt', 'deepslate', 'nether', 'ice', 'wood']
+    const seeds = ['stone', 'dirt', 'deepslate', 'nether', 'ice', 'wood', 'saltpeter', 'mystical_flower', 'ice', 'coal', 'honey', 'limestone', 'nether', 'silicon', 'wood', 'dye', 'amethyst', 'nature', 'sulfur']
     seeds.forEach(id => {
         event.remove({id: 'mysticalagriculture:seed/infusion/'+id})
     })

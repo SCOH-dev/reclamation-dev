@@ -346,6 +346,98 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:lead"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.5
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.3
+            },
+            {
+                "item": "embers:raw_lead",
+                "chance": 0.25
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:silver"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.5
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.3
+            },
+            {
+                "item": "embers:raw_silver",
+                "chance": 0.25
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:osmium"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.5
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.3
+            },
+            {
+                "item": "mekanism:raw_osmium",
+                "chance": 0.25
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:certus_quartz"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.5
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.3
+            },
+            {
+                "item": "ae2:certus_quartz_crystal",
+                "chance": 0.25
+            }
+        ]
+    })
 
     //biome bottle
     event.shaped('4x reclamation_util:empty_biome_bottle', [

@@ -156,131 +156,13 @@
 			id: "7DD195197887D9E6"
 			tasks: [
 				{
-					icon: {
-						Count: 1
-						id: "complicated_bees:drone"
-						tag: {
-							analyzed: 1b
-							chromosome_a: {
-								"complicated_bees:active_time": {
-									data: "diurnal"
-									dominant: 1b
-								}
-								"complicated_bees:cave_dwelling": {
-									data: 0b
-									dominant: 1b
-								}
-								"complicated_bees:effect": {
-									data: "INVALID"
-									dominant: 1b
-								}
-								"complicated_bees:fertility": {
-									data: 2
-									dominant: 1b
-								}
-								"complicated_bees:flower": {
-									data: "reclamation:dead_bush"
-									dominant: 1b
-								}
-								"complicated_bees:humidity": {
-									data: "dry"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:lifespan": {
-									data: "shortest"
-									dominant: 1b
-								}
-								"complicated_bees:productivity": {
-									data: "slower"
-									dominant: 1b
-								}
-								"complicated_bees:species": {
-									data: "reclamation:dessicated"
-									dominant: 1b
-								}
-								"complicated_bees:temperature": {
-									data: "hot"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:territory": {
-									data: [I;
-										4
-										2
-									]
-									dominant: 1b
-								}
-								"complicated_bees:weatherproof": {
-									data: 0b
-									dominant: 1b
-								}
-							}
-							chromosome_b: {
-								"complicated_bees:active_time": {
-									data: "diurnal"
-									dominant: 1b
-								}
-								"complicated_bees:cave_dwelling": {
-									data: 0b
-									dominant: 1b
-								}
-								"complicated_bees:effect": {
-									data: "INVALID"
-									dominant: 1b
-								}
-								"complicated_bees:fertility": {
-									data: 2
-									dominant: 1b
-								}
-								"complicated_bees:flower": {
-									data: "reclamation:dead_bush"
-									dominant: 1b
-								}
-								"complicated_bees:humidity": {
-									data: "dry"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:lifespan": {
-									data: "shortest"
-									dominant: 1b
-								}
-								"complicated_bees:productivity": {
-									data: "slower"
-									dominant: 1b
-								}
-								"complicated_bees:species": {
-									data: "reclamation:dessicated"
-									dominant: 1b
-								}
-								"complicated_bees:temperature": {
-									data: "hot"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:territory": {
-									data: [I;
-										4
-										2
-									]
-									dominant: 1b
-								}
-								"complicated_bees:weatherproof": {
-									data: 0b
-									dominant: 1b
-								}
-							}
-							species: "reclamation:dessicated"
-						}
-					}
 					id: "6C82369B6FFA66B6"
 					item: {
 						Count: 1
 						id: "itemfilters:weak_nbt"
 						tag: {
 							value: {
-								species: "complicated_bees:dessicated"
+								species: "reclamation:dessicated"
 							}
 						}
 					}
@@ -288,131 +170,13 @@
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "complicated_bees:drone"
-						tag: {
-							analyzed: 1b
-							chromosome_a: {
-								"complicated_bees:active_time": {
-									data: "diurnal"
-									dominant: 1b
-								}
-								"complicated_bees:cave_dwelling": {
-									data: 0b
-									dominant: 1b
-								}
-								"complicated_bees:effect": {
-									data: "INVALID"
-									dominant: 1b
-								}
-								"complicated_bees:fertility": {
-									data: 2
-									dominant: 1b
-								}
-								"complicated_bees:flower": {
-									data: "reclamation:dead_bush"
-									dominant: 1b
-								}
-								"complicated_bees:humidity": {
-									data: "dry"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:lifespan": {
-									data: "shorter"
-									dominant: 1b
-								}
-								"complicated_bees:productivity": {
-									data: "slow"
-									dominant: 1b
-								}
-								"complicated_bees:species": {
-									data: "reclamation:dried"
-									dominant: 1b
-								}
-								"complicated_bees:temperature": {
-									data: "hot"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:territory": {
-									data: [I;
-										4
-										2
-									]
-									dominant: 1b
-								}
-								"complicated_bees:weatherproof": {
-									data: 0b
-									dominant: 1b
-								}
-							}
-							chromosome_b: {
-								"complicated_bees:active_time": {
-									data: "diurnal"
-									dominant: 1b
-								}
-								"complicated_bees:cave_dwelling": {
-									data: 0b
-									dominant: 1b
-								}
-								"complicated_bees:effect": {
-									data: "INVALID"
-									dominant: 1b
-								}
-								"complicated_bees:fertility": {
-									data: 2
-									dominant: 1b
-								}
-								"complicated_bees:flower": {
-									data: "reclamation:dead_bush"
-									dominant: 1b
-								}
-								"complicated_bees:humidity": {
-									data: "dry"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:lifespan": {
-									data: "shorter"
-									dominant: 1b
-								}
-								"complicated_bees:productivity": {
-									data: "slow"
-									dominant: 1b
-								}
-								"complicated_bees:species": {
-									data: "reclamation:dried"
-									dominant: 1b
-								}
-								"complicated_bees:temperature": {
-									data: "hot"
-									dominant: 1b
-									tolerance: "NONE"
-								}
-								"complicated_bees:territory": {
-									data: [I;
-										4
-										2
-									]
-									dominant: 1b
-								}
-								"complicated_bees:weatherproof": {
-									data: 0b
-									dominant: 1b
-								}
-							}
-							species: "reclamation:dried"
-						}
-					}
 					id: "2B81BE38A3EEE654"
 					item: {
 						Count: 1
 						id: "itemfilters:weak_nbt"
 						tag: {
 							value: {
-								species: "complicated_bees:dried"
+								species: "reclamation:dried"
 							}
 						}
 					}
@@ -555,7 +319,7 @@
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.5d
 			y: 4.5d
 		}
 		{
@@ -567,7 +331,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3E9104B5E89874E5"]
@@ -577,8 +341,8 @@
 				item: "mysticalagriculture:nether_seeds"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3E9104B5E89874E5"]
@@ -588,8 +352,8 @@
 				item: "mysticalagriculture:dirt_seeds"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.5d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3E9104B5E89874E5"]
@@ -599,8 +363,8 @@
 				item: "mysticalagriculture:ice_seeds"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3E9104B5E89874E5"]
@@ -610,8 +374,8 @@
 				item: "mysticalagriculture:deepslate_seeds"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: -8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3E9104B5E89874E5"]
@@ -621,7 +385,7 @@
 				item: "mysticalagriculture:wood_seeds"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -7.5d
 			y: 5.5d
 		}
 		{
@@ -1246,6 +1010,48 @@
 					title: "Ferrous"
 					type: "item"
 				}
+				{
+					id: "7E14F17EC2430C56"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:plumbum"
+							}
+						}
+					}
+					title: "Plumbum"
+					type: "item"
+				}
+				{
+					id: "5F59CD7866EF3947"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:argentum"
+							}
+						}
+					}
+					title: "Argentum"
+					type: "item"
+				}
+				{
+					id: "218C8CD49CAD24F4"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:osmium"
+							}
+						}
+					}
+					title: "Osimum"
+					type: "item"
+				}
 			]
 			title: "Metal Bees"
 			x: 3.0d
@@ -1379,6 +1185,20 @@
 					title: "Quartz"
 					type: "item"
 				}
+				{
+					id: "3DF08F7DC76C0A35"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:silicate"
+							}
+						}
+					}
+					title: "Silicate"
+					type: "item"
+				}
 			]
 			title: "Mineral Bees"
 			x: 6.0d
@@ -1392,8 +1212,8 @@
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 7.0d
+			x: -4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2509BD7F791C2BC5"]
@@ -1403,8 +1223,8 @@
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 9.5d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["29D91679CB08E659"]
@@ -1414,12 +1234,17 @@
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 12.0d
+			x: -4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "one_started"
+			description: [
+				"These bees can produce magical products. Some of them, like the &6Natural&r bee, have special effects!"
+				""
+				"Additionally, the Natural bee produces some small amount of &6Nature Essence&r if kept ecstatic."
+			]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -1428,138 +1253,106 @@
 				}
 			}
 			id: "0421D9DBD650A20B"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "complicated_bees:drone"
-					tag: {
-						analyzed: 1b
-						chromosome_a: {
-							"complicated_bees:active_time": {
-								data: "diurnal"
-								dominant: 1b
+			tasks: [
+				{
+					id: "4A94304490D9A90E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:natural"
 							}
-							"complicated_bees:cave_dwelling": {
-								data: 0b
-								dominant: 1b
-							}
-							"complicated_bees:effect": {
-								data: "reclamation_util:natural_aura"
-								dominant: 1b
-							}
-							"complicated_bees:fertility": {
-								data: 2
-								dominant: 1b
-							}
-							"complicated_bees:flower": {
-								data: "complicated_bees:flower"
-								dominant: 1b
-							}
-							"complicated_bees:humidity": {
-								data: "normal"
-								dominant: 1b
-								tolerance: "NONE"
-							}
-							"complicated_bees:lifespan": {
-								data: "short"
-								dominant: 1b
-							}
-							"complicated_bees:productivity": {
-								data: "slower"
-								dominant: 1b
-							}
-							"complicated_bees:species": {
-								data: "reclamation:natural"
-								dominant: 0b
-							}
-							"complicated_bees:temperature": {
-								data: "normal"
-								dominant: 1b
-								tolerance: "NONE"
-							}
-							"complicated_bees:territory": {
-								data: [I;
-									4
-									2
-								]
-								dominant: 1b
-							}
-							"complicated_bees:weatherproof": {
-								data: 0b
-								dominant: 1b
-							}
-						}
-						chromosome_b: {
-							"complicated_bees:active_time": {
-								data: "diurnal"
-								dominant: 1b
-							}
-							"complicated_bees:cave_dwelling": {
-								data: 0b
-								dominant: 1b
-							}
-							"complicated_bees:effect": {
-								data: "reclamation_util:natural_aura"
-								dominant: 1b
-							}
-							"complicated_bees:fertility": {
-								data: 2
-								dominant: 1b
-							}
-							"complicated_bees:flower": {
-								data: "complicated_bees:flower"
-								dominant: 1b
-							}
-							"complicated_bees:humidity": {
-								data: "normal"
-								dominant: 1b
-								tolerance: "NONE"
-							}
-							"complicated_bees:lifespan": {
-								data: "short"
-								dominant: 1b
-							}
-							"complicated_bees:productivity": {
-								data: "slower"
-								dominant: 1b
-							}
-							"complicated_bees:species": {
-								data: "reclamation:natural"
-								dominant: 0b
-							}
-							"complicated_bees:temperature": {
-								data: "normal"
-								dominant: 1b
-								tolerance: "NONE"
-							}
-							"complicated_bees:territory": {
-								data: [I;
-									4
-									2
-								]
-								dominant: 1b
-							}
-							"complicated_bees:weatherproof": {
-								data: 0b
-								dominant: 1b
-							}
-						}
-						species: "reclamation:natural"
-					}
-				}
-				id: "13F0F487AC6F1ADE"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							species: "complicated_bees:natural"
 						}
 					}
+					title: "Natural"
+					type: "item"
 				}
-				title: "Natural"
-				type: "item"
-			}]
+				{
+					id: "05CAC1EB80406FBE"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:botanic"
+							}
+						}
+					}
+					title: "Botanic"
+					type: "item"
+				}
+				{
+					id: "264ECB3724921EBF"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:dawnstone"
+							}
+						}
+					}
+					title: "Dawnstone"
+					type: "item"
+				}
+				{
+					id: "38D7A03F1C723D63"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:willful"
+							}
+						}
+					}
+					title: "Willful"
+					type: "item"
+				}
+				{
+					id: "6DC74367F4AFA714"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:source"
+							}
+						}
+					}
+					title: "Source"
+					type: "item"
+				}
+				{
+					id: "402964C551141D0E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:demonite"
+							}
+						}
+					}
+					title: "Demonite"
+					type: "item"
+				}
+				{
+					id: "4964212347DCD2FE"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:terra"
+							}
+						}
+					}
+					title: "Terra"
+					type: "item"
+				}
+			]
 			title: "Magical Bees"
 			x: 3.0d
 			y: 4.5d

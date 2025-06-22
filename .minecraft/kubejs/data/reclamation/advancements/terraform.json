@@ -4,7 +4,7 @@
       "item": "minecraft:oak_sapling"
     },
     "title": "Change the World",
-    "description": "Obtain an item needed to change the world.",
+    "description": "Obtain any of the items needed to change the world.",
     "show_toast": false,
     "announce_to_chat": true,
     "hidden": true

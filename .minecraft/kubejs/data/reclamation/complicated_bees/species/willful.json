@@ -1,8 +1,8 @@
 {
-  "dominant": false,
+  "dominant": true,
   "foil": false,
-  "color": "803900",
-  "nest_color": "803900",
+  "color": "dbfdff",
+  "nest_color": "dbfdff",
   "models": [
     "reclamation:item/magic_drone",
     "reclamation:item/magic_princess",
@@ -10,27 +10,26 @@
   ],
   "products": [
     {
-      "chance": 0.4,
+      "chance": 0.46,
       "item": "complicated_bees:comb",
       "nbt": {
         "comb_type": "reclamation:magical"
       }
-    }
-  ],
-  "specialty_products": [
+    },
     {
-      "chance": 0.1,
-      "item": "mysticalagriculture:nature_essence"
+      "chance": 0.2,
+      "item": "bloodmagic:defaultcrystal"
     }
   ],
+  "specialty_products": [],
   "default_chromosome": {
     "complicated_bees:lifespan": {
-      "data": "short",
+      "data": "average",
       "dominant": true
     },
     "complicated_bees:temperature": {
-      "data": "normal",
-      "tolerance": "none",
+      "data": "hot",
+      "tolerance": "both_1",
       "dominant": true
     },
     "complicated_bees:humidity": {
@@ -39,7 +38,7 @@
       "dominant": true
     },
     "complicated_bees:productivity": {
-      "data": "slower",
+      "data": "slow",
       "dominant": true
     },
     "complicated_bees:fertility": {
@@ -50,17 +49,13 @@
       "data": "complicated_bees:flower",
       "dominant": true
     },
-    "complicated_bees:effect": {
-      "data": "reclamation_util:natural_aura",
-      "dominant": true
-    },
     "complicated_bees:active_time": {
       "data": "diurnal",
       "dominant": true
     },
     "complicated_bees:cave_dwelling": {
-      "data": false,
-      "dominant": true
+      "data": true,
+      "dominant": false
     },
     "complicated_bees:weatherproof": {
       "data": false,
