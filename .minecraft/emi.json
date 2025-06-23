@@ -14,6 +14,12 @@
     }
   ],
   "lookup_history": [
+    "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:herbology\"}",
+    "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:extraction\"}",
+    "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:circle_magic\"}",
+    "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:brewing\"}",
+    "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:poppetry\"}",
+    "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:getting_started\"}",
     {
       "type": "item",
       "id": "create:limestone",
@@ -184,7 +190,6 @@
       "chance": 0.1
     },
     "item:enchanted:rowan_berries",
-    "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:circle_magic\"}",
     "item:patchouli:guide_book{\"patchouli:book\":\"patchouli:custom_rituals\"}",
     "item:theurgy:alchemical_sulfur_coal{\"theurgy:sulfur.source.id\":\"#minecraft:coals\"}",
     "item:minecraft:coal",
@@ -250,12 +255,12 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/farmersdelight/kjs/d6l4giu8ikhgkmczdvwu3880a",
+      "botania:kjs/bagxjy37o5zgp0xd58j292kul",
       "minecraft:kjs/enchanted_ritual_chalk",
       "jei:/create/filling/redstone",
+      "jei:/farmersdelight/kjs/d6l4giu8ikhgkmczdvwu3880a",
       "jei:/enchanted/witch_cauldron/golden_chalk",
-      "jei:/farmersdelight/kjs/bgoz0ygyo5xhzhyws4xqvigf2",
-      "botania:kjs/bagxjy37o5zgp0xd58j292kul"
+      "jei:/farmersdelight/kjs/bgoz0ygyo5xhzhyws4xqvigf2"
     ],
     "tags": {},
     "resolutions": {},
