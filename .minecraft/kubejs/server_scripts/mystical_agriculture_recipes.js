@@ -1,7 +1,17 @@
 ServerEvents.recipes(event => {
 
     event.custom({
-        "type": "botania:runic_altar",
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            62,
+            128,
+            78
+        ],
         "ingredients": [
             {
                 "item": "mysticalagriculture:fire_essence"
@@ -16,12 +26,62 @@ ServerEvents.recipes(event => {
                 "item": "mysticalagriculture:earth_essence"
             }
         ],
-        "mana": 500,
-        "output": {
+        "power": 500,
+        "result": {
             "count": 4,
             "item": "mysticalagriculture:prudentium_essence"
         }
     })
+    event.custom({
+        "type": "botania:runic_altar",
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:prudentium_essence"
+            },
+            {
+                "item": "mysticalagriculture:prudentium_essence"
+            },
+            {
+                "item": "mysticalagriculture:prudentium_essence"
+            },
+            {
+                "item": "mysticalagriculture:prudentium_essence"
+            }
+        ],
+        "mana": 10000,
+        "output": {
+            "count": 4,
+            "item": "mysticalagriculture:tertium_essence"
+        }
+    })
+    event.custom({
+        "type": "ars_nouveau:imbuement",
+        "count": 1,
+        "input": {
+            "item": "mysticalagriculture:tertium_essence"
+        },
+        "pedestalItems": [],
+        "output": "mysticalagriculture:imperium_essence",
+        "source": 5000
+    })
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 20000,
+        "consumptionRate": 100,
+        "drainRate": 100,
+        "input": {
+            "item": "mysticalagriculture:imperium_essence"
+        },
+        "output": {
+            "item": "mysticalagriculture:supremium_essence"
+        },
+        "upgradeLevel": 4
+    })
+    event.remove({input: '#mysticalagriculture:infusion_crystals'})
+    event.remove({id: 'mysticalagriculture:prudentium_essence_uncraft'})
+    event.remove({id: 'mysticalagriculture:tertium_essence_uncraft'})
+    event.remove({id: 'mysticalagriculture:imperium_essence_uncraft'})
+    event.remove({id: 'mysticalagriculture:supremium_essence_uncraft'})
 
     function altarRecipeSides(one, two, three, four, corners, output) {
         event.custom({
@@ -65,7 +125,10 @@ ServerEvents.recipes(event => {
         altarRecipeSides(sides, sides, sides, sides, corners, output)
     }
 
-    const seeds = ['stone', 'dirt', 'deepslate', 'nether', 'ice', 'wood', 'saltpeter', 'mystical_flower', 'ice', 'coal', 'honey', 'limestone', 'nether', 'silicon', 'wood', 'dye', 'amethyst', 'nature', 'sulfur']
+    const seeds = ['stone', 'dirt', 'deepslate', 'nether', 'ice', 'wood',
+     'sky_stone', 'copper', 'dye', 'nature', 'iron', 'lead', 'gold', 'silver', 'coal', 'mystical_flower', 'zinc', 'tin', 'soulium',
+      'nether_quartz', 'amethyst', 'glowstone', 'redstone', 'lapis', 'silicon', 'certus_quartz', 'sky_stone', 'steel', 'uranium', 'osmium', 'fluorite', 'prismarine',
+      'diamond', 'emerald', 'netherite']
     seeds.forEach(id => {
         event.remove({id: 'mysticalagriculture:seed/infusion/'+id})
     })
@@ -75,4 +138,34 @@ ServerEvents.recipes(event => {
     altarRecipe("mysticalagriculture:prudentium_essence", "minecraft:deepslate", "mysticalagriculture:deepslate_seeds")
     altarRecipe("mysticalagriculture:prudentium_essence", "minecraft:blue_ice", "mysticalagriculture:ice_seeds")
     altarRecipe("mysticalagriculture:prudentium_essence", "mysticalagriculture:nether_agglomeratio", "mysticalagriculture:nether_seeds")
+
+    altarRecipe("mysticalagriculture:tertium_essence", "ae2:sky_stone_block", "mysticalagriculture:sky_stone_seeds")
+    altarRecipe("mysticalagriculture:tertium_essence", "mysticalagriculture:dye_agglomeratio", "mysticalagriculture:dye_seeds")
+    altarRecipe("mysticalagriculture:tertium_essence", "mysticalagriculture:nature_essence", "mysticalagriculture:nature_seeds")
+    altarRecipeSides("minecraft:copper_block", "naturesaura:infused_iron", "naturesaura:tainted_gold", "naturesaura:infused_iron", "mysticalagriculture:tertium_essence", "mysticalagriculture:copper_seeds")
+    altarRecipeSides("minecraft:iron_block", "botania:manasteel_ingot", "embers:dawnstone_ingot", "botania:manasteel_ingot", "mysticalagriculture:tertium_essence", "mysticalagriculture:iron_seeds")
+    altarRecipeSides("embers:lead_block", "embers:lead_ingot", "create:andesite_alloy", "embers:lead_ingot", "mysticalagriculture:tertium_essence", "mysticalagriculture:lead_seeds")
+    altarRecipeSides("minecraft:gold_block", "naturesaura:tainted_gold", "embers:dawnstone_ingot", "naturesaura:tainted_gold", "mysticalagriculture:tertium_essence", "mysticalagriculture:gold_seeds")
+    altarRecipeSides("embers:silver_block", "botania:manasteel_ingot", "embers:silver_aspectus", "botania:manasteel_ingot", "mysticalagriculture:tertium_essence", "mysticalagriculture:silver_seeds")
+    altarRecipeSides("mysticalagriculture:tertium_essence", "minecraft:coal_block", "mysticalagriculture:coal_seeds")
+    altarRecipeSides("botania:glimmering_livingwood", "botania:rune_earth", "botania:rune_mana", "botania:rune_water", "mysticalagriculture:tertium_essence", "mysticalagriculture:mystical_flower_seeds")
+    altarRecipeSides("create:zinc_block", "create:brass_ingot", "embers:zinc_crystal_seed", "create:brass_ingot", "mysticalagriculture:tertium_essence", "mysticalagriculture:zinc_seeds")
+    altarRecipeSides("mekanism:block_tin", "mekanism:clump_tin", "mekanism:dust_tin", "mekanism:clump_tin", "mysticalagriculture:tertium_essence", "mysticalagriculture:tin_seeds")
+    altarRecipeSides("nethersdelight:rich_soul_soil", "minecraft:soul_soil", "minecraft:soul_sand", "minecraft:soul_soil", "mysticalagriculture:tertium_essence", "mysticalagriculture:soulium_seeds")
+
+    altarRecipeSides("minecraft:quartz_block", "minecraft:crimson_fungus", "ars_nouveau:abjuration_essence", "minecraft:warped_fungus", "mysticalagriculture:imperium_essence", "mysticalagriculture:nether_quartz_seeds")
+    altarRecipeSides("minecraft:budding_amethyst", "ars_nouveau:earth_essence", "ars_nouveau:source_gem_block", "ars_nouveau:earth_essence", "mysticalagriculture:imperium_essence", "mysticalagriculture:amethyst_seeds")
+    altarRecipeSides("minecraft:glowstone", "botania:mana_powder", "ars_nouveau:jar_of_light", "botania:mana_powder", "mysticalagriculture:imperium_essence", "mysticalagriculture:glowstone_seeds")
+    altarRecipeSides("minecraft:redstone_block", "botania:mana_powder", "ars_nouveau:manipulation_essence", "botania:mana_powder", "mysticalagriculture:imperium_essence", "mysticalagriculture:redstone_seeds")
+    altarRecipeSides("minecraft:lapis_block", "mekanism:dust_lapis_lazuli", "bloodmagic:waterscribetool", "mekanism:dust_lapis_lazuli", "mysticalagriculture:imperium_essence", "mysticalagriculture:lapis_seeds")
+    altarRecipeSides("ae2:flawed_budding_quartz", "ae2:formation_core", "ae2:singularity", "ae2:annihilation_core", "mysticalagriculture:imperium_essence", "mysticalagriculture:certus_quartz_seeds")
+    altarRecipeSides("mekanism:block_steel", "mekanism:enriched_carbon", "ars_nouveau:fire_essence", "mekanism:enriched_carbon", "mysticalagriculture:imperium_essence", "mysticalagriculture:steel_seeds")
+    altarRecipeSides("mekanism:block_uranium", "mekanism:yellow_cake_uranium", "mekanism:uranium_hexafluoride_bucket", "mekanism:yellow_cake_uranium", "mysticalagriculture:imperium_essence", "mysticalagriculture:uranium_seeds")
+    altarRecipeSides("mekanism:block_osmium", "mekanism:enriched_refined_obsidian", "ars_nouveau:conjuration_essence", "mekanism:enriched_refined_obsidian", "mysticalagriculture:imperium_essence", "mysticalagriculture:osmium_seeds")
+    altarRecipeSides("mekanism:block_fluorite", "bloodmagic:defaultcrystal", "mekanism:hdpe_stick", "bloodmagic:defaultcrystal", "mysticalagriculture:imperium_essence", "mysticalagriculture:fluorite_seeds")
+    altarRecipeSides("minecraft:prismarine_bricks", "minecraft:prismarine_crystals", "ars_nouveau:water_essence", "minecraft:prismarine_crystals", "mysticalagriculture:imperium_essence", "mysticalagriculture:prismarine_seeds")
+
+    altarRecipeSides("minecraft:diamond_block", "naturesaura:break_prevention", "ars_elemental:mark_of_mastery", "enchanted:mystic_unguent", "mysticalagriculture:supremium_essence", "mysticalagriculture:diamond_seeds")
+    altarRecipeSides("minecraft:emerald_block", "croptopia:greenbean", "botania:gaia_ingot", "croptopia:greenonion", "mysticalagriculture:supremium_essence", "mysticalagriculture:emerald_seeds")
+    altarRecipeSides("minecraft:netherite_block", "enchanted:drop_of_luck", "bloodmagic:ingot_hellforged", "enchanted:refined_evil", "mysticalagriculture:supremium_essence", "mysticalagriculture:netherite_seeds")
 })

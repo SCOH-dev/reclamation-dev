@@ -493,6 +493,106 @@ ServerEvents.recipes(event => {
         "aura": 30000,
         "time": 40
     })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "ars_nouveau:air_essence"
+            },
+            {
+                "item": "ars_nouveau:earth_essence"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "ars_nouveau:whirlisprig",
+        "aura": 60000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "ars_nouveau:water_essence"
+            },
+            {
+                "item": "ars_nouveau:earth_essence"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "ars_nouveau:starbuncle",
+        "aura": 60000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "ars_nouveau:fire_essence"
+            },
+            {
+                "item": "ars_nouveau:earth_essence"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "ars_nouveau:drygmy",
+        "aura": 60000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "ars_nouveau:air_essence"
+            },
+            {
+                "item": "ars_nouveau:fire_essence"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:witch",
+        "aura": 60000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "ars_nouveau:air_essence"
+            },
+            {
+                "item": "ars_nouveau:water_essence"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "ars_elemental:siren_entity",
+        "aura": 60000,
+        "time": 40
+    })
 
     //osmium
     event.custom({

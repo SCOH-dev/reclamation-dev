@@ -1278,7 +1278,7 @@
 				}
 			]
 			title: "Amethyst Buddy"
-			x: -4.5d
+			x: -4.0d
 			y: -2.5d
 		}
 		{
@@ -1426,7 +1426,7 @@
 		{
 			dependencies: [
 				"1F95463AFBB55B18"
-				"793195A0FD0A1EC1"
+				"0E7BC6F2785D6CD4"
 			]
 			description: [
 				"The &6Storage Lectern&r boasts the incredibly convenient capability of letting you manage, view, and craft using nearby storage blocks. Simply place it down and link inventories to it using the dominion wand!"
@@ -1561,17 +1561,6 @@
 		}
 		{
 			dependencies: ["0E7BC6F2785D6CD4"]
-			id: "793195A0FD0A1EC1"
-			tasks: [{
-				id: "5BD47BD466F1A925"
-				item: "ars_nouveau:bookwyrm_charm"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["0E7BC6F2785D6CD4"]
 			description: [
 				"You can summon &6Wilden&r using the aptly-named Tablet of Summon Wilden. These magical creatures drop &6special reagents when killed.&r"
 				""
@@ -1592,7 +1581,7 @@
 				}
 			]
 			title: "Wilden"
-			x: -4.5d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -1741,6 +1730,91 @@
 			title: "Reclamation"
 			x: -2.5d
 			y: -13.0d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"&6Sirens&r can be summoned (and subsequently befriended) at the Altar of Birthing. Once given a Sea Pickle, they'll disappear and leave behind a token. This token can be turned into a charm that can &6automatically fish&r for you, at the price of source!"
+				""
+				"&7Tip: this auto fishing can be sped up; read your Worn Notebook for more details."
+			]
+			id: "040B7ABBA79E3C34"
+			shape: "diamond"
+			tasks: [{
+				id: "7F3799E27FA7EE1C"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"&6Whirlisprigs&r can be summoned at the Altar of Birthing. Growing a tree near a summoned one will net you a token, which can be crafted into a charm. This charm summons a tame Whirlisprig that will &6produce natural resources&r based on what's nearby!"
+				""
+				"&7Tip: read your Worn Notebook for more!"
+			]
+			id: "5A3D771B1235C40B"
+			shape: "diamond"
+			tasks: [{
+				id: "27A44281ECD3FA7D"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: ["Summon a &6Drygmy&r at the Altar of Birthing. Give it a wilden horn to get a token, then craft it into a token. This tame Drygmy will &6produce experience and drops of mobs nearby,&r without killing them!"]
+			id: "7A517B0D3ADC17FE"
+			shape: "diamond"
+			tasks: [{
+				id: "05640A0617017CFD"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"Casting dispel on a witch (summoned at the Altar of Birthing) drops a Wixie Token. Turned into a charm to summon Wixies, these creatures can craft and brew potions for you!"
+				""
+				"&7Tip: Wixies are very helpful when using an Alchemical Sourcelink! For more info, read your Worn Notebook."
+			]
+			id: "0132766885AF4DEE"
+			shape: "diamond"
+			tasks: [{
+				id: "7E43DA10DAAC3708"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"&6Starbuncles&r summoned by the Altar of Birthing can be gifted gold nuggets to get &6Starbuncle Tokens.&r Crafted into a &6Starbuncle Charm,&r it will summon a Starbuncle to move items around for you. No more fiddling around with pipes and logistics, just use a semi-intelligent squirrel!"
+				""
+				"&7Tip: they can be told to only pick up or drop off certain items - read your Worn Notebook for more information!"
+			]
+			id: "11D64B22EDF1E1B1"
+			shape: "diamond"
+			tasks: [{
+				id: "647E7C88AFBF97C4"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
 		}
 	]
 	title: "Sounds of Life"

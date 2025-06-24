@@ -62,7 +62,7 @@
 				""
 				"You'll need a tool to harvest the nests and a place to raise the bees."
 				""
-				"&7Tip: breeding bees is very involved, and entirely optional to complete the pack. However, if you do get into it, you can generate resources much easier than the traditional routes!"
+				"&7Tip: not every bee is required to finish the pack! Branching out from the required bees will allow you to generate resources much easier than the traditional routes, however."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -292,7 +292,7 @@
 			]
 			title: "Elemental Seeds"
 			x: -5.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6B8C517B623696FC"]
@@ -319,7 +319,7 @@
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 4.5d
 		}
 		{
@@ -330,7 +330,7 @@
 				item: "mysticalagriculture:stone_seeds"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 3.0d
 		}
 		{
@@ -341,8 +341,8 @@
 				item: "mysticalagriculture:nether_seeds"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3E9104B5E89874E5"]
@@ -352,7 +352,7 @@
 				item: "mysticalagriculture:dirt_seeds"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 3.5d
 		}
 		{
@@ -363,7 +363,7 @@
 				item: "mysticalagriculture:ice_seeds"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 6.0d
 		}
 		{
@@ -374,7 +374,7 @@
 				item: "mysticalagriculture:deepslate_seeds"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 4.5d
 		}
 		{
@@ -385,7 +385,7 @@
 				item: "mysticalagriculture:wood_seeds"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 5.5d
 		}
 		{
@@ -1212,8 +1212,8 @@
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 6.5d
+			x: -2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2509BD7F791C2BC5"]
@@ -1223,8 +1223,8 @@
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 8.5d
+			x: -9.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["29D91679CB08E659"]
@@ -1234,8 +1234,8 @@
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 10.5d
+			x: -9.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4FBECB8A5C79852D"]
@@ -1356,6 +1356,364 @@
 			title: "Magical Bees"
 			x: 3.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "38EDB9CFDA9C2D28"
+			tasks: [{
+				id: "604AA7237C047C6B"
+				item: "mysticalagriculture:copper_seeds"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0421D9DBD650A20B"
+				"2509BD7F791C2BC5"
+			]
+			dependency_requirement: "all_started"
+			description: ["&7Tip: you'll need to breed Nature bees to get your first bits of nature essence!"]
+			id: "5DF16174EF809D9B"
+			tasks: [{
+				id: "51671D6C6E8AD2C1"
+				item: "mysticalagriculture:nature_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "1EE023A9CE3F34C6"
+			tasks: [{
+				id: "3A3FF807F49E3D7E"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "214EBA6BF874EB98"
+			tasks: [{
+				id: "2617BA7C893F1E8D"
+				item: "mysticalagriculture:iron_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "755B3C448BB32CCB"
+			tasks: [{
+				id: "736ED8D3A9D76F00"
+				item: "mysticalagriculture:lead_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "60F6F345B93AD3F3"
+			tasks: [{
+				id: "5AECEA525CDA2B3D"
+				item: "mysticalagriculture:gold_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "3A3270B1BE4B0958"
+			tasks: [{
+				id: "3E1BB73EBB2DBFE9"
+				item: "mysticalagriculture:silver_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "11090946D274C166"
+			tasks: [{
+				id: "5DB910C05BECA8EC"
+				item: "mysticalagriculture:coal_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "79BC9E60D226697B"
+			tasks: [{
+				id: "062C968AC349B3DA"
+				item: "mysticalagriculture:mystical_flower_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "0C9A8B2E68C67874"
+			tasks: [{
+				id: "6CA4CA5245477289"
+				item: "mysticalagriculture:zinc_seeds"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "3B5C0A7B5414BE45"
+			tasks: [{
+				id: "5AC5D4C2076964ED"
+				item: "mysticalagriculture:tin_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "2D0C0D948E679690"
+			tasks: [{
+				id: "235FCA820199DF09"
+				item: "mysticalagriculture:soulium_seeds"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "24C30A127C74D77A"
+			tasks: [{
+				id: "04DBC752E530E275"
+				item: "mysticalagriculture:enderman_seeds"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "05B609CA9BC006E6"
+			tasks: [{
+				id: "5AC1C5B3E5AE7082"
+				item: "mysticalagriculture:blaze_seeds"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "05818486AB14ED09"
+			tasks: [{
+				id: "31DCCA2252AEFCB3"
+				item: "mysticalagriculture:certus_quartz_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "412B3258170AD961"
+			tasks: [{
+				id: "6BB0957BA6B01C54"
+				item: "mysticalagriculture:nether_quartz_seeds"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "4282A7669D40F5E2"
+			tasks: [{
+				id: "776C2C2B52A32AEA"
+				item: "mysticalagriculture:amethyst_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "4083416E69C9A90E"
+			tasks: [{
+				id: "7C5B3DF114ADB789"
+				item: "mysticalagriculture:glowstone_seeds"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "77A433E2D375130F"
+			tasks: [{
+				id: "324D113F285C29F0"
+				item: "mysticalagriculture:redstone_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "6F0EA6A4F2535B7C"
+			tasks: [{
+				id: "653323C0D0E2EBE2"
+				item: "mysticalagriculture:lapis_lazuli_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "1986FC972AC0EFA6"
+			tasks: [{
+				id: "0BD8EA7FBDF23E0A"
+				item: "mysticalagriculture:sky_stone_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "7D82DB17EC4416E6"
+			tasks: [{
+				id: "4C83519D33D547D9"
+				item: "mysticalagriculture:steel_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "6F4774D2991E963D"
+			tasks: [{
+				id: "040253A6A8D013FD"
+				item: "mysticalagriculture:uranium_seeds"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "3D68F7ACD4236965"
+			tasks: [{
+				id: "2D3FA10C7611BD3E"
+				item: "mysticalagriculture:osmium_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "01C80BDF7B16626E"
+			tasks: [{
+				id: "116BE06BFA45C648"
+				item: "mysticalagriculture:fluorite_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "6E3324A3C00C43C2"
+			tasks: [{
+				id: "7759D71BBD82275D"
+				item: "mysticalagriculture:prismarine_seeds"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "7EBB96CA83BB68A8"
+			tasks: [{
+				id: "3A4BA4060A05E9F7"
+				item: "mysticalagriculture:diamond_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "638ED8D6563FE202"
+			tasks: [{
+				id: "130175843E2E794A"
+				item: "mysticalagriculture:emerald_seeds"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "31519496FD0472BE"
+			tasks: [{
+				id: "2A3C2BF95259F3A3"
+				item: "mysticalagriculture:netherite_seeds"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "7925CC8AE12DF568"
+			tasks: [{
+				id: "55E84064A303F30B"
+				item: "mysticalagriculture:wither_skeleton_seeds"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "0DF3DB3219EB7042"
+			tasks: [{
+				id: "5BD23B6C54643BDA"
+				item: "mysticalagriculture:experience_seeds"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6B8C517B623696FC"]
+			description: ["&6Growth Accelerators&r grow the crop above them faster. Higher tiers have higher ranges, meaning you can stack more underneath your farmland!"]
+			id: "5DE5C6DBD33B6698"
+			tasks: [{
+				id: "58DA490D72A1270A"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
 		}
 	]
 	title: "Resource Generation"
