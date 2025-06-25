@@ -7,7 +7,7 @@
   "products": [
     {
       "chance": 0.75,
-      "item": "mysticalagriculture:deepslate_essence",
+      "item": "mysticalagriculture:amethyst_essence",
       "max": 1,
       "min": 1,
       "required": true
@@ -42,7 +42,7 @@
   "seeds": [
     {
       "grass_drop_chance": 0.0,
-      "item": "mysticalagriculture:deepslate_seeds",
+      "item": "mysticalagriculture:amethyst_seeds",
       "override_planting": true,
       "seed_drop_bonus": 0.0,
       "seed_drop_chance": 0.0

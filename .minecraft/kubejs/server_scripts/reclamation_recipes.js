@@ -469,6 +469,16 @@ ServerEvents.recipes(event => {
             "action": "pickaxe_dig"
         }
     })
-
+    event.custom({
+        "type": "mekanism:enriching",
+        "input": {
+            "ingredient": {
+                "tag": "forge:nuggets/copper"
+            }
+        },
+        "output": {
+            "item": "mysticalagriculture:prosperity_shard",
+        }
+    })
 
 })

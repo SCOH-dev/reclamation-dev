@@ -14,6 +14,20 @@
     }
   ],
   "lookup_history": [
+    "item:ars_elemental:siren_charm",
+    "item:naturesaura:animal_spawner",
+    "item:agricraft:wooden_crop_sticks",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:copper\",rec:\"mysticalagriculture:copper\"},strength:{dom:1,rec:1}}}",
+    "item:mysticalagriculture:copper_seeds",
+    "item:agricraft:seed{genes:{fertility:{dom:10,rec:10},gain:{dom:10,rec:10},growth:{dom:10,rec:10},mutativity:{dom:10,rec:10},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:inferium\",rec:\"mysticalagriculture:inferium\"},strength:{dom:10,rec:10}}}",
+    "item:mysticalagriculture:mystical_fertilizer",
+    "item:mysticalagriculture:lapis_lazuli_seeds",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"reclamation:cuprosia\",rec:\"reclamation:cuprosia\"},strength:{dom:1,rec:1}}}",
+    "item:create:copper_nugget",
+    "item:minecraft:copper_ingot",
+    "item:embers:copper_nugget",
+    "#item:forge:nuggets/copper",
+    "item:mysticalagriculture:prosperity_shard",
     "item:reclamation_util:empty_biome_bottle",
     "item:mysticalagriculture:supremium_essence",
     "item:mysticalagriculture:imperium_essence",
@@ -38,7 +52,6 @@
     "item:mysticalagriculture:enderman_seeds",
     "item:mysticalagriculture:blaze_seeds",
     "item:mysticalagriculture:experience_seeds",
-    "item:mysticalagriculture:lapis_lazuli_seeds",
     "item:mysticalagriculture:gold_seeds",
     "item:mysticalagriculture:certus_quartz_seeds",
     "item:mysticalagriculture:sky_stone_seeds",
@@ -51,7 +64,6 @@
     "item:mysticalagriculture:redstone_seeds",
     "item:mysticalagriculture:glowstone_seeds",
     "item:mysticalagriculture:nether_quartz_seeds",
-    "item:mysticalagriculture:copper_seeds",
     "item:mysticalagriculture:iron_seeds",
     "item:mysticalagriculture:mystical_flower_seeds",
     "item:mysticalagriculture:amethyst_seeds",
@@ -85,7 +97,6 @@
     "item:enchanted:diamond_vapour",
     "item:bloodmagic:rawdemonite",
     "item:mysticalagriculture:experience_capsule{Experience:1200}",
-    "item:ars_elemental:siren_charm",
     "item:ars_elemental:siren_shards",
     "item:ars_nouveau:wixie_shards",
     "#item:ars_nouveau:magic_shards",
@@ -229,7 +240,6 @@
     },
     "item:mysticalagriculture:obsidian_essence",
     "item:mysticalagriculture:obsidian_seeds",
-    "item:mysticalagriculture:prosperity_shard",
     "item:mysticalagriculture:prosperity_ingot",
     "item:mysticalagriculture:soul_jar",
     "item:mysticalagriculture:soul_jar{Souls:8.0d,Type:\"mysticalagriculture:enderman\"}",
@@ -475,6 +485,8 @@
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"short\",dominant:0b},\"complicated_bees:productivity\":{data:\"slow\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:noble\",dominant:0b},\"complicated_bees:temperature\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"short\",dominant:0b},\"complicated_bees:productivity\":{data:\"slow\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:noble\",dominant:0b},\"complicated_bees:temperature\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:noble\"}"
   ],
   "craft_history": [
+    "embers:copper_ingot_to_nugget",
+    "create:crafting/materials/copper_ingot",
     "embers:lead_block_to_ingot",
     "mekanism:processing/lead/ingot/from_block",
     "exposure:developing_black_and_white_film",
@@ -491,8 +503,8 @@
   "recipe_defaults": {
     "added": [
       "jei:/create/filling/redstone",
-      "jei:/enchanted/witch_cauldron/golden_chalk",
-      "minecraft:kjs/enchanted_ritual_chalk"
+      "minecraft:kjs/enchanted_ritual_chalk",
+      "jei:/enchanted/witch_cauldron/golden_chalk"
     ],
     "tags": {},
     "resolutions": {},

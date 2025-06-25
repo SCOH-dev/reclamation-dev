@@ -1,5 +1,4 @@
 {
-  "description.agricraft.agricraft.cuprosia": "A special flower that can harvest trace amounts of copper from water.",
   "rite.reclamation.blaze_cage": "Create Blaze Cage",
   "rite.reclamation.infuse_amalgam": "Infuse Amalgam",
   "rite.reclamation.summon_blaze": "Summon Blaze",
@@ -103,6 +102,10 @@
   "flower.complicated_bees.reclamation:quartz_bud": "Quartz Bud",
   "flower.complicated_bees.reclamation:mystical_flower": "Myst. Flwr",
   "flower.complicated_bees.reclamation:rune": "Rune",
+
+  "plant.agricraft.reclamation.cuprosia": "Cuprosia",
+  "seed.agricraft.reclamation.cuprosia": "Cuprosia Seeds",
+  "description.agricraft.reclamation.cuprosia": "A special flower that can harvest trace amounts of copper from water.",
 
   "life_essence_fluid_type": "Life Essence",
   "block.bloodmagic.life_essence_block": "Life Essence",

@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
 
     const seeds = ['stone', 'dirt', 'deepslate', 'nether', 'ice', 'wood',
      'sky_stone', 'copper', 'dye', 'nature', 'iron', 'lead', 'gold', 'silver', 'coal', 'mystical_flower', 'zinc', 'tin', 'soulium',
-      'nether_quartz', 'amethyst', 'glowstone', 'redstone', 'lapis', 'silicon', 'certus_quartz', 'sky_stone', 'steel', 'uranium', 'osmium', 'fluorite', 'prismarine',
+      'nether_quartz', 'amethyst', 'glowstone', 'redstone', 'lapis_lazuli', 'silicon', 'certus_quartz', 'sky_stone', 'steel', 'uranium', 'osmium', 'fluorite', 'prismarine',
       'diamond', 'emerald', 'netherite']
     seeds.forEach(id => {
         event.remove({id: 'mysticalagriculture:seed/infusion/'+id})
@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
     altarRecipeSides("minecraft:budding_amethyst", "ars_nouveau:earth_essence", "ars_nouveau:source_gem_block", "ars_nouveau:earth_essence", "mysticalagriculture:imperium_essence", "mysticalagriculture:amethyst_seeds")
     altarRecipeSides("minecraft:glowstone", "botania:mana_powder", "ars_nouveau:jar_of_light", "botania:mana_powder", "mysticalagriculture:imperium_essence", "mysticalagriculture:glowstone_seeds")
     altarRecipeSides("minecraft:redstone_block", "botania:mana_powder", "ars_nouveau:manipulation_essence", "botania:mana_powder", "mysticalagriculture:imperium_essence", "mysticalagriculture:redstone_seeds")
-    altarRecipeSides("minecraft:lapis_block", "mekanism:dust_lapis_lazuli", "bloodmagic:waterscribetool", "mekanism:dust_lapis_lazuli", "mysticalagriculture:imperium_essence", "mysticalagriculture:lapis_seeds")
+    altarRecipeSides("minecraft:lapis_block", "mekanism:dust_lapis_lazuli", "bloodmagic:waterscribetool", "mekanism:dust_lapis_lazuli", "mysticalagriculture:imperium_essence", "mysticalagriculture:lapis_lazuli_seeds")
     altarRecipeSides("ae2:flawed_budding_quartz", "ae2:formation_core", "ae2:singularity", "ae2:annihilation_core", "mysticalagriculture:imperium_essence", "mysticalagriculture:certus_quartz_seeds")
     altarRecipeSides("mekanism:block_steel", "mekanism:enriched_carbon", "ars_nouveau:fire_essence", "mekanism:enriched_carbon", "mysticalagriculture:imperium_essence", "mysticalagriculture:steel_seeds")
     altarRecipeSides("mekanism:block_uranium", "mekanism:yellow_cake_uranium", "mekanism:uranium_hexafluoride_bucket", "mekanism:yellow_cake_uranium", "mysticalagriculture:imperium_essence", "mysticalagriculture:uranium_seeds")

@@ -13,7 +13,7 @@
 			description: [
 				"&6Prosperity Seed Bases&r are the basis of all special essence seeds - very useful for generating large amounts of basic resources."
 				""
-				"&6Prosperity shards&r can be found by breaking down copper nuggets with a pickaxe on a cutting board."
+				"&6Prosperity shards&r can be found by breaking down copper nuggets with a pickaxe on a cutting board, or enriching them in an Enrichment Chamber."
 			]
 			id: "56E75D57C3C9487C"
 			shape: "hexagon"
