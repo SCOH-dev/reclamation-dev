@@ -1,21 +1,30 @@
 {
-  "favorites": [
-    {
-      "stack": "item:naturesaura:token_euphoria"
-    },
-    {
-      "stack": "item:naturesaura:token_terror"
-    },
-    {
-      "stack": "item:naturesaura:token_rage"
-    },
-    {
-      "stack": "item:naturesaura:token_grief"
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
-    "item:ars_elemental:siren_charm",
+    "item:minecraft:music_disc_13",
+    "item:quark:music_disc_chatter",
+    "item:quark:music_disc_endermosh",
+    "item:minecraft:music_disc_5",
+    "item:minecraft:totem_of_undying",
+    "item:botania:blacker_lotus",
+    "item:botania:black_lotus",
+    "item:botania:overgrowth_seed",
+    "item:bloodmagic:bleedingedge",
+    "#item:botania:loonium_offhand_equipment",
+    "item:minecraft:firework_rocket{Fireworks:{Flight:1b}}",
+    "item:minecraft:arrow",
+    "item:minecraft:tipped_arrow{Potion:\"minecraft:slow_falling\"}",
+    "item:minecraft:tipped_arrow{Potion:\"ars_nouveau:mana_regen_potion\"}",
     "item:naturesaura:animal_spawner",
+    "item:naturesaura:token_grief",
+    {
+      "type": "item",
+      "id": "enchanted:demonic_blood",
+      "amount": 2
+    },
+    "item:enchanted:demon_heart",
+    "item:enchanted:refined_evil",
+    "item:ars_elemental:siren_charm",
     "item:agricraft:wooden_crop_sticks",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:copper\",rec:\"mysticalagriculture:copper\"},strength:{dom:1,rec:1}}}",
     "item:mysticalagriculture:copper_seeds",
@@ -82,7 +91,6 @@
     "item:mysticalagriculture:earth_seeds",
     "item:mysticalagriculture:air_seeds",
     "item:mysticalagriculture:wither_skeleton_seeds",
-    "item:enchanted:demonic_blood",
     "item:enchanted:drop_of_luck",
     "item:enchanted:redstone_soup",
     "item:minecraft:diamond",
@@ -93,7 +101,6 @@
     "item:minecraft:emerald",
     "item:ars_elemental:mark_of_mastery",
     "item:botania:life_essence",
-    "item:enchanted:refined_evil",
     "item:enchanted:diamond_vapour",
     "item:bloodmagic:rawdemonite",
     "item:mysticalagriculture:experience_capsule{Experience:1200}",
@@ -365,7 +372,6 @@
     "item:bloodmagic:defaultcrystal",
     "item:ars_nouveau:source_gem",
     "item:botania:loonium",
-    "item:botania:black_lotus",
     {
       "type": "item",
       "id": "minecraft:cocoa_beans",
@@ -502,8 +508,8 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/create/filling/redstone",
       "minecraft:kjs/enchanted_ritual_chalk",
+      "jei:/create/filling/redstone",
       "jei:/enchanted/witch_cauldron/golden_chalk"
     ],
     "tags": {},
