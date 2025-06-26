@@ -1,6 +1,18 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:copper\",rec:\"mysticalagriculture:copper\"},strength:{dom:1,rec:1}}}",
+    {
+      "type": "jemi",
+      "uid": "mysticalagriculture:soulium"
+    },
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:soulium\",rec:\"mysticalagriculture:soulium\"},strength:{dom:1,rec:1}}}",
+    "item:mysticalagriculture:soulium_seeds",
+    "item:mysticalagriculture:soulium_essence",
+    "item:mysticalagriculture:soulium_dust",
+    "item:mysticalagriculture:soulium_ingot",
+    "item:mysticalagriculture:harvester",
+    "item:reclamation_util:empty_biome_bottle",
     "item:minecraft:stripped_bamboo_block",
     "item:minecraft:stripped_crimson_hyphae",
     "item:minecraft:tube_coral_block",
@@ -51,7 +63,6 @@
     "item:enchanted:refined_evil",
     "item:ars_elemental:siren_charm",
     "item:agricraft:wooden_crop_sticks",
-    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:copper\",rec:\"mysticalagriculture:copper\"},strength:{dom:1,rec:1}}}",
     "item:mysticalagriculture:copper_seeds",
     "item:agricraft:seed{genes:{fertility:{dom:10,rec:10},gain:{dom:10,rec:10},growth:{dom:10,rec:10},mutativity:{dom:10,rec:10},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:inferium\",rec:\"mysticalagriculture:inferium\"},strength:{dom:10,rec:10}}}",
     "item:mysticalagriculture:mystical_fertilizer",
@@ -62,7 +73,6 @@
     "item:embers:copper_nugget",
     "#item:forge:nuggets/copper",
     "item:mysticalagriculture:prosperity_shard",
-    "item:reclamation_util:empty_biome_bottle",
     "item:mysticalagriculture:supremium_essence",
     "item:mysticalagriculture:imperium_essence",
     "item:mysticalagriculture:tertium_essence",
@@ -80,7 +90,6 @@
     "item:mysticalagriculture:diamond_seeds",
     "item:mysticalagriculture:fluorite_seeds",
     "item:mysticalagriculture:osmium_seeds",
-    "item:mysticalagriculture:soulium_seeds",
     "item:mysticalagriculture:uranium_seeds",
     "item:mysticalagriculture:steel_seeds",
     "item:mysticalagriculture:enderman_seeds",
@@ -198,13 +207,6 @@
     "item:mekanism:crystal_tin",
     "item:bloodmagic:coalsand",
     "item:mysticalagriculture:soul_glass",
-    "item:mysticalagriculture:soulium_ingot",
-    {
-      "type": "item",
-      "id": "mysticalagriculture:soulium_dust",
-      "amount": 4
-    },
-    "item:mysticalagriculture:soulium_essence",
     "item:nethersdelight:soul_compost",
     "item:minecraft:crimson_roots",
     "item:minecraft:warped_roots",
@@ -528,8 +530,8 @@
   "recipe_defaults": {
     "added": [
       "minecraft:kjs/enchanted_ritual_chalk",
-      "jei:/enchanted/witch_cauldron/golden_chalk",
-      "jei:/create/filling/redstone"
+      "jei:/create/filling/redstone",
+      "jei:/enchanted/witch_cauldron/golden_chalk"
     ],
     "tags": {},
     "resolutions": {},

@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
     altarRecipeSides("embers:lead_block", "embers:lead_ingot", "create:andesite_alloy", "embers:lead_ingot", "mysticalagriculture:tertium_essence", "mysticalagriculture:lead_seeds")
     altarRecipeSides("minecraft:gold_block", "naturesaura:tainted_gold", "embers:dawnstone_ingot", "naturesaura:tainted_gold", "mysticalagriculture:tertium_essence", "mysticalagriculture:gold_seeds")
     altarRecipeSides("embers:silver_block", "botania:manasteel_ingot", "embers:silver_aspectus", "botania:manasteel_ingot", "mysticalagriculture:tertium_essence", "mysticalagriculture:silver_seeds")
-    altarRecipeSides("mysticalagriculture:tertium_essence", "minecraft:coal_block", "mysticalagriculture:coal_seeds")
+    altarRecipe("mysticalagriculture:tertium_essence", "minecraft:coal_block", "mysticalagriculture:coal_seeds")
     altarRecipeSides("botania:glimmering_livingwood", "botania:rune_earth", "botania:rune_mana", "botania:rune_water", "mysticalagriculture:tertium_essence", "mysticalagriculture:mystical_flower_seeds")
     altarRecipeSides("create:zinc_block", "create:brass_ingot", "embers:zinc_crystal_seed", "create:brass_ingot", "mysticalagriculture:tertium_essence", "mysticalagriculture:zinc_seeds")
     altarRecipeSides("mekanism:block_tin", "mekanism:clump_tin", "mekanism:dust_tin", "mekanism:clump_tin", "mysticalagriculture:tertium_essence", "mysticalagriculture:tin_seeds")

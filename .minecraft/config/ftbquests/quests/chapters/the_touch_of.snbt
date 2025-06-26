@@ -45,8 +45,8 @@
 				type: "advancement"
 			}]
 			title: "Reclaiming the Nether"
-			x: -3.0d
-			y: -1.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["797FD98625915CAF"]
@@ -85,8 +85,8 @@
 				}
 			]
 			title: "Biome Essence"
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "Visions of the Past"
