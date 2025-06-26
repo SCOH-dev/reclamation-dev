@@ -1671,7 +1671,7 @@
 				type: "item"
 			}]
 			title: "Starbuncle"
-			x: 14.0d
+			x: 13.5d
 			y: 5.0d
 		}
 		{
@@ -1763,7 +1763,7 @@
 				type: "item"
 			}]
 			title: "Drygmy"
-			x: 15.0d
+			x: 14.5d
 			y: 5.0d
 		}
 		{
@@ -1809,7 +1809,30 @@
 				type: "item"
 			}]
 			title: "Whirlisprig"
-			x: 16.0d
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_elemental:siren_shards"
+			id: "5EE98525E9A06AAC"
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "146C6CE87FF122B9"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:drygmy": 1b
+						}
+					}
+				}
+				title: "Siren Photo"
+				type: "item"
+			}]
+			title: "Siren"
+			x: 16.5d
 			y: 5.0d
 		}
 	]

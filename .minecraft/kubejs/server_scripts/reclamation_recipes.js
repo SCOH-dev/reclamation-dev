@@ -481,4 +481,14 @@ ServerEvents.recipes(event => {
         }
     })
 
+    //attuned biome bottle
+    event.shaped('reclamation_util:attuned_biome_bottle', [
+        ' A ',
+        'GBG',
+        ' S '
+    ], {
+        A: 'enchanted:attuned_stone_charged',
+        B: 'reclamation_util:empty_biome_botle',
+        S: 'bloodmagic:ingot_hellforged'
+    })
 })

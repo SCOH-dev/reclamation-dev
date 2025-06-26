@@ -1,12 +1,37 @@
 {
   "items": [
     {
-      "id": "minecraft:bamboo",
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 4
+    },
+    {
+      "id": "bloodmagic:etherealslate",
+      "Count": 1
+    },
+    {
+      "id": "mekanism:pellet_plutonium",
+      "Count": 1
+    },
+    {
+      "id": "botania:gaia_ingot",
+      "Count": 1
+    },
+    {
+      "id": "botania:astrolabe",
+      "Count": 1
+    },
+    {
+      "id": "botania:virus_necrodermal",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }
   ],
   "shapes": {
-    "enchanted:small_circle": "enchanted:ritual_chalk"
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
   },
   "power": 0,
   "factory": {

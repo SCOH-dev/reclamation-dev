@@ -1,12 +1,33 @@
 {
   "items": [
     {
-      "id": "minecraft:ice",
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 8
+    },
+    {
+      "id": "bloodmagic:etherealslate",
+      "Count": 1
+    },
+    {
+      "id": "mekanism:pellet_antimatter",
+      "Count": 1
+    },
+    {
+      "id": "advanced_ae:shattered_singularity",
+      "Count": 2
+    },
+    {
+      "id": "croptopia:vanilla_ice_cream",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }
   ],
   "shapes": {
-    "enchanted:small_circle": "enchanted:ritual_chalk"
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
   },
   "power": 0,
   "factory": {

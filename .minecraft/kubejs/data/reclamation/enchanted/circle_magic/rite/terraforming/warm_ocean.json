@@ -1,12 +1,37 @@
 {
   "items": [
     {
-      "id": "minecraft:cod",
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 4
+    },
+    {
+      "id": "bloodmagic:etherealslate",
+      "Count": 1
+    },
+    {
+      "id": "mekanism:pellet_plutonium",
+      "Count": 1
+    },
+    {
+      "id": "ars_nouveau:wilden_tribute",
+      "Count": 1
+    },
+    {
+      "id": "ars_elemental:mark_of_mastery",
+      "Count": 1
+    },
+    {
+      "id": "ars_elemental:water_focus",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }
   ],
   "shapes": {
-    "enchanted:small_circle": "enchanted:ritual_chalk"
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
   },
   "power": 0,
   "factory": {

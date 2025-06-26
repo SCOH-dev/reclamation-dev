@@ -1,12 +1,33 @@
 {
   "items": [
     {
-      "id": "minecraft:feather",
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 1
+    },
+    {
+      "id": "bloodmagic:etherealslate",
+      "Count": 1
+    },
+    {
+      "id": "bloodmagic:steadfastcrystal",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:oak_sapling",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:birch_sapling",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }
   ],
   "shapes": {
-    "enchanted:small_circle": "enchanted:ritual_chalk"
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
   },
   "power": 0,
   "factory": {

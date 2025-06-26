@@ -2,5 +2,5 @@
   "chance": 0.5,
   "child": "croptopia:greenbean",
   "parent1": "minecraft:pumpkin",
-  "parent2": "minecraft:potato"
+  "parent2": "supplementaries:flax"
 }

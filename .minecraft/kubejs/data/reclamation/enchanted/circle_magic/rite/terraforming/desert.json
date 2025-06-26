@@ -1,12 +1,33 @@
 {
   "items": [
     {
-      "id": "minecraft:sand",
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 2
+    },
+    {
+      "id": "bloodmagic:etherealslate",
+      "Count": 2
+    },
+    {
+      "id": "embers:focal_lens",
+      "Count": 1
+    },
+    {
+      "id": "embers:isolated_materia",
+      "Count": 1
+    },
+    {
+      "id": "embers:wildfire_core",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }
   ],
   "shapes": {
-    "enchanted:small_circle": "enchanted:ritual_chalk"
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
   },
   "power": 0,
   "factory": {

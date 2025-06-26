@@ -1,12 +1,37 @@
 {
   "items": [
     {
-      "id": "minecraft:red_mushroom",
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 2
+    },
+    {
+      "id": "bloodmagic:etherealslate",
+      "Count": 2
+    },
+    {
+      "id": "naturesaura:token_grief",
+      "Count": 1
+    },
+    {
+      "id": "naturesaura:token_euphoria",
+      "Count": 1
+    },
+    {
+      "id": "naturesaura:token_terror",
+      "Count": 1
+    },
+    {
+      "id": "naturesaura:token_rage",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }
   ],
   "shapes": {
-    "enchanted:small_circle": "enchanted:ritual_chalk"
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
   },
   "power": 0,
   "factory": {
