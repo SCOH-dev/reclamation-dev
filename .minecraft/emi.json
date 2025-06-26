@@ -1,11 +1,25 @@
 {
   "favorites": [],
   "lookup_history": [
-    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:copper\",rec:\"mysticalagriculture:copper\"},strength:{dom:1,rec:1}}}",
+    "item:create:rose_quartz",
     {
-      "type": "jemi",
-      "uid": "mysticalagriculture:soulium"
+      "type": "fluid",
+      "id": "theurgy:sal_ammoniac",
+      "amount": 0
     },
+    "item:enchanted:attuned_stone_charged",
+    "item:enchanted:circle_talisman",
+    "item:agricraft:seed{genes:{fertility:{dom:10,rec:10},gain:{dom:10,rec:10},growth:{dom:10,rec:10},mutativity:{dom:10,rec:10},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:air\",rec:\"mysticalagriculture:air\"},strength:{dom:10,rec:10}}}",
+    "item:mysticalagriculture:deepslate_essence",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:deepslate\",rec:\"mysticalagriculture:deepslate\"},strength:{dom:1,rec:1}}}",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:inferium\",rec:\"mysticalagriculture:inferium\"},strength:{dom:1,rec:1}}}",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:dye\",rec:\"mysticalagriculture:dye\"},strength:{dom:1,rec:1}}}",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:diamond\",rec:\"mysticalagriculture:diamond\"},strength:{dom:1,rec:1}}}",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:coal\",rec:\"mysticalagriculture:coal\"},strength:{dom:1,rec:1}}}",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:certus_quartz\",rec:\"mysticalagriculture:certus_quartz\"},strength:{dom:1,rec:1}}}",
+    "item:mysticalagriculture:experience_seeds",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:nether\",rec:\"mysticalagriculture:nether\"},strength:{dom:1,rec:1}}}",
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:copper\",rec:\"mysticalagriculture:copper\"},strength:{dom:1,rec:1}}}",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:soulium\",rec:\"mysticalagriculture:soulium\"},strength:{dom:1,rec:1}}}",
     "item:mysticalagriculture:soulium_seeds",
     "item:mysticalagriculture:soulium_essence",
@@ -64,7 +78,6 @@
     "item:ars_elemental:siren_charm",
     "item:agricraft:wooden_crop_sticks",
     "item:mysticalagriculture:copper_seeds",
-    "item:agricraft:seed{genes:{fertility:{dom:10,rec:10},gain:{dom:10,rec:10},growth:{dom:10,rec:10},mutativity:{dom:10,rec:10},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:inferium\",rec:\"mysticalagriculture:inferium\"},strength:{dom:10,rec:10}}}",
     "item:mysticalagriculture:mystical_fertilizer",
     "item:mysticalagriculture:lapis_lazuli_seeds",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"reclamation:cuprosia\",rec:\"reclamation:cuprosia\"},strength:{dom:1,rec:1}}}",
@@ -94,7 +107,6 @@
     "item:mysticalagriculture:steel_seeds",
     "item:mysticalagriculture:enderman_seeds",
     "item:mysticalagriculture:blaze_seeds",
-    "item:mysticalagriculture:experience_seeds",
     "item:mysticalagriculture:gold_seeds",
     "item:mysticalagriculture:certus_quartz_seeds",
     "item:mysticalagriculture:sky_stone_seeds",
@@ -314,7 +326,6 @@
     "item:mekanism:solar_neutron_activator",
     "item:mekanism:ingot_bronze",
     "item:mysticalagriculture:chicken_essence",
-    "item:mysticalagriculture:deepslate_essence",
     "item:minecraft:deepslate",
     "item:minecraft:dead_horn_coral_block",
     "item:minecraft:horn_coral_block",
@@ -530,8 +541,8 @@
   "recipe_defaults": {
     "added": [
       "minecraft:kjs/enchanted_ritual_chalk",
-      "jei:/create/filling/redstone",
-      "jei:/enchanted/witch_cauldron/golden_chalk"
+      "jei:/enchanted/witch_cauldron/golden_chalk",
+      "jei:/create/filling/redstone"
     ],
     "tags": {},
     "resolutions": {},

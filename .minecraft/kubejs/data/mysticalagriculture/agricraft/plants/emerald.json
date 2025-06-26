@@ -16,7 +16,8 @@
       "chance": 0.1,
       "item": "mysticalagriculture:fertilized_essence",
       "max": 1,
-      "min": 1
+      "min": 1,
+      "required": true
     }
   ],
   "requirement": {

@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     //fix demon heart recipes
-    event.remove({id: 'enchanted:distilling/demon_heart_diamond_vapour'})
+    //event.remove({id: 'enchanted:distilling/demon_heart_diamond_vapour'})
     
     //anointing paste needs results, not seeds
     event.remove({id: 'enchanted:anointing_paste'})
