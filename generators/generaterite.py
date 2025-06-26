@@ -11,10 +11,14 @@ ow_map = {
     "reclaim": [121, 192, 90, 'stick'],
     "forest": [121, 192, 90, 'feather'],
     "beach": [119, 171, 47, 'leather'],
-    "windswept": [138, 182, 137, 'apple'],
-    "ocean": [142, 185, 113, 'raw_cod'],
+    "ocean": [142, 185, 113, 'salmon'],
     "plains": [145, 189, 89, 'wheat'],
-    "river": [142, 185, 113, 'string']
+    "river": [142, 185, 113, 'string'],
+    "desert": [227, 219, 176, 'sand'],
+    "snowy_slopes": [152, 177, 255, 'ice'],
+    "bamboo_jungle": [152, 177, 69, 'bamboo'],
+    "mushroom_fields": [139, 113, 115, 'red_mushroom'],
+    "warm_ocean": [0, 205, 216, 'cod'],
 }
 
 radius_inner = 3

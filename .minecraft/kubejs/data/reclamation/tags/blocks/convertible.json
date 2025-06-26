@@ -12,6 +12,8 @@
     "minecraft:gravel",
     "minecraft:dirt",
     "minecraft:grass_block",
-    "kubejs:dried_earth"
+    "kubejs:dried_earth",
+    "minecraft:mycelium",
+    "minecraft:podzol"
   ]
 }
