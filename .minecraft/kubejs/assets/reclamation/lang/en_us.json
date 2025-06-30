@@ -135,5 +135,15 @@
   "block.bloodmagic.special_dungeon_seal": "Foreman's Lock",
   "block.bloodmagic.inversion_pillar": "Inversion Pillar",
   "block.bloodmagic.inversion_pillar_cap": "Inversion Pillar Cap",
-  "block.bloodmagic.dungeon_seal": "Demonic Lock"
+  "block.bloodmagic.dungeon_seal": "Demonic Lock",
+
+  "biome.reclamation.dead_beach": "Dead Beach",
+  "biome.reclamation.dead_forest": "Dead Forest",
+  "biome.reclamation.dead_highland": "Dead Highland",
+  "biome.reclamation.dead_hills": "Dead Hills",
+  "biome.reclamation.dead_mountain": "Dead Mountain",
+  "biome.reclamation.dead_ocean": "Dead Ocean",
+  "biome.reclamation.dead_plains": "Dead Plains",
+  "biome.reclamation.dead_river": "Dead River",
+  "biome.reclamation.dead_wastes": "Dead Wastes"
 }

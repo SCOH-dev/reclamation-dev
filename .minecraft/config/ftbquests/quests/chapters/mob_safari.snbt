@@ -388,6 +388,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
+			description: ["&7Tip: there is a ritual that can grant you the bad omen effect!"]
 			icon: "heads:pillager_head"
 			id: "7B689257A882A7B2"
 			tasks: [{
@@ -572,6 +573,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
+			description: ["&7Tip: the sculk catalyst is craftable, and you can use a sculk awakener on a sculk shrieker to convert it into one that can spawn Wardens."]
 			icon: "minecraft:warden_spawn_egg"
 			id: "0694D62C45F6C430"
 			tasks: [{
@@ -618,6 +620,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
+			description: ["&7Tip: if you want to summon a living wither skeleton, you'll need to use the Soulium Spawner."]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "3E3DE65526844EB7"
 			tasks: [{
@@ -858,7 +861,7 @@
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
-							"minecraft:zombie": 1b
+							"minecraft:cat": 1b
 						}
 					}
 				}
@@ -1239,6 +1242,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
+			description: ["&7Tip: the sniffer egg is craftable!"]
 			icon: "minecraft:sniffer_egg"
 			id: "17DE6D948744F44F"
 			tasks: [{
@@ -1400,6 +1404,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
+			description: ["&7Tip: an oak or birch tree grown near flowers has a small chance to spawn a beehive!"]
 			icon: "heads:bee_head"
 			id: "747E5509C0DC0ABB"
 			tasks: [{
@@ -1630,6 +1635,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
+			description: ["&7Tip: there is a ritual that spawns the Elder Guardian!"]
 			icon: "minecraft:elder_guardian_spawn_egg"
 			id: "176F9C7ED259CD39"
 			tasks: [{
@@ -1814,6 +1820,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
+			description: ["&7Tip: a spawned siren, not a tamed familiar!"]
 			icon: "ars_elemental:siren_shards"
 			id: "5EE98525E9A06AAC"
 			tasks: [{

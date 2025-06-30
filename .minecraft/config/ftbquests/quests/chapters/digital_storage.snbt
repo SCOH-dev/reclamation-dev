@@ -12,6 +12,7 @@
 		{
 			dependencies: ["52D07AB4E6B88EA1"]
 			description: ["The &6controller&r is the brains of a network. Each controller block's face is capable of outputting &632 channels;&r almost every device on the ME network needs &6one channel to operate.&r"]
+			hide_until_deps_complete: true
 			id: "42064A913CA2CCD2"
 			shape: "hexagon"
 			tasks: [{
@@ -451,6 +452,266 @@
 			x: -2.0d
 			y: 5.0d
 		}
+		{
+			dependencies: [
+				"5274A282D9182B7C"
+				"76795AD9B23ACFD7"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Perfect for carrying items on the go, the &6backpack&r has a few useful upgrades as well."]
+			hide_until_deps_complete: true
+			id: "0D743158B02EFECE"
+			tasks: [{
+				id: "2E43CCBB4B962F21"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: ["Better than regular chests, &6Sophisticated Storage&r lets you put more things in a single block."]
+			hide_until_deps_complete: true
+			id: "186AF6EF5933F0C7"
+			rewards: [{
+				id: "484DA648F8D52FD3"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51D72D299E613F70"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:all_storage"
+					}
+				}
+				title: "Any Sophisticated Storage Block"
+				type: "item"
+			}]
+			title: "Sophisticated Storage"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["655DCA5A5B6632E1"]
+			description: [
+				"Capable of storing a very large amount of a single item type."
+				""
+				"The framing table lets you customize the way they look."
+			]
+			hide_until_deps_complete: true
+			id: "310095AAC69059F7"
+			rewards: [{
+				id: "3CC04B85D05F7A7F"
+				item: "storagedrawers:framing_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BD44F655B846F42"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any Storage Drawer"
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["186AF6EF5933F0C7"]
+			description: ["Tier upgrades can be used to upgrade Sophisticated Storage blocks without breaking them."]
+			id: "79F177300EC200BB"
+			rewards: [{
+				id: "2792E6089A0C9606"
+				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "087CBC5E7AACE097"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+							}
+						]
+					}
+				}
+				title: "Any Tier Upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["310095AAC69059F7"]
+			description: ["The &6Drawer Controller&r allows you to interface with multiple drawers using only a single blockface."]
+			id: "6AEDC0CE7C0F6871"
+			tasks: [{
+				id: "1799CCB5D4A8DAFF"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["310095AAC69059F7"]
+			description: ["There are a variety of keys - lock drawers to specific items, hide item labels to reduce lag, and more."]
+			id: "48640F7FA6B4E83C"
+			rewards: [{
+				id: "7DA6DE4285D3936F"
+				item: "storagedrawers:keyring"
+				type: "item"
+			}]
+			tasks: [{
+				id: "622066D049F81B3A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:drawer_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:quantify_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:shroud_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:personal_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:priority_key"
+							}
+						]
+					}
+				}
+				title: "Any Drawer Key"
+				type: "item"
+			}]
+			title: "Drawer Keys"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0D743158B02EFECE"]
+			description: ["Autofeeding, playing music, even portable crafting can all be attained with backpack upgrades."]
+			id: "2971661158B66BCB"
+			rewards: [{
+				id: "6A7A218A2B25881E"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57731279073E4D5C"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["186AF6EF5933F0C7"]
+			description: ["Higher stack count, filtering, and more - check the uses for the upgrade base."]
+			id: "20BC58E21EEC4A90"
+			rewards: [{
+				id: "06E72721EDE7B639"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27901504AE8CB01C"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
 	]
-	title: "Storing your Stuff"
+	title: "Storage and Decor"
 }

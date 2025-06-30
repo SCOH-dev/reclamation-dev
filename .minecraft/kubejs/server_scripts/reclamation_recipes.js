@@ -575,4 +575,66 @@ ServerEvents.recipes(event => {
         S: 'bloodmagic:ingot_hellforged',
         G: 'botania:life_essence'
     })
+
+    //sculk awakener
+    event.shaped('reclamation_util:sculk_awakener', [
+        'TBT',
+        'VEV',
+        'TBT'
+    ], {
+        E: 'minecraft:ender_eye',
+        V: 'minecraft:sculk_vein',
+        B: 'minecraft:bone',
+        T: 'mysticalagriculture:tertium_essence'
+    })
+
+    //sculk catalyst
+    event.shaped('minecraft:sculk_catalyst', [
+        'GCG',
+        'DSD',
+        'BBB'
+    ], {
+        B: 'minecraft:bone_block',
+        C: 'minecraft:crying_obsidian',
+        D: 'bloodmagic:defaultcrystal',
+        S: 'minecraft:nether_star',
+        G: 'minecraft:glowstone'
+    })
+
+    //sniffer egg
+    event.custom({
+        "type": "mysticalagriculture:infusion",
+        "ingredients": [
+            {
+                "item": "minecraft:torchflower"
+            },
+            {
+                "item": "ars_nouveau:wixie_shards"
+            },
+            {
+                "item": "minecraft:torchflower"
+            },
+            {
+                "item": "ars_nouveau:drygmy_shard"
+            },
+            {
+                "item": "minecraft:torchflower"
+            },
+            {
+                "item": "ars_nouveau:starbuncle_shards"
+            },
+            {
+                "item": "minecraft:torchflower"
+            },
+            {
+                "item": "ars_nouveau:whirlisprig_shards"
+            }
+        ],
+        "input": {
+            "item": "minecraft:egg"
+        },
+        "result": {
+            "item": "minecraft:sniffer_egg"
+        }
+    })
 })

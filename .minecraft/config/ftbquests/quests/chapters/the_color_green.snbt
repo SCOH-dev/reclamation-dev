@@ -428,7 +428,7 @@
 				""
 				"Eventually, you can replace the torch with a candelabra, the skeleton skull with a wither skeleton or player skull, and the chalice with a filled chalice for even more recharge rate and capacity."
 			]
-			icon: "mysticalagriculture:upgrade_base"
+			icon: "enchanted:chalice"
 			id: "3932D60DF66D4C83"
 			tasks: [
 				{
@@ -1577,6 +1577,22 @@
 			}]
 			x: 2.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["020B8F06D2C86CE3"]
+			description: [
+				"With empowered tokens, you can craft the &6Creational Catalyst&r - this removes the innate limit on most aura producing blocks, and lets you overcharge the local area with Aura."
+				""
+				"&7Tip: aureareaurearuea"
+			]
+			id: "6C627897FFF1D259"
+			tasks: [{
+				id: "2009E7B94071CE08"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
 		}
 	]
 	title: "Touching Grass"

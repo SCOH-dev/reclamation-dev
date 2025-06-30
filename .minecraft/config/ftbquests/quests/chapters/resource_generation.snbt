@@ -1782,6 +1782,116 @@
 			x: -4.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["56E75D57C3C9487C"]
+			description: ["Essence infused watering cans can water a much larger area much faster."]
+			id: "67F1DFD4A17BF030"
+			tasks: [{
+				id: "5D743E2BFF4E58CB"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67F1DFD4A17BF030"]
+			id: "6766662BEF74B9C3"
+			tasks: [{
+				id: "48CF2C0019A07805"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:prudentium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6766662BEF74B9C3"]
+			id: "4256945A2E6C6725"
+			tasks: [{
+				id: "7EF12EEF71308A18"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:tertium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4256945A2E6C6725"]
+			id: "74E792C5A04CD1AA"
+			tasks: [{
+				id: "46D3185466374EA8"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:imperium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74E792C5A04CD1AA"]
+			id: "1AD7C3F6F6C06B69"
+			tasks: [{
+				id: "196E2CCA7068E78D"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:supremium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1AD7C3F6F6C06B69"]
+			description: ["&7Tip: unlimited wadduh"]
+			id: "751C7AD884E539D1"
+			tasks: [{
+				id: "518442D17864A6D1"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:awakened_supremium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
 	]
 	title: "Resource Generation"
 }

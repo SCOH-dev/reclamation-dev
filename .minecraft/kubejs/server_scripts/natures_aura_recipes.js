@@ -500,6 +500,146 @@ ServerEvents.recipes(event => {
                 "item": "naturesaura:birth_spirit"
             },
             {
+                "item": "botania:white_petal"
+            },
+            {
+                "item": "botania:light_gray_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:llama",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:pink_petal"
+            },
+            {
+                "item": "botania:green_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:axolotl",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:brown_petal"
+            },
+            {
+                "item": "botania:yellow_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:frog",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "ars_elemental:anima_essence"
+            },
+            {
+                "item": "croptopia:elderberry"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:allay",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "minecraft:crying_obsidian"
+            },
+            {
+                "item": "minecraft:chiseled_polished_blackstone"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:piglin_brute",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:yellow_petal"
+            },
+            {
+                "item": "botania:orange_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:camel",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
+                "item": "botania:orange_petal"
+            },
+            {
+                "item": "botania:white_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:fox",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
                 "item": "ars_nouveau:air_essence"
             },
             {
