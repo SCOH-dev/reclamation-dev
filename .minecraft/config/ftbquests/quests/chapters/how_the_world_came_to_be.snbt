@@ -30,11 +30,18 @@
 			dependencies: ["3BF5FDE3C81BEF26"]
 			description: ["Wood is plentiful, if not exactly the quality you remember."]
 			id: "655DCA5A5B6632E1"
-			tasks: [{
-				id: "2BB40E8DED9ACE61"
-				item: "kubejs:dead_log"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2BB40E8DED9ACE61"
+					item: "kubejs:dead_log"
+					type: "item"
+				}
+				{
+					id: "5B5631EC22B4DDC4"
+					item: "kubejs:flimsy_planks"
+					type: "item"
+				}
+			]
 			title: "Dead Trees"
 			x: -1.0d
 			y: -3.0d
