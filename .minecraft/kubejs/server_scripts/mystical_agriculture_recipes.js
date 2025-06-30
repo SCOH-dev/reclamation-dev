@@ -24,11 +24,20 @@ ServerEvents.recipes(event => {
             },
             {
                 "item": "mysticalagriculture:earth_essence"
+            },
+            {
+                "item": "mysticalagriculture:inferium_essence"
+            },
+            {
+                "item": "mysticalagriculture:inferium_essence"
+            },
+            {
+                "item": "mysticalagriculture:inferium_essence"
             }
         ],
         "power": 500,
         "result": {
-            "count": 4,
+            "count": 1,
             "item": "mysticalagriculture:prudentium_essence"
         }
     })
@@ -50,19 +59,19 @@ ServerEvents.recipes(event => {
         ],
         "mana": 10000,
         "output": {
-            "count": 4,
+            "count": 2,
             "item": "mysticalagriculture:tertium_essence"
         }
     })
     event.custom({
         "type": "ars_nouveau:imbuement",
-        "count": 1,
+        "count": 3,
         "input": {
-            "item": "mysticalagriculture:tertium_essence"
+            "item": "mysticalagriculture:tertium_block"
         },
         "pedestalItems": [],
         "output": "mysticalagriculture:imperium_essence",
-        "source": 5000
+        "source": 8000
     })
     event.custom({
         "type": "bloodmagic:altar",
@@ -77,6 +86,136 @@ ServerEvents.recipes(event => {
         },
         "upgradeLevel": 4
     })
+
+    //mekanism alt recipes
+    event.custom({
+        "type": "mekanism:infusion_conversion",
+        "input": {
+            "ingredient": {
+                "item": "mysticalagriculture:inferium_essence"
+            }
+        },
+        "output": {
+            "amount": 10,
+            "infuse_type": "reclamation:inferium"
+        }
+    })
+    event.custom({
+        "type": "mekanism:infusion_conversion",
+        "input": {
+            "ingredient": {
+                "item": "mysticalagriculture:prudentium_essence"
+            }
+        },
+        "output": {
+            "amount": 10,
+            "infuse_type": "reclamation:prudentium"
+        }
+    })
+    event.custom({
+        "type": "mekanism:infusion_conversion",
+        "input": {
+            "ingredient": {
+                "item": "mysticalagriculture:tertium_essence"
+            }
+        },
+        "output": {
+            "amount": 10,
+            "infuse_type": "reclamation:tertium"
+        }
+    })
+    event.custom({
+        "type": "mekanism:infusion_conversion",
+        "input": {
+            "ingredient": {
+                "item": "mysticalagriculture:imperium_essence"
+            }
+        },
+        "output": {
+            "amount": 10,
+            "infuse_type": "reclamation:imperium"
+        }
+    })
+    event.custom({
+        "type": "mekanism:metallurgic_infusing",
+        "chemicalInput": {
+            "amount": 40,
+            "tag": "reclamation:inferium"
+        },
+        "itemInput": {
+            "ingredient": {
+                "tag": "reclamation:elemental_essence"
+            }
+        },
+        "output": {
+            "item": "mysticalagriculture:prudentium_essence"
+        }
+    })
+    event.custom({
+        "type": "mekanism:metallurgic_infusing",
+        "chemicalInput": {
+            "amount": 40,
+            "tag": "reclamation:prudentium"
+        },
+        "itemInput": {
+            "ingredient": {
+                "item": "botania:terrasteel_nugget"
+            }
+        },
+        "output": {
+            "item": "mysticalagriculture:tertium_essence"
+        }
+    })
+    event.custom({
+        "type": "mekanism:metallurgic_infusing",
+        "chemicalInput": {
+            "amount": 40,
+            "tag": "reclamation:tertium"
+        },
+        "itemInput": {
+            "ingredient": {
+                "item": "ars_nouveau:source_gem"
+            }
+        },
+        "output": {
+            "item": "mysticalagriculture:imperium_essence"
+        }
+    })
+    event.custom({
+        "type": "mekanism:metallurgic_infusing",
+        "chemicalInput": {
+            "amount": 40,
+            "tag": "reclamation:imperium"
+        },
+        "itemInput": {
+            "ingredient": {
+                "item": "bloodmagic:infusedslate"
+            }
+        },
+        "output": {
+            "item": "mysticalagriculture:supremium_essence"
+        }
+    })
+
+    //soulstone
+    event.shaped('8x mysticalagriculture:soulstone_cobble', [
+        'CCC',
+        'CSC',
+        'CCC'
+    ], {
+        C: 'minecraft:cobblestone',
+        S: 'mysticalagriculture:soulium_dust'
+    })
+    event.shaped('8x mysticalagriculture:soulstone', [
+        'CCC',
+        'CSC',
+        'CCC'
+    ], {
+        C: 'minecraft:stone',
+        S: 'mysticalagriculture:soulium_dust'
+    })
+
+    //remove infusion
     event.remove({input: '#mysticalagriculture:infusion_crystals'})
     event.remove({id: 'mysticalagriculture:prudentium_essence_uncraft'})
     event.remove({id: 'mysticalagriculture:tertium_essence_uncraft'})

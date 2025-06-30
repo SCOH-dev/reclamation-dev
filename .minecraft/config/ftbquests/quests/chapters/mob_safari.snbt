@@ -1824,7 +1824,7 @@
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
-							"ars_nouveau:drygmy": 1b
+							"ars_elemental:siren_entity": 1b
 						}
 					}
 				}

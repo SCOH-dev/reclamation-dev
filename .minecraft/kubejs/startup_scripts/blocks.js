@@ -48,6 +48,23 @@ const $GasBuilder = Java.loadClass('mekanism.api.chemical.gas.GasBuilder')
 const $GasAttr = Java.loadClass('mekanism.api.chemical.gas.attribute.GasAttributes')
 const $Fuel = $GasAttr.Fuel
 const $FloatingLong = Java.loadClass('mekanism.api.math.FloatingLong')
+const $InfuseType = Java.loadClass('mekanism.api.chemical.infuse.InfuseType')
+const $InfuseTypeBuilder = Java.loadClass('mekanism.api.chemical.infuse.InfuseTypeBuilder')
+
+StartupEvents.registry('mekanism:infuse_type', event => {
+  event.createCustom('reclamation:inferium', () => new $InfuseType($InfuseTypeBuilder.builder()
+    .tint(0x738C00))
+  )
+  event.createCustom('reclamation:prudentium', () => new $InfuseType($InfuseTypeBuilder.builder()
+    .tint(0x008C23))
+  )
+  event.createCustom('reclamation:tertium', () => new $InfuseType($InfuseTypeBuilder.builder()
+    .tint(0xB74900))
+  )
+  event.createCustom('reclamation:imperium', () => new $InfuseType($InfuseTypeBuilder.builder()
+    .tint(0x007FDB))
+  )
+})
 
 StartupEvents.registry('mekanism:gas', event => {
   event.createCustom('reclamation:aerated_essence', () => new $Gas($GasBuilder.builder()

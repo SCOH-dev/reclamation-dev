@@ -123,6 +123,20 @@ ServerEvents.recipes(event => {
         }
     })
 
+    //ritual book
+    event.custom({
+        "type": "patchouli:shapeless_book_recipe",
+        "ingredients": [
+            {
+                "item": "minecraft:book"
+            },
+            {
+                "item": "kubejs:dried_earth"
+            }
+        ],
+        "book": "patchouli:custom_rituals"
+    })
+
     //chest from planks... quark >_>
     event.shaped('minecraft:chest', [
         'AAA',
@@ -438,6 +452,75 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:tin"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.5
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.3
+            },
+            {
+                "item": "mekanism:raw_tin",
+                "chance": 0.25
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:uranium"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.5
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.3
+            },
+            {
+                "item": "mekanism:raw_uranium",
+                "chance": 0.25
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:zinc"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.5
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.3
+            },
+            {
+                "item": "create:raw_zinc",
+                "chance": 0.25
+            }
+        ]
+    })
 
     //biome bottle
     event.shaped('4x reclamation_util:empty_biome_bottle', [
@@ -488,7 +571,8 @@ ServerEvents.recipes(event => {
         ' S '
     ], {
         A: 'enchanted:attuned_stone_charged',
-        B: 'reclamation_util:empty_biome_botle',
-        S: 'bloodmagic:ingot_hellforged'
+        B: 'reclamation_util:empty_biome_bottle',
+        S: 'bloodmagic:ingot_hellforged',
+        G: 'botania:life_essence'
     })
 })

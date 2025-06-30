@@ -11,15 +11,17 @@
 	quests: [
 		{
 			description: [
-				"&6Prosperity Seed Bases&r are the basis of all special essence seeds - very useful for generating large amounts of basic resources."
+				"&6Prosperity Shards&r are the basis of all mystical essence manipulation - very useful for generating large amounts of basic resources."
 				""
-				"&6Prosperity shards&r can be found by breaking down copper nuggets with a pickaxe on a cutting board, or enriching them in an Enrichment Chamber."
+				"They can be found by breaking down copper nuggets with a pickaxe on a cutting board."
+				""
+				"&7Tip: you can also make prosperity shards in an Enrichment Chamber!"
 			]
 			id: "56E75D57C3C9487C"
 			shape: "hexagon"
 			tasks: [{
 				id: "1552B688C3A31631"
-				item: "mysticalagriculture:prosperity_seed_base"
+				item: "mysticalagriculture:prosperity_shard"
 				type: "item"
 			}]
 			x: -5.0d
@@ -311,7 +313,9 @@
 			description: [
 				"More potent than regular inferium essence, &6Prudentium Essence&r can be used to make some useful essence seeds."
 				""
-				"Make it by combining all four elemental essences on a &6Runic Altar.&r"
+				"Make it by fortifying inferium essence with all four elemental essences in a &6Cauldron.&r"
+				""
+				"&7Tip: you can also make it in a Metallurgic Infuser!"
 			]
 			id: "3E9104B5E89874E5"
 			tasks: [{
@@ -849,7 +853,7 @@
 			description: [
 				"The &6Mellarium&r is a multiblock version of the apiary, with the ability to add modules that can help you in a variety of ways."
 				""
-				"The most concrete thing a Mellarium can do is give you more than three frame slots, using &6Frame Housings.&r"
+				"The most concrete thing a Mellarium can do is give you more than three frame slots, using &6Frame Housings.&r This means you can get, in the best case, &l&oSTACKS&r of combs every bee tick."
 				""
 				"You can also increase your chances of getting a mutation, shield your bees from rain, and change the climate using catalyst items."
 				""
@@ -1052,6 +1056,48 @@
 					title: "Osimum"
 					type: "item"
 				}
+				{
+					id: "0AA429B26695BC78"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:zincum"
+							}
+						}
+					}
+					title: "Zincum"
+					type: "item"
+				}
+				{
+					id: "4222159749F84687"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:radioactive"
+							}
+						}
+					}
+					title: "Radioactive"
+					type: "item"
+				}
+				{
+					id: "758A0B5AA731EA7E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:stannum"
+							}
+						}
+					}
+					title: "Stannum"
+					type: "item"
+				}
 			]
 			title: "Metal Bees"
 			x: 3.0d
@@ -1206,6 +1252,13 @@
 		}
 		{
 			dependencies: ["3E9104B5E89874E5"]
+			description: [
+				"Stronger than Prudentium, &6Tertium&r is necessary for all kinds of metallic essence seeds."
+				""
+				"Make it using a &6Runic Altar.&r"
+				""
+				"&7Tip: you can also make it in a Metallurgic Infuser!"
+			]
 			id: "2509BD7F791C2BC5"
 			tasks: [{
 				id: "4D7664DE210D6CC9"
@@ -1217,6 +1270,13 @@
 		}
 		{
 			dependencies: ["2509BD7F791C2BC5"]
+			description: [
+				"&6Imperium&r is the penultimate tier of essence, requiring combining the power of &5Source&r and Tertium Essence."
+				""
+				"It can be made using an &6Imbuement Chamber.&r"
+				""
+				"&7Tip: you can also make it in a Metallurgic Infuser!"
+			]
 			id: "29D91679CB08E659"
 			tasks: [{
 				id: "63A131BD3CC1004C"
@@ -1228,6 +1288,13 @@
 		}
 		{
 			dependencies: ["29D91679CB08E659"]
+			description: [
+				"&6Supremium&r is the highest tier of essence, used for crafting the highest tier of mystical equipment and seeds."
+				""
+				"Anoint Imperium with life essence to create it."
+				""
+				"&7Tip: you can also make it in a Metallurgic Infuser!"
+			]
 			id: "538CFE623B75990A"
 			tasks: [{
 				id: "319E2C2891DDB9E1"
