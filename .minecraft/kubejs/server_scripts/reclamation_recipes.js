@@ -637,4 +637,96 @@ ServerEvents.recipes(event => {
             "item": "minecraft:sniffer_egg"
         }
     })
+
+    //frame remover
+    event.shaped('reclamation_util:frame_remover', [
+        ' Ss',
+        ' sS',
+        'd  '
+    ], {
+        S: 'minecraft:stone',
+        s: 'minecraft:stick',
+        d: 'kubejs:dried_earth'
+    })
+
+    //unlock sheet from squids
+    event.replaceInput({id: 'xercamusic:music_sheet'},
+    'minecraft:ink_sac',
+    'minecraft:charcoal')
+
+    //copycats from andesite
+    event.replaceInput({mod: 'copycats'},
+    'create:zinc_ingot',
+    'create:andesite_alloy')
+
+    //cooking for blockheads book easier
+    event.replaceInput({id: 'cookingforblockheads:crafting_book'},
+    'minecraft:diamond',
+    'minecraft:beetroot')
+
+    //creative blaze cake
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": "create:blaze_cake"
+        },
+        "loops": 100,
+        "results": [
+            {
+                "item": "create:creative_blaze_cake"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "create:blaze_cake"
+                    },
+                    {
+                        "item": "complicated_bees:exp_drop"
+                    }
+                ],
+                "results": [
+                    {
+                        "item": "create:blaze_cake"
+                    }
+                ]
+            },
+            {
+                "type": "create:filling",
+                "ingredients": [
+                    {
+                        "item": "create:blaze_cake"
+                    },
+                    {
+                        "amount": 500,
+                        "fluid": "embers:molten_dawnstone",
+                        "nbt": {}
+                    }
+                ],
+                "results": [
+                    {
+                        "item": "create:blaze_cake"
+                    }
+                ]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [
+                    {
+                        "item": "create:blaze_cake"
+                    }
+                ],
+                "results": [
+                    {
+                        "item": "create:blaze_cake"
+                    }
+                ]
+            }
+        ],
+        "transitionalItem": {
+            "item": "create:blaze_cake"
+        }
+    })
 })

@@ -5,6 +5,7 @@
 	filename: "how_the_world_came_to_be"
 	group: ""
 	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
 	icon: "kubejs:dried_earth"
 	id: "2B630DD43CEBA9AC"
 	order_index: 0

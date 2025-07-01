@@ -748,4 +748,75 @@ ServerEvents.recipes(event => {
             "Count": 1
         }
     })
+
+    //croptopia saplings
+    function sapling_recipe(type, v, h, sapling) {
+        event.custom({
+            "type": "naturesaura:tree_ritual",
+            "ingredients": [
+                {
+                    "item": "croptopia:"+v
+                },
+                {
+                    "item": "croptopia:"+v
+                },
+                {
+                    "item": "croptopia:"+h
+                },
+                {
+                    "item": "croptopia:"+h
+                },
+                {
+                    "item": "mysticalagriculture:nature_essence"
+                },
+                {
+                    "item": "mysticalagriculture:nature_essence"
+                },
+                {
+                    "item": "mysticalagriculture:nature_essence"
+                },
+                {
+                    "item": "mysticalagriculture:nature_essence"
+                }
+            ],
+            "sapling": {
+                "item": "minecraft:"+sapling+"_sapling"
+            },
+            "output": {
+                "item": "croptopia:"+type+"_sapling"
+            },
+            "time": 250
+        })
+    }
+    const trees = [
+        ['almond', 'onion', 'coffee_beans', 'dark_oak'],
+        ['apricot', 'saguaro', 'tomato', 'oak'],
+        ['avocado', 'cabbage', 'rutabaga', 'birch'],
+        ['banana', 'sweetpotato', 'corn', 'jungle'],
+        ['cashew', 'blackbean', 'banana', 'dark_oak'],
+        ['cherry', 'strawberry', 'tomato', 'cherry'],
+        ['cinnamon', 'mustard', 'ginger', 'spruce'],
+        ['coconut', 'walnut', 'corn', 'jungle'],
+        ['date', 'yam', 'blackberry', 'jungle'],
+        ['dragon', 'saguaro', 'strawberry', 'birch'],
+        ['fig',  'blueberry', 'bellpepper', 'acacia'],
+        ['grapefruit', 'grape', 'honeydew', 'acacia'],
+        ['kumquat', 'tomatillo', 'greenonion', 'jungle'],
+        ['lemon', 'tomatillo', 'mustard', 'jungle'],
+        ['lime', 'kiwi', 'lemon', 'birch'],
+        ['mango', 'bellpepper', 'raspberry', 'jungle'],
+        ['nectarine', 'orange', 'peach', 'oak'],
+        ['nutmeg', 'peanut', 'cashew', 'birch'],
+        ['orange', 'basil', 'mango', 'birch'],
+        ['peach', 'strawberry', 'cantaloupe', 'dark_oak'],
+        ['pear', 'saguaro', 'radish', 'acacia'],
+        ['pecan', 'almond', 'onion', 'dark_oak'],
+        ['persimmon', 'chile_pepper', 'rutabaga', 'oak'],
+        ['plum', 'yam', 'oats', 'oak'],
+        ['star', 'banana', 'mango', 'jungle'],
+        ['walnut', 'rice', 'soybean', 'dark_oak']
+    ]
+    trees.forEach(entry => {
+        sapling_recipe(entry[0], entry[1], entry[2], entry[3])
+    })
 })

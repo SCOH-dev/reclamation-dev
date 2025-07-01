@@ -453,10 +453,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"5274A282D9182B7C"
-				"76795AD9B23ACFD7"
-			]
+			dependencies: ["600A7F0DFD880119"]
 			dependency_requirement: "one_completed"
 			description: ["Perfect for carrying items on the go, the &6backpack&r has a few useful upgrades as well."]
 			hide_until_deps_complete: true
@@ -470,7 +467,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["6B5B443D2F7DD3D4"]
+			dependencies: ["600A7F0DFD880119"]
 			description: ["Better than regular chests, &6Sophisticated Storage&r lets you put more things in a single block."]
 			hide_until_deps_complete: true
 			id: "186AF6EF5933F0C7"
@@ -486,6 +483,13 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
 				id: "51D72D299E613F70"
 				item: {
 					Count: 1
@@ -502,13 +506,14 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["655DCA5A5B6632E1"]
+			dependencies: ["600A7F0DFD880119"]
 			description: [
 				"Capable of storing a very large amount of a single item type."
 				""
 				"The framing table lets you customize the way they look."
 			]
 			hide_until_deps_complete: true
+			icon: "storagedrawers:oak_full_drawers_1"
 			id: "310095AAC69059F7"
 			rewards: [{
 				id: "3CC04B85D05F7A7F"
@@ -534,6 +539,7 @@
 		{
 			dependencies: ["186AF6EF5933F0C7"]
 			description: ["Tier upgrades can be used to upgrade Sophisticated Storage blocks without breaking them."]
+			icon: "sophisticatedstorage:basic_tier_upgrade"
 			id: "79F177300EC200BB"
 			rewards: [{
 				id: "2792E6089A0C9606"
@@ -635,6 +641,7 @@
 		{
 			dependencies: ["310095AAC69059F7"]
 			description: ["There are a variety of keys - lock drawers to specific items, hide item labels to reduce lag, and more."]
+			icon: "storagedrawers:drawer_key"
 			id: "48640F7FA6B4E83C"
 			rewards: [{
 				id: "7DA6DE4285D3936F"
@@ -711,6 +718,182 @@
 			}]
 			x: -4.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["600A7F0DFD880119"]
+			description: ["Each workbench (aside from looking neat) can turn a specific set of blocks into its variants."]
+			hide_until_deps_complete: true
+			id: "7998DF6633727385"
+			tasks: [
+				{
+					id: "2A89B9BAD6D6A1BA"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "61E1F14AE74D8245"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1F90AEA33F3366EE"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "35CFCE8CA7CDCB03"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "74BABD50F2D36065"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "0F68C22DF4A0FB55"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "23EB2E0893DEADE9"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Chipped Workbenches"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["600A7F0DFD880119"]
+			description: ["Can turn almost any basic block into a wide array of variants."]
+			hide_until_deps_complete: true
+			id: "589D9D8B75EA4D6A"
+			tasks: [{
+				id: "1886724FF4F67912"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["600A7F0DFD880119"]
+			description: ["Made from stonecutting andesite alloy, these blocks can take on the texture of any other block."]
+			hide_until_deps_complete: true
+			id: "739D0BFEC4F76873"
+			tasks: [{
+				id: "40AFA3023980CF2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "copycats:copycat_block"
+					}
+				}
+				title: "Any Copycat Block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["600A7F0DFD880119"]
+			description: [
+				"You can make music by crafing a &6Music Sheet&r and placing notes on the sheet. "
+				""
+				"Place the sheet in your offhand while holding an instrument to play the instrument."
+				""
+				"&7Tip: you can do MUCH more with this mod - check out its CurseForge page for more info."
+			]
+			hide_until_deps_complete: true
+			id: "00B11B5B5824CF82"
+			tasks: [{
+				id: "34FA44324920ADE6"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["600A7F0DFD880119"]
+			description: [
+				"You can paint your own masterpieces while you wait for crops to grow - simply make a palette, fill it with colors, plop a canvas on an easel, and get to painting!"
+				""
+				"Signed paintings can be duplicated by crafting the original with a blank canvas of the same size."
+				""
+				"&7Tip: to craft a palette, fill the bottom row of a crafting table with planks, then place dyes in the middle. You can add more dyes to a palette by crafting them together."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "xercapaint:item_palette"
+				tag: {
+					basic: [B;
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+					]
+				}
+			}
+			id: "56F47BEB53D25F0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63AD2969AF05B6E2"
+				table_id: 6347601422327785898L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "40B6EAC528F2AEBF"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					id: "5B4F1FCD16C17D30"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+			]
+			title: "The Joy of Painting"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["600A7F0DFD880119"]
+			description: [
+				"&6Building Gadgets&r are a collection of useful tools that will let you build very quickly."
+				""
+				"They do need to be charged; use an energy cube or similar."
+			]
+			hide_until_deps_complete: true
+			id: "4E09F6435DC05330"
+			tasks: [{
+				id: "73EFED8D105EAF82"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
 		}
 	]
 	title: "Storage and Decor"

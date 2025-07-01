@@ -1,0 +1,107 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "the_taste_of_power"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:dragon_egg"
+	id: "255B2E87E16AB4A5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["647B651959E0F0D0"]
+			description: ["The &6Ender Dragon&r not only has horrific halitosis, it also prevents you from exploring the rest of the End and all its goodies."]
+			id: "46100B5AD6C088F1"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "383C97269B1429F5"
+				title: "Kill the Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D23082F517D5117"]
+			icon: "minecraft:end_portal_frame"
+			id: "647B651959E0F0D0"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "6DB59B5506EB9396"
+				title: "Visit the End"
+				type: "dimension"
+			}]
+			title: "Visit the End"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46100B5AD6C088F1"]
+			description: [
+				"Congrats! You've killed the Ender Dragon - there is no more left to conquer."
+				""
+				"You are a champion. "
+				""
+				"You have &lReclaimed&r the world."
+				""
+				"&7As far as anyone can really be concerned, you've finished the modpack. Any quests past this are exclusively for bragging rights - creative items, op stuff, silly little trophies, lame resource dump recipes, all that jazz."
+				""
+				"&7Thank you immensely for putting the time and effort into finishing the pack! This was a huge undertaking for me, but seeing people enjoy the things I make is one of the greatest feelings in the world."
+				""
+				"&7                                                    -ACCBDD"
+			]
+			icon: "minecraft:cake"
+			id: "68FE5D02293FE722"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "237B504DA0EDA4AA"
+				title: "Congratulations!"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68FE5D02293FE722"]
+			description: ["An infinitely super-heated blaze is great just as a centerpiece, but you can also use it to make infinite lava."]
+			id: "5A44963D2D2AE45D"
+			tasks: [{
+				id: "6F663B86D7CE7173"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5A44963D2D2AE45D"]
+			id: "47BF6E234A394435"
+			tasks: [{
+				id: "1873296BC875DED1"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5A44963D2D2AE45D"]
+			id: "51A5AE293CD495CC"
+			tasks: [{
+				id: "43913FC620B1DDB0"
+				item: "embers:creative_ember_source"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+	]
+	title: "The Taste of Power"
+}

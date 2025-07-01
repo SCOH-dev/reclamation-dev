@@ -34,11 +34,13 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["600A7F0DFD880119"]
 			description: [
 				"In this new post-apocalyptic world, you've realized that it might be a good idea to document what lifeforms exist - just in case it happens again. "
 				""
 				"To do so, you're going to need &6a camera, &rsome &6film&r to print onto, and some way to turn that &6film into photos.&r"
 			]
+			hide_until_deps_complete: true
 			icon: "exposure:camera"
 			id: "5FEE65C669654E40"
 			shape: "hexagon"

@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "the_color_green"
 	group: ""
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:grass_block"
 	id: "40E17D40DC433CF2"
 	order_index: 2

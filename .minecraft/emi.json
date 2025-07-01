@@ -1,14 +1,210 @@
 {
   "favorites": [
     {
-      "stack": "item:complicated_bees:honeyed_frame{Damage:0,Enchantments:[{id:\"minecraft:mending\",lvl:1s}]}",
-      "recipe": "emi:/anvil/enchanting/complicated_bees/honeyed_frame/minecraft/mending/1"
+      "stack": "item:itemfilters:weak_nbt{value:{species:\"reclamation:stannum\"}}"
     },
     {
-      "stack": "item:ars_nouveau:wixie_shards"
+      "stack": "item:enchanted:circle_talisman{circle_magic_shape_map:{\"enchanted:large_circle\":\"enchanted:ritual_chalk\",\"enchanted:medium_circle\":\"enchanted:nether_chalk\",\"enchanted:small_circle\":\"enchanted:nether_chalk\"}}"
     }
   ],
   "lookup_history": [
+    "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:ends\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:0b},\"complicated_bees:flower\":{data:\"complicated_bees:chorus\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"longer\",dominant:1b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"complicated_bees:enigmatic\",dominant:1b},\"complicated_bees:temperature\":{data:\"icy\",dominant:1b,tolerance:\"UP_2\"},\"complicated_bees:territory\":{data:[I;6,3],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:ends\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:0b},\"complicated_bees:flower\":{data:\"complicated_bees:chorus\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"longer\",dominant:1b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"complicated_bees:enigmatic\",dominant:1b},\"complicated_bees:temperature\":{data:\"icy\",dominant:1b,tolerance:\"UP_2\"},\"complicated_bees:territory\":{data:[I;6,3],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:enigmatic\"}",
+    "item:complicated_bees:exp_drop",
+    "item:create:creative_blaze_cake",
+    "item:create:blaze_cake",
+    {
+      "type": "fluid",
+      "id": "embers:molten_dawnstone",
+      "amount": 0
+    },
+    "item:create:sturdy_sheet",
+    "#item:create:sleepers",
+    "item:create:track",
+    "item:create:precision_mechanism",
+    "item:create:deployer",
+    "item:minecraft:shulker_box",
+    "item:naturesaura:end_city_finder",
+    "item:minecraft:shulker_shell",
+    {
+      "type": "fluid",
+      "id": "sophisticatedcore:xp_still",
+      "amount": 0
+    },
+    "item:mysticalagriculture:experience_droplet",
+    "item:minecraft:experience_bottle",
+    "item:ars_nouveau:greater_experience_gem",
+    "item:ars_nouveau:experience_gem",
+    "item:buildinggadgets2:gadget_building",
+    "item:create:blaze_cake_base",
+    "item:farmersdelight:pie_crust",
+    {
+      "type": "fluid",
+      "id": "create_central_kitchen:hot_cocoa",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:milk",
+      "amount": 125
+    },
+    {
+      "type": "fluid",
+      "id": "create:chocolate",
+      "amount": 250
+    },
+    "item:minecraft:cocoa_beans",
+    "item:create:pulp",
+    "item:create:basin",
+    "item:create:empty_blaze_burner",
+    "item:create:blaze_burner",
+    {
+      "type": "item",
+      "id": "croptopia:tamales",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "croptopia:corn_husk",
+      "amount": 8
+    },
+    {
+      "type": "item",
+      "id": "croptopia:beef_jerky",
+      "amount": 14
+    },
+    "item:chipped:botanist_workbench",
+    "item:rechiseled:chisel{}",
+    {
+      "type": "item",
+      "id": "farmersdelight:tomato_sauce",
+      "amount": 4
+    },
+    "item:croptopia:noodle",
+    {
+      "type": "item",
+      "id": "croptopia:tortilla",
+      "amount": 2
+    },
+    "item:cookingforblockheads:toaster",
+    "item:cookingforblockheads:ice_unit",
+    "item:cookingforblockheads:crafting_book",
+    "item:cookingforblockheads:cooking_table",
+    "item:cookingforblockheads:cow_jar",
+    "item:antiblocksrechiseled:bright_magenta",
+    "item:cookingforblockheads:white_kitchen_floor",
+    "item:cookingforblockheads:black_kitchen_floor",
+    "item:farmersdelight:straw",
+    "item:farmersdelight:canvas",
+    "item:minecraft:book",
+    "item:cookingforblockheads:recipe_book",
+    "item:botania:flight_tiara{variant:0}",
+    {
+      "type": "item",
+      "id": "bloodmagic:ethereal_mimic",
+      "amount": 64
+    },
+    "item:mysticalagriculture:infusion_altar",
+    "item:mysticalagriculture:wand",
+    "item:copycats:copycat_block",
+    "item:create:zinc_ingot",
+    "item:copycats:copycat_ghost_block",
+    "item:minecraft:feather",
+    "item:xercamusic:metronome",
+    "item:xercamusic:music_box",
+    "item:xercamusic:bass_guitar",
+    "item:xercamusic:redstone_guitar",
+    "item:xercamusic:french_horn",
+    "item:xercamusic:piano",
+    "item:xercamusic:flute",
+    "item:xercamusic:saxophone",
+    "item:xercamusic:cello",
+    "item:xercamusic:violin",
+    "item:xercamusic:sansula",
+    "item:xercamusic:tubular_bell",
+    "item:xercamusic:xylophone",
+    "item:xercamusic:drum_kit",
+    "item:xercamusic:cymbal",
+    "item:xercamusic:drum",
+    "item:xercamusic:banjo",
+    "item:xercamusic:lyre",
+    "item:xercamusic:guitar",
+    "item:xercamusic:music_sheet",
+    "item:minecraft:black_dye",
+    "item:minecraft:ink_sac",
+    "item:xercapaint:item_canvas_tall",
+    "item:xercapaint:item_canvas",
+    "item:xercapaint:item_canvas_long",
+    "item:immersive_paintings:graffiti",
+    "item:chipped:loom_table",
+    "item:copycats:copycat_slab",
+    "item:storagedrawers:drawer_key",
+    "item:chipped:alchemy_bench",
+    "item:chipped:tinkering_table",
+    "item:chipped:mason_table",
+    "item:chipped:carpenters_table",
+    "item:chipped:glassblower",
+    "item:mekanism:creative_chemical_tank{mekData:{GasTanks:[{Tank:0b,stored:{amount:9223372036854775807L,gasName:\"mekanism:antimatter\"}}]}}",
+    "item:botania:lens_storm",
+    "item:mysticalagriculture:flight_augment",
+    "item:mysticalagriculture:creative_soulium_dagger",
+    "item:croptopia:limeade",
+    {
+      "type": "item",
+      "id": "croptopia:food_press",
+      "remainder": "item:croptopia:food_press"
+    },
+    {
+      "type": "item",
+      "id": "croptopia:yoghurt",
+      "remainder": "item:minecraft:bowl"
+    },
+    "item:croptopia:kale",
+    "item:croptopia:cheese",
+    "item:croptopia:paprika",
+    "item:croptopia:pepperoni",
+    "item:croptopia:pineapple",
+    "item:croptopia:almond_sapling",
+    "item:croptopia:apple_sapling",
+    "item:naturesaura:wood_stand",
+    "item:naturesaura:eye",
+    "item:croptopia:orange_sapling",
+    "item:minecraft:diamond",
+    "item:ars_nouveau:blank_parchment",
+    "item:ars_nouveau:warp_scroll{}",
+    "item:waystones:warp_scroll",
+    "item:ars_nouveau:magebloom",
+    "item:ars_nouveau:stable_warp_scroll{}",
+    "item:ars_nouveau:magebloom_crop",
+    {
+      "type": "jemi",
+      "uid": "ars_nouveau:magebloom"
+    },
+    "item:ars_nouveau:magebloom_fiber",
+    "item:ars_nouveau:source_gem",
+    "item:ars_nouveau:dominion_wand{}",
+    "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:ends\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:0b},\"complicated_bees:flower\":{data:\"complicated_bees:chorus\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"longer\",dominant:0b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"complicated_bees:surreal\",dominant:1b},\"complicated_bees:temperature\":{data:\"cold\",dominant:0b,tolerance:\"UP_2\"},\"complicated_bees:territory\":{data:[I;5,3],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:ends\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:0b},\"complicated_bees:flower\":{data:\"complicated_bees:chorus\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"longer\",dominant:0b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"complicated_bees:surreal\",dominant:1b},\"complicated_bees:temperature\":{data:\"cold\",dominant:0b,tolerance:\"UP_2\"},\"complicated_bees:territory\":{data:[I;5,3],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:surreal\"}",
+    "item:minecraft:saddle",
+    "item:reclamation_util:frame_remover",
+    "item:minecraft:elytra{Damage:0}",
+    "item:mekanism:hdpe_elytra{Damage:0}",
+    {
+      "type": "item",
+      "id": "botania:ender_air_bottle",
+      "amount": 64
+    },
+    "item:embers:intelligent_apparatus",
+    "item:enchanted:attuned_stone_charged",
+    "item:enchanted:attuned_stone",
+    "item:embers:winding_gears",
+    "item:embers:caster_orb",
+    "item:embers:wildfire_core",
+    "item:ars_elemental:anima_essence",
+    "item:reclamation_util:attuned_biome_bottle",
+    "item:enchanted:mutandis_extremis",
+    "item:croptopia:almond",
+    "item:reclamation_util:sculk_awakener",
+    "item:botania:dragonstone",
+    "item:botania:red_string",
     {
       "type": "item",
       "id": "kubejs:scrap_wood",
@@ -44,7 +240,6 @@
       "nbt": "{comb_type:\"complicated_bees:mysterious\"}",
       "chance": 0.3
     },
-    "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:ends\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:0b},\"complicated_bees:flower\":{data:\"complicated_bees:chorus\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"longer\",dominant:0b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"complicated_bees:surreal\",dominant:1b},\"complicated_bees:temperature\":{data:\"cold\",dominant:0b,tolerance:\"UP_2\"},\"complicated_bees:territory\":{data:[I;5,3],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:ends\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:0b},\"complicated_bees:flower\":{data:\"complicated_bees:chorus\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"longer\",dominant:0b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"complicated_bees:surreal\",dominant:1b},\"complicated_bees:temperature\":{data:\"cold\",dominant:0b,tolerance:\"UP_2\"},\"complicated_bees:territory\":{data:[I;5,3],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:surreal\"}",
     "item:minecraft:blaze_powder",
     "item:mysticalagriculture:blaze_essence",
     "item:minecraft:blaze_rod",
@@ -91,11 +286,9 @@
     "item:minecraft:pitcher_plant",
     "item:naturesaura:depth_ingot",
     "item:naturesaura:depth_axe{Damage:0}",
-    "item:reclamation_util:sculk_awakener",
     "item:minecraft:sculk_catalyst",
     "item:minecraft:sculk_sensor",
     "item:minecraft:sculk_vein",
-    "item:reclamation_util:attuned_biome_bottle",
     "item:minecraft:infested_stone_bricks",
     "item:heads:silverfish_head",
     "item:minecraft:powder_snow_bucket",
@@ -176,7 +369,6 @@
     "item:ars_elemental:lesser_water_focus",
     "item:mysticalagriculture:imperium_essence",
     "item:bloodmagic:reinforcedslate",
-    "item:ars_nouveau:source_gem",
     "item:mysticalagriculture:prudentium_essence",
     "item:mysticalagriculture:inferium_essence",
     {
@@ -226,7 +418,6 @@
     "item:botania:lens_tripwire",
     "item:botania:spawner_claw",
     "item:botania:azulejo_0",
-    "item:botania:red_string",
     "item:botania:light_relay",
     "item:botania:toggle_light_relay",
     "item:croptopia:hops",
@@ -238,10 +429,7 @@
     "item:supplementaries:flax",
     "item:ars_elemental:water_focus",
     "item:ars_elemental:mark_of_mastery",
-    "item:ars_nouveau:magebloom_crop",
     "item:ars_nouveau:jump_ring",
-    "item:ars_nouveau:stable_warp_scroll{}",
-    "item:ars_nouveau:magebloom",
     "item:ars_nouveau:mendosteen_pod",
     "item:mekanism:pellet_antimatter",
     {
@@ -281,7 +469,6 @@
     "item:naturesaura:break_prevention",
     "item:naturesaura:outpost_finder",
     "item:naturesaura:fortress_finder",
-    "item:naturesaura:end_city_finder",
     "item:minecraft:chorus_fruit",
     "item:minecraft:popped_chorus_fruit",
     "item:minecraft:chorus_flower",
@@ -318,7 +505,6 @@
     "item:minecraft:turtle_helmet{Damage:0}",
     "item:minecraft:turtle_egg",
     "item:botania:terra_sword{Damage:0}",
-    "item:botania:dragonstone",
     "item:botania:mana_diamond",
     "item:botania:laputa_shard",
     "item:bloodmagic:etherealslate",
@@ -336,7 +522,6 @@
       "id": "theurgy:sal_ammoniac",
       "amount": 0
     },
-    "item:enchanted:attuned_stone_charged",
     "item:agricraft:seed{genes:{fertility:{dom:10,rec:10},gain:{dom:10,rec:10},growth:{dom:10,rec:10},mutativity:{dom:10,rec:10},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:air\",rec:\"mysticalagriculture:air\"},strength:{dom:10,rec:10}}}",
     "item:mysticalagriculture:deepslate_essence",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"mysticalagriculture:deepslate\",rec:\"mysticalagriculture:deepslate\"},strength:{dom:1,rec:1}}}",
@@ -440,7 +625,6 @@
     "item:mysticalagriculture:wither_skeleton_seeds",
     "item:enchanted:drop_of_luck",
     "item:enchanted:redstone_soup",
-    "item:minecraft:diamond",
     "item:croptopia:greenbean",
     "item:minecraft:green_dye",
     "item:minecraft:emerald_block",
@@ -680,11 +864,6 @@
     "item:botania:loonium",
     {
       "type": "item",
-      "id": "minecraft:cocoa_beans",
-      "amount": 8
-    },
-    {
-      "type": "item",
       "id": "minecraft:crimson_nylium",
       "amount": 20
     },
@@ -735,11 +914,6 @@
     "item:complicated_bees:mellarium_hydroregulator",
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:flaming\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:nether\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"average\",dominant:0b},\"complicated_bees:productivity\":{data:\"average\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:fiendish\",dominant:1b},\"complicated_bees:temperature\":{data:\"hellish\",dominant:1b,tolerance:\"DOWN_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:flaming\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:nether\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"average\",dominant:0b},\"complicated_bees:productivity\":{data:\"average\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:fiendish\",dominant:1b},\"complicated_bees:temperature\":{data:\"hellish\",dominant:1b,tolerance:\"DOWN_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:fiendish\"}",
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:hostile\",dominant:1b},\"complicated_bees:fertility\":{data:3,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:nether\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"long\",dominant:1b},\"complicated_bees:productivity\":{data:\"average\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:infernal\",dominant:1b},\"complicated_bees:temperature\":{data:\"hellish\",dominant:1b,tolerance:\"DOWN_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:1b},\"complicated_bees:effect\":{data:\"complicated_bees:hostile\",dominant:1b},\"complicated_bees:fertility\":{data:3,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:nether\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"long\",dominant:1b},\"complicated_bees:productivity\":{data:\"average\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:infernal\",dominant:1b},\"complicated_bees:temperature\":{data:\"hellish\",dominant:1b,tolerance:\"DOWN_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:infernal\"}",
-    {
-      "type": "fluid",
-      "id": "embers:molten_dawnstone",
-      "amount": 90
-    },
     "item:embers:dawnstone_ingot",
     "item:minecraft:ghast_tear",
     "item:enchanted:rowan_berries",
@@ -801,12 +975,12 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/create/filling/redstone",
-      "jei:/mekanism/kjs/cbbat8ymh7e218oeqoad236ry",
-      "minecraft:kjs/enchanted_ritual_chalk",
-      "jei:/enchanted/witch_cauldron/golden_chalk",
       "jei:/ars_nouveau/kjs/mjg5gpz3s74z1vgm963n2nxj",
-      "mysticalagriculture:tertium_block"
+      "jei:/mekanism/kjs/cbbat8ymh7e218oeqoad236ry",
+      "jei:/enchanted/witch_cauldron/golden_chalk",
+      "minecraft:kjs/enchanted_ritual_chalk",
+      "mysticalagriculture:tertium_block",
+      "jei:/create/filling/redstone"
     ],
     "tags": {},
     "resolutions": {},

@@ -95,9 +95,6 @@
     "lightroom": true,
     "photograph_frame": true
   },
-  "projecte": {
-    "emc_provider": true
-  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -108,6 +105,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "appliedcooking": {
+    "kitchen_station": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -116,6 +116,14 @@
   },
   "gravestone": {
     "grave": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

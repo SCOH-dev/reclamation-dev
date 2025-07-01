@@ -399,6 +399,7 @@ ServerEvents.recipes(event => {
         }
     })
 
+    //duplicate skystone
     event.custom({
         "type": "botania:mana_infusion",
         "catalyst": {
@@ -414,4 +415,10 @@ ServerEvents.recipes(event => {
             "count": 2
         }
     })
+
+    //ender air without end
+    event.shapeless('botania:ender_air_bottle', [
+        '3x minecraft:ender_pearl',
+        'minecraft:glass_bottle'
+    ])
 })

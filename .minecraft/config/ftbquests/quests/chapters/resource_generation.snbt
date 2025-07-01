@@ -4,12 +4,14 @@
 	default_quest_shape: ""
 	filename: "resource_generation"
 	group: "499FD90D592AFC7B"
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:raw_iron"
 	id: "55C123B019947201"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["000A7EAED7A84968"]
 			description: [
 				"&6Prosperity Shards&r are the basis of all mystical essence manipulation - very useful for generating large amounts of basic resources."
 				""
@@ -17,6 +19,7 @@
 				""
 				"&7Tip: you can also make prosperity shards in an Enrichment Chamber!"
 			]
+			hide_until_deps_complete: true
 			id: "56E75D57C3C9487C"
 			shape: "hexagon"
 			tasks: [{
@@ -397,7 +400,7 @@
 			description: [
 				"The &6infusion altar&r and &6pedestals&r are required to craft essence seeds."
 				""
-				"Place the items necessary in the pedestals, then give the altar a redstone signal to begin crafting."
+				"Place the items necessary in the pedestals, then give the altar a redstone signal or a wave of a wand to begin crafting."
 			]
 			icon: "mysticalagriculture:infusion_altar"
 			id: "1633274D007EACBA"

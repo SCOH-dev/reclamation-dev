@@ -324,7 +324,9 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Once used in deadly draughts and sleeping curses, favored by those who studied the poisoner's art."]
+			hide_until_deps_complete: true
 			id: "0BD99D6E0D93E05F"
 			tasks: [{
 				id: "032D7F5C7D26D03C"
@@ -562,11 +564,13 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["4075C13786AF4C49"]
 			description: [
 				"You can make podzol for planting flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert grass under it into podzol."
 				""
 				"&7Tip: once the strength trait of a flower is high enough, you won't need to plant them on podzol!"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:podzol"
 			id: "0B5C8BA575972913"
 			tasks: [
@@ -603,7 +607,7 @@
 				item: "croptopia:onion"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -5.0d
 			y: 4.0d
 		}
 		{
@@ -611,7 +615,11 @@
 				"303D96CD71A877FA"
 				"32195AB6E6F75FF1"
 			]
-			description: ["Sweet potatoes grew slow and sweet underground, long ago."]
+			description: [
+				"Sweet potatoes grew slow and sweet underground, long ago."
+				"{@pagebreak}"
+				"(new page placeholder text)"
+			]
 			hide_dependency_lines: true
 			id: "137AC3CF85666619"
 			tasks: [{
@@ -619,7 +627,7 @@
 				item: "croptopia:sweetpotato"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 4.0d
 		}
 		{
@@ -635,7 +643,7 @@
 				item: "croptopia:barley"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -9.0d
 			y: 4.0d
 		}
 		{
@@ -651,7 +659,7 @@
 				item: "croptopia:basil"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -667,7 +675,7 @@
 				item: "croptopia:radish"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -11.0d
 			y: 4.0d
 		}
 		{
@@ -683,7 +691,7 @@
 				item: "croptopia:blackbean"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: 4.0d
 		}
 		{
@@ -699,7 +707,7 @@
 				item: "croptopia:greenbean"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -6.0d
 			y: 4.0d
 		}
 		{
@@ -711,7 +719,7 @@
 				item: "croptopia:yam"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.5d
 			y: 5.0d
 		}
 		{
@@ -723,7 +731,7 @@
 				item: "croptopia:tomato"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.5d
 			y: 5.0d
 		}
 		{
@@ -754,7 +762,7 @@
 				item: "croptopia:saguaro"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -10.0d
 			y: 4.0d
 		}
 		{
@@ -766,7 +774,7 @@
 				item: "croptopia:cabbage"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: 5.0d
 		}
 		{
@@ -781,7 +789,7 @@
 				item: "croptopia:greenonion"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.5d
 			y: 5.0d
 		}
 		{
@@ -793,7 +801,7 @@
 				item: "croptopia:coffee_beans"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -6.5d
 			y: 5.0d
 		}
 		{
@@ -805,7 +813,7 @@
 				item: "croptopia:rice"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -9.5d
 			y: 5.0d
 		}
 		{
@@ -817,7 +825,7 @@
 				item: "croptopia:turnip"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -10.5d
 			y: 5.0d
 		}
 		{
@@ -829,7 +837,7 @@
 				item: "croptopia:rutabaga"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -9.0d
 			y: 6.0d
 		}
 		{
@@ -844,7 +852,7 @@
 				item: "croptopia:chile_pepper"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -6.0d
 			y: 6.0d
 		}
 		{
@@ -859,7 +867,7 @@
 				item: "croptopia:soybean"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: 6.0d
 		}
 		{
@@ -874,7 +882,7 @@
 				item: "croptopia:corn"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 6.0d
 		}
 		{
@@ -889,7 +897,7 @@
 				item: "croptopia:mustard"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -6.5d
 			y: 7.0d
 		}
 		{
@@ -904,7 +912,7 @@
 				item: "croptopia:bellpepper"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: 7.0d
 		}
 		{
@@ -916,7 +924,7 @@
 				item: "croptopia:cucumber"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.5d
 			y: 7.0d
 		}
 		{
@@ -928,7 +936,7 @@
 				item: "croptopia:strawberry"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.5d
 			y: 7.0d
 		}
 		{
@@ -940,7 +948,7 @@
 				item: "croptopia:asparagus"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -9.5d
 			y: 7.0d
 		}
 		{
@@ -952,7 +960,7 @@
 				item: "croptopia:celery"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.5d
 			y: 7.0d
 		}
 		{
@@ -967,7 +975,7 @@
 				item: "croptopia:oat"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -11.5d
 			y: 7.0d
 		}
 		{
@@ -982,7 +990,7 @@
 				item: "croptopia:peanut"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -10.5d
 			y: 7.0d
 		}
 		{
@@ -997,7 +1005,7 @@
 				item: "croptopia:tomatillo"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -9.0d
 			y: 8.0d
 		}
 		{
@@ -1009,7 +1017,7 @@
 				item: "croptopia:zucchini"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -10.0d
 			y: 8.0d
 		}
 		{
@@ -1024,7 +1032,7 @@
 				item: "croptopia:raspberry"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 8.0d
 		}
 		{
@@ -1039,7 +1047,7 @@
 				item: "croptopia:blueberry"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -6.0d
 			y: 8.0d
 		}
 		{
@@ -1054,7 +1062,7 @@
 				item: "croptopia:blackberry"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: 8.0d
 		}
 		{
@@ -1066,7 +1074,7 @@
 				item: "croptopia:leek"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -4.0d
 			y: 8.0d
 		}
 		{
@@ -1081,7 +1089,7 @@
 				item: "croptopia:lettuce"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 8.0d
 		}
 		{
@@ -1093,7 +1101,7 @@
 				item: "croptopia:ginger"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -11.0d
 			y: 8.0d
 		}
 		{
@@ -1105,7 +1113,7 @@
 				item: "croptopia:cantaloupe"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -5.0d
 			y: 8.0d
 		}
 		{
@@ -1117,7 +1125,7 @@
 				item: "croptopia:honeydew"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -12.0d
 			y: 8.0d
 		}
 		{
@@ -1132,7 +1140,7 @@
 				item: "croptopia:kiwi"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.5d
 			y: 9.0d
 		}
 		{
@@ -1147,7 +1155,7 @@
 				item: "croptopia:eggplant"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -11.5d
 			y: 9.0d
 		}
 		{
@@ -1162,7 +1170,7 @@
 				item: "croptopia:cauliflower"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.5d
 			y: 9.0d
 		}
 		{
@@ -1177,7 +1185,7 @@
 				item: "croptopia:currant"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -10.5d
 			y: 9.0d
 		}
 		{
@@ -1192,7 +1200,7 @@
 				item: "croptopia:olive"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -9.5d
 			y: 9.0d
 		}
 		{
@@ -1207,7 +1215,7 @@
 				item: "croptopia:broccoli"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.5d
 			y: 9.0d
 		}
 		{
@@ -1222,7 +1230,7 @@
 				item: "croptopia:artichoke"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: 9.0d
 		}
 		{
@@ -1234,7 +1242,7 @@
 				item: "croptopia:rhubarb"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -3.5d
 			y: 9.0d
 		}
 		{
@@ -1249,7 +1257,7 @@
 				item: "croptopia:garlic"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -12.5d
 			y: 9.0d
 		}
 		{
@@ -1264,7 +1272,7 @@
 				item: "croptopia:turmeric"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -13.5d
 			y: 9.0d
 		}
 		{
@@ -1279,7 +1287,7 @@
 				item: "croptopia:grape"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -6.5d
 			y: 9.0d
 		}
 		{
@@ -1291,7 +1299,7 @@
 				item: "croptopia:spinach"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -2.5d
 			y: 9.0d
 		}
 		{
@@ -1303,7 +1311,7 @@
 				item: "croptopia:squash"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -10.0d
 			y: 10.0d
 		}
 		{
@@ -1318,7 +1326,7 @@
 				item: "croptopia:kale"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -6.0d
 			y: 10.0d
 		}
 		{
@@ -1333,7 +1341,7 @@
 				item: "croptopia:elderberry"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 10.0d
 		}
 		{
@@ -1348,7 +1356,7 @@
 				item: "croptopia:hops"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -9.0d
 			y: 10.0d
 		}
 		{
@@ -1363,7 +1371,7 @@
 				item: "croptopia:cranberry"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -7.0d
 			y: 10.0d
 		}
 		{
@@ -1375,7 +1383,7 @@
 				item: "croptopia:vanilla"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -11.0d
 			y: 10.0d
 		}
 		{
@@ -1390,8 +1398,487 @@
 				item: "croptopia:pineapple"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -5.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Crunchy, subtly sweet nuts with a toasty, earthy finish."]
+			id: "1916E46BEB1F2537"
+			tasks: [{
+				id: "41E7B5CAB6A25478"
+				item: "croptopia:almond_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Crisp, juicy fruits that balance light sweetness with a refreshing tang."]
+			id: "6FEC2402791EC0A4"
+			tasks: [{
+				id: "286CAA1CA20EF61B"
+				item: "croptopia:apple_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Soft, slightly fuzzy fruits with a delightfully sweet-tart burst."]
+			id: "3E0ED15B75A185CA"
+			tasks: [{
+				id: "2D28FBBD6FDC2758"
+				item: "croptopia:apricot_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Creamy and buttery with a mild, slightly grassy flavor."]
+			id: "1CDCD52F9FA69B34"
+			tasks: [{
+				id: "666D92F23E3FD131"
+				item: "croptopia:avocado_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Sweet, mellow fruits with a classic tropical aroma."]
+			id: "19014BBBD41BCF0B"
+			tasks: [{
+				id: "3652CEAD8CE31DB7"
+				item: "croptopia:banana_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Soft and nutty, cashews offer a creamy bite with a sweet-savory balance."]
+			id: "030F46DE570F297E"
+			tasks: [{
+				id: "071DFB6DA5BEA7C9"
+				item: "croptopia:cashew_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Cherries burst with juicy intensity; sweet, sometimes sharp, and always bright."]
+			id: "335CBABD76A3BA31"
+			tasks: [{
+				id: "50D8B96E983DCEF3"
+				item: "croptopia:cherry_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Cracking into a coconut reveals cool, sweet water and soft, fragrant meat."]
+			id: "2D7C1F8BC048CFCD"
+			tasks: [{
+				id: "4C30645AFA25BDE8"
+				item: "croptopia:coconut_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Dates are also known as nature's candy: chewy, caramel-rich, and deeply sweet."]
+			id: "682C64F6A2B0291A"
+			tasks: [{
+				id: "0A347B4BF3CEFB84"
+				item: "croptopia:date_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["With neon skin and unique speckled flesh, dragon fruit tastes delicate, lightly sweet, and just a little floral."]
+			id: "28A459B956D547DD"
+			tasks: [{
+				id: "71EB383F97A76AD0"
+				item: "croptopia:dragonfruit_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Figs are jammy and soft with a honey-like flavor."]
+			id: "39EE227C5F58CAAA"
+			tasks: [{
+				id: "0EE58F9514846859"
+				item: "croptopia:fig_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Grapefruit will wake up your palate - juicy, sour, bitter, and bold."]
+			id: "2FD4033DA28F9D21"
+			tasks: [{
+				id: "07C244BAE9783FAE"
+				item: "croptopia:grapefruit_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Kumquats are often eaten whole, with a sharp citrus shock over sweet orange notes."]
+			id: "404DB15C6D49B646"
+			tasks: [{
+				id: "3899B80F69BE83A2"
+				item: "croptopia:kumquat_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Tart and vivid, lemons cut through richness with their clean citrus bite."]
+			id: "1636367444D293D4"
+			tasks: [{
+				id: "3413A89688D0A66B"
+				item: "croptopia:lemon_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Smaller and punchier than lemons, limes have a tight, zesty sting."]
+			id: "6BC76C8A74C25796"
+			tasks: [{
+				id: "5D192C7EE08DF2F9"
+				item: "croptopia:lime_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Mangoes melt in your mouth with tropical sweetness."]
+			id: "629C52541A4D897E"
+			tasks: [{
+				id: "3AE9C78DFA8CC86D"
+				item: "croptopia:mango_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Like a peach in sleek skin, nectarines are sweet, tangy, and satisfyingly juicy."]
+			id: "767A247376C17981"
+			tasks: [{
+				id: "4EF1B72F18768747"
+				item: "croptopia:nectarine_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Ground nutmeg adds a warm, nutty-spicy aroma that’s cozy and festive to any dish."]
+			id: "031FB94A1D6CEC81"
+			tasks: [{
+				id: "3A19797127F26A8E"
+				item: "croptopia:nutmeg_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Oranges are all brightness and juice, sweet with a sunny citrus finish."]
+			id: "6FD2642EB3540BD6"
+			tasks: [{
+				id: "65A7D0C295262FBA"
+				item: "croptopia:orange_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Peaches are the most famous of stone fruit, for good reason."]
+			id: "308A89A2E4901594"
+			tasks: [{
+				id: "5FE23F8AF575E64D"
+				item: "croptopia:peach_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Pears are quietly sweet and crisp; eternally elegant."]
+			id: "750822BC779DC440"
+			tasks: [{
+				id: "1613B1390704C338"
+				item: "croptopia:pear_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Pecans have a great crunch with deep nutty flavor."]
+			id: "0B17ABE850EC89B7"
+			tasks: [{
+				id: "341EF38F25275B6C"
+				item: "croptopia:pecan_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Persimmons are smooth and syrupy, with a mellow flavor that deepens as they ripen."]
+			id: "7B403F791AF06ADC"
+			tasks: [{
+				id: "1711D92C76266C70"
+				item: "croptopia:persimmon_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Plums skirt the line between tart and sweet, finishing with a tangy punch."]
+			id: "4FC4A49972031C19"
+			tasks: [{
+				id: "3DDAD2ADDE518DB4"
+				item: "croptopia:plum_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Star fruit is crisp and juicy, with a tropical edge."]
+			id: "63DDF088215038F0"
+			tasks: [{
+				id: "52A2D9C4C6F8E2C2"
+				item: "croptopia:starfruit_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["Walnuts are hearty and slightly bitter, great for a midday snack."]
+			id: "467750D10318D9E8"
+			tasks: [{
+				id: "36499DF060C70D98"
+				item: "croptopia:walnut_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: ["The bark grinds down to a warm, spicy-sweet powder that instantly deepens any flavor."]
+			id: "794AFD13A349F2A0"
+			tasks: [{
+				id: "4945AB3281C4A79B"
+				item: "croptopia:cinnamon_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["08415BCE11C57437"]
+			description: [
+				"The &6Cooking Table&r is the heart of a multiblock kitchen - allowing you to craft any number of foods with the items stored inside of it. It can also supply you with tools, water, snow/ice, and milk."
+				""
+				"Especially handy when you have a large amount of foods and a limited amount of barinpower."
+			]
+			hide_dependency_lines: true
+			icon: "cookingforblockheads:cooking_table"
+			id: "4D73550447732EA7"
+			tasks: [{
+				id: "68694769196AB56D"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			title: "Cooking for Blockheads"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4D73550447732EA7"
+				"52D07AB4E6B88EA1"
+			]
+			description: ["The &6ME Kitchen Station&r lets you connect your multiblock kitchen to your ME system!"]
+			id: "7BAD63BC0715B64B"
+			rewards: [{
+				id: "3A5DA2A94F737E87"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D5F5E260FB18663"
+				item: "appliedcooking:kitchen_station"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["The &6fridge&r stores items, just like a cabinet."]
+			id: "125C325C7C2A5F96"
+			tasks: [{
+				id: "1FE2FB207B02A2A9"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["A &6sink&r provides unlimited water to recipes."]
+			id: "099EFA6218C75305"
+			tasks: [{
+				id: "4F39577A9F222030"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["The oven lets you cook multiple foods in a single block."]
+			id: "77F39CFBE045ED20"
+			tasks: [{
+				id: "609B40D630E5903D"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: [
+				"A &6Cow in a Jar&r slowly produces milk, which can be used in recipes."
+				""
+				"&7...but how does one get a cow into a jar?"
+			]
+			id: "1401EC6A82EAB753"
+			tasks: [{
+				id: "5D2A98BA2DFB9EC5"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["125C325C7C2A5F96"]
+			description: ["When added to a fridge, the &6ice unit&r provides unlimited ice and snow to recipes."]
+			id: "53AEEB6C2501B3EC"
+			tasks: [{
+				id: "4163E0AB167C93FC"
+				item: "cookingforblockheads:ice_unit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["77F39CFBE045ED20"]
+			description: ["The &6heating unit,&r applied to a stove, lets it run on energy instead of burnable fuel."]
+			id: "148FE15927A8D3D7"
+			tasks: [{
+				id: "7FDBF51991F2AE34"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["The &6tool rack&r provides tools to cooking recipes; pots, pans, and other sorts."]
+			id: "5182E7BBC5921B90"
+			tasks: [{
+				id: "6525DE7190BD2B2A"
+				item: "cookingforblockheads:tool_rack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["The &6Kitchen Cabinet and Counter&r store items for the Cooking Table to use."]
+			icon: "cookingforblockheads:counter"
+			id: "1DF2160AD495F3F4"
+			tasks: [
+				{
+					id: "0505402EC8EFD91E"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "6BCB9CC6B0896385"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+			]
+			title: "Kitchen Storage"
+			x: -3.5d
+			y: -4.5d
 		}
 	]
 	title: "Plants Galore"
