@@ -798,7 +798,7 @@ ServerEvents.recipes(event => {
         ['cinnamon', 'mustard', 'ginger', 'spruce'],
         ['coconut', 'walnut', 'corn', 'jungle'],
         ['date', 'yam', 'blackberry', 'jungle'],
-        ['dragon', 'saguaro', 'strawberry', 'birch'],
+        ['dragonfruit', 'saguaro', 'strawberry', 'birch'],
         ['fig',  'blueberry', 'bellpepper', 'acacia'],
         ['grapefruit', 'grape', 'honeydew', 'acacia'],
         ['kumquat', 'tomatillo', 'greenonion', 'jungle'],
@@ -812,8 +812,8 @@ ServerEvents.recipes(event => {
         ['pear', 'saguaro', 'radish', 'acacia'],
         ['pecan', 'almond', 'onion', 'dark_oak'],
         ['persimmon', 'chile_pepper', 'rutabaga', 'oak'],
-        ['plum', 'yam', 'oats', 'oak'],
-        ['star', 'banana', 'mango', 'jungle'],
+        ['plum', 'yam', 'oat', 'oak'],
+        ['starfruit', 'banana', 'mango', 'jungle'],
         ['walnut', 'rice', 'soybean', 'dark_oak']
     ]
     trees.forEach(entry => {

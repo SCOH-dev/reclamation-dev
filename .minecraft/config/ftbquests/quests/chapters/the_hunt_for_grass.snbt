@@ -5,7 +5,7 @@
 	filename: "the_hunt_for_grass"
 	group: ""
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:dirt"
 	id: "0F8CD7C8C7FD56E6"
 	order_index: 1
@@ -32,7 +32,7 @@
 				""
 				"Some of these seem &6especially magical&r - you wonder if you could use them in any way..."
 				""
-				"&7Tip: you'll probably only want to harvest mandrake at night!"
+				"&7Tip: you'll probably only want to harvest mandrake at night until you get its strength up!"
 			]
 			icon: "minecraft:wheat_seeds"
 			id: "26833208E1F2EB4B"
@@ -411,6 +411,8 @@
 				""
 				"&7Tip 2: to see what conditions a seed needs to grow (including what blocks it can grow on), check the uses of the seed in EMI.&r"
 			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			id: "658C67ABFD247487"
 			tasks: [
 				{
@@ -435,6 +437,8 @@
 				""
 				"&7Note: the flower will only survive in a waterlogged crop. If you successfully crossbreed the Cuprosia but the crop stick it's on is not waterlogged, &4it will wither away into nothing. &7Additionally, it can &4only grow on gravel&7 at strength 1."
 			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			id: "4F0C473B765AA1F8"
 			tasks: [{
 				id: "7A5B23DB3C4AA80E"

@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({id: "embers:copper_ingot_to_nugget"})
     
     //dead wood recipes
     event.shapeless('4x kubejs:scrap_wood', [

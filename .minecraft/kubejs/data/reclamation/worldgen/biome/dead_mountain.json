@@ -113,11 +113,11 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:patch_grass_badlands",
       "reclamation:bonemeal_flowers",
       "reclamation:patch_dead_bush_sparse",
       "reclamation:dead_tree_rare",
-      "reclamation:wasteland_nest"
+      "reclamation:wasteland_nest",
+      "minecraft:patch_grass_badlands"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -7,7 +7,7 @@
   "products": [
     {
       "chance": 0.95,
-      "item": "embers:copper_nugget",
+      "item": "create:copper_nugget",
       "max": 2,
       "min": 1,
       "required": true

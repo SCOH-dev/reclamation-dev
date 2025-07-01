@@ -113,8 +113,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:patch_grass_badlands",
       "reclamation:bonemeal_flowers",
+      "minecraft:patch_grass_badlands",
       "minecraft:patch_dead_bush_2"
     ],
     [

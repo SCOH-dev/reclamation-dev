@@ -32,7 +32,6 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["Bright orange roots that grew deep in the earth, carrots were a favorite among rabbits and a healthy snack, to boot!"]
-			hide_until_deps_complete: true
 			id: "36EF6C1E1C861A4A"
 			tasks: [{
 				id: "474FA99911610CC3"
@@ -48,7 +47,6 @@
 				"1281E40889F822FE"
 			]
 			description: ["Crimson bulbs that added color and flavor to any dish, beetroots were once quite common in village gardens."]
-			hide_until_deps_complete: true
 			id: "08415BCE11C57437"
 			tasks: [{
 				id: "3E0563C1BF0FB284"
@@ -64,7 +62,6 @@
 				"1281E40889F822FE"
 			]
 			description: ["Earthy and humble, potatoes were versatile tubers that thrived in the cool soil of many places."]
-			hide_until_deps_complete: true
 			id: "303D96CD71A877FA"
 			tasks: [{
 				id: "3D5788DD6CEE57CF"

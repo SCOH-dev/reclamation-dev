@@ -116,7 +116,8 @@
       "reclamation:bonemeal_flowers",
       "reclamation:patch_dead_bush_sparse",
       "reclamation:dead_tree_dense",
-      "reclamation:wasteland_nest"
+      "reclamation:wasteland_nest",
+      "minecraft:patch_grass_badlands"
     ],
     [
       "minecraft:freeze_top_layer"
