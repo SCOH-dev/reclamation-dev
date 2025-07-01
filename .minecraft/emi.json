@@ -8,6 +8,20 @@
     }
   ],
   "lookup_history": [
+    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"reclamation:cuprosia\",rec:\"reclamation:cuprosia\"},strength:{dom:1,rec:1}}}",
+    {
+      "type": "item",
+      "id": "agricraft:seed",
+      "nbt": "{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:wheat\",rec:\"minecraft:wheat\"},strength:{dom:1,rec:1}}}",
+      "amount": 2
+    },
+    "item:farmersdelight:organic_compost",
+    {
+      "type": "item",
+      "id": "minecraft:carrot",
+      "amount": 3
+    },
+    "item:farmersdelight:straw",
     "item:farmersdelight:flint_knife{Damage:0}",
     "item:embers:copper_nugget",
     "item:create:copper_nugget",
@@ -17,10 +31,8 @@
       "type": "jemi",
       "uid": "reclamation:cuprosia"
     },
-    "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"reclamation:cuprosia\",rec:\"reclamation:cuprosia\"},strength:{dom:1,rec:1}}}",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:carrot\",rec:\"minecraft:carrot\"},strength:{dom:1,rec:1}}}",
     "item:croptopia:oat",
-    "item:minecraft:carrot",
     "item:enchanted:witch_oven",
     "item:enchanted:mutandis",
     "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:brewing\"}",
@@ -174,7 +186,6 @@
     "item:antiblocksrechiseled:bright_magenta",
     "item:cookingforblockheads:white_kitchen_floor",
     "item:cookingforblockheads:black_kitchen_floor",
-    "item:farmersdelight:straw",
     "item:farmersdelight:canvas",
     "item:minecraft:book",
     "item:cookingforblockheads:recipe_book",
@@ -1071,12 +1082,12 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/ars_nouveau/kjs/mjg5gpz3s74z1vgm963n2nxj",
+      "mysticalagriculture:tertium_block",
       "jei:/create/filling/redstone",
       "jei:/mekanism/kjs/cbbat8ymh7e218oeqoad236ry",
       "jei:/enchanted/witch_cauldron/golden_chalk",
       "minecraft:kjs/enchanted_ritual_chalk",
-      "mysticalagriculture:tertium_block"
+      "jei:/ars_nouveau/kjs/mjg5gpz3s74z1vgm963n2nxj"
     ],
     "tags": {},
     "resolutions": {},
