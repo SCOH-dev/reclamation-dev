@@ -8,6 +8,21 @@
     }
   ],
   "lookup_history": [
+    "item:create:copper_nugget",
+    "item:embers:copper_nugget",
+    "item:minecraft:copper_ingot",
+    "item:minecraft:rotten_flesh",
+    {
+      "type": "fluid",
+      "id": "kubejs:hemoglobic_fluid",
+      "amount": 0
+    },
+    "item:supplementaries:ash",
+    "item:supplementaries:ash_brick",
+    "item:supplementaries:ash_bricks",
+    "item:mysticalagriculture:diamond_scythe{Damage:0}",
+    "item:mysticalagriculture:harvester",
+    "item:botania:drum_wild",
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"reclamation:cuprosia\",rec:\"reclamation:cuprosia\"},strength:{dom:1,rec:1}}}",
     {
       "type": "item",
@@ -23,8 +38,6 @@
     },
     "item:farmersdelight:straw",
     "item:farmersdelight:flint_knife{Damage:0}",
-    "item:embers:copper_nugget",
-    "item:create:copper_nugget",
     "item:minecraft:bone_meal",
     "item:agricraft:wooden_crop_sticks",
     {
@@ -90,11 +103,6 @@
       "amount": 5
     },
     "item:embers:caminite_blend",
-    {
-      "type": "item",
-      "id": "minecraft:copper_ingot",
-      "amount": 13
-    },
     "item:farmersdelight:cutting_board",
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"reclamation:dead_bush\",dominant:1b},\"complicated_bees:humidity\":{data:\"dry\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"shortest\",dominant:1b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:dessicated\",dominant:1b},\"complicated_bees:temperature\":{data:\"hot\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"reclamation:dead_bush\",dominant:1b},\"complicated_bees:humidity\":{data:\"dry\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"shortest\",dominant:1b},\"complicated_bees:productivity\":{data:\"slower\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:dessicated\",dominant:1b},\"complicated_bees:temperature\":{data:\"hot\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"reclamation:dessicated\"}",
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"reclamation:dead_bush\",dominant:1b},\"complicated_bees:humidity\":{data:\"dry\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"shorter\",dominant:1b},\"complicated_bees:productivity\":{data:\"slow\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:dried\",dominant:1b},\"complicated_bees:temperature\":{data:\"hot\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"reclamation:dead_bush\",dominant:1b},\"complicated_bees:humidity\":{data:\"dry\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"shorter\",dominant:1b},\"complicated_bees:productivity\":{data:\"slow\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:dried\",dominant:1b},\"complicated_bees:temperature\":{data:\"hot\",dominant:1b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"reclamation:dried\"}",
@@ -433,7 +441,6 @@
     "item:complicated_bees:honeyed_stick",
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"reclamation:quartz_bud\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"UP_1\"},\"complicated_bees:lifespan\":{data:\"short\",dominant:1b},\"complicated_bees:productivity\":{data:\"slow\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:silicate\",dominant:1b},\"complicated_bees:temperature\":{data:\"warm\",dominant:1b,tolerance:\"UP_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"cathemeral\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"reclamation:quartz_bud\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"UP_1\"},\"complicated_bees:lifespan\":{data:\"short\",dominant:1b},\"complicated_bees:productivity\":{data:\"slow\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:silicate\",dominant:1b},\"complicated_bees:temperature\":{data:\"warm\",dominant:1b,tolerance:\"UP_1\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"reclamation:silicate\"}",
     "item:minecraft:witch_spawn_egg",
-    "item:mysticalagriculture:harvester",
     "item:mysticalagriculture:inferium_ingot",
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:0b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"reclamation:mystical_flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"BOTH_1\"},\"complicated_bees:lifespan\":{data:\"average\",dominant:1b},\"complicated_bees:productivity\":{data:\"fast\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:terra\",dominant:0b},\"complicated_bees:temperature\":{data:\"cold\",dominant:1b,tolerance:\"UP_2\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:1b,dominant:0b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"reclamation:mystical_flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:1b,tolerance:\"BOTH_1\"},\"complicated_bees:lifespan\":{data:\"average\",dominant:1b},\"complicated_bees:productivity\":{data:\"fast\",dominant:1b},\"complicated_bees:species\":{data:\"reclamation:terra\",dominant:0b},\"complicated_bees:temperature\":{data:\"cold\",dominant:1b,tolerance:\"UP_2\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"reclamation:terra\"}",
     "item:mysticalagriculture:tertium_essence",
@@ -1035,6 +1042,7 @@
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"short\",dominant:0b},\"complicated_bees:productivity\":{data:\"slow\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:noble\",dominant:0b},\"complicated_bees:temperature\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"short\",dominant:0b},\"complicated_bees:productivity\":{data:\"slow\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:noble\",dominant:0b},\"complicated_bees:temperature\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:noble\"}"
   ],
   "craft_history": [
+    "exposure:developing_black_and_white_film",
     "farmersdelight:flint_knife",
     "create:crafting/materials/copper_ingot",
     "quark:tweaks/crafting/utility/tools/stone_axe",
@@ -1072,7 +1080,6 @@
     "minecraft:kjs/scrap_wood",
     "farmersdelight:cutting_board",
     "minecraft:crafting_table",
-    "exposure:developing_black_and_white_film",
     "embers:lead_block_to_ingot",
     "mekanism:processing/lead/ingot/from_block",
     "naturesaura:ancient_planks",
@@ -1082,11 +1089,11 @@
   ],
   "recipe_defaults": {
     "added": [
-      "mysticalagriculture:tertium_block",
       "jei:/create/filling/redstone",
+      "minecraft:kjs/enchanted_ritual_chalk",
       "jei:/mekanism/kjs/cbbat8ymh7e218oeqoad236ry",
       "jei:/enchanted/witch_cauldron/golden_chalk",
-      "minecraft:kjs/enchanted_ritual_chalk",
+      "mysticalagriculture:tertium_block",
       "jei:/ars_nouveau/kjs/mjg5gpz3s74z1vgm963n2nxj"
     ],
     "tags": {},
