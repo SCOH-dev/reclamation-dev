@@ -1,0 +1,38 @@
+[0702/161622.505:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0702/163552.910:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 34359738369 [8,1] (main) will be ignored
+[0702/165352.418:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 42949672961 [10,1] (main) will be ignored
+[0702/165436.614:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 47244640257 [11,1] (main) will be ignored
+[0702/165522.803:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 51539607553 [12,1] (main) will be ignored
+[0702/165536.493:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 55834574849 [13,1] (main) will be ignored
+[0702/165626.418:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 60129542145 [14,1] (main) will be ignored
+[0702/165732.018:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 64424509441 [15,1] (main) will be ignored
+[0702/165805.116:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 68719476737 [16,1] (main) will be ignored
+[0702/170020.211:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 73014444033 [17,1] (main) will be ignored
+[0702/170134.126:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 77309411329 [18,1] (main) will be ignored
+[0702/170201.039:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 81604378625 [19,1] (main) will be ignored
+[0702/170411.135:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 85899345921 [20,1] (main) will be ignored
+[0702/170437.201:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 90194313217 [21,1] (main) will be ignored
+[0702/170440.910:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 94489280513 [22,1] (main) will be ignored
+[0702/170501.107:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 98784247809 [23,1] (main) will be ignored
+[0702/170523.639:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 103079215105 [24,1] (main) will be ignored
+[0702/170821.069:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 107374182401 [25,1] (main) will be ignored
+[0702/170828.846:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 111669149697 [26,1] (main) will be ignored
+[0702/170934.666:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 115964116993 [27,1] (main) will be ignored
+[0702/172409.187:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 120259084289 [28,1] (main) will be ignored
+[0702/172412.206:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 124554051585 [29,1] (main) will be ignored
+[0702/172429.963:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 128849018881 [30,1] (main) will be ignored
+[0702/172446.724:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 133143986177 [31,1] (main) will be ignored
+[0702/172446.724:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 133143986177 [31,1] (main) will be ignored
+[0702/172448.649:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 137438953473 [32,1] (main) will be ignored
+[0702/175102.150:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 141733920769 [33,1] (main) will be ignored
+[0702/175146.688:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 146028888065 [34,1] (main) will be ignored
+[0702/175638.065:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 150323855361 [35,1] (main) will be ignored
+[0702/175656.307:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 154618822657 [36,1] (main) will be ignored
+[0702/175843.703:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 158913789953 [37,1] (main) will be ignored
+[0702/175939.780:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0702/180015.214:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0702/180039.512:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0702/180545.155:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 34359738369 [8,1] (main) will be ignored
+[0702/180701.018:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0702/180751.273:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0702/180831.749:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 34359738369 [8,1] (main) will be ignored
