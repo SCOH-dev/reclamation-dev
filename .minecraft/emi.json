@@ -5,9 +5,62 @@
     },
     {
       "stack": "item:enchanted:circle_talisman{circle_magic_shape_map:{\"enchanted:large_circle\":\"enchanted:ritual_chalk\",\"enchanted:medium_circle\":\"enchanted:nether_chalk\",\"enchanted:small_circle\":\"enchanted:nether_chalk\"}}"
+    },
+    {
+      "stack": "item:kubejs:dead_log"
     }
   ],
   "lookup_history": [
+    "item:bloodmagic:demoncrystallizer",
+    "item:bloodmagic:dungeon_metal",
+    "item:botania:diluted_pool",
+    {
+      "type": "fluid",
+      "id": "embers:molten_dawnstone",
+      "amount": 0
+    },
+    "item:embers:beam_splitter",
+    "item:enchanted:candelabra",
+    "item:enchanted:mutandis_extremis",
+    "item:enchanted:ember_moss",
+    "item:mysticalagriculture:inferium_sickle{Damage:0}",
+    "item:mysticalagriculture:prudentium_sickle{Damage:0}",
+    "item:botania:grass_seeds",
+    "item:enchanted:mutandis",
+    {
+      "type": "item",
+      "id": "minecraft:cut_copper",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "kubejs:scrap_wood",
+      "amount": 46
+    },
+    "item:minecraft:wheat_seeds",
+    "item:botania:horn_grass",
+    "item:minecraft:oak_stairs",
+    "item:minecraft:stone_brick_stairs",
+    "item:minecraft:spruce_slab",
+    "item:minecraft:stone_slab",
+    "item:minecraft:polished_andesite_slab",
+    "item:minecraft:birch_slab",
+    "item:mcwpaths:deepslate_diamond_paving",
+    "item:mcwpaths:cobbled_deepslate_running_bond_slab",
+    "item:mcwpaths:gravel_path_block",
+    "item:mcwpaths:sand_path_block",
+    "item:mcwpaths:dirt_path_block",
+    "item:minecraft:oak_sign",
+    "item:minecraft:dirt_path",
+    "item:bloodmagic:obsidianbrickpath",
+    "item:bloodmagic:obsidiantilepath",
+    "item:bloodmagic:stonetilepath",
+    "item:rechiseled:stone_path_connecting",
+    "item:bloodmagic:woodbrickpath",
+    "item:bloodmagic:woodtilepath",
+    "item:minecraft:white_carpet",
+    "item:minecraft:oak_planks",
+    "item:mcwpaths:andesite_strewn_rocky_path",
     "item:create:copper_nugget",
     "item:embers:copper_nugget",
     "item:minecraft:copper_ingot",
@@ -47,7 +100,6 @@
     "item:agricraft:seed{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:\"minecraft:carrot\",rec:\"minecraft:carrot\"},strength:{dom:1,rec:1}}}",
     "item:croptopia:oat",
     "item:enchanted:witch_oven",
-    "item:enchanted:mutandis",
     "item:patchouli:guide_book{\"patchouli:book\":\"enchanted:brewing\"}",
     {
       "type": "item",
@@ -85,11 +137,6 @@
       "id": "croptopia:crab",
       "amount": 2
     },
-    {
-      "type": "item",
-      "id": "kubejs:scrap_wood",
-      "amount": 64
-    },
     "item:theurgy:distiller",
     "item:theurgy:alchemical_salt_strata",
     "item:theurgy:liquefaction_cauldron",
@@ -113,11 +160,6 @@
     "item:complicated_bees:exp_drop",
     "item:create:creative_blaze_cake",
     "item:create:blaze_cake",
-    {
-      "type": "fluid",
-      "id": "embers:molten_dawnstone",
-      "amount": 0
-    },
     "item:create:sturdy_sheet",
     "#item:create:sleepers",
     "item:create:track",
@@ -300,7 +342,6 @@
     "item:embers:wildfire_core",
     "item:ars_elemental:anima_essence",
     "item:reclamation_util:attuned_biome_bottle",
-    "item:enchanted:mutandis_extremis",
     "item:croptopia:almond",
     "item:reclamation_util:sculk_awakener",
     "item:botania:dragonstone",
@@ -1042,6 +1083,11 @@
     "item:complicated_bees:queen{analyzed:1b,chromosome_a:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"short\",dominant:0b},\"complicated_bees:productivity\":{data:\"slow\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:noble\",dominant:0b},\"complicated_bees:temperature\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},chromosome_b:{\"complicated_bees:active_time\":{data:\"diurnal\",dominant:1b},\"complicated_bees:cave_dwelling\":{data:0b,dominant:1b},\"complicated_bees:effect\":{data:\"INVALID\",dominant:1b},\"complicated_bees:fertility\":{data:2,dominant:1b},\"complicated_bees:flower\":{data:\"complicated_bees:flower\",dominant:1b},\"complicated_bees:humidity\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:lifespan\":{data:\"short\",dominant:0b},\"complicated_bees:productivity\":{data:\"slow\",dominant:0b},\"complicated_bees:species\":{data:\"complicated_bees:noble\",dominant:0b},\"complicated_bees:temperature\":{data:\"normal\",dominant:0b,tolerance:\"NONE\"},\"complicated_bees:territory\":{data:[I;4,2],dominant:1b},\"complicated_bees:weatherproof\":{data:0b,dominant:1b}},species:\"complicated_bees:noble\"}"
   ],
   "craft_history": [
+    "minecraft:copper_ingot",
+    "farmersdelight:cutting_board",
+    "minecraft:kjs/flimsy_planks",
+    "minecraft:kjs/scrap_wood",
+    "minecraft:crafting_table",
     "exposure:developing_black_and_white_film",
     "farmersdelight:flint_knife",
     "create:crafting/materials/copper_ingot",
@@ -1062,7 +1108,6 @@
     "theurgy:crafting/shaped/incubator_mercury_vessel",
     "minecraft:kjs/theurgy_incubator",
     "minecraft:fishing_rod",
-    "minecraft:kjs/flimsy_planks",
     "minecraft:kjs/chest",
     "quark:tweaks/crafting/utility/tools/stone_sword",
     "quark:building/crafting/furnaces/cobblestone_furnace",
@@ -1077,9 +1122,6 @@
     "quark:tweaks/crafting/utility/tools/stone_pickaxe",
     "minecraft:wooden_pickaxe",
     "minecraft:wooden_axe",
-    "minecraft:kjs/scrap_wood",
-    "farmersdelight:cutting_board",
-    "minecraft:crafting_table",
     "embers:lead_block_to_ingot",
     "mekanism:processing/lead/ingot/from_block",
     "naturesaura:ancient_planks",
@@ -1089,11 +1131,11 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/create/filling/redstone",
-      "minecraft:kjs/enchanted_ritual_chalk",
-      "jei:/mekanism/kjs/cbbat8ymh7e218oeqoad236ry",
       "jei:/enchanted/witch_cauldron/golden_chalk",
+      "minecraft:kjs/enchanted_ritual_chalk",
       "mysticalagriculture:tertium_block",
+      "jei:/mekanism/kjs/cbbat8ymh7e218oeqoad236ry",
+      "jei:/create/filling/redstone",
       "jei:/ars_nouveau/kjs/mjg5gpz3s74z1vgm963n2nxj"
     ],
     "tags": {},

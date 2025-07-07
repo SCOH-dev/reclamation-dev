@@ -617,6 +617,35 @@
 			x: 2.0d
 			y: -4.5d
 		}
+		{
+			dependencies: ["4075C13786AF4C49"]
+			description: [
+				"This pack contains &6Via Romana&r, a sign-based fast travel system. In order to fast travel using signs, you must first &6build a path and traverse it&r before you can teleport across it. "
+				""
+				"&6Shift-left-click&r on a sign at the start of your path, then &6shift-left-click&r on a sign at the end of your path. Once you start pathing from one sign to the other, you need to follow a player-made path. If you deviate, you'll &cstop&r building the fast travel route and have to backtrack."
+				""
+				"Once linked, just punch the sign and you'll fast travel!"
+				""
+				"&7Tip: to see what blocks count as path blocks, search &2#via_romana:path_blocks&7 in your recipe viewer."
+			]
+			icon: "supplementaries:sign_post_oak"
+			id: "38D0317E85210C44"
+			tasks: [{
+				id: "51B8EE71AA705541"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "via_romana:warp_sign"
+					}
+				}
+				title: "Any Warpable Sign"
+				type: "item"
+			}]
+			title: "Signpost Travel"
+			x: -1.5d
+			y: -6.75d
+		}
 	]
 	title: "A Whiff of Normal"
 }

@@ -36,3 +36,48 @@
 [0702/180701.018:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
 [0702/180751.273:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
 [0702/180831.749:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 34359738369 [8,1] (main) will be ignored
+[0702/232236.664:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0702/232456.425:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0703/161130.706:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/161151.226:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0703/164007.122:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/164706.685:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/165004.672:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0703/165839.017:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/165928.550:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0703/203451.628:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/203949.166:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/204145.422:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/205036.003:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0703/205144.738:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0703/205706.333:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/205724.027:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0703/210015.614:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0703/210049.900:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0706/201810.433:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0706/203951.258:ERROR:angle_platform_impl.cc(44)] Renderer11.cpp:2262 (testDeviceLost): The D3D11 device was removed, HRESULT: 0x887A0006
+[0706/203951.258:ERROR:shared_context_state.cc(905)] SharedContextState context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[0706/203951.259:ERROR:gpu_service_impl.cc(1054)] Exiting GPU process because some drivers can't recover from errors. GPU process will restart shortly.
+[0706/203951.402:ERROR:gpu_process_host.cc(956)] GPU process exited unexpectedly: exit_code=34
+[0706/203951.402:WARNING:gpu_process_host.cc(1326)] The GPU process has crashed 1 time(s)
+[0706/203951.535:WARNING:gpu_process_host.cc(979)] Reinitialized the GPU process after a crash. The reported initialization time was 106 ms
+[0706/203951.538:INFO:CONSOLE(101)] "[FANCYMENU VIDEO] Video error: Video decoding failed (3)", source: file:///C:/Users/harris/AppData/Roaming/PrismLauncher/instances/reclamation-dev/.minecraft/fancymenu_data/fancymenu_temp/web/videoplayer/player.html?volume=1.0&fillScreen=false&loop=false&autoPlay=false (101)
+[0706/203951.538:INFO:CONSOLE(101)] "[FANCYMENU VIDEO] Source: file:///C:/Users/harris/AppData/Roaming/PrismLauncher/instances/reclamation-dev/.minecraft/config/fancymenu/assets/title_bg.mp4", source: file:///C:/Users/harris/AppData/Roaming/PrismLauncher/instances/reclamation-dev/.minecraft/fancymenu_data/fancymenu_temp/web/videoplayer/player.html?volume=1.0&fillScreen=false&loop=false&autoPlay=false (101)
+[0706/203951.586:ERROR:shared_image_manager.cc(217)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[0706/203951.586:ERROR:shared_image_manager.cc(217)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[0706/234828.726:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0706/235825.399:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0707/000337.045:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/000943.986:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0707/001012.882:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 38654705665 [9,1] (main) will be ignored
+[0707/002112.978:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 42949672961 [10,1] (main) will be ignored
+[0707/002439.688:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 47244640257 [11,1] (main) will be ignored
+[0707/002753.749:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 51539607553 [12,1] (main) will be ignored
+[0707/010621.579:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/010716.710:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0707/011234.563:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0707/012644.431:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 38654705665 [9,1] (main) will be ignored
+[0707/014034.286:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/115156.704:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/115236.591:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0707/130008.090:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
