@@ -1787,7 +1787,7 @@
 		}
 		{
 			dependencies: ["56E75D57C3C9487C"]
-			description: ["Essence infused watering cans can water a much larger area much faster."]
+			description: ["Essence infused watering cans can water a larger area faster."]
 			id: "67F1DFD4A17BF030"
 			tasks: [{
 				id: "5D743E2BFF4E58CB"

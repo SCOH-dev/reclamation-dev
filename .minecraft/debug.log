@@ -81,3 +81,27 @@
 [0707/115156.704:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
 [0707/115236.591:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
 [0707/130008.090:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0707/155703.646:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/155818.675:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0707/155818.675:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0707/160725.816:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/160759.508:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0707/162522.638:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/170112.664:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/170402.246:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0707/225929.014:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/230134.455:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0707/230146.827:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0708/025114.142:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0708/025521.654:ERROR:network_service_instance_impl.cc(625)] Network service crashed, restarting service.
+[0708/025613.819:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0708/032914.033:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 25769803777 [6,1] (main) will be ignored
+[0708/033230.823:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 38654705665 [9,1] (main) will be ignored
+[0708/095254.242:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0708/095718.062:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0708/100359.803:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0708/111352.322:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0708/111423.677:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
+[0708/113104.306:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0708/114017.667:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0708/114029.849:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored

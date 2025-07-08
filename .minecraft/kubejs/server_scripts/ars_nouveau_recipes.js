@@ -1,61 +1,25 @@
 ServerEvents.recipes(event => {
     //archwood conversions
-    event.custom({
-        "type": "botania:mana_infusion",
-        "catalyst": {
-            "type": "block",
-            "block": "botania:alchemy_catalyst"
-        },
-        "input": {
-            "item": "ars_nouveau:red_archwood_sapling"
-        },
-        "mana": 50,
-        "output": {
-            "item": "ars_nouveau:green_archwood_sapling"
-        }
-    })
-    event.custom({
-        "type": "botania:mana_infusion",
-        "catalyst": {
-            "type": "block",
-            "block": "botania:alchemy_catalyst"
-        },
-        "input": {
-            "item": "ars_nouveau:green_archwood_sapling"
-        },
-        "mana": 50,
-        "output": {
-            "item": "ars_nouveau:blue_archwood_sapling"
-        }
-    })
-    event.custom({
-        "type": "botania:mana_infusion",
-        "catalyst": {
-            "type": "block",
-            "block": "botania:alchemy_catalyst"
-        },
-        "input": {
-            "item": "ars_nouveau:blue_archwood_sapling"
-        },
-        "mana": 50,
-        "output": {
-            "item": "ars_nouveau:purple_archwood_sapling"
-        }
-    })
-    event.custom({
-        "type": "botania:mana_infusion",
-        "catalyst": {
-            "type": "block",
-            "block": "botania:alchemy_catalyst"
-        },
-        "input": {
-            "item": "ars_nouveau:purple_archwood_sapling"
-        },
-        "mana": 50,
-        "output": {
-            "item": "ars_nouveau:red_archwood_sapling"
-        }
-    })
+    function botania_convert(input, output) {
+        event.custom({
+            "type": "botania:mana_infusion",
+            "catalyst": {
+                "type": "block",
+                "block": "botania:alchemy_catalyst"
+            },
+            "input": {
+                "item": input
+            },
+            "mana": 50,
+            "output": {
+                "item": output
+            }
+        })
+    }
+    botania_convert("ars_nouveau:red_archwood_sapling", "ars_nouveau:green_archwood_sapling")
+    botania_convert("ars_nouveau:green_archwood_sapling", "ars_nouveau:blue_archwood_sapling")
+    botania_convert("ars_nouveau:blue_archwood_sapling", "ars_nouveau:purple_archwood_sapling")
+    botania_convert("ars_nouveau:purple_archwood_sapling", "ars_nouveau:red_archwood_sapling")
 
     event.remove({ id: 'ars_elemental:imbuement_anima_essence'})
     event.custom({
@@ -127,4 +91,10 @@ ServerEvents.recipes(event => {
         'ars_nouveau:source_gem'
     ])
     event.replaceInput({id: 'ars_nouveau:wilden_summon_alt'}, 'minecraft:emerald_block', 'bloodmagic:infusedslate')
+
+    botania_convert("minecraft:apple", "ars_nouveau:bombegranate_pod")
+    botania_convert("ars_nouveau:bombegranate_pod", "ars_nouveau:mendosteen_pod")
+    botania_convert("ars_nouveau:mendosteen_pod", "ars_nouveau:bastion_pod")
+    botania_convert("ars_nouveau:bastion_pod", "ars_nouveau:frostaya_pod")
+    botania_convert("ars_nouveau:frostaya_pod", "ars_nouveau:bombegranate_pod")
 })

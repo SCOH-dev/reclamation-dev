@@ -730,4 +730,380 @@ ServerEvents.recipes(event => {
             "item": "create:blaze_cake"
         }
     })
+
+    event.shapeless('mekanism:creative_chemical_tank', [
+        'mekanism:creative_chemical_tank'
+    ])
+
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "acceptMirrored": false,
+        "key": {
+            "C": {
+                "item": "create:creative_blaze_cake"
+            },
+            "P": {
+                "item": "bloodmagic:dungeon_metal"
+            },
+            "S": {
+                "item": "mekanism:pellet_antimatter"
+            },
+            "W": {
+                "item": "create:large_cogwheel"
+            }
+        },
+        "pattern": [
+            " WWWWW ",
+            "WWCCCWW",
+            "WCCPCCW",
+            "WCPSPCW",
+            "WCPSPCW",
+            "WCPSPCW",
+            "WCCPCCW",
+            "WWCCCWW",
+            " WWWWW "
+        ],
+        "result": {
+            "count": 1,
+            "item": "create:creative_motor"
+        }
+    })
+
+    event.custom({
+        "type": "embers:alchemy",
+        "aspects": [
+            {
+                "tag": "embers:aspectus/lead"
+            },
+            {
+                "tag": "embers:aspectus/dawnstone"
+            },
+            {
+                "tag": "embers:aspectus/copper"
+            },
+            {
+                "tag": "embers:aspectus/iron"
+            },
+            {
+                "tag": "embers:aspectus/silver"
+            }
+        ],
+        "inputs": [
+            {
+                "item": "embers:shifting_scales"
+            },
+            {
+                "item": "embers:winding_gears"
+            },
+            {
+                "item": "embers:nonbeliever_amulet"
+            },
+            {
+                "item": "embers:explosion_charm"
+            },
+            {
+                "item": "embers:inflictor_gem"
+            },
+            {
+                "item": "embers:eldritch_insignia"
+            }
+        ],
+        "output": {
+            "item": "embers:creative_ember_source"
+        },
+        "tablet": {
+            "item": "create:creative_blaze_cake"
+        }
+    })
+
+    event.custom({
+        "type": "ars_nouveau:enchanting_apparatus",
+        "keepNbtOfReagent": false,
+        "output": {
+            "item": "ars_nouveau:creative_source_jar"
+        },
+        "pedestalItems": [
+            {
+                "item": "ars_elemental:mark_of_mastery"
+            },
+            {
+                "item": "create:creative_blaze_cake"
+            },
+            {
+                "item": "ars_nouveau:bookwyrm_charm"
+            },
+            {
+                "item": "ars_nouveau:starbuncle_charm"
+            },
+            {
+                "item": "ars_nouveau:whirlisprig_charm"
+            },
+            {
+                "item": "ars_nouveau:drygmy_charm"
+            },
+            {
+                "item": "ars_nouveau:wixie_charm"
+            },
+            {
+                "item": "ars_nouveau:amethyst_golem_charm"
+            },
+            {
+                "item": "ars_elemental:siren_charm"
+            }
+        ],
+        "reagent": [
+            {
+                "item": "embers:creative_ember_source"
+            }
+        ],
+        "sourceCost": 10000
+    })
+
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "acceptMirrored": false,
+        "key": {
+            "S": {
+                "item": "create:fluid_pipe"
+            },
+            "M": {
+                "item": "create:creative_motor"
+            },
+            "T": {
+                "item": "create:copper_casing"
+            },
+            "A": {
+                "item": "mekanism:pellet_antimatter"
+            },
+            "C": {
+                "item": "create:creative_blaze_cake"
+            },
+            "P": {
+                "item": "create:hose_pulley"
+            }
+        },
+        "pattern": [
+            "TTTTTTT ",
+            "TCCCMPT ",
+            "TCCCTST ",
+            "TTTTTST ",
+            "   TTSTT",
+            "   TAAAT",
+            "   TAAAT",
+            "   TAAAT",
+            "   TTTTT"
+        ],
+        "result": {
+            "count": 1,
+            "item": "create:creative_fluid_tank"
+        }
+    })
+
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "acceptMirrored": false,
+        "key": {
+            "S": {
+                "item": "mekanism:sps_casing"
+            },
+            "F": {
+                "item": "create:creative_fluid_tank"
+            },
+            "D": {
+                "item": "mekanism:qio_drive_supermassive"
+            },
+            "F": {
+                "item": "create:creative_fluid_tank"
+            },
+            "U": {
+                "item": "mekanism:ultimate_chemical_tank"
+            },
+            "R": {
+                "item": "mekanismgenerators:fusion_reactor_frame"
+            }
+        },
+        "pattern": [
+            "  SSS  ",
+            " SDDDS ",
+            "SRUUURS",
+            "SRUFURS",
+            "SRUFURS",
+            "SRUFURS",
+            "SRUUURS",
+            "SRRRRRS",
+            " SSSSS "
+        ],
+        "result": {
+            "count": 1,
+            "item": "mekanism:creative_chemical_tank"
+        }
+    })
+
+    event.custom({
+        "type": "botania:runic_altar",
+        "ingredients": [
+            {
+                "item": "botania:laputa_shard"
+            },
+            {
+                "item": "botania:gaia_ingot"
+            },
+            {
+                "item": "ars_nouveau:creative_source_jar"
+            },
+            {
+                "item": "ars_nouveau:creative_source_jar"
+            },
+            {
+                "item": "botania:rune_mana"
+            },
+            {
+                "item": "botania:manasteel_ingot"
+            },
+            {
+                "item": "botania:mana_pearl"
+            },
+            {
+                "item": "botania:mana_diamond"
+            },
+            {
+                "item": "botania:mana_string"
+            },
+            {
+                "item": "botania:manaweave_cloth"
+            },
+            {
+                "item": "botania:mana_powder"
+            },
+            {
+                "item": "botania:quartz_mana"
+            },
+            {
+                "item": "botania:mana_glass"
+            },
+            {
+                "item": "botania:mana_pylon"
+            }
+        ],
+        "mana": 10000000,
+        "output": {
+            "item": "botania:creative_pool"
+        }
+    })
+
+    event.shaped('storagedrawers:creative_storage_upgrade', [
+        'BAE',
+        'CAF',
+        'DAG'
+    ], {
+        A: 'advanced_ae:quantum_storage_256',
+        B: 'botania:creative_pool',
+        C: 'ars_nouveau:creative_source_jar',
+        D: 'embers:creative_ember_source',
+        E: 'mekanism:creative_chemical_tank',
+        F: 'create:creative_fluid_tank',
+        G: 'create:creative_motor'
+    })
+
+    event.custom({
+        "type": "advanced_ae:reaction",
+        "energy": 31415927,
+        "fluid": {
+            "fluidStack": {
+                "Amount": 16000,
+                "FluidName": "embers:dwarven_gas"
+            }
+        },
+        "input_items": [
+            {
+                "amount": 16,
+                "ingredient": {
+                    "item": "minecraft:echo_shard"
+                }
+            },
+            {
+                "amount": 4,
+                "ingredient": {
+                    "item": "minecraft:scute"
+                }
+            },
+            {
+                "amount": 1,
+                "ingredient": {
+                    "item": "minecraft:totem_of_undying"
+                }
+            },
+            {
+                "amount": 64,
+                "ingredient": {
+                    "item": "ae2:dense_energy_cell"
+                }
+            },
+            {
+                "amount": 16,
+                "ingredient": {
+                    "item": "advanced_ae:quantum_alloy_plate"
+                }
+            },
+            {
+                "amount": 2,
+                "ingredient": {
+                    "item": "botania:creative_pool"
+                }
+            }
+        ],
+        "output": {
+            "#": 1,
+            "#c": "ae2:i",
+            "id": "ae2:creative_energy_cell"
+        }
+    })
+
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "acceptMirrored": false,
+        "key": {
+            "C": {
+                "item": "storagedrawers:creative_storage_upgrade"
+            },
+            "A": {
+                "item": "mekanism:qio_drive_supermassive"
+            },
+            "S": {
+                "item": "mysticalagriculture:awakened_supremium_gemstone_block"
+            },
+            "R": {
+                "item": "complicated_bees:royal_jelly"
+            },
+            "L": {
+                "item": "complicated_bees:pollen"
+            },
+            "W": {
+                "item": "mysticalagriculture:wither_skeleton_essence"
+            },
+            "P": {
+                "item": "mekanism:pellet_antimatter"
+            }
+        },
+        "pattern": [
+            "WLLRRRLLW",
+            "LPPPPPPPL",
+            "LPSSSSSPL",
+            "RPSSASSPR",
+            "RPSACASPR",
+            "RPSSASSPR",
+            "LPSSSSSPL",
+            "LPPPPPPPL",
+            "WLLRRRLLW"
+        ],
+        "result": {
+            "count": 2,
+            "item": "storagedrawers:creative_vending_upgrade"
+        }
+    })
+
+    event.shapeless('ae2:creative_item_cell', [
+        'ae2:item_cell_housing',
+        'storagedrawers:creative_vending_upgrade'
+    ])
 })

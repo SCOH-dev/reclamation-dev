@@ -16,9 +16,15 @@
 				"You wake up in a vast, dead and dried out wasteland. You don't remember how you got here, but you do remember what the world &oshould&r look like - and this isn't it."
 				""
 				""
-				"Welcome to Reclamation! This is a slower-paced pack focused around bringing life and nature back to a dead world."
+				"Welcome to &6Reclamation!&r This is a slower-paced pack focused around bringing life and nature back to a dead world."
 			]
 			id: "73F3DDAFC46A9CD5"
+			rewards: [{
+				count: 4
+				id: "489A829843674F52"
+				item: "minecraft:bread"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5837682A2F4F2D20"
 				title: "What happened here?"
@@ -31,6 +37,19 @@
 			dependencies: ["3BF5FDE3C81BEF26"]
 			description: ["Wood is plentiful, if not exactly the quality you remember."]
 			id: "655DCA5A5B6632E1"
+			rewards: [
+				{
+					count: 4
+					id: "708F75B55045F412"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "58872CC82834DE08"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "2BB40E8DED9ACE61"
@@ -55,6 +74,19 @@
 				"You might be able to craft something to help you out with that copper, but first you'll have to &6get it into a useable state...&r"
 			]
 			id: "353FED2BF4FBD8EC"
+			rewards: [
+				{
+					count: 2
+					id: "40674CB0CE87E6FE"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "27F410B6A92272C2"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6870844EA8AA42B5"
 				item: "minecraft:oxidized_cut_copper"
@@ -73,20 +105,30 @@
 			]
 			icon: "minecraft:crafting_table"
 			id: "7051A7B9EF38B5D8"
+			rewards: [{
+				id: "7E395EC7B7AAC8EF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7659D788975AE236"
 				title: "What's changed?"
 				type: "checkmark"
 			}]
 			title: "How do I craft things?"
-			x: 0.0d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
-			description: ["&l&o&cNO ORE GENERATES IN THE WORLD.&r Those who came before you have completely mined out the entire planet - after centuries of strip mining, quarrying, and general exploitation, there is not so much as a measly scrap of coal in the world, so there's no point trying to find any type of ore by mining."]
+			description: ["&l&o&cNO ORE GENERATES IN THE WORLD. RECIPES HAVE CHANGED.&r Those who came before you have completely mined out the entire planet - after centuries of strip mining, quarrying, and general exploitation, there is not so much as a measly scrap of coal in the world, so there's no point trying to find any type of ore by mining."]
 			icon: "minecraft:iron_ore"
 			id: "3BF5FDE3C81BEF26"
+			rewards: [{
+				id: "406F3BEC271BD4D1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0A321F50741A2841"
 				title: "Deprived..."
@@ -110,17 +152,24 @@
 			]
 			icon: "minecraft:copper_ingot"
 			id: "6B5B443D2F7DD3D4"
-			rewards: [{
-				id: "05887BA1C04CEB57"
-				item: {
-					Count: 1
-					id: "modonomicon:modonomicon"
-					tag: {
-						"modonomicon:book_id": "theurgy:the_hermetica"
+			rewards: [
+				{
+					id: "05887BA1C04CEB57"
+					item: {
+						Count: 1
+						id: "modonomicon:modonomicon"
+						tag: {
+							"modonomicon:book_id": "theurgy:the_hermetica"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "301F9B4D74B4FDB6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "53D2A5C292D19EA6"
@@ -148,6 +197,19 @@
 			]
 			icon: "theurgy:sal_ammoniac_accumulator"
 			id: "01AB2D65C171F1F9"
+			rewards: [
+				{
+					count: 2
+					id: "1707BE009DD21399"
+					item: "theurgy:sal_ammoniac_crystal"
+					type: "item"
+				}
+				{
+					id: "050D56A65378BDED"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "010F0A2184BB7F36"
@@ -174,6 +236,19 @@
 			]
 			icon: "theurgy:distiller"
 			id: "238F26409930D47F"
+			rewards: [
+				{
+					count: 4
+					id: "1C9649B1FBAFE963"
+					item: "theurgy:mercury_shard"
+					type: "item"
+				}
+				{
+					id: "7E77D5260B9D9B67"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "784A3AAA14565F31"
@@ -206,6 +281,19 @@
 			]
 			icon: "theurgy:calcination_oven"
 			id: "21DA86D51EB7D88E"
+			rewards: [
+				{
+					count: 4
+					id: "64E04DAB7C0582A3"
+					item: "theurgy:alchemical_salt_strata"
+					type: "item"
+				}
+				{
+					id: "4F5B75F7869280C1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "53EB0C300D28F531"
@@ -238,6 +326,19 @@
 			]
 			icon: "theurgy:liquefaction_cauldron"
 			id: "3B57039627535552"
+			rewards: [
+				{
+					count: 4
+					id: "5570AFD8D267B0AE"
+					item: "kubejs:sulfur_dirt"
+					type: "item"
+				}
+				{
+					id: "5AF363DFDC9E8079"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "38FD38D7D8B5BFFB"
@@ -272,6 +373,11 @@
 			]
 			icon: "theurgy:incubator"
 			id: "1F466C810237B69A"
+			rewards: [{
+				id: "53F568DF45DF8F1D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "5CCE88CCD5B42265"
@@ -311,6 +417,11 @@
 				"...now you just need something to grow on it."
 			]
 			id: "448ABF53EEACBFA7"
+			rewards: [{
+				id: "5AFDB05E13E248FB"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -325,6 +436,11 @@
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: ["Despite the seeming apocalypse, there are still fish to find (and eat) for those with the skill and desire."]
 			id: "26C8365A4497F614"
+			rewards: [{
+				id: "2B66407F091498BB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "082F4231A9683AF5"
 				item: {
@@ -349,6 +465,11 @@
 			]
 			icon: "minecraft:white_bed"
 			id: "49182F60BE2634DE"
+			rewards: [{
+				id: "27DD3FCBE266BAC7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "16FB0BB05454D6A2"
@@ -389,13 +510,18 @@
 			]
 			icon: "supplementaries:globe"
 			id: "40200E30710D409D"
+			rewards: [{
+				id: "2FFB14B0877E9B48"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7CE871AB4BA6259E"
 				title: "Changed worldgen?"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
@@ -408,13 +534,65 @@
 				}
 			}
 			id: "412275C7F800C343"
+			rewards: [{
+				id: "696B08484059A34C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "726093097AD50EDB"
 				title: "Rare Drops?"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"There are quite a few books in the pack! Thankfully, the &6Akashic Tome&r is here to help. Crafting any book with this will combine it, letting you keep every guidebook in a single item. Simply craft it with another guidebook!"
+				""
+				"To untransform the tome, punch the air with it."
+				""
+				"To remove a stored book, transform the tome into the book, then sneak and press your 'drop' key."
+			]
+			icon: "akashictome:tome"
+			id: "524541472CB8168A"
+			rewards: [{
+				id: "63F8E36BB78B3F0F"
+				item: "akashictome:tome"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30591A81E9C85ED9"
+				title: "Too Many Books!?"
+				type: "checkmark"
+			}]
+			title: "Too Many Books!?"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"A lot of the pack consists of passive processes you'll probably want to keep running while you do other things. You can claim chunks to &6force-load &rthem using your map; ensuring they'll stay loaded even while you're not nearby. "
+				""
+				"Just open your map (default M) and &6right-click drag&r over the area you'd like to claim. Right-click drag again to force claim!"
+				""
+				"If you're playing with friends, &6make sure you're on the same team&r so that you can all access things inside your claim and share quest progress."
+				""
+				"For more information on the claims system, check out the &6Open Parties and Claims&r wiki or keybinds."
+			]
+			icon: "naturesaura:pet_reviver"
+			id: "52B10FEB2951E939"
+			tasks: [{
+				id: "2E3AF11BD22C15B4"
+				title: "Playing with Friends?"
+				type: "checkmark"
+			}]
+			title: "Chunkloading and Friends?"
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["A vast wasteland"]

@@ -561,7 +561,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["4075C13786AF4C49"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: [
 				"You can make podzol for planting flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert grass under it into podzol."
 				""
@@ -592,10 +592,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"303D96CD71A877FA"
-				"68536E0D3B5694E7"
-			]
+			dependencies: ["303D96CD71A877FA"]
 			description: ["Onion's delicious smell once filled the air as it gave flavor to meals."]
 			hide_dependency_lines: true
 			id: "539A68C71D4CCBE9"

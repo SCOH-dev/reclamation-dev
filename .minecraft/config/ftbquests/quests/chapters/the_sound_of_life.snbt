@@ -17,6 +17,11 @@
 			hide_until_deps_complete: true
 			icon: "heads:chicken_head"
 			id: "7540F4407477DCAF"
+			rewards: [{
+				id: "237C35ECF9E73216"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				disable_toast: true
@@ -37,6 +42,19 @@
 			]
 			icon: "naturesaura:animal_spawner"
 			id: "4985B07F3FA59210"
+			rewards: [
+				{
+					count: 4
+					id: "357E0029B5AAE0A9"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "673CE7EF96FE145E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "378D137178E97CA0"
@@ -62,17 +80,30 @@
 			]
 			icon: "bloodmagic:altar"
 			id: "3A8632BAEA799385"
-			rewards: [{
-				id: "49B0F3E7D9AA87A4"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "bloodmagic:guide"
+			rewards: [
+				{
+					id: "49B0F3E7D9AA87A4"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "3D51F200661693AA"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+				{
+					id: "045614053E35385D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "2322AC4E4EDB3B43"
@@ -98,6 +129,19 @@
 			]
 			icon: "bloodmagic:blankslate"
 			id: "377BF30FBED5AA32"
+			rewards: [
+				{
+					count: 4
+					id: "772B008CD55DC875"
+					item: "bloodmagic:blankslate"
+					type: "item"
+				}
+				{
+					id: "633D0601D201B979"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "2FEA1AFEAC08E4B2"
@@ -130,6 +174,11 @@
 			]
 			icon: "bloodmagic:soulforge"
 			id: "74EFFC6EDDE055CC"
+			rewards: [{
+				id: "0F6E03525CC884EB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4A3C365B974B4686"
@@ -154,6 +203,11 @@
 			dependencies: ["377BF30FBED5AA32"]
 			icon: "bloodmagic:weakbloodorb"
 			id: "7BDAAB04F6FD0786"
+			rewards: [{
+				id: "1C156820BE10709E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7D25CF3CC20E3F95"
 				item: {
@@ -193,6 +247,11 @@
 		{
 			dependencies: ["7BDAAB04F6FD0786"]
 			id: "6E3C1D562EF8899E"
+			rewards: [{
+				id: "6F107000611C0596"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "221D12F2D212528C"
 				item: "bloodmagic:alchemytable"
@@ -216,6 +275,11 @@
 				}
 			}
 			id: "72F1440343A758D8"
+			rewards: [{
+				id: "62EC211F97E38A13"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "0E2A07C6AECA444F"
@@ -241,6 +305,11 @@
 			dependencies: ["74EFFC6EDDE055CC"]
 			description: ["The &6Sentient Sword&r is a much easier way for you to acquire will - instead of having to throw soul snares at enemies, the sword has the &6inherent ability to sever souls&r from their fleshy (or bony) prisons."]
 			id: "068189D12DAB75B0"
+			rewards: [{
+				id: "788F429367C66336"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0D1EC37A7692E55D"
 				item: {
@@ -264,6 +333,19 @@
 			]
 			icon: "bloodmagic:reinforcedslate"
 			id: "7CF9CB3E4AC5A7DA"
+			rewards: [
+				{
+					count: 2
+					id: "64D7B37C6F263BF0"
+					item: "bloodmagic:reinforcedslate"
+					type: "item"
+				}
+				{
+					id: "251120CC558323CC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "3E7417224DA9B862"
@@ -296,6 +378,19 @@
 			]
 			icon: "bloodmagic:infusedslate"
 			id: "574FE16E5404A3D0"
+			rewards: [
+				{
+					count: 2
+					id: "6B080D23778CD8FC"
+					item: "bloodmagic:infusedslate"
+					type: "item"
+				}
+				{
+					id: "381E1AAE54092F12"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "37B254916A987B8E"
@@ -323,6 +418,11 @@
 			dependencies: ["574FE16E5404A3D0"]
 			description: ["The &6Alchemical Reaction Chamber&r is capable of a great many things, but one of the most important is its ability to produce gems - &6diamond, lapis, and amethyst.&r"]
 			id: "5E16957A5151E858"
+			rewards: [{
+				id: "2FC4589CD2AE8447"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1A32582B9A5D1ED4"
 				item: "bloodmagic:alchemicalreactionchamber"
@@ -342,6 +442,11 @@
 			]
 			id: "703F201AB6A704B3"
 			optional: true
+			rewards: [{
+				id: "65AA5759754350C5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7FB8C827063802D3"
 				item: "botania:blood_pendant"
@@ -358,6 +463,11 @@
 				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert more materials into that gem's sulfur without having to go through the whole blood transmutation again!"
 			]
 			id: "22F15EC1DF24B1D8"
+			rewards: [{
+				id: "021801B296B134CB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "5032798879F66104"
@@ -394,6 +504,11 @@
 				"&7Tip 2: the instructions for this ritual can be found in your Reclamation Rituals book."
 			]
 			id: "518B46E423840A2F"
+			rewards: [{
+				id: "326F7FB78BE3A4F7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "670314D8B1392691"
 				item: "minecraft:budding_amethyst"
@@ -412,6 +527,11 @@
 				"&7Tip: you can convert between the four types of sapling using a mana pool!&r"
 			]
 			id: "1CCEDC1F9F219179"
+			rewards: [{
+				id: "39D0850FDC4BC2AC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "784CD9014C36443E"
 				item: "ars_nouveau:red_archwood_sapling"
@@ -430,6 +550,11 @@
 			]
 			icon: "ars_nouveau:source_gem"
 			id: "1A59682F5B56E020"
+			rewards: [{
+				id: "64CCDF2FE431AE08"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "62F22B91C38D1A19"
@@ -451,6 +576,19 @@
 			description: ["By offering an &6Imbued Slate&r to the gods, you can convert mundane iron into the dense ingot of &6Osmium.&r This metal is crucial to advanced mechanical applications."]
 			icon: "mekanism:ingot_osmium"
 			id: "2746DDF7130D3BB4"
+			rewards: [
+				{
+					count: 4
+					id: "06D1AAE7AAF05A86"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					id: "4407ACE13E141EAD"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7EA7CF9D39C7751F"
 				item: "mekanism:ingot_osmium"
@@ -469,6 +607,19 @@
 			]
 			icon: "mekanism:ingot_steel"
 			id: "0CF33532629C1427"
+			rewards: [
+				{
+					count: 4
+					id: "4E5E6BA177BD3802"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+				{
+					id: "466545FC11617D95"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "3ED79C8FFF4F92C5"
@@ -493,6 +644,11 @@
 				"Almost quadrupling raw ore into ingots, turning plants into energy, or even fusion reactors all start with the humble steel casing."
 			]
 			id: "7A2BEC31266C6A7E"
+			rewards: [{
+				id: "159412D5B1C84275"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "582C7FEBC5653F6B"
 				item: "mekanism:steel_casing"
@@ -506,6 +662,11 @@
 			dependencies: ["7A2BEC31266C6A7E"]
 			description: ["The &6Enrichment Chamber&r can slightly boost the outputs of raw ores, clean blocks, and refine reagents for the &6Metallurgic Infuser,&r creating enriched versions of items that are &68 times more efficient!&r"]
 			id: "382B7C05BB6427BB"
+			rewards: [{
+				id: "418B00529CFA055E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6946036A7CBAC3DA"
 				item: "mekanism:enrichment_chamber"
@@ -522,6 +683,11 @@
 				"&7You can also use a heat generator, but it's VERY inefficient and (probably) not even worth making!&r"
 			]
 			id: "0E7EBE370DB920D8"
+			rewards: [{
+				id: "35B5368759D5201D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4E377E82C636102C"
 				item: "botania:mana_fluxfield"
@@ -541,6 +707,19 @@
 			]
 			icon: "botania:terrasteel_ingot"
 			id: "2F6FB6D4819EF061"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33CFD43D0DB6A9ED"
+					table_id: 1430735789179352246L
+					type: "choice"
+				}
+				{
+					id: "372B45BE929CEF67"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "20ACC9409D3E06DE"
@@ -568,6 +747,11 @@
 			description: ["Steel allows you to make better pipes of all kinds, able to transport items, fluids, RF, chemicals, and even heat. These have a number of &6advantages over caminite-based alternatives,&r mainly their lack of reliance on redstone and their upgradeability."]
 			icon: "mekanism:basic_universal_cable"
 			id: "740CD4B0ED662B60"
+			rewards: [{
+				id: "2A3FEABE2B698F92"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1475EE94A011CB5D"
 				item: {
@@ -609,6 +793,11 @@
 			dependencies: ["7A2BEC31266C6A7E"]
 			description: ["The &6Rotary Condensentrator&r allows you to convert liquids to gases, and vice versa. This is useful for storage purposes, but it also allows you to aerate Life Essence!"]
 			id: "46391DDDC731B2AC"
+			rewards: [{
+				id: "76D8B9E4A2E39ABE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "56D016880B4F7E0A"
 				item: "mekanism:rotary_condensentrator"
@@ -625,6 +814,11 @@
 				"&6Aerated Essence &ris relatively easy to produce, and can be burned to produce a solid amount of RF. It's macabre, but it works!"
 			]
 			id: "65850E753E7200DC"
+			rewards: [{
+				id: "26E1201BE7376631"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "557B2A704D82C0E4"
 				item: "mekanismgenerators:gas_burning_generator"
@@ -645,6 +839,11 @@
 			]
 			icon: "mekanism:ethene_bucket"
 			id: "6EAAB9DF6917C3AC"
+			rewards: [{
+				id: "0613B63736BECD09"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "784C1FB9EF14A6F2"
 				item: "mekanism:substrate"
@@ -659,6 +858,11 @@
 			description: ["Ethylene can be further mixed with Aerated Essence to produce Blooded Ethylene, a much more energy-dense gas that can burn for longer in the &6Gas-Burning Generator.&r"]
 			icon: "bloodmagic:life_essence_bucket"
 			id: "0B4BD82BD1422A1A"
+			rewards: [{
+				id: "7B04313E2CB7FFF3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2BF3BFDB49C45513"
 				type: "checkmark"
@@ -671,6 +875,11 @@
 			dependencies: ["7A2BEC31266C6A7E"]
 			description: ["The &6Crusher&r is great for turning things into smaller, powdery versions of themselves. It's also great at turning plants into &6Bio Fuel!&r"]
 			id: "2FD8F1325D206079"
+			rewards: [{
+				id: "12528884CF2B0441"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6F86831D988E5067"
 				item: "mekanism:crusher"
@@ -684,6 +893,11 @@
 			description: ["&6Bio Fuel&r can be turned directly into energy in the &6Bio-Generator,&r or further refined into ethylene for burning in the &6Gas-Burning Generator.&r"]
 			icon: "mekanism:bio_fuel"
 			id: "64D9A5568A5D41FD"
+			rewards: [{
+				id: "2EFE27CEB03D9EEA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2A212BB4860A6A9C"
@@ -711,6 +925,11 @@
 				"&7Tip: gas upgrades can be placed into some machines to make them more efficient in their use of chemicals!"
 			]
 			id: "1FFEB5A89F1ACBEC"
+			rewards: [{
+				id: "3628F01A7CE6CE11"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7BB90ADA3D1A4A27"
 				item: "mekanism:purification_chamber"
@@ -730,6 +949,11 @@
 			]
 			icon: "mekanism:chemical_dissolution_chamber"
 			id: "0E50AD0D33F05A97"
+			rewards: [{
+				id: "1C9E6BD4569B5C68"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "1DEF0E6B5E2EA645"
@@ -756,6 +980,11 @@
 			]
 			icon: "mekanism:chemical_washer"
 			id: "3B5E9C85AC4A0165"
+			rewards: [{
+				id: "028F869BA70AD5EC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "7EA89E9827E49CA2"
@@ -788,6 +1017,11 @@
 			]
 			icon: "bloodmagic:ritualdiviner"
 			id: "572D14ABB8B0DEB9"
+			rewards: [{
+				id: "1131E0D528CC4C71"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "427CDE4DC86850F7"
@@ -820,6 +1054,11 @@
 			]
 			icon: "bloodmagic:weakbloodshard"
 			id: "4CF55F7AA2943D89"
+			rewards: [{
+				id: "7069B29833E2D1AB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "68F1364D1040EB47"
@@ -850,6 +1089,11 @@
 			]
 			icon: "bloodmagic:demonslate"
 			id: "45BC42953D194C94"
+			rewards: [{
+				id: "5D38AB03FC3BDEB9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4720477C3CBF71DA"
@@ -887,6 +1131,11 @@
 				"Once performed, you will be presented with a gate to the Demon Realm proper - a sprawling labyrinth of rooms which contain strong enemies, plentiful loot, and the curious ore known as &6Demonite.&r"
 			]
 			id: "334A0BB9548947EF"
+			rewards: [{
+				id: "607BAD64DAC4FCFE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "723C24DEE217AB71"
 				item: "bloodmagic:ritualdivinerdusk"
@@ -904,6 +1153,11 @@
 				"You also remember that there was a &6special key&r for &6spatial distortions&r that led you to the mines, which held much more valuable loot..."
 			]
 			id: "171B65208F0D13E8"
+			rewards: [{
+				id: "5AC8DA5FA134C6F7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "467B3D50C2357A42"
 				item: "bloodmagic:rawdemonite"
@@ -920,6 +1174,11 @@
 				"Alongside netherite scraps and some &6looted parts&r from the Demon Realm, these slates can be used to upgrade altar runes, making them &6twice as powerful.&r"
 			]
 			id: "0B69076CC61D0246"
+			rewards: [{
+				id: "320A61458BB04F1C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2D0FB64D86DA4D44"
 				item: "bloodmagic:etherealslate"
@@ -939,6 +1198,11 @@
 				"&7Tip: if you can supply mobs to the well constantly (or give them a source of regenerating health), you could fully automate life essence collection..."
 			]
 			id: "1FC8CD63A4443B63"
+			rewards: [{
+				id: "3B5D6D98F5DC7D86"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6E2EBA9485E13F0B"
 				item: "bloodmagic:ritualtinkerer"
@@ -956,6 +1220,11 @@
 				"For more information on this structure, take a look at your &6Sanguine Scientiem.&r"
 			]
 			id: "1C61DAD67EC27EA5"
+			rewards: [{
+				id: "6787F1685DB5735A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5A2F41572FB4E93A"
 				item: "bloodmagic:incensealtar"
@@ -977,6 +1246,11 @@
 			]
 			icon: "bloodmagic:defaultcrystal"
 			id: "026A3590EE976DB0"
+			rewards: [{
+				id: "17148E927CA42A25"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "253DDEE2437F5A1A"
@@ -1009,6 +1283,11 @@
 				"&7Tip: it's possible to fully automate the growing, splitting, and harvesting of crystals using rituals!"
 			]
 			id: "357CA59CD9EFA012"
+			rewards: [{
+				id: "464960C7C3270280"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "3D2E4EDD1162BC19"
@@ -1039,6 +1318,11 @@
 			dependencies: ["2F6FB6D4819EF061"]
 			description: ["With access to Terrasteel, you can make the third tier of botanic runes: &6Sin Runes.&r These can be used to make better baubles, more powerful flowers, and more!"]
 			id: "7B4F1EAF6F7A4A1D"
+			rewards: [{
+				id: "2ABDB4E91089E2B3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5369B7D08EBAF52A"
 				item: {
@@ -1089,10 +1373,15 @@
 			description: [
 				"With Terrasteel, you can utilize an old ritual to open a &6gateway to Alfheim,&r which you're certain has escaped whatever happened to this world. The portal won't be able to transport living beings, but maybe you can trade for some &6useful materials?&r"
 				""
-				"&7Tip: For more information on the portal, read your Lexica Botania! Further than that, throw your entire Lexica Botania into the portal!"
+				"&7Tip: For more information on the portal, read your Lexica Botania! For even more than that, throw your entire Lexica Botania into the portal! (but make sure you don't throw your Akashic Tome away!)"
 			]
 			icon: "botania:natura_pylon"
 			id: "3E0289A3420971D8"
+			rewards: [{
+				id: "23791502552BD34B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -1115,6 +1404,19 @@
 			description: ["The &6Elven Mana Spreader&r is much more efficient than it's livingwood predecessor - it shoots larger bursts faster and farther."]
 			id: "46E7F06B96AE7AC9"
 			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "7E371201031882C3"
+					item: "botania:dreamwood"
+					type: "item"
+				}
+				{
+					id: "12BFDEB9D7517741"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1B796C53B345E787"
 				item: "botania:elven_spreader"
@@ -1135,6 +1437,11 @@
 				"As far as you're concerned, this is more proof that you can solve any problem if you throw enough raw mana at something."
 			]
 			id: "039EE9BB48F29DB2"
+			rewards: [{
+				id: "3C3A804BDA0F9DAA"
+				type: "xp"
+				xp: 100
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "34A484CFD9300B55"
@@ -1150,6 +1457,11 @@
 			description: ["The &6Scribe's Table&r allows you to create new glyphs for spellbooks. As far as spellbooks go, you have a couple options - use either pure arcane mana or life essence to fuel your spells."]
 			icon: "ars_nouveau:scribes_table"
 			id: "2FAAD3AB3B105FB5"
+			rewards: [{
+				id: "30EE5B3A4809D53A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "641FFAC13A3B6F7F"
@@ -1182,6 +1494,11 @@
 			]
 			icon: "ars_nouveau:source_jar"
 			id: "797F89EC438BD230"
+			rewards: [{
+				id: "27954266BA7187F1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "3F3CF3827894432E"
@@ -1231,6 +1548,11 @@
 			description: ["One of the primary uses of liquid source is the enchanting of items. Using the &6Arcane Core&r and an &6Enchanting Apparatus&r atop it, you can create many useful things."]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "1F95463AFBB55B18"
+			rewards: [{
+				id: "3990247EC663D055"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "1FC5DE50A5149319"
@@ -1261,6 +1583,11 @@
 			]
 			icon: "ars_nouveau:amethyst_golem_charm"
 			id: "3D210245881F46D7"
+			rewards: [{
+				id: "155E9DDD132A749F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4681AAF428733A6B"
@@ -1287,6 +1614,11 @@
 			description: ["With the acquisition of specially-charged elven materials, you can create an &6even stronger mana-generating base;&r cake, wool, and even other mana flowers can all be mulched into yet more mana."]
 			id: "5750E61C2B1E8D5E"
 			optional: true
+			rewards: [{
+				id: "1A9CFA442A825AA4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "175DA0F3E23B1A9C"
 				item: {
@@ -1336,6 +1668,11 @@
 				"Prove your strength, and you'll be rewarded with &6Gaia Spirits.&r"
 			]
 			id: "7EE279615E00797C"
+			rewards: [{
+				id: "65FF5350EF32641E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 4L
 				id: "46CDCF3AACBF85C4"
@@ -1349,6 +1686,19 @@
 			dependencies: ["1A59682F5B56E020"]
 			description: ["Using the &6Enchanting Apparatus&r and some special reagents, you can make elemental essences that have a wide variety of uses, from crafting to spellweaving."]
 			id: "0F60E7D69F6FA06E"
+			rewards: [
+				{
+					count: 4
+					id: "2AC324821918B938"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "28EBE18B9177606E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5B9793284890447B"
 				item: {
@@ -1404,6 +1754,11 @@
 			]
 			description: ["Fragments of the mysterious &6Guardian of Gaia&r, these spirits have enormous potential..."]
 			id: "0721C000948329FF"
+			rewards: [{
+				id: "3AF6B521407E4D45"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "51D63243515AEAB7"
 				item: "botania:life_essence"
@@ -1416,6 +1771,11 @@
 			dependencies: ["1A59682F5B56E020"]
 			description: ["There are quite a few elemental &6rituals&r that could come in handy for you - defending your base, automatically pick items up, and even allowing you to fly!"]
 			id: "0E7BC6F2785D6CD4"
+			rewards: [{
+				id: "05C8B992B92B2723"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "18324C87EF47313D"
 				item: "ars_nouveau:ritual_brazier"
@@ -1436,6 +1796,18 @@
 			]
 			icon: "ars_nouveau:storage_lectern"
 			id: "792DA50F1C60B35D"
+			rewards: [
+				{
+					id: "19850D74FE2A105D"
+					item: "ars_nouveau:bookwyrm_charm"
+					type: "item"
+				}
+				{
+					id: "319FC98DA2AE9171"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "72FF396E69CA8357"
@@ -1468,6 +1840,11 @@
 				"Tier installers give the machine more processing slots - from 1 item at a time to &69 in some machines!&r"
 			]
 			id: "4A5E73C5F6D316DE"
+			rewards: [{
+				id: "0077F085A6A2F139"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "0515588225B47EC0"
@@ -1528,6 +1905,11 @@
 			]
 			icon: "minecraft:nether_star"
 			id: "6B0DF94DF9004625"
+			rewards: [{
+				id: "5CA3008BF523209E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "454762A1A44C17B6"
@@ -1552,6 +1934,11 @@
 				"No more fiddling around with potions or distilling to make your redstone and glowstone!"
 			]
 			id: "2CC12CE948BCDF7A"
+			rewards: [{
+				id: "088A7018CDDAC6A6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6DE1672848EE5822"
 				item: "botania:conjuration_catalyst"
@@ -1569,6 +1956,11 @@
 			]
 			icon: "ars_nouveau:wilden_tribute"
 			id: "3660075C34865DCB"
+			rewards: [{
+				id: "724D3E3D9C0AD8E5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "557B6D621EA69A1C"
@@ -1590,6 +1982,11 @@
 			description: ["With the power of a &6Charger&r and an &6enriched diamond,&r you can create a &6special kind of quartz...&r"]
 			icon: "ae2:charged_certus_quartz_crystal"
 			id: "09809D52A27FDC84"
+			rewards: [{
+				id: "5C24F8E6550488AC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4200E6A3B4CC4927"
@@ -1616,6 +2013,11 @@
 				"&7Tip: you can also use Theurgy to convert other materials into certus quartz - amethyst is a good candidate!"
 			]
 			id: "4B21D583F11D94F4"
+			rewards: [{
+				id: "22C9F952FBF7BF88"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6240BAA8E7D232EC"
 				item: "ae2:flawed_budding_quartz"
@@ -1629,6 +2031,11 @@
 			dependencies: ["4B21D583F11D94F4"]
 			description: ["By combining redstone and nether quartz with charged certus quartz, you can make &6Fluix Crystals,&r capable of turning matter into digitalized information."]
 			id: "3DC3BEC51801CB96"
+			rewards: [{
+				id: "6C1FBE410509FD12"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "060D3C3A47ED0D6E"
 				item: "ae2:fluix_crystal"
@@ -1648,6 +2055,11 @@
 			]
 			icon: "ae2:mysterious_cube"
 			id: "64F989736017F6CD"
+			rewards: [{
+				id: "0D9B45293BABC90F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "303F573F6C388FE3"
 				item: {
@@ -1687,6 +2099,11 @@
 			]
 			description: ["The &6ME Controller&r is the brains of the &6Material Energy&r system - one of the most powerful logistics solutions available to you."]
 			id: "52D07AB4E6B88EA1"
+			rewards: [{
+				id: "760AD4D438CC174D"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "41E4110B55B6F086"
@@ -1700,6 +2117,11 @@
 			dependencies: ["64F989736017F6CD"]
 			description: ["The &6Inscriber&r is used to turn raw materials into actual circuits useable in the &6Matter Energy&r system."]
 			id: "4C34B249425FA0CC"
+			rewards: [{
+				id: "095EED5E764CF249"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3757FCA22789B2B3"
 				item: "ae2:inscriber"
@@ -1720,6 +2142,11 @@
 				"Look into the &6Ritual of Reclamation&r in your Reclamation Rituals book to start reclaiming the world."
 			]
 			id: "76531B6ECFD001DB"
+			rewards: [{
+				id: "47FD6A5B71B7F9C8"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -1740,6 +2167,11 @@
 				"&7Tip: this auto fishing can be sped up; read your Worn Notebook for more details."
 			]
 			id: "040B7ABBA79E3C34"
+			rewards: [{
+				id: "214D54AFF39E6854"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7F3799E27FA7EE1C"
@@ -1757,6 +2189,11 @@
 				"&7Tip: read your Worn Notebook for more!"
 			]
 			id: "5A3D771B1235C40B"
+			rewards: [{
+				id: "1E68783EEF2FB7A8"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "27A44281ECD3FA7D"
@@ -1770,6 +2207,11 @@
 			dependencies: ["1F95463AFBB55B18"]
 			description: ["Summon a &6Drygmy&r at the Altar of Birthing. Give it a wilden horn to get a token, then craft it into a token. This tame Drygmy will &6produce experience and drops of mobs nearby,&r without killing them!"]
 			id: "7A517B0D3ADC17FE"
+			rewards: [{
+				id: "062A83ACF679BECE"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "05640A0617017CFD"
@@ -1787,6 +2229,11 @@
 				"&7Tip: Wixies are very helpful when using an Alchemical Sourcelink! For more info, read your Worn Notebook."
 			]
 			id: "0132766885AF4DEE"
+			rewards: [{
+				id: "338EE9355544F19D"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7E43DA10DAAC3708"
@@ -1804,6 +2251,11 @@
 				"&7Tip: they can be told to only pick up or drop off certain items - read your Worn Notebook for more information!"
 			]
 			id: "11D64B22EDF1E1B1"
+			rewards: [{
+				id: "7974EE6AF190E194"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "647E7C88AFBF97C4"
@@ -1822,6 +2274,11 @@
 			description: ["&6Magebloom&r is a flower whose fibers can be spun into a very conductive magical cloth."]
 			icon: "ars_nouveau:magebloom_fiber"
 			id: "731A34BCDD3C048A"
+			rewards: [{
+				id: "389192D35C738192"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "0C5AB81AE249CF20"
@@ -1846,6 +2303,11 @@
 				"&7Tip: both types of scrolls can be turned into permanent portals by building a frame out of Sourcestone, placing a full source jar nearby, and tossing the scroll into it."
 			]
 			id: "33BF18E246E08E10"
+			rewards: [{
+				id: "32D2A652146F54A0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "38F8E3CA34F6F605"
@@ -1868,6 +2330,208 @@
 			]
 			x: -8.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: [
+				"The &6Fission Reactor&r is a large multiblock that takes fissile fuel and water and outputs enormous amounts of steam. This steam can be pumped into another large multiblock (the industrial turbine) to produce absolutely outrageous amounts of power. "
+				""
+				"Equally as importantly, it produces nuclear waste."
+				""
+				"For more information on how to build this structure, refer to the mekanism wiki."
+				""
+				"&4Warning: if you mess up running your reactor, it WILL melt down and explode/irradiate the surrounding area. Make it small or make it far away from your base if you're not confident."
+			]
+			icon: "mekanismgenerators:fission_reactor_port"
+			id: "71FA16CB8987A05D"
+			rewards: [{
+				id: "5B2AE9869AAA9EE8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2DF292275CD3CCFC"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "76480EC05452AB1E"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "266403294F18EF4D"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "29B07AE095F0E2E2"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+			]
+			title: "Fission Reactor"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71FA16CB8987A05D"]
+			description: ["&6Plutonium&r is one possible product from processing nuclear waste - it can be reprocessed into more fissile fuel or crafted into Supercritical Phase Shifter casings."]
+			id: "56AC940F596CE59A"
+			rewards: [{
+				id: "58B147DCAF1D6CF0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18E9E03DEF135CA1"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71FA16CB8987A05D"]
+			description: ["&6Radioactive Waste Barrels&r are one of the only things that can hold nuclear waste; when filled, they slowly dispose of their contents."]
+			id: "03C92960F6FB7196"
+			rewards: [{
+				id: "1BFF2A332C901550"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A0EDB71F31D706A"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "Waste Disposal"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71FA16CB8987A05D"]
+			description: [
+				"&6Polonium&r is a possible product from processing nuclear waste. "
+				""
+				"Not only can it make a variety of very helpful equipment and the &6QIO system,&r it can also be used to craft Supercritical Phase Shifter (SPS) casings, necessary for producing &6antimatter.&r"
+			]
+			id: "36DAD7B096C37537"
+			rewards: [{
+				id: "2805514AABAB62B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2780BDCCE836453A"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"36DAD7B096C37537"
+				"56AC940F596CE59A"
+			]
+			description: [
+				"Making antimatter requires the creation of a Supercritical Phase Shifter, yet another multiblock."
+				""
+				"Its casings require a large amount of both polonium and plutonium, meaning you'll need a large amount of nuclear waste processing."
+				""
+				"To run, it will also need an incredibly large amount of power - this is where you'd want to use an &6Industrial Turbine&r hooked up to either a fission or a fusion reactor."
+				""
+				"&7Tip: this isn't necessary to make unless you REALLY like late-game Mekanism or you want to make creative items!"
+			]
+			id: "4E3BA0B8C44593F4"
+			optional: true
+			rewards: [{
+				id: "34D6138E40158F6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E7784949421D703"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["36DAD7B096C37537"]
+			description: [
+				"The &6QIO System&r is a digital storage solution that does not need power and can store a very large amount of items."
+				""
+				"It has &6unlimited cross-dimensional range&r and can import and export automatically. However, it cannot easily auto-craft things for you."
+			]
+			icon: "mekanism:qio_drive_array"
+			id: "46677EA7419E25B2"
+			rewards: [{
+				id: "51DBE6C4BB51CE79"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "296827863056EA3B"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "62B241075E69CEF3"
+					item: "mekanism:qio_drive_base"
+					type: "item"
+				}
+				{
+					id: "33DB20AB06CF711C"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+			]
+			title: "QIO System"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36DAD7B096C37537"]
+			description: [
+				"The Fusion Reactor is a much more powerful version of its fission counterpart. It can produce millions of RF/t using deuterium, tritium, or D-T fuel."
+				""
+				"To learn more about this reactor, check the Mekanism wiki."
+				""
+				"&7Tip: this isn't necessary to make unless you're doing something outrageous with power or want to make creative items!"
+			]
+			icon: "mekanismgenerators:fusion_reactor_frame"
+			id: "40FD6A4803092F64"
+			optional: true
+			rewards: [{
+				id: "4928CB0F616DE3E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6502C2B9561E81FA"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "72A3214853D53362"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "665AC8FD54EEA60B"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+			]
+			title: "Fusion Reactor"
+			x: 10.0d
+			y: 1.5d
 		}
 	]
 	title: "Sounds of Life"

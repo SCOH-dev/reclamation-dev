@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": "minecraft:stick",
+      "Count": 1
+    }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:ritual_chalk"
+  },
+  "power": 0,
+  "factory": {
+    "type": "enchanted:create_item",
+    "items": [
+      {
+        "id": "mekanism:creative_energy_cube",
+        "Count": 1,
+        "tag": {
+          "mekData": {
+            "EnergyContainers": [
+              {
+                "Container": false,
+                "stored":"18446744073709551615.9999"
+              }
+            ],
+            "componentConfig": {
+              "config0": {
+                "side0": 4,
+                "side1": 4,
+                "side2": 4,
+                "side3": 4,
+                "side4": 4,
+                "side5": 4
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

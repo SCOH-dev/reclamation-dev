@@ -41,6 +41,11 @@ ServerEvents.recipes(event => {
             "item": "mysticalagriculture:prudentium_essence"
         }
     })
+
+    event.replaceInput({id: 'mysticalagriculture:prosperity_ingot'},
+        'minecraft:iron_ingot',
+        'naturesaura:infused_iron')
+
     event.custom({
         "type": "botania:runic_altar",
         "ingredients": [

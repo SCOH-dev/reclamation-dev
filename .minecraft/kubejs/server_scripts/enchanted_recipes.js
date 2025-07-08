@@ -272,6 +272,19 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.remove({id: 'enchanted:fume_funnel'})
+    event.shaped('enchanted:fume_funnel', [
+        'BAB',
+        'BMB',
+        'DSD'
+    ], {
+        A: 'minecraft:lava_bucket',
+        B: 'embers:caminite_plate',
+        S: 'minecraft:iron_bars',
+        D: 'minecraft:copper_block',
+        M: 'minecraft:iron_block'
+    })
+
     //redstone
     event.custom({
         "type": "enchanted:distilling",

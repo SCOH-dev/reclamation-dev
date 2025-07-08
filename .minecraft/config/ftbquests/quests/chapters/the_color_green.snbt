@@ -17,6 +17,11 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:grass_block"
 			id: "226F9F21A941389C"
+			rewards: [{
+				id: "170C4090678FECEA"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "65DF7FECE306BB89"
@@ -58,6 +63,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5F12A309349BC28F"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				count: 6L
@@ -84,6 +94,11 @@
 					item: "botania:lexicon"
 					type: "item"
 				}
+				{
+					id: "48006DB12ACD550E"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				id: "04DF51069030E5BD"
@@ -95,9 +110,18 @@
 		}
 		{
 			dependencies: ["624E015B09427542"]
-			description: [""]
+			description: [
+				"The &6Pure Daisy&r can, as its name implies, purify nearby objects. The most important things you should start with are &6logs and stone,&r but there are a few other things you can purify as well!"
+				""
+				"&7Tip: check the usages of the Pure Daisy to see what else it can transform."
+			]
 			icon: "botania:pure_daisy"
 			id: "2737F0AE3D1835D4"
+			rewards: [{
+				id: "7DF6B03915980576"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "5FDA8F0AB90A9B3A"
@@ -138,6 +162,11 @@
 					item: "embers:tinker_hammer"
 					type: "item"
 				}
+				{
+					id: "40E922A50B43176F"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				id: "509473B71F9A83D4"
@@ -156,6 +185,11 @@
 			]
 			icon: "embers:ember_bore"
 			id: "6DC359D0F8736415"
+			rewards: [{
+				id: "131DE50BA2E02262"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2BB9D62248783D75"
@@ -180,6 +214,11 @@
 			description: ["The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"]
 			icon: "minecraft:gold_ingot"
 			id: "7010ED9A666FF89E"
+			rewards: [{
+				id: "289410D79C125A6E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "7E10DE645C029C5C"
@@ -201,6 +240,11 @@
 			description: ["The &6Pure Daisy&r is able to turn mundane stone and logs into much more naturally-aligned versions of themselves."]
 			icon: "botania:livingwood_log"
 			id: "6ED1017877CB7568"
+			rewards: [{
+				id: "758CE2B88B878005"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "48E60FEBE83ECFE3"
@@ -229,6 +273,11 @@
 			]
 			icon: "minecraft:netherrack"
 			id: "27C68B6622F186D7"
+			rewards: [{
+				id: "5CD4DB3CD4BEA433"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
@@ -270,6 +319,11 @@
 			]
 			icon: "naturesaura:nature_altar"
 			id: "5274A282D9182B7C"
+			rewards: [{
+				id: "5F51643B0B917615"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4BD721A26C88ED2C"
@@ -323,6 +377,11 @@
 			dependencies: ["5274A282D9182B7C"]
 			description: ["Infusing iron in the Natural Altar creates, funnily enough, &6Infused Iron Ingots.&r These have a wide variety of uses, but chief among them are some very nice tools and armor, with &6special abilities&r and the unique property of being &6repairable using Aura.&r"]
 			id: "01C2598A1D9CF754"
+			rewards: [{
+				id: "18E87B858A66A8FD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "070CA9418C5F199F"
 				item: "naturesaura:infused_iron"
@@ -334,8 +393,17 @@
 		}
 		{
 			dependencies: ["61329AF67AD28062"]
-			description: ["Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."]
+			description: [
+				"Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."
+				""
+				"&7Tip: very small amounts of Create are needed to finish the pack, but you won't have to get too deep into it!"
+			]
 			id: "153CB8257AEDA4ED"
+			rewards: [{
+				id: "1FDC0C329743808A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0C28FD3F5C919A74"
 				item: "create:andesite_alloy"
@@ -352,6 +420,11 @@
 				"&6Ancient Saplings&r are the most basic way to do this; once grown, if the area's aura is low enough, the tree's leaves will &4slowly wither away,&r &6producing aura in the process.&r"
 			]
 			id: "58C55BE2ECDC9FD5"
+			rewards: [{
+				id: "0274CAE89C92B7CF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "72965D594F07ECDB"
 				item: "naturesaura:ancient_sapling"
@@ -368,6 +441,11 @@
 			]
 			description: ["An excess of aura generates flowers - and this device can turn &6flowers into an excess of aura!&r Make sure you feed it a &6balanced diet of different flowers,&r though; too much of the same flower and it starts to give you &4diminishing returns.&r"]
 			id: "6628083C19C5F8CB"
+			rewards: [{
+				id: "477677B503ADE1DB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4F2645681873AE53"
 				item: "naturesaura:flower_generator"
@@ -384,6 +462,11 @@
 			description: ["Mana's not very useful without ways to generate and move it! Starting out, your best source of mana is going to be the &6Endoflame.&r"]
 			icon: "botania:mana_spreader"
 			id: "2FD66F543443B8A8"
+			rewards: [{
+				id: "68C31A94CDDEC159"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "0CB0B2674C20ED57"
@@ -409,6 +492,11 @@
 			dependencies: ["6628083C19C5F8CB"]
 			description: ["Now that you have a more robust source of aura, you can put it to more use - a &6crumbling catalyst,&r when placed on top of one of the lower four golden blocks of a natural altar, can crush things much more finely than you can by hand.It can get you &6more bone meal per bone, more gold powder per leaf, and even turn cobblestone into sand!&r"]
 			id: "5C1E3750F91A38B2"
+			rewards: [{
+				id: "72FD0BCB4D48D5E6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "214521E01C8D7374"
 				item: "naturesaura:crushing_catalyst"
@@ -430,6 +518,11 @@
 			]
 			icon: "enchanted:chalice"
 			id: "3932D60DF66D4C83"
+			rewards: [{
+				id: "78C9992C0F127F72"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4064574A4F18B0CB"
@@ -459,6 +552,11 @@
 				"&7Please note that this recipe needs altar power! Make sure your cauldron is within range of your altar!"
 			]
 			id: "1145EF33C88C696B"
+			rewards: [{
+				id: "2354475358D65502"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "482401F7FF362672"
 				item: "enchanted:attuned_stone"
@@ -476,6 +574,19 @@
 			]
 			icon: "enchanted:distillery"
 			id: "54838757425A9BA7"
+			rewards: [
+				{
+					count: 4
+					id: "2375BC9D15F267C0"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+				{
+					id: "5B05F3BCB0B0ADE9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "35CEC80D00F949F2"
@@ -501,6 +612,19 @@
 			dependencies: ["2FD66F543443B8A8"]
 			description: ["An apparatus perfect for channelling large amounts of mana into collections of objects, the &6Runic Altar&r will (obviously) let you make runes."]
 			id: "5EA3E8FCE4EBBA82"
+			rewards: [
+				{
+					count: 4
+					id: "3EC0E28F784E66D1"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+				{
+					id: "3C16D01FFA5D9C87"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "71772B3D162FA2F2"
 				item: "botania:runic_altar"
@@ -518,6 +642,11 @@
 			]
 			icon: "embers:item_pipe"
 			id: "424D08C4CFE434EA"
+			rewards: [{
+				id: "095505E6346CD60C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "63D5F1F29D99DECE"
@@ -557,6 +686,11 @@
 			]
 			icon: "embers:ember_activator"
 			id: "700009D450C569A2"
+			rewards: [{
+				id: "1831C47B7984655F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "63BACAF1D91DBD29"
@@ -620,6 +754,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "534E573A04A07B35"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -695,6 +834,11 @@
 				}
 			}
 			id: "2C46F425B5E0AAAA"
+			rewards: [{
+				id: "7BE3ACC86F62B56B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "0B01C83DE8DDDF86"
@@ -737,6 +881,11 @@
 			]
 			icon: "embers:melter"
 			id: "74FB5A117EF51949"
+			rewards: [{
+				id: "365D61F083C8E352"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "58B58AF055A23CDB"
@@ -763,6 +912,11 @@
 			description: ["By piping molten copper and gold into different sides of the bottom of a &6Mixer Centrifuge,&r (along with some ember) you can combine them into a strong, ember-aligned metal called &6Dawnstone.&r Pipe it out of the top and stamp it into ingots or plates!"]
 			icon: "embers:dawnstone_ingot"
 			id: "221E431A74C6E8A5"
+			rewards: [{
+				id: "43958F16B260D87C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4AF6D6F0BB92C4C8"
@@ -783,6 +937,19 @@
 			dependencies: ["153CB8257AEDA4ED"]
 			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
 			id: "17089FF12C1591B8"
+			rewards: [
+				{
+					count: 8
+					id: "0F4BAEC85C9C5077"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "0A542C39214D4B16"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7EAC671CDBFEFBA4"
 				item: "create:andesite_casing"
@@ -800,6 +967,11 @@
 			]
 			icon: "embers:alchemy_tablet"
 			id: "287C747ED1189725"
+			rewards: [{
+				id: "2BCDBFBEF2E63ADF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2ED145BD6FE7C9F6"
@@ -838,6 +1010,11 @@
 			]
 			icon: "minecraft:blaze_rod"
 			id: "1AF1077B69E1551E"
+			rewards: [{
+				id: "4705AE453E2CFC9B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "643D4D645AFA5CC2"
@@ -860,6 +1037,11 @@
 			icon: "create:basin"
 			id: "2A32CE924C9CB606"
 			optional: true
+			rewards: [{
+				id: "23F62F83D9979503"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "0FB8A5B0F06E426D"
@@ -893,6 +1075,11 @@
 			]
 			icon: "create:encased_fan"
 			id: "05820674B5CC639D"
+			rewards: [{
+				id: "7D07BBC1418D7C79"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4A9D9FBBBDE57536"
@@ -929,6 +1116,19 @@
 			]
 			icon: "theurgy:reformation_result_pedestal"
 			id: "2F210E03731A0E21"
+			rewards: [
+				{
+					count: 2
+					id: "0B48F3CE218EE46B"
+					item: "theurgy:mercury_crystal"
+					type: "item"
+				}
+				{
+					id: "512844E3ED4F22AF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "48B96711CA5E1E82"
@@ -965,6 +1165,11 @@
 			description: ["A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power - &6it is much faster than the ember-fueled one!"]
 			id: "2E0F026AB59D83B5"
 			optional: true
+			rewards: [{
+				id: "6A2676B04EF7610A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5E548AA09A77547C"
 				item: "create:mechanical_pump"
@@ -977,6 +1182,19 @@
 			dependencies: ["77FBE2FA730A82AE"]
 			description: ["The &6Rod of the Lands&r can corporealize a tiny portion of mana into a full dirt block!"]
 			id: "23390B2CDE30D057"
+			rewards: [
+				{
+					count: 32
+					id: "33AA2687E886E9BC"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "3258A91A2AB8DE63"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6BD20F85E2DD3DEF"
 				item: "botania:dirt_rod"
@@ -990,6 +1208,11 @@
 			dependencies: ["5EA3E8FCE4EBBA82"]
 			description: ["Carrying mana around with you enables you to use a plethora of bits and baubles. To transfer mana from a pool into the tablet, make sure the pool is on 'charge' mode by hovering over it with a wand of the forest."]
 			id: "77FBE2FA730A82AE"
+			rewards: [{
+				id: "1FBCB30D6D1B7B94"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "781B18571CC61161"
 				item: "botania:mana_tablet"
@@ -1003,6 +1226,11 @@
 			dependencies: ["77FBE2FA730A82AE"]
 			description: ["Turn your mana tablet into a ring to store mana on-the-go &6without taking up an inventory slot!&r"]
 			id: "7AC1E9B4710A8B84"
+			rewards: [{
+				id: "7E5580894EE5E74C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "72B87DADC3BA8740"
 				item: "botania:mana_ring"
@@ -1015,6 +1243,11 @@
 			dependencies: ["77FBE2FA730A82AE"]
 			description: ["By attaching a mana rune to a manasteel ring, you can (VERY slowly) pull ambient mana into a mana storage device on your person, &6for free!&r"]
 			id: "0E2EAFDEA91C24BD"
+			rewards: [{
+				id: "5FEE92B8F930D27D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6A17A5BA2DFAF67B"
 				item: "botania:aura_ring"
@@ -1033,6 +1266,11 @@
 				"&7Tip: you can also make glowstone and redstone with strength and night vision potions - it's up to you whether you want to take the Enchanted or Create route for these!&r"
 			]
 			id: "4DE7466CAC029EF6"
+			rewards: [{
+				id: "7C04DA99FA6DDD22"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "3DDDEA23FD302D1C"
@@ -1054,6 +1292,11 @@
 			description: ["Once you have a pump, you can create a &6Spout&r to dispense liquid onto items - this is a possible way to make &6glowstone or redstone,&r if you're willing to set up the infrastructure."]
 			id: "15AB65CE5C0B95CC"
 			optional: true
+			rewards: [{
+				id: "4B40A3E6B89D17DA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "63B514655C769766"
 				item: "create:spout"
@@ -1072,6 +1315,11 @@
 				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear.&r"
 			]
 			id: "76795AD9B23ACFD7"
+			rewards: [{
+				id: "22749725C9F092FA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5504BE5D400C6468"
 				item: "botania:alchemy_catalyst"
@@ -1090,6 +1338,11 @@
 				"You can also convert netherrack into crimson and warped nylium."
 			]
 			id: "00448B9AC0FC3F5D"
+			rewards: [{
+				id: "59748105E1BF277D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "372D3B2D4B9F89D4"
 				item: "naturesaura:conversion_catalyst"
@@ -1103,6 +1356,11 @@
 			description: ["The &6Millstone&r can crush cobble into gravel, bones into bone meal, and a variety of plants into their respective dyes at a much higher rate of return."]
 			id: "26942D2DF8C8AF91"
 			optional: true
+			rewards: [{
+				id: "199207E4E8F0B826"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "143D8425B45D3807"
 				item: "create:millstone"
@@ -1115,6 +1373,11 @@
 			dependencies: ["54DFF798149BE746"]
 			description: ["The &6Codebreaking Slate&r is very handy - you can put multiple pieces of alchemical waste into it and it will show you how many aspectus/item combinations you got right! It will also show you how many correct aspectii you have placed with the wrong items."]
 			id: "3E51B48398D0E334"
+			rewards: [{
+				id: "6845416B1226351B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7B482471FD88BB17"
 				item: "embers:codebreaking_slate"
@@ -1127,6 +1390,11 @@
 			dependencies: ["287C747ED1189725"]
 			description: ["Your first &6archaic brick&r can be made by infusing a regular brick with tainted gold and infused iron. Once you have one, you can use it to make more by simply infusing it with &6more clay and soul sand.&r"]
 			id: "54DFF798149BE746"
+			rewards: [{
+				id: "76A7D17327EB14A2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6A988B078BB6F842"
 				item: "embers:archaic_brick"
@@ -1139,6 +1407,11 @@
 			dependencies: ["54DFF798149BE746"]
 			description: ["The &6Mnemonic Inscriber&r, when attached to an Exchange Tablet and given paper, will automatically write down the correct combination of aspectii for a given transmutation when you successfully complete one."]
 			id: "2C3ABE081A7E1086"
+			rewards: [{
+				id: "12D49A84526CFAC2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "339CBE9063E8306A"
 				item: "embers:mnemonic_inscriber"
@@ -1161,6 +1434,11 @@
 			]
 			id: "50D60856E308EC6D"
 			min_width: 400
+			rewards: [{
+				id: "46AD85B696B8299A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "48F63F3E09BD04C1"
 				item: "theurgy:fermentation_vat"
@@ -1182,6 +1460,19 @@
 				"&7Tip: you can start and stop the vats using a redstone signal!&r"
 			]
 			id: "2368485BEB03F353"
+			rewards: [
+				{
+					count: 4
+					id: "4019A01E02C978B6"
+					item: "theurgy:sal_ammoniac_crystal"
+					type: "item"
+				}
+				{
+					id: "46A030476A7D2CE1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "525FFCD223358CF7"
 				item: "theurgy:digestion_vat"
@@ -1205,6 +1496,11 @@
 			]
 			icon: "naturesaura:offering_table"
 			id: "020B8F06D2C86CE3"
+			rewards: [{
+				id: "3646B751A7688D3D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "61D4BE7CF94C3895"
@@ -1225,6 +1521,11 @@
 			description: ["You can capture a summoned blaze into a magicked cage. This cage, when placed under a basin, will let you brew potions more efficiently than a brewing stand."]
 			id: "27A7CD7E1613FD1B"
 			optional: true
+			rewards: [{
+				id: "04718C8D6B87C847"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "32CA9609F24A429E"
 				item: "create:blaze_burner"
@@ -1238,6 +1539,11 @@
 			description: ["This is it. Using the power of the &6Offering Altar,&r and some magically significant materials, you can create the basis of real, (debatably) sentient life - chicken eggs."]
 			icon: "heads:chicken_head"
 			id: "1C7C9A1F11DE819B"
+			rewards: [{
+				id: "54963078056ED72D"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -1284,6 +1590,11 @@
 			]
 			id: "6FAB85F509199CA8"
 			optional: true
+			rewards: [{
+				id: "27B3F318DA9CACAD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "7FBBEAD125CEBC23"
@@ -1314,6 +1625,19 @@
 			]
 			icon: "embers:silver_ingot"
 			id: "462683FE563F6689"
+			rewards: [
+				{
+					count: 4
+					id: "7FBFE986AA75BE97"
+					item: "embers:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "6B1AE3F375E0C111"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "2CC1C9C3C4AE5B0C"
@@ -1338,7 +1662,13 @@
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
+			description: ["With the ability to grow flowers, you might want to start looking into &6breeding bees.&r To start, you'll need an &6apiary.&r"]
 			id: "29CB5767DE978673"
+			rewards: [{
+				id: "0C2B92BF2EC44903"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "667EC7506FF86C39"
@@ -1352,6 +1682,11 @@
 			dependencies: ["287C747ED1189725"]
 			description: ["The &6Wildfire Core&r is a key piece of some advanced dwarven machinery."]
 			id: "4BF72A5E2897EBD4"
+			rewards: [{
+				id: "42A3BC187AAABFE3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "01F5731866494B98"
 				item: "embers:wildfire_core"
@@ -1368,6 +1703,11 @@
 				"The first one cuts usage in half, the second one halves it again, and any more decrease the efficiency."
 			]
 			id: "7EF13F67C5B31A7E"
+			rewards: [{
+				id: "09ABACAD03F4082B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "44627103A3725806"
 				item: "embers:wildfire_stirling"
@@ -1385,6 +1725,11 @@
 			]
 			icon: "embers:ignem_reactor"
 			id: "6A69962F4001509A"
+			rewards: [{
+				id: "70763DFF0C37A354"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2189DC2F4FDEB322"
@@ -1417,6 +1762,11 @@
 			]
 			icon: "embers:zinc_crystal_seed"
 			id: "22735AE4F84EF82B"
+			rewards: [{
+				id: "132F34A7C50D0B5D"
+				type: "xp"
+				xp: 100
+			}]
 			size: 1.5d
 			subtitle: "Zinc! (and others)"
 			tasks: [
@@ -1464,6 +1814,11 @@
 			description: ["With Dawnstone, you can craft ember transferral devices that can handle much more throughput."]
 			icon: "embers:ember_ejector"
 			id: "3FD3CD01761AE92A"
+			rewards: [{
+				id: "744D1C19AD6A6A1F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "6440F561FFCF06D6"
@@ -1492,6 +1847,11 @@
 			icon: "create:electron_tube"
 			id: "20EF463DB77E09EE"
 			optional: true
+			rewards: [{
+				id: "6B9CCEAAD5EFAAF2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "0B9F338A37E36108"
@@ -1518,6 +1878,11 @@
 			icon: "create:packager"
 			id: "7027BF39C1223997"
 			optional: true
+			rewards: [{
+				id: "2928C183B230148C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "71DD21702431A790"
@@ -1542,8 +1907,14 @@
 		{
 			dependencies: ["20EF463DB77E09EE"]
 			description: ["With access to brass and electron tubes, you can make a Mechanical Crafter. These, in combination with &6factory gauges&r and &6package logistics,&r allow you to set up automatic stocking and crafting of items!"]
+			icon: "create:factory_gauge"
 			id: "0230C7C57435FB3A"
 			optional: true
+			rewards: [{
+				id: "41EA2740A534F40D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "6955607593312B92"
@@ -1562,19 +1933,45 @@
 		}
 		{
 			dependencies: ["01C2598A1D9CF754"]
-			id: "68051685A2136388"
-			tasks: [{
-				id: "02110AA95DE2FF48"
-				item: {
-					Count: 1
-					id: "mysticalagriculture:inferium_watering_can"
-					tag: {
-						Active: 0b
-						Water: 0b
-					}
+			description: [
+				"You can fortify infused iron with prosperity shards to create a basic &6prosperity ingot,&r ready to augment with agricultural essence."
+				""
+				"One of the best uses of this ingot is to make a better watering can."
+			]
+			icon: {
+				Count: 1
+				id: "mysticalagriculture:inferium_watering_can"
+				tag: {
+					Active: 0b
+					Water: 0b
 				}
-				type: "item"
+			}
+			id: "68051685A2136388"
+			rewards: [{
+				id: "4FEFBF01965A11D4"
+				type: "xp"
+				xp: 100
 			}]
+			tasks: [
+				{
+					id: "4676F5B4A0F27349"
+					item: "mysticalagriculture:prosperity_ingot"
+					type: "item"
+				}
+				{
+					id: "0926C1E94B1440F2"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_watering_can"
+						tag: {
+							Active: 0b
+							Water: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Better Watering"
 			x: 2.5d
 			y: -2.0d
 		}
@@ -1586,6 +1983,11 @@
 				"&7Tip: aureareaurearuea"
 			]
 			id: "6C627897FFF1D259"
+			rewards: [{
+				id: "441E2FB83DB075C1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2009E7B94071CE08"
 				item: "naturesaura:generator_limit_remover"

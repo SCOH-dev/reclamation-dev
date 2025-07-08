@@ -4,6 +4,14 @@ ServerEvents.recipes(event => {
         event.remove({id: 'embers:alchemy/'+id+'_crystal_seed'})
     })
 
+    event.replaceInput({id: 'embers:ancient_codex'},
+            'embers:archaic_brick',
+            'embers:caminite_brick')
+
+    event.replaceInput({id: 'embers:ancient_codex'},
+            'embers:ancient_motive_core',
+            'minecraft:wheat')
+
     event.remove({id: 'embers:item_extractor'})
     event.shaped('embers:item_extractor', [
             ' G ',

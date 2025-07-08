@@ -16,6 +16,11 @@
 			description: ["Now that you have dirt, your next step is to turn it into grass, so that you can start bringing a little bit of green into the world."]
 			hide_until_deps_complete: true
 			id: "000A7EAED7A84968"
+			rewards: [{
+				id: "27EE0E066D607838"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6400B13D05D470E6"
@@ -36,6 +41,11 @@
 			]
 			icon: "minecraft:wheat_seeds"
 			id: "26833208E1F2EB4B"
+			rewards: [{
+				id: "5F7009D3F861EC32"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "6BAC76770E7D69BA"
@@ -85,6 +95,11 @@
 			]
 			icon: "enchanted:mandrake_root"
 			id: "4CE0C02B0602C06E"
+			rewards: [{
+				id: "4D1374FDFBCF254C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "58509C1E096E95BE"
@@ -115,6 +130,11 @@
 			]
 			icon: "theurgy:alchemical_salt_mineral"
 			id: "5C476B553750BDE9"
+			rewards: [{
+				id: "71E7F7469D5DBC39"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "319E2AD5AE5FB91E"
@@ -141,6 +161,11 @@
 			dependencies: ["5C476B553750BDE9"]
 			description: ["You're almost there! Just throw the &6Iron Alchemical Sulfur, Mineral Alchemical Salt, &rand&6 Alchemical Mercury&r into the &6Incubator, &rand you'll have iron!"]
 			id: "389C82D9424B4099"
+			rewards: [{
+				id: "574C722BB928B54D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "157FA2840C9FC358"
 				item: "minecraft:iron_ingot"
@@ -153,6 +178,11 @@
 			dependencies: ["26833208E1F2EB4B"]
 			description: ["You can mash up the magical plants you've found into something you're calling &6Anointing Paste.&r You're pretty sure you can apply it to something, but what? "]
 			id: "66B8F071AD7CA037"
+			rewards: [{
+				id: "497476B925F12D45"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "457C34C4B697A0C1"
 				item: "enchanted:anointing_paste"
@@ -175,17 +205,24 @@
 			]
 			icon: "enchanted:witch_cauldron"
 			id: "6CB296A3AD751F62"
-			rewards: [{
-				id: "303213A80F06DA80"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "enchanted:brewing"
+			rewards: [
+				{
+					id: "303213A80F06DA80"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:brewing"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "690229BC35A9CEF7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "09C7309D2ADC01FA"
@@ -209,6 +246,19 @@
 			description: ["With a little bit of magic (and a reinforced witchy cauldron), you can make a &6potent mutagen&r - potent enough to mutate those &6dead bushes&r you've been seeing around into &6actual saplings!&r"]
 			icon: "minecraft:oak_sapling"
 			id: "4075C13786AF4C49"
+			rewards: [
+				{
+					count: 8
+					id: "1BACD161EDB7C0D5"
+					item: "enchanted:mutandis"
+					type: "item"
+				}
+				{
+					id: "6C8F4F0C9B7376B6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Minor necromancy"
@@ -287,11 +337,18 @@
 			]
 			icon: "agricraft:wooden_crop_sticks"
 			id: "2E15C8681F5D2ACF"
-			rewards: [{
-				id: "7596CA51E4F2FEDE"
-				item: "agricraft:magnifying_glass"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7596CA51E4F2FEDE"
+					item: "agricraft:magnifying_glass"
+					type: "item"
+				}
+				{
+					id: "0BB01DADE1595C81"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "45CF2796053F5B4A"
 				item: "agricraft:wooden_crop_sticks"
@@ -318,12 +375,19 @@
 			icon: "agricraft:journal"
 			id: "1792BA6A0845320F"
 			min_width: 400
-			rewards: [{
-				count: 16
-				id: "389560DD3A18D3FA"
-				item: "agricraft:wooden_crop_sticks"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "389560DD3A18D3FA"
+					item: "agricraft:wooden_crop_sticks"
+					type: "item"
+				}
+				{
+					id: "5251363E943222B1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "267E045714E32142"
@@ -362,6 +426,11 @@
 					item: "agricraft:seed_analyzer"
 					type: "item"
 				}
+				{
+					id: "68760F902C2CF982"
+					type: "xp"
+					xp: 100
+				}
 			]
 			shape: "rsquare"
 			subtitle: "What do they mean?"
@@ -385,12 +454,19 @@
 			]
 			icon: "supplementaries:sign_post_oak"
 			id: "3658F22BABF3B4B2"
-			rewards: [{
-				count: 16
-				id: "341645503038FDE0"
-				item: "minecraft:bone_meal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "341645503038FDE0"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "22AC93B41661A452"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "rsquare"
 			subtitle: "English, poindexter?"
 			tasks: [{
@@ -414,6 +490,11 @@
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			id: "658C67ABFD247487"
+			rewards: [{
+				id: "63DAC576E1524B28"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "5E222672F78F50DA"
@@ -442,6 +523,19 @@
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			id: "4F0C473B765AA1F8"
+			rewards: [
+				{
+					count: 4
+					id: "62C13096E47A85F1"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "19D9144AEA650C0D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7A5B23DB3C4AA80E"
 				item: "create:copper_nugget"
@@ -460,17 +554,24 @@
 			]
 			icon: "naturesaura:gold_leaf"
 			id: "592DBF115E1FBAE9"
-			rewards: [{
-				id: "57B1382104012AD6"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "naturesaura:book"
+			rewards: [
+				{
+					id: "57B1382104012AD6"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "33888475CC36A298"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "177D89055F200F6D"
@@ -501,6 +602,11 @@
 			]
 			icon: "naturesaura:gold_powder"
 			id: "778E09C4AE548E95"
+			rewards: [{
+				id: "5D6E240899147238"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -523,6 +629,19 @@
 			dependencies: ["4075C13786AF4C49"]
 			description: ["The &6Witch's Oven&r can be used to distill saplings into &6special magic fumes,&r which are especially potent in a variety of magical rites."]
 			id: "6831CB6AC2CE40C6"
+			rewards: [
+				{
+					count: 4
+					id: "65EF3BC1AE3AC747"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+				{
+					id: "0C769E6150B0FEA3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "43042BD1A143213D"
 				item: "enchanted:witch_oven"
@@ -535,6 +654,19 @@
 			dependencies: ["778E09C4AE548E95"]
 			icon: "minecraft:grass_block"
 			id: "600A7F0DFD880119"
+			rewards: [
+				{
+					count: 16
+					id: "6A49A265CF4845FA"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "5356E9C192A1465D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -550,6 +682,19 @@
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["The composter can turn &6extra seeds and crops into bonemeal!&r No more hunting skeletons in the middle of the night."]
 			id: "4A6F59E74183ACCD"
+			rewards: [
+				{
+					count: 16
+					id: "794377EC118582E9"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "42526DDFBEFC41F3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7A0BD58C631C84DF"
 				item: "minecraft:composter"
@@ -560,9 +705,22 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["You can get straw by cutting tall grass with a knife. Use it to make leads, ropes, and building blocks!"]
+			description: ["You can get straw rarely by cutting tall grass with a &6knife.&r Use it to make leads, ropes, and building blocks!"]
 			icon: "farmersdelight:straw"
 			id: "07339A3B3E7714B3"
+			rewards: [
+				{
+					count: 4
+					id: "6BB684591D3EF88D"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					id: "7998DD18B02558BF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "11D03E7C1F201812"
@@ -590,6 +748,19 @@
 			dependencies: ["07339A3B3E7714B3"]
 			description: ["You can turn bonemeal, dirt, and some organic material into &6organic compost.&r When placed down, the compost will&6 turn into rich soil &rafter a while (sped up by sunlight, water, and proximity to other rich soil or mushrooms), which grows most crops &6faster than regular farmland!&r"]
 			id: "1525FDF792FDFA20"
+			rewards: [
+				{
+					count: 2
+					id: "6FBB248C2F9B015B"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "3070C7E5573A4739"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5AC8FA934EDEE985"
 				item: "farmersdelight:organic_compost"
@@ -601,8 +772,13 @@
 		}
 		{
 			dependencies: ["389C82D9424B4099"]
-			description: ["Now that you have access to iron, you can make a &6watering can.&r Higher-tier versions are still out of reach for now, but the basic version can still speed up the growth of crops."]
+			description: ["Now that you have access to iron, you can make a &6watering can.&r Higher-tier versions exist and are much better, but the basic version can still speed up the growth of crops."]
 			id: "20CBC9AFA7C23F45"
+			rewards: [{
+				id: "1B75C4C21D227AC3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "52A0EA2EAB67CF45"
 				item: {
@@ -630,6 +806,30 @@
 			]
 			icon: "supplementaries:sign_post_oak"
 			id: "38D0317E85210C44"
+			rewards: [
+				{
+					count: 16
+					id: "1DA546E8161DA745"
+					item: "mcwpaths:oak_planks_path"
+					type: "item"
+				}
+				{
+					id: "7770E67AFA2287F1"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "via_romana:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F103D45BC4921D6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "51B8EE71AA705541"
 				item: {
@@ -645,6 +845,23 @@
 			title: "Signpost Travel"
 			x: -1.5d
 			y: -6.75d
+		}
+		{
+			dependencies: ["6831CB6AC2CE40C6"]
+			description: ["&6Fume Funnels,&r when placed next to a Witch's Oven, raise the chance of getting fumes from items."]
+			id: "101A61A74FD4E38A"
+			rewards: [{
+				id: "5C5154DC1D3C9E50"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60223DF57FAF6164"
+				item: "enchanted:fume_funnel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
 		}
 	]
 	title: "A Whiff of Normal"
