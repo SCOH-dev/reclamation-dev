@@ -4,22 +4,20 @@
       "stack": "item:itemfilters:weak_nbt{value:{species:\"reclamation:stannum\"}}"
     },
     {
-      "stack": "item:enchanted:circle_talisman{circle_magic_shape_map:{\"enchanted:large_circle\":\"enchanted:ritual_chalk\",\"enchanted:medium_circle\":\"enchanted:nether_chalk\",\"enchanted:small_circle\":\"enchanted:nether_chalk\"}}"
-    },
-    {
-      "stack": "item:ars_elemental:mark_of_mastery"
-    },
-    {
-      "stack": "item:embers:creative_ember_source"
-    },
-    {
-      "stack": "item:create:creative_blaze_cake"
-    },
-    {
-      "stack": "item:botania:lens_power{compositeLens:{Count:1b,id:\"botania:lens_speed\"}}"
+      "stack": {
+        "type": "item",
+        "id": "minecraft:bamboo_stairs",
+        "amount": 4
+      },
+      "recipe": "minecraft:bamboo_stairs"
     }
   ],
   "lookup_history": [
+    "item:create:andesite_alloy",
+    "item:embers:lead_ingot",
+    "item:mekanism:ingot_lead",
+    "item:botania:grass_seeds",
+    "item:minecraft:bamboo_stairs",
     "item:minecraft:magma_block",
     "item:minecraft:obsidian",
     "item:patchouli:guide_book{\"patchouli:book\":\"complicated_bees:field_guide\"}",
@@ -88,7 +86,6 @@
     "item:embers:mechanical_core",
     "item:embers:ember_bore",
     "item:embers:fluid_pipe",
-    "item:embers:lead_ingot",
     "item:naturesaura:infused_iron",
     "item:mysticalagriculture:prosperity_ingot",
     "item:mysticalagriculture:inferium_ingot",
@@ -370,7 +367,6 @@
     "item:enchanted:ember_moss",
     "item:mysticalagriculture:inferium_sickle{Damage:0}",
     "item:mysticalagriculture:prudentium_sickle{Damage:0}",
-    "item:botania:grass_seeds",
     "item:enchanted:mutandis",
     {
       "type": "item",
@@ -1378,11 +1374,11 @@
   "recipe_defaults": {
     "added": [
       "minecraft:kjs/enchanted_ritual_chalk",
+      "mysticalagriculture:tertium_block",
       "jei:/mekanism/kjs/cbbat8ymh7e218oeqoad236ry",
       "jei:/create/filling/redstone",
-      "mysticalagriculture:tertium_block",
-      "jei:/enchanted/witch_cauldron/golden_chalk",
-      "jei:/ars_nouveau/kjs/mjg5gpz3s74z1vgm963n2nxj"
+      "jei:/ars_nouveau/kjs/mjg5gpz3s74z1vgm963n2nxj",
+      "jei:/enchanted/witch_cauldron/golden_chalk"
     ],
     "tags": {},
     "resolutions": {},
