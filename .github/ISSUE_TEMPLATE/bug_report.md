@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Something broken?
-title: ''
+title: "[BUG]"
 labels: bug
 assignees: ''
 
