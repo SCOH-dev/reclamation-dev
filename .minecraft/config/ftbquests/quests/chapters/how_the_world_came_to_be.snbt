@@ -16,7 +16,7 @@
 				"You wake up in a vast, dead and dried out wasteland. You don't remember how you got here, but you do remember what the world &oshould&r look like - and this isn't it."
 				""
 				""
-				"Welcome to &6Reclamation!&r This is a slower-paced pack focused around bringing life and nature back to a dead world."
+				"Welcome to &6Reclamation!&r This is a slower-paced pack focused around bringing life and nature back to a dead world. Press &6F3+H&r to disable advanced tooltips, if they're on!"
 			]
 			id: "73F3DDAFC46A9CD5"
 			rewards: [{
@@ -435,22 +435,35 @@
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: ["Despite the seeming apocalypse, there are still fish to find (and eat) for those with the skill and desire."]
-			id: "26C8365A4497F614"
-			rewards: [{
-				id: "2B66407F091498BB"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "082F4231A9683AF5"
-				item: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
 				}
-				type: "item"
+			}
+			id: "26C8365A4497F614"
+			rewards: [
+				{
+					id: "577673156D88751E"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACDE1B7FCA65BBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3420C22AABFAEA34"
+				type: "checkmark"
 			}]
 			title: "Fishy Friends"
 			x: 2.0d

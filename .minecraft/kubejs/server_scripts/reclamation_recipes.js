@@ -11,6 +11,15 @@ ServerEvents.recipes(event => {
     ], {
         A: 'kubejs:scrap_wood'
     })
+    event.shaped('minecraft:composter', [
+        'A A',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'kubejs:flimsy_planks',
+        B: 'embers:caminite_blend'
+    })
+
     event.custom({
         "type": "farmersdelight:cutting",
         "ingredients": [
