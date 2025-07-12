@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = C:/Users/harris/AppData/Roaming/PrismLauncher/instances/reclamation-dev/.minecraft/saves/New World (2)
-}
-
