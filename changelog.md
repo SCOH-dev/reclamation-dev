@@ -17,3 +17,6 @@
 * Earmuffs recipe - copper, wool and straw
 * Generating Mana quest now has Wand of the Forest as an optional task
 * Some early quests now have images associated with them, to provide direction for unfamiliar multiblocks
+
+
+Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)
