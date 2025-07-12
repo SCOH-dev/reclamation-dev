@@ -516,7 +516,7 @@
 			description: [
 				"At some point, you're going to run out of ruins. Thankfully, there is a special kind of flower called the &6Cuprosia &ryou can breed that can harvest &6trace amounts of copper from the water.&r"
 				""
-				"&7Tip: the flower will only survive in a waterlogged crop. If you successfully crossbreed the Cuprosia but the crop stick it's on is not waterlogged, &4it will wither away into nothing. &7Additionally, it can &4only grow on gravel&7 at strength 1."
+				"&7Tip: the flower will only grow in a waterlogged crop. If you successfully crossbreed the Cuprosia but the crop stick it's on is not waterlogged, &4it will not grow. &7Additionally, it can &4only grow on gravel&7 at strength 1."
 				""
 				"&7Tip 2: plant species can be recessive! Use your magnifying glass."
 			]

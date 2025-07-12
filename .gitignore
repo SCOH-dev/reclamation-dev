@@ -1,6 +1,7 @@
 /.minecraft/
 !/.minecraft/mods/.index/
 !/.minecraft/config/
+/.minecraft/config/oculus.properties
 !/.minecraft/defaultconfigs/
 !/.minecraft/kubejs/
 !/.minecraft/patchouli_books/
