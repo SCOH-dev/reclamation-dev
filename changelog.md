@@ -8,3 +8,4 @@
 
 ## Fixed
 * Enchanted seeds did not work in the petal apothecary - #13
+* Inferium seeds are craftable with any seeds - #12
