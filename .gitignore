@@ -28,3 +28,11 @@
 /.idea/
 /generators/output/
 /generators/input/
+/.minecraft/immersive_paintings/
+/.minecraft/fancymenu_data/
+/.minecraft/modernfix/
+/.minecraft/debug.log
+/.minecraft/emi.json
+/.minecraft/export.log
+/.minecraft/options.txt
+/.minecraft/servers.dat
