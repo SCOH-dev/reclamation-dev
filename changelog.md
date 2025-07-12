@@ -1,21 +1,10 @@
-# Reclamation 1.0.1
-
-## Added
-* Simple Discord RPC - #8
-  * CraterLib
-* More Overlays Updated - #9
+# Reclamation 1.0.2
 
 ## Updated
-* AntiBlocksReChiseled
-* ImmediatelyFast
-* Sophisticated Backpacks
-* Sophisticated Core
-* Supplementaries
+* reclamation_util
 
 ## Changed
-* Fishing rod quest now gives you a fishing rod instead of asks you to make one - #7
-* You will spawn with a quest book - #10
-* Composter craftable with flimsy planks - #6
+* It's now easier to breed Cuprosia, as the fluid condition is no longer lethal - #14
 
 ## Fixed
-* Nether fortress spawning - #11
+* Enchanted seeds did not work in the petal apothecary - #13

@@ -13,6 +13,15 @@
     }
   ],
   "lookup_history": [
+    "#item:forge:seeds",
+    "item:mysticalagriculture:inferium_seeds",
+    "item:minecraft:pumpkin_seeds",
+    "#item:mysticalagriculture:seeds",
+    "item:croptopia:garlic",
+    "item:enchanted:garlic",
+    "item:minecraft:wheat_seeds",
+    "item:enchanted:mandrake_seeds",
+    "item:botania:pure_daisy",
     "item:minecraft:composter",
     "item:minecraft:bucket",
     "item:kubejs:dead_log",
@@ -84,7 +93,6 @@
     "item:patchouli:guide_book{\"patchouli:book\":\"patchouli:custom_rituals\"}",
     "item:enchanted:spinning_wheel",
     "item:enchanted:altar",
-    "item:botania:pure_daisy",
     "item:embers:ancient_codex",
     "item:embers:stamp_base",
     "item:embers:ember_activator",
@@ -385,7 +393,6 @@
       "id": "kubejs:scrap_wood",
       "amount": 46
     },
-    "item:minecraft:wheat_seeds",
     "item:botania:horn_grass",
     "item:minecraft:oak_stairs",
     "item:minecraft:stone_brick_stairs",
@@ -819,7 +826,6 @@
     "#item:forge:storage_blocks/charcoal",
     "item:mekanism:metallurgic_infuser",
     "item:mekanism:enriched_redstone",
-    "item:mysticalagriculture:inferium_seeds",
     "item:croptopia:vanilla_ice_cream",
     "item:advanced_ae:shattered_singularity",
     "item:ae2:singularity",
@@ -1375,10 +1381,10 @@
   "recipe_defaults": {
     "added": [
       "jei:/enchanted/witch_cauldron/golden_chalk",
-      "minecraft:kjs/enchanted_ritual_chalk",
-      "mysticalagriculture:tertium_block",
       "jei:/mekanism/kjs/cbbat8ymh7e218oeqoad236ry",
       "jei:/create/filling/redstone",
+      "minecraft:kjs/enchanted_ritual_chalk",
+      "mysticalagriculture:tertium_block",
       "jei:/ars_nouveau/kjs/mjg5gpz3s74z1vgm963n2nxj"
     ],
     "tags": {},

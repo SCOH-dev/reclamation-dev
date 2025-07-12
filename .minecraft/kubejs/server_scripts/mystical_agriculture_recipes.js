@@ -46,6 +46,10 @@ ServerEvents.recipes(event => {
         'minecraft:iron_ingot',
         'naturesaura:infused_iron')
 
+    event.replaceInput({id: 'mysticalagriculture:inferium_seeds'},
+        'minecraft:wheat_seeds',
+        '#forge:seeds')
+
     event.custom({
         "type": "botania:runic_altar",
         "ingredients": [

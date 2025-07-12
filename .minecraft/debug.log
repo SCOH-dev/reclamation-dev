@@ -111,3 +111,6 @@
 [0710/151834.222:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
 [0710/152659.244:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
 [0710/153906.894:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0711/164832.122:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0711/165122.421:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0711/165150.658:WARNING:frame_host_impl.cc(609)] SendJavaScript sent to detached frame 21474836481 [5,1] (main) will be ignored
