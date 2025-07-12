@@ -7,6 +7,26 @@
 	hide_quest_until_deps_complete: true
 	icon: "minecraft:grass_block"
 	id: "40E17D40DC433CF2"
+	images: [
+		{
+			dependency: "2F210E03731A0E21"
+			height: 5.0d
+			image: "reclamation:textures/quests/theurgy_3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.178571428571445d
+			y: -5.625d
+		}
+		{
+			dependency: "4DE7466CAC029EF6"
+			height: 5.0d
+			image: "reclamation:textures/quests/botania_1.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.5d
+			y: -5.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -309,7 +329,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["46CC05A2F2D89079"]
 			description: [
 				"The &6Natural Altar&r is a very important tool in the manipulation of natural energies."
 				""
@@ -370,7 +390,7 @@
 				}
 			]
 			title: "Natural Altar"
-			x: 1.0d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -388,7 +408,7 @@
 				type: "item"
 			}]
 			title: "Infused Iron"
-			x: 1.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -432,7 +452,7 @@
 			}]
 			title: "Creating Aura"
 			x: 2.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -451,7 +471,7 @@
 				item: "naturesaura:flower_generator"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -459,7 +479,11 @@
 				"7010ED9A666FF89E"
 				"6ED1017877CB7568"
 			]
-			description: ["Mana's not very useful without ways to generate and move it! Starting out, your best source of mana is going to be the &6Endoflame.&r"]
+			description: [
+				"Mana's not very useful without ways to generate and move it! Starting out, your best source of mana is going to be the &6Endoflame.&r"
+				""
+				"&7Tip: you can use the Wand of the Forest to bind the spreader to flowers and pools."
+			]
 			icon: "botania:mana_spreader"
 			id: "2FD66F543443B8A8"
 			rewards: [{
@@ -483,6 +507,21 @@
 					item: "botania:endoflame"
 					type: "item"
 				}
+				{
+					id: "38161206AE3DB7D5"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					match_nbt: false
+					optional_task: true
+					title: "Wand of the Forest"
+					type: "item"
+				}
 			]
 			title: "Generating Mana"
 			x: -3.0d
@@ -502,7 +541,7 @@
 				item: "naturesaura:crushing_catalyst"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -1348,7 +1387,7 @@
 				item: "naturesaura:conversion_catalyst"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -1972,7 +2011,7 @@
 				}
 			]
 			title: "Better Watering"
-			x: 2.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -1995,6 +2034,62 @@
 			}]
 			x: -1.5d
 			y: -11.5d
+		}
+		{
+			dependencies: ["226F9F21A941389C"]
+			description: [
+				"You've felt a strange tingling on your skin ever since you woke up - you think this might be a manifestation of &6Aura,&r a natural phenomenon that you might be able to further harness."
+				""
+				"To get started, craft a &6Bottle and Cork&r and &6right click the air&r to gather some Aura for further study."
+			]
+			icon: {
+				Count: 1
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			}
+			id: "46CC05A2F2D89079"
+			rewards: [
+				{
+					id: "2176E36B3CEE18A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7859AA02526007BE"
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "402A7DA140E7221A"
+					item: "naturesaura:bottle_two_the_rebottling"
+					type: "item"
+				}
+				{
+					id: "106F3355FB945F74"
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bottling Sunlight"
+			x: 1.0d
+			y: -1.0d
 		}
 	]
 	title: "Touching Grass"

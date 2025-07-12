@@ -8,6 +8,15 @@
 	hide_quest_until_deps_complete: true
 	icon: "minecraft:dirt"
 	id: "0F8CD7C8C7FD56E6"
+	images: [{
+		dependency: "658C67ABFD247487"
+		height: 5.0d
+		image: "reclamation:textures/quests/cuprosia.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -6.5d
+		y: -1.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -862,6 +871,33 @@
 			}]
 			x: 1.0d
 			y: -8.0d
+		}
+		{
+			description: [
+				"Tired of hearing those godforsaken &6mandrakes&r shriek? Make some &6earmuffs!&r They'll protect you from getting your ears blown out by their piercing scream."
+				""
+				"&7Tip: the higher the strength stat on mandrake is, the less likely they are to wake up."
+			]
+			id: "0922C76A06BE0C7A"
+			rewards: [{
+				id: "01C80FF930E3D5D0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D21D45638B3A9BA"
+				item: {
+					Count: 1
+					id: "enchanted:earmuffs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "OSHA Approved"
+			x: 1.0d
+			y: -1.5d
 		}
 	]
 	title: "A Whiff of Normal"

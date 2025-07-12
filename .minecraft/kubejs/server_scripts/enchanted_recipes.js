@@ -41,6 +41,31 @@ ServerEvents.recipes(event => {
         }
     })
 
+    //earmuffs recipe
+    event.custom({
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+            "w": {
+                "tag": "minecraft:wool"
+            },
+            "c": {
+                "item": "minecraft:copper_ingot"
+            },
+            "d": {
+                "item": "farmersdelight:straw"
+            }
+        },
+        "pattern": [
+            "dcd",
+            "w w"
+        ],
+        "result": {
+            "item": "enchanted:earmuffs"
+        },
+        "show_notification": true
+    })
+
     //cauldron for brilliant fiber
     event.remove({id: "naturesaura:gold_fiber"})
     event.custom({

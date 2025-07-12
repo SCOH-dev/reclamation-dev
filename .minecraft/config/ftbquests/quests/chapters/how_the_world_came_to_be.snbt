@@ -8,6 +8,26 @@
 	hide_quest_until_deps_complete: true
 	icon: "kubejs:dried_earth"
 	id: "2B630DD43CEBA9AC"
+	images: [
+		{
+			dependency: "01AB2D65C171F1F9"
+			height: 4.0d
+			image: "reclamation:textures/quests/theurgy_1.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependency: "01AB2D65C171F1F9"
+			height: 5.0d
+			image: "reclamation:textures/quests/theurgy_2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: -9.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

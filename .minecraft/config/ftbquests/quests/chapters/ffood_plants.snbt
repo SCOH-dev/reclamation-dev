@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_min_width: 280
 	default_quest_shape: ""
 	filename: "ffood_plants"
@@ -1396,7 +1396,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Crunchy, subtly sweet nuts with a toasty, earthy finish."]
 			id: "1916E46BEB1F2537"
 			tasks: [{
@@ -1408,7 +1408,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Crisp, juicy fruits that balance light sweetness with a refreshing tang."]
 			id: "6FEC2402791EC0A4"
 			tasks: [{
@@ -1420,7 +1420,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Soft, slightly fuzzy fruits with a delightfully sweet-tart burst."]
 			id: "3E0ED15B75A185CA"
 			tasks: [{
@@ -1432,7 +1432,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Creamy and buttery with a mild, slightly grassy flavor."]
 			id: "1CDCD52F9FA69B34"
 			tasks: [{
@@ -1444,7 +1444,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Sweet, mellow fruits with a classic tropical aroma."]
 			id: "19014BBBD41BCF0B"
 			tasks: [{
@@ -1456,7 +1456,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Soft and nutty, cashews offer a creamy bite with a sweet-savory balance."]
 			id: "030F46DE570F297E"
 			tasks: [{
@@ -1468,7 +1468,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Cherries burst with juicy intensity; sweet, sometimes sharp, and always bright."]
 			id: "335CBABD76A3BA31"
 			tasks: [{
@@ -1480,7 +1480,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Cracking into a coconut reveals cool, sweet water and soft, fragrant meat."]
 			id: "2D7C1F8BC048CFCD"
 			tasks: [{
@@ -1492,7 +1492,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Dates are also known as nature's candy: chewy, caramel-rich, and deeply sweet."]
 			id: "682C64F6A2B0291A"
 			tasks: [{
@@ -1504,7 +1504,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["With neon skin and unique speckled flesh, dragon fruit tastes delicate, lightly sweet, and just a little floral."]
 			id: "28A459B956D547DD"
 			tasks: [{
@@ -1516,7 +1516,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Figs are jammy and soft with a honey-like flavor."]
 			id: "39EE227C5F58CAAA"
 			tasks: [{
@@ -1528,7 +1528,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Grapefruit will wake up your palate - juicy, sour, bitter, and bold."]
 			id: "2FD4033DA28F9D21"
 			tasks: [{
@@ -1540,7 +1540,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Kumquats are often eaten whole, with a sharp citrus shock over sweet orange notes."]
 			id: "404DB15C6D49B646"
 			tasks: [{
@@ -1552,7 +1552,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Tart and vivid, lemons cut through richness with their clean citrus bite."]
 			id: "1636367444D293D4"
 			tasks: [{
@@ -1564,7 +1564,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Smaller and punchier than lemons, limes have a tight, zesty sting."]
 			id: "6BC76C8A74C25796"
 			tasks: [{
@@ -1576,7 +1576,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Mangoes melt in your mouth with tropical sweetness."]
 			id: "629C52541A4D897E"
 			tasks: [{
@@ -1588,7 +1588,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Like a peach in sleek skin, nectarines are sweet, tangy, and satisfyingly juicy."]
 			id: "767A247376C17981"
 			tasks: [{
@@ -1600,7 +1600,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Ground nutmeg adds a warm, nutty-spicy aroma that’s cozy and festive to any dish."]
 			id: "031FB94A1D6CEC81"
 			tasks: [{
@@ -1612,7 +1612,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Oranges are all brightness and juice, sweet with a sunny citrus finish."]
 			id: "6FD2642EB3540BD6"
 			tasks: [{
@@ -1624,7 +1624,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Peaches are the most famous of stone fruit, for good reason."]
 			id: "308A89A2E4901594"
 			tasks: [{
@@ -1636,7 +1636,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Pears are quietly sweet and crisp; eternally elegant."]
 			id: "750822BC779DC440"
 			tasks: [{
@@ -1648,7 +1648,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Pecans have a great crunch with deep nutty flavor."]
 			id: "0B17ABE850EC89B7"
 			tasks: [{
@@ -1660,7 +1660,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Persimmons are smooth and syrupy, with a mellow flavor that deepens as they ripen."]
 			id: "7B403F791AF06ADC"
 			tasks: [{
@@ -1672,7 +1672,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Plums skirt the line between tart and sweet, finishing with a tangy punch."]
 			id: "4FC4A49972031C19"
 			tasks: [{
@@ -1684,7 +1684,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Star fruit is crisp and juicy, with a tropical edge."]
 			id: "63DDF088215038F0"
 			tasks: [{
@@ -1696,7 +1696,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["Walnuts are hearty and slightly bitter, great for a midday snack."]
 			id: "467750D10318D9E8"
 			tasks: [{
@@ -1708,7 +1708,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1633274D007EACBA"]
+			dependencies: ["226F9F21A941389C"]
 			description: ["The bark grinds down to a warm, spicy-sweet powder that instantly deepens any flavor."]
 			id: "794AFD13A349F2A0"
 			tasks: [{

@@ -1,9 +1,11 @@
 # Reclamation 1.0.3
 
 ## Added
-* FTB Backups 2
+* FTB Backups 2 - #17
   * PolyLib
-* Extreme Sound Muffler
+* Extreme Sound Muffler - #17
+* Bottled Sunlight in its own quest, to make sure the Natural Altar page in the NA book is unlocked - #16
+* Earmuffs quest
 
 ## Updated
 * Advanced AE -> 1.1.3-1.20.1
@@ -12,8 +14,6 @@
 * Sophisticated Storage -> 1.3.55.1200
 
 ## Changed
-* It's now easier to breed Cuprosia, as the fluid condition is no longer lethal - #14
-
-## Fixed
-* Enchanted seeds did not work in the petal apothecary - #13
-* Inferium seeds are craftable with any seeds - #12
+* Earmuffs recipe - copper, wool and straw
+* Generating Mana quest now has Wand of the Forest as an optional task
+* Some early quests now have images associated with them, to provide direction for unfamiliar multiblocks
