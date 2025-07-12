@@ -1,0 +1,16 @@
+filename = 'narenderfix-1.20.1-1.0.0.jar'
+name = "Nature's Aura Render Fix"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4fda9f3ca65502754804dfdcae8eed443eac5fba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6615496
+project-id = 1280329

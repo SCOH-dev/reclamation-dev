@@ -1,0 +1,16 @@
+filename = 'fancymenu_forge_3.6.2_MC_1.20.1.jar'
+name = 'FancyMenu'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bcfefe52746b824d70e86ad4815f01b532da2dfc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6722592
+project-id = 367706

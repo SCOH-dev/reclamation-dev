@@ -1,0 +1,16 @@
+filename = 'via_romana-forge-1.4.1.jar'
+name = 'Via Romana'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6a79aa23ecbe2ed6c83c57000c6899f8ff82c095'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6645645
+project-id = 1026508
