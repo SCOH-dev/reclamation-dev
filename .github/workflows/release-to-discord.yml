@@ -12,5 +12,5 @@ jobs:
         uses: SethCohen/github-releases-to-discord@v1
         with:
           webhook_url: ${{ secrets.WEBHOOK_URL }}
-          username: "New Release"
+          content: "A new version of Reclamation has been pushed to CurseForge! It should be approved within 24 hours."
           reduce_headings: true
