@@ -558,6 +558,8 @@
 				"Their rocky combs produce much more wax and honey than their wasteland cousins, but more importantly, they can rarely produce &6Copper Combs&r as a specialty."
 				""
 				"&7Tip: specialties are only produced when a bee is ecstatic! To make a bee ecstatic, you have to have its housing climate &lexactly&r&7 match the bee's preferred climate. Either breed it so that it prefers the hot dry wastes, or use special frames to adjust the temperature and humidity!"
+				""
+				"&7Tip 2: tuff (which you need underneath the apiary to breed these bees!) can be crafted or found underground."
 			]
 			icon: {
 				Count: 1

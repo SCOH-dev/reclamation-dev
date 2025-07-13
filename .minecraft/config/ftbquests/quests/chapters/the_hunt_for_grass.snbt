@@ -210,7 +210,7 @@
 				""
 				"Fill it with three buckets of water, place it over a campfire, and it'll start boiling!"
 				""
-				"&7Read Witchcraft: Brewing for more information on what you can do with the cauldron."
+				"&7Tip: if your brew spoils (turns brown because you put items in out of order or incorrectly), you can use an empty bucket to empty the cauldron."
 			]
 			icon: "enchanted:witch_cauldron"
 			id: "6CB296A3AD751F62"

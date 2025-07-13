@@ -1,22 +1,22 @@
-# Reclamation 1.0.3
-
-## Added
-* FTB Backups 2 - #17
-  * PolyLib
-* Extreme Sound Muffler - #17
-* Bottled Sunlight in its own quest, to make sure the Natural Altar page in the NA book is unlocked - #16
-* Earmuffs quest
+# Reclamation 1.0.4
 
 ## Updated
-* Advanced AE -> 1.1.3-1.20.1
-* Sophisticated Backpacks -> 3.23.23.1278 
-* Sophisticated Core -> 1.2.75.1033
-* Sophisticated Storage -> 1.3.55.1200
+* reclamation_util -> 1.0.16
+
+
+## Fixed
+* Enchanted cauldron sometimes needed four buckets - #18
+* Dandelion and poppy seeds have the same recipe - #21
+* Desiccated bees were misspelled - #23
+* Cooking for Blockheads quest typo - #20
+
 
 ## Changed
-* Earmuffs recipe - copper, wool and straw
-* Generating Mana quest now has Wand of the Forest as an optional task
-* Some early quests now have images associated with them, to provide direction for unfamiliar multiblocks
+* Analyzer and meter are easier to craft - #22
+* Wheat seeds can be made from wheat on a cutting board
+* Rocky bees need tuff underneath the apiary to breed - #24
+  * Added a note in the quest that says this as well
+* The Runic Altar quest now tells the player they can craft mystical flower seeds
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)

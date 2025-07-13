@@ -1725,7 +1725,7 @@
 			description: [
 				"The &6Cooking Table&r is the heart of a multiblock kitchen - allowing you to craft any number of foods with the items stored inside of it. It can also supply you with tools, water, snow/ice, and milk."
 				""
-				"Especially handy when you have a large amount of foods and a limited amount of barinpower."
+				"Especially handy when you have a large amount of foods and a limited amount of brainpower."
 			]
 			hide_dependency_lines: true
 			icon: "cookingforblockheads:cooking_table"

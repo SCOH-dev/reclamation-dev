@@ -285,7 +285,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('agricraft:seed', '{genes:{fertility:{dom:1,rec:1},gain:{dom:1,rec:1},growth:{dom:1,rec:1},mutativity:{dom:1,rec:1},resistance:{dom:10,rec:10},species:{dom:"minecraft:poppy",rec:"minecraft:poppy"},strength:{dom:1,rec:1}}}'),
         [
-            'minecraft:dandelion',
+            'minecraft:poppy',
             'minecraft:wheat_seeds'
         ]
     )
@@ -663,6 +663,23 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'xercamusic:music_sheet'},
     'minecraft:ink_sac',
     'minecraft:charcoal')
+
+    //easier analyzer and meter recipe
+    event.replaceInput({id: 'complicated_bees:meter'},
+    'minecraft:redstone',
+    'minecraft:red_dye')
+    event.replaceInput({id: 'complicated_bees:meter'},
+    'minecraft:redstone_torch',
+    'naturesaura:infused_iron')
+    event.replaceInput({id: 'complicated_bees:meter'},
+    'minecraft:iron_ingot',
+    'minecraft:copper_ingot')
+    event.replaceInput({id: 'complicated_bees:analyzer'},
+    'minecraft:diamond',
+    'naturesaura:infused_iron')
+    event.replaceInput({id: 'complicated_bees:analyzer'},
+    'minecraft:redstone',
+    'embers:caminite_brick')
 
     //copycats from andesite
     event.replaceInput({mod: 'copycats'},
@@ -1115,4 +1132,23 @@ ServerEvents.recipes(event => {
         'ae2:item_cell_housing',
         'storagedrawers:creative_vending_upgrade'
     ])
+
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "minecraft:wheat",
+            }
+        ],
+        "result": [
+            {
+                "item": "minecraft:wheat_seeds",
+                "count": 1,
+                "chance": 0.5
+            }
+        ],
+        "tool": {
+            "tag": "forge:tools/knives"
+        }
+    })
 })

@@ -58,6 +58,8 @@
 				"Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an &6Altar&r should do well here. Place your Altar blocks in a 2x3 rectangle and it should start collecting power!"
 				""
 				"The more &6varying kinds&r of plant life there are around the&6 Altar,&r the more power you can store. This includes &6trees, tall grass, flowers, and crops!&r"
+				""
+				"&7Tip: the altar has a range of 16 blocks!"
 			]
 			id: "359392265BF91571"
 			rewards: [
@@ -649,7 +651,11 @@
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
-			description: ["An apparatus perfect for channelling large amounts of mana into collections of objects, the &6Runic Altar&r will (obviously) let you make runes."]
+			description: [
+				"An apparatus perfect for channelling large amounts of mana into collections of objects, the &6Runic Altar&r will (obviously) let you make runes."
+				""
+				"&7Tip: with the altar, you can craft mystical flower seeds!"
+			]
 			id: "5EA3E8FCE4EBBA82"
 			rewards: [
 				{
@@ -1701,7 +1707,11 @@
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
-			description: ["With the ability to grow flowers, you might want to start looking into &6breeding bees.&r To start, you'll need an &6apiary.&r"]
+			description: [
+				"With the ability to grow flowers, you might want to start looking into &6breeding bees.&r To start, you'll need an &6apiary.&r"
+				""
+				"&7Tip: this unlocks a new questline on the left!"
+			]
 			id: "29CB5767DE978673"
 			rewards: [{
 				id: "0C2B92BF2EC44903"
