@@ -1,22 +1,9 @@
-# Reclamation 1.0.4
+# Reclamation 1.0.5
 
 ## Updated
-* reclamation_util -> 1.0.16
-
-
-## Fixed
-* Enchanted cauldron sometimes needed four buckets - #18
-* Dandelion and poppy seeds have the same recipe - #21
-* Desiccated bees were misspelled - #23
-* Cooking for Blockheads quest typo - #20
-
-
-## Changed
-* Analyzer and meter are easier to craft - #22
-* Wheat seeds can be made from wheat on a cutting board
-* Rocky bees need tuff underneath the apiary to breed - #24
-  * Added a note in the quest that says this as well
-* The Runic Altar quest now tells the player they can craft mystical flower seeds
+* Applied Energistics 2 -> 15.4.6
+* Complicated Bees -> 1.20.1-2.3.1
+* Sophisticated Backpacks -> 3.23.23.1281
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)
