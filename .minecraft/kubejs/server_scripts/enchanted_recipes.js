@@ -293,7 +293,8 @@ ServerEvents.recipes(event => {
         ],
         "power": 500,
         "result": {
-            "item": "naturesaura:gold_fiber"
+            "item": "naturesaura:gold_fiber",
+            "count": 3
         }
     })
 

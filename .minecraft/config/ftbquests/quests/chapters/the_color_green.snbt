@@ -170,7 +170,9 @@
 				""
 				"Vastly useful in a variety of mechanical applications, lead is a great first step to leveraging either &6raw mechanical power&r or &6Ember&r in your pursuits."
 				""
-				"&7Tip: the ancient codex is a little confusing at first, but it will guide you through the Embers mod! Start at the top section of the book marked Natural Energy, right click entries to mark them as read, and make sure you READ CAREFULLY!"
+				"&7Tip: the ancient codex is a little confusing at first, but it will guide you through the Embers mod! Start at Natural Energy, right click entries to mark them as read, and make sure you &lREAD CAREFULLY!"
+				""
+				"&7Tip 2: you can use Theurgy to triple ingot output from raw ores!"
 			]
 			id: "61329AF67AD28062"
 			rewards: [
@@ -192,7 +194,7 @@
 			]
 			tasks: [{
 				id: "509473B71F9A83D4"
-				item: "embers:lead_ingot"
+				item: "embers:raw_lead"
 				type: "item"
 			}]
 			x: 1.5d
@@ -233,7 +235,11 @@
 				"2737F0AE3D1835D4"
 				"27C68B6622F186D7"
 			]
-			description: ["The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"]
+			description: [
+				"The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"
+				""
+				"&7Tip: there is a better way to make brilliant fiber, but you'll need blaze powder... maybe a special botanic pumpkin can help here?"
+			]
 			icon: "minecraft:gold_ingot"
 			id: "7010ED9A666FF89E"
 			rewards: [{
@@ -1355,7 +1361,7 @@
 			description: [
 				"The &6Alchemy Catalyst&r allows you to use the power of mana to transmute a wide variety of items. Place it under a mana pool to start alchemizing!"
 				""
-				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and log types into other log types!"
+				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and ghast tears into ender pearls!"
 				""
 				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear.&r"
 			]
@@ -2100,6 +2106,20 @@
 			title: "Bottling Sunlight"
 			x: 1.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5EA3E8FCE4EBBA82"
+				"2FD66F543443B8A8"
+			]
+			id: "600D4895FA0B8D54"
+			tasks: [{
+				id: "537431F8275FE5B3"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
 		}
 	]
 	title: "Touching Grass"

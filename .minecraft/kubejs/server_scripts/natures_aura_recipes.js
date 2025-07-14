@@ -142,11 +142,38 @@ ServerEvents.recipes(event => {
             "item": "minecraft:spruce_sapling"
         },
         "output": {
-            "item": "embers:lead_ingot",
+            "item": "embers:raw_lead",
             "count": 2
         },
         "time": 200
     }).id("reclamation:embers/lead_ingot")
+    event.custom({
+        "type": "theurgy:incubation",
+        "conditions": [
+            {
+                "type": "forge:not",
+                "value": {
+                 "type": "forge:tag_empty",
+                 "tag": "forge:ingots/lead"
+                }
+            }
+        ],
+        "incubation_time": 100,
+        "mercury": {
+            "item": "theurgy:mercury_shard"
+        },
+        "result": {
+            "count": 1,
+            "item": "embers:lead_ingot"
+        },
+        "salt": {
+            "item": "theurgy:alchemical_salt_mineral"
+        },
+        "sulfur": {
+            "item": "theurgy:alchemical_sulfur_lead"
+        }
+    })
+    event.remove({id: 'theurgy:incubation/ingots_lead_from_alchemical_sulfur_lead'})
 
     //cinder flour
     event.custom({
