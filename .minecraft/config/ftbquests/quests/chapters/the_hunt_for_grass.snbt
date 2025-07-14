@@ -139,11 +139,25 @@
 			]
 			icon: "theurgy:alchemical_salt_mineral"
 			id: "5C476B553750BDE9"
-			rewards: [{
-				id: "71E7F7469D5DBC39"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "71E7F7469D5DBC39"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "764AD1996C56BA80"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_iron"
+						tag: {
+							"theurgy:sulfur.source.id": "#forge:ingots/iron"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "319E2AD5AE5FB91E"
@@ -873,12 +887,14 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["4CE0C02B0602C06E"]
 			description: [
 				"Tired of hearing those godforsaken &6mandrakes&r shriek? Make some &6earmuffs!&r They'll protect you from getting your ears blown out by their piercing scream."
 				""
 				"&7Tip: the higher the strength stat on mandrake is, the less likely they are to wake up."
 			]
 			id: "0922C76A06BE0C7A"
+			optional: true
 			rewards: [{
 				id: "01C80FF930E3D5D0"
 				type: "xp"

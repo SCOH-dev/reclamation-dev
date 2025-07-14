@@ -1,9 +1,12 @@
-# Reclamation 1.0.5
+# Reclamation 1.0.6
 
 ## Updated
-* Applied Energistics 2 -> 15.4.6
-* Complicated Bees -> 1.20.1-2.3.1
-* Sophisticated Backpacks -> 3.23.23.1281
+* reclamation_util -> 1.0.17
+
+## Fixed
+* Earmuff quest had no dependencies - #27
+* Actually fully stop chicken jockeys from spawning - #25
+* Stop more overlays from spamming console - #28
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)

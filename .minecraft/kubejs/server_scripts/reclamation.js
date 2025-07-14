@@ -1,7 +1,7 @@
 EntityEvents.checkSpawn(event => {
-  if (event.type == 'JOCKEY') {
-    event.cancel()
-  }
+  try {
+    if (event.entity.isChickenJockey()) event.cancel()
+  } catch(error) {}
 })
 
 ServerEvents.loaded(event => {
