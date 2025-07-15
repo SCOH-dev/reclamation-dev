@@ -824,7 +824,7 @@
 				""
 				"Once linked, just punch the sign and you'll fast travel!"
 				""
-				"&7Tip: to see what blocks count as path blocks, search &2#via_romana:path_blocks&7 in your recipe viewer."
+				"&7Tip: to see what blocks count as path blocks, search &2#via_romana:path_block&7 in your recipe viewer."
 			]
 			icon: "supplementaries:sign_post_oak"
 			id: "38D0317E85210C44"
