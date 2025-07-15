@@ -20,6 +20,15 @@ ServerEvents.recipes(event => {
         B: 'embers:caminite_blend'
     })
 
+    //spice rack collision
+    event.remove({id: "cookingforblockheads:spice_rack"})
+    event.shaped('cookingforblockheads:spice_rack', [
+        'ACA'
+    ], {
+        A: '#minecraft:wooden_slabs',
+        C: 'embers:caminite_blend'
+    })
+
     event.custom({
         "type": "farmersdelight:cutting",
         "ingredients": [

@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "the_color_green"
 	group: ""
-	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:grass_block"
 	id: "40E17D40DC433CF2"
 	images: [
@@ -103,7 +103,11 @@
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
-			description: ["Using dye from the flowers you can get by &6bonemealing grass,&r you can craft a special kind of fertilizer that can coax &6magical flowers&r to life."]
+			description: [
+				"Using dye from the flowers you can get by &6bonemealing grass,&r you can craft a special kind of fertilizer that can coax &6mystical flowers&r to life."
+				""
+				"&7Tip: you can also get mystical flower seeds through crossbreeding!"
+			]
 			id: "624E015B09427542"
 			rewards: [
 				{
@@ -134,6 +138,8 @@
 			dependencies: ["624E015B09427542"]
 			description: [
 				"The &6Pure Daisy&r can, as its name implies, purify nearby objects. The most important things you should start with are &6logs and stone,&r but there are a few other things you can purify as well!"
+				""
+				"Simply place the petal apothecary down, fill it with water, then toss in the petals and finally a seed!"
 				""
 				"&7Tip: check the usages of the Pure Daisy to see what else it can transform."
 			]
@@ -558,7 +564,7 @@
 				"There are a few items you can place on top of your altar to increase its capacity and recharge rate:"
 				""
 				"&6Torch:&r +0.5x recharge rate"
-				"&6Skeleton Skull:&r +1x recharge rate, +1x capacity"
+				"&6Skeleton Skull/Husk Head:&r +1x recharge rate, +1x capacity"
 				"&6Chalice:&r +1x capacity"
 				""
 				"Eventually, you can replace the torch with a candelabra, the skeleton skull with a wither skeleton or player skull, and the chalice with a filled chalice for even more recharge rate and capacity."
@@ -660,7 +666,7 @@
 			description: [
 				"An apparatus perfect for channelling large amounts of mana into collections of objects, the &6Runic Altar&r will (obviously) let you make runes."
 				""
-				"&7Tip: with the altar, you can craft mystical flower seeds!"
+				"&7Tip: with the altar, if you don't have them already, you can craft mystical flower seeds!"
 			]
 			id: "5EA3E8FCE4EBBA82"
 			rewards: [
@@ -773,7 +779,7 @@
 				""
 				"Most rituals can target a remote area using a waystone (blooded or otherwise), and some rituals can even be performed away from the altar by adding a charged attuned stone to them!&6 Read through the two reward books to find out what rituals you can perform.&r"
 				""
-				"&7Tip: The ritual of fertility is a very cheap way to mass-bonemeal plants!&r"
+				"&7Tip: the rite of fertility is a cheap, easy way to mass bonemeal grass, crops or anything else!"
 			]
 			icon: {
 				Count: 1
@@ -1050,6 +1056,7 @@
 				"5EA3E8FCE4EBBA82"
 				"7D5E4A2212C421AE"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Using the power of mana and a pumpkin, you think you can create a weak imitation of a blaze head. Using this, you can then channel altar power through that imitation blaze head, a few extra reagents, and a &6small nether chalk circle&r to &6summon a real blaze!&r"
 				""
@@ -2106,20 +2113,6 @@
 			title: "Bottling Sunlight"
 			x: 1.0d
 			y: -1.0d
-		}
-		{
-			dependencies: [
-				"5EA3E8FCE4EBBA82"
-				"2FD66F543443B8A8"
-			]
-			id: "600D4895FA0B8D54"
-			tasks: [{
-				id: "537431F8275FE5B3"
-				item: "botania:lens_normal"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -4.0d
 		}
 	]
 	title: "Touching Grass"

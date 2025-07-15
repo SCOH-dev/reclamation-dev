@@ -13,6 +13,7 @@
 		{
 			dependencies: ["647B651959E0F0D0"]
 			description: ["The &6Ender Dragon&r not only has horrific halitosis, it also prevents you from exploring the rest of the End and all its goodies."]
+			hide_until_deps_complete: false
 			id: "46100B5AD6C088F1"
 			rewards: [{
 				id: "24C9D6E63139FE34"
@@ -66,6 +67,7 @@
 				""
 				"&7                                                    -ACCBDD"
 			]
+			hide_until_deps_complete: false
 			icon: "minecraft:cake"
 			id: "68FE5D02293FE722"
 			rewards: [{

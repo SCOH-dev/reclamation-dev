@@ -5,8 +5,56 @@
 	filename: "ffood_plants"
 	group: "2BFAC9C95DAED88B"
 	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "farmersdelight:vegetable_soup"
 	id: "50D63635ACA38A6D"
+	images: [
+		{
+			dependency: "2E15C8681F5D2ACF"
+			height: 5.0d
+			image: "reclamation:textures/quests/vanilla.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.499999999999979d
+			y: -2.5833333333333357d
+		}
+		{
+			dependency: "2E15C8681F5D2ACF"
+			height: 5.0d
+			image: "reclamation:textures/quests/flowers.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependency: "600A7F0DFD880119"
+			height: 5.0d
+			image: "reclamation:textures/quests/automation.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependency: "2E15C8681F5D2ACF"
+			height: 10.0d
+			image: "reclamation:textures/quests/even_more_plants.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependency: "2E15C8681F5D2ACF"
+			height: 5.0d
+			image: "reclamation:textures/quests/cooking_for_blockheads.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: -8.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -23,7 +71,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -39,7 +87,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -54,7 +102,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -69,7 +117,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -84,7 +132,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -99,7 +147,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -114,7 +162,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -127,7 +175,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -144,7 +192,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -157,7 +205,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -170,7 +218,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -183,7 +231,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -198,7 +246,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -213,7 +261,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -228,7 +276,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -243,7 +291,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -258,7 +306,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -273,7 +321,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -288,7 +336,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -303,7 +351,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -318,7 +366,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -331,7 +379,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -346,7 +394,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0B5C8BA575972913"]
@@ -362,7 +410,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -377,7 +425,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -392,7 +440,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -407,7 +455,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -422,7 +470,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0B5C8BA575972913"]
@@ -438,7 +486,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -453,7 +501,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -468,7 +516,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -483,7 +531,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -498,7 +546,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -513,7 +561,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -528,7 +576,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -543,7 +591,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -558,7 +606,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -589,7 +637,7 @@
 			]
 			title: "Podzol"
 			x: 2.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["303D96CD71A877FA"]
@@ -601,8 +649,8 @@
 				item: "croptopia:onion"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -621,8 +669,8 @@
 				item: "croptopia:sweetpotato"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 4.0d
+			x: -6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -637,8 +685,8 @@
 				item: "croptopia:barley"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.0d
+			x: -7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -653,8 +701,8 @@
 				item: "croptopia:basil"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -669,8 +717,8 @@
 				item: "croptopia:radish"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 4.0d
+			x: -9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -685,8 +733,8 @@
 				item: "croptopia:blackbean"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.0d
+			x: -5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -701,8 +749,8 @@
 				item: "croptopia:greenbean"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["137AC3CF85666619"]
@@ -713,8 +761,8 @@
 				item: "croptopia:yam"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.0d
+			x: -7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["137AC3CF85666619"]
@@ -725,8 +773,8 @@
 				item: "croptopia:tomato"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.0d
+			x: -6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -741,7 +789,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -756,8 +804,8 @@
 				item: "croptopia:saguaro"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 4.0d
+			x: -8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["539A68C71D4CCBE9"]
@@ -768,8 +816,8 @@
 				item: "croptopia:cabbage"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -783,8 +831,8 @@
 				item: "croptopia:greenonion"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.0d
+			x: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["708E081EFB5553CB"]
@@ -795,8 +843,8 @@
 				item: "croptopia:coffee_beans"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.0d
+			x: -5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6773A50CB01DADDF"]
@@ -807,8 +855,8 @@
 				item: "croptopia:rice"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 5.0d
+			x: -8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3E4A7F5E033DE19E"]
@@ -819,8 +867,8 @@
 				item: "croptopia:turnip"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 5.0d
+			x: -9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5B5641FA7A0DD8E0"]
@@ -831,8 +879,8 @@
 				item: "croptopia:rutabaga"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 6.0d
+			x: -7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -846,8 +894,8 @@
 				item: "croptopia:chile_pepper"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 6.0d
+			x: -4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -861,8 +909,8 @@
 				item: "croptopia:soybean"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 6.0d
+			x: -5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -876,8 +924,8 @@
 				item: "croptopia:corn"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 6.0d
+			x: -6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -891,8 +939,8 @@
 				item: "croptopia:mustard"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.0d
+			x: -5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -906,8 +954,8 @@
 				item: "croptopia:bellpepper"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5F89CB1EB71D3A1F"]
@@ -918,8 +966,8 @@
 				item: "croptopia:cucumber"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 7.0d
+			x: -7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5F89CB1EB71D3A1F"]
@@ -930,8 +978,8 @@
 				item: "croptopia:strawberry"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.0d
+			x: -6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5F89CB1EB71D3A1F"]
@@ -942,8 +990,8 @@
 				item: "croptopia:asparagus"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 7.0d
+			x: -8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5F89CB1EB71D3A1F"]
@@ -954,8 +1002,8 @@
 				item: "croptopia:celery"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 7.0d
+			x: -4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -969,8 +1017,8 @@
 				item: "croptopia:oat"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 7.0d
+			x: -10.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -984,8 +1032,8 @@
 				item: "croptopia:peanut"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 7.0d
+			x: -9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -999,8 +1047,8 @@
 				item: "croptopia:tomatillo"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 8.0d
+			x: -7.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["33FEFD3C13804031"]
@@ -1011,8 +1059,8 @@
 				item: "croptopia:zucchini"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 8.0d
+			x: -8.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1026,8 +1074,8 @@
 				item: "croptopia:raspberry"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 8.0d
+			x: -6.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1041,8 +1089,8 @@
 				item: "croptopia:blueberry"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.0d
+			x: -4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1056,8 +1104,8 @@
 				item: "croptopia:blackberry"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.0d
+			x: -5.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5ED74322B9011AA1"]
@@ -1068,8 +1116,8 @@
 				item: "croptopia:leek"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.0d
+			x: -2.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1083,8 +1131,8 @@
 				item: "croptopia:lettuce"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.0d
+			x: -1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["068AA2EB4FEE62ED"]
@@ -1095,8 +1143,8 @@
 				item: "croptopia:ginger"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 8.0d
+			x: -9.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3FE30435F595931C"]
@@ -1107,8 +1155,8 @@
 				item: "croptopia:cantaloupe"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.0d
+			x: -3.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5FD2AF761DFCFCDB"]
@@ -1119,8 +1167,8 @@
 				item: "croptopia:honeydew"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 8.0d
+			x: -10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1134,8 +1182,8 @@
 				item: "croptopia:kiwi"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 9.0d
+			x: -7.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1149,8 +1197,8 @@
 				item: "croptopia:eggplant"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 9.0d
+			x: -10.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1164,8 +1212,8 @@
 				item: "croptopia:cauliflower"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.0d
+			x: -4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1179,8 +1227,8 @@
 				item: "croptopia:currant"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 9.0d
+			x: -9.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1194,8 +1242,8 @@
 				item: "croptopia:olive"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 9.0d
+			x: -8.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1209,8 +1257,8 @@
 				item: "croptopia:broccoli"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 9.0d
+			x: -6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1224,8 +1272,8 @@
 				item: "croptopia:artichoke"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
+			x: -3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5C958E5EFDC1238C"]
@@ -1236,8 +1284,8 @@
 				item: "croptopia:rhubarb"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 9.0d
+			x: -2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1251,8 +1299,8 @@
 				item: "croptopia:garlic"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 9.0d
+			x: -11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1266,8 +1314,8 @@
 				item: "croptopia:turmeric"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 9.0d
+			x: -12.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1281,8 +1329,8 @@
 				item: "croptopia:grape"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 9.0d
+			x: -5.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5C958E5EFDC1238C"]
@@ -1293,8 +1341,8 @@
 				item: "croptopia:spinach"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.0d
+			x: -1.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4DD65B7AF1F78BAA"]
@@ -1305,8 +1353,8 @@
 				item: "croptopia:squash"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 10.0d
+			x: -8.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -1320,8 +1368,8 @@
 				item: "croptopia:kale"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 10.0d
+			x: -4.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -1335,8 +1383,8 @@
 				item: "croptopia:elderberry"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 10.0d
+			x: -6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -1350,8 +1398,8 @@
 				item: "croptopia:hops"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 10.0d
+			x: -7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -1365,8 +1413,8 @@
 				item: "croptopia:cranberry"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 10.0d
+			x: -5.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["707768F4402BB1AB"]
@@ -1377,8 +1425,8 @@
 				item: "croptopia:vanilla"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 10.0d
+			x: -9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -1392,12 +1440,13 @@
 				item: "croptopia:pineapple"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 10.0d
+			x: -3.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Crunchy, subtly sweet nuts with a toasty, earthy finish."]
+			hide_until_deps_complete: true
 			id: "1916E46BEB1F2537"
 			tasks: [{
 				id: "41E7B5CAB6A25478"
@@ -1405,11 +1454,12 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Crisp, juicy fruits that balance light sweetness with a refreshing tang."]
+			hide_until_deps_complete: true
 			id: "6FEC2402791EC0A4"
 			tasks: [{
 				id: "286CAA1CA20EF61B"
@@ -1417,11 +1467,12 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Soft, slightly fuzzy fruits with a delightfully sweet-tart burst."]
+			hide_until_deps_complete: true
 			id: "3E0ED15B75A185CA"
 			tasks: [{
 				id: "2D28FBBD6FDC2758"
@@ -1429,11 +1480,12 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Creamy and buttery with a mild, slightly grassy flavor."]
+			hide_until_deps_complete: true
 			id: "1CDCD52F9FA69B34"
 			tasks: [{
 				id: "666D92F23E3FD131"
@@ -1441,191 +1493,207 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Sweet, mellow fruits with a classic tropical aroma."]
+			hide_until_deps_complete: true
 			id: "19014BBBD41BCF0B"
 			tasks: [{
 				id: "3652CEAD8CE31DB7"
 				item: "croptopia:banana_sapling"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Soft and nutty, cashews offer a creamy bite with a sweet-savory balance."]
+			hide_until_deps_complete: true
 			id: "030F46DE570F297E"
 			tasks: [{
 				id: "071DFB6DA5BEA7C9"
 				item: "croptopia:cashew_sapling"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: 0.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Cherries burst with juicy intensity; sweet, sometimes sharp, and always bright."]
+			hide_until_deps_complete: true
 			id: "335CBABD76A3BA31"
 			tasks: [{
 				id: "50D8B96E983DCEF3"
 				item: "croptopia:cherry_sapling"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Cracking into a coconut reveals cool, sweet water and soft, fragrant meat."]
+			hide_until_deps_complete: true
 			id: "2D7C1F8BC048CFCD"
 			tasks: [{
 				id: "4C30645AFA25BDE8"
 				item: "croptopia:coconut_sapling"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.0d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Dates are also known as nature's candy: chewy, caramel-rich, and deeply sweet."]
+			hide_until_deps_complete: true
 			id: "682C64F6A2B0291A"
 			tasks: [{
 				id: "0A347B4BF3CEFB84"
 				item: "croptopia:date_sapling"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["With neon skin and unique speckled flesh, dragon fruit tastes delicate, lightly sweet, and just a little floral."]
+			hide_until_deps_complete: true
 			id: "28A459B956D547DD"
 			tasks: [{
 				id: "71EB383F97A76AD0"
 				item: "croptopia:dragonfruit_sapling"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Figs are jammy and soft with a honey-like flavor."]
+			hide_until_deps_complete: true
 			id: "39EE227C5F58CAAA"
 			tasks: [{
 				id: "0EE58F9514846859"
 				item: "croptopia:fig_sapling"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 1.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Grapefruit will wake up your palate - juicy, sour, bitter, and bold."]
+			hide_until_deps_complete: true
 			id: "2FD4033DA28F9D21"
 			tasks: [{
 				id: "07C244BAE9783FAE"
 				item: "croptopia:grapefruit_sapling"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Kumquats are often eaten whole, with a sharp citrus shock over sweet orange notes."]
+			hide_until_deps_complete: true
 			id: "404DB15C6D49B646"
 			tasks: [{
 				id: "3899B80F69BE83A2"
 				item: "croptopia:kumquat_sapling"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: 3.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Tart and vivid, lemons cut through richness with their clean citrus bite."]
+			hide_until_deps_complete: true
 			id: "1636367444D293D4"
 			tasks: [{
 				id: "3413A89688D0A66B"
 				item: "croptopia:lemon_sapling"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.0d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Smaller and punchier than lemons, limes have a tight, zesty sting."]
+			hide_until_deps_complete: true
 			id: "6BC76C8A74C25796"
 			tasks: [{
 				id: "5D192C7EE08DF2F9"
 				item: "croptopia:lime_sapling"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: 0.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Mangoes melt in your mouth with tropical sweetness."]
+			hide_until_deps_complete: true
 			id: "629C52541A4D897E"
 			tasks: [{
 				id: "3AE9C78DFA8CC86D"
 				item: "croptopia:mango_sapling"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.0d
+			x: 1.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Like a peach in sleek skin, nectarines are sweet, tangy, and satisfyingly juicy."]
+			hide_until_deps_complete: true
 			id: "767A247376C17981"
 			tasks: [{
 				id: "4EF1B72F18768747"
 				item: "croptopia:nectarine_sapling"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: 2.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Ground nutmeg adds a warm, nutty-spicy aroma that’s cozy and festive to any dish."]
+			hide_until_deps_complete: true
 			id: "031FB94A1D6CEC81"
 			tasks: [{
 				id: "3A19797127F26A8E"
 				item: "croptopia:nutmeg_sapling"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 3.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Oranges are all brightness and juice, sweet with a sunny citrus finish."]
+			hide_until_deps_complete: true
 			id: "6FD2642EB3540BD6"
 			tasks: [{
 				id: "65A7D0C295262FBA"
 				item: "croptopia:orange_sapling"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 8.0d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Peaches are the most famous of stone fruit, for good reason."]
+			hide_until_deps_complete: true
 			id: "308A89A2E4901594"
 			tasks: [{
 				id: "5FE23F8AF575E64D"
@@ -1633,11 +1701,12 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Pears are quietly sweet and crisp; eternally elegant."]
+			hide_until_deps_complete: true
 			id: "750822BC779DC440"
 			tasks: [{
 				id: "1613B1390704C338"
@@ -1645,11 +1714,12 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Pecans have a great crunch with deep nutty flavor."]
+			hide_until_deps_complete: true
 			id: "0B17ABE850EC89B7"
 			tasks: [{
 				id: "341EF38F25275B6C"
@@ -1657,11 +1727,12 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Persimmons are smooth and syrupy, with a mellow flavor that deepens as they ripen."]
+			hide_until_deps_complete: true
 			id: "7B403F791AF06ADC"
 			tasks: [{
 				id: "1711D92C76266C70"
@@ -1669,23 +1740,25 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Plums skirt the line between tart and sweet, finishing with a tangy punch."]
+			hide_until_deps_complete: true
 			id: "4FC4A49972031C19"
 			tasks: [{
 				id: "3DDAD2ADDE518DB4"
 				item: "croptopia:plum_sapling"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.0d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Star fruit is crisp and juicy, with a tropical edge."]
+			hide_until_deps_complete: true
 			id: "63DDF088215038F0"
 			tasks: [{
 				id: "52A2D9C4C6F8E2C2"
@@ -1693,11 +1766,12 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Walnuts are hearty and slightly bitter, great for a midday snack."]
+			hide_until_deps_complete: true
 			id: "467750D10318D9E8"
 			tasks: [{
 				id: "36499DF060C70D98"
@@ -1705,19 +1779,20 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 10.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["226F9F21A941389C"]
+			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["The bark grinds down to a warm, spicy-sweet powder that instantly deepens any flavor."]
+			hide_until_deps_complete: true
 			id: "794AFD13A349F2A0"
 			tasks: [{
 				id: "4945AB3281C4A79B"
 				item: "croptopia:cinnamon_sapling"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
 			can_repeat: false
@@ -1762,8 +1837,8 @@
 				item: "appliedcooking:kitchen_station"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.5d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4D73550447732EA7"]
@@ -1887,8 +1962,8 @@
 				item: "botania:horn_grass"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -4.5d
+			x: -11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C29BAAD5DD7FC9"]
@@ -1903,13 +1978,13 @@
 				item: "botania:drum_wild"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -3.5d
+			x: -11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
-				"The &6Harvester&r is a little more harder to make than the other automated harvesters, but it makes up for it in ease of use."
+				"The &6Harvester&r is a little harder to make than the other automated harvesters, but it makes up for it in ease of use."
 				""
 				"Place it on the same level as crops and it will harvest them - a 3x3 area by default, but this can be upgraded with machine upgrades."
 			]
@@ -1919,8 +1994,8 @@
 				item: "mysticalagriculture:harvester"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -4.5d
+			x: -12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -1935,8 +2010,8 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -4.5d
+			x: -10.0d
+			y: -1.0d
 		}
 	]
 	title: "Plants Galore"

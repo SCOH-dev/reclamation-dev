@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "the_sound_of_life"
 	group: ""
-	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:egg"
 	id: "384351F130068923"
 	order_index: 3
@@ -1839,6 +1839,7 @@
 				""
 				"Tier installers give the machine more processing slots - from 1 item at a time to &69 in some machines!&r"
 			]
+			icon: "mekanism:upgrade_speed"
 			id: "4A5E73C5F6D316DE"
 			rewards: [{
 				id: "0077F085A6A2F139"
@@ -2105,6 +2106,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "41E4110B55B6F086"
 				item: "ae2:controller"
@@ -2349,6 +2351,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "2DF292275CD3CCFC"
@@ -2512,6 +2515,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					id: "6502C2B9561E81FA"

@@ -4,12 +4,11 @@
 	default_quest_shape: ""
 	filename: "the_hunt_for_grass"
 	group: ""
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:dirt"
 	id: "0F8CD7C8C7FD56E6"
 	images: [{
-		dependency: "658C67ABFD247487"
+		dependency: "2E15C8681F5D2ACF"
 		height: 5.0d
 		image: "reclamation:textures/quests/cuprosia.png"
 		rotation: 0.0d

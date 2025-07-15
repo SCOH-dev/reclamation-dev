@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "the_touch_of"
 	group: ""
+	hide_quest_until_deps_visible: true
 	icon: "reclamation_util:filled_biome_bottle"
 	id: "240B183CDC03CB19"
 	order_index: 4
@@ -17,6 +18,7 @@
 				"Now you just have to regain the diversity in surroundings you remember there once being..."
 			]
 			disable_toast: true
+			hide_until_deps_complete: true
 			id: "797FD98625915CAF"
 			rewards: [{
 				id: "4557B55BD889AB44"

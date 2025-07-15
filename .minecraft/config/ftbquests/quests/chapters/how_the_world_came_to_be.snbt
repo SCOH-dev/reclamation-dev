@@ -5,18 +5,17 @@
 	filename: "how_the_world_came_to_be"
 	group: ""
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_complete: true
 	icon: "kubejs:dried_earth"
 	id: "2B630DD43CEBA9AC"
 	images: [
 		{
-			dependency: "01AB2D65C171F1F9"
+			dependency: "6B5B443D2F7DD3D4"
 			height: 4.0d
 			image: "reclamation:textures/quests/theurgy_1.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 3.5d
-			y: -4.5d
+			x: 2.5d
+			y: -5.0d
 		}
 		{
 			dependency: "01AB2D65C171F1F9"
@@ -24,8 +23,8 @@
 			image: "reclamation:textures/quests/theurgy_2.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -3.5d
-			y: -9.5d
+			x: -3.2857142857142776d
+			y: -9.125d
 		}
 	]
 	order_index: 0
@@ -170,6 +169,7 @@
 				""
 				"&7Tip: you can also use the cutting board to get more charcoal and scrap wood out of dead logs!"
 			]
+			hide_details_until_startable: true
 			icon: "minecraft:copper_ingot"
 			id: "6B5B443D2F7DD3D4"
 			rewards: [
