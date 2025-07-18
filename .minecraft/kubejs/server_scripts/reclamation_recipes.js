@@ -20,6 +20,24 @@ ServerEvents.recipes(event => {
         B: 'embers:caminite_blend'
     })
 
+    //ladders
+    event.shaped('4x minecraft:ladder', [
+        'A A',
+        'AAA',
+        'A A'
+    ], {
+        A: '#forge:rods/wooden'
+    })
+
+    //chests
+    event.shaped('minecraft:chest', [
+        'AAA',
+        'A A',
+        'AAA'
+    ], {
+        A: '#enchanted:planks'
+    })
+
     //spice rack collision
     event.remove({id: "cookingforblockheads:spice_rack"})
     event.shaped('cookingforblockheads:spice_rack', [

@@ -212,6 +212,8 @@
 				"&6Ember&r is the lifeblood of the world. Despite whatever happened, there is still virtually infinite Ember available deep underground - you just need to make a machine that can mine it. "
 				""
 				"Enter the &6Ember Bore&r - place it on bedrock, add a &6Mechanical Core&r above it so you can pipe things in and out of it, and give it some fuel! It'll start digging up that sweet, sweet Ember."
+				""
+				"&7Tip: the Mechanical Core acts as an extension for most Embers multiblocks! You can transfer items, fluid, and ember in and out of the core as if it was a part of the block it is attached to."
 			]
 			icon: "embers:ember_bore"
 			id: "6DC359D0F8736415"
@@ -473,18 +475,31 @@
 				"01C2598A1D9CF754"
 				"58C55BE2ECDC9FD5"
 			]
-			description: ["An excess of aura generates flowers - and this device can turn &6flowers into an excess of aura!&r Make sure you feed it a &6balanced diet of different flowers,&r though; too much of the same flower and it starts to give you &4diminishing returns.&r"]
+			description: [
+				"An excess of aura generates flowers - and this device can turn &6flowers into an excess of aura!&r Make sure you feed it a &6balanced diet of different flowers,&r though; too much of the same flower and it starts to give you &4diminishing returns.&r"
+				""
+				"&7Tip: if the aura in an area is high enough, it'll charge aura caches! Crouch with a botanist tool (made from infused iron) to repair them with an aura cache in your inventory."
+			]
+			icon: "naturesaura:flower_generator"
 			id: "6628083C19C5F8CB"
 			rewards: [{
 				id: "477677B503ADE1DB"
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "4F2645681873AE53"
-				item: "naturesaura:flower_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4F2645681873AE53"
+					item: "naturesaura:flower_generator"
+					type: "item"
+				}
+				{
+					id: "4C8DCDC35E190F4C"
+					item: "naturesaura:aura_cache"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -1.0d
 		}
@@ -762,6 +777,12 @@
 				{
 					id: "446A39DD19D62C6E"
 					item: "embers:ember_receiver"
+					type: "item"
+				}
+				{
+					id: "60CF6AD07295DD51"
+					item: "embers:ember_relay"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1259,7 +1280,7 @@
 				type: "item"
 			}]
 			title: "(almost) Free Dirt"
-			x: -4.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -1294,8 +1315,8 @@
 				item: "botania:mana_ring"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1312,7 +1333,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
@@ -1781,7 +1802,7 @@
 		{
 			dependencies: ["4BF72A5E2897EBD4"]
 			description: [
-				"The &6Ignem Reactor&r is your solution to high ember usage - when placed between a &6Catalysis&r and &6Combustion Chamber,&r it refines ember at a MUCH higher rate than the Ember Activator; up to &69x more ember&r per crystal item."
+				"The &6Ignem Reactor&r is the ultimate solution to high ember requirements - when placed between a &6Catalysis&r and &6Combustion Chamber,&r it refines ember at a MUCH higher rate than the Ember Activator; up to &69x more ember&r per crystal item."
 				""
 				"&7Tip: the Catalysis and Combustion Chambers need fuel to operate, check JEI for their fuels and multipliers."
 			]
@@ -1894,7 +1915,7 @@
 				}
 			]
 			title: "High Volume Ember Transfer"
-			x: 1.0d
+			x: 0.5d
 			y: -9.5d
 		}
 		{
@@ -2113,6 +2134,122 @@
 			title: "Bottling Sunlight"
 			x: 1.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["77FBE2FA730A82AE"]
+			description: ["The &6Mana Blaster&r is a portable mana spreader that you can fire at will, using mana from a storage device on your person. You can also attach lenses to it, to use their special properties!"]
+			id: "121D0AE32E2F7267"
+			rewards: [{
+				id: "3B7AD6C882A25FC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B4F4E037CD70B79"
+				item: {
+					Count: 1
+					id: "botania:mana_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FD66F543443B8A8"]
+			description: [
+				"&6Mana Lenses&r can change the properties of a mana burst fired from a spreader. They can increase the color, potency, speed, and even make the burst go &6through blocks&r or &6break them&r altogether! Read your &6Lexica Botania&r for more details."
+				""
+				"&7Tip: the weight lens makes blocks a mana burst hits fall - you can exploit this property to get blocks that normally need silk touch by having them fall onto something like a torch!"
+			]
+			id: "4D4FA4ECA2544486"
+			rewards: [{
+				id: "2AB41299C58FD586"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "189B6DBB7354493B"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["700009D450C569A2"]
+			description: [
+				"Now that you have&6 Ember&r, what can you do with it?"
+				""
+				"One useful item is the &6Hearth Coil&r - when provided with Ember, it provides heat to nearby furnaces."
+			]
+			id: "350B8B018EB49351"
+			rewards: [{
+				id: "4CE1767EDEB8401B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13B466D247607172"
+				item: "embers:hearth_coil"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["221E431A74C6E8A5"]
+			description: [
+				"With &6Dawnstone&r comes a better way of activating ember - the &6Pressure Refinery.&r"
+				""
+				"It &4requires water&r as well, but can boost your ember production up to &61.5x the value&r of a plain activator."
+				""
+				"Additionally, if placed atop a metal block surrounded by lava or fire it can double that, getting up to &63x the value&r of crystalline ember! "
+			]
+			id: "04B41651D48C62C1"
+			rewards: [{
+				id: "05D8D9346AFB4ECD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A98FECAF5FBC3EF"
+				item: "embers:pressure_refinery"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3FD3CD01761AE92A"]
+			description: [
+				"The &6Beam Splitter&r allows you to, well, split beams. Ember sent into it will be divided into two bursts sent out from either end."
+				""
+				"The &6Crystal Cell&r is a much higher capacity way to store Ember - piping more crystalline ember into it will &6increase its storage limit.&r"
+			]
+			icon: "embers:beam_splitter"
+			id: "460C4A5F742B528C"
+			rewards: [{
+				id: "5144A431E0AD1D44"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0741BD6655743409"
+					item: "embers:beam_splitter"
+					type: "item"
+				}
+				{
+					id: "6259235F93BF13C4"
+					item: "embers:crystal_cell"
+					type: "item"
+				}
+			]
+			title: "Advanced Ember Logistics"
+			x: -0.5d
+			y: -9.5d
 		}
 	]
 	title: "Touching Grass"

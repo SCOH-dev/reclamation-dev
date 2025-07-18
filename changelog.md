@@ -1,18 +1,23 @@
-# Reclamation 1.0.8
+# Reclamation 1.0.9
+
+
+## Added
+* A couple new Botania quests highlighting recipe changes
+  * It's possible to get blue ice from water and a pure daisy + a weight lens now for frames - #34 
+* A few new Embers quests highlighting useful items
 
 
 ## Changed
-* Flower clipping is now guaranteed to drop 1-2 flowers, instead of the 25% chance it was previously
-* All quests in a chapter are now visible once it unlocks, instead of slowly being revealed
-* Made fertility rite actually usable
-* Husk Heads are now usable as an altar upgrade
+* Botania weight lens recipe
+* Botania mana blaster recipe
 
 
 ## Fixed
-* Added exceptions for Enchanted circle rites in default claim protection
-* Broken recipe for one of the creative items
-* Recipe collision between paths and spice rack
-* Minor typo in Signpost Travel quest
+* Typo in Green Onion name - #32
+* Coffee seeds had no recipe - #31
+* Wood recipes (ladders and chests) - #33
+* Base blaze cage recipe removed - #35
+* Typo in first bee quest - #36
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)

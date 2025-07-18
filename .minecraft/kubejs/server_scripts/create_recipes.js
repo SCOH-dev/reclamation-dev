@@ -36,6 +36,9 @@ ServerEvents.recipes(event => {
     event.remove({id: 'create:pressing/copper_ingot'})
     event.remove({id: 'create:pressing/gold_ingot'})
 
+    //remove blaze burner recipe
+    event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
+
     //disable metals from washing
     event.remove({id: 'create:splashing/soul_sand'})
     event.remove({id: 'create:splashing/red_sand'})

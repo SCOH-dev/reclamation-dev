@@ -115,9 +115,11 @@
 		{
 			dependencies: ["3BAA2A254E052AC1"]
 			description: [
-				"Now pop a &6queen and drone into an apiary,&r and watch the magic happen! Bees can generate some &6very useful resources&r in their combs; initially, though, you'll have to process said combs on &6a cutting board.&r"
+				"Now pop a &6princess and drone into an apiary,&r and watch the magic happen! Bees can generate some &6very useful resources&r in their combs; initially, though, you'll have to process said combs on &6a cutting board.&r"
 				""
 				"At first, you'll only get beeswax and honey drops..."
+				""
+				"&7Tip: wasteland bees (and desiccated and dried bees) need dead bushes as their 'flowers'!"
 			]
 			icon: "complicated_bees:honey_droplet"
 			id: "6C972BEC949FEF25"
@@ -150,7 +152,7 @@
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
-			description: ["By continuously re-breeding &6Wasteland&r bees together, you can start to slowly revitalize them. &6Dessicated&r and &6Dried&r bees are slightly better, with a higher productivity and lifespan - meaning less maintenance and more combs!"]
+			description: ["By continuously re-breeding &6Wasteland&r bees together, you can start to slowly revitalize them. &6Desiccated&r and &6Dried&r bees are slightly better, with a higher productivity and lifespan - meaning less maintenance and more combs!"]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -171,7 +173,7 @@
 							}
 						}
 					}
-					title: "Dessicated"
+					title: "Desiccated"
 					type: "item"
 				}
 				{

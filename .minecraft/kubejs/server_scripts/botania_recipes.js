@@ -24,6 +24,25 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.replaceInput({id: 'botania:lens_weight'},
+        'minecraft:prismarine_crystals',
+        'minecraft:sand')
+
+    event.replaceInput({id: 'botania:mana_gun'},
+        'botania:mana_diamond',
+        'minecraft:flint_and_steel')
+
+    event.custom({
+        "type": "botania:pure_daisy",
+        "input": {
+            "type": "block",
+            "block": "minecraft:snow_block"
+        },
+        "output": {
+            "name": "minecraft:ice"
+        }
+    })
+
     //rune recipes
     remove_rune_ids.forEach(id => {
         event.remove({ id: 'botania:runic_altar/'+id})
