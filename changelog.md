@@ -1,23 +1,45 @@
-# Reclamation 1.0.9
+# Reclamation 1.1.0
+
+A larger changelog than usual - thank you to the discord for all your feedback! Highlights are the flimsy door, removal
+of waystones, smoothing out of the early game, and the microscope is craftable much earlier now.
 
 
 ## Added
-* A couple new Botania quests highlighting recipe changes
-  * It's possible to get blue ice from water and a pure daisy + a weight lens now for frames - #34 
-* A few new Embers quests highlighting useful items
+
+* More ways to bulk craft things that use the cauldron - #40
+    * Prudentium Essence Blocks
+    * Spirit of Calling
+* A poisonous frame, to help speed up early game breeding - #37
+* Flimsy plank door - #39
+* Recipe for obsidian using the natural altar - #38
+
+
+## Updated
+
+* Balm -> 7.3.33
+* CraftingTweaks -> 18.2.6
+* FancyMenu -> 3.6.4
+* Fusion -> 1.2.8a
+* Fzzy Config -> 0.7.1
+* ModernFix -> 5.24.3
+* Xaero's Minimap -> 25.2.10
+* Xaero's World Map -> 1.39.12
+
+
+## Removed
+
+* Waystones - sorry!
+* My personal EMI settings from the pack - please god stop asking me why U to view uses isn't working
 
 
 ## Changed
-* Botania weight lens recipe
-* Botania mana blaster recipe
 
-
-## Fixed
-* Typo in Green Onion name - #32
-* Coffee seeds had no recipe - #31
-* Wood recipes (ladders and chests) - #33
-* Base blaze cage recipe removed - #35
-* Typo in first bee quest - #36
+* Slightly buffed early mutandis recipe
+* Better mutandis recipe uses bone meal instead of an egg
+* Grass quest now tells people the watering can won't work for it - #44
+* Bee nests spawn 33% more often - #41
+* Microscope recipe to be achievable pre-gem - #37
+* Pasture seed quest tells players the watering can doesn't work - #44
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)

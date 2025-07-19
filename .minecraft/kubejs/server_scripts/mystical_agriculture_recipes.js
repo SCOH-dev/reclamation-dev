@@ -41,6 +41,47 @@ ServerEvents.recipes(event => {
             "item": "mysticalagriculture:prudentium_essence"
         }
     })
+    event.custom({
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            62,
+            128,
+            78
+        ],
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:fire_essence"
+            },
+            {
+                "item": "mysticalagriculture:air_essence"
+            },
+            {
+                "item": "mysticalagriculture:water_essence"
+            },
+            {
+                "item": "mysticalagriculture:earth_essence"
+            },
+            {
+                "item": "mysticalagriculture:inferium_block"
+            },
+            {
+                "item": "mysticalagriculture:inferium_block"
+            },
+            {
+                "item": "mysticalagriculture:inferium_block"
+            }
+        ],
+        "power": 3000,
+        "result": {
+            "count": 1,
+            "item": "mysticalagriculture:prudentium_block"
+        }
+    })
 
     event.replaceInput({id: 'mysticalagriculture:prosperity_ingot'},
         'minecraft:iron_ingot',

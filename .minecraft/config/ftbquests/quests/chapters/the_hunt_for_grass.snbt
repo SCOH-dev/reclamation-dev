@@ -674,6 +674,11 @@
 		}
 		{
 			dependencies: ["778E09C4AE548E95"]
+			description: [
+				"Using some sapling fumes and some plantlife, you can create &6Pasture Seeds&r - special seeds that will place an &6area of grass&r on nearby dirt."
+				""
+				"&7Tip: due to a bug in the mod, watering cans will not work to start the ritual of the forest!"
+			]
 			icon: "minecraft:grass_block"
 			id: "600A7F0DFD880119"
 			rewards: [
@@ -691,6 +696,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Not as green as I'd like..."
 			tasks: [{
 				id: "5CFCBE5FDA4483B2"
 				item: "botania:grass_seeds"

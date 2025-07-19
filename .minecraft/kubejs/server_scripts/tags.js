@@ -7,6 +7,7 @@ ServerEvents.tags('item', event => {
 
     event.remove('forge:plates/copper', 'create:copper_sheet')
     event.remove('forge:plates/iron', 'create:iron_sheet')
+    event.add('complicated_bees:frame', 'reclamation_util:poison_frame')
 })
 
 ServerEvents.tags('fluid', event => {

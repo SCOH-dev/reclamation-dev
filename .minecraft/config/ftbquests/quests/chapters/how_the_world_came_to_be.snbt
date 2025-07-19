@@ -444,6 +444,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Slightly browner"
 			tasks: [{
 				id: "1DB0C65400E5119F"
 				item: "minecraft:dirt"
@@ -626,6 +627,22 @@
 			title: "Chunkloading and Friends?"
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"You can make a quick and dirty door using the scrap wood and some copper you've found - but it seems pretty shoddy, &4breaking every so often&r and needing to be re-placed."
+				""
+				"At least it keeps the spookies out..."
+			]
+			id: "387F725179133950"
+			tasks: [{
+				id: "0E461D7DE2E68577"
+				item: "reclamation_util:flimsy_door"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["A vast wasteland"]

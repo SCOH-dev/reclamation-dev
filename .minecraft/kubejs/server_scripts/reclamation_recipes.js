@@ -38,6 +38,36 @@ ServerEvents.recipes(event => {
         A: '#enchanted:planks'
     })
 
+    //microscope
+    event.remove('complicated_bees:microscope')
+    event.shaped('complicated_bees:microscope', [
+        ' EI',
+        ' PI',
+        'AAA'
+    ], {
+        A: 'minecraft:iron_block',
+        I: 'minecraft:iron_ingot',
+        P: 'minecraft:glass_pane',
+        E: 'naturesaura:eye'
+    })
+
+
+    //flimsy door
+     event.shaped('reclamation_util:flimsy_door', [
+         'AA ',
+         'AC ',
+         'AA '
+     ], {
+         A: 'kubejs:flimsy_planks',
+         C: 'minecraft:copper_ingot'
+     })
+
+     //poison frame
+      event.shapeless('reclamation_util:poison_frame', [
+          'complicated_bees:frame',
+          'minecraft:poisonous_potato'
+      ])
+
     //spice rack collision
     event.remove({id: "cookingforblockheads:spice_rack"})
     event.shaped('cookingforblockheads:spice_rack', [

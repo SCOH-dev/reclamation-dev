@@ -36,7 +36,37 @@ ServerEvents.recipes(event => {
         ],
         "power": 0,
         "result": {
-            "count": 2,
+            "count": 3,
+            "item": "enchanted:mutandis"
+        }
+    })
+    event.remove({id: 'enchanted:witch_cauldron/mutandis'})
+    event.custom({
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            62,
+            128,
+            78
+        ],
+        "ingredients": [
+            {
+                "item": "enchanted:mandrake_root"
+            },
+            {
+                "item": "enchanted:exhale_of_the_horned_one"
+            },
+            {
+                "item": "minecraft:bone_meal"
+            }
+        ],
+        "power": 0,
+        "result": {
+            "count": 7,
             "item": "enchanted:mutandis"
         }
     })

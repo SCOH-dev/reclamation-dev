@@ -332,6 +332,17 @@ ServerEvents.recipes(event => {
             "count": 4
         }
     }).id("reclamation:naturesaura/calling_spirit")
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "naturesaura:birth_spirit"
+        },
+        "output": {
+            "item": "naturesaura:calling_spirit"
+        },
+        "aura": 50000,
+        "time": 200
+    }).id("reclamation:naturesaura/calling_spirit_altar")
 
     event.remove({id: "naturesaura:altar/infused_stone"})
     event.custom({
@@ -343,6 +354,18 @@ ServerEvents.recipes(event => {
             "item": "naturesaura:infused_stone"
         },
         "aura": 7500,
+        "time": 40
+    })
+
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "minecraft:deepslate"
+        },
+        "output": {
+            "item": "minecraft:obsidian"
+        },
+        "aura": 25000,
         "time": 40
     })
 

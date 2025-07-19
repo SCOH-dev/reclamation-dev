@@ -203,6 +203,8 @@
 				"The &6Apid Library&r shows you what mutations you can create with a bee's species."
 				""
 				"The &6Microscope&r allows you to research bee species, giving you a higher chance to mutate bees into a researched species."
+				""
+				"&7Tip: the Microscope is a great way to get rid of unnecessary drones you have! Read the Apiarist Field Guide for more info on it."
 			]
 			icon: "complicated_bees:analyzer"
 			id: "7ED2BFE2C5C19743"

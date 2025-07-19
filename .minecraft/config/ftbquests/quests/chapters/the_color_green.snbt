@@ -306,6 +306,8 @@
 				"You can use a bucket to &6strategically place lava and water&r to make a nether portal frame. It's not ideal, but it's definitely easier than trying to mine obsidian with an iron pickaxe!"
 				""
 				"Similar to the overworld, the nether is bare of ores and even more devoid of life - &4there are zero spawns there, and only one biome."
+				""
+				"&7Tip: you can also make obsidian on the natural altar - but be warned, it's pretty costly aura-wise!"
 			]
 			icon: "minecraft:netherrack"
 			id: "27C68B6622F186D7"
@@ -1615,7 +1617,7 @@
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
-			description: ["This is it. Using the power of the &6Offering Altar,&r and some magically significant materials, you can create the basis of real, (debatably) sentient life - chicken eggs."]
+			description: ["This is it. Using the power of the &6Offering Altar,&r and some magically significant materials, you can create the basis of real, sentient life - chicken eggs."]
 			icon: "heads:chicken_head"
 			id: "1C7C9A1F11DE819B"
 			rewards: [{
@@ -1625,6 +1627,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Well, debatably"
 			tasks: [
 				{
 					id: "462012BB2A30BE57"

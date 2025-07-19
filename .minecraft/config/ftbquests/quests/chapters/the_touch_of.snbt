@@ -285,6 +285,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Dragons... I hate dragons"
 			tasks: [
 				{
 					dimension: "minecraft:the_end"

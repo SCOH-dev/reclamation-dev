@@ -1467,6 +1467,7 @@
 				xp: 100
 			}]
 			size: 1.5d
+			subtitle: "but not ad astra!"
 			tasks: [{
 				id: "34A484CFD9300B55"
 				item: "botania:orechid"
@@ -2160,6 +2161,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Better than futura blocks"
 			tasks: [{
 				id: "41E4110B55B6F086"
 				item: "ae2:controller"
@@ -2204,6 +2206,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Roll credits?"
 			tasks: [{
 				biome: "#reclamation:reclaimed"
 				id: "5CB74C9041238933"
@@ -2410,6 +2413,7 @@
 				xp: 100
 			}]
 			size: 1.5d
+			subtitle: "Uranium = mc2?"
 			tasks: [
 				{
 					id: "2DF292275CD3CCFC"
@@ -2574,6 +2578,7 @@
 				xp: 100
 			}]
 			size: 2.0d
+			subtitle: "Sci without the fi"
 			tasks: [
 				{
 					id: "6502C2B9561E81FA"

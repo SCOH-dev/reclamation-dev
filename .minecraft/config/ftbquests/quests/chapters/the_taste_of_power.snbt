@@ -77,6 +77,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "Roll credits (for real)"
 			tasks: [{
 				id: "237B504DA0EDA4AA"
 				title: "Congratulations!"
