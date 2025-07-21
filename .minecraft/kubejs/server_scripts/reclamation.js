@@ -1,7 +1,12 @@
-EntityEvents.checkSpawn(event => {
-  try {
-    if (event.entity.isChickenJockey()) event.cancel()
-  } catch(error) {}
+EntityEvents.spawned(event => {
+  const entity = event.entity;
+
+  if (entity.type == 'minecraft:chicken') {
+    const passengers = entity.passengers;
+    if (passengers && passengers.length > 0) {
+      event.cancel()
+    }
+  }
 })
 
 ServerEvents.loaded(event => {

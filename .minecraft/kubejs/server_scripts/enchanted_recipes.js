@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
             "count": 7,
             "item": "enchanted:mutandis"
         }
-    })
+    }).id('enchanted:witch_cauldron/mutandis')
 
     //earmuffs recipe
     event.custom({

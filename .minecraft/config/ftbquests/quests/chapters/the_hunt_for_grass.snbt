@@ -572,7 +572,7 @@
 			description: [
 				"Now you have to find a way to turn the nascent life energy within the tree into some form of grass. There was a ritual you remember that was able to condense said energy into a special seed..."
 				""
-				"Witchcraft can help you here - brew up some &6brilliant fiber,&r apply it to some tree leaves, and once you have enough, break the leaves! The &6gilded leaves&r you'll get will be able to crush into a &6fine gold dust,&r perfect for this ritual."
+				"Witchcraft can help you here - brew up some &6brilliant fiber,&r apply it to some tree leaves, and watch it &6spread!&r Once you have enough, break the leaves - the gilded leaves you'll get will be able to crush into a &6fine gold dust,&r perfect for this ritual."
 			]
 			icon: "naturesaura:gold_leaf"
 			id: "592DBF115E1FBAE9"

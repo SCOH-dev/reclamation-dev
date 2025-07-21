@@ -721,7 +721,7 @@ ServerEvents.recipes(event => {
     'minecraft:ink_sac',
     'minecraft:charcoal')
 
-    //easier analyzer and meter recipe
+    //easier combees recipes
     event.replaceInput({id: 'complicated_bees:meter'},
     'minecraft:redstone',
     'minecraft:red_dye')
@@ -737,7 +737,19 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'complicated_bees:analyzer'},
     'minecraft:redstone',
     'embers:caminite_brick')
+    event.replaceInput({id: 'complicated_bees:bee_sorter'},
+    'minecraft:diamond',
+    'minecraft:redstone')
 
+    event.remove({id: 'minecraft:cut_copper_from_copper_block_stonecutting'})
+    event.custom({
+        "type": "minecraft:stonecutting",
+        "count": 1,
+        "ingredient": {
+            "item": "minecraft:copper_block"
+        },
+        "result": "minecraft:cut_copper"
+    })
     //copycats from andesite
     event.replaceInput({mod: 'copycats'},
     'create:zinc_ingot',

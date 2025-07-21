@@ -770,6 +770,26 @@ ServerEvents.recipes(event => {
                 "item": "naturesaura:birth_spirit"
             },
             {
+                "item": "botania:light_gray_petal"
+            },
+            {
+                "item": "botania:gray_petal"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ],
+        "entity": "minecraft:wolf",
+        "aura": 30000,
+        "time": 40
+    })
+    event.custom({
+        "type": "naturesaura:animal_spawner",
+        "ingredients": [
+            {
+                "item": "naturesaura:birth_spirit"
+            },
+            {
                 "item": "ars_nouveau:air_essence"
             },
             {
