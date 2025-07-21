@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
                 "item": "mysticalagriculture:prudentium_essence"
             }
         ],
-        "mana": 10000,
+        "mana": 20000,
         "output": {
             "count": 2,
             "item": "mysticalagriculture:tertium_essence"
@@ -115,13 +115,13 @@ ServerEvents.recipes(event => {
     })
     event.custom({
         "type": "ars_nouveau:imbuement",
-        "count": 3,
+        "count": 2,
         "input": {
             "item": "mysticalagriculture:tertium_block"
         },
         "pedestalItems": [],
         "output": "mysticalagriculture:imperium_essence",
-        "source": 8000
+        "source": 10000
     })
     event.custom({
         "type": "bloodmagic:altar",
@@ -263,6 +263,19 @@ ServerEvents.recipes(event => {
     ], {
         C: 'minecraft:stone',
         S: 'mysticalagriculture:soulium_dust'
+    })
+
+    //fertilizer
+    event.remove({id: 'mysticalagriculture:mystical_fertilizer'})
+    event.remove({id: 'mysticalagriculture:mystical_fertilizer_better'})
+    event.shaped('2x mysticalagriculture:mystical_fertilizer', [
+        'PFP',
+        'FGF',
+        'PFP'
+    ], {
+        P: 'mysticalagriculture:prudentium_essence',
+        F: 'mysticalagriculture:fertilized_essence',
+        G: 'embers:ember_crystal'
     })
 
     //remove infusion

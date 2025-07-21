@@ -282,14 +282,14 @@ ServerEvents.recipes(event => {
                 "item": "naturesaura:token_joy"
             },
             {
-                "item": "naturesaura:infused_iron"
+                "item": "botania:runic_altar"
             }
         ],
         "output": {
             "item": "naturesaura:offering_table"
         },
         "tablet": {
-            "item": "botania:runic_altar"
+            "item": "naturesaura:infused_iron"
         }
     }).id("reclamation:naturesaura/offering_table")
 

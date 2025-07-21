@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
                 "item": "botania:rune_fire"
             },
             {
-                "item": "minecraft:copper_ingot"
+                "item": "enchanted:attuned_stone_charged"
             }
 
         ],
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
             "item": "embers:copper_crystal_seed"
         },
         "tablet": {
-            "item": "enchanted:attuned_stone_charged"
+            "item": "minecraft:copper_ingot"
         }
     })
     event.custom({
@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
                 "item": "botania:rune_fire"
             },
             {
-                "item": "minecraft:iron_ingot"
+                "item": "enchanted:attuned_stone_charged"
             }
         ],
         "output": {
@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
             "item": "embers:iron_crystal_seed"
         },
         "tablet": {
-            "item": "enchanted:attuned_stone_charged"
+             "item": "minecraft:iron_ingot"
         }
     })
     event.custom({
@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
                 "item": "embers:silver_ingot"
             },
             {
-                "item": "minecraft:gold_ingot"
+                "item": "enchanted:attuned_stone_charged"
             }
         ],
         "output": {
@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
             "item": "embers:zinc_crystal_seed"
         },
         "tablet": {
-            "item": "enchanted:attuned_stone_charged"
+            "item": "minecraft:gold_ingot"
         }
     })
     event.custom({
@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
                 "item": "botania:rune_fire"
             },
             {
-                "item": "embers:lead_ingot"
+                "item": "enchanted:attuned_stone_charged"
             }
         ],
         "output": {
@@ -226,7 +226,7 @@ ServerEvents.recipes(event => {
             "item": "embers:lead_crystal_seed"
         },
         "tablet": {
-            "item": "enchanted:attuned_stone_charged"
+            "item": "embers:lead_ingot"
         }
     })
 })

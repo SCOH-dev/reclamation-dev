@@ -740,6 +740,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'complicated_bees:bee_sorter'},
     'minecraft:diamond',
     'minecraft:redstone')
+    event.replaceInput({id: 'complicated_bees:bee_sorter'},
+    'minecraft:comparator',
+    'minecraft:repeater')
 
     event.remove({id: 'minecraft:cut_copper_from_copper_block_stonecutting'})
     event.custom({
