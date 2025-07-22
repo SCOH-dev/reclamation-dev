@@ -417,6 +417,17 @@ ServerEvents.recipes(event => {
             "item": "botania:manasteel_ingot"
         }
     })
+    event.remove({ id: 'botania:mana_infusion/manasteel_block'})
+    event.custom({
+        "type": "botania:mana_infusion",
+        "input": {
+            "item": "naturesaura:infused_iron_block"
+        },
+        "mana": 21000,
+        "output": {
+            "item": "botania:manasteel_block"
+        }
+    })
 
     //duplicate skystone
     event.custom({

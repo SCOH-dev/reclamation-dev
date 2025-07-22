@@ -1103,6 +1103,15 @@ ServerEvents.recipes(event => {
         G: 'create:creative_motor'
     })
 
+    event.shaped('minecraft:lantern', [
+        'CCC',
+        'CTC',
+        'CCC'
+    ], {
+        T: 'minecraft:torch',
+        C: 'create:copper_nugget'
+    })
+
     event.custom({
         "type": "advanced_ae:reaction",
         "energy": 31415927,
