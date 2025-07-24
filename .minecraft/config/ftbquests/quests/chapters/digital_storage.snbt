@@ -563,11 +563,19 @@
 			description: ["Perfect for carrying items on the go, the &6backpack&r has a few useful upgrades as well."]
 			hide_until_deps_complete: true
 			id: "0D743158B02EFECE"
-			rewards: [{
-				id: "15EB73D40086F479"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "62E7532779DBCC15"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "2A91EBFF67A1380F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2E43CCBB4B962F21"
 				item: "sophisticatedbackpacks:backpack"
@@ -581,17 +589,24 @@
 			description: ["Better than regular chests, &6Sophisticated Storage&r lets you put more things in a single block."]
 			hide_until_deps_complete: true
 			id: "186AF6EF5933F0C7"
-			rewards: [{
-				id: "484DA648F8D52FD3"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:copper_chest"
-					tag: {
-						woodType: "oak"
+			rewards: [
+				{
+					id: "484DA648F8D52FD3"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:copper_chest"
+						tag: {
+							woodType: "oak"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3F5CE5C18E1A5271"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -625,11 +640,18 @@
 			hide_until_deps_complete: true
 			icon: "storagedrawers:oak_full_drawers_1"
 			id: "310095AAC69059F7"
-			rewards: [{
-				id: "3CC04B85D05F7A7F"
-				item: "storagedrawers:framing_table"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3CC04B85D05F7A7F"
+					item: "storagedrawers:framing_table"
+					type: "item"
+				}
+				{
+					id: "09392F1C9B158438"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "4BD44F655B846F42"
 				item: {
@@ -651,11 +673,18 @@
 			description: ["Tier upgrades can be used to upgrade Sophisticated Storage blocks without breaking them."]
 			icon: "sophisticatedstorage:basic_tier_upgrade"
 			id: "79F177300EC200BB"
-			rewards: [{
-				id: "2792E6089A0C9606"
-				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2792E6089A0C9606"
+					item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "68C2857301084848"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "087CBC5E7AACE097"
 				item: {
@@ -740,6 +769,18 @@
 			dependencies: ["310095AAC69059F7"]
 			description: ["The &6Drawer Controller&r allows you to interface with multiple drawers using only a single blockface."]
 			id: "6AEDC0CE7C0F6871"
+			rewards: [
+				{
+					id: "361B063185A1AC92"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "794B2E47DDDA1DA6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1799CCB5D4A8DAFF"
 				item: "storagedrawers:controller"
@@ -753,11 +794,18 @@
 			description: ["There are a variety of keys - lock drawers to specific items, hide item labels to reduce lag, and more."]
 			icon: "storagedrawers:drawer_key"
 			id: "48640F7FA6B4E83C"
-			rewards: [{
-				id: "7DA6DE4285D3936F"
-				item: "storagedrawers:keyring"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7DA6DE4285D3936F"
+					item: "storagedrawers:keyring"
+					type: "item"
+				}
+				{
+					id: "344C39E88690566F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "622066D049F81B3A"
 				item: {
@@ -799,11 +847,18 @@
 			dependencies: ["0D743158B02EFECE"]
 			description: ["Autofeeding, playing music, even portable crafting can all be attained with backpack upgrades."]
 			id: "2971661158B66BCB"
-			rewards: [{
-				id: "6A7A218A2B25881E"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6A7A218A2B25881E"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "477439A7110B018A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "57731279073E4D5C"
 				item: "sophisticatedbackpacks:upgrade_base"
@@ -816,11 +871,18 @@
 			dependencies: ["186AF6EF5933F0C7"]
 			description: ["Higher stack count, filtering, and more - check the uses for the upgrade base."]
 			id: "20BC58E21EEC4A90"
-			rewards: [{
-				id: "06E72721EDE7B639"
-				item: "sophisticatedstorage:stack_upgrade_tier_1"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06E72721EDE7B639"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "3419EC18EC21266B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "27901504AE8CB01C"
 				item: "sophisticatedstorage:upgrade_base"
