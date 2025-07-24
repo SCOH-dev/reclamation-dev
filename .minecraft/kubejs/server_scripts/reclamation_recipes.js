@@ -51,6 +51,51 @@ ServerEvents.recipes(event => {
         E: 'naturesaura:eye'
     })
 
+    //mycelium
+    event.custom({
+        "type": "create:haunting",
+        "ingredients": [
+            {
+                "item": "minecraft:grass_block"
+            }
+        ],
+        "results": [
+            {
+                "item": "minecraft:mycelium"
+            }
+        ]
+    })
+    event.remove({id: 'create:haunting/soul_soil'})
+    event.custom({
+        "type": "create:haunting",
+        "ingredients": [
+            {
+                "item": "minecraft:dirt"
+            }
+        ],
+        "results": [
+            {
+                "item": "minecraft:soul_soil"
+            }
+        ]
+    })
+
+    //easier camera
+    event.replaceInput({id: 'exposure:black_and_white_film'},
+        'minecraft:iron_ingot',
+        'minecraft:copper_ingot')
+
+    event.replaceInput({id: 'exposure:black_and_white_film'},
+        'minecraft:iron_nugget',
+        'create:copper_nugget')
+
+    event.replaceInput({id: 'exposure:lightroom'},
+        'minecraft:redstone_torch',
+        'minecraft:red_dye')
+
+    event.replaceInput({id: 'exposure:camera'},
+        'minecraft:iron_ingot',
+        'minecraft:copper_ingot')
 
     //flimsy door
      event.shaped('reclamation_util:flimsy_door', [
@@ -62,11 +107,27 @@ ServerEvents.recipes(event => {
          C: 'minecraft:copper_ingot'
      })
 
-     //poison frame
-      event.shapeless('reclamation_util:poison_frame', [
-          'complicated_bees:frame',
-          'minecraft:poisonous_potato'
-      ])
+     //frames
+     event.shapeless('reclamation_util:poison_frame', [
+         'complicated_bees:frame',
+         'minecraft:poisonous_potato'
+     ])
+
+     event.replaceInput({id: 'complicated_bees:cold_frame'},
+         'minecraft:blue_ice',
+         'minecraft:snow_block')
+
+     event.shaped('reclamation_util:permafrost_frame', [
+         'III',
+         'ACA',
+         'AAA'
+     ], {
+         A: 'complicated_bees:waxed_stick',
+         C: 'minecraft:blue_ice',
+         I: 'enchanted:icy_needle'
+     })
+
+
 
     //spice rack collision
     event.remove({id: "cookingforblockheads:spice_rack"})
@@ -585,6 +646,29 @@ ServerEvents.recipes(event => {
             {
                 "item": "create:raw_zinc",
                 "chance": 0.25
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "complicated_bees:rocky"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.8
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.4
+            },
+            {
+                "item": "complicated_bees:propolis",
+                "chance": 0.05
             }
         ]
     })

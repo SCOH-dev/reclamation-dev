@@ -65,6 +65,11 @@
 			]
 			description: ["Lining rivers and shores, sugar cane had once risen in green columns, swaying with each passing breeze."]
 			id: "32195AB6E6F75FF1"
+			rewards: [{
+				id: "4B3BFBEE92C3AC8F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0BE83A27534A9CAF"
 				item: "minecraft:sugar_cane"
@@ -81,6 +86,11 @@
 			dependency_requirement: "one_completed"
 			description: ["Bright orange roots that grew deep in the earth, carrots were a favorite among rabbits and a healthy snack, to boot!"]
 			id: "36EF6C1E1C861A4A"
+			rewards: [{
+				id: "5047F6164CCF2F60"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "474FA99911610CC3"
 				item: "minecraft:carrot"
@@ -96,6 +106,11 @@
 			]
 			description: ["Crimson bulbs that added color and flavor to any dish, beetroots were once quite common in village gardens."]
 			id: "08415BCE11C57437"
+			rewards: [{
+				id: "4AF453F9ACBFD15A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3E0563C1BF0FB284"
 				item: "minecraft:beetroot"
@@ -111,6 +126,11 @@
 			]
 			description: ["Earthy and humble, potatoes were versatile tubers that thrived in the cool soil of many places."]
 			id: "303D96CD71A877FA"
+			rewards: [{
+				id: "4ABA8893BECF54EC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3D5788DD6CEE57CF"
 				item: "minecraft:potato"
@@ -126,6 +146,11 @@
 			]
 			description: ["Orange orbs that sprouted in the autumn, pumpkins were both a festive decoration and a hearty food source."]
 			id: "269466269FFFC1BC"
+			rewards: [{
+				id: "399C0EA065270B90"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2DEB960CC4FA0F6B"
 				item: "minecraft:pumpkin"
@@ -141,6 +166,11 @@
 			]
 			description: ["Large, round fruits with a green rind and sweet, juicy flesh; melons grew best in warm, sunny fields."]
 			id: "1AD960F38D986F1A"
+			rewards: [{
+				id: "55173762F418E546"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "14647E43D0C398DC"
 				item: "minecraft:melon_slice"
@@ -156,6 +186,11 @@
 			]
 			description: ["Prickly bushes bore these bright berries, beloved for their sweet bite and quick comfort."]
 			id: "1DA6A370C87C0775"
+			rewards: [{
+				id: "6CF2B95F597FBE75"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5718908A397ED9B2"
 				item: "minecraft:sweet_berries"
@@ -169,6 +204,11 @@
 			description: ["Wheat once rippled like golden seas, feeding countless lives. Fields of it marked the heart of many homesteads."]
 			hide_until_deps_complete: true
 			id: "33BAEE563814DCDB"
+			rewards: [{
+				id: "28497B6B69E8F722"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1626C66C1D2AF663"
 				item: "minecraft:wheat"
@@ -186,6 +226,11 @@
 			]
 			hide_until_deps_complete: true
 			id: "63353784E3C39D83"
+			rewards: [{
+				id: "38617424A6803F65"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0017369D021A57BA"
 				item: "enchanted:mandrake_root"
@@ -199,6 +244,11 @@
 			description: ["With deep golden petals and a bitter scent, wolfsbane once grew where night lingered longest. "]
 			hide_until_deps_complete: true
 			id: "1281E40889F822FE"
+			rewards: [{
+				id: "67157A0947DD110C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "08ED9FCE9C9E0988"
 				item: "enchanted:wolfsbane_flower"
@@ -212,6 +262,11 @@
 			description: ["Snowbells had once blossomed in the coldest reaches, their pale blue petals dusted with frost."]
 			hide_until_deps_complete: true
 			id: "1B02944C57BF74FB"
+			rewards: [{
+				id: "41AA176CD1FDEB6A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6E9D57F34DFBA187"
 				item: "enchanted:icy_needle"
@@ -225,6 +280,11 @@
 			description: ["Prized by herbalists for its strange resilience, who claimed it drew strength from the moonlit depths."]
 			hide_until_deps_complete: true
 			id: "6BE467B7626E5085"
+			rewards: [{
+				id: "3C1CF50E65D62199"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6E7B2A4228C9079C"
 				item: "enchanted:water_artichoke"
@@ -240,6 +300,11 @@
 			]
 			description: ["This earth-toned fungus once thrived in quiet, dark corners, feeding on decay."]
 			id: "15CFF693EFE382C7"
+			rewards: [{
+				id: "22E400BAA0C2911F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "209C1678B96BF007"
 				item: "minecraft:brown_mushroom"
@@ -255,6 +320,11 @@
 			]
 			description: ["With its crimson cap and pale stem, the red mushroom once sprouted in damp caves and shadowed groves."]
 			id: "3F94D588E94A0F3C"
+			rewards: [{
+				id: "73902B3EEE2AB35E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "02A4B67966399B9B"
 				item: "minecraft:red_mushroom"
@@ -270,6 +340,11 @@
 			]
 			description: ["Bamboo once climbed toward the sky in great bamboo forests, hollow stems whispering in the wind."]
 			id: "1CE48B2F73EDB8FC"
+			rewards: [{
+				id: "3D4AC543E590FCC2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1A4C1D1B6BECE9D7"
 				item: "minecraft:bamboo"
@@ -285,6 +360,11 @@
 			]
 			description: ["Sailors swore it marked safe waters—while some claimed it hid the bones of the drowned."]
 			id: "3E746C60CE874EC2"
+			rewards: [{
+				id: "70CFF79AEF57E449"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "63227A8101809052"
 				item: "minecraft:kelp"
@@ -300,6 +380,11 @@
 			]
 			description: ["This gentle underwater plant once rippled with the ocean’s breath, carpeting the sea floor in quiet green."]
 			id: "52641FDAD803360E"
+			rewards: [{
+				id: "252B1EF4C6F3B937"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1332B5429430DC3C"
 				item: "minecraft:seagrass"
@@ -315,6 +400,11 @@
 			]
 			description: ["Their soft light once guided creatures of the reef and lit the way for wayward divers in the twilight deep."]
 			id: "5867D599B1DA6E6F"
+			rewards: [{
+				id: "79D82037AAC758D4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "627607BF4CBB9958"
 				item: "minecraft:sea_pickle"
@@ -330,6 +420,11 @@
 			]
 			description: ["This strange, red fungus had grown only in the deep, burning halls of another world. It pulsed faintly with unnatural life."]
 			id: "3EDF39CD6F94943F"
+			rewards: [{
+				id: "24D006E8A4FF8B5B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1B0681E60C9C525A"
 				item: "minecraft:nether_wart"
@@ -345,6 +440,11 @@
 			]
 			description: ["Once said to carry the scent of a world turned upside down—where even the air recoiled in confusion."]
 			id: "54401A0090BF5109"
+			rewards: [{
+				id: "575E76D1DCA1E202"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "50385F5338B3A7C7"
 				item: "minecraft:warped_fungus"
@@ -360,6 +460,11 @@
 			]
 			description: ["This twisted red fungus once grew in the scorched ground of the Nether, pulsing faintly as if alive."]
 			id: "77F0AB56297C08EC"
+			rewards: [{
+				id: "38BCEAD37F142EC9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "010E32148E3954E0"
 				item: "minecraft:crimson_fungus"
@@ -373,6 +478,11 @@
 			description: ["Once used in deadly draughts and sleeping curses, favored by those who studied the poisoner's art."]
 			hide_until_deps_complete: true
 			id: "0BD99D6E0D93E05F"
+			rewards: [{
+				id: "15D1D07D4B03CF62"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "032D7F5C7D26D03C"
 				item: "enchanted:belladonna_flower"
@@ -388,6 +498,11 @@
 			]
 			description: ["Flax's delicate fibers had once been woven into cloth and spell-thread, binding both garments and enchantments."]
 			id: "7CC83C324E6A01E9"
+			rewards: [{
+				id: "25B2D9EABE2F040A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7889C84E2D3A006D"
 				item: "supplementaries:flax"
@@ -404,6 +519,11 @@
 				"&7Tip: You can either craft poppy seeds or mutate them from Melon and Sugarcane."
 			]
 			id: "799A3678C691BBA3"
+			rewards: [{
+				id: "2F9EF194B22F3A06"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "274C58582A5C79DD"
 				item: "minecraft:poppy"
@@ -419,6 +539,11 @@
 			]
 			description: ["A tall and graceful flower with a soft purple hue, often associated with grace, quiet wisdom, and calm days."]
 			id: "68536E0D3B5694E7"
+			rewards: [{
+				id: "235FBB25F25C36E2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7A6C888FBAC3C6A7"
 				item: "minecraft:allium"
@@ -434,6 +559,11 @@
 			]
 			description: ["Delicate and pale, these tiny flowers cluster low to the ground, bringing a sense of peace to open fields."]
 			id: "5A5FCEAA140010D4"
+			rewards: [{
+				id: "150A73BF4822D6F0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4A721DBC832F15D6"
 				item: "minecraft:azure_bluet"
@@ -449,6 +579,11 @@
 			]
 			description: ["This rare azure blossom flourishes in damp, shadowed groves. Legends say it blooms where ancient tears once fell."]
 			id: "79CC4BBB699E26EA"
+			rewards: [{
+				id: "1FF9E81882F605D8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3E75A87A7C0C4701"
 				item: "minecraft:blue_orchid"
@@ -464,6 +599,11 @@
 			]
 			description: ["Cornflowers once braved the wind in wide fields, their blue hues a favorite among storytellers and songwriters."]
 			id: "5C3BED68010EC635"
+			rewards: [{
+				id: "0EBD893B09F35FE2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "35D85334148E1D8A"
 				item: "minecraft:cornflower"
@@ -480,6 +620,11 @@
 				"&7Tip: You can either craft dandelion seeds or mutate them from Wheat and Pumpkin.&r"
 			]
 			id: "5FA8835DAD8496B6"
+			rewards: [{
+				id: "2C413451DDF01007"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "54BA1F933C39BE68"
 				item: "minecraft:dandelion"
@@ -495,6 +640,11 @@
 			]
 			description: ["Hidden among thick leaves, these tiny white bells are said to chime in silence when the forest is listening."]
 			id: "22B750248FB3F5A8"
+			rewards: [{
+				id: "08F4821ACBCDF9AD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0B029770FD768F5B"
 				item: "minecraft:lily_of_the_valley"
@@ -510,6 +660,11 @@
 			]
 			description: ["With a golden eye watching from its white face, this flower is a quiet companion of wanderers and daydreamers."]
 			id: "53D1E7880BE9CBF3"
+			rewards: [{
+				id: "3A76AAC44131E63D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5EAE4D059A9A04FC"
 				item: "minecraft:oxeye_daisy"
@@ -525,6 +680,11 @@
 			]
 			description: ["Glowing softly with hues of flame, this ancient blossom is thought to be a gift from the deep earth, where fire once danced."]
 			id: "76DC49A825A01D60"
+			rewards: [{
+				id: "744CF9EB8C00FDB5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "71B53D76D691A8E1"
 				item: "minecraft:torchflower"
@@ -540,6 +700,11 @@
 			]
 			description: ["Warming as a sunset, the orange tulip is said to bring cheer and good fortune to those who find it."]
 			id: "1AE9313131C60B20"
+			rewards: [{
+				id: "71FBFAF5A0EBE371"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4C5CEF70E70401FB"
 				item: "minecraft:orange_tulip"
@@ -555,6 +720,11 @@
 			]
 			description: ["Bright and bold, the red tulip is a symbol of love and passion, often given in times of heartfelt confession."]
 			id: "4917C2EEA848997D"
+			rewards: [{
+				id: "042ED2B584C618F1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "013CE9D82F11A9BC"
 				item: "minecraft:red_tulip"
@@ -570,6 +740,11 @@
 			]
 			description: ["Soft as moonlight, white tulips once whispered of peace and innocence in gardens now long lain fallow."]
 			id: "049EFFDACB56ECD5"
+			rewards: [{
+				id: "093BFC43D4CB78C5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "18D80EB780A71777"
 				item: "minecraft:white_tulip"
@@ -585,6 +760,11 @@
 			]
 			description: ["Soft and gentle, the pink tulip speaks of friendship and gentle affection, often found where laughter lingers."]
 			id: "25E0B4ED41C1D3E9"
+			rewards: [{
+				id: "6FE2BBC433C30DAD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "12872996722309A5"
 				item: "minecraft:pink_tulip"
@@ -600,6 +780,11 @@
 			]
 			description: ["Dark as a starless night and thorned with sorrow, this eerie bloom grows only in the wake of ruin and shadow."]
 			id: "1AA12EC1B3202E65"
+			rewards: [{
+				id: "2D26B1BE88D7F780"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "133F809A32F2DA8E"
 				item: "minecraft:wither_rose"
@@ -611,13 +796,18 @@
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: [
-				"You can make podzol for planting flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert grass under it into podzol."
+				"You can make podzol for planting flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert dirt (and dried earth!) under it into podzol."
 				""
 				"&7Tip: once the strength trait of a flower is high enough, you won't need to plant them on podzol!"
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:podzol"
 			id: "0B5C8BA575972913"
+			rewards: [{
+				id: "51BDB90015A6DB8B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -644,6 +834,11 @@
 			description: ["Onion's delicious smell once filled the air as it gave flavor to meals."]
 			hide_dependency_lines: true
 			id: "539A68C71D4CCBE9"
+			rewards: [{
+				id: "40D200ECBA327744"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "676458C8E40DFE15"
 				item: "croptopia:onion"
@@ -664,6 +859,11 @@
 			]
 			hide_dependency_lines: true
 			id: "137AC3CF85666619"
+			rewards: [{
+				id: "56011151E8E584EC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0A1850D7CA822C36"
 				item: "croptopia:sweetpotato"
@@ -680,6 +880,11 @@
 			description: ["A humble grain that swayed in golden fields before being ground and baked into something warm and sustaining."]
 			hide_dependency_lines: true
 			id: "6773A50CB01DADDF"
+			rewards: [{
+				id: "72FBB299E4D59120"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "346F8AD751BE2017"
 				item: "croptopia:barley"
@@ -696,6 +901,11 @@
 			description: ["Basil once filled the air with a fragrance that breezes would quietly carry away."]
 			hide_dependency_lines: true
 			id: "7C65E374FF6718D6"
+			rewards: [{
+				id: "106748BDD1EA2BB5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "68760923F61592E5"
 				item: "croptopia:basil"
@@ -712,6 +922,11 @@
 			description: ["A small, zesty vegetable that added a sharp bite to meals."]
 			hide_dependency_lines: true
 			id: "3E4A7F5E033DE19E"
+			rewards: [{
+				id: "701015BC9C24C13E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "572F2DEFDD7F9649"
 				item: "croptopia:radish"
@@ -728,6 +943,11 @@
 			description: ["A dark, sturdy bean that once softened in pots where stories and spices mingled."]
 			hide_dependency_lines: true
 			id: "633DFD123996C0AE"
+			rewards: [{
+				id: "200320640F305F9A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "268DF1F6067E266B"
 				item: "croptopia:blackbean"
@@ -744,6 +964,11 @@
 			description: ["A slender, snappy vegetable that brightened plates in days long past."]
 			hide_dependency_lines: true
 			id: "708E081EFB5553CB"
+			rewards: [{
+				id: "2ABEA98916C08005"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6742AE17061E7175"
 				item: "croptopia:greenbean"
@@ -756,6 +981,11 @@
 			dependencies: ["137AC3CF85666619"]
 			description: ["A nutrient-rich tuber, often tied to seasonal harvests and both everyday and festive cooking."]
 			id: "6D92EF0CCD30AEDF"
+			rewards: [{
+				id: "72ABF023D9ED27AD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "348A713290BDAC3F"
 				item: "croptopia:yam"
@@ -768,6 +998,11 @@
 			dependencies: ["137AC3CF85666619"]
 			description: ["Widely adopted, they were once integral to many cuisines, especially where freshness and preservation intersected."]
 			id: "5907D1A652A58C02"
+			rewards: [{
+				id: "1340CC4AB25D339B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "77F2F46FAAEAFA96"
 				item: "croptopia:tomato"
@@ -783,6 +1018,11 @@
 			]
 			description: ["Spiny and hardy, the cactus once dotted vast oceans of sand."]
 			id: "761691BED4E01678"
+			rewards: [{
+				id: "09359B9E296D9369"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0E260F861D5B72E1"
 				item: "minecraft:cactus"
@@ -799,6 +1039,11 @@
 			description: ["Saguaro once stood tall in the desert heat, holding their shape against time and silence."]
 			hide_dependency_lines: true
 			id: "2403D7E46BBE79E8"
+			rewards: [{
+				id: "31F71931BE479EE7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2947DE2CA61F0C3A"
 				item: "croptopia:saguaro"
@@ -811,6 +1056,11 @@
 			dependencies: ["539A68C71D4CCBE9"]
 			description: ["Valued for its hardiness and storage life, it figured prominently in preserved and cold-weather foods."]
 			id: "53AF55E4B044F5FD"
+			rewards: [{
+				id: "177FE7BD956C9665"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "08449C0C516FC7EF"
 				item: "croptopia:cabbage"
@@ -826,6 +1076,11 @@
 			]
 			description: ["Fast-growing and versatile, they were commonly used to add mild sharpness to everyday dishes."]
 			id: "6BC3D688CE214B07"
+			rewards: [{
+				id: "0B645F730F169484"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "574AE7D844136B76"
 				item: "croptopia:greenonion"
@@ -838,6 +1093,11 @@
 			dependencies: ["708E081EFB5553CB"]
 			description: ["Coffee was brewed each morning, dark and warm, its bitterness softened by time and habit."]
 			id: "4D314EC44E052CBF"
+			rewards: [{
+				id: "31CCCDD41A6613C4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "286352D477FD43F4"
 				item: "croptopia:coffee_beans"
@@ -850,6 +1110,11 @@
 			dependencies: ["6773A50CB01DADDF"]
 			description: ["A worldwide staple, central to daily diets and shaped by centuries of cultivation and ritual."]
 			id: "39502B2D84E40320"
+			rewards: [{
+				id: "61052FDA0C24E08A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6FC26E9B04988015"
 				item: "croptopia:rice"
@@ -862,6 +1127,11 @@
 			dependencies: ["3E4A7F5E033DE19E"]
 			description: ["A cool-weather root typically grown for its reliability and used in simple, hearty meals."]
 			id: "5B5641FA7A0DD8E0"
+			rewards: [{
+				id: "6486D733773C2845"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "31FA4C26823FEF81"
 				item: "croptopia:turnip"
@@ -874,6 +1144,11 @@
 			dependencies: ["5B5641FA7A0DD8E0"]
 			description: ["A hardy root, valued for nutrition and storage through cold months."]
 			id: "77F7CE7CCE05B577"
+			rewards: [{
+				id: "5641216299CDB763"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "21FEADF6B1FFADD9"
 				item: "croptopia:rutabaga"
@@ -889,6 +1164,11 @@
 			]
 			description: ["Once used to add a small amount of spice to everyday food."]
 			id: "25ADE2521FE623C3"
+			rewards: [{
+				id: "0F8D857E5955FBA7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7EF00B6625FFA437"
 				item: "croptopia:chile_pepper"
@@ -904,6 +1184,11 @@
 			]
 			description: ["Once cultivated widely for its simple, nourishing qualities."]
 			id: "5F89CB1EB71D3A1F"
+			rewards: [{
+				id: "625372CE2150112E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "707576D3E6D74E22"
 				item: "croptopia:soybean"
@@ -919,6 +1204,11 @@
 			]
 			description: ["A vital staple, central to diets and agricultural abundance."]
 			id: "65C7540C8DC0BF5F"
+			rewards: [{
+				id: "02512EBAA878BDC5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2B980400F933CD07"
 				item: "croptopia:corn"
@@ -934,6 +1224,11 @@
 			]
 			description: ["Seeds that added warmth and spice, enhancing a variety of dishes."]
 			id: "767FBB61FCFCF24F"
+			rewards: [{
+				id: "728F6FDB1E45078C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2C04123C55711A03"
 				item: "croptopia:mustard"
@@ -949,6 +1244,11 @@
 			]
 			description: ["Mild and colorful, they brought sweetness and variety to meals."]
 			id: "2E16EB869081D97A"
+			rewards: [{
+				id: "151C6A633C6A6321"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6464992F90700B8C"
 				item: "croptopia:bellpepper"
@@ -961,6 +1261,11 @@
 			dependencies: ["5F89CB1EB71D3A1F"]
 			description: ["Known for its cool, crisp texture, often enjoyed fresh or pickled."]
 			id: "33FEFD3C13804031"
+			rewards: [{
+				id: "19E8F6D336DCD3D3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "574CCC865F6E78C0"
 				item: "croptopia:cucumber"
@@ -973,6 +1278,11 @@
 			dependencies: ["5F89CB1EB71D3A1F"]
 			description: ["A sweet fruit that brightened the warmer months with its flavor."]
 			id: "3FE30435F595931C"
+			rewards: [{
+				id: "3317D7CE42C02DC7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7B441C25B6544AAC"
 				item: "croptopia:strawberry"
@@ -985,6 +1295,11 @@
 			dependencies: ["5F89CB1EB71D3A1F"]
 			description: ["Harvested for its tender shoots, enjoyed seasonally."]
 			id: "5017DC066FE3B51D"
+			rewards: [{
+				id: "511E6F9804F12D7B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7F5966299F746109"
 				item: "croptopia:asparagus"
@@ -997,6 +1312,11 @@
 			dependencies: ["5F89CB1EB71D3A1F"]
 			description: ["Offered a subtle crunch and flavor, a common addition in many recipes."]
 			id: "5ED74322B9011AA1"
+			rewards: [{
+				id: "60C9A5E8DCF522FB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "051EE40CCEEAC787"
 				item: "croptopia:celery"
@@ -1012,6 +1332,11 @@
 			]
 			description: ["Once a comforting grain, quietly nourishing both people and animals alike."]
 			id: "5FD2AF761DFCFCDB"
+			rewards: [{
+				id: "5F1CFF43548C05E5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "570913A53DDA538A"
 				item: "croptopia:oat"
@@ -1027,6 +1352,11 @@
 			]
 			description: ["Peanuts were once valued for their simple richness and high protein content."]
 			id: "068AA2EB4FEE62ED"
+			rewards: [{
+				id: "73EDADD364B6F0CB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2D5899B22F62D7FA"
 				item: "croptopia:peanut"
@@ -1042,6 +1372,11 @@
 			]
 			description: ["Tart and vibrant, they were key in sauces and salsas that brought bold flavor."]
 			id: "5AC9411A91E56A6E"
+			rewards: [{
+				id: "40A75AB264E43C5D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "71968C4CBC570D88"
 				item: "croptopia:tomatillo"
@@ -1054,6 +1389,11 @@
 			dependencies: ["33FEFD3C13804031"]
 			description: ["A versatile summer squash, cooked or baked into a variety of dishes."]
 			id: "2ECD80D48B96EDCE"
+			rewards: [{
+				id: "55B11485FD9232A0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6D8C5BF0C7A30152"
 				item: "croptopia:zucchini"
@@ -1069,6 +1409,11 @@
 			]
 			description: ["A small, sweet berry, enjoyed fresh or preserved to brighten meals."]
 			id: "18A39F522DFC0F12"
+			rewards: [{
+				id: "5A6924CFAEB133C4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7D0FCE5FEC77535E"
 				item: "croptopia:raspberry"
@@ -1084,6 +1429,11 @@
 			]
 			description: ["Known for their sweetness and antioxidants, often eaten fresh or in preserves."]
 			id: "321737F90DED1F6D"
+			rewards: [{
+				id: "5DF47BF9A90DF300"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6EF4514779DB6F4E"
 				item: "croptopia:blueberry"
@@ -1099,6 +1449,11 @@
 			]
 			description: ["Rich and tangy, they provided a burst of flavor and nutrition when they were in season."]
 			id: "6FC8F37704C8FC65"
+			rewards: [{
+				id: "1103C3E76D3212B2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4F456882B557C108"
 				item: "croptopia:blackberry"
@@ -1111,6 +1466,11 @@
 			dependencies: ["5ED74322B9011AA1"]
 			description: ["A mild onion relative, used to add depth and subtle flavor to soups and stews."]
 			id: "11A9C568031B9FE8"
+			rewards: [{
+				id: "5912AC2853A3CDC1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "308AE22996373D4D"
 				item: "croptopia:leek"
@@ -1126,6 +1486,11 @@
 			]
 			description: ["Crisp and cool, a common leafy green that added freshness to countless dishes."]
 			id: "5C958E5EFDC1238C"
+			rewards: [{
+				id: "5468C20E5E01C0DF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "595F6D27F9CCDE58"
 				item: "croptopia:lettuce"
@@ -1138,6 +1503,11 @@
 			dependencies: ["068AA2EB4FEE62ED"]
 			description: ["Valued for its spicy warmth and medicinal qualities, a staple in many remedies and recipes now lost."]
 			id: "24683B06C12BC4B9"
+			rewards: [{
+				id: "1D898A400CA28A6A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7383A4176B36F061"
 				item: "croptopia:ginger"
@@ -1150,6 +1520,11 @@
 			dependencies: ["3FE30435F595931C"]
 			description: ["A fragrant melon, its juicy flesh a refreshing treat on hot days."]
 			id: "516F5336FA6CBDD8"
+			rewards: [{
+				id: "785361CD54B97647"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "43BD354A87792215"
 				item: "croptopia:cantaloupe"
@@ -1162,6 +1537,11 @@
 			dependencies: ["5FD2AF761DFCFCDB"]
 			description: ["A sweet, cooling melon that offered relief during warm seasons."]
 			id: "7280C49FFD91F7C0"
+			rewards: [{
+				id: "15E01D6AAECF7C48"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "205BFBC069F3F80A"
 				item: "croptopia:honeydew"
@@ -1177,6 +1557,11 @@
 			]
 			description: ["A tangy fruit, rich in vitamin C and refreshing in warmer months."]
 			id: "6A7D86B8481B0F69"
+			rewards: [{
+				id: "17CAC3FC4ED19B5F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3458A15035D3E429"
 				item: "croptopia:kiwi"
@@ -1192,6 +1577,11 @@
 			]
 			description: ["A versatile vegetable, often roasted or stewed to add richness to meals."]
 			id: "4DD65B7AF1F78BAA"
+			rewards: [{
+				id: "20C2BEEEDF78A00C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "071F769CC285C4F8"
 				item: "croptopia:eggplant"
@@ -1207,6 +1597,11 @@
 			]
 			description: ["A mild vegetable used in a variety of dishes, from soups to roasts."]
 			id: "38C3364E47A88D9A"
+			rewards: [{
+				id: "35D4F7422404695F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1B6F6677C3DC7324"
 				item: "croptopia:cauliflower"
@@ -1222,6 +1617,11 @@
 			]
 			description: ["Small and tart, used fresh or dried to add brightness to dishes and preserves."]
 			id: "27F5765B374BA472"
+			rewards: [{
+				id: "1296BB0AAAE760F0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3BEC3DED210285E5"
 				item: "croptopia:currant"
@@ -1237,6 +1637,11 @@
 			]
 			description: ["Valued for their oil and flavor, they were a key ingredient in cooking and preservation."]
 			id: "33A9BA581FD7FF42"
+			rewards: [{
+				id: "083E100656FC63DE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "797BE018D15D3B8A"
 				item: "croptopia:olive"
@@ -1252,6 +1657,11 @@
 			]
 			description: ["Known for its nutritional content, often steamed or roasted."]
 			id: "00F0F07CB99999DD"
+			rewards: [{
+				id: "5EBE9BB653EC91F5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7022B9D6BEC2362C"
 				item: "croptopia:broccoli"
@@ -1267,6 +1677,11 @@
 			]
 			description: ["Prized for its tender hearts, a special ingredient in many traditional meals."]
 			id: "7DA273378C766E97"
+			rewards: [{
+				id: "557BAA2FD66B1FAC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "773071BAED393175"
 				item: "croptopia:artichoke"
@@ -1279,6 +1694,11 @@
 			dependencies: ["5C958E5EFDC1238C"]
 			description: ["Tart and fibrous, often cooked down into jams and desserts."]
 			id: "5E4AEB5E06E4927B"
+			rewards: [{
+				id: "59CF2BBBCE5B4AD8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4009D5C4550379C9"
 				item: "croptopia:rhubarb"
@@ -1294,6 +1714,11 @@
 			]
 			description: ["A pungent staple, prized for both taste and medicinal value in many kitchens."]
 			id: "5AA79349A18E2B21"
+			rewards: [{
+				id: "5BFB8F811583A46A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "19DF4BFDDE41F214"
 				item: "croptopia:garlic"
@@ -1309,6 +1734,11 @@
 			]
 			description: ["Known for its vibrant color and healing properties, it flavored food and soothed ailments alike."]
 			id: "707768F4402BB1AB"
+			rewards: [{
+				id: "74B478B3F6B44C65"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7A0CA2D837361DE7"
 				item: "croptopia:turmeric"
@@ -1324,6 +1754,11 @@
 			]
 			description: ["Sweet and versatile - enjoyed fresh or transformed into wines and preserves."]
 			id: "467AF39CDB5CB3C3"
+			rewards: [{
+				id: "7BEF442BD2ADE40C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4DF07C2CBC678062"
 				item: "croptopia:grape"
@@ -1336,6 +1771,11 @@
 			dependencies: ["5C958E5EFDC1238C"]
 			description: ["A leafy green, rich in nutrients and commonly eaten fresh."]
 			id: "21715F3238686516"
+			rewards: [{
+				id: "0B264346111C158C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "580CC3B4E7BF8A4C"
 				item: "croptopia:spinach"
@@ -1348,6 +1788,11 @@
 			dependencies: ["4DD65B7AF1F78BAA"]
 			description: ["A hearty vegetable, often stored through colder months and used in countless recipes."]
 			id: "15C3EE5343C7979E"
+			rewards: [{
+				id: "4DB0633FBAFBE1B0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6A8C5398F1471034"
 				item: "croptopia:squash"
@@ -1363,6 +1808,11 @@
 			]
 			description: ["A resilient leafy green valued for its nutrition and versatility in cooking."]
 			id: "21714478E7071DCF"
+			rewards: [{
+				id: "2FFA5CB7CDB9DE53"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "588E7EDED29EC3EB"
 				item: "croptopia:kale"
@@ -1378,6 +1828,11 @@
 			]
 			description: ["Small, dark berries used for their medicinal properties and tart flavor."]
 			id: "719C5D676C205752"
+			rewards: [{
+				id: "26F1676D952E6C70"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "49295F3C87F6AE2E"
 				item: "croptopia:elderberry"
@@ -1393,6 +1848,11 @@
 			]
 			description: ["Known for their bitter aroma, they were essential in brewing of all kinds."]
 			id: "4C81565D5ACCD3BE"
+			rewards: [{
+				id: "2EFE048FF5A380A5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "64BF1579EEE163CE"
 				item: "croptopia:hops"
@@ -1408,6 +1868,11 @@
 			]
 			description: ["Tart and bright, commonly used fresh or preserved to complement meals."]
 			id: "6CFE4E9395EFE71C"
+			rewards: [{
+				id: "117D9DD621510515"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "147548D2A94409FC"
 				item: "croptopia:cranberry"
@@ -1420,6 +1885,11 @@
 			dependencies: ["707768F4402BB1AB"]
 			description: ["A fragrant bean that lent warmth and sweetness to many desserts and drinks."]
 			id: "3BCD2963C795C8B7"
+			rewards: [{
+				id: "25E32F08A050A6DD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "50F3798E2668DA1B"
 				item: "croptopia:vanilla"
@@ -1435,6 +1905,11 @@
 			]
 			description: ["A sweet and tangy fruit that brought plenty of flavor to many dishes."]
 			id: "61E05D40CE42B545"
+			rewards: [{
+				id: "2D952CC46B1851DF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7535D1E700BDE025"
 				item: "croptopia:pineapple"
@@ -1448,6 +1923,11 @@
 			description: ["Crunchy, subtly sweet nuts with a toasty, earthy finish."]
 			hide_until_deps_complete: true
 			id: "1916E46BEB1F2537"
+			rewards: [{
+				id: "42873ADF4FDFC74B"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "41E7B5CAB6A25478"
 				item: "croptopia:almond_sapling"
@@ -1461,6 +1941,11 @@
 			description: ["Crisp, juicy fruits that balance light sweetness with a refreshing tang."]
 			hide_until_deps_complete: true
 			id: "6FEC2402791EC0A4"
+			rewards: [{
+				id: "062F49FF589329AE"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "286CAA1CA20EF61B"
 				item: "croptopia:apple_sapling"
@@ -1474,6 +1959,11 @@
 			description: ["Soft, slightly fuzzy fruits with a delightfully sweet-tart burst."]
 			hide_until_deps_complete: true
 			id: "3E0ED15B75A185CA"
+			rewards: [{
+				id: "16DBD937B0A9AB19"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "2D28FBBD6FDC2758"
 				item: "croptopia:apricot_sapling"
@@ -1487,6 +1977,11 @@
 			description: ["Creamy and buttery with a mild, slightly grassy flavor."]
 			hide_until_deps_complete: true
 			id: "1CDCD52F9FA69B34"
+			rewards: [{
+				id: "7C060709AF2F0BEA"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "666D92F23E3FD131"
 				item: "croptopia:avocado_sapling"
@@ -1500,6 +1995,11 @@
 			description: ["Sweet, mellow fruits with a classic tropical aroma."]
 			hide_until_deps_complete: true
 			id: "19014BBBD41BCF0B"
+			rewards: [{
+				id: "0D04389694999477"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "3652CEAD8CE31DB7"
 				item: "croptopia:banana_sapling"
@@ -1513,6 +2013,11 @@
 			description: ["Soft and nutty, cashews offer a creamy bite with a sweet-savory balance."]
 			hide_until_deps_complete: true
 			id: "030F46DE570F297E"
+			rewards: [{
+				id: "20E14C30257236FB"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "071DFB6DA5BEA7C9"
 				item: "croptopia:cashew_sapling"
@@ -1526,6 +2031,11 @@
 			description: ["Cherries burst with juicy intensity; sweet, sometimes sharp, and always bright."]
 			hide_until_deps_complete: true
 			id: "335CBABD76A3BA31"
+			rewards: [{
+				id: "233ED588C2667077"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "50D8B96E983DCEF3"
 				item: "croptopia:cherry_sapling"
@@ -1539,6 +2049,11 @@
 			description: ["Cracking into a coconut reveals cool, sweet water and soft, fragrant meat."]
 			hide_until_deps_complete: true
 			id: "2D7C1F8BC048CFCD"
+			rewards: [{
+				id: "21D171640CF71434"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "4C30645AFA25BDE8"
 				item: "croptopia:coconut_sapling"
@@ -1552,6 +2067,11 @@
 			description: ["Dates are also known as nature's candy: chewy, caramel-rich, and deeply sweet."]
 			hide_until_deps_complete: true
 			id: "682C64F6A2B0291A"
+			rewards: [{
+				id: "50617DEDD656EAB9"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "0A347B4BF3CEFB84"
 				item: "croptopia:date_sapling"
@@ -1565,6 +2085,11 @@
 			description: ["With neon skin and unique speckled flesh, dragon fruit tastes delicate, lightly sweet, and just a little floral."]
 			hide_until_deps_complete: true
 			id: "28A459B956D547DD"
+			rewards: [{
+				id: "0331F66047ED0BD3"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "71EB383F97A76AD0"
 				item: "croptopia:dragonfruit_sapling"
@@ -1578,6 +2103,11 @@
 			description: ["Figs are jammy and soft with a honey-like flavor."]
 			hide_until_deps_complete: true
 			id: "39EE227C5F58CAAA"
+			rewards: [{
+				id: "2F952E90A84FA72C"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "0EE58F9514846859"
 				item: "croptopia:fig_sapling"
@@ -1591,6 +2121,11 @@
 			description: ["Grapefruit will wake up your palate - juicy, sour, bitter, and bold."]
 			hide_until_deps_complete: true
 			id: "2FD4033DA28F9D21"
+			rewards: [{
+				id: "60032A7E90755C5E"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "07C244BAE9783FAE"
 				item: "croptopia:grapefruit_sapling"
@@ -1604,6 +2139,11 @@
 			description: ["Kumquats are often eaten whole, with a sharp citrus shock over sweet orange notes."]
 			hide_until_deps_complete: true
 			id: "404DB15C6D49B646"
+			rewards: [{
+				id: "3E0735677D07D3EB"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "3899B80F69BE83A2"
 				item: "croptopia:kumquat_sapling"
@@ -1617,6 +2157,11 @@
 			description: ["Tart and vivid, lemons cut through richness with their clean citrus bite."]
 			hide_until_deps_complete: true
 			id: "1636367444D293D4"
+			rewards: [{
+				id: "62053A898D3638E5"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "3413A89688D0A66B"
 				item: "croptopia:lemon_sapling"
@@ -1630,6 +2175,11 @@
 			description: ["Smaller and punchier than lemons, limes have a tight, zesty sting."]
 			hide_until_deps_complete: true
 			id: "6BC76C8A74C25796"
+			rewards: [{
+				id: "7179DC00A11F6DEA"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "5D192C7EE08DF2F9"
 				item: "croptopia:lime_sapling"
@@ -1643,6 +2193,11 @@
 			description: ["Mangoes melt in your mouth with tropical sweetness."]
 			hide_until_deps_complete: true
 			id: "629C52541A4D897E"
+			rewards: [{
+				id: "3A62869B5698E7A9"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "3AE9C78DFA8CC86D"
 				item: "croptopia:mango_sapling"
@@ -1656,6 +2211,11 @@
 			description: ["Like a peach in sleek skin, nectarines are sweet, tangy, and satisfyingly juicy."]
 			hide_until_deps_complete: true
 			id: "767A247376C17981"
+			rewards: [{
+				id: "25045DA6108A3357"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "4EF1B72F18768747"
 				item: "croptopia:nectarine_sapling"
@@ -1669,6 +2229,11 @@
 			description: ["Ground nutmeg adds a warm, nutty-spicy aroma that’s cozy and festive to any dish."]
 			hide_until_deps_complete: true
 			id: "031FB94A1D6CEC81"
+			rewards: [{
+				id: "4A8C4B92E0B947A8"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "3A19797127F26A8E"
 				item: "croptopia:nutmeg_sapling"
@@ -1682,6 +2247,11 @@
 			description: ["Oranges are all brightness and juice, sweet with a sunny citrus finish."]
 			hide_until_deps_complete: true
 			id: "6FD2642EB3540BD6"
+			rewards: [{
+				id: "381D2EA8F3E89E70"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "65A7D0C295262FBA"
 				item: "croptopia:orange_sapling"
@@ -1695,6 +2265,11 @@
 			description: ["Peaches are the most famous of stone fruit, for good reason."]
 			hide_until_deps_complete: true
 			id: "308A89A2E4901594"
+			rewards: [{
+				id: "1E2127A866E30F04"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "5FE23F8AF575E64D"
 				item: "croptopia:peach_sapling"
@@ -1708,6 +2283,11 @@
 			description: ["Pears are quietly sweet and crisp; eternally elegant."]
 			hide_until_deps_complete: true
 			id: "750822BC779DC440"
+			rewards: [{
+				id: "2C1C127AAB066688"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "1613B1390704C338"
 				item: "croptopia:pear_sapling"
@@ -1721,6 +2301,11 @@
 			description: ["Pecans have a great crunch with deep nutty flavor."]
 			hide_until_deps_complete: true
 			id: "0B17ABE850EC89B7"
+			rewards: [{
+				id: "0F93FC1DB5515191"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "341EF38F25275B6C"
 				item: "croptopia:pecan_sapling"
@@ -1734,6 +2319,11 @@
 			description: ["Persimmons are smooth and syrupy, with a mellow flavor that deepens as they ripen."]
 			hide_until_deps_complete: true
 			id: "7B403F791AF06ADC"
+			rewards: [{
+				id: "49CCBD939D791DA7"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "1711D92C76266C70"
 				item: "croptopia:persimmon_sapling"
@@ -1747,6 +2337,11 @@
 			description: ["Plums skirt the line between tart and sweet, finishing with a tangy punch."]
 			hide_until_deps_complete: true
 			id: "4FC4A49972031C19"
+			rewards: [{
+				id: "6C29597EDBAE4D98"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "3DDAD2ADDE518DB4"
 				item: "croptopia:plum_sapling"
@@ -1760,6 +2355,11 @@
 			description: ["Star fruit is crisp and juicy, with a tropical edge."]
 			hide_until_deps_complete: true
 			id: "63DDF088215038F0"
+			rewards: [{
+				id: "6BE455758CE3EE85"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "52A2D9C4C6F8E2C2"
 				item: "croptopia:starfruit_sapling"
@@ -1773,6 +2373,11 @@
 			description: ["Walnuts are hearty and slightly bitter, great for a midday snack."]
 			hide_until_deps_complete: true
 			id: "467750D10318D9E8"
+			rewards: [{
+				id: "2678A1A9F69BB235"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "36499DF060C70D98"
 				item: "croptopia:walnut_sapling"
@@ -1786,6 +2391,11 @@
 			description: ["The bark grinds down to a warm, spicy-sweet powder that instantly deepens any flavor."]
 			hide_until_deps_complete: true
 			id: "794AFD13A349F2A0"
+			rewards: [{
+				id: "550C1B3474880DA8"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "4945AB3281C4A79B"
 				item: "croptopia:cinnamon_sapling"
@@ -1805,6 +2415,11 @@
 			hide_dependency_lines: true
 			icon: "cookingforblockheads:cooking_table"
 			id: "4D73550447732EA7"
+			rewards: [{
+				id: "6D09FB870BF5871E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "68694769196AB56D"
 				item: "cookingforblockheads:cooking_table"
@@ -1821,17 +2436,24 @@
 			]
 			description: ["The &6ME Kitchen Station&r lets you connect your multiblock kitchen to your ME system!"]
 			id: "7BAD63BC0715B64B"
-			rewards: [{
-				id: "3A5DA2A94F737E87"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+			rewards: [
+				{
+					id: "3A5DA2A94F737E87"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "53804A5D4F3F49E3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "0D5F5E260FB18663"
 				item: "appliedcooking:kitchen_station"
@@ -1844,6 +2466,19 @@
 			dependencies: ["4D73550447732EA7"]
 			description: ["The &6fridge&r stores items, just like a cabinet."]
 			id: "125C325C7C2A5F96"
+			rewards: [
+				{
+					count: 16
+					id: "1050B037549D4C1E"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "698DDA3D7FA57F83"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1FE2FB207B02A2A9"
 				item: "cookingforblockheads:fridge"
@@ -1854,8 +2489,17 @@
 		}
 		{
 			dependencies: ["4D73550447732EA7"]
-			description: ["A &6sink&r provides unlimited water to recipes."]
+			description: [
+				"A &6sink&r provides unlimited water to recipes."
+				""
+				"&7Tip: ...and other things."
+			]
 			id: "099EFA6218C75305"
+			rewards: [{
+				id: "794FA35704620008"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4F39577A9F222030"
 				item: "cookingforblockheads:sink"
@@ -1868,6 +2512,11 @@
 			dependencies: ["4D73550447732EA7"]
 			description: ["The oven lets you cook multiple foods in a single block."]
 			id: "77F39CFBE045ED20"
+			rewards: [{
+				id: "1751761C7767AA29"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "609B40D630E5903D"
 				item: "cookingforblockheads:oven"
@@ -1884,6 +2533,19 @@
 				"&7...but how does one get a cow into a jar?"
 			]
 			id: "1401EC6A82EAB753"
+			rewards: [
+				{
+					count: 16
+					id: "145B76F30E19840C"
+					item: "croptopia:raisin_oatmeal_cookie"
+					type: "item"
+				}
+				{
+					id: "0CA2F0919A564D66"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5D2A98BA2DFB9EC5"
 				item: "cookingforblockheads:cow_jar"
@@ -1896,6 +2558,19 @@
 			dependencies: ["125C325C7C2A5F96"]
 			description: ["When added to a fridge, the &6ice unit&r provides unlimited ice and snow to recipes."]
 			id: "53AEEB6C2501B3EC"
+			rewards: [
+				{
+					count: 4
+					id: "579414EE8D8EFFCB"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					id: "19B115D0B7C325FB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "4163E0AB167C93FC"
 				item: "cookingforblockheads:ice_unit"
@@ -1908,6 +2583,11 @@
 			dependencies: ["77F39CFBE045ED20"]
 			description: ["The &6heating unit,&r applied to a stove, lets it run on energy instead of burnable fuel."]
 			id: "148FE15927A8D3D7"
+			rewards: [{
+				id: "15755214091B0175"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7FDBF51991F2AE34"
 				item: "cookingforblockheads:heating_unit"
@@ -1920,6 +2600,18 @@
 			dependencies: ["4D73550447732EA7"]
 			description: ["The &6tool rack&r provides tools to cooking recipes; pots, pans, and other sorts."]
 			id: "5182E7BBC5921B90"
+			rewards: [
+				{
+					id: "017EF895E75AF8A2"
+					item: "croptopia:knife"
+					type: "item"
+				}
+				{
+					id: "6CE7BA4934193EF7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6525DE7190BD2B2A"
 				item: "cookingforblockheads:tool_rack"
@@ -1933,6 +2625,25 @@
 			description: ["The &6Kitchen Cabinet and Counter&r store items for the Cooking Table to use."]
 			icon: "cookingforblockheads:counter"
 			id: "1DF2160AD495F3F4"
+			rewards: [
+				{
+					count: 2
+					id: "76EA5491DEA2437C"
+					item: "cookingforblockheads:corner"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CCDD4AAB135F43F"
+					item: "cookingforblockheads:hanging_corner"
+					type: "item"
+				}
+				{
+					id: "4A282591DBF0B6FB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "0505402EC8EFD91E"
@@ -1957,6 +2668,19 @@
 				"Useful!"
 			]
 			id: "19C29BAAD5DD7FC9"
+			rewards: [
+				{
+					count: 2
+					id: "6F6540D364BC0D01"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+				{
+					id: "6CDDB66742A5ADC6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7DD35B7FE457E8E6"
 				item: "botania:horn_grass"
@@ -1973,6 +2697,19 @@
 				"Add a &6hopperhock&r and you have fully automatic crop harvesting!"
 			]
 			id: "7F50D792CA810945"
+			rewards: [
+				{
+					count: 2
+					id: "7A71763B1D69CB72"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+				{
+					id: "175BE015E4A98ABB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2F27C82883801B53"
 				item: "botania:drum_wild"
@@ -1989,6 +2726,18 @@
 				"Place it on the same level as crops and it will harvest them - a 3x3 area by default, but this can be upgraded with machine upgrades."
 			]
 			id: "12E97DCBD82FBF36"
+			rewards: [
+				{
+					id: "410B45E029B23B60"
+					item: "mysticalagriculture:inferium_upgrade"
+					type: "item"
+				}
+				{
+					id: "2CBEDBAC3C3194B3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "4CAF0B59B1DA3FDC"
 				item: "mysticalagriculture:harvester"
@@ -2005,6 +2754,19 @@
 				"Attach it to any variety of contraption and as it moves through a crop it will harvest it."
 			]
 			id: "25E18523F7B68AEE"
+			rewards: [
+				{
+					count: 16
+					id: "3FE24E4C19A34887"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "1DFFDBA23A7405AD"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "13B2A676D43F186B"
 				item: "create:mechanical_harvester"
@@ -2012,6 +2774,152 @@
 			}]
 			x: -10.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"21714478E7071DCF"
+				"61E05D40CE42B545"
+				"15C3EE5343C7979E"
+				"719C5D676C205752"
+				"3BCD2963C795C8B7"
+				"4C81565D5ACCD3BE"
+				"6CFE4E9395EFE71C"
+				"5FD2AF761DFCFCDB"
+				"707768F4402BB1AB"
+				"5907D1A652A58C02"
+				"5C958E5EFDC1238C"
+				"5E4AEB5E06E4927B"
+				"708E081EFB5553CB"
+				"6FC8F37704C8FC65"
+				"5F89CB1EB71D3A1F"
+				"633DFD123996C0AE"
+				"27F5765B374BA472"
+				"18A39F522DFC0F12"
+				"7C65E374FF6718D6"
+				"767FBB61FCFCF24F"
+				"2403D7E46BBE79E8"
+				"11A9C568031B9FE8"
+				"3E4A7F5E033DE19E"
+				"6A7D86B8481B0F69"
+				"39502B2D84E40320"
+				"6773A50CB01DADDF"
+				"21715F3238686516"
+				"38C3364E47A88D9A"
+				"5B5641FA7A0DD8E0"
+				"2ECD80D48B96EDCE"
+				"5AA79349A18E2B21"
+				"00F0F07CB99999DD"
+				"137AC3CF85666619"
+				"7280C49FFD91F7C0"
+				"4D314EC44E052CBF"
+				"65C7540C8DC0BF5F"
+				"5ED74322B9011AA1"
+				"5AC9411A91E56A6E"
+				"25ADE2521FE623C3"
+				"3FE30435F595931C"
+				"068AA2EB4FEE62ED"
+				"33A9BA581FD7FF42"
+				"2E16EB869081D97A"
+				"6BC3D688CE214B07"
+				"516F5336FA6CBDD8"
+				"321737F90DED1F6D"
+				"5017DC066FE3B51D"
+				"6D92EF0CCD30AEDF"
+				"4DD65B7AF1F78BAA"
+				"53AF55E4B044F5FD"
+				"33FEFD3C13804031"
+				"7DA273378C766E97"
+				"539A68C71D4CCBE9"
+				"77F7CE7CCE05B577"
+				"467AF39CDB5CB3C3"
+				"24683B06C12BC4B9"
+			]
+			description: ["That's dedication! A personal shoutout from myself, for the pure raw dedication that you've shown."]
+			hide_until_deps_complete: true
+			id: "7F43F59F49A11EB0"
+			rewards: [
+				{
+					count: 64
+					id: "66951D345BDB38DF"
+					item: "mysticalagriculture:tertium_growth_accelerator"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0C3963F70AEAB618"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 3.0d
+			subtitle: "You earned it!"
+			tasks: [{
+				id: "4CA1C5F8DB76A40E"
+				title: "You know what? Sure."
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"1636367444D293D4"
+				"2FD4033DA28F9D21"
+				"4FC4A49972031C19"
+				"767A247376C17981"
+				"6FEC2402791EC0A4"
+				"1916E46BEB1F2537"
+				"28A459B956D547DD"
+				"7B403F791AF06ADC"
+				"467750D10318D9E8"
+				"6BC76C8A74C25796"
+				"404DB15C6D49B646"
+				"030F46DE570F297E"
+				"39EE227C5F58CAAA"
+				"1CDCD52F9FA69B34"
+				"0B17ABE850EC89B7"
+				"750822BC779DC440"
+				"19014BBBD41BCF0B"
+				"308A89A2E4901594"
+				"682C64F6A2B0291A"
+				"794AFD13A349F2A0"
+				"2D7C1F8BC048CFCD"
+				"335CBABD76A3BA31"
+				"63DDF088215038F0"
+				"031FB94A1D6CEC81"
+				"629C52541A4D897E"
+				"3E0ED15B75A185CA"
+				"6FD2642EB3540BD6"
+				"7F43F59F49A11EB0"
+			]
+			description: ["You've gone even further than I went! An absolute mad. lad. Take your prize and go."]
+			hide_until_deps_complete: true
+			id: "21DD7217374E1D06"
+			rewards: [
+				{
+					count: 128
+					id: "3A7A8F0DD9B334E3"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09FE957213D8E53C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 3.0d
+			subtitle: "Your dedication is admirable."
+			tasks: [{
+				id: "7D4D9081E1149077"
+				type: "checkmark"
+			}]
+			title: "Good god..."
+			x: 2.5d
+			y: 15.0d
 		}
 	]
 	title: "Plants Galore"

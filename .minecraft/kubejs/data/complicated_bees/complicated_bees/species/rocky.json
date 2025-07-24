@@ -22,7 +22,7 @@
       "dominant": 1
     },
     "complicated_bees:humidity": {
-      "data": "normal",
+      "data": "dry",
       "dominant": 1,
       "tolerance": "NONE"
     },
@@ -39,9 +39,9 @@
       "dominant": 1
     },
     "complicated_bees:temperature": {
-      "data": "normal",
+      "data": "warm",
       "dominant": 1,
-      "tolerance": "NONE"
+      "tolerance": "up_1"
     },
     "complicated_bees:territory": {
       "data": [

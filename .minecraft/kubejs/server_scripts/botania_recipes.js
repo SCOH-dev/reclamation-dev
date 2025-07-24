@@ -446,6 +446,10 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.replaceInput({id: 'botania:lens_mine'},
+        'minecraft:lapis_lazuli',
+        'embers:lead_plate')
+
     //ender air without end
     event.shapeless('botania:ender_air_bottle', [
         '3x minecraft:ender_pearl',

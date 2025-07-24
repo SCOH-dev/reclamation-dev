@@ -24,7 +24,7 @@
     "complicated_bees:humidity": {
       "data": "normal",
       "dominant": 0,
-      "tolerance": "UP_1"
+      "tolerance": "down_1"
     },
     "complicated_bees:lifespan": {
       "data": "average",

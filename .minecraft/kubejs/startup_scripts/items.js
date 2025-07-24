@@ -35,4 +35,8 @@ ItemEvents.modification(event => {
             food.saturation(0.5)
         }
     })
+
+    event.modify('complicated_bees:cold_frame', item => {
+        item.maxDamage = 30
+    })
 })

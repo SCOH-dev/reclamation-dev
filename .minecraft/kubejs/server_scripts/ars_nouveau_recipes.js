@@ -77,6 +77,13 @@ ServerEvents.recipes(event => {
         "source": 2000
     })
 
+    event.replaceInput({id: 'ars_nouveau:ritual_conjure_island_desert'},
+        'ars_nouveau:earth_essence',
+        'reclamation_util:arid_biome_bottle')
+    event.replaceInput({id: 'ars_nouveau:ritual_conjure_island_plains'},
+        'ars_nouveau:earth_essence',
+        'reclamation_util:icy_biome_bottle')
+
     event.remove({id: 'ars_nouveau:storage_lectern'})
     event.custom({
         "type": "ars_nouveau:enchanting_apparatus",

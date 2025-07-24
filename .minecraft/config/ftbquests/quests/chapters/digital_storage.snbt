@@ -14,6 +14,11 @@
 			description: ["The &6controller&r is the brains of a network. Each controller block's face is capable of outputting &632 channels;&r almost every device on the ME network needs &6one channel to operate.&r"]
 			hide_until_deps_complete: true
 			id: "42064A913CA2CCD2"
+			rewards: [{
+				id: "70DC06DBA48C2C1C"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6CC1A0D2BD148905"
@@ -31,6 +36,11 @@
 				"The &6Energy Acceptor&r uses no channels and can be placed anywhere, as long as it's connected to the network somehow."
 			]
 			id: "19BCEFF7F0DE9C81"
+			rewards: [{
+				id: "76BECE700F1CD015"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4C5EE0307F949567"
 				item: "ae2:energy_acceptor"
@@ -44,6 +54,11 @@
 			description: ["Smart cables are very useful - they visually display how many channels they're carrying at any given time."]
 			icon: "ae2:fluix_smart_cable"
 			id: "45812F4C9EF0926C"
+			rewards: [{
+				id: "1495849F009F2923"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5AEB4D6B67F03FB5"
 				item: {
@@ -65,6 +80,11 @@
 			description: ["Dense cables can carry 32 channels instead of the regular 8 channels."]
 			icon: "ae2:fluix_smart_dense_cable"
 			id: "2FD074137DE15616"
+			rewards: [{
+				id: "55B122BFA440ED3D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "514068BF36103E94"
 				item: {
@@ -91,6 +111,11 @@
 				"These can be filled with &6dyes or paintballs&r using an &6ME Chest.&r"
 			]
 			id: "25899D736E58600D"
+			rewards: [{
+				id: "2C85B7D794927CE1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3BAA47A786CB4A40"
 				item: {
@@ -113,6 +138,11 @@
 				"It can keep a certain amount of items from your network in its inventory for pipes or other blocks to pull from, and also automatically puts any other items it receives into the network."
 			]
 			id: "28F3433876B58C67"
+			rewards: [{
+				id: "53D99DBD92ADED6A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "46D766909F51BF29"
 				item: "ae2:interface"
@@ -125,6 +155,11 @@
 			dependencies: ["42064A913CA2CCD2"]
 			description: ["The &6Wireless Connector&r is a short-range version of a &6Quantum Link Chamber &r- use this when you want your network to jump a short distance, and not cross-dimensionally."]
 			id: "0B962ED4F7C5605E"
+			rewards: [{
+				id: "740E9ECF9F88E5D4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "30CC09F3C45F9FE6"
 				item: "expatternprovider:wireless_connect"
@@ -138,6 +173,11 @@
 			description: ["The &6Quantum Network Bridge&r uses the power of quantum entanglement to bridge a network gap not only across large distances, but dimensions."]
 			icon: "ae2:quantum_link"
 			id: "3A85EDF465018CE9"
+			rewards: [{
+				id: "350A2BDEF6D30977"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4369251B08E6E6B5"
@@ -159,6 +199,11 @@
 			description: ["The&6 Extended Charger&r and &6Inscriber&r are upgraded versions of their base models, capable of processing 4 recipes in parallel."]
 			icon: "expatternprovider:ex_inscriber"
 			id: "769058A0214DFE4C"
+			rewards: [{
+				id: "29232D121842C186"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "5834D042FB64E658"
@@ -180,6 +225,11 @@
 			description: ["The &6Wireless Access Point&r allows you to use wireless terminals to access your ME System. You can boost its range by giving it &6wireless boosters,&r but be warned: more boosters means the WAP will need &4much more energy&r to stay running."]
 			icon: "ae2:wireless_terminal"
 			id: "5800C2FA501D25AA"
+			rewards: [{
+				id: "5C6C7C61911DEA9F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "303553A904DAB768"
@@ -242,6 +292,11 @@
 			]
 			icon: "ae2:molecular_assembler"
 			id: "7029B79465525273"
+			rewards: [{
+				id: "040B66E150EB6C51"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "39F717BFA0DD5801"
@@ -271,6 +326,11 @@
 				"&7Tip: you can store botanic mana, elemental source, gases, fluids, and even space itself in cells - not just regular items!"
 			]
 			id: "38CF84D7DEEA26F2"
+			rewards: [{
+				id: "685D4828EF4096FB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5A8C37A2DC2BD8D4"
 				item: "ae2:drive"
@@ -283,6 +343,11 @@
 			dependencies: ["38CF84D7DEEA26F2"]
 			description: ["Terminals are how you actually interface with the storage cells in your ME System."]
 			id: "2BC56CC6C32D156B"
+			rewards: [{
+				id: "186C8D61C3F9AF6D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "79D7AEA1569B39B9"
 				item: {
@@ -324,6 +389,11 @@
 			dependencies: ["19BCEFF7F0DE9C81"]
 			description: ["Storing some energy in your ME System would be a good idea... just in case."]
 			id: "77DBEADC85E302E7"
+			rewards: [{
+				id: "61366A2AAF5DD0E8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "040F9CC81F2B9B4E"
 				item: {
@@ -339,6 +409,11 @@
 		{
 			dependencies: ["5800C2FA501D25AA"]
 			id: "588E96C6A6095B4F"
+			rewards: [{
+				id: "4D353628EBBB60F4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5F90AB33BE52A7F6"
 				item: "ae2wtlib:quantum_bridge_card"
@@ -356,6 +431,11 @@
 			]
 			icon: "ae2:me_p2p_tunnel"
 			id: "1B2791D7868FA0C8"
+			rewards: [{
+				id: "0018467EEAEB527B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "3C89FE0A2E3F7D56"
@@ -384,6 +464,11 @@
 				"Just make sure you have enough power to handle its recipes..."
 			]
 			id: "0D84FCBDF7D400BC"
+			rewards: [{
+				id: "7B5A7D301000A71D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "507EC959EDFD27D0"
 				item: "advanced_ae:reaction_chamber"
@@ -396,6 +481,11 @@
 			dependencies: ["769058A0214DFE4C"]
 			description: ["The &6Circuit Slicer&r can cut blocks of materials into 9 circuits much faster than an inscriber can press them."]
 			id: "73F6B084862E0C22"
+			rewards: [{
+				id: "4F5D7585B0B5505C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "58990D13A5825250"
 				item: "expatternprovider:circuit_cutter"
@@ -409,6 +499,11 @@
 			description: ["The &6Assembler Matrix&r is a molecular assembler and pattern provider setup on steroids - at its maximum size, it can hold over 4,000 patterns and craft incredibly fast. The best part? It only needs &6one channel.&r"]
 			icon: "expatternprovider:assembler_matrix_frame"
 			id: "60D69E8F82D1735A"
+			rewards: [{
+				id: "631ABBD3F4CB9415"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "24CB0DC3DEA3CF24"
@@ -428,6 +523,11 @@
 			dependencies: ["0D84FCBDF7D400BC"]
 			description: ["The &6Quantum Computer Core&r is a self-contained crafting CPU with 256M crafting storage and 8 co-processing threads."]
 			id: "2DD9F909A98D3A01"
+			rewards: [{
+				id: "63FEFF805B7E6973"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "13B54D99F1509E9B"
 				item: "advanced_ae:quantum_core"
@@ -444,6 +544,11 @@
 				"Read the guide for more information."
 			]
 			id: "17CA0C449BCE1795"
+			rewards: [{
+				id: "36D51E4AA33024AE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5BC2A17884CC34F7"
 				item: "advanced_ae:quantum_structure"
@@ -458,6 +563,11 @@
 			description: ["Perfect for carrying items on the go, the &6backpack&r has a few useful upgrades as well."]
 			hide_until_deps_complete: true
 			id: "0D743158B02EFECE"
+			rewards: [{
+				id: "15EB73D40086F479"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E43CCBB4B962F21"
 				item: "sophisticatedbackpacks:backpack"
@@ -724,6 +834,11 @@
 			description: ["Each workbench (aside from looking neat) can turn a specific set of blocks into its variants."]
 			hide_until_deps_complete: true
 			id: "7998DF6633727385"
+			rewards: [{
+				id: "31B104A991D7975C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2A89B9BAD6D6A1BA"
@@ -770,6 +885,11 @@
 			description: ["Can turn almost any basic block into a wide array of variants."]
 			hide_until_deps_complete: true
 			id: "589D9D8B75EA4D6A"
+			rewards: [{
+				id: "08EF9ED9EA1FADB1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1886724FF4F67912"
 				item: {
@@ -787,6 +907,11 @@
 			description: ["Made from stonecutting andesite alloy, these blocks can take on the texture of any other block."]
 			hide_until_deps_complete: true
 			id: "739D0BFEC4F76873"
+			rewards: [{
+				id: "29DC2531205502EF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "40AFA3023980CF2C"
 				item: {
@@ -813,6 +938,19 @@
 			]
 			hide_until_deps_complete: true
 			id: "00B11B5B5824CF82"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DAB642D70E0E39C"
+					table_id: 67272733859206798L
+					type: "choice"
+				}
+				{
+					id: "17AF9672B85CE2F7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "34FA44324920ADE6"
 				item: "xercamusic:music_sheet"
@@ -856,12 +994,19 @@
 				}
 			}
 			id: "56F47BEB53D25F0E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "63AD2969AF05B6E2"
-				table_id: 6347601422327785898L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63AD2969AF05B6E2"
+					table_id: 6347601422327785898L
+					type: "choice"
+				}
+				{
+					id: "6FF1BA6953D4FD4D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "40B6EAC528F2AEBF"
@@ -887,6 +1032,11 @@
 			]
 			hide_until_deps_complete: true
 			id: "4E09F6435DC05330"
+			rewards: [{
+				id: "32F2ED927729D029"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "73EFED8D105EAF82"
 				item: "buildinggadgets2:gadget_building"

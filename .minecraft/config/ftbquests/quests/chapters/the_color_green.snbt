@@ -2256,6 +2256,38 @@
 			x: -0.5d
 			y: -9.5d
 		}
+		{
+			dependencies: ["221E431A74C6E8A5"]
+			description: [
+				"With the acquisition of Dawnstone, you can make a special chamber to manipulate elemental mercury into a source of energy. "
+				""
+				"The &6Mercury Catalyst&r can convert mercury into Mercury Flux (MF) which, in combination with a &6Caloric Flux Emitter&r, can be used to power alchemical devices that would normally need a pyromantic brazier underneath them!"
+				""
+				"&7Tip: one mercury shard produces as much energy as one piece of charcoal!"
+			]
+			icon: "theurgy:caloric_flux_emitter"
+			id: "3BFD85713462A66A"
+			rewards: [{
+				id: "1FE3DE4328349B77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "20C4D02E6B22B4D9"
+					item: "theurgy:caloric_flux_emitter"
+					type: "item"
+				}
+				{
+					id: "1200D20D06097CB8"
+					item: "theurgy:mercury_catalyst"
+					type: "item"
+				}
+			]
+			title: "Mercurial Power"
+			x: 0.5d
+			y: -7.5d
+		}
 	]
 	title: "Touching Grass"
 }
