@@ -450,6 +450,10 @@ ServerEvents.recipes(event => {
         'minecraft:lapis_lazuli',
         'embers:lead_plate')
 
+    event.replaceInput({id: 'botania:exchange_rod'},
+        'botania:rune_sloth',
+        'embers:ember_crystal')
+
     //ender air without end
     event.shapeless('botania:ender_air_bottle', [
         '3x minecraft:ender_pearl',

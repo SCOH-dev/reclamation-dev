@@ -649,6 +649,7 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+    event.remove({id: 'complicated_bees:centrifuge/rocky_comb'})
     event.custom({
         "type": "complicated_bees:centrifuge",
         "input": {

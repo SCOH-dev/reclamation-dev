@@ -82,6 +82,40 @@ ServerEvents.recipes(event => {
         }
     ).id("reclamation:naturesaura/flower_generator")
 
+    //ancient sapling
+    event.remove({id: 'naturesaura:tree_ritual/ancient_sapling'})
+    event.custom({
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "minecraft:oak_sapling"
+            },
+            {
+                "item": "minecraft:dandelion"
+            },
+            {
+                "item": "minecraft:poppy"
+            },
+            {
+                "tag": "forge:seeds"
+            },
+            {
+                "item": "minecraft:sugar_cane"
+            },
+            {
+                "item": "naturesaura:gold_leaf"
+            }
+        ],
+        "sapling": {
+            "item": "minecraft:oak_sapling"
+        },
+        "output": {
+            "item": "naturesaura:ancient_sapling",
+            "count": 2
+        },
+        "time": 200
+    }).id('naturesaura:tree_ritual/ancient_sapling')
+
     //new crumbling catalyst recipe
     event.remove({ id: 'naturesaura:tree_ritual/crushing_catalyst'})
     event.custom({

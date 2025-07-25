@@ -13,6 +13,15 @@
       "required": true
     }
   ],
+  "clip_products": [
+    {
+      "chance": 1,
+      "item": "botania:blue_mystical_flower",
+      "max": 2,
+      "min": 1,
+      "required": true
+    }
+  ],
   "requirement": {
     "light_tolerance_factor": 0.5,
     "max_light": 16,

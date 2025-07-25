@@ -169,6 +169,26 @@ ServerEvents.recipes(event => {
             "tag": "bloodmagic:arc/cuttingfluid"
         }
     })
+    event.custom({
+        "type": "bloodmagic:arc",
+        "consumeingredient": false,
+        "input": {
+            "item": "minecraft:diamond"
+        },
+        "inputFluid": {
+            "amount": 20000,
+            "fluid": "bloodmagic:life_essence_fluid"
+        },
+        "inputsize": 1,
+        "mainoutputchance": 0.0,
+        "output": {
+            "item": "minecraft:emerald",
+            "count": 1
+        },
+        "tool": {
+            "tag": "bloodmagic:arc/cuttingfluid"
+        }
+    })
 
     event.remove({id: 'bloodmagic:altar/weakbloodorb'})
     event.custom({

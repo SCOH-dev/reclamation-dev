@@ -1,4 +1,16 @@
 ServerEvents.recipes(event => {
+
+    event.remove({id: 'mekanismtools:osmium/nugget_from_blasting'})
+    event.remove({id: 'mekanismtools:bronze/nugget_from_blasting'})
+    event.remove({id: 'mekanismtools:refined_glowstone/nugget_from_blasting'})
+    event.remove({id: 'mekanismtools:refined_obsidian/nugget_from_blasting'})
+    event.remove({id: 'mekanismtools:steel/nugget_from_blasting'})
+    event.remove({id: 'mekanismtools:osmium/nugget_from_smelting'})
+    event.remove({id: 'mekanismtools:bronze/nugget_from_smelting'})
+    event.remove({id: 'mekanismtools:refined_glowstone/nugget_from_smelting'})
+    event.remove({id: 'mekanismtools:refined_obsidian/nugget_from_smelting'})
+    event.remove({id: 'mekanismtools:steel/nugget_from_smelting'})
+
     event.custom({
         "type": "mekanism:rotary",
         "fluidInput": {

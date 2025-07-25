@@ -61,7 +61,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["448ABF53EEACBFA7"]
+			dependencies: ["29CB5767DE978673"]
 			description: [
 				"You've noticed some beehives dotted around. Maybe you can try to domesticate them?"
 				""
@@ -117,7 +117,7 @@
 			description: [
 				"Now pop a &6princess and drone into an apiary,&r and watch the magic happen! Bees can generate some &6very useful resources&r in their combs; initially, though, you'll have to process said combs on &6a cutting board.&r"
 				""
-				"At first, you'll only get beeswax and honey drops..."
+				"At first, you'll only get beeswax and honey drops, alongside some dead logs..."
 				""
 				"&7Tip: wasteland bees (and desiccated and dried bees) need dead bushes as their 'flowers'!"
 			]
@@ -428,7 +428,7 @@
 			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "all_started"
 			description: [
-				"By breeding&6 Dried &rbees together in the nether, they'll slowly adapt and turn into their nether versions - &6Crimson&r and &6Warped&r bees. &6Cursed&r bees are the hybrid between the two."
+				"By breeding &6Rocky&r bees together in the nether, they'll slowly adapt and turn into their nether versions - &6Crimson&r and &6Warped&r bees. &6Cursed&r bees are the hybrid between the two."
 				""
 				"These bees, twisted by the nether environment, are somewhat aggressive; they'll harm nearby mobs (including players!)"
 			]

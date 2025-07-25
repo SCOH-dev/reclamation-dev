@@ -616,9 +616,16 @@
 				"If you're playing with friends, &6make sure you're on the same team&r so that you can all access things inside your claim and share quest progress."
 				""
 				"For more information on the claims system, check out the &6Open Parties and Claims&r wiki or keybinds."
+				""
+				"&7Tip: you might want to turn claimed chunk protection off! It tends to break fake players."
 			]
 			icon: "naturesaura:pet_reviver"
 			id: "52B10FEB2951E939"
+			rewards: [{
+				id: "1551C09CD766D5DD"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2E3AF11BD22C15B4"
 				title: "Playing with Friends?"
@@ -636,6 +643,11 @@
 				"At least it keeps the spookies out..."
 			]
 			id: "387F725179133950"
+			rewards: [{
+				id: "75AF918ADD9DB9E3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0E461D7DE2E68577"
 				item: "reclamation_util:flimsy_door"
@@ -643,6 +655,31 @@
 			}]
 			x: -1.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["655DCA5A5B6632E1"]
+			description: [
+				"Despite the harsh conditions, bees still persist, dotted amongst the dry hills. "
+				""
+				"Cultivating them could be a great way to &6generate resources&r such as more dead logs!"
+				""
+				"&7Tip: this unlocks a new questline on the left!"
+			]
+			icon: "complicated_bees:apiary"
+			id: "29CB5767DE978673"
+			rewards: [{
+				id: "0C2B92BF2EC44903"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5B5E6B48E860F6E6"
+				type: "checkmark"
+			}]
+			title: "Bees?!"
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["A vast wasteland"]

@@ -15,6 +15,10 @@
       "nbt": {
         "comb_type": "reclamation:barren"
       }
+    },
+    {
+      "chance": 0.25,
+      "item": "kubejs:dead_log"
     }
   ],
   "specialty_products": [],

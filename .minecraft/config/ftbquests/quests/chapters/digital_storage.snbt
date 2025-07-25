@@ -1105,7 +1105,18 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
+			y: -4.5d
+		}
+		{
+			description: ["The &6Rod of the Shifting Crust&r allows you to exchange blocks in the world with blocks in your inventory for the cost of mana."]
+			id: "76B04BEB7909F047"
+			tasks: [{
+				id: "27CB11F980CB52B8"
+				item: "botania:exchange_rod"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
 		}
 	]
 	title: "Storage and Decor"
