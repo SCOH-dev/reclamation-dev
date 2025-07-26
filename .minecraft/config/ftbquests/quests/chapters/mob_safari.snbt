@@ -1274,7 +1274,7 @@
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
-							"minecraft:zombie": 1b
+							"minecraft:bat": 1b
 						}
 					}
 				}
@@ -1309,7 +1309,7 @@
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
-							"minecraft:zombie": 1b
+							"minecraft:camel": 1b
 						}
 					}
 				}
@@ -1381,7 +1381,7 @@
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
-							"minecraft:zombie": 1b
+							"minecraft:chicken": 1b
 						}
 					}
 				}
@@ -1417,7 +1417,7 @@
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
-							"minecraft:zombie": 1b
+							"minecraft:cod": 1b
 						}
 					}
 				}

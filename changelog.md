@@ -1,21 +1,20 @@
-# Reclamation 1.2.1
-
-## Added
-
-* Gravestone x Curios API Compat - #81
-* CrashAssistant - #85
-* Recipe for emeralds in the ARC
+# Reclamation 1.2.2
 
 
 ## Changed
+* Podzol now contributes a small amount to altar power (1 per block, to a max of 80) - #86
 
-* Rod of the shifting crust is craftable earlier
-* Nether bees quest now correctly says they come from Rocky species - #79
-* Mek armor and tools no longer smelt into nuggets - #84
-* Botania mystical flower seeds can clip into their flowers - #82
-* Ancient sapling recipe can take any seeds, not just vanilla wheat seeds - #78
-* Wasteland bee species now produce dead wood
-* Altar upgrade quest can be completed with husk head, not just skeleton
+## Fixed
+* Certain photo quests completing incorrectly - #90
+* Recipe conflicts - #88
+  * AgriCraft trowel/Quark trowel
+  * Chisel/Croptopia knife
+* Rod of shifting crust quest available too early - #88
+* More tips on how to generate altar power - #88
+
+
+## Removed
+* Easy player head recipe - do actual work to get altar power! - #86
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)

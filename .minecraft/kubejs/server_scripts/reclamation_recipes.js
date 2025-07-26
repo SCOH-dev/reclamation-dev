@@ -239,6 +239,27 @@ ServerEvents.recipes(event => {
         "time": 250
     })
 
+    event.remove({id: 'croptopia:knife'})
+    event.shaped('croptopia:knife', [
+            'SA',
+            'BS'
+        ], {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:stick',
+            S: 'farmersdelight:straw'
+    }).id('croptopia:knife')
+
+    event.remove({id: 'agricraft:trowel'})
+    event.shaped('agricraft:trowel', [
+            ' SB',
+            'AAS',
+            '   '
+        ], {
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:stick',
+            S: 'farmersdelight:straw'
+    }).id('agricraft:trowel')
+
     //gold nether ore from bricks
     event.custom({
         "type": "botania:pure_daisy",

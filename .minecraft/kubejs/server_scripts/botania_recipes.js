@@ -446,6 +446,8 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.remove({id: 'botania:petal_apothecary/vazkii_head'})
+
     event.replaceInput({id: 'botania:lens_mine'},
         'minecraft:lapis_lazuli',
         'embers:lead_plate')

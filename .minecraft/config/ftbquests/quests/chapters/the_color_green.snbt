@@ -57,9 +57,9 @@
 			description: [
 				"Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an &6Altar&r should do well here. Place your Altar blocks in a 2x3 rectangle and it should start collecting power!"
 				""
-				"The more &6varying kinds&r of plant life there are around the&6 Altar,&r the more power you can store. This includes &6trees, tall grass, flowers, and crops!&r"
+				"The more &6varying kinds&r of plant life there are around the&6 Altar,&r the more power you can store. This includes &6trees, tall grass, flowers, and non-agricraft crops!&r"
 				""
-				"&7Tip: the altar has a range of 16 blocks!"
+				"&7Tip: the altar has a range of 16 blocks! Plant plenty of of Enchanted trees and non-agricraft crops to really boost your power levels!"
 			]
 			id: "359392265BF91571"
 			rewards: [
@@ -560,7 +560,7 @@
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
-			description: ["Now that you have a more robust source of aura, you can put it to more use - a &6crumbling catalyst,&r when placed on top of one of the lower four golden blocks of a natural altar, can crush things much more finely than you can by hand.It can get you &6more bone meal per bone, more gold powder per leaf, and even turn cobblestone into sand!&r"]
+			description: ["Now that you have a more robust source of aura, you can put it to more use - a &6crumbling catalyst,&r when placed on top of one of the lower four golden blocks of a natural altar, can crush things much more finely than you can by hand. It can get you &6more bone meal per bone, more gold powder per leaf, and even turn cobblestone into sand!&r"]
 			id: "5C1E3750F91A38B2"
 			rewards: [{
 				id: "72FD0BCB4D48D5E6"
