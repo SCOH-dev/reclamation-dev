@@ -73,7 +73,7 @@
       "chance": 0.15,
       "item": "complicated_bees:comb",
       "nbt": {
-        "comb_type": "complicated_bees:osmium"
+        "comb_type": "reclamation:osmium"
       }
     }
   ]
