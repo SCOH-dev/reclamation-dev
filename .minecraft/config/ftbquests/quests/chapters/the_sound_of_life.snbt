@@ -171,6 +171,8 @@
 				"The &6Hellfire Forge&r allows you to use Demonic Will to craft special items."
 				""
 				"One of the first things you'll want to make is a &6soul gem&r - these special gems can store demonic will you pick up without clogging your inventory."
+				""
+				"&7Tip: the more will you have stored in your inventory, the more will drops from monsters!"
 			]
 			icon: "bloodmagic:soulforge"
 			id: "74EFFC6EDDE055CC"
@@ -311,24 +313,86 @@
 		}
 		{
 			dependencies: ["74EFFC6EDDE055CC"]
-			description: ["The &6Sentient Sword&r is a much easier way for you to acquire will - instead of having to throw soul snares at enemies, the sword has the &6inherent ability to sever souls&r from their fleshy (or bony) prisons."]
+			description: [
+				"&6Sentient Tools&r are a much easier way for you to acquire will - instead of having to throw soul snares at enemies, the tools have the &6inherent ability to sever souls&r from their fleshy (or bony) prisons."
+				""
+				"They are also powered by will - any kind of soul gem in your inventory will &6increase the tools' power&r proportional to the amount of will you have stored."
+			]
+			icon: {
+				Count: 1
+				id: "bloodmagic:soulsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "068189D12DAB75B0"
-			rewards: [{
-				id: "788F429367C66336"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "788F429367C66336"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53AA85048C90DE6A"
+					item: {
+						Count: 1
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 25.0d
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "0D1EC37A7692E55D"
+				id: "2DECD86907170DFF"
 				item: {
 					Count: 1
-					id: "bloodmagic:soulsword"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:soulsword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:soulaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:soulpickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:soulshovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:soulscythe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
+				title: "Any Sentient Tool"
 				type: "item"
 			}]
+			title: "Sentient Tools"
 			x: -1.0d
 			y: -5.0d
 		}

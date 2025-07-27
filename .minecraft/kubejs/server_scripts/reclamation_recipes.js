@@ -1338,4 +1338,66 @@ ServerEvents.recipes(event => {
             "tag": "forge:tools/knives"
         }
     })
+
+    //enchanted tree barking
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "enchanted:alder_log"
+            }
+        ],
+        "result": [
+            {
+                "item": "enchanted:stripped_alder_log"
+            },
+            {
+                "item": "farmersdelight:tree_bark"
+            }
+        ],
+        "tool": {
+            "type": "farmersdelight:tool_action",
+            "action": "axe_dig"
+        }
+    })
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "enchanted:rowan_log"
+            }
+        ],
+        "result": [
+            {
+                "item": "enchanted:stripped_rowan_log"
+            },
+            {
+                "item": "farmersdelight:tree_bark"
+            }
+        ],
+        "tool": {
+            "type": "farmersdelight:tool_action",
+            "action": "axe_dig"
+        }
+    })
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "enchanted:hawthorn_log"
+            }
+        ],
+        "result": [
+            {
+                "item": "enchanted:stripped_hawthorn_log"
+            },
+            {
+                "item": "farmersdelight:tree_bark"
+            }
+        ],
+        "tool": {
+            "type": "farmersdelight:tool_action",
+            "action": "axe_dig"
+        }
+    })
 })

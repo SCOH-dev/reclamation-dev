@@ -1818,7 +1818,7 @@
 				item: "croptopia:kale"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 13.0d
 		}
 		{
@@ -1863,8 +1863,8 @@
 		}
 		{
 			dependencies: [
-				"6FC8F37704C8FC65"
 				"467AF39CDB5CB3C3"
+				"321737F90DED1F6D"
 			]
 			description: ["Tart and bright, commonly used fresh or preserved to complement meals."]
 			id: "6CFE4E9395EFE71C"
@@ -1878,7 +1878,7 @@
 				item: "croptopia:cranberry"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: 13.0d
 		}
 		{
