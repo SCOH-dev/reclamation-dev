@@ -128,4 +128,43 @@ ServerEvents.recipes(event => {
         event.remove({id: id})
     })
 
+    //plate stuff
+    function melt_and_plate(item, fluid, plate) {
+        event.custom({
+            "type": "create:mixing",
+            "heatRequirement": "superheated",
+            "ingredients": [
+                {
+                    "item": item
+                }
+            ],
+            "results": [
+                {
+                    "amount": 90,
+                    "fluid": fluid
+                }
+            ]
+        })
+
+        event.custom({
+            "type": "create:compacting",
+            "ingredients": [
+                {
+                    "amount": 90,
+                    "fluid": fluid
+                }
+            ],
+            "results": [
+                {
+                    "item": plate
+                }
+            ]
+        })
+    }
+
+    melt_and_plate("minecraft:iron_ingot", "embers:molten_iron", "embers:iron_plate")
+    melt_and_plate("minecraft:copper_ingot", "embers:molten_copper", "embers:copper_plate")
+    melt_and_plate("embers:lead_ingot", "embers:molten_lead", "embers:lead_plate")
+    melt_and_plate("embers:silver_ingot", "embers:molten_silver", "embers:silver_plate")
+    melt_and_plate("embers:dawnstone_ingot", "embers:molten_dawnstone", "embers:dawnstone_plate")
 })

@@ -68,15 +68,29 @@ ServerEvents.recipes(event => {
 
     event.remove({id: 'theurgy:distillation/cod'})
     event.remove({id: 'theurgy:distillation/salmon'})
+    event.remove({id: 'theurgy:distillation/cooked_cod'})
+    event.remove({id: 'theurgy:distillation/cooked_salmon'})
     event.custom({
         "type": "theurgy:distillation",
         "distillation_time": 100,
         "ingredient": {
             "tag": "forge:raw_fishes"
         },
-        "ingredient_count": 1,
+        "ingredient_count": 2,
         "result": {
             "count": 1,
+            "item": "theurgy:mercury_shard"
+        }
+    })
+    event.custom({
+        "type": "theurgy:distillation",
+        "distillation_time": 100,
+        "ingredient": {
+            "tag": "forge:cooked_fishes"
+        },
+        "ingredient_count": 1,
+        "result": {
+            "count": 2,
             "item": "theurgy:mercury_shard"
         }
     })

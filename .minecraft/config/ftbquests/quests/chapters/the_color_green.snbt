@@ -2181,7 +2181,7 @@
 			description: [
 				"Now that you have&6 Ember&r, what can you do with it?"
 				""
-				"One useful item is the &6Hearth Coil&r - when provided with Ember, it provides heat to nearby furnaces."
+				"One useful item is the &6Hearth Coil&r - when provided with Ember, it can be used as a VERY fast furnace."
 			]
 			id: "350B8B018EB49351"
 			rewards: [{
@@ -2281,6 +2281,38 @@
 			title: "Mercurial Power"
 			x: 0.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["6628083C19C5F8CB"]
+			description: [
+				"With high enough aura in an area, &6dried earth will slowly convert to dirt!&r"
+				""
+				"If you want to stop this effect from happening, &6Powder of Dried Stasis&r will prevent the conversion of dried earth to dirt in the area it's placed in."
+			]
+			icon: "minecraft:dirt"
+			id: "316BD23FB6087C07"
+			optional: true
+			rewards: [{
+				id: "217359AD91275C81"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "pseudo-terraforming"
+			tasks: [{
+				id: "75E38FC6727823EF"
+				item: {
+					Count: 1
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "reclamation_util:reclaim_effect"
+					}
+				}
+				type: "item"
+			}]
+			title: "Regrowth?"
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	title: "Touching Grass"

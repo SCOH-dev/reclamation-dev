@@ -205,7 +205,6 @@ ServerEvents.recipes(event => {
         "upgradeLevel": 2
     })
 
-
     event.custom({
         "type": "bloodmagic:soulforge",
         "drain": 666,
@@ -225,5 +224,19 @@ ServerEvents.recipes(event => {
         "output": {
             "item": "minecraft:wither_skeleton_skull"
         }
+    })
+
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 80000,
+        "consumptionRate": 50,
+        "drainRate": 100,
+        "input": {
+            "item": "minecraft:tide_armor_trim_smithing_template"
+        },
+        "output": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "upgradeLevel": 4
     })
 })

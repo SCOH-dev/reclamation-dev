@@ -1400,4 +1400,49 @@ ServerEvents.recipes(event => {
             "action": "axe_dig"
         }
     })
+
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "input": {
+            "item": "minecraft:warped_roots"
+        },
+        "mana": 50,
+        "output": {
+            "item": "minecraft:twisting_vines"
+        }
+    })
+
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "input": {
+            "item": "minecraft:crimson_roots"
+        },
+        "mana": 50,
+        "output": {
+            "item": "minecraft:weeping_vines"
+        }
+    })
+
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "minecraft:gunpowder"
+        },
+        "output": {
+            "item": "naturesaura:effect_powder",
+            "nbt": {
+               "effect": "reclamation_util:reclaim_effect"
+            }
+        },
+        "aura": 4000,
+        "time": 200
+    })
 })

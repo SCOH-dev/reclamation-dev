@@ -253,6 +253,8 @@
 				"To distill it, you'll have to make a &6Mercury Distiller&r and place it on top of a &6Pyromantic Brazier.&r Place the items you want to distill into the Distiller, give the Brazier some fuel, and it'll slowly convert materials into &6Alchemical Mercury.&r"
 				""
 				"Rarer materials give more mercury, but to start you'll probably want to distill &6cobblestone, dried earth, or cooked fish.&r "
+				""
+				"&7Tip: slicing fish makes it a more efficient way of getting mercury!"
 			]
 			icon: "theurgy:distiller"
 			id: "238F26409930D47F"
@@ -349,12 +351,18 @@
 			rewards: [
 				{
 					count: 4
-					id: "5570AFD8D267B0AE"
-					item: "kubejs:sulfur_dirt"
+					id: "628CFF330629E4D8"
+					item: {
+						Count: 1
+						id: "kubejs:sulfur_dirt"
+						tag: {
+							"theurgy:sulfur.source.id": "kubejs:dried_earth"
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "5AF363DFDC9E8079"
+					id: "73E825AEA8A695C2"
 					type: "xp"
 					xp: 100
 				}
@@ -559,7 +567,11 @@
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
-			description: ["The only mobs that can spawn naturally are husks, drowned, creepers, skeletons, cave spiders, and endermen - this means that there's no way to get any kind of resources from witches or zombie villagers (even if you could cure them!); the only things that you can really hope to get are iron or copper ingots from &6rare drops&r - but there are other ways to generate resources..."]
+			description: [
+				"The naturally spawning mobs have changed in this new landscape! Specifically, &czombie villagers and witches won't spawn,&r and &6spiders have mutated&r into their venomous cave versions. "
+				""
+				"This means that there's &cno way to get any kind of resources from witches or zombie villagers&r (even if you could cure them!); the only things that you can really hope to get are iron or copper ingots from &6rare drops&r - but there are other ways to generate resources..."
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:stone_sword"
