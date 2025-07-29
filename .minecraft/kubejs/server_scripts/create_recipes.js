@@ -167,4 +167,6 @@ ServerEvents.recipes(event => {
     melt_and_plate("embers:lead_ingot", "embers:molten_lead", "embers:lead_plate")
     melt_and_plate("embers:silver_ingot", "embers:molten_silver", "embers:silver_plate")
     melt_and_plate("embers:dawnstone_ingot", "embers:molten_dawnstone", "embers:dawnstone_plate")
+    melt_and_plate("minecraft:gold_ingot", "embers:molten_gold", "create:golden_sheet")
+    melt_and_plate("create:brass_ingot", "embers:molten_brass", "create:brass_sheet")
 })
