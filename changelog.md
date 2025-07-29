@@ -23,6 +23,7 @@ Earlier game semi-terraforming! Turn dried earth into dirt passively!
 * Hearth coil quest incorrectly stating it heats up furnaces - #111
 * Dirt sulfur reward from quest not correctly stacking - #113
 * ARC missing texture when equipped with sanguine reverter - #104
+* Crash on opening certain quests on servers - #91
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)
