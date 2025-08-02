@@ -239,4 +239,18 @@ ServerEvents.recipes(event => {
         },
         "upgradeLevel": 4
     })
+
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 20000,
+        "consumptionRate": 50,
+        "drainRate": 100,
+        "input": {
+            "item": "minecraft:golden_apple"
+        },
+        "output": {
+            "item": "minecraft:chorus_flower"
+        },
+        "upgradeLevel": 2
+    })
 })

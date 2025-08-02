@@ -108,6 +108,12 @@
   "species.complicated_bees.reclamation:zincum.authority": "Ayse Eigh",
   "species.complicated_bees.reclamation:zincum.flavor_text": "Found in blood. Do not try to extract from blood.",
   "species.complicated_bees.reclamation:zincum.flavor_author": "Forged in the hive II",
+  "species.complicated_bees.reclamation:fluorite": "Fluorite",
+  "species.complicated_bees.reclamation:fluorite.genus": "Aesapis",
+  "species.complicated_bees.reclamation:fluorite.species_taxonomy": "A. fluoris",
+  "species.complicated_bees.reclamation:fluorite.authority": "Ayse Eigh",
+  "species.complicated_bees.reclamation:fluorite.flavor_text": "Now this is one groovy crystal right here...",
+  "species.complicated_bees.reclamation:fluorite.flavor_author": "Crystalline Honeys",
 
   "comb.complicated_bees.reclamation:barren": "Barren",
   "comb.complicated_bees.reclamation:magical": "Magical",
@@ -118,6 +124,7 @@
   "comb.complicated_bees.reclamation:zinc": "Zinc",
   "comb.complicated_bees.reclamation:tin": "Tin",
   "comb.complicated_bees.reclamation:uranium": "Uranium",
+  "comb.complicated_bees.reclamation:fluorite": "Fluorite",
 
   "flower.complicated_bees.reclamation:dead_bush": "Dead Bush",
   "flower.complicated_bees.reclamation:andesite": "Andesite",

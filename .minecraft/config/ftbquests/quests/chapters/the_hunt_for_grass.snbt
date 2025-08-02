@@ -733,7 +733,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["You can get straw rarely by cutting tall grass with a &6knife.&r Use it to make leads, ropes, and building blocks!"]
+			description: ["You can get straw rarely by cutting grass with a &6knife.&r Use it to make leads, ropes, and building blocks!"]
 			icon: "farmersdelight:straw"
 			id: "07339A3B3E7714B3"
 			rewards: [
@@ -919,6 +919,232 @@
 			title: "OSHA Approved"
 			x: 1.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["4075C13786AF4C49"]
+			description: [
+				"With the re-introduction of actual saplings to the world, you might want to make slightly better tools than the basic pickaxe and axe you're used to."
+				""
+				"The &6Hammer, Excavator, and Broadaxe&r can break blocks in a &63x3 area&r (and the broadaxe breaks in &63x3x3!&r), making terraforming and general resource collection much easier."
+			]
+			icon: {
+				Count: 1
+				id: "reclamation_util:iron_broadaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73B3D2C5DE405208"
+			rewards: [{
+				id: "38ACBA6748CBF860"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "449440C5F60E3A01"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "reclamation_util:wooden_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:stone_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:golden_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:iron_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:diamond_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:netherite_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:manasteel_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:sky_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:botanist_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:wooden_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:stone_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:golden_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:iron_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:diamond_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:netherite_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:manasteel_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:botanist_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:sky_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:wooden_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:stone_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:golden_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:iron_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:diamond_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:netherite_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:manasteel_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:botanist_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:sky_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any AOE Tool"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.75d
 		}
 	]
 	title: "A Whiff of Normal"

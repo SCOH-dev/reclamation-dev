@@ -57,9 +57,9 @@
 			description: [
 				"Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an &6Altar&r should do well here. Place your Altar blocks in a 2x3 rectangle and it should start collecting power!"
 				""
-				"The more &6varying kinds&r of plant life there are around the&6 Altar,&r the more power you can store. This includes &6trees, tall grass, flowers, and non-agricraft crops!&r"
+				"The more &6plantlife&r there is around the&6 Altar,&r the more power you can store. This includes &6trees, grass, flowers, crops, vines, pumpkins, melons, and more!&r"
 				""
-				"&7Tip: the altar has a range of 16 blocks! Plant plenty of of Enchanted trees and non-agricraft crops to really boost your power levels!"
+				"&7Tip: the altar has a range of 16 blocks! There is a cap to each kind of plantlife nearby as well, so make sure the surroundings are varied."
 			]
 			id: "359392265BF91571"
 			rewards: [

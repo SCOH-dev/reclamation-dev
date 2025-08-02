@@ -1,16 +1,16 @@
-filename = 'fusion-1.2.8a-forge-mc1.20.1.jar'
+filename = 'fusion-1.2.10-forge-mc1.20.1.jar'
 name = 'Fusion'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '12215c02ea3431e9d8243f5c60e3d4eed1655a58'
+hash = '372c78d9d28e2974263f31e5c9254b4e986962dc'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6773120
+file-id = 6826826
 project-id = 854949

@@ -652,6 +652,29 @@ ServerEvents.recipes(event => {
         "input": {
             "item": "complicated_bees:comb",
             "nbt": {
+                "comb_type": "reclamation:fluorite"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.5
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.3
+            },
+            {
+                "item": "mekanism:fluorite_gem",
+                "chance": 0.25
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
                 "comb_type": "reclamation:zinc"
             }
         },

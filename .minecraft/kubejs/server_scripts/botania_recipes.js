@@ -289,6 +289,22 @@ ServerEvents.recipes(event => {
         }
     })
 
+    //rose of oblivion
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "input": {
+            "item": "minecraft:wither_rose"
+        },
+        "mana": 5000,
+        "output": {
+            "item": "naturesaura:end_flower"
+        }
+    })
+
     //botania flower seeds
     const flower_colors = ['black', 'blue', 'brown', 'cyan', 'gray', 'green', 'light_blue', 'light_gray', 'lime', 'magenta', 'orange', 'pink', 'purple', 'red', 'white', 'yellow']
     flower_colors.forEach(color => {
@@ -461,4 +477,31 @@ ServerEvents.recipes(event => {
         '3x minecraft:ender_pearl',
         'minecraft:glass_bottle'
     ])
+
+    //heart of the sea
+    event.custom({
+        "type": "botania:runic_altar",
+        "ingredients": [
+            {
+                "item": "botania:rune_water"
+            },
+            {
+                "item": "botania:rune_winter"
+            },
+            {
+                "item": "enchanted:creeper_heart"
+            },
+            {
+                "item": "minecraft:nautilus_shell"
+            },
+            {
+                "item": "minecraft:pufferfish"
+            }
+        ],
+        "mana": 20000,
+        "output": {
+            "count": 1,
+            "item": "minecraft:heart_of_the_sea"
+        }
+    })
 })

@@ -112,6 +112,26 @@ ServerEvents.recipes(event => {
         ]
     })
 
+    //sal ammoniac crystal
+    event.custom({
+        "type": "create:filling",
+        "ingredients": [
+            {
+                "item": "enchanted:icy_needle"
+            },
+            {
+                "amount": 750,
+                "fluid": "theurgy:sal_ammoniac",
+                "nbt": {}
+            }
+        ],
+        "results": [
+            {
+                "item": "theurgy:sal_ammoniac_crystal"
+            }
+        ]
+    })
+
     const crushing_resource_recipes = [
         "create:crushing/crimsite_recycling",
         "create:crushing/crimsite",

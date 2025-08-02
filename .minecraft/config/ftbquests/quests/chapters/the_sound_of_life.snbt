@@ -2495,8 +2495,8 @@
 					type: "item"
 				}
 				{
-					id: "29B07AE095F0E2E2"
-					item: "mekanismgenerators:fission_fuel_assembly"
+					id: "4B7FC9ACB042D32F"
+					item: "mekanismgenerators:control_rod_assembly"
 					type: "item"
 				}
 			]

@@ -558,7 +558,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			dependency_requirement: "one_completed"
 			description: ["Perfect for carrying items on the go, the &6backpack&r has a few useful upgrades as well."]
 			hide_until_deps_complete: true
@@ -585,7 +585,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: ["Better than regular chests, &6Sophisticated Storage&r lets you put more things in a single block."]
 			hide_until_deps_complete: true
 			id: "186AF6EF5933F0C7"
@@ -631,7 +631,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: [
 				"Capable of storing a very large amount of a single item type."
 				""
@@ -892,7 +892,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: ["Each workbench (aside from looking neat) can turn a specific set of blocks into its variants."]
 			hide_until_deps_complete: true
 			id: "7998DF6633727385"
@@ -943,7 +943,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: ["Can turn almost any basic block into a wide array of variants."]
 			hide_until_deps_complete: true
 			id: "589D9D8B75EA4D6A"
@@ -965,7 +965,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: ["Made from stonecutting andesite alloy, these blocks can take on the texture of any other block."]
 			hide_until_deps_complete: true
 			id: "739D0BFEC4F76873"
@@ -990,7 +990,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: [
 				"You can make music by crafing a &6Music Sheet&r and placing notes on the sheet. "
 				""
@@ -1019,10 +1019,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: [
 				"You can paint your own masterpieces while you wait for crops to grow - simply make a palette, fill it with colors, plop a canvas on an easel, and get to painting!"
 				""
@@ -1083,10 +1083,10 @@
 			]
 			title: "The Joy of Painting"
 			x: 5.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: [
 				"&6Building Gadgets&r are a collection of useful tools that will let you build very quickly."
 				""
@@ -1108,8 +1108,9 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["600A7F0DFD880119"]
+			dependencies: ["448ABF53EEACBFA7"]
 			description: ["The &6Rod of the Shifting Crust&r allows you to exchange blocks in the world with blocks in your inventory for the cost of mana."]
+			hide_until_deps_complete: true
 			id: "76B04BEB7909F047"
 			rewards: [{
 				id: "3C060A5958479379"

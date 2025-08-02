@@ -4,9 +4,9 @@
   "color": "c2bf80",
   "nest_color": "c2bf80",
   "models": [
-    "reclamation:item/wasteland_drone",
-    "reclamation:item/wasteland_princess",
-    "reclamation:item/wasteland_queen"
+    "reclamation:bee/wasteland_drone",
+    "reclamation:bee/wasteland_princess",
+    "reclamation:bee/wasteland_queen"
   ],
   "products": [
     {

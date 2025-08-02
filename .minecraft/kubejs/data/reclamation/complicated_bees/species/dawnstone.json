@@ -4,9 +4,9 @@
   "color": "ffab66",
   "nest_color": "ffab66",
   "models": [
-    "reclamation:item/magic_drone",
-    "reclamation:item/magic_princess",
-    "reclamation:item/magic_queen"
+    "reclamation:bee/magic_drone",
+    "reclamation:bee/magic_princess",
+    "reclamation:bee/magic_queen"
   ],
   "products": [
     {
