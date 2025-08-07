@@ -246,7 +246,7 @@
 			description: [
 				"The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"
 				""
-				"&7Tip: there is a better way to make brilliant fiber, but you'll need blaze powder... maybe a special botanic pumpkin can help here?"
+				"&7Tip: there is a better way to make brilliant fiber, but you'll need to get blaze powder somehow... "
 			]
 			icon: "minecraft:gold_ingot"
 			id: "7010ED9A666FF89E"
@@ -514,6 +514,8 @@
 				"Mana's not very useful without ways to generate and move it! Starting out, your best source of mana is going to be the &6Endoflame.&r"
 				""
 				"&7Tip: you can use the Wand of the Forest to bind the spreader to flowers and pools."
+				""
+				"&7Tip 2: using a pressure plate but it's not working? Open your OPAC keybind (default [']) to turn off the Prot. Plates from Other setting!"
 			]
 			icon: "botania:mana_spreader"
 			id: "2FD66F543443B8A8"
@@ -1091,39 +1093,27 @@
 			y: -9.5d
 		}
 		{
-			dependencies: [
-				"5EA3E8FCE4EBBA82"
-				"7D5E4A2212C421AE"
-			]
+			dependencies: ["5EA3E8FCE4EBBA82"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Using the power of mana and a pumpkin, you think you can create a weak imitation of a blaze head. Using this, you can then channel altar power through that imitation blaze head, a few extra reagents, and a &6small nether chalk circle&r to &6summon a real blaze!&r"
+				"Using the power of mana and a pumpkin, you think you can create a &6Fel Pumpkin&r - a weak imitation of a blaze head. Pop this magically-charged head on top of two iron bars, and it'll turn into a passable facsimile of a blaze."
 				""
-				"This summoned blaze always drops at least 3 blaze rods."
+				"This imitation blaze always drops at least &610 blaze powder.&r This blaze powder can be spun into brilliant fiber, or distilled into more useful dusts!"
 				""
-				"&7Tip: the ritual to summon the blaze is described in the Reclamation Rituals book.&r"
-				""
-				"&7Tip 2: you can also use the Fel Pumpkin to summon a weaker blaze that only drops blaze powder, by placing it on top of two iron bars.&r"
+				"&7Tip: you can capture an imitation blaze in the Blaze Burner!"
 			]
-			icon: "minecraft:blaze_rod"
+			icon: "botania:fel_pumpkin"
 			id: "1AF1077B69E1551E"
 			rewards: [{
 				id: "4705AE453E2CFC9B"
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "643D4D645AFA5CC2"
-					item: "botania:fel_pumpkin"
-					type: "item"
-				}
-				{
-					id: "79B054EE4C3E1DCF"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "643D4D645AFA5CC2"
+				item: "botania:fel_pumpkin"
+				type: "item"
+			}]
 			title: "Knockoff Blazes"
 			x: -4.5d
 			y: -6.0d
@@ -1356,9 +1346,9 @@
 		{
 			dependencies: ["1AF1077B69E1551E"]
 			description: [
-				"Distilling blaze powder and gunpowder together in a Distillery will grant you access to glowstone!"
+				"Distilling blaze powder and gunpowder together in a Distillery will grant you access to &6glowstone!&r"
 				""
-				"Getting redstone is similar, using cinder flour in place of gunpowder."
+				"Getting &6redstone&r is similar, using cinder flour in place of gunpowder."
 				""
 				"&7Tip: you can also make glowstone and redstone with strength and night vision potions - it's up to you whether you want to take the Enchanted or Create route for these!&r"
 			]
@@ -1403,7 +1393,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["1AF1077B69E1551E"]
+			dependencies: ["621BEE0A09882094"]
 			description: [
 				"The &6Alchemy Catalyst&r allows you to use the power of mana to transmute a wide variety of items. Place it under a mana pool to start alchemizing!"
 				""
@@ -1422,8 +1412,8 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -9.5d
+			x: -2.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5C1E3750F91A38B2"]
@@ -2313,6 +2303,63 @@
 			title: "Regrowth?"
 			x: 4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["74FB5A117EF51949"]
+			description: [
+				"The &6Bin&r is a fantastic block that automatically collects the outputs of various dwarven machinery."
+				""
+				"Simply attach it to the &6bottom&r of a machine (like, say, the stamper base) and it'll fill up with products."
+			]
+			id: "0F8BAA82A7B90C68"
+			optional: true
+			rewards: [{
+				id: "1E31C381F7CAD802"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31BD133D7FFD36DC"
+				item: "embers:bin"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7D5E4A2212C421AE"
+				"1AF1077B69E1551E"
+			]
+			description: [
+				"With an imitation blaze head and a couple of real magical reagents, you can &6summon a real blaze!&r"
+				""
+				"This summoned blaze always drops at least 3 blaze rods. "
+				""
+				"&7Tip: the ritual to summon the blaze is described in the Reclamation Rituals book.&r"
+			]
+			id: "621BEE0A09882094"
+			rewards: [
+				{
+					count: 2
+					id: "2BE2615739D91CEA"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "2E7BDEE2ECF1D73E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3DA044014EEF761D"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Real Blazes"
+			x: -4.0d
+			y: -8.0d
 		}
 	]
 	title: "Touching Grass"

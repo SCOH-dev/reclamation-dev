@@ -1,45 +1,29 @@
-# Reclamation 1.4.0
-
-Paxels! Early game aoe tools! Updates! Lights! Camera! Action!
+# Reclamation 1.4.1
 
 ## Added
-* Sophisticated Storage Create Integration - #130
-* Simply Lights
-* Polymorph - #131
-* Manasteel, Botanist's, and Skyseeker's paxels - #133
-* Hammers, excavators, and broadaxes! Some are missing, don't ask me to add them. because i hate you. - #134
-* Fluorite bee - #135
-* Recipe for sal ammoniac crystal through create - #118
+* Bin quest - #137
+* Recipe for fluorite bees... oops - #140
+* Rewards for resource generation quests
 
 
 ## Updated
-* Applied Energistics 2 -> 15.4.7
-* Complicated Bees -> 2.4.0
-* Embers Rekindled -> 1.4.1
-* FTB Library -> 2001.2.10
-* FTB Quests -> 2001.4.14
-* Fusion -> 1.2.10
-* GeckoLib 4 -> 4.7.2
-* ModernFix -> 5.24.4
-* Moonlight Library -> 2.14.14
-* reclamation_util -> 1.0.21
-* Sophisticated Backpacks -> 3.23.23.1289
-* Sophisticated Core -> 1.3.58.1217
-* Sound Physics Remastered -> 1.4.15
+* reclamation_util -> 1.0.22
 
 
 ## Changed
-* Chorus available sooner - #124
-* Rose of oblivion available sooner - #122
-* Heart of the sea available sooner - #117
-* Wording of a few quests - #116
-* White chalk much easier to see in books - #136
+* Slightly rearranged flower quests - #137
+* Made it more clear when blaze powder is available vs blaze rods
+* Changed the wording of the bee nest ritual 
+* Default server config to allow players to change protect blocks from other setting in claims - #151
+* Default player config to allow pressure plates to be triggered by other - #151, #144
 
 
 ## Fixed
-* Made most armors useable with ember's augment smithing - #125
-* Duplicate fission fuel assembly requirement - #121
-* Sophisticated storage/quark chests not working on create contraptions - #130
+* Stripped Enchanted logs couldn't be used for casing recipes - #137
+* Croptopia pepper unobtainable - #139
+* Confusing enchanting table info tab - #142
+* Certain fruit trees unobtainable - #150
+* reclamation_util tools looking strange in hand and not being enchantable - #148
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)

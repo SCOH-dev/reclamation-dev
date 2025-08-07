@@ -893,11 +893,11 @@ ServerEvents.recipes(event => {
         })
     }
     const trees = [
-        ['almond', 'onion', 'coffee_beans', 'dark_oak'],
+        ['almond', 'onion', 'coffee_beans', 'oak'],
         ['apricot', 'saguaro', 'tomato', 'oak'],
         ['avocado', 'cabbage', 'rutabaga', 'birch'],
         ['banana', 'sweetpotato', 'corn', 'jungle'],
-        ['cashew', 'blackbean', 'banana', 'dark_oak'],
+        ['cashew', 'blackbean', 'banana', 'oak'],
         ['cherry', 'strawberry', 'tomato', 'cherry'],
         ['cinnamon', 'mustard', 'ginger', 'spruce'],
         ['coconut', 'walnut', 'corn', 'jungle'],
@@ -912,13 +912,13 @@ ServerEvents.recipes(event => {
         ['nectarine', 'orange', 'peach', 'oak'],
         ['nutmeg', 'peanut', 'cashew', 'birch'],
         ['orange', 'basil', 'mango', 'birch'],
-        ['peach', 'strawberry', 'cantaloupe', 'dark_oak'],
+        ['peach', 'strawberry', 'cantaloupe', 'oak'],
         ['pear', 'saguaro', 'radish', 'acacia'],
-        ['pecan', 'almond', 'onion', 'dark_oak'],
+        ['pecan', 'almond', 'onion', 'oak'],
         ['persimmon', 'chile_pepper', 'rutabaga', 'oak'],
         ['plum', 'yam', 'oat', 'oak'],
         ['starfruit', 'banana', 'mango', 'jungle'],
-        ['walnut', 'rice', 'soybean', 'dark_oak']
+        ['walnut', 'rice', 'soybean', 'oak']
     ]
     trees.forEach(entry => {
         sapling_recipe(entry[0], entry[1], entry[2], entry[3])

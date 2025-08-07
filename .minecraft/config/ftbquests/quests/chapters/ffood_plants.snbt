@@ -569,7 +569,7 @@
 				item: "minecraft:azure_bluet"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 3.5d
 		}
 		{
@@ -635,8 +635,8 @@
 		}
 		{
 			dependencies: [
-				"5FA8835DAD8496B6"
 				"049EFFDACB56ECD5"
+				"53D1E7880BE9CBF3"
 			]
 			description: ["Hidden among thick leaves, these tiny white bells are said to chime in silence when the forest is listening."]
 			id: "22B750248FB3F5A8"
@@ -690,7 +690,7 @@
 				item: "minecraft:torchflower"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -1234,7 +1234,7 @@
 				item: "croptopia:mustard"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 10.0d
 		}
 		{
@@ -1322,7 +1322,7 @@
 				item: "croptopia:celery"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 10.0d
 		}
 		{
@@ -1382,7 +1382,7 @@
 				item: "croptopia:tomatillo"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.5d
 			y: 11.0d
 		}
 		{
@@ -1399,7 +1399,7 @@
 				item: "croptopia:zucchini"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.5d
 			y: 11.0d
 		}
 		{
@@ -1419,7 +1419,7 @@
 				item: "croptopia:raspberry"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: 11.0d
 		}
 		{
@@ -1439,7 +1439,7 @@
 				item: "croptopia:blueberry"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 11.0d
 		}
 		{
@@ -1459,7 +1459,7 @@
 				item: "croptopia:blackberry"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: 11.0d
 		}
 		{
@@ -1476,7 +1476,7 @@
 				item: "croptopia:leek"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 11.0d
 		}
 		{
@@ -1496,7 +1496,7 @@
 				item: "croptopia:lettuce"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 11.0d
 		}
 		{
@@ -1513,7 +1513,7 @@
 				item: "croptopia:ginger"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 11.0d
 		}
 		{
@@ -1530,7 +1530,7 @@
 				item: "croptopia:cantaloupe"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 11.0d
 		}
 		{
@@ -1547,7 +1547,7 @@
 				item: "croptopia:honeydew"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: 11.0d
 		}
 		{
@@ -2920,6 +2920,20 @@
 			title: "Good god..."
 			x: 2.5d
 			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2E16EB869081D97A"
+				"767FBB61FCFCF24F"
+			]
+			id: "10434FBFCF57E54E"
+			tasks: [{
+				id: "4FC4C9A09CAC2F76"
+				item: "croptopia:pepper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
 		}
 	]
 	title: "Plants Galore"
