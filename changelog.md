@@ -1,4 +1,4 @@
-# Reclamation 1.5
+# Reclamation 1.5.0
 
 ## Added
 * Biome globes - reclaim biomes without rituals in the late game!
