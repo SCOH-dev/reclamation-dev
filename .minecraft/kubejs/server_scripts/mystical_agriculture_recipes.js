@@ -95,27 +95,43 @@ ServerEvents.recipes(event => {
         "type": "botania:runic_altar",
         "ingredients": [
             {
-                "item": "mysticalagriculture:prudentium_essence"
+                "item": "mysticalagriculture:prudentium_block"
             },
             {
-                "item": "mysticalagriculture:prudentium_essence"
+                "item": "mysticalagriculture:ice_essence"
             },
             {
-                "item": "mysticalagriculture:prudentium_essence"
-            },
-            {
-                "item": "mysticalagriculture:prudentium_essence"
+                "item": "mysticalagriculture:nether_essence"
             }
         ],
-        "mana": 20000,
+        "mana": 60000,
         "output": {
             "count": 2,
             "item": "mysticalagriculture:tertium_essence"
         }
     })
     event.custom({
+        "type": "botania:terra_plate",
+        "ingredients": [
+            {
+                "item": "mysticalagriculture:prudentium_block"
+            },
+            {
+                "item": "mysticalagriculture:nether_essence"
+            },
+            {
+                "item": "mysticalagriculture:ice_essence"
+            }
+        ],
+        "mana": 100000,
+        "result": {
+            "item": "mysticalagriculture:tertium_essence",
+            "count": 2
+        }
+    })
+    event.custom({
         "type": "ars_nouveau:imbuement",
-        "count": 2,
+        "count": 1,
         "input": {
             "item": "mysticalagriculture:tertium_block"
         },
@@ -209,7 +225,7 @@ ServerEvents.recipes(event => {
         },
         "itemInput": {
             "ingredient": {
-                "item": "botania:terrasteel_nugget"
+                "item": "botania:manasteel_nugget"
             }
         },
         "output": {

@@ -214,14 +214,23 @@
 				"Enter the &6Ember Bore&r - place it on bedrock, add a &6Mechanical Core&r above it so you can pipe things in and out of it, and give it some fuel! It'll start digging up that sweet, sweet Ember."
 				""
 				"&7Tip: the Mechanical Core acts as an extension for most Embers multiblocks! You can transfer items, fluid, and ember in and out of the core as if it was a part of the block it is attached to."
+				""
+				"&7Tip 2: USE YOUR MECHANICAL LENS! It's EXTREMELY helpful for figuring out how Ember's machines work."
 			]
 			icon: "embers:ember_bore"
 			id: "6DC359D0F8736415"
-			rewards: [{
-				id: "131DE50BA2E02262"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "131DE50BA2E02262"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2AF7BCC46CB892FD"
+					item: "embers:tinker_lens"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2BB9D62248783D75"
@@ -1007,7 +1016,11 @@
 		}
 		{
 			dependencies: ["74FB5A117EF51949"]
-			description: ["By piping molten copper and gold into different sides of the bottom of a &6Mixer Centrifuge,&r (along with some ember) you can combine them into a strong, ember-aligned metal called &6Dawnstone.&r Pipe it out of the top and stamp it into ingots or plates!"]
+			description: [
+				"By piping molten copper and gold into &odifferent sides&r of the bottom of a &6Mixer Centrifuge,&r (along with some ember) you can combine them into a strong, ember-aligned metal called &6Dawnstone.&r Pipe it out of the top and stamp it into ingots or plates!"
+				""
+				"&7Tip: use your Tinker's Lens to see what's going on in the mixer!"
+			]
 			icon: "embers:dawnstone_ingot"
 			id: "221E431A74C6E8A5"
 			rewards: [{

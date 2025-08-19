@@ -1661,9 +1661,11 @@
 			description: [
 				"Stronger than Prudentium, &6Tertium&r is necessary for all kinds of metallic essence seeds."
 				""
-				"Make it using a &6Runic Altar.&r"
+				"Make it using a &6Runic Altar&r or &6Terrestrial Agglomeration Plate.&r"
 				""
 				"&7Tip: you can also make it in a Metallurgic Infuser!"
+				""
+				"&7Tip 2: a potency lens would make the altar process much faster!"
 			]
 			id: "2509BD7F791C2BC5"
 			rewards: [{

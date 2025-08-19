@@ -189,4 +189,20 @@ ServerEvents.recipes(event => {
     melt_and_plate("embers:dawnstone_ingot", "embers:molten_dawnstone", "embers:dawnstone_plate")
     melt_and_plate("minecraft:gold_ingot", "embers:molten_gold", "create:golden_sheet")
     melt_and_plate("create:brass_ingot", "embers:molten_brass", "create:brass_sheet")
+
+    event.custom({
+        "type": "mekanism:metallurgic_infusing",
+        "chemicalInput": {
+            "amount": 80,
+            "tag": "mekanism:redstone"
+        },
+        "itemInput": {
+            "ingredient": {
+                "item": "minecraft:quartz"
+            }
+        },
+        "output": {
+            "item": "create:rose_quartz"
+        }
+    })
 })

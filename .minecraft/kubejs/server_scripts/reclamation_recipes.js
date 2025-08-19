@@ -169,9 +169,9 @@ ServerEvents.recipes(event => {
 
     //remove early game dirt -> coarse dirt -> dirt duplication
     event.remove({ id: 'minecraft:coarse_dirt'})
-    event.shapeless('minecraft:coarse_dirt', [
-        'minecraft:dirt',
-        'minecraft:gravel'
+    event.shapeless('2x minecraft:coarse_dirt', [
+        '2x minecraft:dirt',
+        '2x minecraft:gravel'
     ])
 
     //cut copper into ingots
@@ -1468,4 +1468,157 @@ ServerEvents.recipes(event => {
         "aura": 4000,
         "time": 200
     })
+
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "reclamation_util:attuned_biome_bottle"
+        },
+        "output": {
+            "item": "reclamation_util:empty_biome_globe"
+        },
+        "aura": 500000,
+        "time": 200
+    })
+
+    event.custom({
+        "type": "ars_nouveau:imbuement",
+        "count": 1,
+        "input": {
+            "item": "reclamation_util:empty_biome_globe"
+        },
+        "output": "reclamation_util:plains_biome_globe",
+        "pedestalItems": [
+            {
+                "item": {
+                    "item": "reclamation_util:filled_biome_bottle"
+                }
+            },
+            {
+                "item": {
+                    "item": "botania:laputa_shard"
+                }
+            },
+            {
+                "item": {
+                    "item": "botania:grass_seeds"
+                }
+            },
+            {
+                "item": {
+                    "item": "mysticalagriculture:nature_essence"
+                }
+            }
+        ],
+        "source": 10000
+    })
+    event.custom({
+        "type": "ars_nouveau:imbuement",
+        "count": 1,
+        "input": {
+            "item": "reclamation_util:empty_biome_globe"
+        },
+        "output": "reclamation_util:forest_biome_globe",
+        "pedestalItems": [
+            {
+                "item": {
+                    "item": "reclamation_util:filled_biome_bottle"
+                }
+            },
+            {
+                "item": {
+                    "item": "botania:laputa_shard"
+                }
+            },
+            {
+                "item": {
+                    "item": "minecraft:oak_sapling"
+                }
+            },
+            {
+                "item": {
+                    "item": "mysticalagriculture:nature_essence"
+                }
+            }
+        ],
+        "source": 10000
+    })
+    event.custom({
+        "type": "ars_nouveau:imbuement",
+        "count": 1,
+        "input": {
+            "item": "reclamation_util:empty_biome_globe"
+        },
+        "output": "reclamation_util:desert_biome_globe",
+        "pedestalItems": [
+            {
+                "item": {
+                    "item": "reclamation_util:arid_biome_bottle"
+                }
+            },
+            {
+                "item": {
+                    "item": "botania:laputa_shard"
+                }
+            },
+            {
+                "item": {
+                    "item": "minecraft:sandstone"
+                }
+            },
+            {
+                "item": {
+                    "item": "mysticalagriculture:nature_essence"
+                }
+            }
+        ],
+        "source": 10000
+    })
+    event.custom({
+        "type": "ars_nouveau:imbuement",
+        "count": 1,
+        "input": {
+            "item": "reclamation_util:empty_biome_globe"
+        },
+        "output": "reclamation_util:ocean_biome_globe",
+        "pedestalItems": [
+            {
+                "item": {
+                    "item": "reclamation_util:watery_biome_bottle"
+                }
+            },
+            {
+                "item": {
+                    "item": "botania:laputa_shard"
+                }
+            },
+            {
+                "item": {
+                    "item": "minecraft:kelp"
+                }
+            },
+            {
+                "item": {
+                    "item": "mysticalagriculture:nature_essence"
+                }
+            }
+        ],
+        "source": 10000
+    })
+
+    event.shaped('minecraft:comparator', [
+        ' A ',
+        'APA',
+        'SSS'
+    ], {
+        A: 'minecraft:redstone_torch',
+        S: 'minecraft:stone',
+        P: 'botania:mana_pearl'
+    })
+
+    event.replaceInput({id: 'storagedrawers:controller'},
+            'minecraft:diamond',
+            'embers:dawnstone_ingot')
+
+
 })

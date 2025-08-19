@@ -1,29 +1,31 @@
-# Reclamation 1.4.1
+# Reclamation 1.5
 
 ## Added
-* Bin quest - #137
-* Recipe for fluorite bees... oops - #140
-* Rewards for resource generation quests
+* Biome globes - reclaim biomes without rituals in the late game!
+* A new comparator recipe for pre-blood magic comparators - #153
+* A new drawer controller recipe for pre-blood magic drawer controlling - #153
+* Rose quartz recipe in the metallurgic infuser - #174
+* Tertium essence recipe on the terrestrial agglo plate
 
 
 ## Updated
-* reclamation_util -> 1.0.22
+* reclamation_util -> 1.0.23
 
 
 ## Changed
-* Slightly rearranged flower quests - #137
-* Made it more clear when blaze powder is available vs blaze rods
-* Changed the wording of the bee nest ritual 
-* Default server config to allow players to change protect blocks from other setting in claims - #151
-* Default player config to allow pressure plates to be triggered by other - #151, #144
+* Reclamation ritual quest now says that it might void blocks - #154
+* Nuclear quests now correctly marked as mandatory
+* Cow in a jar quest says it's funky with OPAC - #156
+* Players have 2 additional charm slots - #164
+* Ember Bore quest now gives a tinkers lens as a reward - #167
+* Coarse dirt recipe takes 2 dirt, 2 gravel instead of 1 dirt 1 gravel - #176
+* Nerfed tertium essence recipe on the altar
+* Nerfed imperium essence recipe in the imbuement chamber
+* Buffed tertium essence recipe in the metallurgic infuser
 
 
 ## Fixed
-* Stripped Enchanted logs couldn't be used for casing recipes - #137
-* Croptopia pepper unobtainable - #139
-* Confusing enchanting table info tab - #142
-* Certain fruit trees unobtainable - #150
-* reclamation_util tools looking strange in hand and not being enchantable - #148
+* Hellish biome essence was gettable in dead nether biomes - #158
 
 
 Early builds and bug reports can be accessed from the [GitHub.](https://github.com/ACCBDD/reclamation-dev)

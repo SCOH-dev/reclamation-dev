@@ -2261,6 +2261,8 @@
 				"With the raw power afforded to you by aspected will crystals, gaia fragments, and ethereal slates, you finally have enough oomph to begin reversing the damage this world has suffered."
 				""
 				"Look into the &6Ritual of Reclamation&r in your Reclamation Rituals book to start reclaiming the world."
+				""
+				"&7Note: the ritual may &4void blocks!&r&7 Perform it away from anything important or risk losing things you might want to keep."
 			]
 			id: "76531B6ECFD001DB"
 			rewards: [{
@@ -2518,8 +2520,8 @@
 				item: "mekanism:pellet_plutonium"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["71FA16CB8987A05D"]
@@ -2536,8 +2538,8 @@
 				type: "item"
 			}]
 			title: "Waste Disposal"
-			x: 7.0d
-			y: 2.0d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["71FA16CB8987A05D"]
@@ -2557,8 +2559,8 @@
 				item: "mekanism:pellet_polonium"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -2572,10 +2574,9 @@
 				""
 				"To run, it will also need an incredibly large amount of power - this is where you'd want to use an &6Industrial Turbine&r hooked up to either a fission or a fusion reactor."
 				""
-				"&7Tip: this isn't necessary to make unless you REALLY like late-game Mekanism or you want to make creative items!"
+				"&7Tip: you only need to make one of these to finish the pack - unless you REALLY like late-game Mekanism or you want to make creative items!"
 			]
 			id: "4E3BA0B8C44593F4"
-			optional: true
 			rewards: [{
 				id: "34D6138E40158F6F"
 				type: "xp"
@@ -2586,8 +2587,8 @@
 				item: "mekanism:pellet_antimatter"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["36DAD7B096C37537"]
@@ -2621,21 +2622,18 @@
 				}
 			]
 			title: "QIO System"
-			x: 8.5d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["36DAD7B096C37537"]
 			description: [
-				"The Fusion Reactor is a much more powerful version of its fission counterpart. It can produce millions of RF/t using deuterium, tritium, or D-T fuel."
+				"The &6Fusion Reactor&r is a much more powerful version of its fission counterpart. It can produce millions of RF/t using deuterium, tritium, or D-T fuel."
 				""
 				"To learn more about this reactor, check the Mekanism wiki."
-				""
-				"&7Tip: this isn't necessary to make unless you're doing something outrageous with power or want to make creative items!"
 			]
 			icon: "mekanismgenerators:fusion_reactor_frame"
 			id: "40FD6A4803092F64"
-			optional: true
 			rewards: [{
 				id: "4928CB0F616DE3E1"
 				type: "xp"
@@ -2661,8 +2659,8 @@
 				}
 			]
 			title: "Fusion Reactor"
-			x: 10.0d
-			y: 1.5d
+			x: 9.0d
+			y: 4.0d
 		}
 	]
 	title: "Sounds of Life"

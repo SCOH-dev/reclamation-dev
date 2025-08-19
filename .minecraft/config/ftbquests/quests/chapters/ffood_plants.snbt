@@ -2530,7 +2530,10 @@
 			description: [
 				"A &6Cow in a Jar&r slowly produces milk, which can be used in recipes."
 				""
-				"&7...but how does one get a cow into a jar?"
+				"...but how does one get a cow into a jar?"
+				""
+				""
+				"&7Tip: you'll need to turn off claim protection or make this outside a claim, OPAC doesn't really like animal cruelty!"
 			]
 			id: "1401EC6A82EAB753"
 			rewards: [

@@ -348,6 +348,75 @@
 			x: -1.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["19E7760B061483C9"]
+			description: [
+				"With some additional infusion, an attuned biome bottle can be turned into a &6biome globe&r - in essence a portable directed reclamation ritual."
+				""
+				"&7Tip: these globes have 16 uses each, and convert a radius of 12 blocks from where you use them! They'll convert blocks to their reclaimed versions, but they will NOT place features like grass or trees; you'll have to do those yourself."
+				""
+				"&7Tip 2: these drain a LOT of aura to make!"
+			]
+			id: "1D8D6B5B69416E17"
+			optional: true
+			rewards: [{
+				id: "50C1E2683E84C782"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Portable Terraforming"
+			tasks: [
+				{
+					id: "762063598E9C32DC"
+					item: "reclamation_util:empty_biome_globe"
+					type: "item"
+				}
+				{
+					id: "765E6CC514E5B023"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "reclamation_util:plains_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:desert_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:forest_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:ocean_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Biome Globe"
+					type: "item"
+				}
+			]
+			title: "Biome Globes"
+			x: 2.0d
+			y: -2.5d
+		}
 	]
 	title: "Visions of the Past"
 }
