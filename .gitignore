@@ -5,7 +5,8 @@
 !/.minecraft/defaultconfigs/
 !/.minecraft/kubejs/
 !/.minecraft/patchouli_books/
-!/.minecraft/FTBLang
+!/.minecraft/FTBLang/
+!/.minecraft/kubejs/assets/ftbquestlocalizer/lang/
 /instance.cfg
 /mmc-pack.json
 /.idea/
