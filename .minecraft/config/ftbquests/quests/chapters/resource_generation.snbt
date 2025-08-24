@@ -13,11 +13,11 @@
 		{
 			dependencies: ["000A7EAED7A84968"]
 			description: [
-				"&6Prosperity Shards&r are the basis of all mystical essence manipulation - very useful for generating large amounts of basic resources."
+				"{ftbquests.chapter.resource_generation.quest1.description1}"
 				""
-				"They can be found by breaking down copper nuggets with a pickaxe on a cutting board."
+				"{ftbquests.chapter.resource_generation.quest1.description2}"
 				""
-				"&7Tip: you can also make prosperity shards in an Enrichment Chamber!"
+				"{ftbquests.chapter.resource_generation.quest1.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "56E75D57C3C9487C"
@@ -46,9 +46,9 @@
 		{
 			dependencies: ["6C972BEC949FEF25"]
 			description: [
-				"You can place frames into your apiary for bonuses to productivity, lifespan, and even change the temperature and humidity of an apiary. "
+				"{ftbquests.chapter.resource_generation.quest2.description1}"
 				""
-				"&7Tip: Frame modifiers stack multiplicatively, not additively!&r"
+				"{ftbquests.chapter.resource_generation.quest2.description2}"
 			]
 			icon: {
 				Count: 1
@@ -86,7 +86,7 @@
 						value: "complicated_bees:frame"
 					}
 				}
-				title: "Any Frame"
+				title: "{ftbquests.chapter.resource_generation.quest2.task_1734748989054878453.title}"
 				type: "item"
 			}]
 			x: 6.0d
@@ -95,11 +95,11 @@
 		{
 			dependencies: ["29CB5767DE978673"]
 			description: [
-				"You've noticed some beehives dotted around. Maybe you can try to domesticate them?"
+				"{ftbquests.chapter.resource_generation.quest3.description1}"
 				""
-				"You'll need a tool to harvest the nests and a place to raise the bees."
+				"{ftbquests.chapter.resource_generation.quest3.description2}"
 				""
-				"&7Tip: not every bee is required to finish the pack! Branching out from the required bees will allow you to generate resources much easier than the traditional routes, however."
+				"{ftbquests.chapter.resource_generation.quest3.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -147,18 +147,18 @@
 					type: "item"
 				}
 			]
-			title: "Beeginnings"
+			title: "{ftbquests.chapter.resource_generation.quest3.title}"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3BAA2A254E052AC1"]
 			description: [
-				"Now pop a &6princess and drone into an apiary,&r and watch the magic happen! Bees can generate some &6very useful resources&r in their combs; initially, though, you'll have to process said combs on &6a cutting board.&r"
+				"{ftbquests.chapter.resource_generation.quest4.description1}"
 				""
-				"At first, you'll only get beeswax and honey drops, alongside some dead logs..."
+				"{ftbquests.chapter.resource_generation.quest4.description2}"
 				""
-				"&7Tip: wasteland bees (and desiccated and dried bees) need dead bushes as their 'flowers'!"
+				"{ftbquests.chapter.resource_generation.quest4.description3}"
 			]
 			icon: "complicated_bees:honey_droplet"
 			id: "6C972BEC949FEF25"
@@ -190,13 +190,13 @@
 					type: "item"
 				}
 			]
-			title: "Beesources"
+			title: "{ftbquests.chapter.resource_generation.quest4.title}"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
-			description: ["By continuously re-breeding &6Wasteland&r bees together, you can start to slowly revitalize them. &6Desiccated&r and &6Dried&r bees are slightly better, with a higher productivity and lifespan - meaning less maintenance and more combs!"]
+			description: ["{ftbquests.chapter.resource_generation.quest5.description1}"]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -241,7 +241,7 @@
 							}
 						}
 					}
-					title: "Desiccated"
+					title: "{ftbquests.chapter.resource_generation.quest5.task_7818871944295114422.title}"
 					type: "item"
 				}
 				{
@@ -255,24 +255,24 @@
 							}
 						}
 					}
-					title: "Dried"
+					title: "{ftbquests.chapter.resource_generation.quest5.task_3134995966104364628.title}"
 					type: "item"
 				}
 			]
-			title: "Reclaimed Bees"
+			title: "{ftbquests.chapter.resource_generation.quest5.title}"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
 			description: [
-				"At some point, you'll want to take a closer look at your bees - the &6Analyzer&r allows you to examine what genes exactly any given bee has, for the low cost of a single honey drop."
+				"{ftbquests.chapter.resource_generation.quest6.description1}"
 				""
-				"The &6Apid Library&r shows you what mutations you can create with a bee's species."
+				"{ftbquests.chapter.resource_generation.quest6.description2}"
 				""
-				"The &6Microscope&r allows you to research bee species, giving you a higher chance to mutate bees into a researched species."
+				"{ftbquests.chapter.resource_generation.quest6.description3}"
 				""
-				"&7Tip: the Microscope is a great way to get rid of unnecessary drones you have! Read the Apiarist Field Guide for more info on it."
+				"{ftbquests.chapter.resource_generation.quest6.description4}"
 			]
 			icon: "complicated_bees:analyzer"
 			id: "7ED2BFE2C5C19743"
@@ -306,13 +306,13 @@
 					type: "item"
 				}
 			]
-			title: "Tools of the Trade"
+			title: "{ftbquests.chapter.resource_generation.quest6.title}"
 			x: 6.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
-			description: ["If you want to process your combs more efficiently, you'll want to make a &6Centrifuge.&r Powered by a generator, it automatically turns combs into comb products - no more manual chopping!"]
+			description: ["{ftbquests.chapter.resource_generation.quest7.description1}"]
 			icon: "complicated_bees:centrifuge"
 			id: "7F77AE83C391B38A"
 			rewards: [
@@ -340,18 +340,18 @@
 					type: "item"
 				}
 			]
-			title: "Comb Processing "
+			title: "{ftbquests.chapter.resource_generation.quest7.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["56E75D57C3C9487C"]
 			description: [
-				"All essence seeds need to grow on specially prepared &6Essence Farmland.&r"
+				"{ftbquests.chapter.resource_generation.quest8.description1}"
 				""
-				"You can obtain your first bits of &6Inferium Essence&r from killing mobs."
+				"{ftbquests.chapter.resource_generation.quest8.description2}"
 				""
-				"&7Tip: higher tier essence farmland will grow essence crops slightly faster!"
+				"{ftbquests.chapter.resource_generation.quest8.description3}"
 			]
 			id: "6B8C517B623696FC"
 			rewards: [{
@@ -370,9 +370,9 @@
 		{
 			dependencies: ["1633274D007EACBA"]
 			description: [
-				"These first elemental seeds don't have very many direct crafting uses, but are an important stepping stone to bigger and better things."
+				"{ftbquests.chapter.resource_generation.quest9.description1}"
 				""
-				"&7Tip: essence seeds aren't cloneable, meaning you'll need two or more to actually start increasing their stats!"
+				"{ftbquests.chapter.resource_generation.quest9.description2}"
 			]
 			icon: "mysticalagriculture:earth_seeds"
 			id: "6FE3B183104C980D"
@@ -403,13 +403,13 @@
 					type: "item"
 				}
 			]
-			title: "Elemental Seeds"
+			title: "{ftbquests.chapter.resource_generation.quest9.title}"
 			x: -5.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6B8C517B623696FC"]
-			description: ["With enough inferium, you can craft &6Inferium Seeds,&r which grow essence themselves."]
+			description: ["{ftbquests.chapter.resource_generation.quest10.description1}"]
 			id: "742977FB1C2FCF94"
 			rewards: [
 				{
@@ -435,11 +435,11 @@
 		{
 			dependencies: ["6FE3B183104C980D"]
 			description: [
-				"More potent than regular inferium essence, &6Prudentium Essence&r can be used to make some useful essence seeds."
+				"{ftbquests.chapter.resource_generation.quest11.description1}"
 				""
-				"Make it by fortifying inferium essence with all four elemental essences in a &6Cauldron.&r"
+				"{ftbquests.chapter.resource_generation.quest11.description2}"
 				""
-				"&7Tip: you can also make it in a Metallurgic Infuser!"
+				"{ftbquests.chapter.resource_generation.quest11.description3}"
 			]
 			id: "3E9104B5E89874E5"
 			rewards: [{
@@ -554,9 +554,9 @@
 		{
 			dependencies: ["6B8C517B623696FC"]
 			description: [
-				"The &6infusion altar&r and &6pedestals&r are required to craft essence seeds."
+				"{ftbquests.chapter.resource_generation.quest18.description1}"
 				""
-				"Place the items necessary in the pedestals, then give the altar a redstone signal or a wave of a wand to begin crafting."
+				"{ftbquests.chapter.resource_generation.quest18.description2}"
 			]
 			icon: "mysticalagriculture:infusion_altar"
 			id: "1633274D007EACBA"
@@ -593,9 +593,9 @@
 			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "all_started"
 			description: [
-				"By breeding &6Rocky&r bees together in the nether, they'll slowly adapt and turn into their nether versions - &6Crimson&r and &6Warped&r bees. &6Cursed&r bees are the hybrid between the two."
+				"{ftbquests.chapter.resource_generation.quest19.description1}"
 				""
-				"These bees, twisted by the nether environment, are somewhat aggressive; they'll harm nearby mobs (including players!)"
+				"{ftbquests.chapter.resource_generation.quest19.description2}"
 			]
 			icon: {
 				Count: 1
@@ -635,7 +635,7 @@
 							}
 						}
 					}
-					title: "Crimson"
+					title: "{ftbquests.chapter.resource_generation.quest19.task_891469205622428585.title}"
 					type: "item"
 				}
 				{
@@ -649,7 +649,7 @@
 							}
 						}
 					}
-					title: "Warped"
+					title: "{ftbquests.chapter.resource_generation.quest19.task_3895545663253499388.title}"
 					type: "item"
 				}
 				{
@@ -663,20 +663,20 @@
 							}
 						}
 					}
-					title: "Cursed"
+					title: "{ftbquests.chapter.resource_generation.quest19.task_8052506021592411173.title}"
 					type: "item"
 				}
 			]
-			title: "Nether Bees"
+			title: "{ftbquests.chapter.resource_generation.quest19.title}"
 			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3FBA3BCF67F2AB82"]
 			description: [
-				"If you're tired of getting stung by nether bees, try crafting a set of &6Apiarist Gear.&r This armor, when worn as a set, will protect you from getting affected by any bees nearby."
+				"{ftbquests.chapter.resource_generation.quest20.description1}"
 				""
-				"It's made of silk, which you can get from propolis (which you can get from simmering combs, among others.)"
+				"{ftbquests.chapter.resource_generation.quest20.description2}"
 			]
 			icon: {
 				Count: 1
@@ -737,7 +737,7 @@
 					type: "item"
 				}
 			]
-			title: "Apiarist Gear"
+			title: "{ftbquests.chapter.resource_generation.quest20.title}"
 			x: 6.0d
 			y: 3.0d
 		}
@@ -745,13 +745,13 @@
 			dependencies: ["7DD195197887D9E6"]
 			dependency_requirement: "all_started"
 			description: [
-				"&6Rocky&r and &6Robust&r bees are more used to cooler climates, but you can breed better tolerances into them. "
+				"{ftbquests.chapter.resource_generation.quest21.description1}"
 				""
-				"Their rocky combs produce much more wax and honey than their wasteland cousins, but more importantly, they can rarely produce &6Copper Combs&r as a specialty."
+				"{ftbquests.chapter.resource_generation.quest21.description2}"
 				""
-				"&7Tip: specialties are only produced when a bee is ecstatic! To make a bee ecstatic, you have to have its housing climate &lexactly&r&7 match the bee's preferred climate. Either breed it so that it prefers the hot dry wastes, or use special frames to adjust the temperature and humidity!"
+				"{ftbquests.chapter.resource_generation.quest21.description3}"
 				""
-				"&7Tip 2: tuff (which you need underneath the apiary to breed these bees!) can be crafted or found underground."
+				"{ftbquests.chapter.resource_generation.quest21.description4}"
 			]
 			icon: {
 				Count: 1
@@ -791,7 +791,7 @@
 							}
 						}
 					}
-					title: "Rocky"
+					title: "{ftbquests.chapter.resource_generation.quest21.task_9033126545582958159.title}"
 					type: "item"
 				}
 				{
@@ -805,7 +805,7 @@
 							}
 						}
 					}
-					title: "Robust"
+					title: "{ftbquests.chapter.resource_generation.quest21.task_7190582857068653051.title}"
 					type: "item"
 				}
 				{
@@ -819,18 +819,18 @@
 							}
 						}
 					}
-					title: "Resilient"
+					title: "{ftbquests.chapter.resource_generation.quest21.task_1538674417108678800.title}"
 					type: "item"
 				}
 			]
-			title: "Rocky Bees"
+			title: "{ftbquests.chapter.resource_generation.quest21.title}"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3FBA3BCF67F2AB82"]
 			dependency_requirement: "all_started"
-			description: ["&6Haunted,&r &6Ghostly,&r and &6Spectral&r bees are an offshoot of nether bees that produce Spectral combs, a relatively honey-rich comb. Additionally, Spectral bees will produce &6glowstone&r as a specialty!"]
+			description: ["{ftbquests.chapter.resource_generation.quest22.description1}"]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -869,7 +869,7 @@
 							}
 						}
 					}
-					title: "Haunted"
+					title: "{ftbquests.chapter.resource_generation.quest22.task_3081911043010225060.title}"
 					type: "item"
 				}
 				{
@@ -883,7 +883,7 @@
 							}
 						}
 					}
-					title: "Ghostly"
+					title: "{ftbquests.chapter.resource_generation.quest22.task_5262672928415792469.title}"
 					type: "item"
 				}
 				{
@@ -897,18 +897,18 @@
 							}
 						}
 					}
-					title: "Spectral"
+					title: "{ftbquests.chapter.resource_generation.quest22.task_8517504769354790857.title}"
 					type: "item"
 				}
 			]
-			title: "Spectral Bees"
+			title: "{ftbquests.chapter.resource_generation.quest22.title}"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "all_started"
-			description: ["&6Common&r and &6Cultivated&r bees were the most common species in the world that came before, from what you recall."]
+			description: ["{ftbquests.chapter.resource_generation.quest23.description1}"]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -947,7 +947,7 @@
 							}
 						}
 					}
-					title: "Common"
+					title: "{ftbquests.chapter.resource_generation.quest23.task_3642208754252689379.title}"
 					type: "item"
 				}
 				{
@@ -961,18 +961,18 @@
 							}
 						}
 					}
-					title: "Cultivated"
+					title: "{ftbquests.chapter.resource_generation.quest23.task_8299291890952022433.title}"
 					type: "item"
 				}
 			]
-			title: "Common Bees"
+			title: "{ftbquests.chapter.resource_generation.quest23.title}"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0240D7D55692DAC9"]
 			dependency_requirement: "all_started"
-			description: ["These glorious bee comrades ironically despise queens. They are also notable for producing &6pollen&r and having &6higher than average productivity.&r"]
+			description: ["{ftbquests.chapter.resource_generation.quest24.description1}"]
 			hide_dependency_lines: false
 			icon: {
 				Count: 1
@@ -1013,7 +1013,7 @@
 							}
 						}
 					}
-					title: "Diligent"
+					title: "{ftbquests.chapter.resource_generation.quest24.task_8393881405903593674.title}"
 					type: "item"
 				}
 				{
@@ -1027,7 +1027,7 @@
 							}
 						}
 					}
-					title: "Tireless"
+					title: "{ftbquests.chapter.resource_generation.quest24.task_3616071306266700168.title}"
 					type: "item"
 				}
 				{
@@ -1041,11 +1041,11 @@
 							}
 						}
 					}
-					title: "Industrious"
+					title: "{ftbquests.chapter.resource_generation.quest24.task_2025398279722007265.title}"
 					type: "item"
 				}
 			]
-			title: "Industrious Bees"
+			title: "{ftbquests.chapter.resource_generation.quest24.title}"
 			x: 5.0d
 			y: 6.0d
 		}
@@ -1053,11 +1053,11 @@
 			dependencies: ["0240D7D55692DAC9"]
 			dependency_requirement: "all_started"
 			description: [
-				"Somewhat snooty and famously literally blue-blooded, these bees can produce &6Royal Combs&r when ecstatic. These combs can then centrifuge into &6Royal Jelly.&r"
+				"{ftbquests.chapter.resource_generation.quest25.description1}"
 				""
-				"They also have a &6higher than average fertility rate.&r"
+				"{ftbquests.chapter.resource_generation.quest25.description2}"
 				""
-				"&7Tip: Imperial bees have the Beatific effect, which provides all mobs nearby with regeneration!"
+				"{ftbquests.chapter.resource_generation.quest25.description3}"
 			]
 			icon: {
 				Count: 1
@@ -1098,7 +1098,7 @@
 							}
 						}
 					}
-					title: "Noble"
+					title: "{ftbquests.chapter.resource_generation.quest25.task_6398361437915986421.title}"
 					type: "item"
 				}
 				{
@@ -1112,7 +1112,7 @@
 							}
 						}
 					}
-					title: "Majestic"
+					title: "{ftbquests.chapter.resource_generation.quest25.task_753059639095222795.title}"
 					type: "item"
 				}
 				{
@@ -1126,11 +1126,11 @@
 							}
 						}
 					}
-					title: "Imperial"
+					title: "{ftbquests.chapter.resource_generation.quest25.task_7062842366521447494.title}"
 					type: "item"
 				}
 			]
-			title: "Imperial Bees"
+			title: "{ftbquests.chapter.resource_generation.quest25.title}"
 			x: 4.0d
 			y: 6.0d
 		}
@@ -1140,13 +1140,13 @@
 				"710F5DFED74D5098"
 			]
 			description: [
-				"The &6Mellarium&r is a multiblock version of the apiary, with the ability to add modules that can help you in a variety of ways."
+				"{ftbquests.chapter.resource_generation.quest26.description1}"
 				""
-				"The most concrete thing a Mellarium can do is give you more than three frame slots, using &6Frame Housings.&r This means you can get, in the best case, &l&oSTACKS&r of combs every bee tick."
+				"{ftbquests.chapter.resource_generation.quest26.description2}"
 				""
-				"You can also increase your chances of getting a mutation, shield your bees from rain, and change the climate using catalyst items."
+				"{ftbquests.chapter.resource_generation.quest26.description3}"
 				""
-				"&7Tip: read your Apiarist Field Guide for more information!"
+				"{ftbquests.chapter.resource_generation.quest26.description4}"
 			]
 			id: "530A8B09322225E3"
 			rewards: [
@@ -1167,18 +1167,18 @@
 				item: "complicated_bees:mellarium_base"
 				type: "item"
 			}]
-			title: "The Mellarium"
+			title: "{ftbquests.chapter.resource_generation.quest26.title}"
 			x: 4.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["7F77AE83C391B38A"]
 			description: [
-				"Once you start getting propolis, you can start &6upgrading&r your &6Centrifuges&r and &6Generators&r - each upgrade has different stats, and you can put up to three in your machines."
+				"{ftbquests.chapter.resource_generation.quest27.description1}"
 				""
-				"Like frames, these upgrades stack multiplicatively."
+				"{ftbquests.chapter.resource_generation.quest27.description2}"
 				""
-				"&7Tip: the earliest ways to get propolis are through nether bees or rocky bees!"
+				"{ftbquests.chapter.resource_generation.quest27.description3}"
 			]
 			id: "4F11217D1FFF16C0"
 			rewards: [
@@ -1236,19 +1236,19 @@
 						]
 					}
 				}
-				title: "Any Upgrade"
+				title: "{ftbquests.chapter.resource_generation.quest27.task_7611771532993062026.title}"
 				type: "item"
 			}]
-			title: "Upgrades"
+			title: "{ftbquests.chapter.resource_generation.quest27.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4F11217D1FFF16C0"]
 			description: [
-				"At some point you'll have more honey (and other bee products) than you know what to do with. "
+				"{ftbquests.chapter.resource_generation.quest28.description1}"
 				""
-				"If nothing else, you can burn them for energy in the &6Honey Generator!&r"
+				"{ftbquests.chapter.resource_generation.quest28.description2}"
 			]
 			id: "056502E8EAC2C949"
 			rewards: [
@@ -1286,9 +1286,9 @@
 		{
 			dependencies: ["7F77AE83C391B38A"]
 			description: [
-				"An interesting thing about these bees is that there's no way to get more than one queen out of a breeding pair. Fortunately, you can perform a ritual to summon &6more bee nests&r through magic and some special ingredients."
+				"{ftbquests.chapter.resource_generation.quest29.description1}"
 				""
-				"Read your Reclamation Rituals book for more information."
+				"{ftbquests.chapter.resource_generation.quest29.description2}"
 			]
 			icon: "minecraft:bee_nest"
 			id: "703C966888CEAF46"
@@ -1309,14 +1309,14 @@
 				id: "37949B2DD1113687"
 				type: "checkmark"
 			}]
-			title: "More Nests"
+			title: "{ftbquests.chapter.resource_generation.quest29.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "one_started"
-			description: ["Certain bees can produce straight up raw metals from certain rocks!"]
+			description: ["{ftbquests.chapter.resource_generation.quest30.description1}"]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -1356,7 +1356,7 @@
 							}
 						}
 					}
-					title: "Cuprous"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_1055543042056575718.title}"
 					type: "item"
 				}
 				{
@@ -1370,7 +1370,7 @@
 							}
 						}
 					}
-					title: "Precious"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_5074021897861698803.title}"
 					type: "item"
 				}
 				{
@@ -1384,7 +1384,7 @@
 							}
 						}
 					}
-					title: "Ferrous"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_5533305920955437908.title}"
 					type: "item"
 				}
 				{
@@ -1398,7 +1398,7 @@
 							}
 						}
 					}
-					title: "Plumbum"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_9085151875040480342.title}"
 					type: "item"
 				}
 				{
@@ -1412,7 +1412,7 @@
 							}
 						}
 					}
-					title: "Argentum"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_6870748623537125703.title}"
 					type: "item"
 				}
 				{
@@ -1426,7 +1426,7 @@
 							}
 						}
 					}
-					title: "Osimum"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_2417461944780662004.title}"
 					type: "item"
 				}
 				{
@@ -1440,7 +1440,7 @@
 							}
 						}
 					}
-					title: "Zincum"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_766783682761833592.title}"
 					type: "item"
 				}
 				{
@@ -1454,7 +1454,7 @@
 							}
 						}
 					}
-					title: "Radioactive"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_4765395095236658823.title}"
 					type: "item"
 				}
 				{
@@ -1468,11 +1468,11 @@
 							}
 						}
 					}
-					title: "Stannum"
+					title: "{ftbquests.chapter.resource_generation.quest30.task_8469594533203667582.title}"
 					type: "item"
 				}
 			]
-			title: "Metal Bees"
+			title: "{ftbquests.chapter.resource_generation.quest30.title}"
 			x: 3.0d
 			y: 6.0d
 		}
@@ -1482,7 +1482,7 @@
 				"3FBA3BCF67F2AB82"
 			]
 			dependency_requirement: "one_started"
-			description: ["Certain bees can produce raw minerals from their environment!"]
+			description: ["{ftbquests.chapter.resource_generation.quest31.description1}"]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -1522,7 +1522,7 @@
 							}
 						}
 					}
-					title: "Bituminous"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_3719081351633839622.title}"
 					type: "item"
 				}
 				{
@@ -1536,7 +1536,7 @@
 							}
 						}
 					}
-					title: "Conductive"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_7148838165140607695.title}"
 					type: "item"
 				}
 				{
@@ -1550,7 +1550,7 @@
 							}
 						}
 					}
-					title: "Luminous"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_5480192077480458536.title}"
 					type: "item"
 				}
 				{
@@ -1564,7 +1564,7 @@
 							}
 						}
 					}
-					title: "Lapic"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_2840825311361710213.title}"
 					type: "item"
 				}
 				{
@@ -1578,7 +1578,7 @@
 							}
 						}
 					}
-					title: "Amethyst"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_6963870120953273988.title}"
 					type: "item"
 				}
 				{
@@ -1592,7 +1592,7 @@
 							}
 						}
 					}
-					title: "Dimantic"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_5231403782456047002.title}"
 					type: "item"
 				}
 				{
@@ -1606,7 +1606,7 @@
 							}
 						}
 					}
-					title: "Emeradic"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_1818325150934700666.title}"
 					type: "item"
 				}
 				{
@@ -1620,7 +1620,7 @@
 							}
 						}
 					}
-					title: "Quartz"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_7118701806962971116.title}"
 					type: "item"
 				}
 				{
@@ -1634,7 +1634,7 @@
 							}
 						}
 					}
-					title: "Silicate"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_4463225001103591989.title}"
 					type: "item"
 				}
 				{
@@ -1648,24 +1648,24 @@
 							}
 						}
 					}
-					title: "Fluorite"
+					title: "{ftbquests.chapter.resource_generation.quest31.task_3358109104860624142.title}"
 					type: "item"
 				}
 			]
-			title: "Mineral Bees"
+			title: "{ftbquests.chapter.resource_generation.quest31.title}"
 			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["3E9104B5E89874E5"]
 			description: [
-				"Stronger than Prudentium, &6Tertium&r is necessary for all kinds of metallic essence seeds."
+				"{ftbquests.chapter.resource_generation.quest32.description1}"
 				""
-				"Make it using a &6Runic Altar&r or &6Terrestrial Agglomeration Plate.&r"
+				"{ftbquests.chapter.resource_generation.quest32.description2}"
 				""
-				"&7Tip: you can also make it in a Metallurgic Infuser!"
+				"{ftbquests.chapter.resource_generation.quest32.description3}"
 				""
-				"&7Tip 2: a potency lens would make the altar process much faster!"
+				"{ftbquests.chapter.resource_generation.quest32.description4}"
 			]
 			id: "2509BD7F791C2BC5"
 			rewards: [{
@@ -1684,11 +1684,11 @@
 		{
 			dependencies: ["2509BD7F791C2BC5"]
 			description: [
-				"&6Imperium&r is the penultimate tier of essence, requiring combining the power of &5Source&r and Tertium Essence."
+				"{ftbquests.chapter.resource_generation.quest33.description1}"
 				""
-				"It can be made using an &6Imbuement Chamber.&r"
+				"{ftbquests.chapter.resource_generation.quest33.description2}"
 				""
-				"&7Tip: you can also make it in a Metallurgic Infuser!"
+				"{ftbquests.chapter.resource_generation.quest33.description3}"
 			]
 			id: "29D91679CB08E659"
 			rewards: [{
@@ -1707,11 +1707,11 @@
 		{
 			dependencies: ["29D91679CB08E659"]
 			description: [
-				"&6Supremium&r is the highest tier of essence, used for crafting the highest tier of mystical equipment and seeds."
+				"{ftbquests.chapter.resource_generation.quest34.description1}"
 				""
-				"Anoint Imperium with life essence to create it."
+				"{ftbquests.chapter.resource_generation.quest34.description2}"
 				""
-				"&7Tip: you can also make it in a Metallurgic Infuser!"
+				"{ftbquests.chapter.resource_generation.quest34.description3}"
 			]
 			id: "538CFE623B75990A"
 			rewards: [{
@@ -1731,9 +1731,9 @@
 			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "one_started"
 			description: [
-				"These bees can produce magical products. Some of them, like the &6Natural&r bee, have special effects!"
+				"{ftbquests.chapter.resource_generation.quest35.description1}"
 				""
-				"Additionally, the Natural bee produces some small amount of &6Nature Essence&r if kept ecstatic."
+				"{ftbquests.chapter.resource_generation.quest35.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1791,7 +1791,7 @@
 							}
 						}
 					}
-					title: "Natural"
+					title: "{ftbquests.chapter.resource_generation.quest35.task_5373973326405937422.title}"
 					type: "item"
 				}
 				{
@@ -1805,7 +1805,7 @@
 							}
 						}
 					}
-					title: "Botanic"
+					title: "{ftbquests.chapter.resource_generation.quest35.task_417359132698374078.title}"
 					type: "item"
 				}
 				{
@@ -1819,7 +1819,7 @@
 							}
 						}
 					}
-					title: "Dawnstone"
+					title: "{ftbquests.chapter.resource_generation.quest35.task_2760367059321888447.title}"
 					type: "item"
 				}
 				{
@@ -1833,7 +1833,7 @@
 							}
 						}
 					}
-					title: "Willful"
+					title: "{ftbquests.chapter.resource_generation.quest35.task_4095918579037388131.title}"
 					type: "item"
 				}
 				{
@@ -1847,7 +1847,7 @@
 							}
 						}
 					}
-					title: "Source"
+					title: "{ftbquests.chapter.resource_generation.quest35.task_7910365384265410324.title}"
 					type: "item"
 				}
 				{
@@ -1861,7 +1861,7 @@
 							}
 						}
 					}
-					title: "Demonite"
+					title: "{ftbquests.chapter.resource_generation.quest35.task_4623337291104132366.title}"
 					type: "item"
 				}
 				{
@@ -1875,11 +1875,11 @@
 							}
 						}
 					}
-					title: "Terra"
+					title: "{ftbquests.chapter.resource_generation.quest35.task_5288388297853031166.title}"
 					type: "item"
 				}
 			]
-			title: "Magical Bees"
+			title: "{ftbquests.chapter.resource_generation.quest35.title}"
 			x: 3.0d
 			y: 4.5d
 		}
@@ -1905,7 +1905,7 @@
 				"2509BD7F791C2BC5"
 			]
 			dependency_requirement: "all_started"
-			description: ["&7Tip: you'll need to breed Nature bees to get your first bits of nature essence!"]
+			description: ["{ftbquests.chapter.resource_generation.quest37.description1}"]
 			id: "5DF16174EF809D9B"
 			rewards: [{
 				id: "747A64B1D2959678"
@@ -2386,7 +2386,7 @@
 		}
 		{
 			dependencies: ["6B8C517B623696FC"]
-			description: ["&6Growth Accelerators&r grow the crop above them faster. Higher tiers have higher ranges, meaning you can stack more underneath your farmland!"]
+			description: ["{ftbquests.chapter.resource_generation.quest67.description1}"]
 			id: "5DE5C6DBD33B6698"
 			rewards: [
 				{
@@ -2411,7 +2411,7 @@
 		}
 		{
 			dependencies: ["56E75D57C3C9487C"]
-			description: ["Essence infused watering cans can water a larger area faster."]
+			description: ["{ftbquests.chapter.resource_generation.quest68.description1}"]
 			id: "67F1DFD4A17BF030"
 			rewards: [{
 				id: "776B1E24B75F59AD"
@@ -2527,7 +2527,7 @@
 		}
 		{
 			dependencies: ["1AD7C3F6F6C06B69"]
-			description: ["&7Tip: unlimited wadduh"]
+			description: ["{ftbquests.chapter.resource_generation.quest73.description1}"]
 			id: "751C7AD884E539D1"
 			rewards: [{
 				id: "5A04DA42005D5FB0"
@@ -2550,5 +2550,5 @@
 			y: 5.0d
 		}
 	]
-	title: "Resource Generation"
+	title: "{ftbquests.chapter.resource_generation.title}"
 }

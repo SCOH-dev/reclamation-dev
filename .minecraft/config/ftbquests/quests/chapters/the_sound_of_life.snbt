@@ -12,7 +12,7 @@
 	quests: [
 		{
 			dependencies: ["1C7C9A1F11DE819B"]
-			description: ["Debatably sentient life in the form of chickens! Even more importantly, these chickens will produce &6eggs,&r the root of all fauna."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest1.description1}"]
 			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "heads:chicken_head"
@@ -29,16 +29,16 @@
 				item: "minecraft:chicken_spawn_egg"
 				type: "item"
 			}]
-			title: "Sentient Life"
+			title: "{ftbquests.chapter.the_sound_of_life.quest1.title}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7540F4407477DCAF"]
 			description: [
-				"Now that you have access to a breedable animal, you can utilize their excess vitalic energy to birth new creatures. "
+				"{ftbquests.chapter.the_sound_of_life.quest2.description1}"
 				""
-				"In an area with high Aura concentration, &6breeding mobs together&r will generate &6Spirits of Birthing.&r These spirits can be tossed alongside some other reagents onto an &6Altar of Birthing&r to spawn new creatures."
+				"{ftbquests.chapter.the_sound_of_life.quest2.description2}"
 			]
 			icon: "naturesaura:animal_spawner"
 			id: "4985B07F3FA59210"
@@ -67,16 +67,16 @@
 					type: "item"
 				}
 			]
-			title: "Altar of Birthing"
+			title: "{ftbquests.chapter.the_sound_of_life.quest2.title}"
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4985B07F3FA59210"]
 			description: [
-				"Blood magic is a pathway to many abilities some consider to be unnatural."
+				"{ftbquests.chapter.the_sound_of_life.quest3.description1}"
 				""
-				"To start, make a few &6soul snares&r and &6throw them at monsters before killing them.&r These snared monsters will drop &6demonic will&r, which you'll need to get started!"
+				"{ftbquests.chapter.the_sound_of_life.quest3.description2}"
 			]
 			icon: "bloodmagic:altar"
 			id: "3A8632BAEA799385"
@@ -116,16 +116,16 @@
 					type: "item"
 				}
 			]
-			title: "Blood Magic"
+			title: "{ftbquests.chapter.the_sound_of_life.quest3.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3A8632BAEA799385"]
 			description: [
-				"One of the most common things you'll need in the pursuit of sanguine magic is a base material of stone doped in blood - excellent for channelling these dark energies."
+				"{ftbquests.chapter.the_sound_of_life.quest4.description1}"
 				""
-				"You'll need to make quite a few to upgrade your blood altar!"
+				"{ftbquests.chapter.the_sound_of_life.quest4.description2}"
 			]
 			icon: "bloodmagic:blankslate"
 			id: "377BF30FBED5AA32"
@@ -168,11 +168,11 @@
 		{
 			dependencies: ["377BF30FBED5AA32"]
 			description: [
-				"The &6Hellfire Forge&r allows you to use Demonic Will to craft special items."
+				"{ftbquests.chapter.the_sound_of_life.quest5.description1}"
 				""
-				"One of the first things you'll want to make is a &6soul gem&r - these special gems can store demonic will you pick up without clogging your inventory."
+				"{ftbquests.chapter.the_sound_of_life.quest5.description2}"
 				""
-				"&7Tip: the more will you have stored in your inventory, the more will drops from monsters!"
+				"{ftbquests.chapter.the_sound_of_life.quest5.description3}"
 			]
 			icon: "bloodmagic:soulforge"
 			id: "74EFFC6EDDE055CC"
@@ -204,11 +204,11 @@
 		{
 			dependencies: ["377BF30FBED5AA32"]
 			description: [
-				"&6Blood Orbs&r are a budding sanguimancer's way of storing and utilizing Life Essence, measured in &6LP.&r Once you've crafted one, right click with it in your hand to bind it to your personal LP network."
+				"{ftbquests.chapter.the_sound_of_life.quest6.description1}"
 				""
-				"LP is used for things like sigils, rituals, and crafting. You can transfer life essence in an altar to your network by placing your orb into the altar."
+				"{ftbquests.chapter.the_sound_of_life.quest6.description2}"
 				""
-				"&7Tip: there is a blood orb for each tier of altar! Certain recipes need higher tiers of blood orbs."
+				"{ftbquests.chapter.the_sound_of_life.quest6.description3}"
 			]
 			icon: "bloodmagic:weakbloodorb"
 			id: "7BDAAB04F6FD0786"
@@ -247,7 +247,7 @@
 						]
 					}
 				}
-				title: "Any Blood Orb"
+				title: "{ftbquests.chapter.the_sound_of_life.quest6.task_9017841688739987349.title}"
 				type: "item"
 			}]
 			x: 1.5d
@@ -255,7 +255,7 @@
 		}
 		{
 			dependencies: ["7BDAAB04F6FD0786"]
-			description: ["The &6Alchemy Table&r allows you to craft with LP from a blood orb. You can make a lot of things like reagents for useful sigils, but you can also make &6Arcane Ashes.&r"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest7.description1}"]
 			id: "6E3C1D562EF8899E"
 			rewards: [{
 				id: "6F107000611C0596"
@@ -273,9 +273,9 @@
 		{
 			dependencies: ["6E3C1D562EF8899E"]
 			description: [
-				"&6Arcane Ashes,&r made on the Alchemy Table, can be used to perform some basic alchemy without having to re-enter the field of Spagyrics."
+				"{ftbquests.chapter.the_sound_of_life.quest8.description1}"
 				""
-				"One of the first things you'll want to use this for is making the &6Divination Sigil,&r which tells you useful information about the amount of life essence you have access to."
+				"{ftbquests.chapter.the_sound_of_life.quest8.description2}"
 			]
 			icon: {
 				Count: 1
@@ -314,9 +314,9 @@
 		{
 			dependencies: ["74EFFC6EDDE055CC"]
 			description: [
-				"&6Sentient Tools&r are a much easier way for you to acquire will - instead of having to throw soul snares at enemies, the tools have the &6inherent ability to sever souls&r from their fleshy (or bony) prisons."
+				"{ftbquests.chapter.the_sound_of_life.quest9.description1}"
 				""
-				"They are also powered by will - any kind of soul gem in your inventory will &6increase the tools' power&r proportional to the amount of will you have stored."
+				"{ftbquests.chapter.the_sound_of_life.quest9.description2}"
 			]
 			icon: {
 				Count: 1
@@ -389,19 +389,19 @@
 						]
 					}
 				}
-				title: "Any Sentient Tool"
+				title: "{ftbquests.chapter.the_sound_of_life.quest9.task_3309257771812589055.title}"
 				type: "item"
 			}]
-			title: "Sentient Tools"
+			title: "{ftbquests.chapter.the_sound_of_life.quest9.title}"
 			x: -1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["377BF30FBED5AA32"]
 			description: [
-				"You can upgrade your blood altar by placing runes around it - your &6Sanguine Scientiem&r can give you specifics. A tier 2 altar can create &6Reinforced Slates!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest10.description1}"
 				""
-				"Used for creating special runes that give your blood altar benefits, among other things, they are just that much more potent than a regular blank slate."
+				"{ftbquests.chapter.the_sound_of_life.quest10.description2}"
 			]
 			icon: "bloodmagic:reinforcedslate"
 			id: "7CF9CB3E4AC5A7DA"
@@ -437,16 +437,16 @@
 					type: "item"
 				}
 			]
-			title: "Tier 2 Slates"
+			title: "{ftbquests.chapter.the_sound_of_life.quest10.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7CF9CB3E4AC5A7DA"]
 			description: [
-				"A tier 3 altar can create &6Imbued Slates.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest11.description1}"
 				""
-				"Even stronger than the reinforced version, they can make even better rune upgrades for your blood altar, as well as the &6Alchemical Reaction Chamber.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest11.description2}"
 			]
 			icon: "bloodmagic:infusedslate"
 			id: "574FE16E5404A3D0"
@@ -482,13 +482,13 @@
 					type: "item"
 				}
 			]
-			title: "Tier 3 Slates"
+			title: "{ftbquests.chapter.the_sound_of_life.quest11.title}"
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["574FE16E5404A3D0"]
-			description: ["The &6Alchemical Reaction Chamber&r is capable of a great many things, but one of the most important is its ability to produce gems - &6diamond, lapis, and amethyst.&r"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest12.description1}"]
 			id: "5E16957A5151E858"
 			rewards: [{
 				id: "2FC4589CD2AE8447"
@@ -506,11 +506,11 @@
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"With access to gems, you can make a &6Tainted Blood Pendant,&r which you can then infuse with &6Regeneration!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest13.description1}"
 				""
-				"This makes poking yourself for life essence much more bearable..."
+				"{ftbquests.chapter.the_sound_of_life.quest13.description2}"
 				""
-				"&7Tip: prismarine can be made either through Create's haunting or Nature's Aura's Natural Altar."
+				"{ftbquests.chapter.the_sound_of_life.quest13.description3}"
 			]
 			id: "703F201AB6A704B3"
 			optional: true
@@ -530,9 +530,9 @@
 		{
 			dependencies: ["5E16957A5151E858"]
 			description: [
-				"Alchemizing with lifeforce provides the extra punch needed to transmute base materials into &6precious gems&r using the &6Alchemical Reaction Chamber.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest14.description1}"
 				""
-				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert more materials into that gem's sulfur without having to go through the whole blood transmutation again!"
+				"{ftbquests.chapter.the_sound_of_life.quest14.description2}"
 			]
 			id: "22F15EC1DF24B1D8"
 			rewards: [{
@@ -562,18 +562,18 @@
 					type: "item"
 				}
 			]
-			title: "Gems!"
+			title: "{ftbquests.chapter.the_sound_of_life.quest14.title}"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"A renewable source of gems would be much appreciated - thankfully, you can perform a &6special wiccan ritual&r to turn a block of amethyst into its budding version."
+				"{ftbquests.chapter.the_sound_of_life.quest15.description1}"
 				""
-				"&7Tip: you can use blood magic's arcane ashes to draw a pentagram on your altar, giving it an addtional 1.5x boost to total power capacity!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest15.description2}"
 				""
-				"&7Tip 2: the instructions for this ritual can be found in your Reclamation Rituals book."
+				"{ftbquests.chapter.the_sound_of_life.quest15.description3}"
 			]
 			id: "518B46E423840A2F"
 			rewards: [
@@ -600,11 +600,11 @@
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"Now that you have access to gems, you can start to manipulate &5Source, &ranother type of magical energy you remember from before."
+				"{ftbquests.chapter.the_sound_of_life.quest16.description1}"
 				""
-				"To start, you'll want to turn lapis or amethyst shards into source gems using an &6Imbuement Chamber.&r However, for an Imbuement Chamber, you'll need a special kind of wood. Because &5Source&r is innately intertwined with &4Life Essence,&r infusing an already magically-resonant tree with &4Life Essence&r should produce a suitable sapling."
+				"{ftbquests.chapter.the_sound_of_life.quest16.description2}"
 				""
-				"&7Tip: you can convert between the four types of sapling using a mana pool!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest16.description3}"
 			]
 			id: "1CCEDC1F9F219179"
 			rewards: [{
@@ -617,16 +617,16 @@
 				item: "ars_nouveau:red_archwood_sapling"
 				type: "item"
 			}]
-			title: "Archwood"
+			title: "{ftbquests.chapter.the_sound_of_life.quest16.title}"
 			x: -4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1CCEDC1F9F219179"]
 			description: [
-				"With Archwood, you can now create &6Source Gems,&r a perfect focusing medium for the arcane energies of &5Source.&r Just toss some amethyst or lapis into an &6Imbuement Chamber!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest17.description1}"
 				""
-				"At first, you'll be slowly imbuing gems with the trace amounts present in the air, but once you get a way to generate &5Liquid Source,&r you'll be converting gems in a flash!"
+				"{ftbquests.chapter.the_sound_of_life.quest17.description2}"
 			]
 			icon: "ars_nouveau:source_gem"
 			id: "1A59682F5B56E020"
@@ -655,13 +655,13 @@
 					type: "item"
 				}
 			]
-			title: "Source Gems"
+			title: "{ftbquests.chapter.the_sound_of_life.quest17.title}"
 			x: -6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["574FE16E5404A3D0"]
-			description: ["By offering an &6Imbued Slate&r to the gods, you can convert mundane iron into the dense ingot of &6Osmium.&r This metal is crucial to advanced mechanical applications."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest18.description1}"]
 			icon: "mekanism:ingot_osmium"
 			id: "2746DDF7130D3BB4"
 			rewards: [
@@ -682,16 +682,16 @@
 				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
-			title: "Supermassive"
+			title: "{ftbquests.chapter.the_sound_of_life.quest18.title}"
 			x: 2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0E7EBE370DB920D8"]
 			description: [
-				"Now that you have a source of power, you'll want to start making real machinery. Your first step - a &6Metallurgic Infuser.&r This machine can do a wide varity of things, but one of the most important is its ability to create &6steel,&r another critical metal for your foray into technology."
+				"{ftbquests.chapter.the_sound_of_life.quest19.description1}"
 				""
-				"Infusing &6iron with coal,&r while inefficient, is your only real way to make it - at least for now."
+				"{ftbquests.chapter.the_sound_of_life.quest19.description2}"
 			]
 			icon: "mekanism:ingot_steel"
 			id: "0CF33532629C1427"
@@ -720,16 +720,16 @@
 					type: "item"
 				}
 			]
-			title: "Steel"
+			title: "{ftbquests.chapter.the_sound_of_life.quest19.title}"
 			x: 5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0CF33532629C1427"]
 			description: [
-				"The basis of every machine worth making, &6a Steel Casing &ropens up limitless possibilities. "
+				"{ftbquests.chapter.the_sound_of_life.quest20.description1}"
 				""
-				"Almost quadrupling raw ore into ingots, turning plants into energy, or even fusion reactors all start with the humble steel casing."
+				"{ftbquests.chapter.the_sound_of_life.quest20.description2}"
 			]
 			id: "7A2BEC31266C6A7E"
 			rewards: [{
@@ -742,13 +742,13 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			title: "Basic Machinery"
+			title: "{ftbquests.chapter.the_sound_of_life.quest20.title}"
 			x: 5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
-			description: ["The &6Enrichment Chamber&r can slightly boost the outputs of raw ores, clean blocks, and refine reagents for the &6Metallurgic Infuser,&r creating enriched versions of items that are &68 times more efficient!&r"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest21.description1}"]
 			id: "382B7C05BB6427BB"
 			rewards: [{
 				id: "418B00529CFA055E"
@@ -766,9 +766,9 @@
 		{
 			dependencies: ["2746DDF7130D3BB4"]
 			description: [
-				"Before you can do anything related to machinery, you'll need a source of power. Thankfully, &bbotanic mana&r is easily convertible to &credstone flux.&r Simply point a mana spreader at a &6Mana Fluxfield&r and it'll output &cRF&r to any adjacent blocks."
+				"{ftbquests.chapter.the_sound_of_life.quest22.description1}"
 				""
-				"&7You can also use a heat generator, but it's VERY inefficient and (probably) not even worth making!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest22.description2}"
 			]
 			id: "0E7EBE370DB920D8"
 			rewards: [{
@@ -787,11 +787,11 @@
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"With the acquisition of lapis, you can now make the &6Terrestrial Agglomeration Plate,&r a necessary step in your mastery of &bbotanic mana.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest23.description1}"
 				""
-				"Combining mana-infused versions of a diamond, an ender pearl, and iron (alongside a tremendous amount of mana) creates &6Terrasteel,&r a unique alloy that is incredibly strong and mana conductive."
+				"{ftbquests.chapter.the_sound_of_life.quest23.description2}"
 				""
-				"&7Tip: use sparks instead of mana spreaders for a much faster mana transfer rate!"
+				"{ftbquests.chapter.the_sound_of_life.quest23.description3}"
 			]
 			icon: "botania:terrasteel_ingot"
 			id: "2F6FB6D4819EF061"
@@ -826,13 +826,13 @@
 					type: "item"
 				}
 			]
-			title: "Terrasteel"
+			title: "{ftbquests.chapter.the_sound_of_life.quest23.title}"
 			x: -4.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["0CF33532629C1427"]
-			description: ["Steel allows you to make better pipes of all kinds, able to transport items, fluids, RF, chemicals, and even heat. These have a number of &6advantages over caminite-based alternatives,&r mainly their lack of reliance on redstone and their upgradeability."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest24.description1}"]
 			icon: "mekanism:basic_universal_cable"
 			id: "740CD4B0ED662B60"
 			rewards: [{
@@ -870,16 +870,16 @@
 						]
 					}
 				}
-				title: "Any Basic Logistic Item"
+				title: "{ftbquests.chapter.the_sound_of_life.quest24.task_1474346775141796701.title}"
 				type: "item"
 			}]
-			title: "Advanced Logistics"
+			title: "{ftbquests.chapter.the_sound_of_life.quest24.title}"
 			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
-			description: ["The &6Rotary Condensentrator&r allows you to convert liquids to gases, and vice versa. This is useful for storage purposes, but it also allows you to aerate Life Essence!"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest25.description1}"]
 			id: "46391DDDC731B2AC"
 			rewards: [{
 				id: "76D8B9E4A2E39ABE"
@@ -897,9 +897,9 @@
 		{
 			dependencies: ["46391DDDC731B2AC"]
 			description: [
-				"The &6Gas-Burning Generator&r can produce a large amount of RF very quickly - it's a solid midrange option that will most likely carry your energy needs until you start making reactors."
+				"{ftbquests.chapter.the_sound_of_life.quest26.description1}"
 				""
-				"&6Aerated Essence &ris relatively easy to produce, and can be burned to produce a solid amount of RF. It's macabre, but it works!"
+				"{ftbquests.chapter.the_sound_of_life.quest26.description2}"
 			]
 			id: "65850E753E7200DC"
 			rewards: [{
@@ -921,9 +921,9 @@
 				"64D9A5568A5D41FD"
 			]
 			description: [
-				"&6Ethylene&r is another gas you can burn in the gas-burning generator; even a small amount can be burned for a rather large amount of energy."
+				"{ftbquests.chapter.the_sound_of_life.quest27.description1}"
 				""
-				"&7Note: Ethylene burning has been nerfed in this pack! It's still useful, just not as absolutely game-breakingly energy dense as it normally is.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest27.description2}"
 			]
 			icon: "mekanism:ethene_bucket"
 			id: "6EAAB9DF6917C3AC"
@@ -937,13 +937,13 @@
 				item: "mekanism:substrate"
 				type: "item"
 			}]
-			title: "Ethylene"
+			title: "{ftbquests.chapter.the_sound_of_life.quest27.title}"
 			x: 8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6EAAB9DF6917C3AC"]
-			description: ["Ethylene can be further mixed with Aerated Essence to produce Blooded Ethylene, a much more energy-dense gas that can burn for longer in the &6Gas-Burning Generator.&r"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest28.description1}"]
 			icon: "bloodmagic:life_essence_bucket"
 			id: "0B4BD82BD1422A1A"
 			rewards: [{
@@ -955,13 +955,13 @@
 				id: "2BF3BFDB49C45513"
 				type: "checkmark"
 			}]
-			title: "Blooded Ethylene"
+			title: "{ftbquests.chapter.the_sound_of_life.quest28.title}"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
-			description: ["The &6Crusher&r is great for turning things into smaller, powdery versions of themselves. It's also great at turning plants into &6Bio Fuel!&r"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest29.description1}"]
 			id: "2FD8F1325D206079"
 			rewards: [{
 				id: "12528884CF2B0441"
@@ -978,7 +978,7 @@
 		}
 		{
 			dependencies: ["2FD8F1325D206079"]
-			description: ["&6Bio Fuel&r can be turned directly into energy in the &6Bio-Generator,&r or further refined into ethylene for burning in the &6Gas-Burning Generator.&r"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest30.description1}"]
 			icon: "mekanism:bio_fuel"
 			id: "64D9A5568A5D41FD"
 			rewards: [{
@@ -999,18 +999,18 @@
 					type: "item"
 				}
 			]
-			title: "Bio Fuel"
+			title: "{ftbquests.chapter.the_sound_of_life.quest30.title}"
 			x: 7.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["382B7C05BB6427BB"]
 			description: [
-				"The &6Purification Chamber,&r in combination with oxygen and some further processing, can double raw ore outputs."
+				"{ftbquests.chapter.the_sound_of_life.quest31.description1}"
 				""
-				"Ore clumps can be crushed into dirty dust, enriched into pure dust, then smelted into ingots."
+				"{ftbquests.chapter.the_sound_of_life.quest31.description2}"
 				""
-				"&7Tip: gas upgrades can be placed into some machines to make them more efficient in their use of chemicals!"
+				"{ftbquests.chapter.the_sound_of_life.quest31.description3}"
 			]
 			id: "1FFEB5A89F1ACBEC"
 			rewards: [{
@@ -1029,11 +1029,11 @@
 		{
 			dependencies: ["1FFEB5A89F1ACBEC"]
 			description: [
-				"The &6Chemical Dissolution Chamber&r is the next step in your ore processing - with the chamber as a starting point and some hydrogen chloride, it can turn 3 ore into 8 shards, which eventually get processed into ingots."
+				"{ftbquests.chapter.the_sound_of_life.quest32.description1}"
 				""
-				"To make hydrogen chloride, you'll need a renewable source of chlorine. The &6Thermal Evaporation Tower Multiblock&r can turn plain water into brine, which can then be electrolysed into chlorine."
+				"{ftbquests.chapter.the_sound_of_life.quest32.description2}"
 				""
-				"Shards need to be purified into clumps, crushed into dirty dust, enriched into pure dust, then smelted into ingots."
+				"{ftbquests.chapter.the_sound_of_life.quest32.description3}"
 			]
 			icon: "mekanism:chemical_dissolution_chamber"
 			id: "0E50AD0D33F05A97"
@@ -1060,11 +1060,11 @@
 		{
 			dependencies: ["0E50AD0D33F05A97"]
 			description: [
-				"The final refinement to your ore refinement process: the &6Chemical Washer and Crystallizer&r can wash and crystallize ore slurry, at a 3 raw ore to eventual 10 ingot ratio."
+				"{ftbquests.chapter.the_sound_of_life.quest33.description1}"
 				""
-				"You'll need sulfur for sulfuric acid, which you can make through judicious application of oxygen to charcoal."
+				"{ftbquests.chapter.the_sound_of_life.quest33.description2}"
 				""
-				"Dirty ore slurry needs to be washed into clean ore slurry, then crystallized into crystals, which then get thrown into the &6Chemical Injection Chamber&r to get turned into shards, which purify into clumps, crush into dirty dust, enrich into clean dust, and then finally smelt into ingots."
+				"{ftbquests.chapter.the_sound_of_life.quest33.description3}"
 			]
 			icon: "mekanism:chemical_washer"
 			id: "3B5E9C85AC4A0165"
@@ -1090,18 +1090,18 @@
 					type: "item"
 				}
 			]
-			title: "REAL Ore Processing"
+			title: "{ftbquests.chapter.the_sound_of_life.quest33.title}"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["574FE16E5404A3D0"]
 			description: [
-				"To make the next tier of altar, you'll need bloodstone bricks to cap the next set of pillars. However, these require blood shards to make; blood shards require &6tau fruit. &r"
+				"{ftbquests.chapter.the_sound_of_life.quest34.description1}"
 				""
-				"Despite your best efforts, you can't breed tau from your currently-available stock of plants. Luckily, you don't have to."
+				"{ftbquests.chapter.the_sound_of_life.quest34.description2}"
 				""
-				"Using the power of the &6Edge of the Hidden Realm&r ritual, you can create a gateway to the Demon Realm. The Demon Realm has all sorts of goodies, but mainly it's the original source of Tau Fruit. Go forth, "
+				"{ftbquests.chapter.the_sound_of_life.quest34.description3}"
 			]
 			icon: "bloodmagic:ritualdiviner"
 			id: "572D14ABB8B0DEB9"
@@ -1127,18 +1127,18 @@
 					type: "item"
 				}
 			]
-			title: "Blooded Rituals"
+			title: "{ftbquests.chapter.the_sound_of_life.quest34.title}"
 			x: -1.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["572D14ABB8B0DEB9"]
 			description: [
-				"&6Blood Shards&r are a very handy thing for someone of your talents to have around. Despite your best efforts, however, you can't breed the necessary tau from your currently-available stock of plants. Luckily, you don't have to."
+				"{ftbquests.chapter.the_sound_of_life.quest35.description1}"
 				""
-				"Using the power of the &6Edge of the Hidden Realm&r ritual, you can create a gateway to the Demon Realm. The Demon Realm has all sorts of goodies, but mainly it's the original source of tau fruit. "
+				"{ftbquests.chapter.the_sound_of_life.quest35.description2}"
 				""
-				"&7Tip: once you have some, planting tau fruit and having it grow while something is standing on it will eventually create a saturated tau."
+				"{ftbquests.chapter.the_sound_of_life.quest35.description3}"
 			]
 			icon: "bloodmagic:weakbloodshard"
 			id: "4CF55F7AA2943D89"
@@ -1164,16 +1164,16 @@
 					type: "item"
 				}
 			]
-			title: "Blood Shards"
+			title: "{ftbquests.chapter.the_sound_of_life.quest35.title}"
 			x: -1.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["4CF55F7AA2943D89"]
 			description: [
-				"With access to blood shards, you can finally make a tier 4 altar and&6 Demonic Slates.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest36.description1}"
 				""
-				"Yet still stronger than Imbued Slates, these bad boys pack quite an essence-filled punch! You can use these for ritual paraphernalia as well as more altar upgrades."
+				"{ftbquests.chapter.the_sound_of_life.quest36.description2}"
 			]
 			icon: "bloodmagic:demonslate"
 			id: "45BC42953D194C94"
@@ -1207,16 +1207,16 @@
 					type: "item"
 				}
 			]
-			title: "Tier 4 Slates"
+			title: "{ftbquests.chapter.the_sound_of_life.quest36.title}"
 			x: 0.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["45BC42953D194C94"]
 			description: [
-				"The &6Dusk&r version of the &6Ritual Diviner&r will allow you to perform even stronger rituals - chief among these being the &6Pathway to the Endless Realm.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest37.description1}"
 				""
-				"Once performed, you will be presented with a gate to the Demon Realm proper - a sprawling labyrinth of rooms which contain strong enemies, plentiful loot, and the curious ore known as &6Demonite.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest37.description2}"
 			]
 			id: "334A0BB9548947EF"
 			rewards: [{
@@ -1229,16 +1229,16 @@
 				item: "bloodmagic:ritualdivinerdusk"
 				type: "item"
 			}]
-			title: "Dusk Rituals"
+			title: "{ftbquests.chapter.the_sound_of_life.quest37.title}"
 			x: 1.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["334A0BB9548947EF"]
 			description: [
-				"&6Demonite&r can be found rarely in the &6Demon Realm,&r either as an ore block or as loot in chests."
+				"{ftbquests.chapter.the_sound_of_life.quest38.description1}"
 				""
-				"You also remember that there was a &6special key&r for &6spatial distortions&r that led you to the mines, which held much more valuable loot..."
+				"{ftbquests.chapter.the_sound_of_life.quest38.description2}"
 			]
 			id: "171B65208F0D13E8"
 			rewards: [{
@@ -1257,9 +1257,9 @@
 		{
 			dependencies: ["171B65208F0D13E8"]
 			description: [
-				"The single most powerful slate you can make,&6 Ethereal Slates&r require a tier 5 altar to craft."
+				"{ftbquests.chapter.the_sound_of_life.quest39.description1}"
 				""
-				"Alongside netherite scraps and some &6looted parts&r from the Demon Realm, these slates can be used to upgrade altar runes, making them &6twice as powerful.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest39.description2}"
 			]
 			id: "0B69076CC61D0246"
 			rewards: [{
@@ -1272,18 +1272,18 @@
 				item: "bloodmagic:etherealslate"
 				type: "item"
 			}]
-			title: "Tier 5 Slates"
+			title: "{ftbquests.chapter.the_sound_of_life.quest39.title}"
 			x: 0.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["334A0BB9548947EF"]
 			description: [
-				"Now that you have access to dusk rituals, you can use either a &6Ritual of the Feathered Knife&r or a &6Well of Suffering&r to automate the collection of life essence."
+				"{ftbquests.chapter.the_sound_of_life.quest40.description1}"
 				""
-				"To get even more out of your rituals, you can use the &6Ritual Tinkerer!&r Read your &6Sanguine Scientiem&r for more information."
+				"{ftbquests.chapter.the_sound_of_life.quest40.description2}"
 				""
-				"&7Tip: if you can supply mobs to the well constantly (or give them a source of regenerating health), you could fully automate life essence collection..."
+				"{ftbquests.chapter.the_sound_of_life.quest40.description3}"
 			]
 			id: "1FC8CD63A4443B63"
 			rewards: [{
@@ -1296,16 +1296,16 @@
 				item: "bloodmagic:ritualtinkerer"
 				type: "item"
 			}]
-			title: "Useful Rituals"
+			title: "{ftbquests.chapter.the_sound_of_life.quest40.title}"
 			x: -0.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["7BDAAB04F6FD0786"]
 			description: [
-				"The &6Incense Altar&r is the center of a large freeform multiblock structure focused on bringing a sense of tranquility to players. With enough peace of mind, you can perform self-sacrifice with a much smoother hand - at high levels, you can get as much as &6quadruple the normal amount of life essence!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest41.description1}"
 				""
-				"For more information on this structure, take a look at your &6Sanguine Scientiem.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest41.description2}"
 			]
 			id: "1C61DAD67EC27EA5"
 			rewards: [{
@@ -1324,13 +1324,13 @@
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"With enough Demonic Will, you reach a critical mass that can eventually &6generate will&r ex nihilo! Simply burn some into the local aura by throwing will into a &6Demon Crucible,&r then wait for it to crystallize on the &6Demon Crystallizer. &r"
+				"{ftbquests.chapter.the_sound_of_life.quest42.description1}"
 				""
-				"With enough will in the aura, the crystal will grow extra spires you can harvest and re-burn; each crystal past the first takes 40 will to grow but &6burns into 50!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest42.description2}"
 				""
-				"Now if only there was some way to automate this..."
+				"{ftbquests.chapter.the_sound_of_life.quest42.description3}"
 				""
-				"&7Tip: for more info, read your Sanguine Scientiem!"
+				"{ftbquests.chapter.the_sound_of_life.quest42.description4}"
 			]
 			icon: "bloodmagic:defaultcrystal"
 			id: "026A3590EE976DB0"
@@ -1356,7 +1356,7 @@
 					type: "item"
 				}
 			]
-			title: "Crystallized Will"
+			title: "{ftbquests.chapter.the_sound_of_life.quest42.title}"
 			x: -3.0d
 			y: -6.0d
 		}
@@ -1366,9 +1366,9 @@
 				"026A3590EE976DB0"
 			]
 			description: [
-				"With the &6Resonance of the Faceted Crystal&r ritual, you can split one well-established Will Crystal into four separate aspected crystals! This aspected will is handy for all sorts of things, but one of the most useful things you can do is use it in other rituals to &6change the way they perform.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest43.description1}"
 				""
-				"&7Tip: it's possible to fully automate the growing, splitting, and harvesting of crystals using rituals!"
+				"{ftbquests.chapter.the_sound_of_life.quest43.description2}"
 			]
 			id: "357CA59CD9EFA012"
 			rewards: [{
@@ -1398,13 +1398,13 @@
 					type: "item"
 				}
 			]
-			title: "Aspected Will"
+			title: "{ftbquests.chapter.the_sound_of_life.quest43.title}"
 			x: -2.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
-			description: ["With access to Terrasteel, you can make the third tier of botanic runes: &6Sin Runes.&r These can be used to make better baubles, more powerful flowers, and more!"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest44.description1}"]
 			id: "7B4F1EAF6F7A4A1D"
 			rewards: [{
 				id: "2ABDB4E91089E2B3"
@@ -1449,19 +1449,19 @@
 						]
 					}
 				}
-				title: "Any Sin Rune"
+				title: "{ftbquests.chapter.the_sound_of_life.quest44.task_6010537284078335274.title}"
 				type: "item"
 			}]
-			title: "Sin Runes"
+			title: "{ftbquests.chapter.the_sound_of_life.quest44.title}"
 			x: -4.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
 			description: [
-				"With Terrasteel, you can utilize an old ritual to open a &6gateway to Alfheim,&r which you're certain has escaped whatever happened to this world. The portal won't be able to transport living beings, but maybe you can trade for some &6useful materials?&r"
+				"{ftbquests.chapter.the_sound_of_life.quest45.description1}"
 				""
-				"&7Tip: For more information on the portal, read your Lexica Botania! For even more than that, throw your entire Lexica Botania into the portal! (but make sure you don't throw your Akashic Tome away!)"
+				"{ftbquests.chapter.the_sound_of_life.quest45.description2}"
 			]
 			icon: "botania:natura_pylon"
 			id: "3E0289A3420971D8"
@@ -1483,13 +1483,13 @@
 					type: "item"
 				}
 			]
-			title: "The Portal to Alfheim"
+			title: "{ftbquests.chapter.the_sound_of_life.quest45.title}"
 			x: -6.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
-			description: ["The &6Elven Mana Spreader&r is much more efficient than it's livingwood predecessor - it shoots larger bursts faster and farther."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest46.description1}"]
 			id: "46E7F06B96AE7AC9"
 			optional: true
 			rewards: [
@@ -1510,7 +1510,7 @@
 				item: "botania:elven_spreader"
 				type: "item"
 			}]
-			title: "Better Spreader"
+			title: "{ftbquests.chapter.the_sound_of_life.quest46.title}"
 			x: -7.0d
 			y: -5.5d
 		}
@@ -1520,9 +1520,9 @@
 				"7B4F1EAF6F7A4A1D"
 			]
 			description: [
-				"With Sin Runes and elven materials, you can craft a special flower that &6generates ore in nearby stone or deepslate!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest47.description1}"
 				""
-				"As far as you're concerned, this is more proof that you can solve any problem if you throw enough raw mana at something."
+				"{ftbquests.chapter.the_sound_of_life.quest47.description2}"
 			]
 			id: "039EE9BB48F29DB2"
 			rewards: [{
@@ -1531,19 +1531,19 @@
 				xp: 100
 			}]
 			size: 1.5d
-			subtitle: "but not ad astra!"
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest47.subtitle}"
 			tasks: [{
 				id: "34A484CFD9300B55"
 				item: "botania:orechid"
 				type: "item"
 			}]
-			title: "Ex Nihilo"
+			title: "{ftbquests.chapter.the_sound_of_life.quest47.title}"
 			x: -5.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["1CCEDC1F9F219179"]
-			description: ["The &6Scribe's Table&r allows you to create new glyphs for spellbooks. As far as spellbooks go, you have a couple options - use either pure arcane mana or life essence to fuel your spells."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest48.description1}"]
 			icon: "ars_nouveau:scribes_table"
 			id: "2FAAD3AB3B105FB5"
 			rewards: [{
@@ -1570,16 +1570,16 @@
 					type: "item"
 				}
 			]
-			title: "Spellcasting"
+			title: "{ftbquests.chapter.the_sound_of_life.quest48.title}"
 			x: -6.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1A59682F5B56E020"]
 			description: [
-				"Source can be generated in a variety of ways, but you'll need to do something to get it into a much more useable liquid form. "
+				"{ftbquests.chapter.the_sound_of_life.quest49.description1}"
 				""
-				"&6Sourcelinks&r will gather it for you, but you'll also need to make a &6jar&r to store the generated source."
+				"{ftbquests.chapter.the_sound_of_life.quest49.description2}"
 			]
 			icon: "ars_nouveau:source_jar"
 			id: "797F89EC438BD230"
@@ -1624,17 +1624,17 @@
 							]
 						}
 					}
-					title: "Any Sourcelink"
+					title: "{ftbquests.chapter.the_sound_of_life.quest49.task_8602744015200526354.title}"
 					type: "item"
 				}
 			]
-			title: "Generating Source"
+			title: "{ftbquests.chapter.the_sound_of_life.quest49.title}"
 			x: -7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["797F89EC438BD230"]
-			description: ["One of the primary uses of liquid source is the enchanting of items. Using the &6Arcane Core&r and an &6Enchanting Apparatus&r atop it, you can create many useful things."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest50.description1}"]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "1F95463AFBB55B18"
 			rewards: [{
@@ -1654,7 +1654,7 @@
 					type: "item"
 				}
 			]
-			title: "Arcane Enchanting"
+			title: "{ftbquests.chapter.the_sound_of_life.quest50.title}"
 			x: -7.5d
 			y: -0.5d
 		}
@@ -1664,11 +1664,11 @@
 				"0E7BC6F2785D6CD4"
 			]
 			description: [
-				"If you're tired of waiting for amethyst to grow, try animating a block of budding amethyst with the &6Ritual of Awakening.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest51.description1}"
 				""
-				"It turns budding amethyst into an &6Amethyst Golem,&r who can harvest, grow, and even bud other blocks of amethyst!"
+				"{ftbquests.chapter.the_sound_of_life.quest51.description2}"
 				""
-				"Its behavior can be further modified using a &6Dominion Wand.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest51.description3}"
 			]
 			icon: "ars_nouveau:amethyst_golem_charm"
 			id: "3D210245881F46D7"
@@ -1694,13 +1694,13 @@
 					type: "item"
 				}
 			]
-			title: "Amethyst Buddy"
+			title: "{ftbquests.chapter.the_sound_of_life.quest51.title}"
 			x: -4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
-			description: ["With the acquisition of specially-charged elven materials, you can create an &6even stronger mana-generating base;&r cake, wool, and even other mana flowers can all be mulched into yet more mana."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest52.description1}"]
 			id: "5750E61C2B1E8D5E"
 			optional: true
 			rewards: [{
@@ -1738,10 +1738,10 @@
 						]
 					}
 				}
-				title: "Any Elven Flower"
+				title: "{ftbquests.chapter.the_sound_of_life.quest52.task_1683678805039454876.title}"
 				type: "item"
 			}]
-			title: "Esoteric Mana Generation"
+			title: "{ftbquests.chapter.the_sound_of_life.quest52.title}"
 			x: -6.0d
 			y: -5.5d
 		}
@@ -1752,9 +1752,9 @@
 				"0F60E7D69F6FA06E"
 			]
 			description: [
-				"With the power of Elementium and a little extra elemental oomph, you can craft a special pylon to use in tandem with the power of a beacon to summon the &6Guardian of Gaia.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest53.description1}"
 				""
-				"Prove your strength, and you'll be rewarded with &6Gaia Spirits.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest53.description2}"
 			]
 			id: "7EE279615E00797C"
 			rewards: [{
@@ -1773,7 +1773,7 @@
 		}
 		{
 			dependencies: ["1A59682F5B56E020"]
-			description: ["Using the &6Enchanting Apparatus&r and some special reagents, you can make elemental essences that have a wide variety of uses, from crafting to spellweaving."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest54.description1}"]
 			id: "0F60E7D69F6FA06E"
 			rewards: [
 				{
@@ -1830,7 +1830,7 @@
 						]
 					}
 				}
-				title: "Any Essence"
+				title: "{ftbquests.chapter.the_sound_of_life.quest54.task_6599905580160140411.title}"
 				type: "item"
 			}]
 			x: -9.5d
@@ -1841,7 +1841,7 @@
 				"7EE279615E00797C"
 				"6B0DF94DF9004625"
 			]
-			description: ["Fragments of the mysterious &6Guardian of Gaia&r, these spirits have enormous potential..."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest55.description1}"]
 			id: "0721C000948329FF"
 			rewards: [{
 				id: "3AF6B521407E4D45"
@@ -1858,7 +1858,7 @@
 		}
 		{
 			dependencies: ["1A59682F5B56E020"]
-			description: ["There are quite a few elemental &6rituals&r that could come in handy for you - defending your base, automatically pick items up, and even allowing you to fly!"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest56.description1}"]
 			id: "0E7BC6F2785D6CD4"
 			rewards: [{
 				id: "05C8B992B92B2723"
@@ -1879,9 +1879,9 @@
 				"0E7BC6F2785D6CD4"
 			]
 			description: [
-				"The &6Storage Lectern&r boasts the incredibly convenient capability of letting you manage, view, and craft using nearby storage blocks. Simply place it down and link inventories to it using the dominion wand!"
+				"{ftbquests.chapter.the_sound_of_life.quest57.description1}"
 				""
-				"There is a limit to the number of inventories you can connect to at once - this can be raised using additional &6Bookwyrm Charms.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest57.description2}"
 			]
 			icon: "ars_nouveau:storage_lectern"
 			id: "792DA50F1C60B35D"
@@ -1922,11 +1922,11 @@
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
 			description: [
-				"Mekanism upgrades come in two flavors - &6upgrade cards&r and &6tier installers. &r"
+				"{ftbquests.chapter.the_sound_of_life.quest58.description1}"
 				""
-				"Upgrade cards give the machine a boost to a certain aspect - speed, energy efficiency, etc."
+				"{ftbquests.chapter.the_sound_of_life.quest58.description2}"
 				""
-				"Tier installers give the machine more processing slots - from 1 item at a time to &69 in some machines!&r"
+				"{ftbquests.chapter.the_sound_of_life.quest58.description3}"
 			]
 			icon: "mekanism:upgrade_speed"
 			id: "4A5E73C5F6D316DE"
@@ -1970,7 +1970,7 @@
 							]
 						}
 					}
-					title: "Any Upgrade"
+					title: "{ftbquests.chapter.the_sound_of_life.quest58.task_366296260702142144.title}"
 					type: "item"
 				}
 				{
@@ -1979,7 +1979,7 @@
 					type: "item"
 				}
 			]
-			title: "Upgrades"
+			title: "{ftbquests.chapter.the_sound_of_life.quest58.title}"
 			x: 4.0d
 			y: -1.5d
 		}
@@ -1989,9 +1989,9 @@
 				"7B4F1EAF6F7A4A1D"
 			]
 			description: [
-				"You can use a hefty amount of will as well as vengeful will crystals to create &6Wither Skeleton Skulls&r in a Hellfire Forge. "
+				"{ftbquests.chapter.the_sound_of_life.quest59.description1}"
 				""
-				"These skulls are very powerfully charged - you can use them to summon Withers and acquire their &6valuable stars.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest59.description2}"
 			]
 			icon: "minecraft:nether_star"
 			id: "6B0DF94DF9004625"
@@ -2012,16 +2012,16 @@
 					type: "item"
 				}
 			]
-			title: "The Wither"
+			title: "{ftbquests.chapter.the_sound_of_life.quest59.title}"
 			x: -3.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
 			description: [
-				"The &6Conjuration Catalyst&r can duplicate certain items for a relatively moderate mana cost."
+				"{ftbquests.chapter.the_sound_of_life.quest60.description1}"
 				""
-				"No more fiddling around with potions or distilling to make your redstone and glowstone!"
+				"{ftbquests.chapter.the_sound_of_life.quest60.description2}"
 			]
 			id: "2CC12CE948BCDF7A"
 			rewards: [{
@@ -2040,9 +2040,9 @@
 		{
 			dependencies: ["0E7BC6F2785D6CD4"]
 			description: [
-				"You can summon &6Wilden&r using the aptly-named Tablet of Summon Wilden. These magical creatures drop &6special reagents when killed.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest61.description1}"
 				""
-				"These reagents can also be used to summon the &6Wilden Chimera,&r a powerful boss that drops a &6special item&r needed to channel tier 3 spells. "
+				"{ftbquests.chapter.the_sound_of_life.quest61.description2}"
 			]
 			icon: "ars_nouveau:wilden_tribute"
 			id: "3660075C34865DCB"
@@ -2063,13 +2063,13 @@
 					type: "item"
 				}
 			]
-			title: "Wilden"
+			title: "{ftbquests.chapter.the_sound_of_life.quest61.title}"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["382B7C05BB6427BB"]
-			description: ["With the power of a &6Charger&r and an &6enriched diamond,&r you can create a &6special kind of chargeable quartz...&r"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest62.description1}"]
 			icon: "ae2:charged_certus_quartz_crystal"
 			id: "09809D52A27FDC84"
 			rewards: [
@@ -2102,18 +2102,18 @@
 					type: "item"
 				}
 			]
-			title: "Certus Quartz"
+			title: "{ftbquests.chapter.the_sound_of_life.quest62.title}"
 			x: 4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["09809D52A27FDC84"]
 			description: [
-				"Obviously, the ratio of one diamond for one certus quartz isn't exactly tenable. Luckily, there's a way to literally grow it from itself - just throw a block of &6certus quartz into water with some charged certus quartz,&r and it'll get converted into &6budding quartz.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest63.description1}"
 				""
-				"This semi-flawed quartz block will grow crystals just like amethyst, with one caveat - &4eventually the crystal will degrade&r back into a regular block, meaning you'll have to re-seed it."
+				"{ftbquests.chapter.the_sound_of_life.quest63.description2}"
 				""
-				"&7Tip: you can also use Theurgy to convert other materials into certus quartz - amethyst is a good candidate!"
+				"{ftbquests.chapter.the_sound_of_life.quest63.description3}"
 			]
 			id: "4B21D583F11D94F4"
 			rewards: [
@@ -2134,13 +2134,13 @@
 				item: "ae2:flawed_budding_quartz"
 				type: "item"
 			}]
-			title: "Growing Quartz"
+			title: "{ftbquests.chapter.the_sound_of_life.quest63.title}"
 			x: 3.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4B21D583F11D94F4"]
-			description: ["By combining redstone and nether quartz with charged certus quartz, you can make &6Fluix Crystals,&r capable of turning matter into digitalized information."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest64.description1}"]
 			id: "3DC3BEC51801CB96"
 			rewards: [
 				{
@@ -2166,11 +2166,11 @@
 		{
 			dependencies: ["3DC3BEC51801CB96"]
 			description: [
-				"Before the apocalpyse - or whatever happened here - there were strange meteors that occasionally fell containing these &6mysterious presses.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest65.description1}"
 				""
-				"You think you have devised a ritual that could potentially draw in another one of these meteors (albeit greatly diminished in size)."
+				"{ftbquests.chapter.the_sound_of_life.quest65.description2}"
 				""
-				"&7Tip: check your Reclamation Rituals book!"
+				"{ftbquests.chapter.the_sound_of_life.quest65.description3}"
 			]
 			icon: "ae2:mysterious_cube"
 			id: "64F989736017F6CD"
@@ -2207,7 +2207,7 @@
 				}
 				type: "item"
 			}]
-			title: "Mysterious Cube"
+			title: "{ftbquests.chapter.the_sound_of_life.quest65.title}"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -2216,7 +2216,7 @@
 				"792DA50F1C60B35D"
 				"4C34B249425FA0CC"
 			]
-			description: ["The &6ME Controller&r is the brains of the &6Material Energy&r system - one of the most powerful logistics solutions available to you."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest66.description1}"]
 			id: "52D07AB4E6B88EA1"
 			rewards: [{
 				id: "760AD4D438CC174D"
@@ -2225,7 +2225,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Better than futura blocks"
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest66.subtitle}"
 			tasks: [{
 				id: "41E4110B55B6F086"
 				item: "ae2:controller"
@@ -2236,7 +2236,7 @@
 		}
 		{
 			dependencies: ["64F989736017F6CD"]
-			description: ["The &6Inscriber&r is used to turn raw materials into actual circuits useable in the &6Matter Energy&r system."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest67.description1}"]
 			id: "4C34B249425FA0CC"
 			rewards: [{
 				id: "095EED5E764CF249"
@@ -2258,11 +2258,11 @@
 				"0B69076CC61D0246"
 			]
 			description: [
-				"With the raw power afforded to you by aspected will crystals, gaia fragments, and ethereal slates, you finally have enough oomph to begin reversing the damage this world has suffered."
+				"{ftbquests.chapter.the_sound_of_life.quest68.description1}"
 				""
-				"Look into the &6Ritual of Reclamation&r in your Reclamation Rituals book to start reclaiming the world."
+				"{ftbquests.chapter.the_sound_of_life.quest68.description2}"
 				""
-				"&7Note: the ritual may &4void blocks!&r&7 Perform it away from anything important or risk losing things you might want to keep."
+				"{ftbquests.chapter.the_sound_of_life.quest68.description3}"
 			]
 			id: "76531B6ECFD001DB"
 			rewards: [{
@@ -2272,23 +2272,23 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Roll credits?"
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest68.subtitle}"
 			tasks: [{
 				biome: "#reclamation:reclaimed"
 				id: "5CB74C9041238933"
-				title: "Visit a Reclaimed Biome"
+				title: "{ftbquests.chapter.the_sound_of_life.quest68.task_6680892754679269683.title}"
 				type: "biome"
 			}]
-			title: "Reclamation"
+			title: "{ftbquests.chapter.the_sound_of_life.quest68.title}"
 			x: -2.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["1F95463AFBB55B18"]
 			description: [
-				"&6Sirens&r can be summoned (and subsequently befriended) at the Altar of Birthing. Once given a Sea Pickle, they'll disappear and leave behind a token. This token can be turned into a charm that can &6automatically fish&r for you, at the price of source!"
+				"{ftbquests.chapter.the_sound_of_life.quest69.description1}"
 				""
-				"&7Tip: this auto fishing can be sped up; read your Worn Notebook for more details."
+				"{ftbquests.chapter.the_sound_of_life.quest69.description2}"
 			]
 			id: "040B7ABBA79E3C34"
 			rewards: [{
@@ -2308,9 +2308,9 @@
 		{
 			dependencies: ["1F95463AFBB55B18"]
 			description: [
-				"&6Whirlisprigs&r can be summoned at the Altar of Birthing. Growing a tree near a summoned one will net you a token, which can be crafted into a charm. This charm summons a tame Whirlisprig that will &6produce natural resources&r based on what's nearby!"
+				"{ftbquests.chapter.the_sound_of_life.quest70.description1}"
 				""
-				"&7Tip: read your Worn Notebook for more!"
+				"{ftbquests.chapter.the_sound_of_life.quest70.description2}"
 			]
 			id: "5A3D771B1235C40B"
 			rewards: [{
@@ -2329,7 +2329,7 @@
 		}
 		{
 			dependencies: ["1F95463AFBB55B18"]
-			description: ["Summon a &6Drygmy&r at the Altar of Birthing. Give it a wilden horn to get a token, then craft it into a token. This tame Drygmy will &6produce experience and drops of mobs nearby,&r without killing them!"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest71.description1}"]
 			id: "7A517B0D3ADC17FE"
 			rewards: [{
 				id: "062A83ACF679BECE"
@@ -2348,9 +2348,9 @@
 		{
 			dependencies: ["1F95463AFBB55B18"]
 			description: [
-				"Casting dispel on a witch (summoned at the Altar of Birthing) drops a Wixie Token. Turned into a charm to summon Wixies, these creatures can craft and brew potions for you!"
+				"{ftbquests.chapter.the_sound_of_life.quest72.description1}"
 				""
-				"&7Tip: Wixies are very helpful when using an Alchemical Sourcelink! For more info, read your Worn Notebook."
+				"{ftbquests.chapter.the_sound_of_life.quest72.description2}"
 			]
 			id: "0132766885AF4DEE"
 			rewards: [{
@@ -2370,9 +2370,9 @@
 		{
 			dependencies: ["1F95463AFBB55B18"]
 			description: [
-				"&6Starbuncles&r summoned by the Altar of Birthing can be gifted gold nuggets to get &6Starbuncle Tokens.&r Crafted into a &6Starbuncle Charm,&r it will summon a Starbuncle to move items around for you. No more fiddling around with pipes and logistics, just use a semi-intelligent squirrel!"
+				"{ftbquests.chapter.the_sound_of_life.quest73.description1}"
 				""
-				"&7Tip: they can be told to only pick up or drop off certain items - read your Worn Notebook for more information!"
+				"{ftbquests.chapter.the_sound_of_life.quest73.description2}"
 			]
 			id: "11D64B22EDF1E1B1"
 			rewards: [{
@@ -2395,7 +2395,7 @@
 		}
 		{
 			dependencies: ["1F95463AFBB55B18"]
-			description: ["&6Magebloom&r is a flower whose fibers can be spun into a very conductive magical cloth."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest74.description1}"]
 			icon: "ars_nouveau:magebloom_fiber"
 			id: "731A34BCDD3C048A"
 			rewards: [{
@@ -2415,16 +2415,16 @@
 					type: "item"
 				}
 			]
-			title: "Magebloom"
+			title: "{ftbquests.chapter.the_sound_of_life.quest74.title}"
 			x: -7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["731A34BCDD3C048A"]
 			description: [
-				"&6Warp Scrolls&r let you teleport anywhere in a dimension, while their stabilized versions create a temporary portal that can transport you even to &6other dimensions.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest75.description1}"
 				""
-				"&7Tip: both types of scrolls can be turned into permanent portals by building a frame out of Sourcestone, placing a full source jar nearby, and tossing the scroll into it."
+				"{ftbquests.chapter.the_sound_of_life.quest75.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2463,13 +2463,13 @@
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
 			description: [
-				"The &6Fission Reactor&r is a large multiblock that takes fissile fuel and water and outputs enormous amounts of steam. This steam can be pumped into another large multiblock (the industrial turbine) to produce absolutely outrageous amounts of power. "
+				"{ftbquests.chapter.the_sound_of_life.quest76.description1}"
 				""
-				"Equally as importantly, it produces nuclear waste."
+				"{ftbquests.chapter.the_sound_of_life.quest76.description2}"
 				""
-				"For more information on how to build this structure, refer to the mekanism wiki."
+				"{ftbquests.chapter.the_sound_of_life.quest76.description3}"
 				""
-				"&4Warning: if you mess up running your reactor, it WILL melt down and explode/irradiate the surrounding area. Make it small or make it far away from your base if you're not confident."
+				"{ftbquests.chapter.the_sound_of_life.quest76.description4}"
 			]
 			icon: "mekanismgenerators:fission_reactor_port"
 			id: "71FA16CB8987A05D"
@@ -2479,7 +2479,7 @@
 				xp: 100
 			}]
 			size: 1.5d
-			subtitle: "Uranium = mc2?"
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest76.subtitle}"
 			tasks: [
 				{
 					id: "2DF292275CD3CCFC"
@@ -2502,13 +2502,13 @@
 					type: "item"
 				}
 			]
-			title: "Fission Reactor"
+			title: "{ftbquests.chapter.the_sound_of_life.quest76.title}"
 			x: 7.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["71FA16CB8987A05D"]
-			description: ["&6Plutonium&r is one possible product from processing nuclear waste - it can be reprocessed into more fissile fuel or crafted into Supercritical Phase Shifter casings."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest77.description1}"]
 			id: "56AC940F596CE59A"
 			rewards: [{
 				id: "58B147DCAF1D6CF0"
@@ -2525,7 +2525,7 @@
 		}
 		{
 			dependencies: ["71FA16CB8987A05D"]
-			description: ["&6Radioactive Waste Barrels&r are one of the only things that can hold nuclear waste; when filled, they slowly dispose of their contents."]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest78.description1}"]
 			id: "03C92960F6FB7196"
 			rewards: [{
 				id: "1BFF2A332C901550"
@@ -2537,16 +2537,16 @@
 				item: "mekanism:radioactive_waste_barrel"
 				type: "item"
 			}]
-			title: "Waste Disposal"
+			title: "{ftbquests.chapter.the_sound_of_life.quest78.title}"
 			x: 8.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["71FA16CB8987A05D"]
 			description: [
-				"&6Polonium&r is a possible product from processing nuclear waste. "
+				"{ftbquests.chapter.the_sound_of_life.quest79.description1}"
 				""
-				"Not only can it make a variety of very helpful equipment and the &6QIO system,&r it can also be used to craft Supercritical Phase Shifter (SPS) casings, necessary for producing &6antimatter.&r"
+				"{ftbquests.chapter.the_sound_of_life.quest79.description2}"
 			]
 			id: "36DAD7B096C37537"
 			rewards: [{
@@ -2568,13 +2568,13 @@
 				"56AC940F596CE59A"
 			]
 			description: [
-				"Making antimatter requires the creation of a Supercritical Phase Shifter, yet another multiblock."
+				"{ftbquests.chapter.the_sound_of_life.quest80.description1}"
 				""
-				"Its casings require a large amount of both polonium and plutonium, meaning you'll need a large amount of nuclear waste processing."
+				"{ftbquests.chapter.the_sound_of_life.quest80.description2}"
 				""
-				"To run, it will also need an incredibly large amount of power - this is where you'd want to use an &6Industrial Turbine&r hooked up to either a fission or a fusion reactor."
+				"{ftbquests.chapter.the_sound_of_life.quest80.description3}"
 				""
-				"&7Tip: you only need to make one of these to finish the pack - unless you REALLY like late-game Mekanism or you want to make creative items!"
+				"{ftbquests.chapter.the_sound_of_life.quest80.description4}"
 			]
 			id: "4E3BA0B8C44593F4"
 			rewards: [{
@@ -2593,9 +2593,9 @@
 		{
 			dependencies: ["36DAD7B096C37537"]
 			description: [
-				"The &6QIO System&r is a digital storage solution that does not need power and can store a very large amount of items."
+				"{ftbquests.chapter.the_sound_of_life.quest81.description1}"
 				""
-				"It has &6unlimited cross-dimensional range&r and can import and export automatically. However, it cannot easily auto-craft things for you."
+				"{ftbquests.chapter.the_sound_of_life.quest81.description2}"
 			]
 			icon: "mekanism:qio_drive_array"
 			id: "46677EA7419E25B2"
@@ -2621,16 +2621,16 @@
 					type: "item"
 				}
 			]
-			title: "QIO System"
+			title: "{ftbquests.chapter.the_sound_of_life.quest81.title}"
 			x: 9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["36DAD7B096C37537"]
 			description: [
-				"The &6Fusion Reactor&r is a much more powerful version of its fission counterpart. It can produce millions of RF/t using deuterium, tritium, or D-T fuel."
+				"{ftbquests.chapter.the_sound_of_life.quest82.description1}"
 				""
-				"To learn more about this reactor, check the Mekanism wiki."
+				"{ftbquests.chapter.the_sound_of_life.quest82.description2}"
 			]
 			icon: "mekanismgenerators:fusion_reactor_frame"
 			id: "40FD6A4803092F64"
@@ -2640,7 +2640,7 @@
 				xp: 100
 			}]
 			size: 2.0d
-			subtitle: "Sci without the fi"
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest82.subtitle}"
 			tasks: [
 				{
 					id: "6502C2B9561E81FA"
@@ -2658,10 +2658,10 @@
 					type: "item"
 				}
 			]
-			title: "Fusion Reactor"
+			title: "{ftbquests.chapter.the_sound_of_life.quest82.title}"
 			x: 9.0d
 			y: 4.0d
 		}
 	]
-	title: "Sounds of Life"
+	title: "{ftbquests.chapter.the_sound_of_life.title}"
 }

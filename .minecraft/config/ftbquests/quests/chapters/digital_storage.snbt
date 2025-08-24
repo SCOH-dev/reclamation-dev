@@ -11,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["52D07AB4E6B88EA1"]
-			description: ["The &6controller&r is the brains of a network. Each controller block's face is capable of outputting &632 channels;&r almost every device on the ME network needs &6one channel to operate.&r"]
+			description: ["{ftbquests.chapter.digital_storage.quest1.description1}"]
 			hide_until_deps_complete: true
 			id: "42064A913CA2CCD2"
 			rewards: [{
@@ -31,9 +31,9 @@
 		{
 			dependencies: ["42064A913CA2CCD2"]
 			description: [
-				"A controller block itself can input energy, but you'll want to have as many controller faces open as you can to get as many channels as possible into your network. "
+				"{ftbquests.chapter.digital_storage.quest2.description1}"
 				""
-				"The &6Energy Acceptor&r uses no channels and can be placed anywhere, as long as it's connected to the network somehow."
+				"{ftbquests.chapter.digital_storage.quest2.description2}"
 			]
 			id: "19BCEFF7F0DE9C81"
 			rewards: [{
@@ -51,7 +51,7 @@
 		}
 		{
 			dependencies: ["42064A913CA2CCD2"]
-			description: ["Smart cables are very useful - they visually display how many channels they're carrying at any given time."]
+			description: ["{ftbquests.chapter.digital_storage.quest3.description1}"]
 			icon: "ae2:fluix_smart_cable"
 			id: "45812F4C9EF0926C"
 			rewards: [{
@@ -68,16 +68,16 @@
 						value: "ae2:smart_cable"
 					}
 				}
-				title: "Any Smart Cable"
+				title: "{ftbquests.chapter.digital_storage.quest3.task_6551415206641156021.title}"
 				type: "item"
 			}]
-			title: "Smart Cables"
+			title: "{ftbquests.chapter.digital_storage.quest3.title}"
 			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["45812F4C9EF0926C"]
-			description: ["Dense cables can carry 32 channels instead of the regular 8 channels."]
+			description: ["{ftbquests.chapter.digital_storage.quest4.description1}"]
 			icon: "ae2:fluix_smart_dense_cable"
 			id: "2FD074137DE15616"
 			rewards: [{
@@ -94,21 +94,21 @@
 						value: "ae2:smart_dense_cable"
 					}
 				}
-				title: "Any Smart Dense Cable"
+				title: "{ftbquests.chapter.digital_storage.quest4.task_5854794686036721300.title}"
 				type: "item"
 			}]
-			title: "Dense Cables"
+			title: "{ftbquests.chapter.digital_storage.quest4.title}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2FD074137DE15616"]
 			description: [
-				"The color applicator lets you paint cables - especially useful once your network starts to grow. "
+				"{ftbquests.chapter.digital_storage.quest5.description1}"
 				""
-				"Colored cables won't connect to other colored cables, but fluix cables can connect to all colors."
+				"{ftbquests.chapter.digital_storage.quest5.description2}"
 				""
-				"These can be filled with &6dyes or paintballs&r using an &6ME Chest.&r"
+				"{ftbquests.chapter.digital_storage.quest5.description3}"
 			]
 			id: "25899D736E58600D"
 			rewards: [{
@@ -124,7 +124,7 @@
 					tag: { }
 				}
 				match_nbt: false
-				title: "Color Applicator"
+				title: "{ftbquests.chapter.digital_storage.quest5.task_4299327579125140032.title}"
 				type: "item"
 			}]
 			x: 1.0d
@@ -133,9 +133,9 @@
 		{
 			dependencies: ["42064A913CA2CCD2"]
 			description: [
-				"The &6ME Interface&r acts as a specialized input and output port for your network. "
+				"{ftbquests.chapter.digital_storage.quest6.description1}"
 				""
-				"It can keep a certain amount of items from your network in its inventory for pipes or other blocks to pull from, and also automatically puts any other items it receives into the network."
+				"{ftbquests.chapter.digital_storage.quest6.description2}"
 			]
 			id: "28F3433876B58C67"
 			rewards: [{
@@ -153,7 +153,7 @@
 		}
 		{
 			dependencies: ["42064A913CA2CCD2"]
-			description: ["The &6Wireless Connector&r is a short-range version of a &6Quantum Link Chamber &r- use this when you want your network to jump a short distance, and not cross-dimensionally."]
+			description: ["{ftbquests.chapter.digital_storage.quest7.description1}"]
 			id: "0B962ED4F7C5605E"
 			rewards: [{
 				id: "740E9ECF9F88E5D4"
@@ -170,7 +170,7 @@
 		}
 		{
 			dependencies: ["42064A913CA2CCD2"]
-			description: ["The &6Quantum Network Bridge&r uses the power of quantum entanglement to bridge a network gap not only across large distances, but dimensions."]
+			description: ["{ftbquests.chapter.digital_storage.quest8.description1}"]
 			icon: "ae2:quantum_link"
 			id: "3A85EDF465018CE9"
 			rewards: [{
@@ -190,13 +190,13 @@
 					type: "item"
 				}
 			]
-			title: "Quantum Network Bridge"
+			title: "{ftbquests.chapter.digital_storage.quest8.title}"
 			x: -1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["42064A913CA2CCD2"]
-			description: ["The&6 Extended Charger&r and &6Inscriber&r are upgraded versions of their base models, capable of processing 4 recipes in parallel."]
+			description: ["{ftbquests.chapter.digital_storage.quest9.description1}"]
 			icon: "expatternprovider:ex_inscriber"
 			id: "769058A0214DFE4C"
 			rewards: [{
@@ -216,13 +216,13 @@
 					type: "item"
 				}
 			]
-			title: "Extended Machines"
+			title: "{ftbquests.chapter.digital_storage.quest9.title}"
 			x: -2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["42064A913CA2CCD2"]
-			description: ["The &6Wireless Access Point&r allows you to use wireless terminals to access your ME System. You can boost its range by giving it &6wireless boosters,&r but be warned: more boosters means the WAP will need &4much more energy&r to stay running."]
+			description: ["{ftbquests.chapter.digital_storage.quest10.description1}"]
 			icon: "ae2:wireless_terminal"
 			id: "5800C2FA501D25AA"
 			rewards: [{
@@ -273,22 +273,22 @@
 						}
 					}
 					match_nbt: false
-					title: "Any Wireless Terminal"
+					title: "{ftbquests.chapter.digital_storage.quest10.task_8779164168368451602.title}"
 					type: "item"
 				}
 			]
-			title: "Wireless Access"
+			title: "{ftbquests.chapter.digital_storage.quest10.title}"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["28F3433876B58C67"]
 			description: [
-				"&6Pattern Providers,&r when given a pattern, will push the items in the pattern to a nearby inventory. &6Molecular Assemblers,&r when given items, will craft with those items and output them to nearby inventories. Put them next to each other, and you have a &6basic autocrafting setup! &r"
+				"{ftbquests.chapter.digital_storage.quest11.description1}"
 				""
-				"You'll need somewhere to store the items while they're being crafted; a crafting storage would be ideal."
+				"{ftbquests.chapter.digital_storage.quest11.description2}"
 				""
-				"&7Tip: for more info, check the guide!"
+				"{ftbquests.chapter.digital_storage.quest11.description3}"
 			]
 			icon: "ae2:molecular_assembler"
 			id: "7029B79465525273"
@@ -314,16 +314,16 @@
 					type: "item"
 				}
 			]
-			title: "ME Autocrafting"
+			title: "{ftbquests.chapter.digital_storage.quest11.title}"
 			x: -4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["42064A913CA2CCD2"]
 			description: [
-				"With an ME System you'll need some way to actually store items - the &6ME Drive&r can store up to 10 storage cells of any type and size."
+				"{ftbquests.chapter.digital_storage.quest12.description1}"
 				""
-				"&7Tip: you can store botanic mana, elemental source, gases, fluids, and even space itself in cells - not just regular items!"
+				"{ftbquests.chapter.digital_storage.quest12.description2}"
 			]
 			id: "38CF84D7DEEA26F2"
 			rewards: [{
@@ -341,7 +341,7 @@
 		}
 		{
 			dependencies: ["38CF84D7DEEA26F2"]
-			description: ["Terminals are how you actually interface with the storage cells in your ME System."]
+			description: ["{ftbquests.chapter.digital_storage.quest13.description1}"]
 			id: "2BC56CC6C32D156B"
 			rewards: [{
 				id: "186C8D61C3F9AF6D"
@@ -378,16 +378,16 @@
 						]
 					}
 				}
-				title: "Any Terminal"
+				title: "{ftbquests.chapter.digital_storage.quest13.task_8779678006548052409.title}"
 				type: "item"
 			}]
-			title: "Terminals"
+			title: "{ftbquests.chapter.digital_storage.quest13.title}"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["19BCEFF7F0DE9C81"]
-			description: ["Storing some energy in your ME System would be a good idea... just in case."]
+			description: ["{ftbquests.chapter.digital_storage.quest14.description1}"]
 			id: "77DBEADC85E302E7"
 			rewards: [{
 				id: "61366A2AAF5DD0E8"
@@ -425,9 +425,9 @@
 		{
 			dependencies: ["2FD074137DE15616"]
 			description: [
-				"&6P2P Tunnels&r allow you to transfer multiple channels per channel! It's a little confusing at first, but once you get the hang of it you can really push your system to the limit."
+				"{ftbquests.chapter.digital_storage.quest16.description1}"
 				""
-				"You can also transfer power, chemicals, and even botanic mana and elemental source!"
+				"{ftbquests.chapter.digital_storage.quest16.description2}"
 			]
 			icon: "ae2:me_p2p_tunnel"
 			id: "1B2791D7868FA0C8"
@@ -459,9 +459,9 @@
 		{
 			dependencies: ["769058A0214DFE4C"]
 			description: [
-				"The &6Reaction Chamber&r not only allows you to make circuits much faster, it can also charge large amounts of certus crystals at a time and even grow crystals from themselves!"
+				"{ftbquests.chapter.digital_storage.quest17.description1}"
 				""
-				"Just make sure you have enough power to handle its recipes..."
+				"{ftbquests.chapter.digital_storage.quest17.description2}"
 			]
 			id: "0D84FCBDF7D400BC"
 			rewards: [{
@@ -479,7 +479,7 @@
 		}
 		{
 			dependencies: ["769058A0214DFE4C"]
-			description: ["The &6Circuit Slicer&r can cut blocks of materials into 9 circuits much faster than an inscriber can press them."]
+			description: ["{ftbquests.chapter.digital_storage.quest18.description1}"]
 			id: "73F6B084862E0C22"
 			rewards: [{
 				id: "4F5D7585B0B5505C"
@@ -496,7 +496,7 @@
 		}
 		{
 			dependencies: ["7029B79465525273"]
-			description: ["The &6Assembler Matrix&r is a molecular assembler and pattern provider setup on steroids - at its maximum size, it can hold over 4,000 patterns and craft incredibly fast. The best part? It only needs &6one channel.&r"]
+			description: ["{ftbquests.chapter.digital_storage.quest19.description1}"]
 			icon: "expatternprovider:assembler_matrix_frame"
 			id: "60D69E8F82D1735A"
 			rewards: [{
@@ -521,7 +521,7 @@
 		}
 		{
 			dependencies: ["0D84FCBDF7D400BC"]
-			description: ["The &6Quantum Computer Core&r is a self-contained crafting CPU with 256M crafting storage and 8 co-processing threads."]
+			description: ["{ftbquests.chapter.digital_storage.quest20.description1}"]
 			id: "2DD9F909A98D3A01"
 			rewards: [{
 				id: "63FEFF805B7E6973"
@@ -539,9 +539,9 @@
 		{
 			dependencies: ["2DD9F909A98D3A01"]
 			description: [
-				"The &6Quantum Computer multiblock&r is an extremely powerful multiblock that can handle an effectively &6infinite&r number of crafting requests for your ME System."
+				"{ftbquests.chapter.digital_storage.quest21.description1}"
 				""
-				"Read the guide for more information."
+				"{ftbquests.chapter.digital_storage.quest21.description2}"
 			]
 			id: "17CA0C449BCE1795"
 			rewards: [{
@@ -560,7 +560,7 @@
 		{
 			dependencies: ["448ABF53EEACBFA7"]
 			dependency_requirement: "one_completed"
-			description: ["Perfect for carrying items on the go, the &6backpack&r has a few useful upgrades as well."]
+			description: ["{ftbquests.chapter.digital_storage.quest22.description1}"]
 			hide_until_deps_complete: true
 			id: "0D743158B02EFECE"
 			rewards: [
@@ -586,7 +586,7 @@
 		}
 		{
 			dependencies: ["448ABF53EEACBFA7"]
-			description: ["Better than regular chests, &6Sophisticated Storage&r lets you put more things in a single block."]
+			description: ["{ftbquests.chapter.digital_storage.quest23.description1}"]
 			hide_until_deps_complete: true
 			id: "186AF6EF5933F0C7"
 			rewards: [
@@ -623,19 +623,19 @@
 						value: "sophisticatedstorage:all_storage"
 					}
 				}
-				title: "Any Sophisticated Storage Block"
+				title: "{ftbquests.chapter.digital_storage.quest23.task_5897231893839036272.title}"
 				type: "item"
 			}]
-			title: "Sophisticated Storage"
+			title: "{ftbquests.chapter.digital_storage.quest23.title}"
 			x: -4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["448ABF53EEACBFA7"]
 			description: [
-				"Capable of storing a very large amount of a single item type."
+				"{ftbquests.chapter.digital_storage.quest24.description1}"
 				""
-				"The framing table lets you customize the way they look."
+				"{ftbquests.chapter.digital_storage.quest24.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "storagedrawers:oak_full_drawers_1"
@@ -661,16 +661,16 @@
 						value: "storagedrawers:drawers"
 					}
 				}
-				title: "Any Storage Drawer"
+				title: "{ftbquests.chapter.digital_storage.quest24.task_5464079544652951362.title}"
 				type: "item"
 			}]
-			title: "Storage Drawers"
+			title: "{ftbquests.chapter.digital_storage.quest24.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["186AF6EF5933F0C7"]
-			description: ["Tier upgrades can be used to upgrade Sophisticated Storage blocks without breaking them."]
+			description: ["{ftbquests.chapter.digital_storage.quest25.description1}"]
 			icon: "sophisticatedstorage:basic_tier_upgrade"
 			id: "79F177300EC200BB"
 			rewards: [
@@ -759,7 +759,7 @@
 						]
 					}
 				}
-				title: "Any Tier Upgrade"
+				title: "{ftbquests.chapter.digital_storage.quest25.task_611570763386642583.title}"
 				type: "item"
 			}]
 			x: -3.5d
@@ -767,7 +767,7 @@
 		}
 		{
 			dependencies: ["310095AAC69059F7"]
-			description: ["The &6Drawer Controller&r allows you to interface with multiple drawers using only a single blockface."]
+			description: ["{ftbquests.chapter.digital_storage.quest26.description1}"]
 			id: "6AEDC0CE7C0F6871"
 			rewards: [
 				{
@@ -791,7 +791,7 @@
 		}
 		{
 			dependencies: ["310095AAC69059F7"]
-			description: ["There are a variety of keys - lock drawers to specific items, hide item labels to reduce lag, and more."]
+			description: ["{ftbquests.chapter.digital_storage.quest27.description1}"]
 			icon: "storagedrawers:drawer_key"
 			id: "48640F7FA6B4E83C"
 			rewards: [
@@ -836,16 +836,16 @@
 						]
 					}
 				}
-				title: "Any Drawer Key"
+				title: "{ftbquests.chapter.digital_storage.quest27.task_7070764459751906106.title}"
 				type: "item"
 			}]
-			title: "Drawer Keys"
+			title: "{ftbquests.chapter.digital_storage.quest27.title}"
 			x: -0.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["0D743158B02EFECE"]
-			description: ["Autofeeding, playing music, even portable crafting can all be attained with backpack upgrades."]
+			description: ["{ftbquests.chapter.digital_storage.quest28.description1}"]
 			id: "2971661158B66BCB"
 			rewards: [
 				{
@@ -869,7 +869,7 @@
 		}
 		{
 			dependencies: ["186AF6EF5933F0C7"]
-			description: ["Higher stack count, filtering, and more - check the uses for the upgrade base."]
+			description: ["{ftbquests.chapter.digital_storage.quest29.description1}"]
 			id: "20BC58E21EEC4A90"
 			rewards: [
 				{
@@ -893,7 +893,7 @@
 		}
 		{
 			dependencies: ["448ABF53EEACBFA7"]
-			description: ["Each workbench (aside from looking neat) can turn a specific set of blocks into its variants."]
+			description: ["{ftbquests.chapter.digital_storage.quest30.description1}"]
 			hide_until_deps_complete: true
 			id: "7998DF6633727385"
 			rewards: [{
@@ -938,13 +938,13 @@
 					type: "item"
 				}
 			]
-			title: "Chipped Workbenches"
+			title: "{ftbquests.chapter.digital_storage.quest30.title}"
 			x: 4.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["448ABF53EEACBFA7"]
-			description: ["Can turn almost any basic block into a wide array of variants."]
+			description: ["{ftbquests.chapter.digital_storage.quest31.description1}"]
 			hide_until_deps_complete: true
 			id: "589D9D8B75EA4D6A"
 			rewards: [{
@@ -966,7 +966,7 @@
 		}
 		{
 			dependencies: ["448ABF53EEACBFA7"]
-			description: ["Made from stonecutting andesite alloy, these blocks can take on the texture of any other block."]
+			description: ["{ftbquests.chapter.digital_storage.quest32.description1}"]
 			hide_until_deps_complete: true
 			id: "739D0BFEC4F76873"
 			rewards: [{
@@ -983,7 +983,7 @@
 						value: "copycats:copycat_block"
 					}
 				}
-				title: "Any Copycat Block"
+				title: "{ftbquests.chapter.digital_storage.quest32.task_4661123369301757740.title}"
 				type: "item"
 			}]
 			x: 4.5d
@@ -992,11 +992,11 @@
 		{
 			dependencies: ["448ABF53EEACBFA7"]
 			description: [
-				"You can make music by crafing a &6Music Sheet&r and placing notes on the sheet. "
+				"{ftbquests.chapter.digital_storage.quest33.description1}"
 				""
-				"Place the sheet in your offhand while holding an instrument to play the instrument."
+				"{ftbquests.chapter.digital_storage.quest33.description2}"
 				""
-				"&7Tip: you can do MUCH more with this mod - check out its CurseForge page for more info."
+				"{ftbquests.chapter.digital_storage.quest33.description3}"
 			]
 			hide_until_deps_complete: true
 			id: "00B11B5B5824CF82"
@@ -1024,11 +1024,11 @@
 		{
 			dependencies: ["448ABF53EEACBFA7"]
 			description: [
-				"You can paint your own masterpieces while you wait for crops to grow - simply make a palette, fill it with colors, plop a canvas on an easel, and get to painting!"
+				"{ftbquests.chapter.digital_storage.quest34.description1}"
 				""
-				"Signed paintings can be duplicated by crafting the original with a blank canvas of the same size."
+				"{ftbquests.chapter.digital_storage.quest34.description2}"
 				""
-				"&7Tip: to craft a palette, fill the bottom row of a crafting table with planks, then place dyes in the middle. You can add more dyes to a palette by crafting them together."
+				"{ftbquests.chapter.digital_storage.quest34.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -1081,16 +1081,16 @@
 					type: "item"
 				}
 			]
-			title: "The Joy of Painting"
+			title: "{ftbquests.chapter.digital_storage.quest34.title}"
 			x: 5.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["448ABF53EEACBFA7"]
 			description: [
-				"&6Building Gadgets&r are a collection of useful tools that will let you build very quickly."
+				"{ftbquests.chapter.digital_storage.quest35.description1}"
 				""
-				"They do need to be charged; use an energy cube or similar."
+				"{ftbquests.chapter.digital_storage.quest35.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "4E09F6435DC05330"
@@ -1109,7 +1109,7 @@
 		}
 		{
 			dependencies: ["448ABF53EEACBFA7"]
-			description: ["The &6Rod of the Shifting Crust&r allows you to exchange blocks in the world with blocks in your inventory for the cost of mana."]
+			description: ["{ftbquests.chapter.digital_storage.quest36.description1}"]
 			hide_until_deps_complete: true
 			id: "76B04BEB7909F047"
 			rewards: [{
@@ -1126,5 +1126,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Storage and Decor"
+	title: "{ftbquests.chapter.digital_storage.title}"
 }

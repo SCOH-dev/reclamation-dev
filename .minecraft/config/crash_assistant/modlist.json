@@ -329,6 +329,11 @@
     "modId": "ftbbackups2",
     "version": "1.0.23"
   },
+  "ftbquestlocalizer-1.20.1-forge-3.2.0.jar": {
+    "jarName": "ftbquestlocalizer-1.20.1-forge-3.2.0.jar",
+    "modId": "ftbquestlocalizer",
+    "version": "3.2.0"
+  },
   "fusion-1.2.10-forge-mc1.20.1.jar": {
     "jarName": "fusion-1.2.10-forge-mc1.20.1.jar",
     "modId": "fusion",

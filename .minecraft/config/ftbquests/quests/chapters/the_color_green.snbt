@@ -32,7 +32,7 @@
 	quests: [
 		{
 			dependencies: ["600A7F0DFD880119"]
-			description: ["You've done it! You finally have grass. It's not exactly green, but you can &6bonemeal&r a large area of it and &6get flowers!&r"]
+			description: ["{ftbquests.chapter.the_color_green.quest1.description1}"]
 			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "minecraft:grass_block"
@@ -48,18 +48,18 @@
 				item: "botania:grass_seeds"
 				type: "item"
 			}]
-			title: "Grass!"
+			title: "{ftbquests.chapter.the_color_green.quest1.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7010ED9A666FF89E"]
 			description: [
-				"Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an &6Altar&r should do well here. Place your Altar blocks in a 2x3 rectangle and it should start collecting power!"
+				"{ftbquests.chapter.the_color_green.quest2.description1}"
 				""
-				"The more &6plantlife&r there is around the&6 Altar,&r the more power you can store. This includes &6trees, grass, flowers, crops, vines, pumpkins, melons, and more!&r"
+				"{ftbquests.chapter.the_color_green.quest2.description2}"
 				""
-				"&7Tip: the altar has a range of 16 blocks! There is a cap to each kind of plantlife nearby as well, so make sure the surroundings are varied."
+				"{ftbquests.chapter.the_color_green.quest2.description3}"
 			]
 			id: "359392265BF91571"
 			rewards: [
@@ -97,16 +97,16 @@
 				item: "enchanted:altar"
 				type: "item"
 			}]
-			title: "Altar"
+			title: "{ftbquests.chapter.the_color_green.quest2.title}"
 			x: -1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
-				"Using dye from the flowers you can get by &6bonemealing grass,&r you can craft a special kind of fertilizer that can coax &6mystical flowers&r to life."
+				"{ftbquests.chapter.the_color_green.quest3.description1}"
 				""
-				"&7Tip: you can also get mystical flower seeds through crossbreeding!"
+				"{ftbquests.chapter.the_color_green.quest3.description2}"
 			]
 			id: "624E015B09427542"
 			rewards: [
@@ -137,11 +137,11 @@
 		{
 			dependencies: ["624E015B09427542"]
 			description: [
-				"The &6Pure Daisy&r can, as its name implies, purify nearby objects. The most important things you should start with are &6logs and stone,&r but there are a few other things you can purify as well!"
+				"{ftbquests.chapter.the_color_green.quest4.description1}"
 				""
-				"Simply place the petal apothecary down, fill it with water, then toss in the petals and finally a seed!"
+				"{ftbquests.chapter.the_color_green.quest4.description2}"
 				""
-				"&7Tip: check the usages of the Pure Daisy to see what else it can transform."
+				"{ftbquests.chapter.the_color_green.quest4.description3}"
 			]
 			icon: "botania:pure_daisy"
 			id: "2737F0AE3D1835D4"
@@ -162,7 +162,7 @@
 					type: "item"
 				}
 			]
-			title: "Pure Daisy"
+			title: "{ftbquests.chapter.the_color_green.quest4.title}"
 			x: -1.0d
 			y: -2.0d
 		}
@@ -172,13 +172,13 @@
 				"01C2598A1D9CF754"
 			]
 			description: [
-				"Combining the nature-infused iron and some metaphysical heat and structure (courtesy of &6nether bricks&r and a &6spruce sapling,&r respectively), you can rearrange the latent potential of the metal to turn it into lead!"
+				"{ftbquests.chapter.the_color_green.quest5.description1}"
 				""
-				"Vastly useful in a variety of mechanical applications, lead is a great first step to leveraging either &6raw mechanical power&r or &6Ember&r in your pursuits."
+				"{ftbquests.chapter.the_color_green.quest5.description2}"
 				""
-				"&7Tip: the ancient codex is a little confusing at first, but it will guide you through the Embers mod! Start at Natural Energy, right click entries to mark them as read, and make sure you &lREAD CAREFULLY!"
+				"{ftbquests.chapter.the_color_green.quest5.description3}"
 				""
-				"&7Tip 2: you can use Theurgy to triple ingot output from raw ores!"
+				"{ftbquests.chapter.the_color_green.quest5.description4}"
 			]
 			id: "61329AF67AD28062"
 			rewards: [
@@ -209,13 +209,13 @@
 		{
 			dependencies: ["61329AF67AD28062"]
 			description: [
-				"&6Ember&r is the lifeblood of the world. Despite whatever happened, there is still virtually infinite Ember available deep underground - you just need to make a machine that can mine it. "
+				"{ftbquests.chapter.the_color_green.quest6.description1}"
 				""
-				"Enter the &6Ember Bore&r - place it on bedrock, add a &6Mechanical Core&r above it so you can pipe things in and out of it, and give it some fuel! It'll start digging up that sweet, sweet Ember."
+				"{ftbquests.chapter.the_color_green.quest6.description2}"
 				""
-				"&7Tip: the Mechanical Core acts as an extension for most Embers multiblocks! You can transfer items, fluid, and ember in and out of the core as if it was a part of the block it is attached to."
+				"{ftbquests.chapter.the_color_green.quest6.description3}"
 				""
-				"&7Tip 2: USE YOUR MECHANICAL LENS! It's EXTREMELY helpful for figuring out how Ember's machines work."
+				"{ftbquests.chapter.the_color_green.quest6.description4}"
 			]
 			icon: "embers:ember_bore"
 			id: "6DC359D0F8736415"
@@ -243,7 +243,7 @@
 					type: "item"
 				}
 			]
-			title: "Drilling for Ember"
+			title: "{ftbquests.chapter.the_color_green.quest6.title}"
 			x: 1.5d
 			y: -4.5d
 		}
@@ -253,9 +253,9 @@
 				"27C68B6622F186D7"
 			]
 			description: [
-				"The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"
+				"{ftbquests.chapter.the_color_green.quest7.description1}"
 				""
-				"&7Tip: there is a better way to make brilliant fiber, but you'll need to get blaze powder somehow... "
+				"{ftbquests.chapter.the_color_green.quest7.description2}"
 			]
 			icon: "minecraft:gold_ingot"
 			id: "7010ED9A666FF89E"
@@ -276,13 +276,13 @@
 					type: "item"
 				}
 			]
-			title: "Gold"
+			title: "{ftbquests.chapter.the_color_green.quest7.title}"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2737F0AE3D1835D4"]
-			description: ["The &6Pure Daisy&r is able to turn mundane stone and logs into much more naturally-aligned versions of themselves."]
+			description: ["{ftbquests.chapter.the_color_green.quest8.description1}"]
 			icon: "botania:livingwood_log"
 			id: "6ED1017877CB7568"
 			rewards: [{
@@ -302,7 +302,7 @@
 					type: "item"
 				}
 			]
-			title: "Living Materials"
+			title: "{ftbquests.chapter.the_color_green.quest8.title}"
 			x: -2.0d
 			y: -2.0d
 		}
@@ -312,11 +312,11 @@
 				"226F9F21A941389C"
 			]
 			description: [
-				"You can use a bucket to &6strategically place lava and water&r to make a nether portal frame. It's not ideal, but it's definitely easier than trying to mine obsidian with an iron pickaxe!"
+				"{ftbquests.chapter.the_color_green.quest9.description1}"
 				""
-				"Similar to the overworld, the nether is bare of ores and even more devoid of life - &4there are zero spawns there, and only one biome."
+				"{ftbquests.chapter.the_color_green.quest9.description2}"
 				""
-				"&7Tip: you can also make obsidian on the natural altar - but be warned, it's pretty costly aura-wise!"
+				"{ftbquests.chapter.the_color_green.quest9.description3}"
 			]
 			icon: "minecraft:netherrack"
 			id: "27C68B6622F186D7"
@@ -329,7 +329,7 @@
 				{
 					dimension: "minecraft:the_nether"
 					id: "38900D6378B19874"
-					title: "Visit the Nether"
+					title: "{ftbquests.chapter.the_color_green.quest9.task_4075772383648127092.title}"
 					type: "dimension"
 				}
 				{
@@ -351,18 +351,18 @@
 					type: "item"
 				}
 			]
-			title: "The Nether"
+			title: "{ftbquests.chapter.the_color_green.quest9.title}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["46CC05A2F2D89079"]
 			description: [
-				"The &6Natural Altar&r is a very important tool in the manipulation of natural energies."
+				"{ftbquests.chapter.the_color_green.quest10.description1}"
 				""
-				"Once the altar is fully built, it will drain &6aura&r from its surroundings. It will then use those energies to &6transform items put into it.&r "
+				"{ftbquests.chapter.the_color_green.quest10.description2}"
 				""
-				"You should also look into creating the &6Environmental Eye&r - a very useful device that shows you the level of aura in the nearby area."
+				"{ftbquests.chapter.the_color_green.quest10.description3}"
 			]
 			icon: "naturesaura:nature_altar"
 			id: "5274A282D9182B7C"
@@ -406,7 +406,7 @@
 							value: "minecraft:planks"
 						}
 					}
-					title: "Any Planks"
+					title: "{ftbquests.chapter.the_color_green.quest10.task_4749334638074014910.title}"
 					type: "item"
 				}
 				{
@@ -416,13 +416,13 @@
 					type: "item"
 				}
 			]
-			title: "Natural Altar"
+			title: "{ftbquests.chapter.the_color_green.quest10.title}"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
-			description: ["Infusing iron in the Natural Altar creates, funnily enough, &6Infused Iron Ingots.&r These have a wide variety of uses, but chief among them are some very nice tools and armor, with &6special abilities&r and the unique property of being &6repairable using Aura.&r"]
+			description: ["{ftbquests.chapter.the_color_green.quest11.description1}"]
 			id: "01C2598A1D9CF754"
 			rewards: [{
 				id: "18E87B858A66A8FD"
@@ -434,16 +434,16 @@
 				item: "naturesaura:infused_iron"
 				type: "item"
 			}]
-			title: "Infused Iron"
+			title: "{ftbquests.chapter.the_color_green.quest11.title}"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["61329AF67AD28062"]
 			description: [
-				"Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."
+				"{ftbquests.chapter.the_color_green.quest12.description1}"
 				""
-				"&7Tip: very small amounts of Create are needed to finish the pack, but you won't have to get too deep into it!"
+				"{ftbquests.chapter.the_color_green.quest12.description2}"
 			]
 			id: "153CB8257AEDA4ED"
 			rewards: [{
@@ -462,9 +462,9 @@
 		{
 			dependencies: ["5274A282D9182B7C"]
 			description: [
-				"The Natural Altar requires aura in the surrounding area to function. It won't ever take the aura to a negative level, but it will &4stop working completely if the aura is low enough,&r which means you'll need a way of replenishing it."
+				"{ftbquests.chapter.the_color_green.quest13.description1}"
 				""
-				"&6Ancient Saplings&r are the most basic way to do this; once grown, if the area's aura is low enough, the tree's leaves will &4slowly wither away,&r &6producing aura in the process.&r"
+				"{ftbquests.chapter.the_color_green.quest13.description2}"
 			]
 			id: "58C55BE2ECDC9FD5"
 			rewards: [{
@@ -477,7 +477,7 @@
 				item: "naturesaura:ancient_sapling"
 				type: "item"
 			}]
-			title: "Creating Aura"
+			title: "{ftbquests.chapter.the_color_green.quest13.title}"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -487,9 +487,9 @@
 				"58C55BE2ECDC9FD5"
 			]
 			description: [
-				"An excess of aura generates flowers - and this device can turn &6flowers into an excess of aura!&r Make sure you feed it a &6balanced diet of different flowers,&r though; too much of the same flower and it starts to give you &4diminishing returns.&r"
+				"{ftbquests.chapter.the_color_green.quest14.description1}"
 				""
-				"&7Tip: if the aura in an area is high enough, it'll charge aura caches! Crouch with a botanist tool (made from infused iron) to repair them with an aura cache in your inventory."
+				"{ftbquests.chapter.the_color_green.quest14.description2}"
 			]
 			icon: "naturesaura:flower_generator"
 			id: "6628083C19C5F8CB"
@@ -520,11 +520,11 @@
 				"6ED1017877CB7568"
 			]
 			description: [
-				"Mana's not very useful without ways to generate and move it! Starting out, your best source of mana is going to be the &6Endoflame.&r"
+				"{ftbquests.chapter.the_color_green.quest15.description1}"
 				""
-				"&7Tip: you can use the Wand of the Forest to bind the spreader to flowers and pools."
+				"{ftbquests.chapter.the_color_green.quest15.description2}"
 				""
-				"&7Tip 2: using a pressure plate but it's not working? Open your OPAC keybind (default [']) to turn off the Prot. Plates from Other setting!"
+				"{ftbquests.chapter.the_color_green.quest15.description3}"
 			]
 			icon: "botania:mana_spreader"
 			id: "2FD66F543443B8A8"
@@ -561,17 +561,17 @@
 					}
 					match_nbt: false
 					optional_task: true
-					title: "Wand of the Forest"
+					title: "{ftbquests.chapter.the_color_green.quest15.task_4041437535513982933.title}"
 					type: "item"
 				}
 			]
-			title: "Generating Mana"
+			title: "{ftbquests.chapter.the_color_green.quest15.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
-			description: ["Now that you have a more robust source of aura, you can put it to more use - a &6crumbling catalyst,&r when placed on top of one of the lower four golden blocks of a natural altar, can crush things much more finely than you can by hand. It can get you &6more bone meal per bone, more gold powder per leaf, and even turn cobblestone into sand!&r"]
+			description: ["{ftbquests.chapter.the_color_green.quest16.description1}"]
 			id: "5C1E3750F91A38B2"
 			rewards: [{
 				id: "72FD0BCB4D48D5E6"
@@ -589,13 +589,13 @@
 		{
 			dependencies: ["359392265BF91571"]
 			description: [
-				"There are a few items you can place on top of your altar to increase its capacity and recharge rate:"
+				"{ftbquests.chapter.the_color_green.quest17.description1}"
 				""
-				"&6Torch:&r +0.5x recharge rate"
-				"&6Skeleton Skull/Husk Head:&r +1x recharge rate, +1x capacity"
-				"&6Chalice:&r +1x capacity"
+				"{ftbquests.chapter.the_color_green.quest17.description2}"
+				"{ftbquests.chapter.the_color_green.quest17.description3}"
+				"{ftbquests.chapter.the_color_green.quest17.description4}"
 				""
-				"Eventually, you can replace the torch with a candelabra, the skeleton skull with a wither skeleton or player skull, and the chalice with a filled chalice for even more recharge rate and capacity."
+				"{ftbquests.chapter.the_color_green.quest17.description5}"
 			]
 			icon: "enchanted:chalice"
 			id: "3932D60DF66D4C83"
@@ -623,7 +623,7 @@
 							]
 						}
 					}
-					title: "Head Upgrade"
+					title: "{ftbquests.chapter.the_color_green.quest17.task_4639929492764668107.title}"
 					type: "item"
 				}
 				{
@@ -637,16 +637,16 @@
 					type: "item"
 				}
 			]
-			title: "Altar Upgrades"
+			title: "{ftbquests.chapter.the_color_green.quest17.title}"
 			x: -0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["359392265BF91571"]
 			description: [
-				"Attuned stones are a very important part of witchcraft - not only do they let you &6craft necessary workstations,&r they also give you the ability to perform certain rites &6without the need of an altar,&r once charged!"
+				"{ftbquests.chapter.the_color_green.quest18.description1}"
 				""
-				"&7Please note that this recipe needs altar power! Make sure your cauldron is within range of your altar!"
+				"{ftbquests.chapter.the_color_green.quest18.description2}"
 			]
 			id: "1145EF33C88C696B"
 			rewards: [{
@@ -665,9 +665,9 @@
 		{
 			dependencies: ["1145EF33C88C696B"]
 			description: [
-				"If the &6Altar&r is the backbone of witchcraft, the &6Distillery, Kettle,&r and &6Spinning Wheel &rare its phalanges. "
+				"{ftbquests.chapter.the_color_green.quest19.description1}"
 				""
-				"...strange metaphors aside, these blocks allow you to craft a wide variety of &6witchy goodies.&r They will need to be placed within range of an altar, if their recipes require power."
+				"{ftbquests.chapter.the_color_green.quest19.description2}"
 			]
 			icon: "enchanted:distillery"
 			id: "54838757425A9BA7"
@@ -701,16 +701,16 @@
 					type: "item"
 				}
 			]
-			title: "Tools of the Trade"
+			title: "{ftbquests.chapter.the_color_green.quest19.title}"
 			x: -1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
 			description: [
-				"An apparatus perfect for channelling large amounts of mana into collections of objects, the &6Runic Altar&r will (obviously) let you make runes."
+				"{ftbquests.chapter.the_color_green.quest20.description1}"
 				""
-				"&7Tip: with the altar, if you don't have them already, you can craft mystical flower seeds!"
+				"{ftbquests.chapter.the_color_green.quest20.description2}"
 			]
 			id: "5EA3E8FCE4EBBA82"
 			rewards: [
@@ -737,9 +737,9 @@
 		{
 			dependencies: ["6DC359D0F8736415"]
 			description: [
-				"Ember item and fluid pipes are relatively basic, but at this point in time they're fairly decent for small-scale operations. Pipes need extractors to pull items into them, and extractors need a redstone signal to be activated. There are a few other quirks to the system, all of which are explained in your &6Ancient Codex."
+				"{ftbquests.chapter.the_color_green.quest21.description1}"
 				""
-				"&7Note - basically everything in Embers needs a redstone signal to activate, so get ready to place plenty of levers!"
+				"{ftbquests.chapter.the_color_green.quest21.description2}"
 			]
 			icon: "embers:item_pipe"
 			id: "424D08C4CFE434EA"
@@ -770,20 +770,20 @@
 					type: "item"
 				}
 			]
-			title: "Dwarven Logistics"
+			title: "{ftbquests.chapter.the_color_green.quest21.title}"
 			x: 0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["6DC359D0F8736415"]
 			description: [
-				"Now that you have some Ember, you'll need to turn it into useable energy somehow."
+				"{ftbquests.chapter.the_color_green.quest22.description1}"
 				""
-				"The&6 Ember Activator&r turns solid Ember into &6Activated Ember;&r pipe crystals and shards into the bottom, and attach an &6Ember Emitter to the top&r to output &6Activated Ember.&r "
+				"{ftbquests.chapter.the_color_green.quest22.description2}"
 				""
-				"Use a Tinker's Hammer on the emitter to link it to a receptor, give it a redstone signal, and you're transmitting Activated Ember!"
+				"{ftbquests.chapter.the_color_green.quest22.description3}"
 				""
-				"&7Note that Ember Grit doesn't normally produce Activated Ember; you'll have to add a &6Heat Exchanger&7 to an activator to get energy out of it (which multiplies all ember production by 0.9x, but adds a flat +300 to all items production!)"
+				"{ftbquests.chapter.the_color_green.quest22.description4}"
 			]
 			icon: "embers:ember_activator"
 			id: "700009D450C569A2"
@@ -815,7 +815,7 @@
 					type: "item"
 				}
 			]
-			title: "Activating Ember"
+			title: "{ftbquests.chapter.the_color_green.quest22.title}"
 			x: 1.5d
 			y: -6.0d
 		}
@@ -825,11 +825,11 @@
 				"221E431A74C6E8A5"
 			]
 			description: [
-				"One of the main ways to channel altar power is through the practice of &6circle magic.&r Each ritual has a gold chalk glyph at its center, but the placement of other chalk glyphs changes depending on what kind of ritual you want to perform!"
+				"{ftbquests.chapter.the_color_green.quest23.description1}"
 				""
-				"Most rituals can target a remote area using a waystone (blooded or otherwise), and some rituals can even be performed away from the altar by adding a charged attuned stone to them!&6 Read through the two reward books to find out what rituals you can perform.&r"
+				"{ftbquests.chapter.the_color_green.quest23.description2}"
 				""
-				"&7Tip: the rite of fertility is a cheap, easy way to mass bonemeal grass, crops or anything else!"
+				"{ftbquests.chapter.the_color_green.quest23.description3}"
 			]
 			icon: {
 				Count: 1
@@ -914,16 +914,16 @@
 					type: "item"
 				}
 			]
-			title: "Circle Magic"
+			title: "{ftbquests.chapter.the_color_green.quest23.title}"
 			x: -1.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["700009D450C569A2"]
 			description: [
-				"You'll want to make a &6Copper Cell&r to &6store your activated ember&r - it works as a kind of 'battery' for the mystical energy."
+				"{ftbquests.chapter.the_color_green.quest24.description1}"
 				""
-				"To see how much ember is in the cell, place an &6Ember Dial&r on it."
+				"{ftbquests.chapter.the_color_green.quest24.description2}"
 			]
 			icon: {
 				Count: 1
@@ -973,18 +973,18 @@
 					type: "item"
 				}
 			]
-			title: "Storing Ember"
+			title: "{ftbquests.chapter.the_color_green.quest24.title}"
 			x: 2.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["700009D450C569A2"]
 			description: [
-				"Ember is capable of melting metals and other items in the creatively-named &6Melter&r - feed the bottom half ember, feed the top half items to melt, and you can extract molten metals from the top half."
+				"{ftbquests.chapter.the_color_green.quest25.description1}"
 				""
-				"This molten metal can be formed into a variety of shapes in a &6Stamper;&r place the &6Stamp Base,&r then the &6Stamper above it with a one-block gap&r of air. Give the Stamper ember and a stamp, pipe molten metal into the base, and presto! Stamped and cooled metal products! "
+				"{ftbquests.chapter.the_color_green.quest25.description2}"
 				""
-				"Notably, you can use this process to &6produce plates more efficiently.&r"
+				"{ftbquests.chapter.the_color_green.quest25.description3}"
 			]
 			icon: "embers:melter"
 			id: "74FB5A117EF51949"
@@ -1010,16 +1010,16 @@
 					type: "item"
 				}
 			]
-			title: "Melting and Stamping"
+			title: "{ftbquests.chapter.the_color_green.quest25.title}"
 			x: 1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["74FB5A117EF51949"]
 			description: [
-				"By piping molten copper and gold into &odifferent sides&r of the bottom of a &6Mixer Centrifuge,&r (along with some ember) you can combine them into a strong, ember-aligned metal called &6Dawnstone.&r Pipe it out of the top and stamp it into ingots or plates!"
+				"{ftbquests.chapter.the_color_green.quest26.description1}"
 				""
-				"&7Tip: use your Tinker's Lens to see what's going on in the mixer!"
+				"{ftbquests.chapter.the_color_green.quest26.description2}"
 			]
 			icon: "embers:dawnstone_ingot"
 			id: "221E431A74C6E8A5"
@@ -1040,13 +1040,13 @@
 					type: "item"
 				}
 			]
-			title: "Dawnstone"
+			title: "{ftbquests.chapter.the_color_green.quest26.title}"
 			x: 1.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["153CB8257AEDA4ED"]
-			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
+			description: ["{ftbquests.chapter.the_color_green.quest27.description1}"]
 			id: "17089FF12C1591B8"
 			rewards: [
 				{
@@ -1072,9 +1072,9 @@
 		{
 			dependencies: ["221E431A74C6E8A5"]
 			description: [
-				"For more advanced ember crafting, a special setup is required. An &6exchange tablet&r with some &6pedestals&r around it, when struck with a &6beam cannon pulse,&r will transmute the center item into a new result item."
+				"{ftbquests.chapter.the_color_green.quest28.description1}"
 				""
-				"There is one complication, though. The pedestals need &6aspectii&r to be placed on them, and you aren't sure which aspectii go with which items! The only way to find out is through experiementation - if the transmutation fails, it will produce &balchemical waste.&r When held and right clicked, the waste will reveal a number of &6glowing spots,&r which tell you the number of &6aspectus/item combinations you got right.&r"
+				"{ftbquests.chapter.the_color_green.quest28.description2}"
 			]
 			icon: "embers:alchemy_tablet"
 			id: "287C747ED1189725"
@@ -1101,7 +1101,7 @@
 					type: "item"
 				}
 			]
-			title: "Energetic Alchemy"
+			title: "{ftbquests.chapter.the_color_green.quest28.title}"
 			x: 3.0d
 			y: -9.5d
 		}
@@ -1109,11 +1109,11 @@
 			dependencies: ["5EA3E8FCE4EBBA82"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Using the power of mana and a pumpkin, you think you can create a &6Fel Pumpkin&r - a weak imitation of a blaze head. Pop this magically-charged head on top of two iron bars, and it'll turn into a passable facsimile of a blaze."
+				"{ftbquests.chapter.the_color_green.quest29.description1}"
 				""
-				"This imitation blaze always drops at least &610 blaze powder.&r This blaze powder can be spun into brilliant fiber, or distilled into more useful dusts!"
+				"{ftbquests.chapter.the_color_green.quest29.description2}"
 				""
-				"&7Tip: you can capture an imitation blaze in the Blaze Burner!"
+				"{ftbquests.chapter.the_color_green.quest29.description3}"
 			]
 			icon: "botania:fel_pumpkin"
 			id: "1AF1077B69E1551E"
@@ -1127,13 +1127,13 @@
 				item: "botania:fel_pumpkin"
 				type: "item"
 			}]
-			title: "Knockoff Blazes"
+			title: "{ftbquests.chapter.the_color_green.quest29.title}"
 			x: -4.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
-			description: ["There are a few other ways you can process materials using andesite-based machinery; namely, &6compacting, pressing, and mixing&r You'll need to find some way to capture a fire elemental if you want to expand your repertoire, though; &bmaybe mana can help you somehow?&r"]
+			description: ["{ftbquests.chapter.the_color_green.quest30.description1}"]
 			icon: "create:basin"
 			id: "2A32CE924C9CB606"
 			optional: true
@@ -1159,7 +1159,7 @@
 					type: "item"
 				}
 			]
-			title: "Mechanical Crafting"
+			title: "{ftbquests.chapter.the_color_green.quest30.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -1169,9 +1169,9 @@
 				"17089FF12C1591B8"
 			]
 			description: [
-				"By blowing air through certain things, you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
+				"{ftbquests.chapter.the_color_green.quest31.description1}"
 				""
-				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial component of the &6Reformation Array.&r"
+				"{ftbquests.chapter.the_color_green.quest31.description2}"
 			]
 			icon: "create:encased_fan"
 			id: "05820674B5CC639D"
@@ -1198,7 +1198,7 @@
 					type: "item"
 				}
 			]
-			title: "Moving Air"
+			title: "{ftbquests.chapter.the_color_green.quest31.title}"
 			x: 7.5d
 			y: -3.0d
 		}
@@ -1208,11 +1208,11 @@
 				"05820674B5CC639D"
 			]
 			description: [
-				"Alchemical reformation is the process of &6turning one alchemical sulfur into another&r - initially, you'll only be able to convert sulfurs of the &6same tier and type&r to each other &6(like iron sulfur into lead sulfur!) &r"
+				"{ftbquests.chapter.the_color_green.quest32.description1}"
 				""
-				"To set up the reformation array, place down the target, source, and result pedestals somewhat near each other. Hold the sulfuric flux emitter and right click each pedestal, then place it on the mercury catalyst. "
+				"{ftbquests.chapter.the_color_green.quest32.description2}"
 				""
-				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and the sulfur to convert in the source pedestal. Give it a moment, and you'll start converting the source sulfur into the target sulfur!"
+				"{ftbquests.chapter.the_color_green.quest32.description3}"
 			]
 			icon: "theurgy:reformation_result_pedestal"
 			id: "2F210E03731A0E21"
@@ -1256,13 +1256,13 @@
 					type: "item"
 				}
 			]
-			title: "Alchemical Reformation"
+			title: "{ftbquests.chapter.the_color_green.quest32.title}"
 			x: 5.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
-			description: ["A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power - &6it is much faster than the ember-fueled one!"]
+			description: ["{ftbquests.chapter.the_color_green.quest33.description1}"]
 			id: "2E0F026AB59D83B5"
 			optional: true
 			rewards: [{
@@ -1280,7 +1280,7 @@
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
-			description: ["The &6Rod of the Lands&r can corporealize a tiny portion of mana into a full dirt block!"]
+			description: ["{ftbquests.chapter.the_color_green.quest34.description1}"]
 			id: "23390B2CDE30D057"
 			rewards: [
 				{
@@ -1300,13 +1300,13 @@
 				item: "botania:dirt_rod"
 				type: "item"
 			}]
-			title: "(almost) Free Dirt"
+			title: "{ftbquests.chapter.the_color_green.quest34.title}"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
-			description: ["Carrying mana around with you enables you to use a plethora of bits and baubles. To transfer mana from a pool into the tablet, make sure the pool is on 'charge' mode by hovering over it with a wand of the forest."]
+			description: ["{ftbquests.chapter.the_color_green.quest35.description1}"]
 			id: "77FBE2FA730A82AE"
 			rewards: [{
 				id: "1FBCB30D6D1B7B94"
@@ -1318,13 +1318,13 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "Portable Mana"
+			title: "{ftbquests.chapter.the_color_green.quest35.title}"
 			x: -4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
-			description: ["Turn your mana tablet into a ring to store mana on-the-go &6without taking up an inventory slot!&r"]
+			description: ["{ftbquests.chapter.the_color_green.quest36.description1}"]
 			id: "7AC1E9B4710A8B84"
 			rewards: [{
 				id: "7E5580894EE5E74C"
@@ -1341,7 +1341,7 @@
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
-			description: ["By attaching a mana rune to a manasteel ring, you can (VERY slowly) pull ambient mana into a mana storage device on your person, &6for free!&r"]
+			description: ["{ftbquests.chapter.the_color_green.quest37.description1}"]
 			id: "0E2EAFDEA91C24BD"
 			rewards: [{
 				id: "5FEE92B8F930D27D"
@@ -1359,11 +1359,11 @@
 		{
 			dependencies: ["1AF1077B69E1551E"]
 			description: [
-				"Distilling blaze powder and gunpowder together in a Distillery will grant you access to &6glowstone!&r"
+				"{ftbquests.chapter.the_color_green.quest38.description1}"
 				""
-				"Getting &6redstone&r is similar, using cinder flour in place of gunpowder."
+				"{ftbquests.chapter.the_color_green.quest38.description2}"
 				""
-				"&7Tip: you can also make glowstone and redstone with strength and night vision potions - it's up to you whether you want to take the Enchanted or Create route for these!&r"
+				"{ftbquests.chapter.the_color_green.quest38.description3}"
 			]
 			id: "4DE7466CAC029EF6"
 			rewards: [{
@@ -1383,13 +1383,13 @@
 					type: "item"
 				}
 			]
-			title: "Useful Dusts"
+			title: "{ftbquests.chapter.the_color_green.quest38.title}"
 			x: -5.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2E0F026AB59D83B5"]
-			description: ["Once you have a pump, you can create a &6Spout&r to dispense liquid onto items - this is a possible way to make &6glowstone or redstone,&r if you're willing to set up the infrastructure."]
+			description: ["{ftbquests.chapter.the_color_green.quest39.description1}"]
 			id: "15AB65CE5C0B95CC"
 			optional: true
 			rewards: [{
@@ -1408,11 +1408,11 @@
 		{
 			dependencies: ["621BEE0A09882094"]
 			description: [
-				"The &6Alchemy Catalyst&r allows you to use the power of mana to transmute a wide variety of items. Place it under a mana pool to start alchemizing!"
+				"{ftbquests.chapter.the_color_green.quest40.description1}"
 				""
-				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and ghast tears into ender pearls!"
+				"{ftbquests.chapter.the_color_green.quest40.description2}"
 				""
-				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear.&r"
+				"{ftbquests.chapter.the_color_green.quest40.description3}"
 			]
 			id: "76795AD9B23ACFD7"
 			rewards: [{
@@ -1431,11 +1431,11 @@
 		{
 			dependencies: ["5C1E3750F91A38B2"]
 			description: [
-				"The &6transmutation catalyst&r modifies the natural altar to convert items into other items using Aura. Similar to the crumbling catalyst, it must be placed &6atop one of the four lower gold blocks of the altar.&r"
+				"{ftbquests.chapter.the_color_green.quest41.description1}"
 				""
-				"The most immediately useful transmutation is that of &6sand into soul sand,&r which will allow you to haunt things using the encased fan, as well as grow nether wart!"
+				"{ftbquests.chapter.the_color_green.quest41.description2}"
 				""
-				"You can also convert netherrack into crimson and warped nylium."
+				"{ftbquests.chapter.the_color_green.quest41.description3}"
 			]
 			id: "00448B9AC0FC3F5D"
 			rewards: [{
@@ -1453,7 +1453,7 @@
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
-			description: ["The &6Millstone&r can crush cobble into gravel, bones into bone meal, and a variety of plants into their respective dyes at a much higher rate of return."]
+			description: ["{ftbquests.chapter.the_color_green.quest42.description1}"]
 			id: "26942D2DF8C8AF91"
 			optional: true
 			rewards: [{
@@ -1471,7 +1471,7 @@
 		}
 		{
 			dependencies: ["54DFF798149BE746"]
-			description: ["The &6Codebreaking Slate&r is very handy - you can put multiple pieces of alchemical waste into it and it will show you how many aspectus/item combinations you got right! It will also show you how many correct aspectii you have placed with the wrong items."]
+			description: ["{ftbquests.chapter.the_color_green.quest43.description1}"]
 			id: "3E51B48398D0E334"
 			rewards: [{
 				id: "6845416B1226351B"
@@ -1488,7 +1488,7 @@
 		}
 		{
 			dependencies: ["287C747ED1189725"]
-			description: ["Your first &6archaic brick&r can be made by infusing a regular brick with tainted gold and infused iron. Once you have one, you can use it to make more by simply infusing it with &6more clay and soul sand.&r"]
+			description: ["{ftbquests.chapter.the_color_green.quest44.description1}"]
 			id: "54DFF798149BE746"
 			rewards: [{
 				id: "76A7D17327EB14A2"
@@ -1505,7 +1505,7 @@
 		}
 		{
 			dependencies: ["54DFF798149BE746"]
-			description: ["The &6Mnemonic Inscriber&r, when attached to an Exchange Tablet and given paper, will automatically write down the correct combination of aspectii for a given transmutation when you successfully complete one."]
+			description: ["{ftbquests.chapter.the_color_green.quest45.description1}"]
 			id: "2C3ABE081A7E1086"
 			rewards: [{
 				id: "12D49A84526CFAC2"
@@ -1526,11 +1526,11 @@
 				"54DFF798149BE746"
 			]
 			description: [
-				"You can convert between sulfurs of the same type and rarity using the reformation array, but if you want to convert between different types (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat.&r"
+				"{ftbquests.chapter.the_color_green.quest46.description1}"
 				""
-				"Place &6water, sugar, and the sulfur&r you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new Niter!"
+				"{ftbquests.chapter.the_color_green.quest46.description2}"
 				""
-				"Alchemical Niter can be converted in the &6Reformation Array&r similar to how you convert sulfur - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!&r"
+				"{ftbquests.chapter.the_color_green.quest46.description3}"
 			]
 			id: "50D60856E308EC6D"
 			min_width: 400
@@ -1544,20 +1544,20 @@
 				item: "theurgy:fermentation_vat"
 				type: "item"
 			}]
-			title: "Alchemical Conversion"
+			title: "{ftbquests.chapter.the_color_green.quest46.title}"
 			x: 6.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["50D60856E308EC6D"]
 			description: [
-				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some niter and sal ammoniac (and if you're converting up, some alchemically pure gold) into it, and shift-right-click the vat to start the process! &6Four of the previous tier converts into one of the next tier, and vice versa.&r"
+				"{ftbquests.chapter.the_color_green.quest47.description1}"
 				""
-				"This (in combination with the fermentation vat) allows you to convert iron sulfur into common metal niter, down into four abundant metal niter, into four copper sulfur - that's &6FOUR copper per iron!&r"
+				"{ftbquests.chapter.the_color_green.quest47.description2}"
 				""
-				"This is a metal loop you could try automating..."
+				"{ftbquests.chapter.the_color_green.quest47.description3}"
 				""
-				"&7Tip: you can start and stop the vats using a redstone signal!&r"
+				"{ftbquests.chapter.the_color_green.quest47.description4}"
 			]
 			id: "2368485BEB03F353"
 			rewards: [
@@ -1578,7 +1578,7 @@
 				item: "theurgy:digestion_vat"
 				type: "item"
 			}]
-			title: "Alchemical Exaltation"
+			title: "{ftbquests.chapter.the_color_green.quest47.title}"
 			x: 7.0d
 			y: -8.5d
 		}
@@ -1588,13 +1588,13 @@
 				"287C747ED1189725"
 			]
 			description: [
-				"The &6Offering Table&r is a special altar that will allow you to convert items into special empowered versions of themselves, most notably tokens and nature-infused ingots."
+				"{ftbquests.chapter.the_color_green.quest48.description1}"
 				""
-				"To use it, simply place whatever you want to infuse into it by right-clicking, then throw a &6Spirit of Calling&r onto the altar to activate it."
+				"{ftbquests.chapter.the_color_green.quest48.description2}"
 				""
-				"&7Tip: You can convert more than one item at a time, using only one spirit of calling!&r"
+				"{ftbquests.chapter.the_color_green.quest48.description3}"
 				""
-				"&7Tip 2: this is a multiblock! Check your Book of Natural Aura to see how to build it."
+				"{ftbquests.chapter.the_color_green.quest48.description4}"
 			]
 			icon: "naturesaura:offering_table"
 			id: "020B8F06D2C86CE3"
@@ -1620,7 +1620,7 @@
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
-			description: ["You can capture a summoned blaze into a magicked cage. This cage, when placed under a basin, will let you brew potions more efficiently than a brewing stand."]
+			description: ["{ftbquests.chapter.the_color_green.quest49.description1}"]
 			id: "27A7CD7E1613FD1B"
 			optional: true
 			rewards: [{
@@ -1638,7 +1638,7 @@
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
-			description: ["This is it. Using the power of the &6Offering Altar,&r and some magically significant materials, you can create the basis of real, sentient life - chicken eggs."]
+			description: ["{ftbquests.chapter.the_color_green.quest50.description1}"]
 			icon: "heads:chicken_head"
 			id: "1C7C9A1F11DE819B"
 			rewards: [{
@@ -1648,7 +1648,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Well, debatably"
+			subtitle: "{ftbquests.chapter.the_color_green.quest50.subtitle}"
 			tasks: [
 				{
 					id: "462012BB2A30BE57"
@@ -1676,20 +1676,20 @@
 					type: "item"
 				}
 			]
-			title: "Sentient Life"
+			title: "{ftbquests.chapter.the_color_green.quest50.title}"
 			x: 0.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
 			description: [
-				"With runes, there are a few other options you have for generating mana:"
+				"{ftbquests.chapter.the_color_green.quest51.description1}"
 				""
-				"* A &6Thermalily&r generates bursts of mana using lava, but will consume lava for no gain if you give it lava too often"
-				"* An &6Entropinnyum&r consumes TNT explosions (and is one of the best generating flowers in the game), but too often and it'll just blow itself up"
-				"* A &6Munchdew&r consumes leaves, but does not drop saplings."
+				"{ftbquests.chapter.the_color_green.quest51.description2}"
+				"{ftbquests.chapter.the_color_green.quest51.description3}"
+				"{ftbquests.chapter.the_color_green.quest51.description4}"
 				""
-				"&7Tip: some flowers will generate too much mana for a basic spreader! You can use potency and velocity lenses to stretch this, but eventually, you'll need better spreaders...&r"
+				"{ftbquests.chapter.the_color_green.quest51.description5}"
 			]
 			id: "6FAB85F509199CA8"
 			optional: true
@@ -1715,16 +1715,16 @@
 					type: "item"
 				}
 			]
-			title: "Alternative Mana Sources"
+			title: "{ftbquests.chapter.the_color_green.quest51.title}"
 			x: -5.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2F210E03731A0E21"]
 			description: [
-				"Now that you can turn sulfurs into other sulfurs, you can manually reconstitute &6silver sulfur&r and use the &6Reformation Array&r to turn gold sulfur into silver sulfur without having to re-make the sulfur over and over again!"
+				"{ftbquests.chapter.the_color_green.quest52.description1}"
 				""
-				"&7Tip: sulfur sulfur sulfur sulfur&r"
+				"{ftbquests.chapter.the_color_green.quest52.description2}"
 			]
 			icon: "embers:silver_ingot"
 			id: "462683FE563F6689"
@@ -1759,13 +1759,13 @@
 					type: "item"
 				}
 			]
-			title: "Moon Metal"
+			title: "{ftbquests.chapter.the_color_green.quest52.title}"
 			x: 6.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["287C747ED1189725"]
-			description: ["The &6Wildfire Core&r is a key piece of some advanced dwarven machinery."]
+			description: ["{ftbquests.chapter.the_color_green.quest53.description1}"]
 			id: "4BF72A5E2897EBD4"
 			rewards: [{
 				id: "42A3BC187AAABFE3"
@@ -1783,9 +1783,9 @@
 		{
 			dependencies: ["4BF72A5E2897EBD4"]
 			description: [
-				"The &6Wildfire Stirling,&r when attached to machines and supplied with steam, increases the efficiency of their ember usage."
+				"{ftbquests.chapter.the_color_green.quest54.description1}"
 				""
-				"The first one cuts usage in half, the second one halves it again, and any more decrease the efficiency."
+				"{ftbquests.chapter.the_color_green.quest54.description2}"
 			]
 			id: "7EF13F67C5B31A7E"
 			rewards: [{
@@ -1804,9 +1804,9 @@
 		{
 			dependencies: ["4BF72A5E2897EBD4"]
 			description: [
-				"The &6Ignem Reactor&r is the ultimate solution to high ember requirements - when placed between a &6Catalysis&r and &6Combustion Chamber,&r it refines ember at a MUCH higher rate than the Ember Activator; up to &69x more ember&r per crystal item."
+				"{ftbquests.chapter.the_color_green.quest55.description1}"
 				""
-				"&7Tip: the Catalysis and Combustion Chambers need fuel to operate, check JEI for their fuels and multipliers."
+				"{ftbquests.chapter.the_color_green.quest55.description2}"
 			]
 			icon: "embers:ignem_reactor"
 			id: "6A69962F4001509A"
@@ -1832,18 +1832,18 @@
 					type: "item"
 				}
 			]
-			title: "Ignem Reactor"
+			title: "{ftbquests.chapter.the_color_green.quest55.title}"
 			x: 5.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["4BF72A5E2897EBD4"]
 			description: [
-				"With the power of alchemy, you can turn a charged attuned stone into a seed capable of turning ember into pure metal! These crystal seeds, when powered with an &6Ember Injector,&r will slowly grow and drop metal nuggets."
+				"{ftbquests.chapter.the_color_green.quest56.description1}"
 				""
-				"Not every metal can be turned into these seeds, but you have figured out that you can actually &6obtain Zinc&r through this alchemical process!"
+				"{ftbquests.chapter.the_color_green.quest56.description2}"
 				""
-				"&7Tip: crystals will slowly level up and drop more and more metal. Moving them resets their level, though!"
+				"{ftbquests.chapter.the_color_green.quest56.description3}"
 			]
 			icon: "embers:zinc_crystal_seed"
 			id: "22735AE4F84EF82B"
@@ -1853,7 +1853,7 @@
 				xp: 100
 			}]
 			size: 1.5d
-			subtitle: "Zinc! (and others)"
+			subtitle: "{ftbquests.chapter.the_color_green.quest56.subtitle}"
 			tasks: [
 				{
 					id: "05BF876AB4CF0EBA"
@@ -1881,7 +1881,7 @@
 							]
 						}
 					}
-					title: "Any Metal Crystal Seed"
+					title: "{ftbquests.chapter.the_color_green.quest56.task_414198583111126714.title}"
 					type: "item"
 				}
 				{
@@ -1890,13 +1890,13 @@
 					type: "item"
 				}
 			]
-			title: "Metal Crystal Seeds"
+			title: "{ftbquests.chapter.the_color_green.quest56.title}"
 			x: 5.5d
 			y: -12.5d
 		}
 		{
 			dependencies: ["221E431A74C6E8A5"]
-			description: ["With Dawnstone, you can craft ember transferral devices that can handle much more throughput."]
+			description: ["{ftbquests.chapter.the_color_green.quest57.description1}"]
 			icon: "embers:ember_ejector"
 			id: "3FD3CD01761AE92A"
 			rewards: [{
@@ -1916,18 +1916,18 @@
 					type: "item"
 				}
 			]
-			title: "High Volume Ember Transfer"
+			title: "{ftbquests.chapter.the_color_green.quest57.title}"
 			x: 0.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["22735AE4F84EF82B"]
 			description: [
-				"Now that you have zinc, you can alloy it with copper to create brass! This is useful almost exclusively for &6mechanical contraptions.&r"
+				"{ftbquests.chapter.the_color_green.quest58.description1}"
 				""
-				"&6Electron Tubes&r are also an important step to making more complicated contraptions. "
+				"{ftbquests.chapter.the_color_green.quest58.description2}"
 				""
-				"&6Rose Quartz&r can be made in a heated basin, combining glowstone and redstone in a sal ammoniac bath."
+				"{ftbquests.chapter.the_color_green.quest58.description3}"
 			]
 			icon: "create:electron_tube"
 			id: "20EF463DB77E09EE"
@@ -1949,16 +1949,16 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Contraptions"
+			title: "{ftbquests.chapter.the_color_green.quest58.title}"
 			x: 7.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
 			description: [
-				"Packages and their associated transport items open up a huge amount of logistical freedom."
+				"{ftbquests.chapter.the_color_green.quest59.description1}"
 				""
-				"&7Tip: for more information, hover these items and hold W to ponder!"
+				"{ftbquests.chapter.the_color_green.quest59.description2}"
 			]
 			icon: "create:packager"
 			id: "7027BF39C1223997"
@@ -1985,13 +1985,13 @@
 					type: "item"
 				}
 			]
-			title: "Mechanical Logistics"
+			title: "{ftbquests.chapter.the_color_green.quest59.title}"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["20EF463DB77E09EE"]
-			description: ["With access to brass and electron tubes, you can make a Mechanical Crafter. These, in combination with &6factory gauges&r and &6package logistics,&r allow you to set up automatic stocking and crafting of items!"]
+			description: ["{ftbquests.chapter.the_color_green.quest60.description1}"]
 			icon: "create:factory_gauge"
 			id: "0230C7C57435FB3A"
 			optional: true
@@ -2012,16 +2012,16 @@
 					type: "item"
 				}
 			]
-			title: "Autocrafting"
+			title: "{ftbquests.chapter.the_color_green.quest60.title}"
 			x: 9.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["01C2598A1D9CF754"]
 			description: [
-				"You can fortify infused iron with prosperity shards to create a basic &6prosperity ingot,&r ready to augment with agricultural essence."
+				"{ftbquests.chapter.the_color_green.quest61.description1}"
 				""
-				"One of the best uses of this ingot is to make a better watering can."
+				"{ftbquests.chapter.the_color_green.quest61.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2056,16 +2056,16 @@
 					type: "item"
 				}
 			]
-			title: "Better Watering"
+			title: "{ftbquests.chapter.the_color_green.quest61.title}"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
 			description: [
-				"With empowered tokens, you can craft the &6Creational Catalyst&r - this removes the innate limit on most aura producing blocks, and lets you overcharge the local area with Aura."
+				"{ftbquests.chapter.the_color_green.quest62.description1}"
 				""
-				"&7Tip: aureareaurearuea"
+				"{ftbquests.chapter.the_color_green.quest62.description2}"
 			]
 			id: "6C627897FFF1D259"
 			rewards: [{
@@ -2084,9 +2084,9 @@
 		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
-				"You've felt a strange tingling on your skin ever since you woke up - you think this might be a manifestation of &6Aura,&r a natural phenomenon that you might be able to further harness."
+				"{ftbquests.chapter.the_color_green.quest63.description1}"
 				""
-				"To get started, craft a &6Bottle and Cork&r and &6right click the air&r to gather some Aura for further study."
+				"{ftbquests.chapter.the_color_green.quest63.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2133,13 +2133,13 @@
 					type: "item"
 				}
 			]
-			title: "Bottling Sunlight"
+			title: "{ftbquests.chapter.the_color_green.quest63.title}"
 			x: 1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
-			description: ["The &6Mana Blaster&r is a portable mana spreader that you can fire at will, using mana from a storage device on your person. You can also attach lenses to it, to use their special properties!"]
+			description: ["{ftbquests.chapter.the_color_green.quest64.description1}"]
 			id: "121D0AE32E2F7267"
 			rewards: [{
 				id: "3B7AD6C882A25FC6"
@@ -2161,9 +2161,9 @@
 		{
 			dependencies: ["2FD66F543443B8A8"]
 			description: [
-				"&6Mana Lenses&r can change the properties of a mana burst fired from a spreader. They can increase the color, potency, speed, and even make the burst go &6through blocks&r or &6break them&r altogether! Read your &6Lexica Botania&r for more details."
+				"{ftbquests.chapter.the_color_green.quest65.description1}"
 				""
-				"&7Tip: the weight lens makes blocks a mana burst hits fall - you can exploit this property to get blocks that normally need silk touch by having them fall onto something like a torch!"
+				"{ftbquests.chapter.the_color_green.quest65.description2}"
 			]
 			id: "4D4FA4ECA2544486"
 			rewards: [{
@@ -2182,9 +2182,9 @@
 		{
 			dependencies: ["700009D450C569A2"]
 			description: [
-				"Now that you have&6 Ember&r, what can you do with it?"
+				"{ftbquests.chapter.the_color_green.quest66.description1}"
 				""
-				"One useful item is the &6Hearth Coil&r - when provided with Ember, it can be used as a VERY fast furnace."
+				"{ftbquests.chapter.the_color_green.quest66.description2}"
 			]
 			id: "350B8B018EB49351"
 			rewards: [{
@@ -2203,11 +2203,11 @@
 		{
 			dependencies: ["221E431A74C6E8A5"]
 			description: [
-				"With &6Dawnstone&r comes a better way of activating ember - the &6Pressure Refinery.&r"
+				"{ftbquests.chapter.the_color_green.quest67.description1}"
 				""
-				"It &4requires water&r as well, but can boost your ember production up to &61.5x the value&r of a plain activator."
+				"{ftbquests.chapter.the_color_green.quest67.description2}"
 				""
-				"Additionally, if placed atop a metal block surrounded by lava or fire it can double that, getting up to &63x the value&r of crystalline ember! "
+				"{ftbquests.chapter.the_color_green.quest67.description3}"
 			]
 			id: "04B41651D48C62C1"
 			rewards: [{
@@ -2226,9 +2226,9 @@
 		{
 			dependencies: ["3FD3CD01761AE92A"]
 			description: [
-				"The &6Beam Splitter&r allows you to, well, split beams. Ember sent into it will be divided into two bursts sent out from either end."
+				"{ftbquests.chapter.the_color_green.quest68.description1}"
 				""
-				"The &6Crystal Cell&r is a much higher capacity way to store Ember - piping more crystalline ember into it will &6increase its storage limit.&r"
+				"{ftbquests.chapter.the_color_green.quest68.description2}"
 			]
 			icon: "embers:beam_splitter"
 			id: "460C4A5F742B528C"
@@ -2249,18 +2249,18 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Ember Logistics"
+			title: "{ftbquests.chapter.the_color_green.quest68.title}"
 			x: -0.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["221E431A74C6E8A5"]
 			description: [
-				"With the acquisition of Dawnstone, you can make a special chamber to manipulate elemental mercury into a source of energy. "
+				"{ftbquests.chapter.the_color_green.quest69.description1}"
 				""
-				"The &6Mercury Catalyst&r can convert mercury into Mercury Flux (MF) which, in combination with a &6Caloric Flux Emitter&r, can be used to power alchemical devices that would normally need a pyromantic brazier underneath them!"
+				"{ftbquests.chapter.the_color_green.quest69.description2}"
 				""
-				"&7Tip: one mercury shard produces as much energy as one piece of charcoal!"
+				"{ftbquests.chapter.the_color_green.quest69.description3}"
 			]
 			icon: "theurgy:caloric_flux_emitter"
 			id: "3BFD85713462A66A"
@@ -2281,16 +2281,16 @@
 					type: "item"
 				}
 			]
-			title: "Mercurial Power"
+			title: "{ftbquests.chapter.the_color_green.quest69.title}"
 			x: 0.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
 			description: [
-				"With high enough aura in an area, &6dried earth will slowly convert to dirt!&r"
+				"{ftbquests.chapter.the_color_green.quest70.description1}"
 				""
-				"If you want to stop this effect from happening, &6Powder of Dried Stasis&r will prevent the conversion of dried earth to dirt in the area it's placed in."
+				"{ftbquests.chapter.the_color_green.quest70.description2}"
 			]
 			icon: "minecraft:dirt"
 			id: "316BD23FB6087C07"
@@ -2301,7 +2301,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "pseudo-terraforming"
+			subtitle: "{ftbquests.chapter.the_color_green.quest70.subtitle}"
 			tasks: [{
 				id: "75E38FC6727823EF"
 				item: {
@@ -2313,16 +2313,16 @@
 				}
 				type: "item"
 			}]
-			title: "Regrowth?"
+			title: "{ftbquests.chapter.the_color_green.quest70.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["74FB5A117EF51949"]
 			description: [
-				"The &6Bin&r is a fantastic block that automatically collects the outputs of various dwarven machinery."
+				"{ftbquests.chapter.the_color_green.quest71.description1}"
 				""
-				"Simply attach it to the &6bottom&r of a machine (like, say, the stamper base) and it'll fill up with products."
+				"{ftbquests.chapter.the_color_green.quest71.description2}"
 			]
 			id: "0F8BAA82A7B90C68"
 			optional: true
@@ -2345,11 +2345,11 @@
 				"1AF1077B69E1551E"
 			]
 			description: [
-				"With an imitation blaze head and a couple of real magical reagents, you can &6summon a real blaze!&r"
+				"{ftbquests.chapter.the_color_green.quest72.description1}"
 				""
-				"This summoned blaze always drops at least 3 blaze rods. "
+				"{ftbquests.chapter.the_color_green.quest72.description2}"
 				""
-				"&7Tip: the ritual to summon the blaze is described in the Reclamation Rituals book.&r"
+				"{ftbquests.chapter.the_color_green.quest72.description3}"
 			]
 			id: "621BEE0A09882094"
 			rewards: [
@@ -2370,10 +2370,10 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			title: "Real Blazes"
+			title: "{ftbquests.chapter.the_color_green.quest72.title}"
 			x: -4.0d
 			y: -8.0d
 		}
 	]
-	title: "Touching Grass"
+	title: "{ftbquests.chapter.the_color_green.title}"
 }

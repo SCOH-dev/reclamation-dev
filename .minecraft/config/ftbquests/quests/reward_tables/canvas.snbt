@@ -8,5 +8,5 @@
 		{ item: "xercapaint:item_canvas_tall" }
 		{ item: "xercapaint:item_canvas_large" }
 	]
-	title: "canvas"
+	title: "{ftbquests.loot_table_6347601422327785898.title}"
 }

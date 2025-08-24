@@ -12,7 +12,7 @@
 	quests: [
 		{
 			dependencies: ["647B651959E0F0D0"]
-			description: ["The &6Ender Dragon&r not only has horrific halitosis, it also prevents you from exploring the rest of the End and all its goodies."]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest1.description1}"]
 			hide_until_deps_complete: false
 			id: "46100B5AD6C088F1"
 			rewards: [{
@@ -24,7 +24,7 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "383C97269B1429F5"
-				title: "Kill the Dragon"
+				title: "{ftbquests.chapter.the_taste_of_power.quest1.task_4052279956792945141.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -45,27 +45,27 @@
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_portal_frame"
 				id: "6DB59B5506EB9396"
-				title: "Visit the End"
+				title: "{ftbquests.chapter.the_taste_of_power.quest2.task_7905395510409401238.title}"
 				type: "dimension"
 			}]
-			title: "Visit the End"
+			title: "{ftbquests.chapter.the_taste_of_power.quest2.title}"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["46100B5AD6C088F1"]
 			description: [
-				"Congrats! You've killed the Ender Dragon - there is no more left to conquer."
+				"{ftbquests.chapter.the_taste_of_power.quest3.description1}"
 				""
-				"You are a champion. "
+				"{ftbquests.chapter.the_taste_of_power.quest3.description2}"
 				""
-				"You have &lReclaimed&r the world."
+				"{ftbquests.chapter.the_taste_of_power.quest3.description3}"
 				""
-				"&7As far as anyone can really be concerned, you've finished the modpack. Any quests past this are exclusively for bragging rights - creative items, op stuff, lame resource dump recipes, all that jazz."
+				"{ftbquests.chapter.the_taste_of_power.quest3.description4}"
 				""
-				"&7Thank you immensely for putting the time and effort into finishing the pack! This was a huge undertaking for me, but hopefully you enjoyed it enough that it was worth it :)"
+				"{ftbquests.chapter.the_taste_of_power.quest3.description5}"
 				""
-				"&7                                                    -ACCBDD"
+				"{ftbquests.chapter.the_taste_of_power.quest3.description6}"
 			]
 			hide_until_deps_complete: false
 			icon: "minecraft:cake"
@@ -77,10 +77,10 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Roll credits (for real)"
+			subtitle: "{ftbquests.chapter.the_taste_of_power.quest3.subtitle}"
 			tasks: [{
 				id: "237B504DA0EDA4AA"
-				title: "Congratulations!"
+				title: "{ftbquests.chapter.the_taste_of_power.quest3.task_2556725507805521066.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -89,9 +89,9 @@
 		{
 			dependencies: ["68FE5D02293FE722"]
 			description: [
-				"An infinitely super-heated blaze is great just as a centerpiece, but you can also use it to make infinite lava."
+				"{ftbquests.chapter.the_taste_of_power.quest4.description1}"
 				""
-				"&7Tip: you're gonna need to make quite a few of these!"
+				"{ftbquests.chapter.the_taste_of_power.quest4.description2}"
 			]
 			id: "5A44963D2D2AE45D"
 			optional: true
@@ -110,7 +110,7 @@
 		}
 		{
 			dependencies: ["5A44963D2D2AE45D"]
-			description: ["What's better than infinite blaze burning? Infinite turning! "]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest5.description1}"]
 			id: "47BF6E234A394435"
 			optional: true
 			rewards: [{
@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["5A44963D2D2AE45D"]
-			description: ["The dwarven version of a Philosopher's Stone."]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest6.description1}"]
 			id: "51A5AE293CD495CC"
 			optional: true
 			rewards: [{
@@ -147,9 +147,9 @@
 		{
 			dependencies: ["458449ABB13C4819"]
 			description: [
-				"Somehow, you don't feel as guilty as you think you should."
+				"{ftbquests.chapter.the_taste_of_power.quest7.description1}"
 				""
-				"&7Tip: this takes 10 full mana pools worth of mana. :)"
+				"{ftbquests.chapter.the_taste_of_power.quest7.description2}"
 			]
 			id: "3EAC3A05ADA08B6A"
 			optional: true
@@ -168,7 +168,7 @@
 		}
 		{
 			dependencies: ["47BF6E234A394435"]
-			description: ["No more will you be shackled to the tyranny of building an enormous pool of whatever fluid!"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest8.description1}"]
 			id: "58ED9A2ABEA74156"
 			optional: true
 			rewards: [{
@@ -186,7 +186,7 @@
 		}
 		{
 			dependencies: ["58ED9A2ABEA74156"]
-			description: ["Once you've set it to a chemical, you can reset it to empty by crafting it."]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest9.description1}"]
 			id: "3CE6A23B1386A2C6"
 			optional: true
 			rewards: [{
@@ -199,16 +199,16 @@
 				item: "mekanism:creative_chemical_tank"
 				type: "item"
 			}]
-			title: "Creative Chemical Tank"
+			title: "{ftbquests.chapter.the_taste_of_power.quest9.title}"
 			x: 3.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["51A5AE293CD495CC"]
 			description: [
-				"Kinda like an unlimited supply of grape juice!"
+				"{ftbquests.chapter.the_taste_of_power.quest10.description1}"
 				""
-				"&7A/N: pretend it needs 100k instead of 10k source... i'm too lazy to make a custom source jar like ATM does"
+				"{ftbquests.chapter.the_taste_of_power.quest10.description2}"
 			]
 			id: "458449ABB13C4819"
 			optional: true
@@ -234,7 +234,7 @@
 				"458449ABB13C4819"
 				"3CE6A23B1386A2C6"
 			]
-			description: ["All that effort, and all you got was a really big hole."]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest11.description1}"]
 			id: "465112A258F6627B"
 			optional: true
 			rewards: [{
@@ -256,7 +256,7 @@
 				"46A192114ACE3ACB"
 				"5DF485C9EA5A7C39"
 			]
-			description: ["This is way better than a really big hole!"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest12.description1}"]
 			id: "2121E0348BB9CF6D"
 			optional: true
 			rewards: [{
@@ -275,11 +275,11 @@
 		{
 			dependencies: ["2121E0348BB9CF6D"]
 			description: [
-				"And now the way better hole is a digital rip in the fabric of the universe."
+				"{ftbquests.chapter.the_taste_of_power.quest13.description1}"
 				""
-				"Or maybe its a real rip in the fabric of the digital universe?"
+				"{ftbquests.chapter.the_taste_of_power.quest13.description2}"
 				""
-				"Either way, you're done. You have access to every item digitally, with the help of a cell workbench. Good job! Have some cake :)"
+				"{ftbquests.chapter.the_taste_of_power.quest13.description3}"
 			]
 			id: "4521C73DA74806FA"
 			optional: true
@@ -298,7 +298,7 @@
 		}
 		{
 			dependencies: ["3EAC3A05ADA08B6A"]
-			description: ["It's not really infinite ME power as much as it is infinite ME efficiency."]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest14.description1}"]
 			id: "5DF485C9EA5A7C39"
 			optional: true
 			rewards: [{
@@ -316,7 +316,7 @@
 		}
 		{
 			dependencies: ["3CE6A23B1386A2C6"]
-			description: ["Sufficiently advanced technology is indistinguishable from magic."]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest15.description1}"]
 			id: "46A192114ACE3ACB"
 			optional: true
 			rewards: [{
@@ -351,10 +351,10 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "Creative Energy Cube"
+			title: "{ftbquests.chapter.the_taste_of_power.quest15.title}"
 			x: 3.0d
 			y: -15.0d
 		}
 	]
-	title: "The Taste of Power"
+	title: "{ftbquests.chapter.the_taste_of_power.title}"
 }

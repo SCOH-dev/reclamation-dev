@@ -63,7 +63,7 @@
 				"6BE467B7626E5085"
 				"1B02944C57BF74FB"
 			]
-			description: ["Lining rivers and shores, sugar cane had once risen in green columns, swaying with each passing breeze."]
+			description: ["{ftbquests.chapter.ffood_plants.quest1.description1}"]
 			id: "32195AB6E6F75FF1"
 			rewards: [{
 				id: "4B3BFBEE92C3AC8F"
@@ -84,7 +84,7 @@
 				"1B02944C57BF74FB"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Bright orange roots that grew deep in the earth, carrots were a favorite among rabbits and a healthy snack, to boot!"]
+			description: ["{ftbquests.chapter.ffood_plants.quest2.description1}"]
 			id: "36EF6C1E1C861A4A"
 			rewards: [{
 				id: "5047F6164CCF2F60"
@@ -104,7 +104,7 @@
 				"63353784E3C39D83"
 				"1281E40889F822FE"
 			]
-			description: ["Crimson bulbs that added color and flavor to any dish, beetroots were once quite common in village gardens."]
+			description: ["{ftbquests.chapter.ffood_plants.quest3.description1}"]
 			id: "08415BCE11C57437"
 			rewards: [{
 				id: "4AF453F9ACBFD15A"
@@ -124,7 +124,7 @@
 				"33BAEE563814DCDB"
 				"1281E40889F822FE"
 			]
-			description: ["Earthy and humble, potatoes were versatile tubers that thrived in the cool soil of many places."]
+			description: ["{ftbquests.chapter.ffood_plants.quest4.description1}"]
 			id: "303D96CD71A877FA"
 			rewards: [{
 				id: "4ABA8893BECF54EC"
@@ -144,7 +144,7 @@
 				"303D96CD71A877FA"
 				"36EF6C1E1C861A4A"
 			]
-			description: ["Orange orbs that sprouted in the autumn, pumpkins were both a festive decoration and a hearty food source."]
+			description: ["{ftbquests.chapter.ffood_plants.quest5.description1}"]
 			id: "269466269FFFC1BC"
 			rewards: [{
 				id: "399C0EA065270B90"
@@ -164,7 +164,7 @@
 				"32195AB6E6F75FF1"
 				"36EF6C1E1C861A4A"
 			]
-			description: ["Large, round fruits with a green rind and sweet, juicy flesh; melons grew best in warm, sunny fields."]
+			description: ["{ftbquests.chapter.ffood_plants.quest6.description1}"]
 			id: "1AD960F38D986F1A"
 			rewards: [{
 				id: "55173762F418E546"
@@ -184,7 +184,7 @@
 				"1AD960F38D986F1A"
 				"08415BCE11C57437"
 			]
-			description: ["Prickly bushes bore these bright berries, beloved for their sweet bite and quick comfort."]
+			description: ["{ftbquests.chapter.ffood_plants.quest7.description1}"]
 			id: "1DA6A370C87C0775"
 			rewards: [{
 				id: "6CF2B95F597FBE75"
@@ -201,7 +201,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Wheat once rippled like golden seas, feeding countless lives. Fields of it marked the heart of many homesteads."]
+			description: ["{ftbquests.chapter.ffood_plants.quest8.description1}"]
 			hide_until_deps_complete: true
 			id: "33BAEE563814DCDB"
 			rewards: [{
@@ -220,9 +220,9 @@
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: [
-				"This gnarled, shrieking root was feared as much as it was valued."
+				"{ftbquests.chapter.ffood_plants.quest9.description1}"
 				""
-				"&7Tip: you might want to only harvest these at night!"
+				"{ftbquests.chapter.ffood_plants.quest9.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "63353784E3C39D83"
@@ -241,7 +241,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["With deep golden petals and a bitter scent, wolfsbane once grew where night lingered longest. "]
+			description: ["{ftbquests.chapter.ffood_plants.quest10.description1}"]
 			hide_until_deps_complete: true
 			id: "1281E40889F822FE"
 			rewards: [{
@@ -259,7 +259,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Snowbells had once blossomed in the coldest reaches, their pale blue petals dusted with frost."]
+			description: ["{ftbquests.chapter.ffood_plants.quest11.description1}"]
 			hide_until_deps_complete: true
 			id: "1B02944C57BF74FB"
 			rewards: [{
@@ -277,7 +277,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Prized by herbalists for its strange resilience, who claimed it drew strength from the moonlit depths."]
+			description: ["{ftbquests.chapter.ffood_plants.quest12.description1}"]
 			hide_until_deps_complete: true
 			id: "6BE467B7626E5085"
 			rewards: [{
@@ -298,7 +298,7 @@
 				"63353784E3C39D83"
 				"303D96CD71A877FA"
 			]
-			description: ["This earth-toned fungus once thrived in quiet, dark corners, feeding on decay."]
+			description: ["{ftbquests.chapter.ffood_plants.quest13.description1}"]
 			id: "15CFF693EFE382C7"
 			rewards: [{
 				id: "22E400BAA0C2911F"
@@ -318,7 +318,7 @@
 				"63353784E3C39D83"
 				"36EF6C1E1C861A4A"
 			]
-			description: ["With its crimson cap and pale stem, the red mushroom once sprouted in damp caves and shadowed groves."]
+			description: ["{ftbquests.chapter.ffood_plants.quest14.description1}"]
 			id: "3F94D588E94A0F3C"
 			rewards: [{
 				id: "73902B3EEE2AB35E"
@@ -338,7 +338,7 @@
 				"6BE467B7626E5085"
 				"32195AB6E6F75FF1"
 			]
-			description: ["Bamboo once climbed toward the sky in great bamboo forests, hollow stems whispering in the wind."]
+			description: ["{ftbquests.chapter.ffood_plants.quest15.description1}"]
 			id: "1CE48B2F73EDB8FC"
 			rewards: [{
 				id: "3D4AC543E590FCC2"
@@ -358,7 +358,7 @@
 				"6BE467B7626E5085"
 				"1CE48B2F73EDB8FC"
 			]
-			description: ["Sailors swore it marked safe waters—while some claimed it hid the bones of the drowned."]
+			description: ["{ftbquests.chapter.ffood_plants.quest16.description1}"]
 			id: "3E746C60CE874EC2"
 			rewards: [{
 				id: "70CFF79AEF57E449"
@@ -378,7 +378,7 @@
 				"33BAEE563814DCDB"
 				"1CE48B2F73EDB8FC"
 			]
-			description: ["This gentle underwater plant once rippled with the ocean’s breath, carpeting the sea floor in quiet green."]
+			description: ["{ftbquests.chapter.ffood_plants.quest17.description1}"]
 			id: "52641FDAD803360E"
 			rewards: [{
 				id: "252B1EF4C6F3B937"
@@ -398,7 +398,7 @@
 				"3E746C60CE874EC2"
 				"52641FDAD803360E"
 			]
-			description: ["Their soft light once guided creatures of the reef and lit the way for wayward divers in the twilight deep."]
+			description: ["{ftbquests.chapter.ffood_plants.quest18.description1}"]
 			id: "5867D599B1DA6E6F"
 			rewards: [{
 				id: "79D82037AAC758D4"
@@ -418,7 +418,7 @@
 				"3F94D588E94A0F3C"
 				"15CFF693EFE382C7"
 			]
-			description: ["This strange, red fungus had grown only in the deep, burning halls of another world. It pulsed faintly with unnatural life."]
+			description: ["{ftbquests.chapter.ffood_plants.quest19.description1}"]
 			id: "3EDF39CD6F94943F"
 			rewards: [{
 				id: "24D006E8A4FF8B5B"
@@ -438,7 +438,7 @@
 				"3EDF39CD6F94943F"
 				"15CFF693EFE382C7"
 			]
-			description: ["Once said to carry the scent of a world turned upside down—where even the air recoiled in confusion."]
+			description: ["{ftbquests.chapter.ffood_plants.quest20.description1}"]
 			id: "54401A0090BF5109"
 			rewards: [{
 				id: "575E76D1DCA1E202"
@@ -458,7 +458,7 @@
 				"3EDF39CD6F94943F"
 				"3F94D588E94A0F3C"
 			]
-			description: ["This twisted red fungus once grew in the scorched ground of the Nether, pulsing faintly as if alive."]
+			description: ["{ftbquests.chapter.ffood_plants.quest21.description1}"]
 			id: "77F0AB56297C08EC"
 			rewards: [{
 				id: "38BCEAD37F142EC9"
@@ -475,7 +475,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Once used in deadly draughts and sleeping curses, favored by those who studied the poisoner's art."]
+			description: ["{ftbquests.chapter.ffood_plants.quest22.description1}"]
 			hide_until_deps_complete: true
 			id: "0BD99D6E0D93E05F"
 			rewards: [{
@@ -496,7 +496,7 @@
 				"33BAEE563814DCDB"
 				"0BD99D6E0D93E05F"
 			]
-			description: ["Flax's delicate fibers had once been woven into cloth and spell-thread, binding both garments and enchantments."]
+			description: ["{ftbquests.chapter.ffood_plants.quest23.description1}"]
 			id: "7CC83C324E6A01E9"
 			rewards: [{
 				id: "25B2D9EABE2F040A"
@@ -514,9 +514,9 @@
 		{
 			dependencies: ["0B5C8BA575972913"]
 			description: [
-				"Bold and crimson, the poppy is a symbol of remembrance and silent strength, often found where courage once stood."
+				"{ftbquests.chapter.ffood_plants.quest24.description1}"
 				""
-				"&7Tip: You can either craft poppy seeds or mutate them from Melon and Sugarcane."
+				"{ftbquests.chapter.ffood_plants.quest24.description2}"
 			]
 			id: "799A3678C691BBA3"
 			rewards: [{
@@ -537,7 +537,7 @@
 				"799A3678C691BBA3"
 				"79CC4BBB699E26EA"
 			]
-			description: ["A tall and graceful flower with a soft purple hue, often associated with grace, quiet wisdom, and calm days."]
+			description: ["{ftbquests.chapter.ffood_plants.quest25.description1}"]
 			id: "68536E0D3B5694E7"
 			rewards: [{
 				id: "235FBB25F25C36E2"
@@ -557,7 +557,7 @@
 				"5FA8835DAD8496B6"
 				"22B750248FB3F5A8"
 			]
-			description: ["Delicate and pale, these tiny flowers cluster low to the ground, bringing a sense of peace to open fields."]
+			description: ["{ftbquests.chapter.ffood_plants.quest26.description1}"]
 			id: "5A5FCEAA140010D4"
 			rewards: [{
 				id: "150A73BF4822D6F0"
@@ -577,7 +577,7 @@
 				"799A3678C691BBA3"
 				"5FA8835DAD8496B6"
 			]
-			description: ["This rare azure blossom flourishes in damp, shadowed groves. Legends say it blooms where ancient tears once fell."]
+			description: ["{ftbquests.chapter.ffood_plants.quest27.description1}"]
 			id: "79CC4BBB699E26EA"
 			rewards: [{
 				id: "1FF9E81882F605D8"
@@ -597,7 +597,7 @@
 				"79CC4BBB699E26EA"
 				"22B750248FB3F5A8"
 			]
-			description: ["Cornflowers once braved the wind in wide fields, their blue hues a favorite among storytellers and songwriters."]
+			description: ["{ftbquests.chapter.ffood_plants.quest28.description1}"]
 			id: "5C3BED68010EC635"
 			rewards: [{
 				id: "0EBD893B09F35FE2"
@@ -615,9 +615,9 @@
 		{
 			dependencies: ["0B5C8BA575972913"]
 			description: [
-				"A cheerful bloom of golden yellow, said to carry whispers of spring on the wind. It thrives wherever the sun touches the land."
+				"{ftbquests.chapter.ffood_plants.quest29.description1}"
 				""
-				"&7Tip: You can either craft dandelion seeds or mutate them from Wheat and Pumpkin.&r"
+				"{ftbquests.chapter.ffood_plants.quest29.description2}"
 			]
 			id: "5FA8835DAD8496B6"
 			rewards: [{
@@ -638,7 +638,7 @@
 				"049EFFDACB56ECD5"
 				"53D1E7880BE9CBF3"
 			]
-			description: ["Hidden among thick leaves, these tiny white bells are said to chime in silence when the forest is listening."]
+			description: ["{ftbquests.chapter.ffood_plants.quest30.description1}"]
 			id: "22B750248FB3F5A8"
 			rewards: [{
 				id: "08F4821ACBCDF9AD"
@@ -658,7 +658,7 @@
 				"79CC4BBB699E26EA"
 				"5FA8835DAD8496B6"
 			]
-			description: ["With a golden eye watching from its white face, this flower is a quiet companion of wanderers and daydreamers."]
+			description: ["{ftbquests.chapter.ffood_plants.quest31.description1}"]
 			id: "53D1E7880BE9CBF3"
 			rewards: [{
 				id: "3A76AAC44131E63D"
@@ -678,7 +678,7 @@
 				"5C3BED68010EC635"
 				"4917C2EEA848997D"
 			]
-			description: ["Glowing softly with hues of flame, this ancient blossom is thought to be a gift from the deep earth, where fire once danced."]
+			description: ["{ftbquests.chapter.ffood_plants.quest32.description1}"]
 			id: "76DC49A825A01D60"
 			rewards: [{
 				id: "744CF9EB8C00FDB5"
@@ -698,7 +698,7 @@
 				"53D1E7880BE9CBF3"
 				"79CC4BBB699E26EA"
 			]
-			description: ["Warming as a sunset, the orange tulip is said to bring cheer and good fortune to those who find it."]
+			description: ["{ftbquests.chapter.ffood_plants.quest33.description1}"]
 			id: "1AE9313131C60B20"
 			rewards: [{
 				id: "71FBFAF5A0EBE371"
@@ -718,7 +718,7 @@
 				"799A3678C691BBA3"
 				"68536E0D3B5694E7"
 			]
-			description: ["Bright and bold, the red tulip is a symbol of love and passion, often given in times of heartfelt confession."]
+			description: ["{ftbquests.chapter.ffood_plants.quest34.description1}"]
 			id: "4917C2EEA848997D"
 			rewards: [{
 				id: "042ED2B584C618F1"
@@ -738,7 +738,7 @@
 				"53D1E7880BE9CBF3"
 				"5FA8835DAD8496B6"
 			]
-			description: ["Soft as moonlight, white tulips once whispered of peace and innocence in gardens now long lain fallow."]
+			description: ["{ftbquests.chapter.ffood_plants.quest35.description1}"]
 			id: "049EFFDACB56ECD5"
 			rewards: [{
 				id: "093BFC43D4CB78C5"
@@ -758,7 +758,7 @@
 				"5FA8835DAD8496B6"
 				"68536E0D3B5694E7"
 			]
-			description: ["Soft and gentle, the pink tulip speaks of friendship and gentle affection, often found where laughter lingers."]
+			description: ["{ftbquests.chapter.ffood_plants.quest36.description1}"]
 			id: "25E0B4ED41C1D3E9"
 			rewards: [{
 				id: "6FE2BBC433C30DAD"
@@ -778,7 +778,7 @@
 				"799A3678C691BBA3"
 				"5C3BED68010EC635"
 			]
-			description: ["Dark as a starless night and thorned with sorrow, this eerie bloom grows only in the wake of ruin and shadow."]
+			description: ["{ftbquests.chapter.ffood_plants.quest37.description1}"]
 			id: "1AA12EC1B3202E65"
 			rewards: [{
 				id: "2D26B1BE88D7F780"
@@ -796,9 +796,9 @@
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: [
-				"You can make podzol for planting flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert dirt (and dried earth!) under it into podzol."
+				"{ftbquests.chapter.ffood_plants.quest38.description1}"
 				""
-				"&7Tip: once the strength trait of a flower is high enough, you won't need to plant them on podzol!"
+				"{ftbquests.chapter.ffood_plants.quest38.description2}"
 			]
 			hide_until_deps_complete: true
 			icon: "minecraft:podzol"
@@ -820,18 +820,18 @@
 					id: "698820444A9BB27A"
 					observe_type: 0
 					timer: 0L
-					title: "Look at Podzol"
+					title: "{ftbquests.chapter.ffood_plants.quest38.task_7604363448496665210.title}"
 					to_observe: "minecraft:podzol"
 					type: "observation"
 				}
 			]
-			title: "Podzol"
+			title: "{ftbquests.chapter.ffood_plants.quest38.title}"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["303D96CD71A877FA"]
-			description: ["Onion's delicious smell once filled the air as it gave flavor to meals."]
+			description: ["{ftbquests.chapter.ffood_plants.quest39.description1}"]
 			hide_dependency_lines: true
 			id: "539A68C71D4CCBE9"
 			rewards: [{
@@ -853,9 +853,9 @@
 				"32195AB6E6F75FF1"
 			]
 			description: [
-				"Sweet potatoes grew slow and sweet underground, long ago."
+				"{ftbquests.chapter.ffood_plants.quest40.description1}"
 				"{@pagebreak}"
-				"(new page placeholder text)"
+				"{ftbquests.chapter.ffood_plants.quest40.description2}"
 			]
 			hide_dependency_lines: true
 			id: "137AC3CF85666619"
@@ -877,7 +877,7 @@
 				"33BAEE563814DCDB"
 				"32195AB6E6F75FF1"
 			]
-			description: ["A humble grain that swayed in golden fields before being ground and baked into something warm and sustaining."]
+			description: ["{ftbquests.chapter.ffood_plants.quest41.description1}"]
 			hide_dependency_lines: true
 			id: "6773A50CB01DADDF"
 			rewards: [{
@@ -898,7 +898,7 @@
 				"303D96CD71A877FA"
 				"7CC83C324E6A01E9"
 			]
-			description: ["Basil once filled the air with a fragrance that breezes would quietly carry away."]
+			description: ["{ftbquests.chapter.ffood_plants.quest42.description1}"]
 			hide_dependency_lines: true
 			id: "7C65E374FF6718D6"
 			rewards: [{
@@ -919,7 +919,7 @@
 				"08415BCE11C57437"
 				"36EF6C1E1C861A4A"
 			]
-			description: ["A small, zesty vegetable that added a sharp bite to meals."]
+			description: ["{ftbquests.chapter.ffood_plants.quest43.description1}"]
 			hide_dependency_lines: true
 			id: "3E4A7F5E033DE19E"
 			rewards: [{
@@ -940,7 +940,7 @@
 				"269466269FFFC1BC"
 				"303D96CD71A877FA"
 			]
-			description: ["A dark, sturdy bean that once softened in pots where stories and spices mingled."]
+			description: ["{ftbquests.chapter.ffood_plants.quest44.description1}"]
 			hide_dependency_lines: true
 			id: "633DFD123996C0AE"
 			rewards: [{
@@ -961,7 +961,7 @@
 				"269466269FFFC1BC"
 				"7CC83C324E6A01E9"
 			]
-			description: ["A slender, snappy vegetable that brightened plates in days long past."]
+			description: ["{ftbquests.chapter.ffood_plants.quest45.description1}"]
 			hide_dependency_lines: true
 			id: "708E081EFB5553CB"
 			rewards: [{
@@ -979,7 +979,7 @@
 		}
 		{
 			dependencies: ["137AC3CF85666619"]
-			description: ["A nutrient-rich tuber, often tied to seasonal harvests and both everyday and festive cooking."]
+			description: ["{ftbquests.chapter.ffood_plants.quest46.description1}"]
 			id: "6D92EF0CCD30AEDF"
 			rewards: [{
 				id: "72ABF023D9ED27AD"
@@ -996,7 +996,7 @@
 		}
 		{
 			dependencies: ["137AC3CF85666619"]
-			description: ["Widely adopted, they were once integral to many cuisines, especially where freshness and preservation intersected."]
+			description: ["{ftbquests.chapter.ffood_plants.quest47.description1}"]
 			id: "5907D1A652A58C02"
 			rewards: [{
 				id: "1340CC4AB25D339B"
@@ -1016,7 +1016,7 @@
 				"32195AB6E6F75FF1"
 				"1CE48B2F73EDB8FC"
 			]
-			description: ["Spiny and hardy, the cactus once dotted vast oceans of sand."]
+			description: ["{ftbquests.chapter.ffood_plants.quest48.description1}"]
 			id: "761691BED4E01678"
 			rewards: [{
 				id: "09359B9E296D9369"
@@ -1036,7 +1036,7 @@
 				"761691BED4E01678"
 				"32195AB6E6F75FF1"
 			]
-			description: ["Saguaro once stood tall in the desert heat, holding their shape against time and silence."]
+			description: ["{ftbquests.chapter.ffood_plants.quest49.description1}"]
 			hide_dependency_lines: true
 			id: "2403D7E46BBE79E8"
 			rewards: [{
@@ -1054,7 +1054,7 @@
 		}
 		{
 			dependencies: ["539A68C71D4CCBE9"]
-			description: ["Valued for its hardiness and storage life, it figured prominently in preserved and cold-weather foods."]
+			description: ["{ftbquests.chapter.ffood_plants.quest50.description1}"]
 			id: "53AF55E4B044F5FD"
 			rewards: [{
 				id: "177FE7BD956C9665"
@@ -1074,7 +1074,7 @@
 				"539A68C71D4CCBE9"
 				"708E081EFB5553CB"
 			]
-			description: ["Fast-growing and versatile, they were commonly used to add mild sharpness to everyday dishes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest51.description1}"]
 			id: "6BC3D688CE214B07"
 			rewards: [{
 				id: "0B645F730F169484"
@@ -1091,7 +1091,7 @@
 		}
 		{
 			dependencies: ["708E081EFB5553CB"]
-			description: ["Coffee was brewed each morning, dark and warm, its bitterness softened by time and habit."]
+			description: ["{ftbquests.chapter.ffood_plants.quest52.description1}"]
 			id: "4D314EC44E052CBF"
 			rewards: [{
 				id: "31CCCDD41A6613C4"
@@ -1108,7 +1108,7 @@
 		}
 		{
 			dependencies: ["6773A50CB01DADDF"]
-			description: ["A worldwide staple, central to daily diets and shaped by centuries of cultivation and ritual."]
+			description: ["{ftbquests.chapter.ffood_plants.quest53.description1}"]
 			id: "39502B2D84E40320"
 			rewards: [{
 				id: "61052FDA0C24E08A"
@@ -1125,7 +1125,7 @@
 		}
 		{
 			dependencies: ["3E4A7F5E033DE19E"]
-			description: ["A cool-weather root typically grown for its reliability and used in simple, hearty meals."]
+			description: ["{ftbquests.chapter.ffood_plants.quest54.description1}"]
 			id: "5B5641FA7A0DD8E0"
 			rewards: [{
 				id: "6486D733773C2845"
@@ -1142,7 +1142,7 @@
 		}
 		{
 			dependencies: ["5B5641FA7A0DD8E0"]
-			description: ["A hardy root, valued for nutrition and storage through cold months."]
+			description: ["{ftbquests.chapter.ffood_plants.quest55.description1}"]
 			id: "77F7CE7CCE05B577"
 			rewards: [{
 				id: "5641216299CDB763"
@@ -1162,7 +1162,7 @@
 				"5907D1A652A58C02"
 				"539A68C71D4CCBE9"
 			]
-			description: ["Once used to add a small amount of spice to everyday food."]
+			description: ["{ftbquests.chapter.ffood_plants.quest56.description1}"]
 			id: "25ADE2521FE623C3"
 			rewards: [{
 				id: "0F8D857E5955FBA7"
@@ -1182,7 +1182,7 @@
 				"39502B2D84E40320"
 				"708E081EFB5553CB"
 			]
-			description: ["Once cultivated widely for its simple, nourishing qualities."]
+			description: ["{ftbquests.chapter.ffood_plants.quest57.description1}"]
 			id: "5F89CB1EB71D3A1F"
 			rewards: [{
 				id: "625372CE2150112E"
@@ -1202,7 +1202,7 @@
 				"39502B2D84E40320"
 				"6773A50CB01DADDF"
 			]
-			description: ["A vital staple, central to diets and agricultural abundance."]
+			description: ["{ftbquests.chapter.ffood_plants.quest58.description1}"]
 			id: "65C7540C8DC0BF5F"
 			rewards: [{
 				id: "02512EBAA878BDC5"
@@ -1222,7 +1222,7 @@
 				"25ADE2521FE623C3"
 				"708E081EFB5553CB"
 			]
-			description: ["Seeds that added warmth and spice, enhancing a variety of dishes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest59.description1}"]
 			id: "767FBB61FCFCF24F"
 			rewards: [{
 				id: "728F6FDB1E45078C"
@@ -1242,7 +1242,7 @@
 				"7C65E374FF6718D6"
 				"25ADE2521FE623C3"
 			]
-			description: ["Mild and colorful, they brought sweetness and variety to meals."]
+			description: ["{ftbquests.chapter.ffood_plants.quest60.description1}"]
 			id: "2E16EB869081D97A"
 			rewards: [{
 				id: "151C6A633C6A6321"
@@ -1259,7 +1259,7 @@
 		}
 		{
 			dependencies: ["5F89CB1EB71D3A1F"]
-			description: ["Known for its cool, crisp texture, often enjoyed fresh or pickled."]
+			description: ["{ftbquests.chapter.ffood_plants.quest61.description1}"]
 			id: "33FEFD3C13804031"
 			rewards: [{
 				id: "19E8F6D336DCD3D3"
@@ -1276,7 +1276,7 @@
 		}
 		{
 			dependencies: ["5F89CB1EB71D3A1F"]
-			description: ["A sweet fruit that brightened the warmer months with its flavor."]
+			description: ["{ftbquests.chapter.ffood_plants.quest62.description1}"]
 			id: "3FE30435F595931C"
 			rewards: [{
 				id: "3317D7CE42C02DC7"
@@ -1293,7 +1293,7 @@
 		}
 		{
 			dependencies: ["5F89CB1EB71D3A1F"]
-			description: ["Harvested for its tender shoots, enjoyed seasonally."]
+			description: ["{ftbquests.chapter.ffood_plants.quest63.description1}"]
 			id: "5017DC066FE3B51D"
 			rewards: [{
 				id: "511E6F9804F12D7B"
@@ -1310,7 +1310,7 @@
 		}
 		{
 			dependencies: ["5F89CB1EB71D3A1F"]
-			description: ["Offered a subtle crunch and flavor, a common addition in many recipes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest64.description1}"]
 			id: "5ED74322B9011AA1"
 			rewards: [{
 				id: "60C9A5E8DCF522FB"
@@ -1330,7 +1330,7 @@
 				"65C7540C8DC0BF5F"
 				"39502B2D84E40320"
 			]
-			description: ["Once a comforting grain, quietly nourishing both people and animals alike."]
+			description: ["{ftbquests.chapter.ffood_plants.quest65.description1}"]
 			id: "5FD2AF761DFCFCDB"
 			rewards: [{
 				id: "5F1CFF43548C05E5"
@@ -1350,7 +1350,7 @@
 				"65C7540C8DC0BF5F"
 				"708E081EFB5553CB"
 			]
-			description: ["Peanuts were once valued for their simple richness and high protein content."]
+			description: ["{ftbquests.chapter.ffood_plants.quest66.description1}"]
 			id: "068AA2EB4FEE62ED"
 			rewards: [{
 				id: "73EDADD364B6F0CB"
@@ -1370,7 +1370,7 @@
 				"33FEFD3C13804031"
 				"5907D1A652A58C02"
 			]
-			description: ["Tart and vibrant, they were key in sauces and salsas that brought bold flavor."]
+			description: ["{ftbquests.chapter.ffood_plants.quest67.description1}"]
 			id: "5AC9411A91E56A6E"
 			rewards: [{
 				id: "40A75AB264E43C5D"
@@ -1387,7 +1387,7 @@
 		}
 		{
 			dependencies: ["33FEFD3C13804031"]
-			description: ["A versatile summer squash, cooked or baked into a variety of dishes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest68.description1}"]
 			id: "2ECD80D48B96EDCE"
 			rewards: [{
 				id: "55B11485FD9232A0"
@@ -1407,7 +1407,7 @@
 				"5F89CB1EB71D3A1F"
 				"3FE30435F595931C"
 			]
-			description: ["A small, sweet berry, enjoyed fresh or preserved to brighten meals."]
+			description: ["{ftbquests.chapter.ffood_plants.quest69.description1}"]
 			id: "18A39F522DFC0F12"
 			rewards: [{
 				id: "5A6924CFAEB133C4"
@@ -1427,7 +1427,7 @@
 				"3FE30435F595931C"
 				"5F89CB1EB71D3A1F"
 			]
-			description: ["Known for their sweetness and antioxidants, often eaten fresh or in preserves."]
+			description: ["{ftbquests.chapter.ffood_plants.quest70.description1}"]
 			id: "321737F90DED1F6D"
 			rewards: [{
 				id: "5DF47BF9A90DF300"
@@ -1447,7 +1447,7 @@
 				"5F89CB1EB71D3A1F"
 				"3FE30435F595931C"
 			]
-			description: ["Rich and tangy, they provided a burst of flavor and nutrition when they were in season."]
+			description: ["{ftbquests.chapter.ffood_plants.quest71.description1}"]
 			id: "6FC8F37704C8FC65"
 			rewards: [{
 				id: "1103C3E76D3212B2"
@@ -1464,7 +1464,7 @@
 		}
 		{
 			dependencies: ["5ED74322B9011AA1"]
-			description: ["A mild onion relative, used to add depth and subtle flavor to soups and stews."]
+			description: ["{ftbquests.chapter.ffood_plants.quest72.description1}"]
 			id: "11A9C568031B9FE8"
 			rewards: [{
 				id: "5912AC2853A3CDC1"
@@ -1484,7 +1484,7 @@
 				"5ED74322B9011AA1"
 				"5F89CB1EB71D3A1F"
 			]
-			description: ["Crisp and cool, a common leafy green that added freshness to countless dishes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest73.description1}"]
 			id: "5C958E5EFDC1238C"
 			rewards: [{
 				id: "5468C20E5E01C0DF"
@@ -1501,7 +1501,7 @@
 		}
 		{
 			dependencies: ["068AA2EB4FEE62ED"]
-			description: ["Valued for its spicy warmth and medicinal qualities, a staple in many remedies and recipes now lost."]
+			description: ["{ftbquests.chapter.ffood_plants.quest74.description1}"]
 			id: "24683B06C12BC4B9"
 			rewards: [{
 				id: "1D898A400CA28A6A"
@@ -1518,7 +1518,7 @@
 		}
 		{
 			dependencies: ["3FE30435F595931C"]
-			description: ["A fragrant melon, its juicy flesh a refreshing treat on hot days."]
+			description: ["{ftbquests.chapter.ffood_plants.quest75.description1}"]
 			id: "516F5336FA6CBDD8"
 			rewards: [{
 				id: "785361CD54B97647"
@@ -1535,7 +1535,7 @@
 		}
 		{
 			dependencies: ["5FD2AF761DFCFCDB"]
-			description: ["A sweet, cooling melon that offered relief during warm seasons."]
+			description: ["{ftbquests.chapter.ffood_plants.quest76.description1}"]
 			id: "7280C49FFD91F7C0"
 			rewards: [{
 				id: "15E01D6AAECF7C48"
@@ -1555,7 +1555,7 @@
 				"516F5336FA6CBDD8"
 				"3FE30435F595931C"
 			]
-			description: ["A tangy fruit, rich in vitamin C and refreshing in warmer months."]
+			description: ["{ftbquests.chapter.ffood_plants.quest77.description1}"]
 			id: "6A7D86B8481B0F69"
 			rewards: [{
 				id: "17CAC3FC4ED19B5F"
@@ -1575,7 +1575,7 @@
 				"2ECD80D48B96EDCE"
 				"5907D1A652A58C02"
 			]
-			description: ["A versatile vegetable, often roasted or stewed to add richness to meals."]
+			description: ["{ftbquests.chapter.ffood_plants.quest78.description1}"]
 			id: "4DD65B7AF1F78BAA"
 			rewards: [{
 				id: "20C2BEEEDF78A00C"
@@ -1595,7 +1595,7 @@
 				"53AF55E4B044F5FD"
 				"5C958E5EFDC1238C"
 			]
-			description: ["A mild vegetable used in a variety of dishes, from soups to roasts."]
+			description: ["{ftbquests.chapter.ffood_plants.quest79.description1}"]
 			id: "38C3364E47A88D9A"
 			rewards: [{
 				id: "35D4F7422404695F"
@@ -1615,7 +1615,7 @@
 				"6FC8F37704C8FC65"
 				"3FE30435F595931C"
 			]
-			description: ["Small and tart, used fresh or dried to add brightness to dishes and preserves."]
+			description: ["{ftbquests.chapter.ffood_plants.quest80.description1}"]
 			id: "27F5765B374BA472"
 			rewards: [{
 				id: "1296BB0AAAE760F0"
@@ -1635,7 +1635,7 @@
 				"6FC8F37704C8FC65"
 				"708E081EFB5553CB"
 			]
-			description: ["Valued for their oil and flavor, they were a key ingredient in cooking and preservation."]
+			description: ["{ftbquests.chapter.ffood_plants.quest81.description1}"]
 			id: "33A9BA581FD7FF42"
 			rewards: [{
 				id: "083E100656FC63DE"
@@ -1655,7 +1655,7 @@
 				"5F89CB1EB71D3A1F"
 				"5C958E5EFDC1238C"
 			]
-			description: ["Known for its nutritional content, often steamed or roasted."]
+			description: ["{ftbquests.chapter.ffood_plants.quest82.description1}"]
 			id: "00F0F07CB99999DD"
 			rewards: [{
 				id: "5EBE9BB653EC91F5"
@@ -1675,7 +1675,7 @@
 				"5C958E5EFDC1238C"
 				"5017DC066FE3B51D"
 			]
-			description: ["Prized for its tender hearts, a special ingredient in many traditional meals."]
+			description: ["{ftbquests.chapter.ffood_plants.quest83.description1}"]
 			id: "7DA273378C766E97"
 			rewards: [{
 				id: "557BAA2FD66B1FAC"
@@ -1692,7 +1692,7 @@
 		}
 		{
 			dependencies: ["5C958E5EFDC1238C"]
-			description: ["Tart and fibrous, often cooked down into jams and desserts."]
+			description: ["{ftbquests.chapter.ffood_plants.quest84.description1}"]
 			id: "5E4AEB5E06E4927B"
 			rewards: [{
 				id: "59CF2BBBCE5B4AD8"
@@ -1712,7 +1712,7 @@
 				"539A68C71D4CCBE9"
 				"24683B06C12BC4B9"
 			]
-			description: ["A pungent staple, prized for both taste and medicinal value in many kitchens."]
+			description: ["{ftbquests.chapter.ffood_plants.quest85.description1}"]
 			id: "5AA79349A18E2B21"
 			rewards: [{
 				id: "5BFB8F811583A46A"
@@ -1732,7 +1732,7 @@
 				"39502B2D84E40320"
 				"24683B06C12BC4B9"
 			]
-			description: ["Known for its vibrant color and healing properties, it flavored food and soothed ailments alike."]
+			description: ["{ftbquests.chapter.ffood_plants.quest86.description1}"]
 			id: "707768F4402BB1AB"
 			rewards: [{
 				id: "74B478B3F6B44C65"
@@ -1752,7 +1752,7 @@
 				"516F5336FA6CBDD8"
 				"321737F90DED1F6D"
 			]
-			description: ["Sweet and versatile - enjoyed fresh or transformed into wines and preserves."]
+			description: ["{ftbquests.chapter.ffood_plants.quest87.description1}"]
 			id: "467AF39CDB5CB3C3"
 			rewards: [{
 				id: "7BEF442BD2ADE40C"
@@ -1769,7 +1769,7 @@
 		}
 		{
 			dependencies: ["5C958E5EFDC1238C"]
-			description: ["A leafy green, rich in nutrients and commonly eaten fresh."]
+			description: ["{ftbquests.chapter.ffood_plants.quest88.description1}"]
 			id: "21715F3238686516"
 			rewards: [{
 				id: "0B264346111C158C"
@@ -1786,7 +1786,7 @@
 		}
 		{
 			dependencies: ["4DD65B7AF1F78BAA"]
-			description: ["A hearty vegetable, often stored through colder months and used in countless recipes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest89.description1}"]
 			id: "15C3EE5343C7979E"
 			rewards: [{
 				id: "4DB0633FBAFBE1B0"
@@ -1806,7 +1806,7 @@
 				"53AF55E4B044F5FD"
 				"38C3364E47A88D9A"
 			]
-			description: ["A resilient leafy green valued for its nutrition and versatility in cooking."]
+			description: ["{ftbquests.chapter.ffood_plants.quest90.description1}"]
 			id: "21714478E7071DCF"
 			rewards: [{
 				id: "2FFA5CB7CDB9DE53"
@@ -1826,7 +1826,7 @@
 				"6FC8F37704C8FC65"
 				"27F5765B374BA472"
 			]
-			description: ["Small, dark berries used for their medicinal properties and tart flavor."]
+			description: ["{ftbquests.chapter.ffood_plants.quest91.description1}"]
 			id: "719C5D676C205752"
 			rewards: [{
 				id: "26F1676D952E6C70"
@@ -1846,7 +1846,7 @@
 				"6773A50CB01DADDF"
 				"38C3364E47A88D9A"
 			]
-			description: ["Known for their bitter aroma, they were essential in brewing of all kinds."]
+			description: ["{ftbquests.chapter.ffood_plants.quest92.description1}"]
 			id: "4C81565D5ACCD3BE"
 			rewards: [{
 				id: "2EFE048FF5A380A5"
@@ -1866,7 +1866,7 @@
 				"467AF39CDB5CB3C3"
 				"321737F90DED1F6D"
 			]
-			description: ["Tart and bright, commonly used fresh or preserved to complement meals."]
+			description: ["{ftbquests.chapter.ffood_plants.quest93.description1}"]
 			id: "6CFE4E9395EFE71C"
 			rewards: [{
 				id: "117D9DD621510515"
@@ -1883,7 +1883,7 @@
 		}
 		{
 			dependencies: ["707768F4402BB1AB"]
-			description: ["A fragrant bean that lent warmth and sweetness to many desserts and drinks."]
+			description: ["{ftbquests.chapter.ffood_plants.quest94.description1}"]
 			id: "3BCD2963C795C8B7"
 			rewards: [{
 				id: "25E32F08A050A6DD"
@@ -1903,7 +1903,7 @@
 				"65C7540C8DC0BF5F"
 				"21715F3238686516"
 			]
-			description: ["A sweet and tangy fruit that brought plenty of flavor to many dishes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest95.description1}"]
 			id: "61E05D40CE42B545"
 			rewards: [{
 				id: "2D952CC46B1851DF"
@@ -1920,7 +1920,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Crunchy, subtly sweet nuts with a toasty, earthy finish."]
+			description: ["{ftbquests.chapter.ffood_plants.quest96.description1}"]
 			hide_until_deps_complete: true
 			id: "1916E46BEB1F2537"
 			rewards: [{
@@ -1938,7 +1938,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Crisp, juicy fruits that balance light sweetness with a refreshing tang."]
+			description: ["{ftbquests.chapter.ffood_plants.quest97.description1}"]
 			hide_until_deps_complete: true
 			id: "6FEC2402791EC0A4"
 			rewards: [{
@@ -1956,7 +1956,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Soft, slightly fuzzy fruits with a delightfully sweet-tart burst."]
+			description: ["{ftbquests.chapter.ffood_plants.quest98.description1}"]
 			hide_until_deps_complete: true
 			id: "3E0ED15B75A185CA"
 			rewards: [{
@@ -1974,7 +1974,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Creamy and buttery with a mild, slightly grassy flavor."]
+			description: ["{ftbquests.chapter.ffood_plants.quest99.description1}"]
 			hide_until_deps_complete: true
 			id: "1CDCD52F9FA69B34"
 			rewards: [{
@@ -1992,7 +1992,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Sweet, mellow fruits with a classic tropical aroma."]
+			description: ["{ftbquests.chapter.ffood_plants.quest100.description1}"]
 			hide_until_deps_complete: true
 			id: "19014BBBD41BCF0B"
 			rewards: [{
@@ -2010,7 +2010,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Soft and nutty, cashews offer a creamy bite with a sweet-savory balance."]
+			description: ["{ftbquests.chapter.ffood_plants.quest101.description1}"]
 			hide_until_deps_complete: true
 			id: "030F46DE570F297E"
 			rewards: [{
@@ -2028,7 +2028,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Cherries burst with juicy intensity; sweet, sometimes sharp, and always bright."]
+			description: ["{ftbquests.chapter.ffood_plants.quest102.description1}"]
 			hide_until_deps_complete: true
 			id: "335CBABD76A3BA31"
 			rewards: [{
@@ -2046,7 +2046,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Cracking into a coconut reveals cool, sweet water and soft, fragrant meat."]
+			description: ["{ftbquests.chapter.ffood_plants.quest103.description1}"]
 			hide_until_deps_complete: true
 			id: "2D7C1F8BC048CFCD"
 			rewards: [{
@@ -2064,7 +2064,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Dates are also known as nature's candy: chewy, caramel-rich, and deeply sweet."]
+			description: ["{ftbquests.chapter.ffood_plants.quest104.description1}"]
 			hide_until_deps_complete: true
 			id: "682C64F6A2B0291A"
 			rewards: [{
@@ -2082,7 +2082,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["With neon skin and unique speckled flesh, dragon fruit tastes delicate, lightly sweet, and just a little floral."]
+			description: ["{ftbquests.chapter.ffood_plants.quest105.description1}"]
 			hide_until_deps_complete: true
 			id: "28A459B956D547DD"
 			rewards: [{
@@ -2100,7 +2100,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Figs are jammy and soft with a honey-like flavor."]
+			description: ["{ftbquests.chapter.ffood_plants.quest106.description1}"]
 			hide_until_deps_complete: true
 			id: "39EE227C5F58CAAA"
 			rewards: [{
@@ -2118,7 +2118,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Grapefruit will wake up your palate - juicy, sour, bitter, and bold."]
+			description: ["{ftbquests.chapter.ffood_plants.quest107.description1}"]
 			hide_until_deps_complete: true
 			id: "2FD4033DA28F9D21"
 			rewards: [{
@@ -2136,7 +2136,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Kumquats are often eaten whole, with a sharp citrus shock over sweet orange notes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest108.description1}"]
 			hide_until_deps_complete: true
 			id: "404DB15C6D49B646"
 			rewards: [{
@@ -2154,7 +2154,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Tart and vivid, lemons cut through richness with their clean citrus bite."]
+			description: ["{ftbquests.chapter.ffood_plants.quest109.description1}"]
 			hide_until_deps_complete: true
 			id: "1636367444D293D4"
 			rewards: [{
@@ -2172,7 +2172,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Smaller and punchier than lemons, limes have a tight, zesty sting."]
+			description: ["{ftbquests.chapter.ffood_plants.quest110.description1}"]
 			hide_until_deps_complete: true
 			id: "6BC76C8A74C25796"
 			rewards: [{
@@ -2190,7 +2190,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Mangoes melt in your mouth with tropical sweetness."]
+			description: ["{ftbquests.chapter.ffood_plants.quest111.description1}"]
 			hide_until_deps_complete: true
 			id: "629C52541A4D897E"
 			rewards: [{
@@ -2208,7 +2208,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Like a peach in sleek skin, nectarines are sweet, tangy, and satisfyingly juicy."]
+			description: ["{ftbquests.chapter.ffood_plants.quest112.description1}"]
 			hide_until_deps_complete: true
 			id: "767A247376C17981"
 			rewards: [{
@@ -2226,7 +2226,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Ground nutmeg adds a warm, nutty-spicy aroma that’s cozy and festive to any dish."]
+			description: ["{ftbquests.chapter.ffood_plants.quest113.description1}"]
 			hide_until_deps_complete: true
 			id: "031FB94A1D6CEC81"
 			rewards: [{
@@ -2244,7 +2244,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Oranges are all brightness and juice, sweet with a sunny citrus finish."]
+			description: ["{ftbquests.chapter.ffood_plants.quest114.description1}"]
 			hide_until_deps_complete: true
 			id: "6FD2642EB3540BD6"
 			rewards: [{
@@ -2262,7 +2262,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Peaches are the most famous of stone fruit, for good reason."]
+			description: ["{ftbquests.chapter.ffood_plants.quest115.description1}"]
 			hide_until_deps_complete: true
 			id: "308A89A2E4901594"
 			rewards: [{
@@ -2280,7 +2280,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Pears are quietly sweet and crisp; eternally elegant."]
+			description: ["{ftbquests.chapter.ffood_plants.quest116.description1}"]
 			hide_until_deps_complete: true
 			id: "750822BC779DC440"
 			rewards: [{
@@ -2298,7 +2298,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Pecans have a great crunch with deep nutty flavor."]
+			description: ["{ftbquests.chapter.ffood_plants.quest117.description1}"]
 			hide_until_deps_complete: true
 			id: "0B17ABE850EC89B7"
 			rewards: [{
@@ -2316,7 +2316,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Persimmons are smooth and syrupy, with a mellow flavor that deepens as they ripen."]
+			description: ["{ftbquests.chapter.ffood_plants.quest118.description1}"]
 			hide_until_deps_complete: true
 			id: "7B403F791AF06ADC"
 			rewards: [{
@@ -2334,7 +2334,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Plums skirt the line between tart and sweet, finishing with a tangy punch."]
+			description: ["{ftbquests.chapter.ffood_plants.quest119.description1}"]
 			hide_until_deps_complete: true
 			id: "4FC4A49972031C19"
 			rewards: [{
@@ -2352,7 +2352,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Star fruit is crisp and juicy, with a tropical edge."]
+			description: ["{ftbquests.chapter.ffood_plants.quest120.description1}"]
 			hide_until_deps_complete: true
 			id: "63DDF088215038F0"
 			rewards: [{
@@ -2370,7 +2370,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["Walnuts are hearty and slightly bitter, great for a midday snack."]
+			description: ["{ftbquests.chapter.ffood_plants.quest121.description1}"]
 			hide_until_deps_complete: true
 			id: "467750D10318D9E8"
 			rewards: [{
@@ -2388,7 +2388,7 @@
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
-			description: ["The bark grinds down to a warm, spicy-sweet powder that instantly deepens any flavor."]
+			description: ["{ftbquests.chapter.ffood_plants.quest122.description1}"]
 			hide_until_deps_complete: true
 			id: "794AFD13A349F2A0"
 			rewards: [{
@@ -2408,9 +2408,9 @@
 			can_repeat: false
 			dependencies: ["08415BCE11C57437"]
 			description: [
-				"The &6Cooking Table&r is the heart of a multiblock kitchen - allowing you to craft any number of foods with the items stored inside of it. It can also supply you with tools, water, snow/ice, and milk."
+				"{ftbquests.chapter.ffood_plants.quest123.description1}"
 				""
-				"Especially handy when you have a large amount of foods and a limited amount of brainpower."
+				"{ftbquests.chapter.ffood_plants.quest123.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "cookingforblockheads:cooking_table"
@@ -2425,7 +2425,7 @@
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
-			title: "Cooking for Blockheads"
+			title: "{ftbquests.chapter.ffood_plants.quest123.title}"
 			x: -3.5d
 			y: -5.5d
 		}
@@ -2434,7 +2434,7 @@
 				"4D73550447732EA7"
 				"52D07AB4E6B88EA1"
 			]
-			description: ["The &6ME Kitchen Station&r lets you connect your multiblock kitchen to your ME system!"]
+			description: ["{ftbquests.chapter.ffood_plants.quest124.description1}"]
 			id: "7BAD63BC0715B64B"
 			rewards: [
 				{
@@ -2464,7 +2464,7 @@
 		}
 		{
 			dependencies: ["4D73550447732EA7"]
-			description: ["The &6fridge&r stores items, just like a cabinet."]
+			description: ["{ftbquests.chapter.ffood_plants.quest125.description1}"]
 			id: "125C325C7C2A5F96"
 			rewards: [
 				{
@@ -2490,9 +2490,9 @@
 		{
 			dependencies: ["4D73550447732EA7"]
 			description: [
-				"A &6sink&r provides unlimited water to recipes."
+				"{ftbquests.chapter.ffood_plants.quest126.description1}"
 				""
-				"&7Tip: ...and other things."
+				"{ftbquests.chapter.ffood_plants.quest126.description2}"
 			]
 			id: "099EFA6218C75305"
 			rewards: [{
@@ -2510,7 +2510,7 @@
 		}
 		{
 			dependencies: ["4D73550447732EA7"]
-			description: ["The oven lets you cook multiple foods in a single block."]
+			description: ["{ftbquests.chapter.ffood_plants.quest127.description1}"]
 			id: "77F39CFBE045ED20"
 			rewards: [{
 				id: "1751761C7767AA29"
@@ -2528,12 +2528,12 @@
 		{
 			dependencies: ["4D73550447732EA7"]
 			description: [
-				"A &6Cow in a Jar&r slowly produces milk, which can be used in recipes."
+				"{ftbquests.chapter.ffood_plants.quest128.description1}"
 				""
-				"...but how does one get a cow into a jar?"
+				"{ftbquests.chapter.ffood_plants.quest128.description2}"
 				""
 				""
-				"&7Tip: you'll need to turn off claim protection or make this outside a claim, OPAC doesn't really like animal cruelty!"
+				"{ftbquests.chapter.ffood_plants.quest128.description3}"
 			]
 			id: "1401EC6A82EAB753"
 			rewards: [
@@ -2559,7 +2559,7 @@
 		}
 		{
 			dependencies: ["125C325C7C2A5F96"]
-			description: ["When added to a fridge, the &6ice unit&r provides unlimited ice and snow to recipes."]
+			description: ["{ftbquests.chapter.ffood_plants.quest129.description1}"]
 			id: "53AEEB6C2501B3EC"
 			rewards: [
 				{
@@ -2584,7 +2584,7 @@
 		}
 		{
 			dependencies: ["77F39CFBE045ED20"]
-			description: ["The &6heating unit,&r applied to a stove, lets it run on energy instead of burnable fuel."]
+			description: ["{ftbquests.chapter.ffood_plants.quest130.description1}"]
 			id: "148FE15927A8D3D7"
 			rewards: [{
 				id: "15755214091B0175"
@@ -2601,7 +2601,7 @@
 		}
 		{
 			dependencies: ["4D73550447732EA7"]
-			description: ["The &6tool rack&r provides tools to cooking recipes; pots, pans, and other sorts."]
+			description: ["{ftbquests.chapter.ffood_plants.quest131.description1}"]
 			id: "5182E7BBC5921B90"
 			rewards: [
 				{
@@ -2625,7 +2625,7 @@
 		}
 		{
 			dependencies: ["4D73550447732EA7"]
-			description: ["The &6Kitchen Cabinet and Counter&r store items for the Cooking Table to use."]
+			description: ["{ftbquests.chapter.ffood_plants.quest132.description1}"]
 			icon: "cookingforblockheads:counter"
 			id: "1DF2160AD495F3F4"
 			rewards: [
@@ -2659,16 +2659,16 @@
 					type: "item"
 				}
 			]
-			title: "Kitchen Storage"
+			title: "{ftbquests.chapter.ffood_plants.quest132.title}"
 			x: -3.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
-				"The &6Horn of the Wild&r lets you harvest a large area of crops without manually collecting them one by one."
+				"{ftbquests.chapter.ffood_plants.quest133.description1}"
 				""
-				"Useful!"
+				"{ftbquests.chapter.ffood_plants.quest133.description2}"
 			]
 			id: "19C29BAAD5DD7FC9"
 			rewards: [
@@ -2695,9 +2695,9 @@
 		{
 			dependencies: ["19C29BAAD5DD7FC9"]
 			description: [
-				"The &6Drum of the Wild&r is a block-based version of the horn - set a mana spreader to shoot mana through it and it'll harvest crops nearby."
+				"{ftbquests.chapter.ffood_plants.quest134.description1}"
 				""
-				"Add a &6hopperhock&r and you have fully automatic crop harvesting!"
+				"{ftbquests.chapter.ffood_plants.quest134.description2}"
 			]
 			id: "7F50D792CA810945"
 			rewards: [
@@ -2724,9 +2724,9 @@
 		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
-				"The &6Harvester&r is a little harder to make than the other automated harvesters, but it makes up for it in ease of use."
+				"{ftbquests.chapter.ffood_plants.quest135.description1}"
 				""
-				"Place it on the same level as crops and it will harvest them - a 3x3 area by default, but this can be upgraded with machine upgrades."
+				"{ftbquests.chapter.ffood_plants.quest135.description2}"
 			]
 			id: "12E97DCBD82FBF36"
 			rewards: [
@@ -2752,9 +2752,9 @@
 		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
-				"The &6Mechanical Harvester&r lets you harvest... mechanically! "
+				"{ftbquests.chapter.ffood_plants.quest136.description1}"
 				""
-				"Attach it to any variety of contraption and as it moves through a crop it will harvest it."
+				"{ftbquests.chapter.ffood_plants.quest136.description2}"
 			]
 			id: "25E18523F7B68AEE"
 			rewards: [
@@ -2837,7 +2837,7 @@
 				"467AF39CDB5CB3C3"
 				"24683B06C12BC4B9"
 			]
-			description: ["That's dedication! A personal shoutout from myself, for the pure raw dedication that you've shown."]
+			description: ["{ftbquests.chapter.ffood_plants.quest137.description1}"]
 			hide_until_deps_complete: true
 			id: "7F43F59F49A11EB0"
 			rewards: [
@@ -2856,10 +2856,10 @@
 			]
 			shape: "heart"
 			size: 3.0d
-			subtitle: "You earned it!"
+			subtitle: "{ftbquests.chapter.ffood_plants.quest137.subtitle}"
 			tasks: [{
 				id: "4CA1C5F8DB76A40E"
-				title: "You know what? Sure."
+				title: "{ftbquests.chapter.ffood_plants.quest137.task_5521912290757485582.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -2896,7 +2896,7 @@
 				"6FD2642EB3540BD6"
 				"7F43F59F49A11EB0"
 			]
-			description: ["You've gone even further than I went! An absolute mad. lad. Take your prize and go."]
+			description: ["{ftbquests.chapter.ffood_plants.quest138.description1}"]
 			hide_until_deps_complete: true
 			id: "21DD7217374E1D06"
 			rewards: [
@@ -2915,12 +2915,12 @@
 			]
 			shape: "heart"
 			size: 3.0d
-			subtitle: "Your dedication is admirable."
+			subtitle: "{ftbquests.chapter.ffood_plants.quest138.subtitle}"
 			tasks: [{
 				id: "7D4D9081E1149077"
 				type: "checkmark"
 			}]
-			title: "Good god..."
+			title: "{ftbquests.chapter.ffood_plants.quest138.title}"
 			x: 2.5d
 			y: 15.0d
 		}
@@ -2939,5 +2939,5 @@
 			y: 11.0d
 		}
 	]
-	title: "Plants Galore"
+	title: "{ftbquests.chapter.ffood_plants.title}"
 }
