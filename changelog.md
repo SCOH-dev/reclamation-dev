@@ -3,6 +3,7 @@
 ## Added
 * More biome globes, with textures thanks to @Lonesomepage404!
 * FTB Quests Localizer, for translations!
+* Gyrofuge quest
 
 
 ## Updated

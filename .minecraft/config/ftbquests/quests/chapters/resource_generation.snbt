@@ -2549,6 +2549,36 @@
 			x: -2.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["530A8B09322225E3"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest40.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest26.description4}"
+			]
+			id: "6DFAF9EDB10E7D57"
+			rewards: [
+				{
+					count: 16
+					id: "34DA69E8C390378C"
+					item: "complicated_bees:gyrofuge_panel"
+					type: "item"
+				}
+				{
+					id: "69F7B39DCBFDFA7B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "4B033BEB89942193"
+				item: "complicated_bees:gyrofuge_base"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.resource_generation.quest40.title}"
+			x: 4.5d
+			y: 8.0d
+		}
 	]
 	title: "{ftbquests.chapter.resource_generation.title}"
 }
