@@ -372,7 +372,7 @@
 					type: "item"
 				}
 				{
-					id: "765E6CC514E5B023"
+					id: "1C57B54450BF3A16"
 					item: {
 						Count: 1
 						id: "itemfilters:or"
@@ -380,14 +380,35 @@
 							items: [
 								{
 									Count: 1b
-									id: "reclamation_util:plains_biome_globe"
+									id: "reclamation_util:warped_biome_globe"
 									tag: {
 										Damage: 0
 									}
 								}
 								{
 									Count: 1b
-									id: "reclamation_util:desert_biome_globe"
+									id: "reclamation_util:crimson_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:taiga_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:warm_ocean_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:ocean_biome_globe"
 									tag: {
 										Damage: 0
 									}
@@ -401,7 +422,35 @@
 								}
 								{
 									Count: 1b
-									id: "reclamation_util:ocean_biome_globe"
+									id: "reclamation_util:desert_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:plains_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:snowy_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:mycelic_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:lush_biome_globe"
 									tag: {
 										Damage: 0
 									}
@@ -409,7 +458,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.the_touch_of.quest14.task_8529374338001252387.title}"
+					title: "Any Biome Globe"
 					type: "item"
 				}
 			]

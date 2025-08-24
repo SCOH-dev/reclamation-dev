@@ -1481,130 +1481,63 @@ ServerEvents.recipes(event => {
         "time": 200
     })
 
-    event.custom({
-        "type": "ars_nouveau:imbuement",
-        "count": 1,
-        "input": {
-            "item": "reclamation_util:empty_biome_globe"
-        },
-        "output": "reclamation_util:plains_biome_globe",
-        "pedestalItems": [
-            {
-                "item": {
-                    "item": "reclamation_util:filled_biome_bottle"
-                }
+    function globe_recipe(globe, essence, bottom) {
+        event.custom({
+            "type": "ars_nouveau:imbuement",
+            "count": 1,
+            "input": {
+                "item": "reclamation_util:empty_biome_globe"
             },
-            {
-                "item": {
-                    "item": "botania:laputa_shard"
+            "output": "reclamation_util:"+globe+"_biome_globe",
+            "pedestalItems": [
+                {
+                    "item": {
+                        "item": "reclamation_util:"+essence+"_biome_bottle"
+                    }
+                },
+                {
+                    "item": {
+                        "item": "botania:laputa_shard"
+                    }
+                },
+                {
+                    "item": {
+                        "item": bottom
+                    }
+                },
+                {
+                    "item": {
+                        "item": "mysticalagriculture:nature_essence"
+                    }
                 }
-            },
-            {
-                "item": {
-                    "item": "botania:grass_seeds"
-                }
-            },
-            {
-                "item": {
-                    "item": "mysticalagriculture:nature_essence"
-                }
-            }
-        ],
-        "source": 10000
-    })
-    event.custom({
-        "type": "ars_nouveau:imbuement",
-        "count": 1,
-        "input": {
-            "item": "reclamation_util:empty_biome_globe"
-        },
-        "output": "reclamation_util:forest_biome_globe",
-        "pedestalItems": [
-            {
-                "item": {
-                    "item": "reclamation_util:filled_biome_bottle"
-                }
-            },
-            {
-                "item": {
-                    "item": "botania:laputa_shard"
-                }
-            },
-            {
-                "item": {
-                    "item": "minecraft:oak_sapling"
-                }
-            },
-            {
-                "item": {
-                    "item": "mysticalagriculture:nature_essence"
-                }
-            }
-        ],
-        "source": 10000
-    })
-    event.custom({
-        "type": "ars_nouveau:imbuement",
-        "count": 1,
-        "input": {
-            "item": "reclamation_util:empty_biome_globe"
-        },
-        "output": "reclamation_util:desert_biome_globe",
-        "pedestalItems": [
-            {
-                "item": {
-                    "item": "reclamation_util:arid_biome_bottle"
-                }
-            },
-            {
-                "item": {
-                    "item": "botania:laputa_shard"
-                }
-            },
-            {
-                "item": {
-                    "item": "minecraft:sandstone"
-                }
-            },
-            {
-                "item": {
-                    "item": "mysticalagriculture:nature_essence"
-                }
-            }
-        ],
-        "source": 10000
-    })
-    event.custom({
-        "type": "ars_nouveau:imbuement",
-        "count": 1,
-        "input": {
-            "item": "reclamation_util:empty_biome_globe"
-        },
-        "output": "reclamation_util:ocean_biome_globe",
-        "pedestalItems": [
-            {
-                "item": {
-                    "item": "reclamation_util:watery_biome_bottle"
-                }
-            },
-            {
-                "item": {
-                    "item": "botania:laputa_shard"
-                }
-            },
-            {
-                "item": {
-                    "item": "minecraft:kelp"
-                }
-            },
-            {
-                "item": {
-                    "item": "mysticalagriculture:nature_essence"
-                }
-            }
-        ],
-        "source": 10000
-    })
+            ],
+            "source": 10000
+        })
+    }
+
+    globe_recipe("plains", "filled", "botania:grass_seeds")
+    globe_recipe("desert", "arid", "minecraft:sandstone")
+    globe_recipe("forest", "filled", "minecraft:oak_sapling")
+    globe_recipe("ocean", "watery", "minecraft:kelp")
+    globe_recipe("warm_ocean", "watery", "mysticalagriculture:coral_agglomeratio")
+    globe_recipe("taiga", "filled", "minecraft:podzol")
+    globe_recipe("crimson", "hellish", "minecraft:crimson_fungus")
+    globe_recipe("warped", "hellish", "minecraft:warped_fungus")
+    globe_recipe("lush", "lush", "minecraft:bamboo")
+    globe_recipe("mycelic", "mycelic", "minecraft:mushroom_stew")
+    globe_recipe("snowy", "icy", "minecraft:blue_ice")
+
+    event.shapeless('reclamation_util:globesome', [
+        'reclamation_util:snowy_biome_globe',
+        'reclamation_util:mycelic_biome_globe',
+        'reclamation_util:lush_biome_globe',
+        'reclamation_util:crimson_biome_globe',
+        'reclamation_util:warped_biome_globe',
+        'reclamation_util:warm_ocean_biome_globe',
+        'reclamation_util:desert_biome_globe',
+        'reclamation_util:taiga_biome_globe',
+        'reclamation_util:plains_biome_globe',
+    ])
 
     event.shaped('minecraft:comparator', [
         ' A ',

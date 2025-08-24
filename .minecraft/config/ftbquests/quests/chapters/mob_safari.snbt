@@ -2818,7 +2818,7 @@
 					id: "itemfilters:weak_nbt"
 					tag: {
 						value: {
-							"ars_nouveau:drygmy": 1b
+							"ars_nouveau:whirlisprig": 1b
 						}
 					}
 				}
