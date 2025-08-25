@@ -2836,6 +2836,7 @@
 				"77F7CE7CCE05B577"
 				"467AF39CDB5CB3C3"
 				"24683B06C12BC4B9"
+				"10434FBFCF57E54E"
 			]
 			description: ["{ftbquests.chapter.ffood_plants.quest137.description1}"]
 			hide_until_deps_complete: true

@@ -12,6 +12,8 @@ ServerEvents.recipes(event => {
             'embers:ancient_motive_core',
             'minecraft:wheat')
 
+    event.remove({id: 'embers:dawnstone_anvil/tool_breakdown'})
+
     event.remove({id: 'embers:item_extractor'})
     event.shaped('embers:item_extractor', [
             ' G ',

@@ -40,6 +40,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
 
     //disable metals from washing
+    event.remove({id: 'create:crushing/diorite'})
+    event.remove({id: 'create:crushing/diorite_recycling'})
     event.remove({id: 'create:splashing/soul_sand'})
     event.remove({id: 'create:splashing/red_sand'})
     event.custom({
